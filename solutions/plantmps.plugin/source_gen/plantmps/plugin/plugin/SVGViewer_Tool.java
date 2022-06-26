@@ -6,11 +6,11 @@ import jetbrains.mps.plugins.tool.GeneratedTool;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import javax.swing.Icon;
-import javax.swing.MutableComboBoxModel;
 import jetbrains.mps.project.Project;
 import com.intellij.openapi.wm.ToolWindowAnchor;
 import jetbrains.mps.ide.project.ProjectHelper;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import plantmps.behavior.VisGraph;
 import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
 import org.apache.log4j.Level;
@@ -30,30 +30,35 @@ public class SVGViewer_Tool extends GeneratedTool {
   private static final Logger LOG = LogManager.getLogger(SVGViewer_Tool.class);
   private static final Icon ICON = IconContainer.ICON_a0_3;
   private PlantUMLSVGCanvas svgCanvas;
-  private MutableComboBoxModel categoryModel;
   private Project project;
-  private String plantUMLSource = "";
+  private String plantUMLSource = null;
   public SVGViewer_Tool(com.intellij.openapi.project.Project project) {
     super(project, "visualization", null, ICON, ToolWindowAnchor.RIGHT, false);
   }
   public void init(com.intellij.openapi.project.Project project) {
     super.init(project);
-    SVGViewer_Tool.this.project = ProjectHelper.toMPSProject(project);
+    SVGViewer_Tool.this.project = ProjectHelper.fromIdeaProject(project);
   }
-  /*package*/ void load(SNode n) {
-    VisGraph v = new VisGraph(SVGViewer_Tool.this.project);
+  /*package*/ void load(final SNode n) {
+    SNodeOperations.getModel(n).getRepository().getModelAccess().runReadAction(() -> {
+      VisGraph v = new VisGraph(SVGViewer_Tool.this.project);
 
-    LoggingRuntime.logMsgView(Level.INFO, "Created VisGraph for chosen node", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
+      LoggingRuntime.logMsgView(Level.INFO, "Created VisGraph for chosen node", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
 
-    IVisualizable__BehaviorDescriptor.getVisualization_id7G28cbuofR4.invoke(n, v);
+      IVisualizable__BehaviorDescriptor.getVisualization_id7G28cbuofR4.invoke(n, v);
 
-    LoggingRuntime.logMsgView(Level.INFO, "Produced visualisation from node: " + v.toString(), SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
+      LoggingRuntime.logMsgView(Level.INFO, "Produced visualisation from node: " + v.toString(), SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
 
-    SVGViewer_Tool.this.plantUMLSource = v.toString();
+      SVGViewer_Tool.this.plantUMLSource = v.toString();
 
-    SVGViewer_Tool.this.svgCanvas.loadPlantUMLDiagram(v.toString());
+      LoggingRuntime.logMsgView(Level.DEBUG, "svg canvas: " + SVGViewer_Tool.this.svgCanvas, SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
 
-    LoggingRuntime.logMsgView(Level.INFO, "Loaded new PlantUML diagram", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
+      if (SVGViewer_Tool.this.svgCanvas != null) {
+        SVGViewer_Tool.this.svgCanvas.loadPlantUMLDiagram(v.toString());
+        LoggingRuntime.logMsgView(Level.INFO, "Loaded new PlantUML diagram", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
+
+      }
+    });
   }
   /*package*/ void zoom(double scale) {
     AffineTransform at = AffineTransform.getScaleInstance(scale, scale);
@@ -83,9 +88,15 @@ public class SVGViewer_Tool extends GeneratedTool {
     JComponent toolbar = ActionManager.getInstance().createActionToolbar(ActionPlaces.UNKNOWN, group, true).getComponent();
     panel.add(BorderLayout.NORTH, toolbar);
 
+    LoggingRuntime.logMsgView(Level.INFO, "Creating new canvas", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
     SVGViewer_Tool.this.svgCanvas = new PlantUMLSVGCanvas(new MbeddrUserAgent(panel), true, true);
     JSVGScrollPane scroll = new JSVGScrollerWithMouseWheelListener(SVGViewer_Tool.this.svgCanvas);
     panel.add(BorderLayout.CENTER, scroll);
+
+    if (SVGViewer_Tool.this.plantUMLSource != null) {
+      SVGViewer_Tool.this.svgCanvas.loadPlantUMLDiagram(SVGViewer_Tool.this.plantUMLSource);
+      LoggingRuntime.logMsgView(Level.INFO, "Loaded new PlantUML diagram", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
+    }
 
     return panel;
   }
