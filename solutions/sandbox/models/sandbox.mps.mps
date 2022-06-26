@@ -2,23 +2,23 @@
 <model ref="r:e075cff7-0d30-45c5-aede-ec3516707ac9(sandbox.mps)">
   <persistence version="9" />
   <languages>
-    <use id="e1654c12-08bf-4d54-9998-af58f6362837" name="Pedant" version="-1" />
+    <use id="e1654c12-08bf-4d54-9998-af58f6362837" name="pedant" version="-1" />
   </languages>
   <imports />
   <registry>
-    <language id="e1654c12-08bf-4d54-9998-af58f6362837" name="Pedant">
-      <concept id="6468138430059822550" name="Pedant.structure.Punctuation" flags="ng" index="2K1WLR" />
-      <concept id="6468138430058876079" name="Pedant.structure.Pedantry" flags="ng" index="2KtjOe">
+    <language id="e1654c12-08bf-4d54-9998-af58f6362837" name="pedant">
+      <concept id="6468138430059822550" name="pedant.structure.Punctuation" flags="ng" index="2K1WLR" />
+      <concept id="6468138430058876079" name="pedant.structure.Pedantry" flags="ng" index="2KtjOe">
         <child id="6468138430059081103" name="definitions" index="2KuxKI" />
       </concept>
-      <concept id="6468138430058876097" name="Pedant.structure.Alias" flags="ng" index="2KtjPw" />
-      <concept id="6468138430058876105" name="Pedant.structure.Word" flags="ng" index="2KtjPC">
+      <concept id="6468138430058876097" name="pedant.structure.Alias" flags="ng" index="2KtjPw" />
+      <concept id="6468138430058876105" name="pedant.structure.Word" flags="ng" index="2KtjPC">
         <property id="6468138430059691387" name="contents" index="2K0sNq" />
       </concept>
-      <concept id="6468138430058876111" name="Pedant.structure.AliasReference" flags="ng" index="2KtjPI">
+      <concept id="6468138430058876111" name="pedant.structure.AliasReference" flags="ng" index="2KtjPI">
         <reference id="6468138430058876112" name="referencedAlias" index="2KtjPL" />
       </concept>
-      <concept id="6468138430058870209" name="Pedant.structure.Definition" flags="ng" index="2Ktkhw">
+      <concept id="6468138430058870209" name="pedant.structure.Definition" flags="ng" index="2Ktkhw">
         <child id="6468138430058876100" name="aliases" index="2KtjP_" />
         <child id="6468138430058876102" name="description" index="2KtjPB" />
       </concept>

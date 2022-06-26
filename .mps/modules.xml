@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/Pedant/Pedant.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/plantmps/plantmps.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/plantmps.plugin/plantmps.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/sandbox/sandbox.msd" folder="" />
     </projectModules>
   </component>

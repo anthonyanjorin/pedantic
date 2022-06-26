@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
+  <root>
+    <file name="IconContainer.java">
+      <unit at="8,0,15,0" name="plantmps.plugin.plugin.IconContainer" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840234059">
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247840234059" at="14,0,15,0" concept="3" trace="myId" />
+      <node id="3230441247840234059" at="20,27,21,16" concept="7" />
+      <node id="3230441247840234059" at="24,30,25,29" concept="8" />
+      <node id="3230441247840234059" at="29,36,30,13" concept="8" />
+      <node id="3230441247840234059" at="37,48,38,92" concept="6" />
+      <node id="3230441247840234059" at="41,78,42,15" concept="7" />
+      <node id="3230441247840234059" at="16,0,18,0" concept="1" trace="Plugin_ApplicationPlugin#()V" />
+      <node id="3230441247840234059" at="34,0,37,0" concept="5" trace="adjustRegularGroups#()V" />
+      <node id="3230441247840234059" at="19,0,23,0" concept="5" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="3230441247840234059" at="37,0,44,0" concept="5" trace="initKeymaps#()Ljava/util/List;" />
+      <node id="3230441247840234059" at="24,0,34,0" concept="5" trace="createGroups#()V" />
+      <scope id="3230441247840234059" at="16,37,16,37" />
+      <scope id="3230441247840234059" at="20,27,21,16" />
+      <scope id="3230441247840234059" at="34,37,35,130" />
+      <scope id="3230441247840234059" at="16,0,18,0" />
+      <scope id="3230441247840234059" at="34,0,37,0" />
+      <scope id="3230441247840234059" at="19,0,23,0" />
+      <scope id="3230441247840234059" at="37,48,42,15">
+        <var name="res" id="3230441247840234059" />
+      </scope>
+      <scope id="3230441247840234059" at="37,0,44,0" />
+      <scope id="3230441247840234059" at="24,30,32,57" />
+      <scope id="3230441247840234059" at="24,0,34,0" />
+      <unit id="3230441247840234059" at="13,0,45,0" name="plantmps.plugin.plugin.Plugin_ApplicationPlugin" />
+    </file>
+    <file name="Plugin_ProjectPlugin.java">
+      <node id="3230441247840234059" at="15,56,16,76" concept="6" />
+      <node id="3230441247840234059" at="17,73,18,17" concept="7" />
+      <node id="3230441247840234059" at="13,0,15,0" concept="1" trace="Plugin_ProjectPlugin#()V" />
+      <node id="3230441247840234059" at="15,0,20,0" concept="5" trace="initAllTools1#(Lcom/intellij/openapi/project/Project;)Ljava/util/List;" />
+      <scope id="3230441247840234059" at="13,33,13,33" />
+      <scope id="3230441247840234059" at="13,0,15,0" />
+      <scope id="3230441247840234059" at="15,56,18,17">
+        <var name="tools" id="3230441247840234059" />
+      </scope>
+      <scope id="3230441247840234059" at="15,0,20,0">
+        <var name="project" id="3230441247840234059" />
+      </scope>
+      <unit id="3230441247840234059" at="12,0,21,0" name="plantmps.plugin.plugin.Plugin_ProjectPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840234060">
+    <file name="Plugin_ProjectPlugin.java">
+      <node id="3230441247840234060" at="16,76,17,73" concept="2" />
+    </file>
+    <file name="SVGViewer_Tool.java">
+      <node id="3230441247840234060" at="30,0,31,0" concept="10" trace="LOG" />
+      <node id="3230441247840234060" at="31,0,32,0" concept="10" trace="ICON" />
+      <node id="3230441247842265543" at="32,0,33,0" concept="3" trace="svgCanvas" />
+      <node id="3230441247842270064" at="33,0,34,0" concept="3" trace="categoryModel" />
+      <node id="3230441247842273287" at="34,0,35,0" concept="3" trace="project" />
+      <node id="3230441247847271737" at="35,0,36,0" concept="3" trace="plantUMLSource" />
+      <node id="3230441247840234060" at="36,71,37,79" concept="12" />
+      <node id="3230441247840234060" at="39,66,40,24" concept="2" />
+      <node id="3230441247842320239" at="40,24,41,70" concept="2" />
+      <node id="3230441247842753754" at="43,34,44,59" concept="6" />
+      <node id="3230441247846231307" at="44,59,45,0" concept="9" />
+      <node id="3230441247847156606" at="45,0,46,135" concept="2" />
+      <node id="3230441247847151572" at="46,135,47,0" concept="9" />
+      <node id="3230441247842762096" at="47,0,48,82" concept="2" />
+      <node id="3230441247847161579" at="48,82,49,0" concept="9" />
+      <node id="3230441247847164537" at="49,0,50,152" concept="2" />
+      <node id="3230441247847161730" at="50,152,51,0" concept="9" />
+      <node id="3230441247847282944" at="51,0,52,54" concept="2" />
+      <node id="3230441247847281051" at="52,54,53,0" concept="9" />
+      <node id="3230441247842792931" at="53,0,54,68" concept="2" />
+      <node id="3230441247847168445" at="54,68,55,0" concept="9" />
+      <node id="3230441247847170921" at="55,0,56,130" concept="2" />
+      <node id="3230441247846945091" at="58,39,59,72" concept="6" />
+      <node id="3230441247846945105" at="60,66,61,13" concept="7" />
+      <node id="3230441247846945107" at="62,5,63,80" concept="6" />
+      <node id="3230441247846945120" at="64,21,65,62" concept="6" />
+      <node id="3230441247846945127" at="65,62,66,28" concept="6" />
+      <node id="3230441247846945133" at="66,28,67,29" concept="6" />
+      <node id="3230441247846945139" at="67,29,68,69" concept="6" />
+      <node id="3230441247846945144" at="68,69,69,24" concept="2" />
+      <node id="3230441247846945147" at="69,24,70,26" concept="2" />
+      <node id="3230441247846945153" at="70,26,71,25" concept="2" />
+      <node id="3230441247846945156" at="71,25,72,61" concept="2" />
+      <node id="3230441247847299369" at="75,42,76,46" concept="7" />
+      <node id="3230441247842325548" at="78,36,79,74" concept="8" />
+      <node id="3230441247842325474" at="79,74,80,56" concept="6" />
+      <node id="3230441247842336444" at="80,56,81,0" concept="9" />
+      <node id="3230441247847026056" at="81,0,82,94" concept="6" />
+      <node id="3230441247847026071" at="82,94,83,123" concept="6" />
+      <node id="3230441247847037450" at="83,123,84,43" concept="2" />
+      <node id="3230441247847024495" at="84,43,85,0" concept="9" />
+      <node id="3230441247842340145" at="85,0,86,98" concept="2" />
+      <node id="3230441247842340156" at="86,98,87,98" concept="6" />
+      <node id="3230441247842340162" at="87,98,88,43" concept="2" />
+      <node id="3230441247842339545" at="88,43,89,0" concept="9" />
+      <node id="3230441247842338597" at="89,0,90,17" concept="7" />
+      <node id="3230441247840234060" at="36,0,39,0" concept="1" trace="SVGViewer_Tool#(Lcom/intellij/openapi/project/Project;)V" />
+      <node id="3230441247846945096" at="59,72,62,5" concept="4" />
+      <node id="3230441247847291581" at="75,0,78,0" concept="5" trace="getPlantUMLSource#()Ljava/lang/String;" />
+      <node id="3230441247840234060" at="39,0,43,0" concept="5" trace="init#(Lcom/intellij/openapi/project/Project;)V" />
+      <node id="3230441247846945113" at="63,80,73,5" concept="4" />
+      <node id="3230441247840234060" at="78,0,92,0" concept="5" trace="getComponent#()Ljavax/swing/JComponent;" />
+      <node id="3230441247842481083" at="43,0,58,0" concept="5" trace="load#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3230441247846940801" at="58,0,75,0" concept="5" trace="zoom#(D)V" />
+      <scope id="3230441247840234060" at="36,71,37,79" />
+      <scope id="3230441247846945104" at="60,66,61,13" />
+      <scope id="3230441247847291583" at="75,42,76,46" />
+      <scope id="3230441247840234060" at="39,66,41,70" />
+      <scope id="3230441247840234060" at="36,0,39,0">
+        <var name="project" id="3230441247840234060" />
+      </scope>
+      <scope id="3230441247847291581" at="75,0,78,0" />
+      <scope id="3230441247840234060" at="39,0,43,0">
+        <var name="project" id="3230441247840234060" />
+      </scope>
+      <scope id="3230441247846945118" at="64,21,72,61">
+        <var name="dim" id="3230441247846945119" />
+        <var name="t" id="3230441247846945138" />
+        <var name="x" id="3230441247846945126" />
+        <var name="y" id="3230441247846945132" />
+      </scope>
+      <scope id="3230441247840234062" at="78,36,90,17">
+        <var name="group" id="3230441247847026055" />
+        <var name="panel" id="3230441247842325473" />
+        <var name="scroll" id="3230441247842340155" />
+        <var name="toolbar" id="3230441247847026070" />
+      </scope>
+      <scope id="3230441247842481085" at="43,34,56,130">
+        <var name="v" id="3230441247842753755" />
+      </scope>
+      <scope id="3230441247840234060" at="78,0,92,0" />
+      <scope id="3230441247842481083" at="43,0,58,0">
+        <var name="n" id="3230441247842490673" />
+      </scope>
+      <scope id="3230441247846940803" at="58,39,73,5">
+        <var name="at" id="3230441247846945090" />
+        <var name="rat" id="3230441247846945106" />
+      </scope>
+      <scope id="3230441247846940801" at="58,0,75,0">
+        <var name="scale" id="3230441247846945065" />
+      </scope>
+      <unit id="3230441247840234060" at="29,0,93,0" name="plantmps.plugin.plugin.SVGViewer_Tool" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840323343">
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247840323343" at="26,47,27,44" concept="2" />
+    </file>
+    <file name="VisualizeAction_Action.java">
+      <node id="3230441247840323343" at="21,0,22,0" concept="10" trace="ICON" />
+      <node id="3230441247840323343" at="23,35,24,33" concept="12" />
+      <node id="3230441247840323343" at="24,33,25,35" concept="2" />
+      <node id="3230441247840323343" at="25,35,26,52" concept="2" />
+      <node id="3230441247840323343" at="26,52,27,36" concept="2" />
+      <node id="3230441247840323343" at="30,32,31,16" concept="7" />
+      <node id="3230441247840323343" at="35,53,36,19" concept="7" />
+      <node id="3230441247840338116" at="38,5,39,56" concept="6" />
+      <node id="3230441247840338117" at="40,22,41,21" concept="7" />
+      <node id="3230441247842545139" at="44,5,45,57" concept="6" />
+      <node id="3230441247842545139" at="46,93,47,20" concept="2" />
+      <node id="3230441247842545141" at="49,25,50,21" concept="7" />
+      <node id="3230441247840323343" at="52,5,53,16" concept="7" />
+      <node id="3230441247840343896" at="56,96,57,140" concept="6" />
+      <node id="3230441247845197443" at="57,140,58,0" concept="9" />
+      <node id="3230441247840367676" at="58,0,59,29" concept="2" />
+      <node id="3230441247842495245" at="59,29,60,58" concept="2" />
+      <node id="3230441247840323343" at="64,0,65,0" concept="10" trace="IVisualizable$Rr" />
+      <node id="3230441247840323343" at="34,95,37,5" concept="4" />
+      <node id="3230441247840338117" at="39,56,42,7" concept="4" />
+      <node id="3230441247842545139" at="45,57,48,7" concept="4" />
+      <node id="3230441247842545141" at="48,7,51,7" concept="4" />
+      <node id="3230441247840323343" at="29,0,33,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="3230441247840323343" at="23,0,29,0" concept="1" trace="VisualizeAction_Action#()V" />
+      <node id="3230441247840338116" at="37,5,43,5" concept="0" />
+      <node id="3230441247840323343" at="55,0,62,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3230441247842545139" at="43,5,52,5" concept="0" />
+      <node id="3230441247840323343" at="33,0,55,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="3230441247840323343" at="30,32,31,16" />
+      <scope id="3230441247840323343" at="35,53,36,19" />
+      <scope id="3230441247840338117" at="40,22,41,21" />
+      <scope id="3230441247842545139" at="46,93,47,20" />
+      <scope id="3230441247842545141" at="49,25,50,21" />
+      <scope id="3230441247840323343" at="23,35,27,36" />
+      <scope id="3230441247840323343" at="29,0,33,0" />
+      <scope id="3230441247840338116" at="38,5,42,7">
+        <var name="p" id="3230441247840338116" />
+      </scope>
+      <scope id="3230441247840323343" at="56,96,60,58">
+        <var name="svgViewer" id="3230441247840343899" />
+      </scope>
+      <scope id="3230441247840323343" at="23,0,29,0" />
+      <scope id="3230441247842545139" at="44,5,51,7">
+        <var name="node" id="3230441247842545139" />
+      </scope>
+      <scope id="3230441247840323343" at="55,0,62,0">
+        <var name="_params" id="3230441247840323343" />
+        <var name="event" id="3230441247840323343" />
+      </scope>
+      <scope id="3230441247840323343" at="34,95,53,16" />
+      <scope id="3230441247840323343" at="33,0,55,0">
+        <var name="_params" id="3230441247840323343" />
+        <var name="event" id="3230441247840323343" />
+      </scope>
+      <unit id="3230441247840323343" at="63,0,66,0" name="plantmps.plugin.plugin.VisualizeAction_Action$CONCEPTS" />
+      <unit id="3230441247840323343" at="20,0,67,0" name="plantmps.plugin.plugin.VisualizeAction_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840369715">
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247840369715" at="31,49,32,57" concept="2" />
+      <node id="3230441247840369722" at="34,37,35,130" concept="2" />
+    </file>
+    <file name="VisualizeActionGroup_ActionGroup.java">
+      <node id="3230441247840369715" at="10,0,11,0" concept="10" trace="ID" />
+      <node id="3230441247840369715" at="12,78,13,46" concept="12" />
+      <node id="3230441247840369715" at="13,46,14,25" concept="2" />
+      <node id="3230441247840369715" at="14,25,15,20" concept="2" />
+      <node id="3230441247840369720" at="15,20,16,101" concept="2" />
+      <node id="3230441247840369715" at="12,0,18,0" concept="1" trace="VisualizeActionGroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="3230441247840369715" at="12,78,16,101" />
+      <scope id="3230441247840369715" at="12,0,18,0">
+        <var name="plugin" id="3230441247840369715" />
+      </scope>
+      <unit id="3230441247840369715" at="9,0,19,0" name="plantmps.plugin.plugin.VisualizeActionGroup_ActionGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840395071">
+    <file name="PlantMPSKeyMap_KeymapChanges.java">
+      <node id="3230441247840395071" at="11,41,12,13" concept="8" />
+      <node id="3230441247840395072" at="12,13,13,98" concept="2" />
+      <node id="3230441247840395071" at="13,98,14,27" concept="8" />
+      <node id="3230441247840395071" at="14,27,15,14" concept="8" />
+      <node id="3230441247840395071" at="17,29,18,22" concept="7" />
+      <node id="3230441247840395071" at="20,53,21,70" concept="7" />
+      <node id="3230441247840395071" at="17,0,20,0" concept="5" trace="getScheme#()Ljava/lang/String;" />
+      <node id="3230441247840395071" at="20,0,23,0" concept="11" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
+      <node id="3230441247840395071" at="11,0,17,0" concept="1" trace="PlantMPSKeyMap_KeymapChanges#()V" />
+      <scope id="3230441247840395071" at="17,29,18,22" />
+      <scope id="3230441247840395071" at="20,53,21,70" />
+      <scope id="3230441247840395071" at="17,0,20,0" />
+      <scope id="3230441247840395071" at="20,0,23,0">
+        <var name="stroke" id="3230441247840395071" />
+      </scope>
+      <scope id="3230441247840395071" at="11,41,15,14" />
+      <scope id="3230441247840395071" at="11,0,17,0" />
+      <unit id="3230441247840395071" at="10,0,24,0" name="plantmps.plugin.plugin.PlantMPSKeyMap_KeymapChanges" />
+    </file>
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247840395071" at="40,70,41,78" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840395087">
+    <file name="MacOSX_KeymapChanges.java">
+      <node id="3230441247840395087" at="11,33,12,13" concept="8" />
+      <node id="3230441247840395087" at="12,13,13,33" concept="8" />
+      <node id="3230441247840395088" at="13,33,14,150" concept="2" />
+      <node id="3230441247840395087" at="14,150,15,27" concept="8" />
+      <node id="3230441247840395087" at="15,27,16,14" concept="8" />
+      <node id="3230441247840395087" at="18,29,19,22" concept="7" />
+      <node id="3230441247840395087" at="21,53,22,70" concept="7" />
+      <node id="3230441247840395087" at="18,0,21,0" concept="5" trace="getScheme#()Ljava/lang/String;" />
+      <node id="3230441247840395087" at="21,0,24,0" concept="11" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
+      <node id="3230441247840395087" at="11,0,18,0" concept="1" trace="MacOSX_KeymapChanges#()V" />
+      <scope id="3230441247840395087" at="18,29,19,22" />
+      <scope id="3230441247840395087" at="21,53,22,70" />
+      <scope id="3230441247840395087" at="18,0,21,0" />
+      <scope id="3230441247840395087" at="21,0,24,0">
+        <var name="stroke" id="3230441247840395087" />
+      </scope>
+      <scope id="3230441247840395087" at="11,33,16,14" />
+      <scope id="3230441247840395087" at="11,0,18,0" />
+      <unit id="3230441247840395087" at="10,0,25,0" name="plantmps.plugin.plugin.MacOSX_KeymapChanges" />
+    </file>
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247840395087" at="39,73,40,70" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840395090">
+    <file name="MacOSX105_KeymapChanges.java">
+      <node id="3230441247840395090" at="11,36,12,13" concept="8" />
+      <node id="3230441247840395090" at="12,13,13,33" concept="8" />
+      <node id="3230441247840395091" at="13,33,14,150" concept="2" />
+      <node id="3230441247840395090" at="14,150,15,27" concept="8" />
+      <node id="3230441247840395090" at="15,27,16,14" concept="8" />
+      <node id="3230441247840395090" at="18,29,19,28" concept="7" />
+      <node id="3230441247840395090" at="21,53,22,70" concept="7" />
+      <node id="3230441247840395090" at="18,0,21,0" concept="5" trace="getScheme#()Ljava/lang/String;" />
+      <node id="3230441247840395090" at="21,0,24,0" concept="11" trace="getShortcut#(Ljava/lang/String;)Lcom/intellij/openapi/actionSystem/Shortcut;" />
+      <node id="3230441247840395090" at="11,0,18,0" concept="1" trace="MacOSX105_KeymapChanges#()V" />
+      <scope id="3230441247840395090" at="18,29,19,28" />
+      <scope id="3230441247840395090" at="21,53,22,70" />
+      <scope id="3230441247840395090" at="18,0,21,0" />
+      <scope id="3230441247840395090" at="21,0,24,0">
+        <var name="stroke" id="3230441247840395090" />
+      </scope>
+      <scope id="3230441247840395090" at="11,36,16,14" />
+      <scope id="3230441247840395090" at="11,0,18,0" />
+      <unit id="3230441247840395090" at="10,0,25,0" name="plantmps.plugin.plugin.MacOSX105_KeymapChanges" />
+    </file>
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247840395090" at="38,92,39,73" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840435742">
+    <file name="JSVGScrollerWithMouseWheelListener.java">
+      <node id="3230441247840440444" at="13,59,14,13" concept="12" />
+      <node id="3230441247840436798" at="14,13,15,47" concept="2" />
+      <node id="3230441247840440565" at="18,29,19,14" concept="12" />
+      <node id="3230441247840436847" at="21,52,22,104" concept="6" />
+      <node id="3230441247840436870" at="24,69,25,71" concept="6" />
+      <node id="3230441247840436875" at="25,71,26,43" concept="2" />
+      <node id="3230441247840436887" at="28,70,29,72" concept="6" />
+      <node id="3230441247840436892" at="29,72,30,43" concept="2" />
+      <node id="3230441247840436807" at="18,0,21,0" concept="1" trace="WheelListener#()V" />
+      <node id="3230441247840436793" at="13,0,17,0" concept="1" trace="JSVGScrollerWithMouseWheelListener#(Lorg/apache/batik/swing/JSVGCanvas;)V" />
+      <node id="3230441247840436880" at="27,14,31,9" concept="4" />
+      <node id="3230441247840436863" at="23,27,31,9" concept="4" />
+      <node id="3230441247840436859" at="22,104,32,7" concept="4" />
+      <node id="3230441247840436812" at="21,0,34,0" concept="5" trace="mouseWheelMoved#(Ljava/awt/event/MouseWheelEvent;)V" />
+      <scope id="3230441247840436809" at="18,29,19,14" />
+      <scope id="3230441247840436797" at="13,59,15,47" />
+      <scope id="3230441247840436868" at="24,69,26,43">
+        <var name="amt" id="3230441247840436869" />
+      </scope>
+      <scope id="3230441247840436885" at="28,70,30,43">
+        <var name="amt" id="3230441247840436886" />
+      </scope>
+      <scope id="3230441247840436807" at="18,0,21,0" />
+      <scope id="3230441247840436793" at="13,0,17,0">
+        <var name="c" id="3230441247840436795" />
+      </scope>
+      <scope id="3230441247840436862" at="23,27,31,9" />
+      <scope id="3230441247840436815" at="21,52,32,7">
+        <var name="sb" id="3230441247840436846" />
+      </scope>
+      <scope id="3230441247840436812" at="21,0,34,0">
+        <var name="e" id="3230441247840436813" />
+      </scope>
+      <unit id="3230441247840436804" at="17,0,35,0" name="plantmps.plugin.plugin.JSVGScrollerWithMouseWheelListener$WheelListener" />
+      <unit id="3230441247840435742" at="12,0,37,0" name="plantmps.plugin.plugin.JSVGScrollerWithMouseWheelListener" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247840535803">
+    <file name="MbeddrUserAgent.java">
+      <node id="3230441247840545151" at="24,44,25,18" concept="12" />
+      <node id="3230441247840543000" at="28,53,29,66" concept="2" />
+      <node id="3230441247840543009" at="29,66,30,45" concept="6" />
+      <node id="3230441247840543015" at="30,45,31,37" concept="6" />
+      <node id="3230441247840543021" at="31,37,32,41" concept="6" />
+      <node id="3230441247840543027" at="32,41,33,38" concept="6" />
+      <node id="3230441247840543032" at="33,38,34,62" concept="2" />
+      <node id="3230441247840543049" at="36,98,37,89" concept="6" />
+      <node id="3230441247840543057" at="37,89,38,20" concept="6" />
+      <node id="3230441247840543064" at="39,50,40,21" concept="2" />
+      <node id="3230441247840814298" at="43,43,44,50" concept="7" />
+      <node id="3230441247840543089" at="48,26,49,63" concept="2" />
+      <node id="3230441247840543111" at="51,12,52,7" concept="0" />
+      <node id="3230441247840543118" at="53,5,54,92" concept="6" />
+      <node id="3230441247840543123" at="54,92,55,88" concept="6" />
+      <node id="3230441247840543128" at="55,88,56,31" concept="6" />
+      <node id="3230441247841600679" at="59,25,60,60" concept="6" />
+      <node id="3230441247841600690" at="61,28,62,88" concept="2" />
+      <node id="3230441247841600698" at="62,88,63,17" concept="7" />
+      <node id="3230441247841600700" at="64,9,65,56" concept="6" />
+      <node id="3230441247841600708" at="66,36,67,90" concept="2" />
+      <node id="3230441247841600716" at="67,90,68,17" concept="7" />
+      <node id="3230441247841600723" at="70,34,71,80" concept="2" />
+      <node id="3230441247841263956" at="77,40,78,81" concept="6" />
+      <node id="3230441247840543205" at="78,81,79,101" concept="6" />
+      <node id="3230441247840543216" at="80,150,81,62" concept="7" />
+      <node id="3230441247840543222" at="82,12,83,26" concept="7" />
+      <node id="3230441247840543220" at="82,10,84,5" concept="0" />
+      <node id="3230441247840542979" at="24,0,27,0" concept="1" trace="MbeddrUserAgent#(Ljava/awt/Component;)V" />
+      <node id="3230441247840810624" at="43,0,46,0" concept="5" trace="accept#(Ljetbrains/mps/project/Project;)Z" />
+      <node id="3230441247840543093" at="49,63,52,7" concept="4" />
+      <node id="3230441247841600717" at="69,9,72,9" concept="4" />
+      <node id="3230441247841600684" at="60,60,64,9" concept="4" />
+      <node id="3230441247841600704" at="65,56,69,9" concept="4" />
+      <node id="3230441247840543070" at="41,12,46,9" concept="2" />
+      <node id="3230441247840543208" at="79,101,84,5" concept="4" />
+      <node id="3230441247840543068" at="41,10,47,5" concept="0" />
+      <node id="3230441247840543083" at="47,5,53,5" concept="4" />
+      <node id="3230441247840542987" at="27,0,36,0" concept="5" trace="openLink#(Ljava/lang/String;Z)V" />
+      <node id="3230441247840543059" at="38,20,47,5" concept="4" />
+      <node id="3230441247840543196" at="76,0,86,0" concept="5" trace="getDefaultFontFamily#()Ljava/lang/String;" />
+      <node id="3230441247841598044" at="58,0,74,0" concept="5" trace="run#()V" />
+      <node id="3230441247840543131" at="56,31,74,7" concept="2" />
+      <node id="3230441247840543040" at="36,0,76,0" concept="5" trace="openLink#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" />
+      <scope id="3230441247840543098" at="50,28,50,28" />
+      <scope id="3230441247840543112" at="51,14,51,14" />
+      <scope id="3230441247840542983" at="24,44,25,18" />
+      <scope id="3230441247840543063" at="39,50,40,21" />
+      <scope id="3230441247840810625" at="43,43,44,50" />
+      <scope id="3230441247841600722" at="70,34,71,80" />
+      <scope id="3230441247840543215" at="80,150,81,62" />
+      <scope id="3230441247840543221" at="82,12,83,26" />
+      <scope id="3230441247841600689" at="61,28,63,17" />
+      <scope id="3230441247841600707" at="66,36,68,17" />
+      <scope id="3230441247840542979" at="24,0,27,0">
+        <var name="parent" id="3230441247840542981" />
+      </scope>
+      <scope id="3230441247840810624" at="43,0,46,0">
+        <var name="it" id="3230441247840810624" />
+      </scope>
+      <scope id="3230441247840543088" at="48,26,52,7" />
+      <scope id="3230441247840543069" at="41,12,46,9" />
+      <scope id="3230441247840542993" at="28,53,34,62">
+        <var name="modelIdAsString" id="3230441247840543020" />
+        <var name="nodeAsString" id="3230441247840543026" />
+        <var name="projectName" id="3230441247840543014" />
+        <var name="segments" id="3230441247840543008" />
+      </scope>
+      <scope id="3230441247840543198" at="77,40,84,5">
+        <var name="defaultEditorFont" id="3230441247841263957" />
+        <var name="localGraphicsEnvironment" id="3230441247840543204" />
+      </scope>
+      <scope id="3230441247840542987" at="27,0,36,0">
+        <var name="b" id="3230441247840542991" />
+        <var name="urlString" id="3230441247840542989" />
+      </scope>
+      <scope id="3230441247840543196" at="76,0,86,0" />
+      <scope id="3230441247841598048" at="59,25,72,9">
+        <var name="model" id="3230441247841600678" />
+        <var name="resolveNode" id="3230441247841600699" />
+      </scope>
+      <scope id="3230441247841598044" at="58,0,74,0" />
+      <scope id="3230441247840543047" at="36,98,74,7">
+        <var name="allOpenProjects" id="3230441247840543048" />
+        <var name="fP" id="3230441247840543127" />
+        <var name="modelID" id="3230441247840543117" />
+        <var name="nodeID" id="3230441247840543122" />
+        <var name="project" id="3230441247840543056" />
+      </scope>
+      <scope id="3230441247840543040" at="36,0,76,0">
+        <var name="modelIdAsString" id="3230441247840543043" />
+        <var name="nodeIdAsString" id="3230441247840543045" />
+        <var name="projectName" id="3230441247840543041" />
+      </scope>
+      <unit id="3230441247840810624" at="42,69,46,7" name="plantmps.plugin.plugin.MbeddrUserAgent$1" />
+      <unit id="3230441247841598029" at="57,45,74,5" name="plantmps.plugin.plugin.MbeddrUserAgent$2" />
+      <unit id="3230441247840535803" at="23,0,88,0" name="plantmps.plugin.plugin.MbeddrUserAgent" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247842208427">
+    <file name="PlantUMLSVGCanvas.java">
+      <node id="3230441247842665823" at="24,95,25,48" concept="12" />
+      <node id="3230441247846547268" at="25,48,26,0" concept="9" />
+      <node id="3230441247846547994" at="26,0,27,34" concept="2" />
+      <node id="3230441247846548009" at="30,57,31,40" concept="6" />
+      <node id="3230441247846548012" at="31,40,32,120" concept="7" />
+      <node id="3230441247846548032" at="34,53,35,144" concept="7" />
+      <node id="3230441247846548049" at="37,6,38,33" concept="2" />
+      <node id="3230441247846548052" at="38,33,39,31" concept="2" />
+      <node id="3230441247846548055" at="39,31,40,37" concept="2" />
+      <node id="3230441247846548097" at="40,37,41,34" concept="8" />
+      <node id="3230441247846548073" at="44,64,45,58" concept="6" />
+      <node id="3230441247846548078" at="45,58,46,133" concept="6" />
+      <node id="3230441247846548089" at="46,133,47,61" concept="2" />
+      <node id="3230441247846548092" at="47,61,48,47" concept="2" />
+      <node id="3230441247846321293" at="52,58,53,66" concept="6" />
+      <node id="3230441247846321297" at="53,66,54,70" concept="6" />
+      <node id="3230441247846398996" at="54,70,55,71" concept="6" />
+      <node id="3230441247846399002" at="55,71,56,60" concept="6" />
+      <node id="3230441247846399009" at="57,9,58,70" concept="2" />
+      <node id="3230441247846399017" at="58,70,59,18" concept="2" />
+      <node id="3230441247846399021" at="59,18,60,76" concept="6" />
+      <node id="3230441247846415942" at="60,76,61,63" concept="6" />
+      <node id="3230441247846435077" at="61,63,62,36" concept="2" />
+      <node id="3230441247846399035" at="62,36,63,17" concept="2" />
+      <node id="3230441247846548028" at="34,0,37,0" concept="5" trace="noModifiers#(Ljava/awt/event/InputEvent;)Z" />
+      <node id="3230441247846548003" at="29,0,34,0" concept="5" trace="startInteraction#(Ljava/awt/event/InputEvent;)Z" />
+      <node id="3230441247846548063" at="43,0,50,0" concept="5" trace="gvtBuildCompleted#(Lorg/apache/batik/swing/svg/GVTTreeBuilderEvent;)V" />
+      <node id="3230441247846548058" at="41,34,50,7" concept="2" />
+      <node id="3230441247846399007" at="56,60,65,5" concept="13" />
+      <node id="3230441247846547997" at="27,34,37,6" concept="2" />
+      <node id="3230441247842818735" at="52,0,67,0" concept="5" trace="loadPlantUMLDiagram#(Ljava/lang/String;)V" />
+      <node id="3230441247842628008" at="24,0,52,0" concept="1" trace="PlantUMLSVGCanvas#(Lorg/apache/batik/swing/svg/SVGUserAgent;ZZ)V" />
+      <scope id="3230441247846399040" at="64,29,64,29" />
+      <scope id="3230441247846548031" at="34,53,35,144" />
+      <scope id="3230441247846399039" at="64,5,65,5">
+        <var name="e" id="3230441247846399041" />
+      </scope>
+      <scope id="3230441247846548007" at="30,57,32,120">
+        <var name="mods" id="3230441247846548008" />
+      </scope>
+      <scope id="3230441247846548028" at="34,0,37,0">
+        <var name="event" id="3230441247846548029" />
+      </scope>
+      <scope id="3230441247846548067" at="44,64,48,47">
+        <var name="canvas" id="3230441247846548072" />
+        <var name="rotation" id="3230441247846548077" />
+      </scope>
+      <scope id="3230441247846548003" at="29,0,34,0">
+        <var name="event" id="3230441247846548005" />
+      </scope>
+      <scope id="3230441247846399008" at="57,9,63,17">
+        <var name="document" id="3230441247846321301" />
+        <var name="is" id="3230441247846399022" />
+      </scope>
+      <scope id="3230441247846548063" at="43,0,50,0">
+        <var name="event" id="3230441247846548065" />
+      </scope>
+      <scope id="3230441247842818738" at="52,58,65,5">
+        <var name="bos" id="3230441247846399003" />
+        <var name="factory" id="3230441247846321296" />
+        <var name="parser" id="3230441247846321292" />
+        <var name="reader" id="3230441247846398997" />
+      </scope>
+      <scope id="3230441247842818735" at="52,0,67,0">
+        <var name="plantUMLString" id="3230441247842830380" />
+      </scope>
+      <scope id="3230441247842628011" at="24,95,50,7" />
+      <scope id="3230441247842628008" at="24,0,52,0">
+        <var name="agent" id="3230441247842633797" />
+        <var name="eventsEnabled" id="3230441247842633832" />
+        <var name="selectableText" id="3230441247842641944" />
+      </scope>
+      <unit id="3230441247846548062" at="42,34,50,5" name="plantmps.plugin.plugin.PlantUMLSVGCanvas$2" />
+      <unit id="3230441247846548002" at="28,24,37,5" name="plantmps.plugin.plugin.PlantUMLSVGCanvas$1" />
+      <unit id="3230441247842208427" at="23,0,68,0" name="plantmps.plugin.plugin.PlantUMLSVGCanvas" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247846908218">
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247846908218" at="27,44,28,35" concept="2" />
+    </file>
+    <file name="ZoomIn_Action.java">
+      <node id="3230441247846908218" at="16,0,17,0" concept="10" trace="ICON" />
+      <node id="3230441247846908218" at="18,26,19,31" concept="12" />
+      <node id="3230441247846908218" at="19,31,20,35" concept="2" />
+      <node id="3230441247846908218" at="20,35,21,52" concept="2" />
+      <node id="3230441247846908218" at="24,32,25,16" concept="7" />
+      <node id="3230441247846908218" at="29,53,30,19" concept="7" />
+      <node id="3230441247846920449" at="32,5,33,56" concept="6" />
+      <node id="3230441247846920450" at="34,22,35,21" concept="7" />
+      <node id="3230441247846908218" at="37,5,38,16" concept="7" />
+      <node id="3230441247846931190" at="41,96,42,138" concept="6" />
+      <node id="3230441247846959721" at="42,138,43,20" concept="2" />
+      <node id="3230441247846908218" at="28,95,31,5" concept="4" />
+      <node id="3230441247846920450" at="33,56,36,7" concept="4" />
+      <node id="3230441247846908218" at="23,0,27,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="3230441247846908218" at="18,0,23,0" concept="1" trace="ZoomIn_Action#()V" />
+      <node id="3230441247846908218" at="40,0,45,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3230441247846920449" at="31,5,37,5" concept="0" />
+      <node id="3230441247846908218" at="27,0,40,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="3230441247846908218" at="24,32,25,16" />
+      <scope id="3230441247846908218" at="29,53,30,19" />
+      <scope id="3230441247846920450" at="34,22,35,21" />
+      <scope id="3230441247846908218" at="41,96,43,20">
+        <var name="content" id="3230441247846931193" />
+      </scope>
+      <scope id="3230441247846908218" at="18,26,21,52" />
+      <scope id="3230441247846908218" at="23,0,27,0" />
+      <scope id="3230441247846920449" at="32,5,36,7">
+        <var name="p" id="3230441247846920449" />
+      </scope>
+      <scope id="3230441247846908218" at="18,0,23,0" />
+      <scope id="3230441247846908218" at="40,0,45,0">
+        <var name="_params" id="3230441247846908218" />
+        <var name="event" id="3230441247846908218" />
+      </scope>
+      <scope id="3230441247846908218" at="28,95,38,16" />
+      <scope id="3230441247846908218" at="27,0,40,0">
+        <var name="_params" id="3230441247846908218" />
+        <var name="event" id="3230441247846908218" />
+      </scope>
+      <unit id="3230441247846908218" at="15,0,46,0" name="plantmps.plugin.plugin.ZoomIn_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247846908237">
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247846908237" at="30,13,31,49" concept="2" />
+    </file>
+    <file name="Toolbargroup_ActionGroup.java">
+      <node id="3230441247846908237" at="10,0,11,0" concept="10" trace="ID" />
+      <node id="3230441247846908237" at="12,70,13,38" concept="12" />
+      <node id="3230441247846908237" at="13,38,14,25" concept="2" />
+      <node id="3230441247846908237" at="14,25,15,20" concept="2" />
+      <node id="3230441247846908242" at="15,20,16,84" concept="2" />
+      <node id="3230441247847096510" at="16,84,17,85" concept="2" />
+      <node id="3230441247846908247" at="17,85,18,49" concept="2" />
+      <node id="3230441247847233244" at="18,49,19,96" concept="2" />
+      <node id="3230441247846908237" at="12,0,21,0" concept="1" trace="Toolbargroup_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
+      <scope id="3230441247846908237" at="12,70,19,96" />
+      <scope id="3230441247846908237" at="12,0,21,0">
+        <var name="plugin" id="3230441247846908237" />
+      </scope>
+      <unit id="3230441247846908237" at="9,0,22,0" name="plantmps.plugin.plugin.Toolbargroup_ActionGroup" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247847096487">
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247847096487" at="28,35,29,36" concept="2" />
+    </file>
+    <file name="ZoomOut_Action.java">
+      <node id="3230441247847096487" at="16,0,17,0" concept="10" trace="ICON" />
+      <node id="3230441247847096487" at="18,27,19,32" concept="12" />
+      <node id="3230441247847096487" at="19,32,20,35" concept="2" />
+      <node id="3230441247847096487" at="20,35,21,52" concept="2" />
+      <node id="3230441247847096487" at="24,32,25,16" concept="7" />
+      <node id="3230441247847096487" at="29,53,30,19" concept="7" />
+      <node id="3230441247847098838" at="32,5,33,56" concept="6" />
+      <node id="3230441247847098839" at="34,22,35,21" concept="7" />
+      <node id="3230441247847096487" at="37,5,38,16" concept="7" />
+      <node id="3230441247847099333" at="41,96,42,138" concept="6" />
+      <node id="3230441247847099341" at="42,138,43,22" concept="2" />
+      <node id="3230441247847096487" at="28,95,31,5" concept="4" />
+      <node id="3230441247847098839" at="33,56,36,7" concept="4" />
+      <node id="3230441247847096487" at="23,0,27,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="3230441247847096487" at="18,0,23,0" concept="1" trace="ZoomOut_Action#()V" />
+      <node id="3230441247847096487" at="40,0,45,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3230441247847098838" at="31,5,37,5" concept="0" />
+      <node id="3230441247847096487" at="27,0,40,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="3230441247847096487" at="24,32,25,16" />
+      <scope id="3230441247847096487" at="29,53,30,19" />
+      <scope id="3230441247847098839" at="34,22,35,21" />
+      <scope id="3230441247847096487" at="41,96,43,22">
+        <var name="content" id="3230441247847099334" />
+      </scope>
+      <scope id="3230441247847096487" at="18,27,21,52" />
+      <scope id="3230441247847096487" at="23,0,27,0" />
+      <scope id="3230441247847098838" at="32,5,36,7">
+        <var name="p" id="3230441247847098838" />
+      </scope>
+      <scope id="3230441247847096487" at="18,0,23,0" />
+      <scope id="3230441247847096487" at="40,0,45,0">
+        <var name="_params" id="3230441247847096487" />
+        <var name="event" id="3230441247847096487" />
+      </scope>
+      <scope id="3230441247847096487" at="28,95,38,16" />
+      <scope id="3230441247847096487" at="27,0,40,0">
+        <var name="_params" id="3230441247847096487" />
+        <var name="event" id="3230441247847096487" />
+      </scope>
+      <unit id="3230441247847096487" at="15,0,46,0" name="plantmps.plugin.plugin.ZoomOut_Action" />
+    </file>
+  </root>
+  <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247847231121">
+    <file name="CopyPlantUMLSource_Action.java">
+      <node id="3230441247847231121" at="19,0,20,0" concept="10" trace="ICON" />
+      <node id="3230441247847231121" at="21,38,22,44" concept="12" />
+      <node id="3230441247847231121" at="22,44,23,35" concept="2" />
+      <node id="3230441247847231121" at="23,35,24,52" concept="2" />
+      <node id="3230441247847231121" at="27,32,28,16" concept="7" />
+      <node id="3230441247847231121" at="32,53,33,19" concept="7" />
+      <node id="3230441247847233073" at="35,5,36,56" concept="6" />
+      <node id="3230441247847233074" at="37,22,38,21" concept="7" />
+      <node id="3230441247847231121" at="40,5,41,16" concept="7" />
+      <node id="3230441247847234259" at="44,96,45,138" concept="6" />
+      <node id="3230441247847236096" at="45,138,46,43" concept="6" />
+      <node id="3230441247847240827" at="46,43,47,70" concept="6" />
+      <node id="3230441247847245160" at="47,70,48,55" concept="6" />
+      <node id="3230441247847269130" at="48,55,49,38" concept="2" />
+      <node id="3230441247847231121" at="31,95,34,5" concept="4" />
+      <node id="3230441247847233074" at="36,56,39,7" concept="4" />
+      <node id="3230441247847231121" at="26,0,30,0" concept="5" trace="isDumbAware#()Z" />
+      <node id="3230441247847231121" at="21,0,26,0" concept="1" trace="CopyPlantUMLSource_Action#()V" />
+      <node id="3230441247847233073" at="34,5,40,5" concept="0" />
+      <node id="3230441247847231121" at="43,0,51,0" concept="5" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="3230441247847231121" at="30,0,43,0" concept="5" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="3230441247847231121" at="27,32,28,16" />
+      <scope id="3230441247847231121" at="32,53,33,19" />
+      <scope id="3230441247847233074" at="37,22,38,21" />
+      <scope id="3230441247847231121" at="21,38,24,52" />
+      <scope id="3230441247847231121" at="26,0,30,0" />
+      <scope id="3230441247847233073" at="35,5,39,7">
+        <var name="p" id="3230441247847233073" />
+      </scope>
+      <scope id="3230441247847231121" at="21,0,26,0" />
+      <scope id="3230441247847231121" at="44,96,49,38">
+        <var name="clip" id="3230441247847240828" />
+        <var name="content" id="3230441247847234260" />
+        <var name="s" id="3230441247847236099" />
+        <var name="selection" id="3230441247847245161" />
+      </scope>
+      <scope id="3230441247847231121" at="43,0,51,0">
+        <var name="_params" id="3230441247847231121" />
+        <var name="event" id="3230441247847231121" />
+      </scope>
+      <scope id="3230441247847231121" at="31,95,41,16" />
+      <scope id="3230441247847231121" at="30,0,43,0">
+        <var name="_params" id="3230441247847231121" />
+        <var name="event" id="3230441247847231121" />
+      </scope>
+      <unit id="3230441247847231121" at="18,0,52,0" name="plantmps.plugin.plugin.CopyPlantUMLSource_Action" />
+    </file>
+    <file name="Plugin_ApplicationPlugin.java">
+      <node id="3230441247847231121" at="25,29,26,47" concept="2" />
+    </file>
+  </root>
+</debug-info>
+

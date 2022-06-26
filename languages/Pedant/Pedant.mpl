@@ -48,8 +48,9 @@
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-        <module reference="e1654c12-08bf-4d54-9998-af58f6362837(pedant)" version="0" />
         <module reference="d3456cbe-bc85-43b6-9bee-f1a843db12e8(pedant)" version="0" />
+        <module reference="e1654c12-08bf-4d54-9998-af58f6362837(pedant)" version="0" />
+        <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
@@ -88,6 +89,7 @@
     <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="5" />
+    <language slang="l:e8c53fb6-e3d1-45b8-804f-056de67b4715:plantmps" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -97,7 +99,10 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="e1654c12-08bf-4d54-9998-af58f6362837(pedant)" version="0" />
+    <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)" version="0" />
   </dependencyVersions>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
