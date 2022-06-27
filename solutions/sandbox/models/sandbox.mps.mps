@@ -4,7 +4,9 @@
   <languages>
     <use id="e1654c12-08bf-4d54-9998-af58f6362837" name="pedant" version="-1" />
   </languages>
-  <imports />
+  <imports>
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+  </imports>
   <registry>
     <language id="e1654c12-08bf-4d54-9998-af58f6362837" name="pedant">
       <concept id="6468138430059822550" name="pedant.structure.Punctuation" flags="ng" index="2K1WLR" />
@@ -971,11 +973,26 @@
       <node concept="2KtjPC" id="2NkPjc5K38E" role="2KtjPB">
         <property role="2K0sNq" value="A" />
       </node>
-      <node concept="2KtjPC" id="2NkPjc5K38G" role="2KtjPB">
-        <property role="2K0sNq" value="generator" />
+      <node concept="2KtjPI" id="2NkPjc5KdzA" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhrO" resolve="generator" />
       </node>
       <node concept="2KtjPC" id="2NkPjc5K38J" role="2KtjPB">
-        <property role="2K0sNq" value="is" />
+        <property role="2K0sNq" value="implements" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5KdzN" role="2KtjPB">
+        <property role="2K0sNq" value="a" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5KdzS" role="2KtjPB">
+        <property role="2K0sNq" value="model-to-text" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5KdzY" role="2KtjPB">
+        <property role="2K0sNq" value="or" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$j" role="2KtjPB">
+        <property role="2K0sNq" value="model-to-model" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$r" role="2KtjPB">
+        <property role="2K0sNq" value="transformation." />
       </node>
     </node>
     <node concept="2Ktkhw" id="5B3sq7DLhrR" role="2KuxKI">
@@ -984,6 +1001,36 @@
       </node>
       <node concept="2KtjPw" id="5B3sq7DLhtN" role="2KtjP_">
         <property role="TrG5h" value="devkit" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$$" role="2KtjPB">
+        <property role="2K0sNq" value="Simplifies" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$A" role="2KtjPB">
+        <property role="2K0sNq" value="the" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$D" role="2KtjPB">
+        <property role="2K0sNq" value="handling" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$H" role="2KtjPB">
+        <property role="2K0sNq" value="of" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$M" role="2KtjPB">
+        <property role="2K0sNq" value="a" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$S" role="2KtjPB">
+        <property role="2K0sNq" value="set" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd$Z" role="2KtjPB">
+        <property role="2K0sNq" value="of" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5Kd_7" role="2KtjPB">
+        <property role="2K0sNq" value="interconnected" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5Kd_q" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhKP" resolve="languages" />
+      </node>
+      <node concept="2K1WLR" id="2NkPjc5Kd_K" role="2KtjPB">
+        <property role="TrG5h" value="." />
       </node>
     </node>
   </node>

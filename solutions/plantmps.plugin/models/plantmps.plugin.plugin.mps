@@ -2500,7 +2500,7 @@
                   <ref role="3cqZAo" node="2NkPjc5DRKl" resolve="reader" />
                 </node>
                 <node concept="liA8E" id="2NkPjc5DRK$" role="2OqNvi">
-                  <ref role="37wK5l" to="81o:~SourceStringReader.generateImage(java.io.OutputStream,net.sourceforge.plantuml.FileFormatOption)" resolve="generateImage" />
+                  <ref role="37wK5l" to="81o:~SourceStringReader.outputImage(java.io.OutputStream,net.sourceforge.plantuml.FileFormatOption)" resolve="outputImage" />
                   <node concept="37vLTw" id="2NkPjc5DRK_" role="37wK5m">
                     <ref role="3cqZAo" node="2NkPjc5DRKr" resolve="bos" />
                   </node>

@@ -59,7 +59,7 @@ public class PlantUMLSVGCanvas extends JSVGCanvas {
     SourceStringReader reader = new SourceStringReader(plantUMLString);
     ByteArrayOutputStream bos = new ByteArrayOutputStream();
     try {
-      reader.generateImage(bos, new FileFormatOption(FileFormat.SVG));
+      reader.outputImage(bos, new FileFormatOption(FileFormat.SVG));
       bos.close();
       ByteArrayInputStream is = new ByteArrayInputStream(bos.toByteArray());
       SVGDocument document = factory.createSVGDocument("", is);
