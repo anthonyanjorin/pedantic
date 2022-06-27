@@ -34,10 +34,8 @@ public final class Definition__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static void getVisualization_id7G28cbuofR4(@NotNull SNode __thisNode__, VisGraph graph) {
-    graph.add("class c as \"" + SLinkOperations.getChildren(__thisNode__, LINKS.aliases$xKKj).get(0).getName() + "\"" + graph.createUrl(__thisNode__, SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.aliases$xKKj)).getElement(0), PROPS.name$MnvL)));
-    graph.add("class A");
-    graph.add("class C");
-    graph.add("A --> C");
+    graph.add("class def0 as \"" + SLinkOperations.getChildren(__thisNode__, LINKS.aliases$xKKj).get(0).getName() + "\"" + graph.createUrl(__thisNode__, SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.aliases$xKKj)).getElement(0), PROPS.name$MnvL)));
+    // TODO
   }
 
   /*package*/ Definition__BehaviorDescriptor() {

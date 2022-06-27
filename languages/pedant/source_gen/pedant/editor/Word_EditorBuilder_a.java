@@ -59,6 +59,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       style.set(StyleAttributes.PUNCTUATION_LEFT, false);
       style.set(StyleAttributes.PUNCTUATION_RIGHT, false);
       editorCell.getStyle().putAll(style);
+      editorCell.addKeyMap(new HandleSpace());
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
       Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);

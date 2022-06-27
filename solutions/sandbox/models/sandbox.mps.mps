@@ -847,6 +847,57 @@
       <node concept="2KtjPw" id="5B3sq7DLhnT" role="2KtjP_">
         <property role="TrG5h" value="solution" />
       </node>
+      <node concept="2KtjPC" id="2NkPjc5JPhN" role="2KtjPB">
+        <property role="2K0sNq" value="A" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5JPhS" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhnT" resolve="solution" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K31w" role="2KtjPB">
+        <property role="2K0sNq" value="is" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K31$" role="2KtjPB">
+        <property role="2K0sNq" value="a" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5K31J" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhcI" resolve="module" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K31Q" role="2KtjPB">
+        <property role="2K0sNq" value="containing" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5K32l" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhm2" resolve="models" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K32u" role="2KtjPB">
+        <property role="2K0sNq" value="that" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K32B" role="2KtjPB">
+        <property role="2K0sNq" value="are" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K32L" role="2KtjPB">
+        <property role="2K0sNq" value="instances" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K32W" role="2KtjPB">
+        <property role="2K0sNq" value="of" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K338" role="2KtjPB">
+        <property role="2K0sNq" value="concepts" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K33l" role="2KtjPB">
+        <property role="2K0sNq" value="defined" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K33z" role="2KtjPB">
+        <property role="2K0sNq" value="in" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K33M" role="2KtjPB">
+        <property role="2K0sNq" value="some" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5K34j" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhpS" resolve="language" />
+      </node>
+      <node concept="2K1WLR" id="2NkPjc5K34R" role="2KtjPB">
+        <property role="TrG5h" value="." />
+      </node>
     </node>
     <node concept="2Ktkhw" id="5B3sq7DLho2" role="2KuxKI">
       <node concept="2KtjPw" id="5B3sq7DLho3" role="2KtjP_">
@@ -858,6 +909,57 @@
       <node concept="2KtjPw" id="5B3sq7DLhKP" role="2KtjP_">
         <property role="TrG5h" value="languages" />
       </node>
+      <node concept="2KtjPC" id="2NkPjc5K35a" role="2KtjPB">
+        <property role="2K0sNq" value="A" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5K35l" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhpS" resolve="language" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K35p" role="2KtjPB">
+        <property role="2K0sNq" value="is" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K35t" role="2KtjPB">
+        <property role="2K0sNq" value="a" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5K35C" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DLhcI" resolve="module" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K35J" role="2KtjPB">
+        <property role="2K0sNq" value="that" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K35Q" role="2KtjPB">
+        <property role="2K0sNq" value="represents" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K35Y" role="2KtjPB">
+        <property role="2K0sNq" value="the" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K367" role="2KtjPB">
+        <property role="2K0sNq" value="metamodel," />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K36h" role="2KtjPB">
+        <property role="2K0sNq" value="i.e.," />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K36s" role="2KtjPB">
+        <property role="2K0sNq" value="the" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K36C" role="2KtjPB">
+        <property role="2K0sNq" value="abstract" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K36P" role="2KtjPB">
+        <property role="2K0sNq" value="syntax" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K373" role="2KtjPB">
+        <property role="2K0sNq" value="of" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K37i" role="2KtjPB">
+        <property role="2K0sNq" value="a" />
+      </node>
+      <node concept="2KtjPI" id="2NkPjc5K37N" role="2KtjPB">
+        <ref role="2KtjPL" node="5B3sq7DKLH1" resolve="DSL" />
+      </node>
+      <node concept="2K1WLR" id="2NkPjc5K38n" role="2KtjPB">
+        <property role="TrG5h" value="." />
+      </node>
     </node>
     <node concept="2Ktkhw" id="5B3sq7DLhpV" role="2KuxKI">
       <node concept="2KtjPw" id="5B3sq7DLhpW" role="2KtjP_">
@@ -865,6 +967,15 @@
       </node>
       <node concept="2KtjPw" id="5B3sq7DLhrO" role="2KtjP_">
         <property role="TrG5h" value="generator" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K38E" role="2KtjPB">
+        <property role="2K0sNq" value="A" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K38G" role="2KtjPB">
+        <property role="2K0sNq" value="generator" />
+      </node>
+      <node concept="2KtjPC" id="2NkPjc5K38J" role="2KtjPB">
+        <property role="2K0sNq" value="is" />
       </node>
     </node>
     <node concept="2Ktkhw" id="5B3sq7DLhrR" role="2KuxKI">
