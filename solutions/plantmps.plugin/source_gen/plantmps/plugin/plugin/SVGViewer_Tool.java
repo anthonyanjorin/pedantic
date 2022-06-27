@@ -89,7 +89,7 @@ public class SVGViewer_Tool extends GeneratedTool {
     panel.add(BorderLayout.NORTH, toolbar);
 
     LoggingRuntime.logMsgView(Level.INFO, "Creating new canvas", SVGViewer_Tool.class, null, SVGViewer_Tool.this.project);
-    SVGViewer_Tool.this.svgCanvas = new PlantUMLSVGCanvas(new MbeddrUserAgent(panel), true, true);
+    SVGViewer_Tool.this.svgCanvas = new PlantUMLSVGCanvas(new MbeddrUserAgent(panel), true, true, SVGViewer_Tool.this);
     JSVGScrollPane scroll = new JSVGScrollerWithMouseWheelListener(SVGViewer_Tool.this.svgCanvas);
     panel.add(BorderLayout.CENTER, scroll);
 

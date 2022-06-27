@@ -110,8 +110,8 @@
       <node id="3230441247847037450" at="88,123,89,43" concept="2" />
       <node id="3230441247847024495" at="89,43,90,0" concept="9" />
       <node id="3230441247847677088" at="90,0,91,122" concept="2" />
-      <node id="3230441247842340145" at="91,122,92,98" concept="2" />
-      <node id="3230441247842340156" at="92,98,93,98" concept="6" />
+      <node id="3230441247842340145" at="91,122,92,119" concept="2" />
+      <node id="3230441247842340156" at="92,119,93,98" concept="6" />
       <node id="3230441247842340162" at="93,98,94,43" concept="2" />
       <node id="3230441247842339545" at="94,43,95,0" concept="9" />
       <node id="3230441247847776925" at="96,53,97,92" concept="2" />
@@ -474,7 +474,7 @@
   <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247842208427">
     <file name="PlantUMLSVGCanvas.java">
       <node id="3230441247842208427" at="27,0,28,0" concept="10" trace="LOG" />
-      <node id="3230441247842665823" at="28,95,29,48" concept="12" />
+      <node id="3230441247842665823" at="28,122,29,48" concept="12" />
       <node id="3230441247846547268" at="29,48,30,0" concept="9" />
       <node id="3230441247846547994" at="30,0,31,34" concept="2" />
       <node id="3230441247846548009" at="34,57,35,40" concept="6" />
@@ -488,68 +488,72 @@
       <node id="3230441247846548078" at="49,58,50,133" concept="6" />
       <node id="3230441247846548089" at="50,133,51,61" concept="2" />
       <node id="3230441247846548092" at="51,61,52,47" concept="2" />
-      <node id="3230441247846321293" at="56,58,57,66" concept="6" />
-      <node id="3230441247846321297" at="57,66,58,70" concept="6" />
-      <node id="3230441247846398996" at="58,70,59,71" concept="6" />
-      <node id="3230441247846399002" at="59,71,60,60" concept="6" />
-      <node id="3230441247846399009" at="61,9,62,68" concept="2" />
-      <node id="3230441247846399017" at="62,68,63,18" concept="2" />
-      <node id="3230441247846399021" at="63,18,64,76" concept="6" />
-      <node id="3230441247846415942" at="64,76,65,63" concept="6" />
-      <node id="3230441247846435077" at="65,63,66,36" concept="2" />
-      <node id="3230441247846399035" at="66,36,67,17" concept="2" />
-      <node id="3230441247847490343" at="68,27,69,118" concept="2" />
+      <node id="8559653551890041835" at="52,47,53,0" concept="9" />
+      <node id="8559653551890077800" at="53,0,54,23" concept="2" />
+      <node id="3230441247846321293" at="58,58,59,66" concept="6" />
+      <node id="3230441247846321297" at="59,66,60,70" concept="6" />
+      <node id="3230441247846398996" at="60,70,61,71" concept="6" />
+      <node id="3230441247846399002" at="61,71,62,60" concept="6" />
+      <node id="3230441247846399009" at="63,9,64,68" concept="2" />
+      <node id="3230441247846399017" at="64,68,65,18" concept="2" />
+      <node id="3230441247846399021" at="65,18,66,76" concept="6" />
+      <node id="3230441247846415942" at="66,76,67,63" concept="6" />
+      <node id="8559653551889385342" at="67,63,68,86" concept="2" />
+      <node id="3230441247846435077" at="68,86,69,36" concept="2" />
+      <node id="3230441247846399035" at="69,36,70,17" concept="2" />
+      <node id="3230441247847490343" at="71,27,72,118" concept="2" />
       <node id="3230441247846548028" at="38,0,41,0" concept="5" trace="noModifiers#(Ljava/awt/event/InputEvent;)Z" />
       <node id="3230441247846548003" at="33,0,38,0" concept="5" trace="startInteraction#(Ljava/awt/event/InputEvent;)Z" />
-      <node id="3230441247846548063" at="47,0,54,0" concept="5" trace="gvtBuildCompleted#(Lorg/apache/batik/swing/svg/GVTTreeBuilderEvent;)V" />
-      <node id="3230441247846548058" at="45,34,54,7" concept="2" />
+      <node id="3230441247846548063" at="47,0,56,0" concept="5" trace="gvtBuildCompleted#(Lorg/apache/batik/swing/svg/GVTTreeBuilderEvent;)V" />
       <node id="3230441247846547997" at="31,34,41,6" concept="2" />
-      <node id="3230441247846399007" at="60,60,70,5" concept="13" />
-      <node id="3230441247842818735" at="56,0,72,0" concept="5" trace="loadPlantUMLDiagram#(Ljava/lang/String;)V" />
-      <node id="3230441247842628008" at="28,0,56,0" concept="1" trace="PlantUMLSVGCanvas#(Lorg/apache/batik/swing/svg/SVGUserAgent;ZZ)V" />
+      <node id="3230441247846548058" at="45,34,56,7" concept="2" />
+      <node id="3230441247846399007" at="62,60,73,5" concept="13" />
+      <node id="3230441247842818735" at="58,0,75,0" concept="5" trace="loadPlantUMLDiagram#(Ljava/lang/String;)V" />
+      <node id="3230441247842628008" at="28,0,58,0" concept="1" trace="PlantUMLSVGCanvas#(Lorg/apache/batik/swing/svg/SVGUserAgent;ZZLplantmps/plugin/plugin/SVGViewer_Tool;)V" />
       <scope id="3230441247846548031" at="38,53,39,144" />
-      <scope id="3230441247846399040" at="68,27,69,118" />
+      <scope id="3230441247846399040" at="71,27,72,118" />
       <scope id="3230441247846548007" at="34,57,36,120">
         <var name="mods" id="3230441247846548008" />
       </scope>
-      <scope id="3230441247846399039" at="68,5,70,5">
+      <scope id="3230441247846399039" at="71,5,73,5">
         <var name="e" id="3230441247846399041" />
       </scope>
       <scope id="3230441247846548028" at="38,0,41,0">
         <var name="event" id="3230441247846548029" />
       </scope>
-      <scope id="3230441247846548067" at="48,64,52,47">
-        <var name="canvas" id="3230441247846548072" />
-        <var name="rotation" id="3230441247846548077" />
-      </scope>
       <scope id="3230441247846548003" at="33,0,38,0">
         <var name="event" id="3230441247846548005" />
       </scope>
-      <scope id="3230441247846399008" at="61,9,67,17">
+      <scope id="3230441247846548067" at="48,64,54,23">
+        <var name="canvas" id="3230441247846548072" />
+        <var name="rotation" id="3230441247846548077" />
+      </scope>
+      <scope id="3230441247846399008" at="63,9,70,17">
         <var name="document" id="3230441247846321301" />
         <var name="is" id="3230441247846399022" />
       </scope>
-      <scope id="3230441247846548063" at="47,0,54,0">
+      <scope id="3230441247846548063" at="47,0,56,0">
         <var name="event" id="3230441247846548065" />
       </scope>
-      <scope id="3230441247842818738" at="56,58,70,5">
+      <scope id="3230441247842818738" at="58,58,73,5">
         <var name="bos" id="3230441247846399003" />
         <var name="factory" id="3230441247846321296" />
         <var name="parser" id="3230441247846321292" />
         <var name="reader" id="3230441247846398997" />
       </scope>
-      <scope id="3230441247842818735" at="56,0,72,0">
+      <scope id="3230441247842818735" at="58,0,75,0">
         <var name="plantUMLString" id="3230441247842830380" />
       </scope>
-      <scope id="3230441247842628011" at="28,95,54,7" />
-      <scope id="3230441247842628008" at="28,0,56,0">
+      <scope id="3230441247842628011" at="28,122,56,7" />
+      <scope id="3230441247842628008" at="28,0,58,0">
         <var name="agent" id="3230441247842633797" />
         <var name="eventsEnabled" id="3230441247842633832" />
         <var name="selectableText" id="3230441247842641944" />
+        <var name="tool" id="8559653551890021975" />
       </scope>
-      <unit id="3230441247846548062" at="46,34,54,5" name="plantmps.plugin.plugin.PlantUMLSVGCanvas$2" />
       <unit id="3230441247846548002" at="32,24,41,5" name="plantmps.plugin.plugin.PlantUMLSVGCanvas$1" />
-      <unit id="3230441247842208427" at="26,0,73,0" name="plantmps.plugin.plugin.PlantUMLSVGCanvas" />
+      <unit id="3230441247846548062" at="46,34,56,5" name="plantmps.plugin.plugin.PlantUMLSVGCanvas$2" />
+      <unit id="3230441247842208427" at="26,0,76,0" name="plantmps.plugin.plugin.PlantUMLSVGCanvas" />
     </file>
   </root>
   <root nodeRef="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantmps.plugin.plugin)/3230441247846908218">

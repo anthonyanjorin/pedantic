@@ -134,6 +134,7 @@
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.w3c.dom.svg.SVGDocument" />
+    <classNode dependClassName="plantmps.plugin.plugin.SVGViewer_Tool" />
     <classNode extendsClassName="org.apache.batik.swing.JSVGCanvas" />
   </dependency>
   <dependency className="plantmps.plugin.plugin.Plugin_ApplicationPlugin">

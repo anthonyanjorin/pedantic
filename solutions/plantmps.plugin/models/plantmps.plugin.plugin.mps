@@ -51,6 +51,7 @@
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="jtsr" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.project(MPS.OpenAPI/)" />
+    <import index="lhjl" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:org.w3c.dom(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -980,6 +981,7 @@
                 <node concept="3clFbT" id="2NkPjc5qoYn" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
+                <node concept="2WthIp" id="7r9ZSRKO_vy" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -2406,6 +2408,20 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbH" id="7r9ZSRKOgJF" role="3cqZAp" />
+                      <node concept="3clFbF" id="7r9ZSRKOpxC" role="3cqZAp">
+                        <node concept="2OqwBi" id="7r9ZSRKOqaR" role="3clFbG">
+                          <node concept="37vLTw" id="7r9ZSRKOpxA" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7r9ZSRKObTn" resolve="tool" />
+                          </node>
+                          <node concept="2XshWL" id="7r9ZSRKOrZy" role="2OqNvi">
+                            <ref role="2WH_rO" node="2NkPjc5FW21" resolve="zoom" />
+                            <node concept="3b6qkQ" id="7r9ZSRKOvaR" role="2XxRq1">
+                              <property role="$nhwW" value="0.5" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                     <node concept="3Tm1VV" id="2NkPjc5Es9Z" role="1B3o_S" />
                     <node concept="3cqZAl" id="2NkPjc5Esa0" role="3clF45" />
@@ -2430,6 +2446,13 @@
       <node concept="37vLTG" id="2NkPjc5rywo" role="3clF46">
         <property role="TrG5h" value="selectableText" />
         <node concept="10P_77" id="2NkPjc5r_kU" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7r9ZSRKObTn" role="3clF46">
+        <property role="TrG5h" value="tool" />
+        <property role="3TUv4t" value="true" />
+        <node concept="1xUVSX" id="7r9ZSRKOgGB" role="1tU5fm">
+          <ref role="1xYkEM" node="2NkPjc5imDc" resolve="SVGViewer" />
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="2NkPjc5sdEJ" role="jymVt">
@@ -2565,6 +2588,27 @@
                     <node concept="37vLTw" id="2NkPjc5DXb5" role="37wK5m">
                       <ref role="3cqZAo" node="2NkPjc5DRKI" resolve="is" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7r9ZSRKLKtY" role="3cqZAp">
+              <node concept="2OqwBi" id="7r9ZSRKLQIu" role="3clFbG">
+                <node concept="2OqwBi" id="7r9ZSRKLMmH" role="2Oq$k0">
+                  <node concept="37vLTw" id="7r9ZSRKLKtW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2NkPjc5D$Ml" resolve="document" />
+                  </node>
+                  <node concept="liA8E" id="7r9ZSRKLOjP" role="2OqNvi">
+                    <ref role="37wK5l" to="ughz:~SVGDocument.getRootElement()" resolve="getRootElement" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7r9ZSRKLUra" role="2OqNvi">
+                  <ref role="37wK5l" to="lhjl:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
+                  <node concept="Xl_RD" id="7r9ZSRKLWMq" role="37wK5m">
+                    <property role="Xl_RC" value="preserveAspectRatio" />
+                  </node>
+                  <node concept="Xl_RD" id="7r9ZSRKM2vz" role="37wK5m">
+                    <property role="Xl_RC" value="xMidYMid slice" />
                   </node>
                 </node>
               </node>

@@ -25,7 +25,7 @@ import org.apache.log4j.Level;
 
 public class PlantUMLSVGCanvas extends JSVGCanvas {
   private static final Logger LOG = LogManager.getLogger(PlantUMLSVGCanvas.class);
-  public PlantUMLSVGCanvas(SVGUserAgent agent, boolean eventsEnabled, boolean selectableText) {
+  public PlantUMLSVGCanvas(SVGUserAgent agent, boolean eventsEnabled, boolean selectableText, final SVGViewer_Tool tool) {
     super(agent, eventsEnabled, selectableText);
 
     setEnablePanInteractor(false);
@@ -50,6 +50,8 @@ public class PlantUMLSVGCanvas extends JSVGCanvas {
         AffineTransform rotation = AffineTransform.getRotateInstance(0.001, canvas.getSize().getWidth() / 2, canvas.getHeight() / 2);
         rotation.concatenate(canvas.getRenderingTransform());
         canvas.setRenderingTransform(rotation);
+
+        tool.zoom(0.5);
       }
     });
   }
@@ -63,6 +65,7 @@ public class PlantUMLSVGCanvas extends JSVGCanvas {
       bos.close();
       ByteArrayInputStream is = new ByteArrayInputStream(bos.toByteArray());
       SVGDocument document = factory.createSVGDocument("", is);
+      document.getRootElement().setAttribute("preserveAspectRatio", "xMidYMid slice");
       this.setSVGDocument(document);
       is.close();
     } catch (Exception e) {
