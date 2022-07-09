@@ -12,16 +12,18 @@ public final class LanguageConceptSwitch {
   public static final int Alias = 0;
   public static final int AliasReference = 1;
   public static final int Definition = 2;
-  public static final int Pedantry = 3;
-  public static final int PedantryReference = 4;
-  public static final int Punctuation = 5;
-  public static final int Word = 6;
+  public static final int InheritanceRelations = 3;
+  public static final int Pedantry = 4;
+  public static final int PedantryReference = 5;
+  public static final int Punctuation = 6;
+  public static final int Word = 7;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xe1654c1208bf4d54L, 0x9998af58f6362837L);
     builder.put(0x59c371a1e9b64cc1L, Alias);
     builder.put(0x59c371a1e9b64ccfL, AliasReference);
     builder.put(0x59c371a1e9b635c1L, Definition);
+    builder.put(0x6392399e2201410L, InheritanceRelations);
     builder.put(0x59c371a1e9b64cafL, Pedantry);
     builder.put(0x59c371a1e9b96d91L, PedantryReference);
     builder.put(0x59c371a1e9c4bdd6L, Punctuation);

@@ -26,6 +26,8 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
+import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
+import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
@@ -55,6 +57,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     setCellContext(editorCell);
     editorCell.addEditorCell(createCollection_1());
     editorCell.addEditorCell(createCollection_2());
+    editorCell.addEditorCell(createConstant_1());
     return editorCell;
   }
   private EditorCell createCollection_1() {
@@ -158,7 +161,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createIndentCell_0());
     editorCell.addEditorCell(createRefNodeList_1());
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createRefNode_0());
     return editorCell;
   }
   private EditorCell createIndentCell_0() {
@@ -252,9 +255,67 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setDefaultText("");
     return editorCell;
   }
+  private EditorCell createRefNode_0() {
+    SingleRoleCellProvider provider = new inheritanceSingleRoleHandler_7940ks_d1a(myNode, LINKS.inheritance$TlYC, getEditorContext());
+    return provider.createCell();
+  }
+  private static class inheritanceSingleRoleHandler_7940ks_d1a extends SingleRoleCellProvider {
+    @NotNull
+    private SNode myNode;
+
+    public inheritanceSingleRoleHandler_7940ks_d1a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+      super(containmentLink, context);
+      myNode = ownerNode;
+    }
+
+    @Override
+    @NotNull
+    public SNode getNode() {
+      return myNode;
+    }
+
+    protected EditorCell createChildCell(SNode child) {
+      EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), LINKS.inheritance$TlYC, child));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), LINKS.inheritance$TlYC, child));
+      installCellInfo(child, editorCell, false);
+      return editorCell;
+    }
+
+
+
+    private void installCellInfo(SNode child, EditorCell editorCell, boolean isEmpty) {
+      if (editorCell.getSubstituteInfo() == null || editorCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
+        editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
+      }
+      if (editorCell.getSRole() == null) {
+        editorCell.setSRole(LINKS.inheritance$TlYC);
+      }
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      editorCell.getStyle().putAll(style);
+    }
+    @Override
+    protected EditorCell createEmptyCell() {
+      getCellFactory().pushCellContext();
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), LINKS.inheritance$TlYC));
+      try {
+        EditorCell editorCell = super.createEmptyCell();
+        editorCell.setCellId("empty_inheritance");
+        installCellInfo(null, editorCell, true);
+        setCellContext(editorCell);
+        return editorCell;
+      } finally {
+        getCellFactory().popCellContext();
+      }
+    }
+    protected String getNoTargetText() {
+      return "<no inheritance>";
+    }
+  }
   private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
-    editorCell.setCellId("Constant_7940ks_d1a");
+    editorCell.setCellId("Constant_7940ks_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -262,6 +323,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private static final class LINKS {
     /*package*/ static final SContainmentLink aliases$xKKj = MetaAdapterFactory.getContainmentLink(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b635c1L, 0x59c371a1e9b64cc4L, "aliases");
     /*package*/ static final SContainmentLink description$xLel = MetaAdapterFactory.getContainmentLink(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b635c1L, 0x59c371a1e9b64cc6L, "description");
+    /*package*/ static final SContainmentLink inheritance$TlYC = MetaAdapterFactory.getContainmentLink(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b635c1L, 0x6392399e2201416L, "inheritance");
   }
 
   private static final class CONCEPTS {

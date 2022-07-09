@@ -19,6 +19,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAlias = createDescriptorForAlias();
   /*package*/ final ConceptDescriptor myConceptAliasReference = createDescriptorForAliasReference();
   /*package*/ final ConceptDescriptor myConceptDefinition = createDescriptorForDefinition();
+  /*package*/ final ConceptDescriptor myConceptInheritanceRelations = createDescriptorForInheritanceRelations();
   /*package*/ final ConceptDescriptor myConceptPedantry = createDescriptorForPedantry();
   /*package*/ final ConceptDescriptor myConceptPedantryReference = createDescriptorForPedantryReference();
   /*package*/ final ConceptDescriptor myConceptPunctuation = createDescriptorForPunctuation();
@@ -38,7 +39,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAlias, myConceptAliasReference, myConceptDefinition, myConceptPedantry, myConceptPedantryReference, myConceptPunctuation, myConceptWord);
+    return Arrays.asList(myConceptAlias, myConceptAliasReference, myConceptDefinition, myConceptInheritanceRelations, myConceptPedantry, myConceptPedantryReference, myConceptPunctuation, myConceptWord);
   }
 
   @Override
@@ -51,6 +52,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptAliasReference;
       case LanguageConceptSwitch.Definition:
         return myConceptDefinition;
+      case LanguageConceptSwitch.InheritanceRelations:
+        return myConceptInheritanceRelations;
       case LanguageConceptSwitch.Pedantry:
         return myConceptPedantry;
       case LanguageConceptSwitch.PedantryReference:
@@ -101,7 +104,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.aggregate("aliases", 0x59c371a1e9b64cc4L).target(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b64cc1L).optional(false).ordered(true).multiple(true).origin("6468138430058876100").done();
     b.aggregate("description", 0x59c371a1e9b64cc6L).target(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b64cc9L).optional(true).ordered(true).multiple(true).origin("6468138430058876102").done();
+    b.aggregate("inheritance", 0x6392399e2201416L).target(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x6392399e2201410L).optional(true).ordered(true).multiple(false).origin("448428781730796566").done();
     b.alias("definition");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForInheritanceRelations() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("pedant", "InheritanceRelations", 0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x6392399e2201410L);
+    b.class_(false, false, false);
+    b.origin("r:27dbd124-2bea-4882-ab68-7e12db4207fb(pedant.structure)/448428781730796560");
+    b.version(3);
+    b.aggregate("subs", 0x6392399e2201411L).target(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b64ccfL).optional(true).ordered(true).multiple(true).origin("448428781730796561").done();
+    b.aggregate("supers", 0x6392399e2201413L).target(0xe1654c1208bf4d54L, 0x9998af58f6362837L, 0x59c371a1e9b64ccfL).optional(true).ordered(true).multiple(true).origin("448428781730796563").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPedantry() {

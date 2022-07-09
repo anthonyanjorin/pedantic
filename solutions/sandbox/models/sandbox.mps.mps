@@ -23,6 +23,10 @@
       <concept id="6468138430058870209" name="pedant.structure.Definition" flags="ng" index="2Ktkhw">
         <child id="6468138430058876100" name="aliases" index="2KtjP_" />
         <child id="6468138430058876102" name="description" index="2KtjPB" />
+        <child id="448428781730796566" name="inheritance" index="3$6juf" />
+      </concept>
+      <concept id="448428781730796560" name="pedant.structure.InheritanceRelations" flags="ng" index="3$6ju9">
+        <child id="448428781730796563" name="supers" index="3$6jua" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -72,6 +76,11 @@
       </node>
       <node concept="2K1WLR" id="5B3sq7DLgT5" role="2KtjPB">
         <property role="TrG5h" value="." />
+      </node>
+      <node concept="3$6ju9" id="6gfdzjMagH5" role="3$6juf">
+        <node concept="2KtjPI" id="6gfdzjMaNxZ" role="3$6jua">
+          <ref role="2KtjPL" node="5B3sq7DKLG3" resolve="language workbench" />
+        </node>
       </node>
     </node>
     <node concept="2Ktkhw" id="5B3sq7DKLFL" role="2KuxKI">
@@ -840,6 +849,11 @@
       </node>
       <node concept="2K1WLR" id="5B3sq7DLirI" role="2KtjPB">
         <property role="TrG5h" value="." />
+      </node>
+      <node concept="3$6ju9" id="6gfdzjMbjkY" role="3$6juf">
+        <node concept="2KtjPI" id="6gfdzjMbjl0" role="3$6jua">
+          <ref role="2KtjPL" node="5B3sq7DLhPb" resolve="Node" />
+        </node>
       </node>
     </node>
     <node concept="2Ktkhw" id="5B3sq7DLhm6" role="2KuxKI">

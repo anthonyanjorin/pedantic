@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Alias;
   private ConceptPresentation props_AliasReference;
   private ConceptPresentation props_Definition;
+  private ConceptPresentation props_InheritanceRelations;
   private ConceptPresentation props_Pedantry;
   private ConceptPresentation props_PedantryReference;
   private ConceptPresentation props_Punctuation;
@@ -45,6 +46,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Definition = cpb.create();
         }
         return props_Definition;
+      case LanguageConceptSwitch.InheritanceRelations:
+        if (props_InheritanceRelations == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("InheritanceRelations");
+          props_InheritanceRelations = cpb.create();
+        }
+        return props_InheritanceRelations;
       case LanguageConceptSwitch.Pedantry:
         if (props_Pedantry == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
