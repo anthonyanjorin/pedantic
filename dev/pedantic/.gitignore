@@ -1,0 +1,8 @@
+/build
+/build.xml
+*.DS_Store
+*.class
+classes_gen
+source_gen
+source_gen.caches
+
