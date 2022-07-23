@@ -175,7 +175,7 @@
     <ref role="1XX52x" to="3ido:4h$8nEbv_eh" resolve="Punctuation" />
     <node concept="3F0A7n" id="4h$8nEbw2BM" role="2wV5jI">
       <ref role="34QXea" node="2NkPjc5JEbW" resolve="HandleSpace" />
-      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <ref role="1NtTu8" to="3ido:4h$8nEbw52k" resolve="content" />
       <node concept="11L4FC" id="4h$8nEbw2BP" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
@@ -294,7 +294,7 @@
   </node>
   <node concept="325Ffw" id="2NkPjc5JEbW">
     <property role="TrG5h" value="HandleSpace" />
-    <ref role="1chiOs" to="3ido:4h$8nEbv_eb" resolve="Word" />
+    <ref role="1chiOs" to="3ido:4h$8nEbw52j" resolve="NormalText" />
     <node concept="2PxR9H" id="2NkPjc5JEbX" role="2QnnpI">
       <property role="2IlM53" value="gAIlx3c/LAST_POSITION" />
       <node concept="2PzhpH" id="2NkPjc5JEbZ" role="2PL9iG">
