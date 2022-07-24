@@ -11,12 +11,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
-        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
-      </concept>
-      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
-        <property id="1083066089218" name="constraint" index="FLfZY" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -73,7 +67,7 @@
     <property role="3GE5qa" value="Description" />
     <property role="TrG5h" value="DomainReference" />
     <property role="R4oN_" value="Refer to a domain" />
-    <property role="34LRSv" value="domain" />
+    <property role="34LRSv" value="##" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
     <node concept="1TJgyj" id="4h$8nEbwca3" role="1TKVEi">
       <property role="IQ2ns" value="4928100702460363395" />
@@ -99,7 +93,8 @@
     <property role="EcuMT" value="4928100702460203921" />
     <property role="TrG5h" value="Punctuation" />
     <property role="3GE5qa" value="Description" />
-    <property role="34LRSv" value="punctuation" />
+    <property role="34LRSv" value="+" />
+    <property role="R4oN_" value="Extend a word" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
   </node>
   <node concept="1TIwiD" id="4h$8nEbv_ei">
@@ -107,7 +102,7 @@
     <property role="3GE5qa" value="Description" />
     <property role="TrG5h" value="TermReference" />
     <property role="R4oN_" value="Refer to a label" />
-    <property role="34LRSv" value="term" />
+    <property role="34LRSv" value="#" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
     <node concept="1TJgyj" id="4h$8nEbv_ej" role="1TKVEi">
       <property role="IQ2ns" value="4928100702460203923" />
@@ -115,12 +110,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
     </node>
-  </node>
-  <node concept="Az7Fb" id="4h$8nEbv_ee">
-    <property role="3F6X1D" value="4928100702460203918" />
-    <property role="TrG5h" value="text" />
-    <property role="FLfZY" value="\\S+" />
-    <property role="3GE5qa" value="Description" />
   </node>
   <node concept="1TIwiD" id="4h$8nEbv$Z4">
     <property role="EcuMT" value="4928100702460202948" />
@@ -269,6 +258,9 @@
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4h$8nEbv_ei" resolve="TermReference" />
+    </node>
+    <node concept="PrWs8" id="3nVMbJioyv5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
