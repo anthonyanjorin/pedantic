@@ -27,6 +27,10 @@
         <reference id="4928100702460363395" name="target" index="3fTefT" />
       </concept>
       <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
+        <property id="3889923412177894713" name="trg_min" index="3BFnm2" />
+        <property id="3889923412177894717" name="trg_max" index="3BFnm6" />
+        <property id="3889923412177894706" name="src_min" index="3BFnm9" />
+        <property id="3889923412177894708" name="src_max" index="3BFnmf" />
         <child id="3889923412177894711" name="ref" index="3BFnmc" />
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
@@ -279,6 +283,10 @@
         </node>
         <node concept="3BFnma" id="3nVMbJioGGU" role="3BFnmw">
           <property role="TrG5h" value="blah adsf asdf asdf asdf asdf asdf" />
+          <property role="3BFnm9" value="1" />
+          <property role="3BFnmf" value="6" />
+          <property role="3BFnm2" value="2" />
+          <property role="3BFnm6" value="100" />
           <node concept="3f6BbC" id="3nVMbJioGGV" role="3BFnmc">
             <ref role="3f6BbD" node="3nVMbJimMY6" resolve="B" />
           </node>
