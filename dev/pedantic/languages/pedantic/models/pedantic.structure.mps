@@ -138,6 +138,9 @@
       <property role="20kJfa" value="formalisation" />
       <ref role="20lvS9" node="3nVMbJilFOl" resolve="FormalRelations" />
     </node>
+    <node concept="PrWs8" id="47_$PnYJ8yl" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4h$8nEbv$Z7">
     <property role="EcuMT" value="4928100702460202951" />
