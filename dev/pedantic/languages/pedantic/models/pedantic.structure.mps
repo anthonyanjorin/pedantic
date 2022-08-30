@@ -149,6 +149,9 @@
     <node concept="PrWs8" id="4h$8nEbv$Z8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="1bGHpmEn6AN" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4ggIgYY8Omq">
     <property role="EcuMT" value="4904623471472100762" />

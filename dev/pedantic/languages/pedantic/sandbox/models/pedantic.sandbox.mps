@@ -391,54 +391,28 @@
       <node concept="3f6AUX" id="3nVMbJivQ9Z" role="3f6AUK">
         <property role="TrG5h" value="Bar" />
       </node>
-      <node concept="3f6AUX" id="3nVMbJivQa3" role="3f6AUK">
-        <property role="TrG5h" value="Blup" />
-      </node>
       <node concept="3BFnmI" id="3nVMbJivQa6" role="3BFnmE">
+        <node concept="3f6BbC" id="1bGHpmEn0Wn" role="3BFnmz">
+          <ref role="3f6BbD" node="1bGHpmEn0Wa" resolve="Foo" />
+        </node>
         <node concept="3f6BbC" id="3nVMbJivQa8" role="3BFnmH">
-          <ref role="3f6BbD" node="3nVMbJivQac" resolve="Baz" />
+          <ref role="3f6BbD" node="1bGHpmElVaE" resolve="Baz" />
         </node>
       </node>
     </node>
-    <node concept="3f6AUY" id="3nVMbJivQaa" role="3f6AUZ">
-      <node concept="3f6AUQ" id="3nVMbJivQab" role="3f6AUE" />
-      <node concept="3f6AUX" id="3nVMbJivQac" role="3f6AUK">
+    <node concept="3f6AUY" id="1bGHpmElVaC" role="3f6AUZ">
+      <node concept="3f6AUQ" id="1bGHpmElVaD" role="3f6AUE" />
+      <node concept="3f6AUX" id="1bGHpmElVaE" role="3f6AUK">
         <property role="TrG5h" value="Baz" />
       </node>
-      <node concept="3BFnmI" id="3nVMbJivQam" role="3BFnmE">
-        <node concept="3f6BbC" id="3nVMbJiwf9C" role="3BFnmH">
-          <ref role="3f6BbD" node="5Q23RPTwP14" resolve="Another label for the term" />
-        </node>
-        <node concept="3f6BbC" id="3nVMbJi_L9P" role="3BFnmz">
-          <ref role="3f6BbD" node="3nVMbJimN4_" resolve="C" />
-        </node>
-        <node concept="3f6BbC" id="3nVMbJiVdds" role="3BFnmz">
-          <ref role="3f6BbD" node="3nVMbJiVdcv" resolve="Foody" />
-        </node>
-        <node concept="3f6BbC" id="3nVMbJiVddv" role="3BFnmz">
-          <ref role="3f6BbD" node="3nVMbJiVdcL" resolve="Hoody" />
-        </node>
-        <node concept="3f6BbC" id="3nVMbJiVddz" role="3BFnmz">
-          <ref role="3f6BbD" node="3nVMbJiVdd6" resolve="Doo" />
-        </node>
+      <node concept="3f6AUX" id="1bGHpmEnKhV" role="3f6AUK">
+        <property role="TrG5h" value="Baz2" />
       </node>
     </node>
-    <node concept="3f6AUY" id="3nVMbJiVdct" role="3f6AUZ">
-      <node concept="3f6AUQ" id="3nVMbJiVdcu" role="3f6AUE" />
-      <node concept="3f6AUX" id="3nVMbJiVdcv" role="3f6AUK">
-        <property role="TrG5h" value="Foody" />
-      </node>
-    </node>
-    <node concept="3f6AUY" id="3nVMbJiVdcJ" role="3f6AUZ">
-      <node concept="3f6AUQ" id="3nVMbJiVdcK" role="3f6AUE" />
-      <node concept="3f6AUX" id="3nVMbJiVdcL" role="3f6AUK">
-        <property role="TrG5h" value="Hoody" />
-      </node>
-    </node>
-    <node concept="3f6AUY" id="3nVMbJiVdd4" role="3f6AUZ">
-      <node concept="3f6AUQ" id="3nVMbJiVdd5" role="3f6AUE" />
-      <node concept="3f6AUX" id="3nVMbJiVdd6" role="3f6AUK">
-        <property role="TrG5h" value="Doo" />
+    <node concept="3f6AUY" id="1bGHpmEn0W8" role="3f6AUZ">
+      <node concept="3f6AUQ" id="1bGHpmEn0W9" role="3f6AUE" />
+      <node concept="3f6AUX" id="1bGHpmEn0Wa" role="3f6AUK">
+        <property role="TrG5h" value="Foo" />
       </node>
     </node>
     <node concept="3f6AUQ" id="3nVMbJivQ9W" role="3f6AUR" />
