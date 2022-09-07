@@ -164,9 +164,6 @@
     <property role="R4oN_" value="Container for terms" />
     <property role="3GE5qa" value="Terms" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1NxvozOKOK8" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
-    </node>
     <node concept="PrWs8" id="4h$8nEbv$Z1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
