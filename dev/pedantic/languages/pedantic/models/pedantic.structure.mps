@@ -11,6 +11,17 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -118,6 +129,12 @@
     <property role="R4oN_" value="A term to be defined" />
     <property role="3GE5qa" value="Terms" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="47_$PnZMiQN" role="1TKVEi">
+      <property role="IQ2ns" value="4748363379704933811" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="extraContext" />
+      <ref role="20lvS9" node="47_$PnZMiQS" resolve="ShowContext" />
+    </node>
     <node concept="1TJgyj" id="4h$8nEbv$Zg" role="1TKVEi">
       <property role="IQ2ns" value="4928100702460202960" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -264,6 +281,54 @@
     </node>
     <node concept="PrWs8" id="3nVMbJioyv5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="47_$PnZMiQS">
+    <property role="EcuMT" value="4748363379704933816" />
+    <property role="TrG5h" value="ShowContext" />
+    <property role="34LRSv" value="show" />
+    <property role="R4oN_" value="Additional terms to show as context" />
+    <property role="3GE5qa" value="Context" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="47_$PnZMiQT" role="1TKVEi">
+      <property role="IQ2ns" value="4748363379704933817" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contextRefs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="47_$PnZMiQV" resolve="ContextReference" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="47_$PnZMiQV">
+    <property role="EcuMT" value="4748363379704933819" />
+    <property role="3GE5qa" value="Context" />
+    <property role="TrG5h" value="ContextReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="47_$PnZQx6h" role="1TKVEi">
+      <property role="IQ2ns" value="4748363379706040721" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
+    </node>
+    <node concept="1TJgyi" id="47_$PnZQx6o" role="1TKVEl">
+      <property role="IQ2nx" value="4748363379706040728" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="47_$PnZQx6j" resolve="ContextScope" />
+    </node>
+  </node>
+  <node concept="25R3W" id="47_$PnZQx6j">
+    <property role="3F6X1D" value="4748363379706040723" />
+    <property role="3GE5qa" value="Context" />
+    <property role="TrG5h" value="ContextScope" />
+    <ref role="1H5jkz" node="47_$PnZQx6l" resolve="ONLY_CONNECTIONS" />
+    <node concept="25R33" id="47_$PnZQx6k" role="25R1y">
+      <property role="3tVfz5" value="4748363379706040724" />
+      <property role="TrG5h" value="FULL" />
+      <property role="1L1pqM" value="*" />
+    </node>
+    <node concept="25R33" id="47_$PnZQx6l" role="25R1y">
+      <property role="3tVfz5" value="4748363379706040725" />
+      <property role="TrG5h" value="ONLY_CONNECTIONS" />
+      <property role="1L1pqM" value="!" />
     </node>
   </node>
 </model>
