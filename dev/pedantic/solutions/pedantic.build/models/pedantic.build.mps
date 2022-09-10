@@ -108,6 +108,9 @@
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
@@ -427,7 +430,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="47_$PnYJOLq" role="3MwsjC">
-          <property role="3MwjfP" value="1.4" />
+          <property role="3MwjfP" value="1.5" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -959,6 +962,21 @@
         <node concept="1SiIV0" id="5Q23RPTxrHa" role="3bR37C">
           <node concept="3bR9La" id="5Q23RPTxrHb" role="1SiIV1">
             <ref role="3bR37D" node="5Q23RPTxrzt" resolve="plantmps" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="47_$Po02bFY" role="3bR31x">
+          <node concept="3LXTmp" id="47_$Po02bFZ" role="3rtmxm">
+            <node concept="55IIr" id="47_$Po02bG0" role="3LXTmr">
+              <node concept="2Ry0Ak" id="47_$Po02bG1" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="47_$Po02bG2" role="2Ry0An">
+                  <property role="2Ry0Am" value="plantmps.plugin" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="47_$Po02bG4" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
           </node>
         </node>
       </node>
