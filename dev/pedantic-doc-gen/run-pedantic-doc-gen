@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Deleting previous /out folder..."
+rm -rf ./out
+mkdir ./out
+echo "Invoking pandoc for ${@}..."
+pandoc in/${@}.md -o out/${@}.html --embed-resources --filter pandoc-plantuml
+echo "Cleaning up..."
+rm -rf ./plantuml-images
+echo "Generated standalone HTML file in ./out/${@}.html"
+open ./out/${@}.html

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+PLANTUML=./lib/plantuml.jar
+
+java -jar ${PLANTUML} ${@}
