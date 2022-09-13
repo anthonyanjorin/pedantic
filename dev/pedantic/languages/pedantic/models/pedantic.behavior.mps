@@ -77,6 +77,9 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -335,6 +338,46 @@
   <node concept="13h7C7" id="47_$PnYJ8yn">
     <property role="3GE5qa" value="Terms" />
     <ref role="13h7C2" to="3ido:4h$8nEbv$Z4" resolve="Term" />
+    <node concept="13i0hz" id="47_$Po04FYb" role="13h7CS">
+      <property role="TrG5h" value="getVisualization" />
+      <node concept="3Tm1VV" id="47_$Po04FYc" role="1B3o_S" />
+      <node concept="3clFbS" id="47_$Po04FYe" role="3clF47">
+        <node concept="3cpWs8" id="47_$Po04Hde" role="3cqZAp">
+          <node concept="3cpWsn" id="47_$Po04Hdf" role="3cpWs9">
+            <property role="TrG5h" value="graph" />
+            <node concept="3uibUv" id="47_$Po04Hdg" role="1tU5fm">
+              <ref role="3uigEE" to="lsyl:7G28cbuofT1" resolve="VisGraph" />
+            </node>
+            <node concept="2ShNRf" id="47_$Po04HfK" role="33vP2m">
+              <node concept="1pGfFk" id="47_$Po04HC$" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="lsyl:7G28cbuoh2V" resolve="VisGraph" />
+                <node concept="10Nm6u" id="47_$Po04M4o" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="47_$Po04MjE" role="3cqZAp">
+          <node concept="BsUDl" id="47_$Po04M7T" role="3clFbG">
+            <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="getVisualization" />
+            <node concept="37vLTw" id="47_$Po04M9Q" role="37wK5m">
+              <ref role="3cqZAo" node="47_$Po04Hdf" resolve="graph" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="47_$Po04MmJ" role="3cqZAp">
+          <node concept="2OqwBi" id="47_$Po04MtW" role="3cqZAk">
+            <node concept="37vLTw" id="47_$Po04MnG" role="2Oq$k0">
+              <ref role="3cqZAo" node="47_$Po04Hdf" resolve="graph" />
+            </node>
+            <node concept="liA8E" id="47_$Po04M_4" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:7G28cbuoh45" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="47_$Po04HaO" role="3clF45" />
+    </node>
     <node concept="13hLZK" id="47_$PnYJ8yo" role="13h7CW">
       <node concept="3clFbS" id="47_$PnYJ8yp" role="2VODD2" />
     </node>
