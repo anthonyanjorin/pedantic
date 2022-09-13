@@ -7,11 +7,18 @@
   <imports />
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="4748363379704933816" name="pedantic.structure.ShowContext" flags="ng" index="2YbbVH">
+        <child id="4748363379704933817" name="contextRefs" index="2YbbVG" />
+      </concept>
+      <concept id="4748363379704933819" name="pedantic.structure.ContextReference" flags="ng" index="2YbbVI">
+        <reference id="4748363379706040721" name="target" index="2YfSb4" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
+        <child id="4748363379704933811" name="extraContext" index="2YbbVA" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
@@ -35,6 +42,7 @@
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
         <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
+        <child id="3889923412177894692" name="incoming" index="3BFnmv" />
         <child id="3889923412177894683" name="children" index="3BFnmw" />
         <child id="3889923412177894680" name="subs" index="3BFnmz" />
         <child id="3889923412177894687" name="parents" index="3BFnm$" />
@@ -341,11 +349,19 @@
         <node concept="3fT77D" id="3nVMbJiodU7" role="3f6BbQ">
           <property role="3fT77I" value="asdf" />
         </node>
+        <node concept="3f6BbC" id="47_$PnZ2v8v" role="3f6BbQ">
+          <ref role="3f6BbD" node="3nVMbJivQ9Z" resolve="Bar" />
+        </node>
       </node>
       <node concept="3f6AUX" id="3nVMbJiodSt" role="3f6AUK">
         <property role="TrG5h" value="Bar" />
       </node>
       <node concept="3BFnmI" id="3nVMbJiodUe" role="3BFnmE">
+        <node concept="3BFnma" id="47_$PnZ1XfG" role="3BFnmh">
+          <node concept="3f6BbC" id="47_$PnZ1XfH" role="3BFnmc">
+            <ref role="3f6BbD" node="3nVMbJivQ9Z" resolve="Bar" />
+          </node>
+        </node>
         <node concept="3f6BbC" id="3nVMbJiodUg" role="3BFnmH">
           <ref role="3f6BbD" node="3nVMbJimN4_" resolve="C" />
         </node>
@@ -391,7 +407,26 @@
       <node concept="3f6AUX" id="3nVMbJivQ9Z" role="3f6AUK">
         <property role="TrG5h" value="Bar" />
       </node>
-      <node concept="3BFnmI" id="3nVMbJivQa6" role="3BFnmE" />
+      <node concept="3BFnmI" id="3nVMbJivQa6" role="3BFnmE">
+        <node concept="3BFnma" id="47_$PnYU_ki" role="3BFnmh">
+          <property role="3BFnm6" value="5" />
+          <node concept="3f6BbC" id="47_$PnYU_kj" role="3BFnmc">
+            <ref role="3f6BbD" node="47_$PnYU_jY" resolve="Blup" />
+          </node>
+        </node>
+        <node concept="3BFnma" id="47_$PnYTvvz" role="3BFnmv">
+          <property role="3BFnmf" value="1" />
+          <node concept="3f6BbC" id="47_$PnYTvv$" role="3BFnmc">
+            <ref role="3f6BbD" node="1bGHpmElVaE" resolve="Baz" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="47_$PnYU_jW" role="3f6AUZ">
+      <node concept="3f6AUQ" id="47_$PnYU_jX" role="3f6AUE" />
+      <node concept="3f6AUX" id="47_$PnYU_jY" role="3f6AUK">
+        <property role="TrG5h" value="Blup" />
+      </node>
     </node>
     <node concept="3f6AUY" id="1bGHpmElVaC" role="3f6AUZ">
       <node concept="3f6AUQ" id="1bGHpmElVaD" role="3f6AUE" />
@@ -409,6 +444,8 @@
       </node>
       <node concept="3BFnmI" id="47_$PnYHk1P" role="3BFnmE">
         <node concept="3BFnma" id="47_$PnYHk1R" role="3BFnm$">
+          <property role="3BFnm9" value="0" />
+          <property role="3BFnm6" value="1" />
           <node concept="3f6BbC" id="47_$PnYHk1S" role="3BFnmc">
             <ref role="3f6BbD" node="3nVMbJivQ9Z" resolve="Bar" />
           </node>
@@ -416,6 +453,49 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="3nVMbJivQ9W" role="3f6AUR" />
+  </node>
+  <node concept="3UcZMl" id="47_$PnZnzJz">
+    <property role="TrG5h" value="Test" />
+    <node concept="3f6AUY" id="47_$Po03GJi" role="3f6AUZ">
+      <node concept="3f6AUQ" id="47_$Po03GJj" role="3f6AUE" />
+      <node concept="3f6AUX" id="47_$Po03GJk" role="3f6AUK">
+        <property role="TrG5h" value="A" />
+      </node>
+      <node concept="2YbbVH" id="47_$Po03GJC" role="2YbbVA">
+        <node concept="2YbbVI" id="47_$Po03GJE" role="2YbbVG">
+          <ref role="2YfSb4" node="47_$Po03GJx" resolve="B" />
+        </node>
+      </node>
+      <node concept="3BFnmI" id="47_$Po03GJW" role="3BFnmE">
+        <node concept="3f6BbC" id="47_$Po03GJY" role="3BFnmH">
+          <ref role="3f6BbD" node="3nVMbJimN4_" resolve="C" />
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="47_$Po03GJo" role="3f6AUZ">
+      <node concept="3f6AUQ" id="47_$Po03GJp" role="3f6AUE" />
+      <node concept="3f6AUX" id="47_$Po03GJx" role="3f6AUK">
+        <property role="TrG5h" value="B" />
+      </node>
+      <node concept="2YbbVH" id="47_$Po03GJ$" role="2YbbVA">
+        <node concept="2YbbVI" id="47_$Po03GJA" role="2YbbVG">
+          <ref role="2YfSb4" node="47_$Po03GJk" resolve="A" />
+        </node>
+      </node>
+      <node concept="3BFnmI" id="47_$Po03GK0" role="3BFnmE">
+        <node concept="3f6BbC" id="47_$Po03GK2" role="3BFnmH">
+          <ref role="3f6BbD" node="3nVMbJimN4_" resolve="C" />
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="47_$PnZnzJ$" role="3f6AUR">
+      <node concept="3fT77D" id="47_$PnZtaNl" role="3f6BbQ">
+        <property role="3fT77I" value="asdfa" />
+      </node>
+      <node concept="3fT77D" id="47_$PnZtaNn" role="3f6BbQ">
+        <property role="3fT77I" value="adfsf" />
+      </node>
+    </node>
   </node>
 </model>
 

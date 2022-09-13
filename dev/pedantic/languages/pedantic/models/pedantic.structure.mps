@@ -319,7 +319,7 @@
     <property role="3F6X1D" value="4748363379706040723" />
     <property role="3GE5qa" value="Context" />
     <property role="TrG5h" value="ContextScope" />
-    <ref role="1H5jkz" node="47_$PnZQx6l" resolve="ONLY_CONNECTIONS" />
+    <ref role="1H5jkz" node="47_$PnZQx6k" resolve="FULL" />
     <node concept="25R33" id="47_$PnZQx6k" role="25R1y">
       <property role="3tVfz5" value="4748363379706040724" />
       <property role="TrG5h" value="FULL" />
