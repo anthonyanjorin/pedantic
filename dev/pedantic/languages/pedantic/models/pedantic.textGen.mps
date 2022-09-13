@@ -70,6 +70,9 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
     </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+    </language>
   </registry>
   <node concept="WtQ9Q" id="47_$Po02kwq">
     <ref role="WuzLi" to="3ido:4ggIgYY8Omq" resolve="Domain" />
@@ -202,6 +205,78 @@
                 </node>
               </node>
               <node concept="3TrcHB" id="47_$Po02vW9" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="47_$Po03HgH">
+    <property role="3GE5qa" value="Terms" />
+    <ref role="WuzLi" to="3ido:4h$8nEbv$Z4" resolve="Term" />
+    <node concept="11bSqf" id="47_$Po03HgI" role="11c4hB">
+      <node concept="3clFbS" id="47_$Po03HgJ" role="2VODD2">
+        <node concept="lc7rE" id="47_$Po03Hh1" role="3cqZAp">
+          <node concept="la8eA" id="47_$Po03NwX" role="lcghm">
+            <property role="lacIc" value="## " />
+          </node>
+          <node concept="l9hG8" id="47_$Po03Rd_" role="lcghm">
+            <node concept="2OqwBi" id="47_$Po03TPP" role="lb14g">
+              <node concept="2OqwBi" id="47_$Po03Rf3" role="2Oq$k0">
+                <node concept="117lpO" id="47_$Po03Ret" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="47_$Po03RgI" role="2OqNvi">
+                  <ref role="3TtcxE" to="3ido:4h$8nEbv$Za" resolve="labels" />
+                </node>
+              </node>
+              <node concept="1uHKPH" id="47_$Po03VHS" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="l8MVK" id="47_$Po03NYv" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="47_$Po03OOk" role="3cqZAp">
+          <node concept="la8eA" id="47_$Po03OUQ" role="lcghm">
+            <property role="lacIc" value="Also known as: " />
+          </node>
+          <node concept="l9S2W" id="47_$Po03P24" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value=", " />
+            <node concept="2OqwBi" id="47_$Po03Piu" role="lbANJ">
+              <node concept="117lpO" id="47_$Po03Pas" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="47_$Po03PzR" role="2OqNvi">
+                <ref role="3TtcxE" to="3ido:4h$8nEbv$Za" resolve="labels" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="47_$Po03VZs" role="lcghm">
+            <property role="lacIc" value="  " />
+          </node>
+          <node concept="l8MVK" id="47_$Po041d7" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="47_$Po03Oas" role="3cqZAp">
+          <node concept="l9hG8" id="47_$Po03Ogx" role="lcghm">
+            <node concept="2OqwBi" id="47_$Po03OxK" role="lb14g">
+              <node concept="117lpO" id="47_$Po03Opo" role="2Oq$k0" />
+              <node concept="3TrEf2" id="47_$Po03OF2" role="2OqNvi">
+                <ref role="3Tt5mk" to="3ido:4h$8nEbv$Zg" resolve="description" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="47_$Po03Ym8">
+    <property role="3GE5qa" value="Terms" />
+    <ref role="WuzLi" to="3ido:4h$8nEbv$Z7" resolve="Label" />
+    <node concept="11bSqf" id="47_$Po03Ym9" role="11c4hB">
+      <node concept="3clFbS" id="47_$Po03Yma" role="2VODD2">
+        <node concept="lc7rE" id="47_$Po03Yms" role="3cqZAp">
+          <node concept="l9hG8" id="47_$Po03Ynv" role="lcghm">
+            <node concept="2OqwBi" id="47_$Po03Yxm" role="lb14g">
+              <node concept="117lpO" id="47_$Po03Yoj" role="2Oq$k0" />
+              <node concept="3TrcHB" id="47_$Po03YG3" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
