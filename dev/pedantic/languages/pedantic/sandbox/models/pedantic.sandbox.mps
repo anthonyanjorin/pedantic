@@ -11,6 +11,7 @@
         <child id="4748363379704933817" name="contextRefs" index="2YbbVG" />
       </concept>
       <concept id="4748363379704933819" name="pedantic.structure.ContextReference" flags="ng" index="2YbbVI">
+        <property id="4748363379706040728" name="scope" index="2YfSbd" />
         <reference id="4748363379706040721" name="target" index="2YfSb4" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
@@ -18,7 +19,7 @@
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
-        <child id="4748363379704933811" name="extraContext" index="2YbbVA" />
+        <child id="4748363379704933811" name="context" index="2YbbVA" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
@@ -234,6 +235,26 @@
       <node concept="3f6AUX" id="3nVMbJimN6C" role="3f6AUK">
         <property role="TrG5h" value="F" />
       </node>
+      <node concept="2YbbVH" id="47_$Po0kM4t" role="2YbbVA">
+        <node concept="2YbbVI" id="47_$Po0kM4v" role="2YbbVG">
+          <ref role="2YfSb4" node="3nVMbJiodSt" resolve="Bar" />
+        </node>
+        <node concept="2YbbVI" id="47_$Po0kM4x" role="2YbbVG">
+          <property role="2YfSbd" value="47_$Po08ev1/EXCLUDE" />
+          <ref role="2YfSb4" node="47_$Po03GJk" resolve="A" />
+        </node>
+        <node concept="2YbbVI" id="47_$Po0kM4$" role="2YbbVG">
+          <property role="2YfSbd" value="47_$Po08ev1/EXCLUDE" />
+          <ref role="2YfSb4" node="47_$Po03GJx" resolve="B" />
+        </node>
+        <node concept="2YbbVI" id="47_$Po0kM4K" role="2YbbVG">
+          <ref role="2YfSb4" node="3nVMbJinNOb" resolve="Foo" />
+        </node>
+        <node concept="2YbbVI" id="47_$Po0kM4P" role="2YbbVG">
+          <property role="2YfSbd" value="47_$Po08ev1/EXCLUDE" />
+          <ref role="2YfSb4" node="5Q23RPTwOZ0" resolve="Primary label of a term" />
+        </node>
+      </node>
     </node>
     <node concept="3f6AUY" id="3nVMbJinNO9" role="3f6AUZ">
       <node concept="3f6AUQ" id="3nVMbJinNOa" role="3f6AUE">
@@ -371,6 +392,12 @@
         <node concept="3f6BbC" id="3nVMbJiodUl" role="3BFnmH">
           <ref role="3f6BbD" node="3nVMbJinNOb" resolve="Foo" />
         </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="47_$Po0kM2F" role="3f6AUZ">
+      <node concept="3f6AUQ" id="47_$Po0kM2G" role="3f6AUE" />
+      <node concept="3f6AUX" id="47_$Po0kM2H" role="3f6AUK">
+        <property role="TrG5h" value="X" />
       </node>
     </node>
     <node concept="3f6AUQ" id="5Q23RPTwOYE" role="3f6AUR">
