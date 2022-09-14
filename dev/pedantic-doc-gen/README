@@ -1,6 +1,8 @@
 How to set up doc generation with pandoc and plantuml
 
-0. You'll need a 'nix console (i.e., on Windows some kind of 'nix emulator such as git-bash), and pip a python installation. 
+0. You'll need a 'nix console (i.e., on Windows some kind of 'nix emulator such as git-bash).
+1. You must be able to invoke 'pip' from a python installation in your console.
+2. You must be able to invoke 'java' from a java installation in your console. 
 1. Install pandoc for your os (you must be able to invoke 'pandoc' in your console):
         https://pandoc.org/installing.html
 2. Install a pandoc-plantuml-filter with (you must be able to invoke 'pandoc-plantuml' in your console):
