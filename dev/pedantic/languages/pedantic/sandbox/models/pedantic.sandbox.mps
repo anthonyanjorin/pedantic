@@ -89,7 +89,7 @@
           <property role="3fT77I" value="term" />
         </node>
         <node concept="3f6BbC" id="5Q23RPTwP27" role="3f6BbQ">
-          <ref role="3f6BbD" node="5Q23RPTwOZ0" resolve="Primary label of a term" />
+          <ref role="3f6BbD" node="5Q23RPTwP14" resolve="Another label for the term" />
         </node>
         <node concept="3f6BbF" id="3nVMbJimMWV" role="3f6BbQ">
           <property role="3fT77I" value="." />
@@ -238,10 +238,6 @@
       <node concept="2YbbVH" id="47_$Po0kM4t" role="2YbbVA">
         <node concept="2YbbVI" id="47_$Po0kM4v" role="2YbbVG">
           <ref role="2YfSb4" node="3nVMbJiodSt" resolve="Bar" />
-        </node>
-        <node concept="2YbbVI" id="47_$Po0kM4x" role="2YbbVG">
-          <property role="2YfSbd" value="47_$Po08ev1/EXCLUDE" />
-          <ref role="2YfSb4" node="47_$Po03GJk" resolve="A" />
         </node>
         <node concept="2YbbVI" id="47_$Po0kM4$" role="2YbbVG">
           <property role="2YfSbd" value="47_$Po08ev1/EXCLUDE" />
