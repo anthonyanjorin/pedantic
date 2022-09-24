@@ -50,6 +50,7 @@
         <child id="3889923412177894678" name="supers" index="3BFnmH" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
+        <property id="4748363379714635993" name="url" index="11IaIf" />
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
       </concept>
@@ -62,6 +63,7 @@
   </registry>
   <node concept="3UcZMl" id="5Q23RPTwOYD">
     <property role="TrG5h" value="Test Domain" />
+    <property role="11IaIf" value="file:///Users/anthonyanjorin/git/pedantic/dev/pedantic-doc-gen/out/TestDomain.html#" />
     <node concept="3f6AUY" id="5Q23RPTwOYY" role="3f6AUZ">
       <node concept="3f6AUQ" id="5Q23RPTwOYZ" role="3f6AUE">
         <node concept="3fT77D" id="5Q23RPTwP17" role="3f6BbQ">
@@ -425,8 +427,31 @@
   </node>
   <node concept="3UcZMl" id="3nVMbJivQ9V">
     <property role="TrG5h" value="Foo" />
+    <property role="11IaIf" value="file:///Users/anthonyanjorin/git/pedantic/dev/pedantic-doc-gen/out/Foo.html#" />
     <node concept="3f6AUY" id="3nVMbJivQ9X" role="3f6AUZ">
-      <node concept="3f6AUQ" id="3nVMbJivQ9Y" role="3f6AUE" />
+      <node concept="3f6AUQ" id="3nVMbJivQ9Y" role="3f6AUE">
+        <node concept="3fT77D" id="47_$Po0qZ0E" role="3f6BbQ">
+          <property role="3fT77I" value="This" />
+        </node>
+        <node concept="3fT77D" id="47_$Po0qZ0G" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="47_$Po0qZ0J" role="3f6BbQ">
+          <property role="3fT77I" value="related" />
+        </node>
+        <node concept="3fT77D" id="47_$Po0qZ0V" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3f6BbC" id="47_$Po0qZ16" role="3f6BbQ">
+          <ref role="3f6BbD" node="47_$PnYU_jY" resolve="Blup" />
+        </node>
+        <node concept="3fT77D" id="47_$Po0qZ1d" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3f6BbC" id="47_$Po0qZ1s" role="3f6BbQ">
+          <ref role="3f6BbD" node="5Q23RPTwP14" resolve="Another label for the term" />
+        </node>
+      </node>
       <node concept="3f6AUX" id="3nVMbJivQ9Z" role="3f6AUK">
         <property role="TrG5h" value="Bar" />
       </node>
@@ -479,6 +504,7 @@
   </node>
   <node concept="3UcZMl" id="47_$PnZnzJz">
     <property role="TrG5h" value="Test" />
+    <property role="11IaIf" value="file:///Users/anthonyanjorin/git/pedantic/dev/pedantic-doc-gen/out/Test.html#" />
     <node concept="3f6AUY" id="47_$Po03GJi" role="3f6AUZ">
       <node concept="3f6AUQ" id="47_$Po03GJj" role="3f6AUE" />
       <node concept="3f6AUX" id="47_$Po03GJk" role="3f6AUK">
@@ -492,6 +518,9 @@
       <node concept="3BFnmI" id="47_$Po03GJW" role="3BFnmE">
         <node concept="3f6BbC" id="47_$Po03GJY" role="3BFnmH">
           <ref role="3f6BbD" node="3nVMbJimN4_" resolve="C" />
+        </node>
+        <node concept="3f6BbC" id="47_$Po0owTu" role="3BFnmH">
+          <ref role="3f6BbD" node="5Q23RPTwP14" resolve="Another label for the term" />
         </node>
       </node>
     </node>
@@ -508,6 +537,9 @@
       <node concept="3BFnmI" id="47_$Po03GK0" role="3BFnmE">
         <node concept="3f6BbC" id="47_$Po03GK2" role="3BFnmH">
           <ref role="3f6BbD" node="3nVMbJimN4_" resolve="C" />
+        </node>
+        <node concept="3f6BbC" id="47_$Po0owTx" role="3BFnmH">
+          <ref role="3f6BbD" node="3nVMbJimMY6" resolve="B" />
         </node>
       </node>
     </node>
