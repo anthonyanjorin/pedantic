@@ -186,6 +186,21 @@
       <property role="TrG5h" value="url" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="47_$Po0zT8P" role="1TKVEl">
+      <property role="IQ2nx" value="4748363379717935669" />
+      <property role="TrG5h" value="author" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="47_$Po0zT8S" role="1TKVEl">
+      <property role="IQ2nx" value="4748363379717935672" />
+      <property role="TrG5h" value="source" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="47_$Po0zT8W" role="1TKVEl">
+      <property role="IQ2nx" value="4748363379717935676" />
+      <property role="TrG5h" value="version" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="4h$8nEbv$Z1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
