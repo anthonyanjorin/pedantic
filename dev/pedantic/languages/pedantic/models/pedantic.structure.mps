@@ -356,5 +356,36 @@
       <property role="1L1pqM" value="!" />
     </node>
   </node>
+  <node concept="1TIwiD" id="w9Ng_TpuOz">
+    <property role="EcuMT" value="579219467668942115" />
+    <property role="TrG5h" value="Scenario" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="scenario" />
+    <property role="3GE5qa" value="Scenarios" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="w9Ng_TsB78" role="1TKVEi">
+      <property role="IQ2ns" value="579219467669762504" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
+    </node>
+    <node concept="1TJgyj" id="w9Ng_TsB7a" role="1TKVEi">
+      <property role="IQ2ns" value="579219467669762506" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="messages" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="w9Ng_TsB7d" resolve="Message" />
+    </node>
+    <node concept="PrWs8" id="w9Ng_TpM6q" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="w9Ng_TsB7d">
+    <property role="EcuMT" value="579219467669762509" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="Message" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
 </model>
 
