@@ -223,7 +223,7 @@
     <property role="EcuMT" value="3889923412177894677" />
     <property role="TrG5h" value="FormalRelations" />
     <property role="3GE5qa" value="Formalisation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3nVMbJilFOm" role="1TKVEi">
       <property role="IQ2ns" value="3889923412177894678" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -271,7 +271,7 @@
     <property role="EcuMT" value="3889923412177894705" />
     <property role="3GE5qa" value="Formalisation" />
     <property role="TrG5h" value="TermRelation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3nVMbJilFOM" role="1TKVEl">
       <property role="IQ2nx" value="3889923412177894706" />
       <property role="TrG5h" value="src_min" />
@@ -309,7 +309,7 @@
     <property role="34LRSv" value="show" />
     <property role="R4oN_" value="Additional terms to show as context" />
     <property role="3GE5qa" value="Context" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="47_$PnZMiQT" role="1TKVEi">
       <property role="IQ2ns" value="4748363379704933817" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -322,7 +322,7 @@
     <property role="EcuMT" value="4748363379704933819" />
     <property role="3GE5qa" value="Context" />
     <property role="TrG5h" value="ContextReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="47_$PnZQx6h" role="1TKVEi">
       <property role="IQ2ns" value="4748363379706040721" />
       <property role="20kJfa" value="target" />
@@ -362,7 +362,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="scenario" />
     <property role="3GE5qa" value="Scenarios" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="w9Ng_TsB78" role="1TKVEi">
       <property role="IQ2ns" value="579219467669762504" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -385,7 +385,7 @@
     <property role="EcuMT" value="579219467669762509" />
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="Message" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

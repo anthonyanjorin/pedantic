@@ -147,7 +147,7 @@
       <property role="TrG5h" value="mps_home" />
     </node>
     <node concept="2sgV4H" id="5Q23RPTxrzg" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" />
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="5Q23RPTxrzh" role="2JcizS">
         <ref role="398BVh" node="5Q23RPTxrzf" resolve="mps_home" />
       </node>
@@ -429,15 +429,15 @@
         </node>
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
-        <node concept="3Mxwew" id="w9Ng_TsNAs" role="3MwsjC">
-          <property role="3MwjfP" value="1.13" />
+        <node concept="3Mxwew" id="w9Ng_Tw34r" role="3MwsjC">
+          <property role="3MwjfP" value="1.14" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
         <ref role="m$f5T" node="5Q23RPTxrz$" resolve="pedantic" />
       </node>
       <node concept="m$_yC" id="5Q23RPTxrzF" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="5Q23RPTxrBJ" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5lGJ4TajoV9" resolve="jetbrains.mps.ide.migration.workbench" />
