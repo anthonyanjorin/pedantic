@@ -430,7 +430,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="7MTUMX1dFDm" role="3MwsjC">
-          <property role="3MwjfP" value="1.18" />
+          <property role="3MwjfP" value="1.19" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -526,6 +526,26 @@
         <node concept="1SiIV0" id="5Q23RPTxrGU" role="3bR37C">
           <node concept="1Busua" id="5Q23RPTxrGV" role="1SiIV1">
             <ref role="1Busuk" node="5Q23RPTxrzt" resolve="plantmps" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="q7KOLdLtwy" role="3bR31x">
+          <node concept="3LXTmp" id="q7KOLdLtwz" role="3rtmxm">
+            <node concept="55IIr" id="q7KOLdLtw$" role="3LXTmr">
+              <node concept="2Ry0Ak" id="q7KOLdLtw_" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="q7KOLdLtwA" role="2Ry0An">
+                  <property role="2Ry0Am" value="pedantic" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="q7KOLdLtwC" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="q7KOLdLtyf" role="3bR37C">
+          <node concept="3bR9La" id="q7KOLdLtyg" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
       </node>

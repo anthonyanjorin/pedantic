@@ -25,6 +25,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -187,27 +188,7 @@
     <property role="34LRSv" value="domain" />
     <property role="R4oN_" value="Container for terms" />
     <property role="3GE5qa" value="Terms" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="47_$Po0njzp" role="1TKVEl">
-      <property role="IQ2nx" value="4748363379714635993" />
-      <property role="TrG5h" value="url" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="47_$Po0zT8P" role="1TKVEl">
-      <property role="IQ2nx" value="4748363379717935669" />
-      <property role="TrG5h" value="author" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="47_$Po0zT8S" role="1TKVEl">
-      <property role="IQ2nx" value="4748363379717935672" />
-      <property role="TrG5h" value="source" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="47_$Po0zT8W" role="1TKVEl">
-      <property role="IQ2nx" value="4748363379717935676" />
-      <property role="TrG5h" value="version" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
+    <ref role="1TJDcQ" node="7MTUMX1e36k" resolve="Publishable" />
     <node concept="PrWs8" id="4h$8nEbv$Z1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -369,7 +350,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="scenario" />
     <property role="3GE5qa" value="Scenarios" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="7MTUMX1e36k" resolve="Publishable" />
     <node concept="1TJgyj" id="w9Ng_TsB78" role="1TKVEi">
       <property role="IQ2ns" value="579219467669762504" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -405,14 +386,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="from" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4h$8nEbv_ei" resolve="TermReference" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
     </node>
     <node concept="1TJgyj" id="7MTUMX1blZX" role="1TKVEi">
       <property role="IQ2ns" value="8987473119584018429" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="to" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4h$8nEbv_ei" resolve="TermReference" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
     </node>
     <node concept="1TJgyj" id="7MTUMX1bm07" role="1TKVEi">
       <property role="IQ2ns" value="8987473119584018439" />
@@ -455,7 +436,50 @@
     <property role="TrG5h" value="Service" />
     <property role="34LRSv" value="services" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="q7KOLdGLCg" role="1TKVEi">
+      <property role="IQ2ns" value="470559418572020240" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
+    </node>
     <node concept="PrWs8" id="7MTUMX1bm0n" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7MTUMX1e36k">
+    <property role="EcuMT" value="8987473119584727444" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="Publishable" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="7MTUMX1e36n" role="1TKVEl">
+      <property role="IQ2nx" value="8987473119584727447" />
+      <property role="TrG5h" value="url" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7MTUMX1e36o" role="1TKVEl">
+      <property role="IQ2nx" value="8987473119584727448" />
+      <property role="TrG5h" value="author" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7MTUMX1e36p" role="1TKVEl">
+      <property role="IQ2nx" value="8987473119584727449" />
+      <property role="TrG5h" value="source" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="q7KOLdIEa_">
+    <property role="EcuMT" value="470559418572513957" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="Instance" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="q7KOLdIEaE" role="1TKVEi">
+      <property role="IQ2ns" value="470559418572513962" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
+    </node>
+    <node concept="PrWs8" id="q7KOLdIEaC" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
