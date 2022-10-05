@@ -55,6 +55,9 @@
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
+      <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
+        <reference id="8401916545537438643" name="kind" index="1dDu$A" />
+      </concept>
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
@@ -163,6 +166,16 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="q7KOLdVjIS">
+    <property role="3GE5qa" value="Scenarios" />
+    <ref role="1M2myG" to="3ido:q7KOLdIEa_" resolve="Instance" />
+    <node concept="1N5Pfh" id="q7KOLdVjIT" role="1Mr941">
+      <ref role="1N5Vy1" to="3ido:q7KOLdIEaE" resolve="type" />
+      <node concept="1dDu$B" id="q7KOLdVjLp" role="1N6uqs">
+        <ref role="1dDu$A" to="3ido:w9Ng_TsB7d" resolve="Message" />
       </node>
     </node>
   </node>

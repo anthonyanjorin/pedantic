@@ -395,12 +395,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
     </node>
-    <node concept="1TJgyj" id="7MTUMX1bm07" role="1TKVEi">
-      <property role="IQ2ns" value="8987473119584018439" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="description" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
+    <node concept="PrWs8" id="q7KOLdVk08" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="q7KOLeiwcm" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MTUMX1blZL">
