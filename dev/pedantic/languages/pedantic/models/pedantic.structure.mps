@@ -372,15 +372,9 @@
   <node concept="1TIwiD" id="w9Ng_TsB7d">
     <property role="EcuMT" value="579219467669762509" />
     <property role="3GE5qa" value="Scenarios" />
-    <property role="TrG5h" value="Message" />
-    <property role="34LRSv" value="message" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7MTUMX1bm0s" role="1TKVEi">
-      <property role="IQ2ns" value="8987473119584018460" />
-      <property role="20kJfa" value="service" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
-    </node>
+    <property role="TrG5h" value="SendReceiveMessage" />
+    <property role="34LRSv" value="send to receiver" />
+    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
     <node concept="1TJgyj" id="7MTUMX1blZV" role="1TKVEi">
       <property role="IQ2ns" value="8987473119584018427" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -394,12 +388,6 @@
       <property role="20kJfa" value="to" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
-    </node>
-    <node concept="PrWs8" id="q7KOLdVk08" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="PrWs8" id="q7KOLeiwcm" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MTUMX1blZL">
@@ -420,7 +408,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="messages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="w9Ng_TsB7d" resolve="Message" />
+      <ref role="20lvS9" node="q7KOLemFL4" resolve="Message" />
     </node>
     <node concept="PrWs8" id="7MTUMX1blZM" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -480,6 +468,36 @@
     </node>
     <node concept="PrWs8" id="q7KOLdIEaC" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="q7KOLemFL4">
+    <property role="EcuMT" value="470559418583006276" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="Message" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="q7KOLenVwU" role="1TKVEi">
+      <property role="IQ2ns" value="470559418583332922" />
+      <property role="20kJfa" value="service" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
+    </node>
+    <node concept="PrWs8" id="q7KOLenXKD" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="q7KOLemFL7">
+    <property role="EcuMT" value="470559418583006279" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="SelfMessage" />
+    <property role="34LRSv" value="send to self" />
+    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
+    <node concept="1TJgyj" id="q7KOLemFL8" role="1TKVEi">
+      <property role="IQ2ns" value="470559418583006280" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="self" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
     </node>
   </node>
 </model>

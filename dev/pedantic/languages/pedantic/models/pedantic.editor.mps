@@ -873,7 +873,7 @@
   </node>
   <node concept="24kQdi" id="q7KOLdFICD">
     <property role="3GE5qa" value="Scenarios" />
-    <ref role="1XX52x" to="3ido:w9Ng_TsB7d" resolve="Message" />
+    <ref role="1XX52x" to="3ido:w9Ng_TsB7d" resolve="SendReceiveMessage" />
     <node concept="3EZMnI" id="q7KOLdFICF" role="2wV5jI">
       <node concept="3F0ifn" id="q7KOLdFICP" role="3EZMnx">
         <property role="3F0ifm" value="Message from" />
@@ -900,7 +900,7 @@
         <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
       </node>
       <node concept="1iCGBv" id="q7KOLdFIDI" role="3EZMnx">
-        <ref role="1NtTu8" to="3ido:7MTUMX1bm0s" resolve="service" />
+        <ref role="1NtTu8" to="3ido:q7KOLenVwU" resolve="service" />
         <node concept="1sVBvm" id="q7KOLdFIDK" role="1sWHZn">
           <node concept="3F0A7n" id="q7KOLdFIDW" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -937,7 +937,9 @@
         <node concept="11L4FC" id="q7KOLdIVaH" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="11LMrY" id="q7KOLdIVaN" role="3F10Kt" />
+        <node concept="11LMrY" id="q7KOLdIVaN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="1iCGBv" id="q7KOLdIEba" role="3EZMnx">
         <ref role="1NtTu8" to="3ido:q7KOLdIEaE" resolve="type" />
@@ -950,6 +952,50 @@
         </node>
       </node>
       <node concept="l2Vlx" id="q7KOLdIEaS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="q7KOLeo219">
+    <property role="3GE5qa" value="Scenarios" />
+    <ref role="1XX52x" to="3ido:q7KOLemFL7" resolve="SelfMessage" />
+    <node concept="3EZMnI" id="q7KOLeo21b" role="2wV5jI">
+      <node concept="3F0ifn" id="q7KOLeo21c" role="3EZMnx">
+        <property role="3F0ifm" value="Message from" />
+        <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
+      </node>
+      <node concept="3F1sOY" id="q7KOLeo21d" role="3EZMnx">
+        <ref role="1NtTu8" to="3ido:q7KOLemFL8" resolve="self" />
+        <node concept="VSNWy" id="q7KOLeo21e" role="3F10Kt">
+          <property role="1lJzqX" value="10" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="q7KOLeo21f" role="3EZMnx">
+        <property role="3F0ifm" value="to itself, requesting" />
+        <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
+      </node>
+      <node concept="1iCGBv" id="q7KOLeo21j" role="3EZMnx">
+        <ref role="1NtTu8" to="3ido:q7KOLenVwU" resolve="service" />
+        <node concept="1sVBvm" id="q7KOLeo21k" role="1sWHZn">
+          <node concept="3F0A7n" id="q7KOLeo21l" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="5B3sq7DIIhO" resolve="Reference" />
+            <node concept="VSNWy" id="q7KOLeo21m" role="3F10Kt">
+              <property role="1lJzqX" value="10" />
+            </node>
+          </node>
+        </node>
+        <node concept="VSNWy" id="q7KOLeo21n" role="3F10Kt">
+          <property role="1lJzqX" value="10" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="q7KOLeo21o" role="3EZMnx">
+        <property role="3F0ifm" value="(...)" />
+        <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
+        <node concept="11L4FC" id="q7KOLeo21p" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="q7KOLeo21q" role="2iSdaV" />
     </node>
   </node>
 </model>
