@@ -375,6 +375,12 @@
     <property role="TrG5h" value="SendReceiveMessage" />
     <property role="34LRSv" value="send to receiver" />
     <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
+    <node concept="1TJgyj" id="q7KOLfavh8" role="1TKVEi">
+      <property role="IQ2ns" value="470559418596586568" />
+      <property role="20kJfa" value="service" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
+    </node>
     <node concept="1TJgyj" id="7MTUMX1blZV" role="1TKVEi">
       <property role="IQ2ns" value="8987473119584018427" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -476,12 +482,6 @@
     <property role="TrG5h" value="Message" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="q7KOLenVwU" role="1TKVEi">
-      <property role="IQ2ns" value="470559418583332922" />
-      <property role="20kJfa" value="service" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
-    </node>
     <node concept="PrWs8" id="q7KOLenXKD" role="PzmwI">
       <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
     </node>
@@ -492,12 +492,30 @@
     <property role="TrG5h" value="SelfMessage" />
     <property role="34LRSv" value="send to self" />
     <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
+    <node concept="1TJgyj" id="q7KOLfavh5" role="1TKVEi">
+      <property role="IQ2ns" value="470559418596586565" />
+      <property role="20kJfa" value="service" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
+    </node>
     <node concept="1TJgyj" id="q7KOLemFL8" role="1TKVEi">
       <property role="IQ2ns" value="470559418583006280" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="self" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="q7KOLf7vlC">
+    <property role="EcuMT" value="470559418595800424" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="Note" />
+    <property role="34LRSv" value="note" />
+    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
+    <node concept="1TJgyi" id="q7KOLf7vx$" role="1TKVEl">
+      <property role="IQ2nx" value="470559418595801188" />
+      <property role="TrG5h" value="content" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

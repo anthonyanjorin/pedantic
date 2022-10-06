@@ -21,11 +21,12 @@
       <concept id="4748363379704933819" name="pedantic.structure.ContextReference" flags="ng" index="2YbbVI">
         <reference id="4748363379706040721" name="target" index="2YfSb4" />
       </concept>
-      <concept id="470559418583006276" name="pedantic.structure.Message" flags="ng" index="18RnW8">
-        <reference id="470559418583332922" name="service" index="18Q7HQ" />
-      </concept>
       <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="470559418596586565" name="service" index="19Fzs9" />
         <child id="470559418583006280" name="self" index="18RnW4" />
+      </concept>
+      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
+        <property id="470559418595801188" name="content" index="19AzGC" />
       </concept>
       <concept id="470559418572513957" name="pedantic.structure.Instance" flags="ng" index="1bfm7D">
         <reference id="470559418572513962" name="type" index="1bfm7A" />
@@ -60,6 +61,7 @@
         <child id="579219467669762506" name="sequences" index="1LuVN3" />
       </concept>
       <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
+        <reference id="470559418596586568" name="service" index="19Fzs4" />
         <child id="8987473119584018429" name="to" index="X_bji" />
         <child id="8987473119584018427" name="from" index="X_bjk" />
       </concept>
@@ -173,22 +175,22 @@
     <property role="TrG5h" value="Foo" />
     <node concept="X_bju" id="q7KOLeplGA" role="1LuVN3">
       <property role="TrG5h" value="S" />
-      <node concept="18RnWb" id="q7KOLepmxP" role="X_bjp">
-        <ref role="18Q7HQ" node="q7KOLeplGs" resolve="s12" />
-        <node concept="1bfm7D" id="q7KOLepmxR" role="18RnW4">
-          <property role="TrG5h" value="a" />
-          <ref role="1bfm7A" node="q7KOLelXxy" resolve="Term1" />
+      <node concept="18RnWb" id="q7KOLff9Tn" role="X_bjp">
+        <ref role="19Fzs9" node="q7KOLesuTB" resolve="base1" />
+        <node concept="1bfm7D" id="q7KOLff9Tp" role="18RnW4">
+          <ref role="1bfm7A" node="q7KOLesuTg" resolve="Base" />
         </node>
       </node>
-      <node concept="1LuVN4" id="q7KOLepmxZ" role="X_bjp">
-        <ref role="18Q7HQ" node="q7KOLeplGx" resolve="s22" />
-        <node concept="1bfm7D" id="q7KOLepmy1" role="X_bjk">
-          <property role="TrG5h" value="a" />
-          <ref role="1bfm7A" node="q7KOLelXxy" resolve="Term1" />
+      <node concept="19Azo$" id="q7KOLff9Tx" role="X_bjp">
+        <property role="19AzGC" value="Now the problem happens..." />
+      </node>
+      <node concept="1LuVN4" id="q7KOLff9TF" role="X_bjp">
+        <ref role="19Fzs4" node="q7KOLeplGv" resolve="s21" />
+        <node concept="1bfm7D" id="q7KOLff9TH" role="X_bjk">
+          <ref role="1bfm7A" node="q7KOLesuTg" resolve="Base" />
         </node>
-        <node concept="1bfm7D" id="q7KOLepmy3" role="X_bji">
-          <property role="TrG5h" value="b" />
-          <ref role="1bfm7A" node="q7KOLeM8ZE" resolve="Term4" />
+        <node concept="1bfm7D" id="q7KOLff9TJ" role="X_bji">
+          <ref role="1bfm7A" node="q7KOLelXxE" resolve="Term2" />
         </node>
       </node>
       <node concept="3f6AUQ" id="q7KOLeplGB" role="X_bjr" />
