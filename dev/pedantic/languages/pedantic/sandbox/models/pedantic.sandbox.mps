@@ -25,6 +25,9 @@
         <reference id="470559418596586565" name="service" index="19Fzs9" />
         <child id="470559418583006280" name="self" index="18RnW4" />
       </concept>
+      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
+        <child id="7161014301860983851" name="desc" index="1YyRMU" />
+      </concept>
       <concept id="470559418572513957" name="pedantic.structure.Instance" flags="ng" index="1bfm7D">
         <reference id="470559418572513962" name="type" index="1bfm7A" />
       </concept>
@@ -124,6 +127,28 @@
         <ref role="19Fzs9" node="6dx294uiLZA" resolve="asdfasdf" />
         <node concept="1bfm7D" id="6dx294uiLZy" role="18RnW4">
           <ref role="1bfm7A" node="6dx294sXnRX" resolve="One" />
+        </node>
+      </node>
+      <node concept="19Azo$" id="6dx294utT_v" role="X_bjp">
+        <node concept="3f6AUQ" id="6dx294utT_x" role="1YyRMU">
+          <node concept="3fT77D" id="6dx294utT_B" role="3f6BbQ">
+            <property role="3fT77I" value="hjkh" />
+          </node>
+          <node concept="3fT77D" id="6dx294utT_D" role="3f6BbQ">
+            <property role="3fT77I" value="kjh" />
+          </node>
+          <node concept="3fT77D" id="6dx294utT_G" role="3f6BbQ">
+            <property role="3fT77I" value="kh" />
+          </node>
+          <node concept="3fT77D" id="6dx294utT_K" role="3f6BbQ">
+            <property role="3fT77I" value="jkh" />
+          </node>
+          <node concept="3fT77D" id="6dx294utT_P" role="3f6BbQ">
+            <property role="3fT77I" value="kj" />
+          </node>
+          <node concept="3f6BbC" id="6dx294utTA2" role="3f6BbQ">
+            <ref role="3f6BbD" node="6dx294ujFcC" resolve="Four" />
+          </node>
         </node>
       </node>
       <node concept="3f6AUQ" id="6dx294uiLZr" role="X_bjr" />
