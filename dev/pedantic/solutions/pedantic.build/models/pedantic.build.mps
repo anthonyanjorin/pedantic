@@ -429,8 +429,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
-        <node concept="3Mxwew" id="6dx294tOO4j" role="3MwsjC">
-          <property role="3MwjfP" value="2.0" />
+        <node concept="3Mxwew" id="6dx294unFpD" role="3MwsjC">
+          <property role="3MwjfP" value="2.1" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -460,9 +460,9 @@
     <node concept="2G$12M" id="5Q23RPTxrz$" role="3989C9">
       <property role="TrG5h" value="pedantic" />
       <node concept="1E1JtD" id="5Q23RPTxrzn" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="pedantic" />
         <property role="3LESm3" value="1ef906aa-9948-4d71-9acf-933538b34ecf" />
+        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="5Q23RPTxrzi" role="3LF7KH">
           <node concept="2Ry0Ak" id="5Q23RPTxrzj" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -546,6 +546,11 @@
         <node concept="1SiIV0" id="q7KOLdLtyf" role="3bR37C">
           <node concept="3bR9La" id="q7KOLdLtyg" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6dx294uqaAM" role="3bR37C">
+          <node concept="3bR9La" id="6dx294uqaAN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
       </node>
