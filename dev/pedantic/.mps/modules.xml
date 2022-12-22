@@ -3,7 +3,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/pedantic/pedantic.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/pedantic/sandbox/pedantic.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/plantmps/plantmps.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/pedantic.build/pedantic.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/plantmps.plugin/plantmps.plugin.msd" folder="" />

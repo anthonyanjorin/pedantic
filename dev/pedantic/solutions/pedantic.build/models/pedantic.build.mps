@@ -429,8 +429,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
-        <node concept="3Mxwew" id="6dx294unFpD" role="3MwsjC">
-          <property role="3MwjfP" value="2.1" />
+        <node concept="3Mxwew" id="7YN1vGY_600" role="3MwsjC">
+          <property role="3MwjfP" value="2.2" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -551,6 +551,21 @@
         <node concept="1SiIV0" id="6dx294uqaAM" role="3bR37C">
           <node concept="3bR9La" id="6dx294uqaAN" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7YN1vGYxXQL" role="3bR37C">
+          <node concept="3bR9La" id="7YN1vGYxXQM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7YN1vGYMuRG" role="3bR37C">
+          <node concept="3bR9La" id="7YN1vGYMuRH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7YN1vGYMuRI" role="3bR37C">
+          <node concept="3bR9La" id="7YN1vGYMuRJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8q" resolve="jetbrains.mps.lang.pattern" />
           </node>
         </node>
       </node>

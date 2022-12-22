@@ -2585,9 +2585,7 @@
         <node concept="3cpWs8" id="2NkPjc5D$Md" role="3cqZAp">
           <node concept="3cpWsn" id="2NkPjc5D$Mc" role="3cpWs9">
             <property role="TrG5h" value="parser" />
-            <node concept="3uibUv" id="2NkPjc5D$Me" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-            </node>
+            <node concept="17QB3L" id="7YN1vGXUhx8" role="1tU5fm" />
             <node concept="2YIFZM" id="2NkPjc5D$R9" role="33vP2m">
               <ref role="1Pybhc" to="e373:~XMLResourceDescriptor" resolve="XMLResourceDescriptor" />
               <ref role="37wK5l" to="e373:~XMLResourceDescriptor.getXMLParserClassName()" resolve="getXMLParserClassName" />
