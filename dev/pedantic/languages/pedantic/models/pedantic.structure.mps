@@ -413,7 +413,7 @@
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="Sequence" />
     <property role="34LRSv" value="sequence" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7MTUMX1blZO" role="1TKVEi">
       <property role="IQ2ns" value="8987473119584018420" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -440,7 +440,7 @@
     <property role="3GE5qa" value="Terms" />
     <property role="TrG5h" value="Service" />
     <property role="34LRSv" value="services" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="q7KOLdGLCg" role="1TKVEi">
       <property role="IQ2ns" value="470559418572020240" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -456,7 +456,7 @@
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="Publishable" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7MTUMX1e36n" role="1TKVEl">
       <property role="IQ2nx" value="8987473119584727447" />
       <property role="TrG5h" value="url" />
@@ -477,7 +477,7 @@
     <property role="EcuMT" value="470559418572513957" />
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="Instance" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="q7KOLdIEaE" role="1TKVEi">
       <property role="IQ2ns" value="470559418572513962" />
       <property role="20kJfa" value="type" />
@@ -493,7 +493,7 @@
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="Message" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="q7KOLenXKD" role="PzmwI">
       <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
     </node>
@@ -561,7 +561,7 @@
     <property role="TrG5h" value="ReportItem" />
     <property role="3GE5qa" value="Reports" />
     <property role="34LRSv" value="space" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6dx294u700s">
     <property role="EcuMT" value="7161014301864230940" />
