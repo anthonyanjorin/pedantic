@@ -19,7 +19,6 @@
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -55,7 +54,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -530,12 +528,6 @@
       <property role="20kJfa" value="desc" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
-    </node>
-    <node concept="1TJgyi" id="q7KOLf7vx$" role="1TKVEl">
-      <property role="IQ2nx" value="470559418595801188" />
-      <property role="TrG5h" value="content" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="6dx294u4Vtc" role="lGtFl" />
     </node>
   </node>
   <node concept="1TIwiD" id="6dx294u700o">

@@ -1012,14 +1012,6 @@
           <property role="1lJzqX" value="10" />
         </node>
       </node>
-      <node concept="3F0A7n" id="q7KOLf7vxQ" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <property role="39s7Ar" value="true" />
-        <ref role="1NtTu8" to="3ido:q7KOLf7vx$" resolve="content" />
-        <node concept="VSNWy" id="q7KOLff9TR" role="3F10Kt">
-          <property role="1lJzqX" value="10" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6dx294u716X">

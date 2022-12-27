@@ -111,7 +111,6 @@
       <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
         <child id="763829979718664967" name="files" index="3rtmxm" />
       </concept>
-      <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -125,9 +124,7 @@
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
-      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
-        <child id="9200313594498201639" name="generator" index="1TViLv" />
-      </concept>
+      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -430,7 +427,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="7r8tDkLc_um" role="3MwsjC">
-          <property role="3MwjfP" value="2.4" />
+          <property role="3MwjfP" value="2.7" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -462,7 +459,6 @@
       <node concept="1E1JtD" id="5Q23RPTxrzn" role="2G$12L">
         <property role="TrG5h" value="pedantic" />
         <property role="3LESm3" value="1ef906aa-9948-4d71-9acf-933538b34ecf" />
-        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="5Q23RPTxrzi" role="3LF7KH">
           <node concept="2Ry0Ak" id="5Q23RPTxrzj" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -582,37 +578,8 @@
             </node>
           </node>
         </node>
-        <node concept="1yeLz9" id="5Q23RPTxr$h" role="1TViLv">
-          <property role="TrG5h" value="plantmps.generator" />
-          <property role="3LESm3" value="36097dde-d8bb-4950-8fc7-7dd6bdfbb8bf" />
-          <node concept="1BupzO" id="5Q23RPTxr$n" role="3bR31x">
-            <property role="3ZfqAx" value="generator/templates" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="5Q23RPTxr$o" role="1HemKq">
-              <node concept="55IIr" id="5Q23RPTxr$i" role="3LXTmr">
-                <node concept="2Ry0Ak" id="5Q23RPTxr$j" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="5Q23RPTxr$k" role="2Ry0An">
-                    <property role="2Ry0Am" value="plantmps" />
-                    <node concept="2Ry0Ak" id="5Q23RPTxr$l" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="5Q23RPTxr$m" role="2Ry0An">
-                        <property role="2Ry0Am" value="templates" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="5Q23RPTxr$p" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="1E1JtA" id="5Q23RPTxrzz" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="plantmps.plugin" />
         <property role="3LESm3" value="beaed0c8-33f4-4fee-b915-08ae3bf43b28" />
         <node concept="55IIr" id="5Q23RPTxrzu" role="3LF7KH">
