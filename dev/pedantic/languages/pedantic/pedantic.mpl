@@ -11,33 +11,6 @@
     </facet>
   </facets>
   <accessoryModels />
-  <generators>
-    <generator alias="main" namespace="pedantic.generator" uuid="5fb8dd6f-c761-457e-834d-4787b6865536">
-      <models>
-        <modelRoot contentPath="${module}/generator" type="default">
-          <sourceRoot location="templates" />
-        </modelRoot>
-      </models>
-      <facets>
-        <facet type="java">
-          <classes generated="true" path="${module}/generator/classes_gen" />
-        </facet>
-      </facets>
-      <external-templates />
-      <languageVersions />
-      <dependencyVersions>
-        <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-        <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
-        <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-        <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
-        <module reference="5fb8dd6f-c761-457e-834d-4787b6865536(pedantic.generator)" version="0" />
-        <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)" version="0" />
-      </dependencyVersions>
-      <mapping-priorities />
-    </generator>
-  </generators>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>

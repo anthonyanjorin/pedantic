@@ -495,34 +495,6 @@
             </node>
           </node>
         </node>
-        <node concept="1yeLz9" id="5Q23RPTxrzZ" role="1TViLv">
-          <property role="TrG5h" value="pedantic.generator" />
-          <property role="3LESm3" value="5fb8dd6f-c761-457e-834d-4787b6865536" />
-          <node concept="1BupzO" id="5Q23RPTxr$5" role="3bR31x">
-            <property role="3ZfqAx" value="generator/templates" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="5Q23RPTxr$6" role="1HemKq">
-              <node concept="55IIr" id="5Q23RPTxr$0" role="3LXTmr">
-                <node concept="2Ry0Ak" id="5Q23RPTxr$1" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="5Q23RPTxr$2" role="2Ry0An">
-                    <property role="2Ry0Am" value="pedantic" />
-                    <node concept="2Ry0Ak" id="5Q23RPTxr$3" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="5Q23RPTxr$4" role="2Ry0An">
-                        <property role="2Ry0Am" value="templates" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="5Q23RPTxr$7" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="5Q23RPTxrGU" role="3bR37C">
           <node concept="1Busua" id="5Q23RPTxrGV" role="1SiIV1">
             <ref role="1Busuk" node="5Q23RPTxrzt" resolve="plantmps" />
