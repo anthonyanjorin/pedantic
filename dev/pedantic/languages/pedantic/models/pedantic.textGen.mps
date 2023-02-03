@@ -10,8 +10,8 @@
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="lsyl" ref="r:d58c41ef-2ace-4af3-a5dc-b2dd0237a31c(plantmps.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -179,20 +179,6 @@
     </node>
     <node concept="11bSqf" id="47_$Po02l42" role="11c4hB">
       <node concept="3clFbS" id="47_$Po02l43" role="2VODD2">
-        <node concept="lc7rE" id="47_$Po02l51" role="3cqZAp">
-          <node concept="la8eA" id="47_$Po02l5l" role="lcghm">
-            <property role="lacIc" value="# " />
-          </node>
-          <node concept="l9hG8" id="47_$Po02mm0" role="lcghm">
-            <node concept="2OqwBi" id="47_$Po02mvc" role="lb14g">
-              <node concept="117lpO" id="47_$Po02mmO" role="2Oq$k0" />
-              <node concept="3TrcHB" id="47_$Po02mCp" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="l8MVK" id="47_$Po02mHu" role="lcghm" />
-        </node>
         <node concept="lc7rE" id="47_$Po02mKy" role="3cqZAp">
           <node concept="l9hG8" id="47_$Po02mLe" role="lcghm">
             <node concept="2OqwBi" id="47_$Po02mUq" role="lb14g">
@@ -783,20 +769,6 @@
     </node>
     <node concept="11bSqf" id="6dx294tGv7R" role="11c4hB">
       <node concept="3clFbS" id="6dx294tGv7S" role="2VODD2">
-        <node concept="lc7rE" id="6dx294tGvcX" role="3cqZAp">
-          <node concept="la8eA" id="6dx294tGvcY" role="lcghm">
-            <property role="lacIc" value="# " />
-          </node>
-          <node concept="l9hG8" id="6dx294tGvcZ" role="lcghm">
-            <node concept="2OqwBi" id="6dx294tGvd0" role="lb14g">
-              <node concept="117lpO" id="6dx294tGvd1" role="2Oq$k0" />
-              <node concept="3TrcHB" id="6dx294tGvd2" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="l8MVK" id="6dx294tGvd3" role="lcghm" />
-        </node>
         <node concept="lc7rE" id="6dx294tGvd4" role="3cqZAp">
           <node concept="l9hG8" id="6dx294tGvd5" role="lcghm">
             <node concept="2OqwBi" id="6dx294tGvd6" role="lb14g">
@@ -977,21 +949,6 @@
     </node>
     <node concept="11bSqf" id="6dx294uhGXw" role="11c4hB">
       <node concept="3clFbS" id="6dx294uhGXx" role="2VODD2">
-        <node concept="lc7rE" id="6dx294uhGYj" role="3cqZAp">
-          <node concept="la8eA" id="6dx294uhGYk" role="lcghm">
-            <property role="lacIc" value="# " />
-          </node>
-          <node concept="l9hG8" id="6dx294uhGYl" role="lcghm">
-            <node concept="2OqwBi" id="6dx294uhGYm" role="lb14g">
-              <node concept="117lpO" id="6dx294uhGYn" role="2Oq$k0" />
-              <node concept="3TrcHB" id="6dx294uhGYo" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="l8MVK" id="6dx294uhGYp" role="lcghm" />
-        </node>
-        <node concept="3clFbH" id="6dx294uhH68" role="3cqZAp" />
         <node concept="lc7rE" id="6dx294uiiEK" role="3cqZAp">
           <node concept="l9S2W" id="6dx294uiiFA" role="lcghm">
             <node concept="2OqwBi" id="6dx294uiiOP" role="lbANJ">
