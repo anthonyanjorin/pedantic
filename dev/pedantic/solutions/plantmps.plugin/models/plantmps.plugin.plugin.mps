@@ -16,6 +16,7 @@
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
@@ -55,7 +56,8 @@
     <import index="jtsr" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.project(MPS.OpenAPI/)" />
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
-    <import index="lhjl" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:org.w3c.dom(JDK/)" implicit="true" />
+    <import index="lhjl" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:org.w3c.dom(JDK/)" />
+    <import index="jlyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.filechooser(JDK/)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -310,9 +312,11 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="5351203823916832286" name="jetbrains.mps.baseLanguage.structure.ResourceVariable" flags="ng" index="3J1hQo" />
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+        <child id="5351203823916750334" name="resource" index="3J1_TS" />
       </concept>
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
@@ -1046,7 +1050,7 @@
         <node concept="3clFbH" id="HFis1KkuIy" role="3cqZAp" />
         <node concept="3cpWs8" id="HFis1Ki09g" role="3cqZAp">
           <node concept="3cpWsn" id="HFis1Ki09h" role="3cpWs9">
-            <property role="TrG5h" value="getPlantUMLCode" />
+            <property role="TrG5h" value="export" />
             <node concept="3uibUv" id="HFis1Ki09i" role="1tU5fm">
               <ref role="3uigEE" to="dxuu:~Action" resolve="Action" />
             </node>
@@ -1069,71 +1073,297 @@
                       </node>
                     </node>
                     <node concept="3clFbS" id="HFis1Ki764" role="3clF47">
-                      <node concept="3cpWs8" id="HFis1Kythn" role="3cqZAp">
-                        <node concept="3cpWsn" id="HFis1Kytho" role="3cpWs9">
-                          <property role="TrG5h" value="clip" />
-                          <node concept="3uibUv" id="HFis1Kythp" role="1tU5fm">
-                            <ref role="3uigEE" to="kt01:~Clipboard" resolve="Clipboard" />
+                      <node concept="3cpWs8" id="3DA2Tw6oBFO" role="3cqZAp">
+                        <node concept="3cpWsn" id="3DA2Tw6oBFN" role="3cpWs9">
+                          <property role="TrG5h" value="fileChooser" />
+                          <node concept="3uibUv" id="3DA2Tw6oBFP" role="1tU5fm">
+                            <ref role="3uigEE" to="dxuu:~JFileChooser" resolve="JFileChooser" />
                           </node>
-                          <node concept="2OqwBi" id="HFis1Kythq" role="33vP2m">
-                            <node concept="2YIFZM" id="HFis1Kythr" role="2Oq$k0">
-                              <ref role="37wK5l" to="z60i:~Toolkit.getDefaultToolkit()" resolve="getDefaultToolkit" />
-                              <ref role="1Pybhc" to="z60i:~Toolkit" resolve="Toolkit" />
-                            </node>
-                            <node concept="liA8E" id="HFis1Kyths" role="2OqNvi">
-                              <ref role="37wK5l" to="z60i:~Toolkit.getSystemClipboard()" resolve="getSystemClipboard" />
+                          <node concept="2ShNRf" id="3DA2Tw6oJRB" role="33vP2m">
+                            <node concept="1pGfFk" id="3DA2Tw6pwts" role="2ShVmc">
+                              <property role="373rjd" value="true" />
+                              <ref role="37wK5l" to="dxuu:~JFileChooser.&lt;init&gt;()" resolve="JFileChooser" />
                             </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="3cpWs8" id="HFis1Kytht" role="3cqZAp">
-                        <node concept="3cpWsn" id="HFis1Kythu" role="3cpWs9">
-                          <property role="TrG5h" value="selection" />
-                          <node concept="3uibUv" id="HFis1Kythv" role="1tU5fm">
-                            <ref role="3uigEE" to="kt01:~StringSelection" resolve="StringSelection" />
+                      <node concept="3clFbF" id="3DA2Tw6pB1L" role="3cqZAp">
+                        <node concept="2OqwBi" id="3DA2Tw6pCSD" role="3clFbG">
+                          <node concept="37vLTw" id="3DA2Tw6pB1J" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3DA2Tw6oBFN" resolve="fileChooser" />
                           </node>
-                          <node concept="2ShNRf" id="HFis1Kythw" role="33vP2m">
-                            <node concept="1pGfFk" id="HFis1Kythx" role="2ShVmc">
-                              <property role="373rjd" value="true" />
-                              <ref role="37wK5l" to="kt01:~StringSelection.&lt;init&gt;(java.lang.String)" resolve="StringSelection" />
-                              <node concept="2OqwBi" id="HFis1K$tp6" role="37wK5m">
-                                <node concept="2WthIp" id="HFis1K$sla" role="2Oq$k0">
-                                  <ref role="32nkFo" node="2NkPjc5imDc" resolve="SVGViewer" />
-                                </node>
-                                <node concept="2XshWL" id="HFis1K$uzf" role="2OqNvi">
-                                  <ref role="2WH_rO" node="2NkPjc5HhEX" resolve="getPlantUMLSource" />
+                          <node concept="liA8E" id="3DA2Tw6pDQ4" role="2OqNvi">
+                            <ref role="37wK5l" to="dxuu:~JFileChooser.setCurrentDirectory(java.io.File)" resolve="setCurrentDirectory" />
+                            <node concept="2ShNRf" id="3DA2Tw6pGJi" role="37wK5m">
+                              <node concept="1pGfFk" id="3DA2Tw6pSmb" role="2ShVmc">
+                                <property role="373rjd" value="true" />
+                                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                                <node concept="2YIFZM" id="3DA2Tw6pYXG" role="37wK5m">
+                                  <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String)" resolve="getProperty" />
+                                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                                  <node concept="Xl_RD" id="3DA2Tw6pZOB" role="37wK5m">
+                                    <property role="Xl_RC" value="user.home" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbF" id="HFis1KB_yi" role="3cqZAp">
-                        <node concept="2OqwBi" id="HFis1KBAqo" role="3clFbG">
-                          <node concept="2OqwBi" id="HFis1KB_Gf" role="2Oq$k0">
-                            <node concept="2WthIp" id="HFis1KB_yk" role="2Oq$k0">
-                              <ref role="32nkFo" node="2NkPjc5imDc" resolve="SVGViewer" />
+                      <node concept="3cpWs8" id="3DA2Tw6wf2J" role="3cqZAp">
+                        <node concept="3cpWsn" id="3DA2Tw6wf2M" role="3cpWs9">
+                          <property role="TrG5h" value="result" />
+                          <node concept="10Oyi0" id="3DA2Tw6wf2H" role="1tU5fm" />
+                          <node concept="2OqwBi" id="3DA2Tw6wo1D" role="33vP2m">
+                            <node concept="37vLTw" id="3DA2Tw6wmfF" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3DA2Tw6oBFN" resolve="fileChooser" />
                             </node>
-                            <node concept="2BZ7hE" id="HFis1KB_QS" role="2OqNvi">
-                              <ref role="2WH_rO" node="2NkPjc5q6B7" resolve="svgCanvas" />
+                            <node concept="liA8E" id="3DA2Tw6wpy1" role="2OqNvi">
+                              <ref role="37wK5l" to="dxuu:~JFileChooser.showSaveDialog(java.awt.Component)" resolve="showSaveDialog" />
+                              <node concept="37vLTw" id="3DA2Tw6wt3l" role="37wK5m">
+                                <ref role="3cqZAo" node="2NkPjc5qlfx" resolve="panel" />
+                              </node>
                             </node>
-                          </node>
-                          <node concept="liA8E" id="HFis1KBBlK" role="2OqNvi">
-                            <ref role="37wK5l" to="4anb:~JSVGComponent.getSVGDocument()" resolve="getSVGDocument" />
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbF" id="HFis1Kythz" role="3cqZAp">
-                        <node concept="2OqwBi" id="HFis1Kyth$" role="3clFbG">
-                          <node concept="37vLTw" id="HFis1Kyth_" role="2Oq$k0">
-                            <ref role="3cqZAo" node="HFis1Kytho" resolve="clip" />
-                          </node>
-                          <node concept="liA8E" id="HFis1KythA" role="2OqNvi">
-                            <ref role="37wK5l" to="kt01:~Clipboard.setContents(java.awt.datatransfer.Transferable,java.awt.datatransfer.ClipboardOwner)" resolve="setContents" />
-                            <node concept="37vLTw" id="HFis1KythB" role="37wK5m">
-                              <ref role="3cqZAo" node="HFis1Kythu" resolve="selection" />
+                      <node concept="3clFbH" id="3DA2Tw6wvbo" role="3cqZAp" />
+                      <node concept="3clFbJ" id="3DA2Tw6wy_Z" role="3cqZAp">
+                        <node concept="3clFbS" id="3DA2Tw6wyA1" role="3clFbx">
+                          <node concept="3cpWs8" id="3DA2Tw6wQjT" role="3cqZAp">
+                            <node concept="3cpWsn" id="3DA2Tw6wQjU" role="3cpWs9">
+                              <property role="TrG5h" value="toSave" />
+                              <node concept="3uibUv" id="3DA2Tw6wQjV" role="1tU5fm">
+                                <ref role="3uigEE" to="guwi:~File" resolve="File" />
+                              </node>
+                              <node concept="2OqwBi" id="3DA2Tw6x0eg" role="33vP2m">
+                                <node concept="37vLTw" id="3DA2Tw6wYxN" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3DA2Tw6oBFN" resolve="fileChooser" />
+                                </node>
+                                <node concept="liA8E" id="3DA2Tw6x1oC" role="2OqNvi">
+                                  <ref role="37wK5l" to="dxuu:~JFileChooser.getSelectedFile()" resolve="getSelectedFile" />
+                                </node>
+                              </node>
                             </node>
-                            <node concept="10Nm6u" id="HFis1KythC" role="37wK5m" />
+                          </node>
+                          <node concept="3J1_TO" id="3DA2Tw6y57k" role="3cqZAp">
+                            <node concept="3clFbS" id="3DA2Tw6y57m" role="1zxBo7">
+                              <node concept="3cpWs8" id="3DA2Tw6BAKS" role="3cqZAp">
+                                <node concept="3cpWsn" id="3DA2Tw6BAKT" role="3cpWs9">
+                                  <property role="TrG5h" value="reader" />
+                                  <node concept="3uibUv" id="3DA2Tw6BAKU" role="1tU5fm">
+                                    <ref role="3uigEE" to="81o:~SourceStringReader" resolve="SourceStringReader" />
+                                  </node>
+                                  <node concept="2ShNRf" id="3DA2Tw6BAKV" role="33vP2m">
+                                    <node concept="1pGfFk" id="3DA2Tw6BAKW" role="2ShVmc">
+                                      <ref role="37wK5l" to="81o:~SourceStringReader.&lt;init&gt;(java.lang.String)" resolve="SourceStringReader" />
+                                      <node concept="2OqwBi" id="3DA2Tw6BCM0" role="37wK5m">
+                                        <node concept="2WthIp" id="3DA2Tw6BCM1" role="2Oq$k0">
+                                          <ref role="32nkFo" node="2NkPjc5imDc" resolve="SVGViewer" />
+                                        </node>
+                                        <node concept="2BZ7hE" id="3DA2Tw6BCM2" role="2OqNvi">
+                                          <ref role="2WH_rO" node="2NkPjc5HcOT" resolve="plantUMLSource" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbJ" id="3DA2Tw6yCKI" role="3cqZAp">
+                                <node concept="3clFbS" id="3DA2Tw6yCKK" role="3clFbx">
+                                  <node concept="3clFbF" id="3DA2Tw6yX_z" role="3cqZAp">
+                                    <node concept="2OqwBi" id="3DA2Tw6yZ_1" role="3clFbG">
+                                      <node concept="37vLTw" id="3DA2Tw6yX_x" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3DA2Tw6y57n" resolve="outPrintWriter" />
+                                      </node>
+                                      <node concept="liA8E" id="3DA2Tw6z21O" role="2OqNvi">
+                                        <ref role="37wK5l" to="guwi:~OutputStream.write(byte[])" resolve="write" />
+                                        <node concept="2OqwBi" id="3DA2Tw6DOPe" role="37wK5m">
+                                          <node concept="2OqwBi" id="3DA2Tw6z6mK" role="2Oq$k0">
+                                            <node concept="2WthIp" id="3DA2Tw6z6mN" role="2Oq$k0">
+                                              <ref role="32nkFo" node="2NkPjc5imDc" resolve="SVGViewer" />
+                                            </node>
+                                            <node concept="2BZ7hE" id="3DA2Tw6z6mP" role="2OqNvi">
+                                              <ref role="2WH_rO" node="2NkPjc5HcOT" resolve="plantUMLSource" />
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="3DA2Tw6DRm6" role="2OqNvi">
+                                            <ref role="37wK5l" to="wyt6:~String.getBytes()" resolve="getBytes" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="3DA2Tw6yKNx" role="3clFbw">
+                                  <node concept="2OqwBi" id="3DA2Tw6yHVt" role="2Oq$k0">
+                                    <node concept="37vLTw" id="3DA2Tw6yFX3" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3DA2Tw6wQjU" resolve="toSave" />
+                                    </node>
+                                    <node concept="liA8E" id="3DA2Tw6yJtG" role="2OqNvi">
+                                      <ref role="37wK5l" to="guwi:~File.getPath()" resolve="getPath" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="3DA2Tw6yNRe" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                                    <node concept="Xl_RD" id="3DA2Tw6yQjb" role="37wK5m">
+                                      <property role="Xl_RC" value=".plantuml" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3eNFk2" id="3DA2Tw6$VWk" role="3eNLev">
+                                  <node concept="2OqwBi" id="3DA2Tw6_7gY" role="3eO9$A">
+                                    <node concept="2OqwBi" id="3DA2Tw6_3An" role="2Oq$k0">
+                                      <node concept="37vLTw" id="3DA2Tw6_1Ka" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3DA2Tw6wQjU" resolve="toSave" />
+                                      </node>
+                                      <node concept="liA8E" id="3DA2Tw6_608" role="2OqNvi">
+                                        <ref role="37wK5l" to="guwi:~File.getPath()" resolve="getPath" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="3DA2Tw6_9AV" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                                      <node concept="Xl_RD" id="3DA2Tw6_aP5" role="37wK5m">
+                                        <property role="Xl_RC" value=".png" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbS" id="3DA2Tw6$VWm" role="3eOfB_">
+                                    <node concept="3clFbF" id="3DA2Tw6BUbz" role="3cqZAp">
+                                      <node concept="2OqwBi" id="3DA2Tw6BWBs" role="3clFbG">
+                                        <node concept="37vLTw" id="3DA2Tw6BUby" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="3DA2Tw6BAKT" resolve="reader" />
+                                        </node>
+                                        <node concept="liA8E" id="3DA2Tw6BYu2" role="2OqNvi">
+                                          <ref role="37wK5l" to="81o:~SourceStringReader.outputImage(java.io.OutputStream,net.sourceforge.plantuml.FileFormatOption)" resolve="outputImage" />
+                                          <node concept="37vLTw" id="3DA2Tw6C1Jq" role="37wK5m">
+                                            <ref role="3cqZAo" node="3DA2Tw6y57n" resolve="out" />
+                                          </node>
+                                          <node concept="2ShNRf" id="3DA2Tw6CYcT" role="37wK5m">
+                                            <node concept="1pGfFk" id="3DA2Tw6CYcU" role="2ShVmc">
+                                              <ref role="37wK5l" to="81o:~FileFormatOption.&lt;init&gt;(net.sourceforge.plantuml.FileFormat)" resolve="FileFormatOption" />
+                                              <node concept="Rm8GO" id="3DA2Tw6EGA6" role="37wK5m">
+                                                <ref role="Rm8GQ" to="81o:~FileFormat.PNG" resolve="PNG" />
+                                                <ref role="1Px2BO" to="81o:~FileFormat" resolve="FileFormat" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3eNFk2" id="3DA2Tw6_dSn" role="3eNLev">
+                                  <node concept="2OqwBi" id="3DA2Tw6_u5W" role="3eO9$A">
+                                    <node concept="2OqwBi" id="3DA2Tw6_qTu" role="2Oq$k0">
+                                      <node concept="37vLTw" id="3DA2Tw6_jIt" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3DA2Tw6wQjU" resolve="toSave" />
+                                      </node>
+                                      <node concept="liA8E" id="3DA2Tw6_tkm" role="2OqNvi">
+                                        <ref role="37wK5l" to="guwi:~File.getPath()" resolve="getPath" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="3DA2Tw6_xaL" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
+                                      <node concept="Xl_RD" id="3DA2Tw6_yq2" role="37wK5m">
+                                        <property role="Xl_RC" value=".svg" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbS" id="3DA2Tw6_dSp" role="3eOfB_">
+                                    <node concept="3clFbF" id="3DA2Tw6CZZD" role="3cqZAp">
+                                      <node concept="2OqwBi" id="3DA2Tw6CZZF" role="3clFbG">
+                                        <node concept="37vLTw" id="3DA2Tw6CZZG" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="3DA2Tw6BAKT" resolve="reader" />
+                                        </node>
+                                        <node concept="liA8E" id="3DA2Tw6CZZH" role="2OqNvi">
+                                          <ref role="37wK5l" to="81o:~SourceStringReader.outputImage(java.io.OutputStream,net.sourceforge.plantuml.FileFormatOption)" resolve="outputImage" />
+                                          <node concept="37vLTw" id="3DA2Tw6CZZI" role="37wK5m">
+                                            <ref role="3cqZAo" node="3DA2Tw6y57n" resolve="out" />
+                                          </node>
+                                          <node concept="2ShNRf" id="3DA2Tw6CZZJ" role="37wK5m">
+                                            <node concept="1pGfFk" id="3DA2Tw6CZZK" role="2ShVmc">
+                                              <ref role="37wK5l" to="81o:~FileFormatOption.&lt;init&gt;(net.sourceforge.plantuml.FileFormat)" resolve="FileFormatOption" />
+                                              <node concept="Rm8GO" id="3DA2Tw6D1Pg" role="37wK5m">
+                                                <ref role="Rm8GQ" to="81o:~FileFormat.PNG" resolve="PNG" />
+                                                <ref role="1Px2BO" to="81o:~FileFormat" resolve="FileFormat" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="9aQIb" id="3DA2Tw6__xr" role="9aQIa">
+                                  <node concept="3clFbS" id="3DA2Tw6__xs" role="9aQI4">
+                                    <node concept="3clFbF" id="3DA2Tw6_P9l" role="3cqZAp">
+                                      <node concept="2YIFZM" id="3DA2Tw6_ZoP" role="3clFbG">
+                                        <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                                        <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)" resolve="showMessageDialog" />
+                                        <node concept="37vLTw" id="3DA2Tw6A3lC" role="37wK5m">
+                                          <ref role="3cqZAo" node="2NkPjc5qlfx" resolve="panel" />
+                                        </node>
+                                        <node concept="Xl_RD" id="3DA2Tw6A6mS" role="37wK5m">
+                                          <property role="Xl_RC" value="Diagrams can only be exported as .plantuml, .svg, or .png." />
+                                        </node>
+                                        <node concept="Xl_RD" id="3DA2Tw6AC2L" role="37wK5m">
+                                          <property role="Xl_RC" value="Wrong output file extension" />
+                                        </node>
+                                        <node concept="10M0yZ" id="3DA2Tw6AkZS" role="37wK5m">
+                                          <ref role="3cqZAo" to="dxuu:~JOptionPane.ERROR_MESSAGE" resolve="ERROR_MESSAGE" />
+                                          <ref role="1PxDUh" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3clFbF" id="3DA2Tw6Fzcc" role="3cqZAp">
+                                      <node concept="1rXfSq" id="3DA2Tw6Fzca" role="3clFbG">
+                                        <ref role="37wK5l" node="HFis1Ki75Y" resolve="actionPerformed" />
+                                        <node concept="37vLTw" id="3DA2Tw6FAfE" role="37wK5m">
+                                          <ref role="3cqZAo" node="HFis1Ki762" resolve="p1" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3J1hQo" id="3DA2Tw6y57n" role="3J1_TS">
+                              <property role="3TUv4t" value="true" />
+                              <property role="TrG5h" value="out" />
+                              <node concept="3uibUv" id="3DA2Tw6yaAR" role="1tU5fm">
+                                <ref role="3uigEE" to="guwi:~OutputStream" resolve="OutputStream" />
+                              </node>
+                              <node concept="2ShNRf" id="3DA2Tw6ygaq" role="33vP2m">
+                                <node concept="1pGfFk" id="3DA2Tw6yu7z" role="2ShVmc">
+                                  <property role="373rjd" value="true" />
+                                  <ref role="37wK5l" to="guwi:~FileOutputStream.&lt;init&gt;(java.io.File)" resolve="FileOutputStream" />
+                                  <node concept="37vLTw" id="3DA2Tw6yxjS" role="37wK5m">
+                                    <ref role="3cqZAo" node="3DA2Tw6wQjU" resolve="toSave" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3uVAMA" id="3DA2Tw6zPvZ" role="1zxBo5">
+                              <node concept="3clFbS" id="3DA2Tw6zPw0" role="1zc67A" />
+                              <node concept="XOnhg" id="3DA2Tw6zPw1" role="1zc67B">
+                                <property role="TrG5h" value="e" />
+                                <node concept="nSUau" id="3DA2Tw6zPw2" role="1tU5fm">
+                                  <node concept="3uibUv" id="3DA2Tw6zPvY" role="nSUat">
+                                    <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbC" id="3DA2Tw6wKib" role="3clFbw">
+                          <node concept="37vLTw" id="3DA2Tw6wBNV" role="3uHU7B">
+                            <ref role="3cqZAo" node="3DA2Tw6wf2M" resolve="result" />
+                          </node>
+                          <node concept="10M0yZ" id="3DA2Tw6wJfI" role="3uHU7w">
+                            <ref role="3cqZAo" to="dxuu:~JFileChooser.APPROVE_OPTION" resolve="APPROVE_OPTION" />
+                            <ref role="1PxDUh" to="dxuu:~JFileChooser" resolve="JFileChooser" />
                           </node>
                         </node>
                       </node>
@@ -1150,7 +1380,7 @@
         </node>
         <node concept="3cpWs8" id="HFis1KhNyC" role="3cqZAp">
           <node concept="3cpWsn" id="HFis1KhNyD" role="3cpWs9">
-            <property role="TrG5h" value="getPlantUMLCodeButton" />
+            <property role="TrG5h" value="exportButton" />
             <node concept="3uibUv" id="HFis1KhNyE" role="1tU5fm">
               <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
             </node>
@@ -1167,7 +1397,7 @@
         </node>
         <node concept="3cpWs8" id="HFis1KC0_8" role="3cqZAp">
           <node concept="3cpWsn" id="HFis1KC0_9" role="3cpWs9">
-            <property role="TrG5h" value="save" />
+            <property role="TrG5h" value="exportIcon" />
             <node concept="3uibUv" id="HFis1KC0_a" role="1tU5fm">
               <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
             </node>
@@ -1185,9 +1415,9 @@
             <node concept="37vLTw" id="HFis1KC2lu" role="2Oq$k0">
               <ref role="3cqZAo" node="HFis1KhNyD" resolve="getPlantUMLCodeButton" />
             </node>
-            <node concept="liA8E" id="HFis1KC5Pc" role="2OqNvi">
+            <node concept="liA8E" id="3DA2Tw6omSn" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~AbstractButton.setIcon(javax.swing.Icon)" resolve="setIcon" />
-              <node concept="37vLTw" id="HFis1KC6Nj" role="37wK5m">
+              <node concept="37vLTw" id="3DA2Tw6on4P" role="37wK5m">
                 <ref role="3cqZAo" node="HFis1KC0_9" resolve="save" />
               </node>
             </node>
@@ -1201,7 +1431,7 @@
             <node concept="liA8E" id="HFis1KBeoK" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
               <node concept="Xl_RD" id="HFis1KBeoP" role="37wK5m">
-                <property role="Xl_RC" value="Copy PlantUML code to clipboard" />
+                <property role="Xl_RC" value="Export as .plantuml, .svg, or .png." />
               </node>
             </node>
           </node>
@@ -1219,7 +1449,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="HFis1KlpxP" role="3cqZAp" />
+        <node concept="3clFbH" id="3DA2Tw6lWIh" role="3cqZAp" />
         <node concept="3clFbF" id="HFis1KtUzk" role="3cqZAp">
           <node concept="37vLTI" id="HFis1KtW_e" role="3clFbG">
             <node concept="2OqwBi" id="HFis1KtVBA" role="37vLTJ">
