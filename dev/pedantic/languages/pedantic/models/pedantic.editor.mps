@@ -70,6 +70,7 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
+      <concept id="2906093235281475560" name="jetbrains.mps.lang.editor.structure.SpellCheckStyle" flags="lg" index="1liFee" />
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="9122903797336200704" name="jetbrains.mps.lang.editor.structure.ApplyStyleClassCondition" flags="lg" index="1uO$qF">
@@ -201,6 +202,9 @@
     <node concept="3F0A7n" id="4h$8nEbw0WT" role="2wV5jI">
       <ref role="34QXea" node="2NkPjc5JEbW" resolve="HandleSpace" />
       <ref role="1NtTu8" to="3ido:4h$8nEbw52k" resolve="content" />
+      <node concept="1liFee" id="3DA2Tw6GVPx" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="4h$8nEbw2BK">
