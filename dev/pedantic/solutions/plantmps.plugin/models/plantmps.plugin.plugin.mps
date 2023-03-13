@@ -1284,8 +1284,8 @@
                                           <node concept="2ShNRf" id="3DA2Tw6CZZJ" role="37wK5m">
                                             <node concept="1pGfFk" id="3DA2Tw6CZZK" role="2ShVmc">
                                               <ref role="37wK5l" to="81o:~FileFormatOption.&lt;init&gt;(net.sourceforge.plantuml.FileFormat)" resolve="FileFormatOption" />
-                                              <node concept="Rm8GO" id="3DA2Tw6D1Pg" role="37wK5m">
-                                                <ref role="Rm8GQ" to="81o:~FileFormat.PNG" resolve="PNG" />
+                                              <node concept="Rm8GO" id="3o0w4MA49Uz" role="37wK5m">
+                                                <ref role="Rm8GQ" to="81o:~FileFormat.SVG" resolve="SVG" />
                                                 <ref role="1Px2BO" to="81o:~FileFormat" resolve="FileFormat" />
                                               </node>
                                             </node>
