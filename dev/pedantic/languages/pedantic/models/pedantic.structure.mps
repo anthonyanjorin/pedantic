@@ -150,6 +150,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
     </node>
+    <node concept="1TJgyj" id="1BEYxja3R$m" role="1TKVEi">
+      <property role="IQ2ns" value="1867579962694793494" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="detailedDescription" />
+      <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
+    </node>
     <node concept="1TJgyj" id="4h$8nEbv$Za" role="1TKVEi">
       <property role="IQ2ns" value="4928100702460202954" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
