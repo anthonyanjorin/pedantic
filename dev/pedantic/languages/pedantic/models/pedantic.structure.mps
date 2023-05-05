@@ -179,7 +179,8 @@
     <node concept="1TJgyj" id="3o0w4MA8tHA" role="1TKVEi">
       <property role="IQ2ns" value="3891251144741215078" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="url" />
+      <property role="20kJfa" value="urls" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3o0w4MA7dYC" resolve="URL" />
     </node>
     <node concept="PrWs8" id="47_$PnYJ8yl" role="PzmwI">
@@ -488,6 +489,9 @@
       <property role="IQ2nx" value="8987473119584727449" />
       <property role="TrG5h" value="source" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="49OWtI58zKp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="q7KOLdIEa_">

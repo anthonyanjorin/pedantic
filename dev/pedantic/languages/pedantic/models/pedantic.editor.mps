@@ -383,11 +383,14 @@
         <node concept="VPM3Z" id="3o0w4MA839g" role="3F10Kt" />
         <node concept="3EZMnI" id="3o0w4MA839h" role="3EZMnx">
           <node concept="VPM3Z" id="3o0w4MA839i" role="3F10Kt" />
-          <node concept="3F0ifn" id="3o0w4MA839j" role="3EZMnx">
-            <property role="3F0ifm" value="url:" />
+          <node concept="3F0ifn" id="49OWtI5jVEn" role="3EZMnx">
+            <property role="3F0ifm" value="linked resource(s):" />
           </node>
-          <node concept="3F1sOY" id="3o0w4MA8tHL" role="3EZMnx">
-            <ref role="1NtTu8" to="3ido:3o0w4MA8tHA" resolve="url" />
+          <node concept="3F2HdR" id="49OWtI5cqbC" role="3EZMnx">
+            <ref role="1NtTu8" to="3ido:3o0w4MA8tHA" resolve="urls" />
+            <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
+            <node concept="2iRkQZ" id="49OWtI5cqbF" role="2czzBx" />
+            <node concept="VPM3Z" id="49OWtI5cqbG" role="3F10Kt" />
           </node>
           <node concept="l2Vlx" id="3o0w4MA839l" role="2iSdaV" />
         </node>
