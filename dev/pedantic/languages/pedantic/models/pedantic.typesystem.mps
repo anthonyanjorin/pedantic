@@ -197,9 +197,7 @@
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
-      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
-        <property id="7181286126212894140" name="doNotApplyOnTheFly" index="1$Xk0j" />
-      </concept>
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
         <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
@@ -1955,7 +1953,6 @@
   <node concept="18kY7G" id="49OWtI5jdaw">
     <property role="3GE5qa" value="terms" />
     <property role="TrG5h" value="NoURL" />
-    <property role="1$Xk0j" value="true" />
     <node concept="3clFbS" id="49OWtI5jdax" role="18ibNy">
       <node concept="3clFbJ" id="49OWtI5jdaG" role="3cqZAp">
         <node concept="22lmx$" id="49OWtI5jhXy" role="3clFbw">
