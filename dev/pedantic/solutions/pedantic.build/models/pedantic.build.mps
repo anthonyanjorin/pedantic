@@ -427,7 +427,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="6z9qnNlNTaI" role="3MwsjC">
-          <property role="3MwjfP" value="2.4.1" />
+          <property role="3MwjfP" value="2.5.0" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -956,6 +956,11 @@
             <node concept="3qWCbU" id="47_$Po02bG4" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RN9bdUFKD6" role="3bR37C">
+          <node concept="3bR9La" id="5RN9bdUFKD7" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>

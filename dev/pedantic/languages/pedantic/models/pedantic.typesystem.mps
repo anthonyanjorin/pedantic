@@ -6,6 +6,7 @@
     <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern" version="2" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -151,6 +152,9 @@
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
+      <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
+        <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
+      </concept>
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
@@ -193,7 +197,9 @@
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
-      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
+        <property id="7181286126212894140" name="doNotApplyOnTheFly" index="1$Xk0j" />
+      </concept>
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
         <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
@@ -231,6 +237,14 @@
         <child id="1143224066849" name="insertedNode" index="HtI8F" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -1941,6 +1955,7 @@
   <node concept="18kY7G" id="49OWtI5jdaw">
     <property role="3GE5qa" value="terms" />
     <property role="TrG5h" value="NoURL" />
+    <property role="1$Xk0j" value="true" />
     <node concept="3clFbS" id="49OWtI5jdax" role="18ibNy">
       <node concept="3clFbJ" id="49OWtI5jdaG" role="3cqZAp">
         <node concept="22lmx$" id="49OWtI5jhXy" role="3clFbw">
@@ -1971,6 +1986,10 @@
           <node concept="3clFbJ" id="49OWtI5km_i" role="3cqZAp">
             <node concept="3clFbS" id="49OWtI5km_k" role="3clFbx">
               <node concept="Dpp1Q" id="49OWtI5jmPB" role="3cqZAp">
+                <node concept="3Cnw8n" id="5RN9bdUwAh4" role="1urrFz">
+                  <property role="ARO6o" value="true" />
+                  <ref role="QpYPw" node="5RN9bdUwB8v" resolve="IgnoreMissingURL" />
+                </node>
                 <node concept="Xl_RD" id="49OWtI5jmQW" role="Dpw9R">
                   <property role="Xl_RC" value="Consider linking a resource to this term." />
                 </node>
@@ -2034,21 +2053,51 @@
           </node>
           <node concept="3clFbS" id="49OWtI5qFjA" role="1zc67A">
             <node concept="a7r0C" id="49OWtI5seHZ" role="3cqZAp">
-              <node concept="3cpWs3" id="49OWtI5vkNh" role="a7wSD">
-                <node concept="Xl_RD" id="49OWtI5vkUn" role="3uHU7w">
-                  <property role="Xl_RC" value="] right now" />
-                </node>
-                <node concept="3cpWs3" id="49OWtI5vjQN" role="3uHU7B">
-                  <node concept="Xl_RD" id="49OWtI5seI1" role="3uHU7B">
-                    <property role="Xl_RC" value="I'm unable to verify the link [" />
+              <node concept="3cpWs3" id="5RN9bdUAYa1" role="a7wSD">
+                <node concept="2OqwBi" id="5RN9bdUAZIs" role="3uHU7w">
+                  <node concept="2OqwBi" id="5RN9bdUAYOJ" role="2Oq$k0">
+                    <node concept="37vLTw" id="5RN9bdUAYzV" role="2Oq$k0">
+                      <ref role="3cqZAo" node="49OWtI5qFj$" resolve="e" />
+                    </node>
+                    <node concept="liA8E" id="5RN9bdUAZhL" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                    </node>
                   </node>
-                  <node concept="2OqwBi" id="49OWtI5vk1w" role="3uHU7w">
-                    <node concept="1YBJjd" id="49OWtI5vjXt" role="2Oq$k0">
-                      <ref role="1YBMHb" node="49OWtI5qb7c" resolve="url" />
+                  <node concept="liA8E" id="5RN9bdUB1B2" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="5RN9bdUAXBA" role="3uHU7B">
+                  <node concept="3cpWs3" id="5RN9bdUAaRY" role="3uHU7B">
+                    <node concept="3cpWs3" id="49OWtI5vkNh" role="3uHU7B">
+                      <node concept="3cpWs3" id="49OWtI5vjQN" role="3uHU7B">
+                        <node concept="Xl_RD" id="49OWtI5seI1" role="3uHU7B">
+                          <property role="Xl_RC" value="I'm unable to verify the link [" />
+                        </node>
+                        <node concept="2OqwBi" id="49OWtI5vk1w" role="3uHU7w">
+                          <node concept="1YBJjd" id="49OWtI5vjXt" role="2Oq$k0">
+                            <ref role="1YBMHb" node="49OWtI5qb7c" resolve="url" />
+                          </node>
+                          <node concept="3TrcHB" id="49OWtI5vkhn" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="49OWtI5vkUn" role="3uHU7w">
+                        <property role="Xl_RC" value="] right now: " />
+                      </node>
                     </node>
-                    <node concept="3TrcHB" id="49OWtI5vkhn" role="2OqNvi">
-                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    <node concept="2OqwBi" id="5RN9bdUAb_o" role="3uHU7w">
+                      <node concept="37vLTw" id="5RN9bdUAbl5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="49OWtI5qFj$" resolve="e" />
+                      </node>
+                      <node concept="liA8E" id="5RN9bdUAc0x" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                      </node>
                     </node>
+                  </node>
+                  <node concept="Xl_RD" id="5RN9bdUAY1j" role="3uHU7w">
+                    <property role="Xl_RC" value=", " />
                   </node>
                 </node>
               </node>
@@ -2244,6 +2293,48 @@
     <node concept="1YaCAy" id="49OWtI5qb7c" role="1YuTPh">
       <property role="TrG5h" value="url" />
       <ref role="1YaFvo" to="3ido:3o0w4MA7dYC" resolve="URL" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="5RN9bdUwB8v">
+    <property role="3GE5qa" value="terms" />
+    <property role="TrG5h" value="IgnoreMissingURL" />
+    <node concept="Q5ZZ6" id="5RN9bdUwB8w" role="Q6x$H">
+      <node concept="3clFbS" id="5RN9bdUwB8x" role="2VODD2">
+        <node concept="Jncv_" id="5RN9bdUwCOO" role="3cqZAp">
+          <ref role="JncvD" to="3ido:7YN1vGY5p$I" resolve="Reviewable" />
+          <node concept="Q6c8r" id="5RN9bdUwCRB" role="JncvB" />
+          <node concept="3clFbS" id="5RN9bdUwCOS" role="Jncv$">
+            <node concept="3clFbF" id="5RN9bdUwCTl" role="3cqZAp">
+              <node concept="37vLTI" id="5RN9bdUwDAk" role="3clFbG">
+                <node concept="3clFbT" id="5RN9bdUwDIu" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="2OqwBi" id="5RN9bdUwD2t" role="37vLTJ">
+                  <node concept="Jnkvi" id="5RN9bdUwCTk" role="2Oq$k0">
+                    <ref role="1M0zk5" node="5RN9bdUwCOU" resolve="node" />
+                  </node>
+                  <node concept="3TrcHB" id="5RN9bdUwDh7" role="2OqNvi">
+                    <ref role="3TsBF5" to="3ido:7YN1vGY5p$J" resolve="reviewed" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="5RN9bdUwCOU" role="JncvA">
+            <property role="TrG5h" value="reviewable" />
+            <node concept="2jxLKc" id="5RN9bdUwCOV" role="1tU5fm" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="5RN9bdUwB8M" role="QzAvj">
+      <node concept="3clFbS" id="5RN9bdUwB8N" role="2VODD2">
+        <node concept="3clFbF" id="5RN9bdUwBdt" role="3cqZAp">
+          <node concept="Xl_RD" id="5RN9bdUwBds" role="3clFbG">
+            <property role="Xl_RC" value="Ignore missing URL." />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
