@@ -12,6 +12,8 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -22,8 +24,18 @@
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
+      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
+        <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599976176" name="target" index="20lvS9" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -31,14 +43,43 @@
   </registry>
   <node concept="PlHQZ" id="7G28cbunW$9">
     <property role="EcuMT" value="8863683037945121033" />
-    <property role="TrG5h" value="IVisualizable" />
+    <property role="TrG5h" value="PlantUMLTransformation" />
+    <property role="3GE5qa" value="Transformations" />
   </node>
   <node concept="1TIwiD" id="5RN9bdVz5eQ">
     <property role="EcuMT" value="6769795018158527414" />
     <property role="TrG5h" value="PlantUMLPackage" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="5RN9bdVz6vQ" role="PzmwI">
+    <property role="3GE5qa" value="Metamodel" />
+    <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
+    <node concept="1TJgyj" id="5RN9bdVBS7j" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018159784403" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="classes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
+    </node>
+    <node concept="1TJgyj" id="5RN9bdVBS7l" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018159784405" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subpackages" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5RN9bdVz5eQ" resolve="PlantUMLPackage" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5RN9bdVBS7g">
+    <property role="EcuMT" value="6769795018159784400" />
+    <property role="TrG5h" value="PlantUMLClass" />
+    <property role="3GE5qa" value="Metamodel" />
+    <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
+  </node>
+  <node concept="1TIwiD" id="5RN9bdVCv5n">
+    <property role="EcuMT" value="6769795018159944023" />
+    <property role="TrG5h" value="PlantUMLModel" />
+    <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="Metamodel" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5RN9bdVFj5a" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

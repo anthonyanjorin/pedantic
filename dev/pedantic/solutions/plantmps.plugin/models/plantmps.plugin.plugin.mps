@@ -457,7 +457,9 @@
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <property id="1238684351431" name="asCast" index="1BlNFB" />
       </concept>
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
+        <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -558,68 +560,34 @@
         <node concept="1QHqEK" id="2NkPjc5H$7k" role="3cqZAp">
           <node concept="1QHqEC" id="2NkPjc5H$7m" role="1QHqEI">
             <node concept="3clFbS" id="2NkPjc5H$7o" role="1bW5cS">
-              <node concept="3cpWs8" id="5RN9bdVzii_" role="3cqZAp">
-                <node concept="3cpWsn" id="5RN9bdVziiC" role="3cpWs9">
-                  <property role="TrG5h" value="plantUMLDiagram" />
-                  <node concept="17QB3L" id="5RN9bdVziiz" role="1tU5fm" />
-                  <node concept="Xl_RD" id="5RN9bdVzj5S" role="33vP2m">
-                    <property role="Xl_RC" value="" />
+              <node concept="3cpWs8" id="5RN9bdW4etK" role="3cqZAp">
+                <node concept="3cpWsn" id="5RN9bdW4etN" role="3cpWs9">
+                  <property role="TrG5h" value="vis" />
+                  <node concept="3Tqbb2" id="5RN9bdW4etI" role="1tU5fm">
+                    <ref role="ehGHo" to="9u6h:5RN9bdVCv5n" resolve="PlantUMLModel" />
                   </node>
                 </node>
               </node>
               <node concept="3clFbJ" id="7$uY3$k_EH1" role="3cqZAp">
                 <node concept="3clFbS" id="7$uY3$k_EH3" role="3clFbx">
-                  <node concept="3cpWs8" id="2NkPjc5rXNq" role="3cqZAp">
-                    <node concept="3cpWsn" id="2NkPjc5rXNr" role="3cpWs9">
-                      <property role="TrG5h" value="v" />
-                      <node concept="3uibUv" id="2NkPjc5rXNs" role="1tU5fm">
-                        <ref role="3uigEE" to="lsyl:7G28cbuofT1" resolve="VisGraph" />
+                  <node concept="3clFbF" id="5RN9bdW4gkt" role="3cqZAp">
+                    <node concept="37vLTI" id="5RN9bdW4gFV" role="3clFbG">
+                      <node concept="37vLTw" id="5RN9bdW4gkr" role="37vLTJ">
+                        <ref role="3cqZAo" node="5RN9bdW4etN" resolve="vis" />
                       </node>
-                      <node concept="2ShNRf" id="2NkPjc5rXOB" role="33vP2m">
-                        <node concept="1pGfFk" id="2NkPjc5rZjJ" role="2ShVmc">
-                          <property role="373rjd" value="true" />
-                          <ref role="37wK5l" to="lsyl:7G28cbuoh2V" resolve="VisGraph" />
-                          <node concept="2OqwBi" id="2NkPjc5rZrK" role="37wK5m">
-                            <node concept="2WthIp" id="2NkPjc5rZka" role="2Oq$k0" />
-                            <node concept="2BZ7hE" id="2NkPjc5rZFC" role="2OqNvi">
-                              <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
-                            </node>
+                      <node concept="2OqwBi" id="5RN9bdVEjPH" role="37vLTx">
+                        <node concept="1PxgMI" id="5RN9bdVEjPI" role="2Oq$k0">
+                          <property role="1BlNFB" value="true" />
+                          <node concept="chp4Y" id="5RN9bdVEjPJ" role="3oSUPX">
+                            <ref role="cht4Q" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+                          </node>
+                          <node concept="37vLTw" id="5RN9bdVEjPK" role="1m5AlR">
+                            <ref role="3cqZAo" node="2NkPjc5qX$L" resolve="n" />
                           </node>
                         </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="2NkPjc5rZPK" role="3cqZAp">
-                    <node concept="2OqwBi" id="2NkPjc5rZVA" role="3clFbG">
-                      <node concept="1PxgMI" id="7$uY3$k_KPJ" role="2Oq$k0">
-                        <property role="1BlNFB" value="true" />
-                        <node concept="chp4Y" id="7$uY3$k_L74" role="3oSUPX">
-                          <ref role="cht4Q" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+                        <node concept="2qgKlT" id="5RN9bdVEjPL" role="2OqNvi">
+                          <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
                         </node>
-                        <node concept="37vLTw" id="2NkPjc5rZPI" role="1m5AlR">
-                          <ref role="3cqZAo" node="2NkPjc5qX$L" resolve="n" />
-                        </node>
-                      </node>
-                      <node concept="2qgKlT" id="2NkPjc5s078" role="2OqNvi">
-                        <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="getVisualization" />
-                        <node concept="37vLTw" id="2NkPjc5s0gG" role="37wK5m">
-                          <ref role="3cqZAo" node="2NkPjc5rXNr" resolve="v" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="5RN9bdVzj_c" role="3cqZAp">
-                    <node concept="37vLTI" id="5RN9bdVzk2_" role="3clFbG">
-                      <node concept="2OqwBi" id="5RN9bdVzkvh" role="37vLTx">
-                        <node concept="37vLTw" id="5RN9bdVzkcP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2NkPjc5rXNr" resolve="v" />
-                        </node>
-                        <node concept="liA8E" id="5RN9bdVzkVd" role="2OqNvi">
-                          <ref role="37wK5l" to="lsyl:7G28cbuoh45" resolve="toString" />
-                        </node>
-                      </node>
-                      <node concept="37vLTw" id="5RN9bdVzj_a" role="37vLTJ">
-                        <ref role="3cqZAo" node="5RN9bdVziiC" resolve="plantUMLDiagram" />
                       </node>
                     </node>
                   </node>
@@ -654,24 +622,52 @@
                   <node concept="3clFbS" id="7$uY3$k_LFa" role="3eOfB_">
                     <node concept="3SKdUt" id="7$uY3$k_WkJ" role="3cqZAp">
                       <node concept="1PaTwC" id="7$uY3$k_WkK" role="1aUNEU">
-                        <node concept="3oM_SD" id="7$uY3$k_WQR" role="1PaTwD">
-                          <property role="3oM_SC" value="TODO" />
-                        </node>
-                        <node concept="3oM_SD" id="7$uY3$k_Zxs" role="1PaTwD">
-                          <property role="3oM_SC" value=":" />
-                        </node>
-                        <node concept="3oM_SD" id="7$uY3$k_YG_" role="1PaTwD">
-                          <property role="3oM_SC" value="visualise" />
+                        <node concept="3oM_SD" id="5RN9bdV$BdH" role="1PaTwD">
+                          <property role="3oM_SC" value="Visualise" />
                         </node>
                         <node concept="3oM_SD" id="7$uY3$k_WXt" role="1PaTwD">
                           <property role="3oM_SC" value="a" />
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$k_X44" role="1PaTwD">
-                          <property role="3oM_SC" value="class" />
+                        <node concept="3oM_SD" id="5RN9bdV$BjG" role="1PaTwD">
+                          <property role="3oM_SC" value="metamodel" />
                         </node>
-                        <node concept="3oM_SD" id="5RN9bdVznLU" role="1PaTwD">
-                          <property role="3oM_SC" value="concept" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs8" id="5RN9bdV$I25" role="3cqZAp">
+                      <node concept="3cpWsn" id="5RN9bdV$I28" role="3cpWs9">
+                        <property role="TrG5h" value="cd" />
+                        <node concept="3Tqbb2" id="5RN9bdV$I23" role="1tU5fm">
+                          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
                         </node>
+                        <node concept="1PxgMI" id="5RN9bdV$J1C" role="33vP2m">
+                          <property role="1BlNFB" value="true" />
+                          <node concept="chp4Y" id="5RN9bdV$Jlc" role="3oSUPX">
+                            <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                          </node>
+                          <node concept="37vLTw" id="5RN9bdV$IB3" role="1m5AlR">
+                            <ref role="3cqZAo" node="2NkPjc5qX$L" resolve="n" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="5RN9bdW4hJv" role="3cqZAp">
+                      <node concept="37vLTI" id="5RN9bdW4ibg" role="3clFbG">
+                        <node concept="37vLTw" id="5RN9bdW4hJt" role="37vLTJ">
+                          <ref role="3cqZAo" node="5RN9bdW4etN" resolve="vis" />
+                        </node>
+                        <node concept="2YIFZM" id="5RN9bdVEbjp" role="37vLTx">
+                          <ref role="37wK5l" to="lsyl:5RN9bdVCcem" resolve="transformConceptDecl" />
+                          <ref role="1Pybhc" to="lsyl:5RN9bdVC9T5" resolve="MetamodelToPlantUMLTransformation" />
+                          <node concept="37vLTw" id="5RN9bdVEbjq" role="37wK5m">
+                            <ref role="3cqZAo" node="5RN9bdV$I28" resolve="cd" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2xdQw9" id="5RN9bdVSRDs" role="3cqZAp">
+                      <property role="2xdLsb" value="h1akgim/info" />
+                      <node concept="Xl_RD" id="5RN9bdVSRDu" role="9lYJi">
+                        <property role="Xl_RC" value="Visualising as metamodel..." />
                       </node>
                     </node>
                   </node>
@@ -679,27 +675,55 @@
                 <node concept="9aQIb" id="7$uY3$k_XFL" role="9aQIa">
                   <node concept="3clFbS" id="7$uY3$k_XFM" role="9aQI4">
                     <node concept="3SKdUt" id="7$uY3$k_XYT" role="3cqZAp">
-                      <node concept="1PaTwC" id="7$uY3$k_XYU" role="1aUNEU">
-                        <node concept="3oM_SD" id="7$uY3$k_ZqQ" role="1PaTwD">
-                          <property role="3oM_SC" value="TODO" />
+                      <node concept="1PaTwC" id="5RN9bdVCg_H" role="1aUNEU">
+                        <node concept="3oM_SD" id="5RN9bdVCg_I" role="1PaTwD">
+                          <property role="3oM_SC" value="Visualise" />
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$k_ZC7" role="1PaTwD">
-                          <property role="3oM_SC" value=":" />
+                        <node concept="3oM_SD" id="5RN9bdVCgF1" role="1PaTwD">
+                          <property role="3oM_SC" value="a" />
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$k_ZCb" role="1PaTwD">
-                          <property role="3oM_SC" value="visualise" />
+                        <node concept="3oM_SD" id="5RN9bdVCgU1" role="1PaTwD">
+                          <property role="3oM_SC" value="model" />
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$k_ZPm" role="1PaTwD">
-                          <property role="3oM_SC" value="using" />
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="5RN9bdW4jeZ" role="3cqZAp">
+                      <node concept="37vLTI" id="5RN9bdW4j_3" role="3clFbG">
+                        <node concept="37vLTw" id="5RN9bdW4jeX" role="37vLTJ">
+                          <ref role="3cqZAo" node="5RN9bdW4etN" resolve="vis" />
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$kA0mq" role="1PaTwD">
-                          <property role="3oM_SC" value="abstract" />
+                        <node concept="2YIFZM" id="5RN9bdVCib7" role="37vLTx">
+                          <ref role="1Pybhc" to="lsyl:5RN9bdVCgZl" resolve="ModelToPlantUMLTransformation" />
+                          <ref role="37wK5l" to="lsyl:5RN9bdVCh0K" resolve="transformNode" />
+                          <node concept="37vLTw" id="5RN9bdVCioM" role="37wK5m">
+                            <ref role="3cqZAo" node="2NkPjc5qX$L" resolve="n" />
+                          </node>
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$kA4WY" role="1PaTwD">
-                          <property role="3oM_SC" value="syntax" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="5RN9bdVEkXZ" role="3cqZAp" />
+              <node concept="3cpWs8" id="5RN9bdVEpGD" role="3cqZAp">
+                <node concept="3cpWsn" id="5RN9bdVEpGG" role="3cpWs9">
+                  <property role="TrG5h" value="plantUMLDiagram" />
+                  <node concept="17QB3L" id="5RN9bdVEpGB" role="1tU5fm" />
+                  <node concept="2OqwBi" id="5RN9bdVEqAX" role="33vP2m">
+                    <node concept="37vLTw" id="5RN9bdVEqfJ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5RN9bdW4etN" resolve="vis" />
+                    </node>
+                    <node concept="2qgKlT" id="5RN9bdVEr3K" role="2OqNvi">
+                      <ref role="37wK5l" to="lsyl:5RN9bdVC$eN" resolve="getDiagramTextWithLinks" />
+                      <node concept="2OqwBi" id="5RN9bdVEsol" role="37wK5m">
+                        <node concept="2OqwBi" id="5RN9bdVErzV" role="2Oq$k0">
+                          <node concept="2WthIp" id="5RN9bdVErcf" role="2Oq$k0" />
+                          <node concept="2BZ7hE" id="5RN9bdVEsbn" role="2OqNvi">
+                            <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
+                          </node>
                         </node>
-                        <node concept="3oM_SD" id="7$uY3$k_Y_Y" role="1PaTwD">
-                          <property role="3oM_SC" value="" />
+                        <node concept="liA8E" id="5RN9bdVEs$R" role="2OqNvi">
+                          <ref role="37wK5l" to="jtsr:~Project.getName()" resolve="getName" />
                         </node>
                       </node>
                     </node>
@@ -711,7 +735,7 @@
                 <property role="2xdLsb" value="h1akgim/info" />
                 <node concept="3cpWs3" id="2NkPjc5GN8C" role="9lYJi">
                   <node concept="37vLTw" id="5RN9bdVzlhn" role="3uHU7w">
-                    <ref role="3cqZAo" node="5RN9bdVziiC" resolve="plantUMLDiagram" />
+                    <ref role="3cqZAo" node="5RN9bdVEpGG" resolve="plantUMLDiagram" />
                   </node>
                   <node concept="Xl_RD" id="2NkPjc5GMDV" role="3uHU7B">
                     <property role="Xl_RC" value="Produced visualisation from node: " />
@@ -728,7 +752,7 @@
               <node concept="3clFbF" id="2NkPjc5Hf$0" role="3cqZAp">
                 <node concept="37vLTI" id="2NkPjc5Hgs9" role="3clFbG">
                   <node concept="37vLTw" id="5RN9bdVzmV_" role="37vLTx">
-                    <ref role="3cqZAo" node="5RN9bdVziiC" resolve="plantUMLDiagram" />
+                    <ref role="3cqZAo" node="5RN9bdVEpGG" resolve="plantUMLDiagram" />
                   </node>
                   <node concept="2OqwBi" id="2NkPjc5HfL$" role="37vLTJ">
                     <node concept="2WthIp" id="2NkPjc5HfzY" role="2Oq$k0" />
@@ -772,7 +796,7 @@
                       <node concept="liA8E" id="2NkPjc5sikg" role="2OqNvi">
                         <ref role="37wK5l" node="2NkPjc5sdEJ" resolve="loadPlantUMLDiagram" />
                         <node concept="37vLTw" id="5RN9bdVzn_H" role="37wK5m">
-                          <ref role="3cqZAo" node="5RN9bdVziiC" resolve="plantUMLDiagram" />
+                          <ref role="3cqZAo" node="5RN9bdVEpGG" resolve="plantUMLDiagram" />
                         </node>
                       </node>
                     </node>
@@ -1089,7 +1113,7 @@
       <property role="TrG5h" value="project" />
       <node concept="3Tm6S6" id="2NkPjc5q8w8" role="1B3o_S" />
       <node concept="3uibUv" id="2NkPjc5q8QS" role="1tU5fm">
-        <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        <ref role="3uigEE" to="jtsr:~Project" resolve="Project" />
       </node>
     </node>
     <node concept="2BZ0e9" id="2NkPjc5HcOT" role="2XNbBz">
@@ -1980,10 +2004,10 @@
                 <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
               </node>
             </node>
-            <node concept="2YIFZM" id="2NkPjc5IHf9" role="37vLTx">
+            <node concept="2YIFZM" id="5RN9bdVCuJY" role="37vLTx">
               <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
               <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <node concept="2xqhHp" id="2NkPjc5IHi_" role="37wK5m" />
+              <node concept="2xqhHp" id="5RN9bdVCuKn" role="37wK5m" />
             </node>
           </node>
         </node>
@@ -3947,6 +3971,11 @@
             <node concept="3qWCbU" id="zYuWUNqBw9" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RN9bdVCTvn" role="3bR37C">
+          <node concept="3bR9La" id="5RN9bdVCTvo" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
       </node>
