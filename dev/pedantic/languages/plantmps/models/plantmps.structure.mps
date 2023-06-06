@@ -66,12 +66,38 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5RN9bdVz5eQ" resolve="PlantUMLPackage" />
     </node>
+    <node concept="1TJgyj" id="5RN9bdWMFDH" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018179394157" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inheritanceRelations" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5RN9bdWDKt0" resolve="Inheritance" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5RN9bdVBS7g">
     <property role="EcuMT" value="6769795018159784400" />
     <property role="TrG5h" value="PlantUMLClass" />
     <property role="3GE5qa" value="Metamodel" />
     <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
+    <node concept="1TJgyj" id="5RN9bdWDM7n" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018177061335" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="supers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5RN9bdWDKt0" resolve="Inheritance" />
+    </node>
+    <node concept="1TJgyj" id="5RN9bdWEa9m" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018177159766" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subs" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5RN9bdWDKt0" resolve="Inheritance" />
+    </node>
+    <node concept="1TJgyj" id="5RN9bdWCjGG" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018176674604" />
+      <property role="20kJfa" value="origin" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5RN9bdVCv5n">
     <property role="EcuMT" value="6769795018159944023" />
@@ -81,6 +107,42 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5RN9bdVFj5a" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5RN9bdWD34q">
+    <property role="EcuMT" value="6769795018176868634" />
+    <property role="3GE5qa" value="Metamodel" />
+    <property role="TrG5h" value="PlantUMLConnection" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
+    <node concept="1TJgyj" id="5RN9bdWEl82" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018177204738" />
+      <property role="20kJfa" value="source" />
+      <ref role="20lvS9" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
+    </node>
+    <node concept="1TJgyj" id="5RN9bdWEl84" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018177204740" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5RN9bdWDKt0">
+    <property role="EcuMT" value="6769795018177054528" />
+    <property role="3GE5qa" value="Metamodel" />
+    <property role="TrG5h" value="Inheritance" />
+    <ref role="1TJDcQ" node="5RN9bdWD34q" resolve="PlantUMLConnection" />
+  </node>
+  <node concept="1TIwiD" id="5RN9bdX7s99">
+    <property role="EcuMT" value="6769795018184835657" />
+    <property role="3GE5qa" value="Metamodel" />
+    <property role="TrG5h" value="PlantUMLDiagram" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5RN9bdX7s9Q" role="1TKVEi">
+      <property role="IQ2ns" value="6769795018184835702" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="models" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
     </node>
   </node>
 </model>
