@@ -155,9 +155,9 @@
     <node concept="1TJgyj" id="5RN9bdWMFDH" role="1TKVEi">
       <property role="IQ2ns" value="6769795018179394157" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="inheritanceRelations" />
+      <property role="20kJfa" value="connections" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5RN9bdWDKt0" resolve="Inheritance" />
+      <ref role="20lvS9" node="5RN9bdWD34q" resolve="PlantUMLConnection" />
     </node>
   </node>
   <node concept="1TIwiD" id="6okA5LUaaFn">
@@ -169,6 +169,30 @@
       <property role="IQ2ns" value="7355671614356761304" />
       <property role="20kJfa" value="target" />
       <ref role="20lvS9" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6okA5LVJHA2">
+    <property role="EcuMT" value="7355671614383380866" />
+    <property role="3GE5qa" value="Metamodel" />
+    <property role="TrG5h" value="Reference" />
+    <ref role="1TJDcQ" node="5RN9bdWD34q" resolve="PlantUMLConnection" />
+    <node concept="PrWs8" id="6okA5LVJHA5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="6okA5LVKesq" role="1TKVEl">
+      <property role="IQ2nx" value="7355671614383515418" />
+      <property role="TrG5h" value="multiplicitySrc" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6okA5LVKess" role="1TKVEl">
+      <property role="IQ2nx" value="7355671614383515420" />
+      <property role="TrG5h" value="multiplicityTrg" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6okA5LVL3Qm" role="1TKVEl">
+      <property role="IQ2nx" value="7355671614383734166" />
+      <property role="TrG5h" value="isAggregation" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
