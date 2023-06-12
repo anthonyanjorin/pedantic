@@ -560,12 +560,10 @@
         <node concept="1QHqEK" id="2NkPjc5H$7k" role="3cqZAp">
           <node concept="1QHqEC" id="2NkPjc5H$7m" role="1QHqEI">
             <node concept="3clFbS" id="2NkPjc5H$7o" role="1bW5cS">
-              <node concept="3cpWs8" id="5RN9bdW4etK" role="3cqZAp">
-                <node concept="3cpWsn" id="5RN9bdW4etN" role="3cpWs9">
-                  <property role="TrG5h" value="diagram" />
-                  <node concept="3Tqbb2" id="5RN9bdX7_A8" role="1tU5fm">
-                    <ref role="ehGHo" to="9u6h:5RN9bdX7s99" resolve="PlantUMLDiagram" />
-                  </node>
+              <node concept="3cpWs8" id="2mYtA676VTd" role="3cqZAp">
+                <node concept="3cpWsn" id="2mYtA676VTg" role="3cpWs9">
+                  <property role="TrG5h" value="plantUMLDiagram" />
+                  <node concept="17QB3L" id="2mYtA676VTb" role="1tU5fm" />
                 </node>
               </node>
               <node concept="3clFbJ" id="7$uY3$k_EH1" role="3cqZAp">
@@ -573,7 +571,7 @@
                   <node concept="3clFbF" id="5RN9bdX7OoA" role="3cqZAp">
                     <node concept="37vLTI" id="5RN9bdX7Pi8" role="3clFbG">
                       <node concept="37vLTw" id="5RN9bdX7Oo_" role="37vLTJ">
-                        <ref role="3cqZAo" node="5RN9bdW4etN" resolve="diagram" />
+                        <ref role="3cqZAo" node="2mYtA676VTg" resolve="plantUMLDiagram" />
                       </node>
                       <node concept="2OqwBi" id="5RN9bdVEjPH" role="37vLTx">
                         <node concept="1PxgMI" id="5RN9bdVEjPI" role="2Oq$k0">
@@ -586,7 +584,18 @@
                           </node>
                         </node>
                         <node concept="2qgKlT" id="5RN9bdVEjPL" role="2OqNvi">
-                          <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+                          <ref role="37wK5l" to="lsyl:6dx294tHaGN" resolve="getVisualization" />
+                          <node concept="2OqwBi" id="2mYtA676TCD" role="37wK5m">
+                            <node concept="2OqwBi" id="2mYtA676SI_" role="2Oq$k0">
+                              <node concept="2WthIp" id="2mYtA676Sg1" role="2Oq$k0" />
+                              <node concept="2BZ7hE" id="2mYtA676Tr9" role="2OqNvi">
+                                <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="2mYtA676TZ_" role="2OqNvi">
+                              <ref role="37wK5l" to="jtsr:~Project.getName()" resolve="getName" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -653,13 +662,29 @@
                     <node concept="3clFbF" id="5RN9bdX7SJU" role="3cqZAp">
                       <node concept="37vLTI" id="5RN9bdX7Tkc" role="3clFbG">
                         <node concept="37vLTw" id="5RN9bdX7SJS" role="37vLTJ">
-                          <ref role="3cqZAo" node="5RN9bdW4etN" resolve="diagram" />
+                          <ref role="3cqZAo" node="2mYtA676VTg" resolve="plantUMLDiagram" />
                         </node>
-                        <node concept="2YIFZM" id="5RN9bdVEbjp" role="37vLTx">
-                          <ref role="37wK5l" to="lsyl:5RN9bdVCcem" resolve="transformConceptDecl" />
-                          <ref role="1Pybhc" to="lsyl:5RN9bdVC9T5" resolve="MetamodelToPlantUMLTransformation" />
-                          <node concept="37vLTw" id="5RN9bdVEbjq" role="37wK5m">
-                            <ref role="3cqZAo" node="5RN9bdV$I28" resolve="cd" />
+                        <node concept="2OqwBi" id="2mYtA676YNg" role="37vLTx">
+                          <node concept="2YIFZM" id="5RN9bdVEbjp" role="2Oq$k0">
+                            <ref role="37wK5l" to="lsyl:5RN9bdVCcem" resolve="transformConceptDecl" />
+                            <ref role="1Pybhc" to="lsyl:5RN9bdVC9T5" resolve="MetamodelToPlantUMLTransformation" />
+                            <node concept="37vLTw" id="5RN9bdVEbjq" role="37wK5m">
+                              <ref role="3cqZAo" node="5RN9bdV$I28" resolve="cd" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="2mYtA676Z4F" role="2OqNvi">
+                            <ref role="37wK5l" to="lsyl:5RN9bdX7sap" resolve="getDiagramText" />
+                            <node concept="2OqwBi" id="2mYtA6770pR" role="37wK5m">
+                              <node concept="2OqwBi" id="2mYtA676ZX0" role="2Oq$k0">
+                                <node concept="2WthIp" id="2mYtA676Zyn" role="2Oq$k0" />
+                                <node concept="2BZ7hE" id="2mYtA6770fe" role="2OqNvi">
+                                  <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="2mYtA67718O" role="2OqNvi">
+                                <ref role="37wK5l" to="jtsr:~Project.getName()" resolve="getName" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -690,40 +715,30 @@
                     <node concept="3clFbF" id="5RN9bdX7V_w" role="3cqZAp">
                       <node concept="37vLTI" id="5RN9bdX7Wtl" role="3clFbG">
                         <node concept="37vLTw" id="5RN9bdX7V_u" role="37vLTJ">
-                          <ref role="3cqZAo" node="5RN9bdW4etN" resolve="diagram" />
+                          <ref role="3cqZAo" node="2mYtA676VTg" resolve="plantUMLDiagram" />
                         </node>
-                        <node concept="2YIFZM" id="5RN9bdVCib7" role="37vLTx">
-                          <ref role="1Pybhc" to="lsyl:5RN9bdVCgZl" resolve="ModelToPlantUMLTransformation" />
-                          <ref role="37wK5l" to="lsyl:5RN9bdVCh0K" resolve="transformNode" />
-                          <node concept="37vLTw" id="5RN9bdVCioM" role="37wK5m">
-                            <ref role="3cqZAo" node="2NkPjc5qX$L" resolve="n" />
+                        <node concept="2OqwBi" id="2mYtA6772iA" role="37vLTx">
+                          <node concept="2YIFZM" id="5RN9bdVCib7" role="2Oq$k0">
+                            <ref role="1Pybhc" to="lsyl:5RN9bdVCgZl" resolve="ModelToPlantUMLTransformation" />
+                            <ref role="37wK5l" to="lsyl:5RN9bdVCh0K" resolve="transformNode" />
+                            <node concept="37vLTw" id="5RN9bdVCioM" role="37wK5m">
+                              <ref role="3cqZAo" node="2NkPjc5qX$L" resolve="n" />
+                            </node>
                           </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="5RN9bdX6JQ_" role="3cqZAp" />
-              <node concept="3cpWs8" id="5RN9bdVEpGD" role="3cqZAp">
-                <node concept="3cpWsn" id="5RN9bdVEpGG" role="3cpWs9">
-                  <property role="TrG5h" value="plantUMLDiagram" />
-                  <node concept="17QB3L" id="5RN9bdVEpGB" role="1tU5fm" />
-                  <node concept="2OqwBi" id="5RN9bdX7Z39" role="33vP2m">
-                    <node concept="37vLTw" id="5RN9bdX7Ykj" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5RN9bdW4etN" resolve="diagram" />
-                    </node>
-                    <node concept="2qgKlT" id="5RN9bdX7ZiC" role="2OqNvi">
-                      <ref role="37wK5l" to="lsyl:5RN9bdX7sap" resolve="getDiagramText" />
-                      <node concept="2OqwBi" id="5RN9bdX81gT" role="37wK5m">
-                        <node concept="2OqwBi" id="5RN9bdX808L" role="2Oq$k0">
-                          <node concept="2WthIp" id="5RN9bdX7Zsd" role="2Oq$k0" />
-                          <node concept="2BZ7hE" id="5RN9bdX80A3" role="2OqNvi">
-                            <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
+                          <node concept="2qgKlT" id="2mYtA6772Mc" role="2OqNvi">
+                            <ref role="37wK5l" to="lsyl:5RN9bdX7sap" resolve="getDiagramText" />
+                            <node concept="2OqwBi" id="2mYtA6774O$" role="37wK5m">
+                              <node concept="2OqwBi" id="2mYtA6773FD" role="2Oq$k0">
+                                <node concept="2WthIp" id="2mYtA6773gt" role="2Oq$k0" />
+                                <node concept="2BZ7hE" id="2mYtA6774qX" role="2OqNvi">
+                                  <ref role="2WH_rO" node="2NkPjc5q8w7" resolve="project" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="2mYtA6775cz" role="2OqNvi">
+                                <ref role="37wK5l" to="jtsr:~Project.getName()" resolve="getName" />
+                              </node>
+                            </node>
                           </node>
-                        </node>
-                        <node concept="liA8E" id="5RN9bdX81BP" role="2OqNvi">
-                          <ref role="37wK5l" to="jtsr:~Project.getName()" resolve="getName" />
                         </node>
                       </node>
                     </node>
@@ -735,7 +750,7 @@
                 <property role="2xdLsb" value="h1akgim/info" />
                 <node concept="3cpWs3" id="2NkPjc5GN8C" role="9lYJi">
                   <node concept="37vLTw" id="5RN9bdVzlhn" role="3uHU7w">
-                    <ref role="3cqZAo" node="5RN9bdVEpGG" resolve="plantUMLDiagram" />
+                    <ref role="3cqZAo" node="2mYtA676VTg" resolve="plantUMLDiagram" />
                   </node>
                   <node concept="Xl_RD" id="2NkPjc5GMDV" role="3uHU7B">
                     <property role="Xl_RC" value="Produced visualisation from node: " />
@@ -752,7 +767,7 @@
               <node concept="3clFbF" id="2NkPjc5Hf$0" role="3cqZAp">
                 <node concept="37vLTI" id="2NkPjc5Hgs9" role="3clFbG">
                   <node concept="37vLTw" id="5RN9bdVzmV_" role="37vLTx">
-                    <ref role="3cqZAo" node="5RN9bdVEpGG" resolve="plantUMLDiagram" />
+                    <ref role="3cqZAo" node="2mYtA676VTg" resolve="plantUMLDiagram" />
                   </node>
                   <node concept="2OqwBi" id="2NkPjc5HfL$" role="37vLTJ">
                     <node concept="2WthIp" id="2NkPjc5HfzY" role="2Oq$k0" />
@@ -796,7 +811,7 @@
                       <node concept="liA8E" id="2NkPjc5sikg" role="2OqNvi">
                         <ref role="37wK5l" node="2NkPjc5sdEJ" resolve="loadPlantUMLDiagram" />
                         <node concept="37vLTw" id="5RN9bdVzn_H" role="37wK5m">
-                          <ref role="3cqZAo" node="5RN9bdVEpGG" resolve="plantUMLDiagram" />
+                          <ref role="3cqZAo" node="2mYtA676VTg" resolve="plantUMLDiagram" />
                         </node>
                       </node>
                     </node>

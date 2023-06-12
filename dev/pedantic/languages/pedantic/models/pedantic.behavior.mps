@@ -25,7 +25,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantmps.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -460,26 +459,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="13i0hz" id="5RN9bdW83Cz" role="13h7CS">
-      <property role="TrG5h" value="transformToPlantUML" />
-      <ref role="13i0hy" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
-      <node concept="3Tm1VV" id="5RN9bdW83C$" role="1B3o_S" />
-      <node concept="3clFbS" id="5RN9bdW83CB" role="3clF47">
-        <node concept="3SKdUt" id="5RN9bdW83IE" role="3cqZAp">
-          <node concept="1PaTwC" id="5RN9bdW83IF" role="1aUNEU">
-            <node concept="3oM_SD" id="5RN9bdW83IR" role="1PaTwD">
-              <property role="3oM_SC" value="TODO" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="5RN9bdW83J7" role="3cqZAp">
-          <node concept="10Nm6u" id="5RN9bdW83Jr" role="3cqZAk" />
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="5RN9bdXgor8" role="3clF45">
-        <ref role="ehGHo" to="9u6h:5RN9bdX7s99" resolve="PlantUMLDiagram" />
       </node>
     </node>
   </node>
