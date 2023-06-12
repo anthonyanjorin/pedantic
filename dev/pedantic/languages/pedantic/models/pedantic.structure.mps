@@ -127,7 +127,7 @@
       <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
     </node>
     <node concept="PrWs8" id="7YN1vGYnGvO" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="4h$8nEbv$Z4">
@@ -184,7 +184,7 @@
       <ref role="20lvS9" node="3o0w4MA7dYC" resolve="URL" />
     </node>
     <node concept="PrWs8" id="47_$PnYJ8yl" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="4h$8nEbv$Z7">
@@ -198,7 +198,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="1bGHpmEn6AN" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
     <node concept="PrWs8" id="7YN1vGY5p$S" role="PzmwI">
       <ref role="PrY4T" node="7YN1vGY5p$I" resolve="Reviewable" />
@@ -450,7 +450,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="7MTUMX1cUq$" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MTUMX1bm0m">
@@ -516,7 +516,7 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="q7KOLenXKD" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="q7KOLemFL7">
@@ -618,7 +618,7 @@
       <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
     </node>
     <node concept="PrWs8" id="6dx294u9BbD" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="6dx294u700_">
@@ -647,7 +647,7 @@
       <ref role="20lvS9" node="7MTUMX1blZL" resolve="Sequence" />
     </node>
     <node concept="PrWs8" id="6dx294u9CAb" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="6dx294u700D">
@@ -667,7 +667,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="6dx294ua6jA" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="PlHQZ" id="7YN1vGY5p$I">
@@ -683,7 +683,7 @@
     <property role="EcuMT" value="3891251144740888488" />
     <property role="TrG5h" value="URL" />
     <property role="3GE5qa" value="Terms" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3o0w4MA7dYH" role="1TKVEi">
       <property role="IQ2ns" value="3891251144740888493" />
       <property role="20kJfa" value="base" />
@@ -697,7 +697,7 @@
     <property role="EcuMT" value="3891251144741215093" />
     <property role="3GE5qa" value="Terms" />
     <property role="TrG5h" value="URLAlias" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3o0w4MA8tHS" role="1TKVEi">
       <property role="IQ2ns" value="3891251144741215096" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

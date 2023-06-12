@@ -1096,7 +1096,7 @@
               </node>
               <node concept="3EllGN" id="6z9qnNlCTnO" role="33vP2m">
                 <node concept="37vLTw" id="6z9qnNlCVBb" role="3ElVtu">
-                  <ref role="3cqZAo" node="6z9qnNlCUjl" resolve="key" />
+                  <ref role="3cqZAo" node="6z9qnNlCUjl" resolve="word" />
                 </node>
                 <node concept="37vLTw" id="6z9qnNlCZ1W" role="3ElQJh">
                   <ref role="3cqZAo" node="6z9qnNlCWyJ" resolve="cache" />
@@ -1185,7 +1185,7 @@
         <node concept="2OqwBi" id="6z9qnNlCOt7" role="3clFbw">
           <node concept="2Nt0df" id="6z9qnNlCP0O" role="2OqNvi">
             <node concept="37vLTw" id="6z9qnNlCVro" role="38cxEo">
-              <ref role="3cqZAo" node="6z9qnNlCUjl" resolve="key" />
+              <ref role="3cqZAo" node="6z9qnNlCUjl" resolve="word" />
             </node>
           </node>
           <node concept="37vLTw" id="6z9qnNlCXKt" role="2Oq$k0">
@@ -1879,7 +1879,7 @@
                             <property role="Xl_RC" value="A domain must have a unique full name." />
                           </node>
                           <node concept="1YBJjd" id="49OWtI55F$s" role="1urrMF">
-                            <ref role="1YBMHb" node="49OWtI55tj4" resolve="domain" />
+                            <ref role="1YBMHb" node="49OWtI55tj4" resolve="publishable" />
                           </node>
                         </node>
                       </node>
@@ -1897,7 +1897,7 @@
                             <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                             <node concept="2OqwBi" id="49OWtI55F4g" role="37wK5m">
                               <node concept="1YBJjd" id="49OWtI55E_J" role="2Oq$k0">
-                                <ref role="1YBMHb" node="49OWtI55tj4" resolve="domain" />
+                                <ref role="1YBMHb" node="49OWtI55tj4" resolve="publishable" />
                               </node>
                               <node concept="2qgKlT" id="49OWtI55FaH" role="2OqNvi">
                                 <ref role="37wK5l" to="8nwy:49OWtI55$Jw" resolve="getFullName" />
@@ -1910,7 +1910,7 @@
                             <ref role="3cqZAo" node="7YN1vGY3WXZ" resolve="it" />
                           </node>
                           <node concept="1YBJjd" id="49OWtI55C9M" role="3uHU7w">
-                            <ref role="1YBMHb" node="49OWtI55tj4" resolve="domain" />
+                            <ref role="1YBMHb" node="49OWtI55tj4" resolve="publishable" />
                           </node>
                         </node>
                       </node>
@@ -1930,7 +1930,7 @@
             <node concept="2JrnkZ" id="49OWtI55yoU" role="2Oq$k0">
               <node concept="2OqwBi" id="49OWtI55xUZ" role="2JrQYb">
                 <node concept="1YBJjd" id="49OWtI55xAw" role="2Oq$k0">
-                  <ref role="1YBMHb" node="49OWtI55tj4" resolve="domain" />
+                  <ref role="1YBMHb" node="49OWtI55tj4" resolve="publishable" />
                 </node>
                 <node concept="I4A8Y" id="49OWtI55y69" role="2OqNvi" />
               </node>
@@ -2345,7 +2345,7 @@
                 </node>
                 <node concept="2OqwBi" id="5RN9bdUwD2t" role="37vLTJ">
                   <node concept="Jnkvi" id="5RN9bdUwCTk" role="2Oq$k0">
-                    <ref role="1M0zk5" node="5RN9bdUwCOU" resolve="node" />
+                    <ref role="1M0zk5" node="5RN9bdUwCOU" resolve="reviewable" />
                   </node>
                   <node concept="3TrcHB" id="5RN9bdUwDh7" role="2OqNvi">
                     <ref role="3TsBF5" to="3ido:7YN1vGY5p$J" resolve="reviewed" />
