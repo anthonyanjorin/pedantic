@@ -144,7 +144,7 @@
     <property role="EcuMT" value="6769795018184835657" />
     <property role="3GE5qa" value="Metamodel" />
     <property role="TrG5h" value="PlantUMLDiagram" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5RN9bdX7s9Q" role="1TKVEi">
       <property role="IQ2ns" value="6769795018184835702" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -164,7 +164,7 @@
     <property role="EcuMT" value="7355671614356761303" />
     <property role="3GE5qa" value="Metamodel" />
     <property role="TrG5h" value="PlantUMLClassRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6okA5LUaaFo" role="1TKVEi">
       <property role="IQ2ns" value="7355671614356761304" />
       <property role="20kJfa" value="target" />

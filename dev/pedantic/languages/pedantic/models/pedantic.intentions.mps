@@ -237,7 +237,7 @@
                 <ref role="37wK5l" to="z60i:~Desktop.isSupported(java.awt.Desktop$Action)" resolve="isSupported" />
                 <node concept="Rm8GO" id="49OWtI5kGfU" role="37wK5m">
                   <ref role="Rm8GQ" to="z60i:~Desktop$Action.BROWSE" resolve="BROWSE" />
-                  <ref role="1Px2BO" to="z60i:~Desktop$Action" resolve="Action" />
+                  <ref role="1Px2BO" to="z60i:~Desktop$Action" resolve="Desktop.Action" />
                 </node>
               </node>
             </node>
@@ -355,7 +355,7 @@
                       <node concept="liA8E" id="49OWtI5q3TM" role="2OqNvi">
                         <ref role="37wK5l" to="z60i:~Desktop.isSupported(java.awt.Desktop$Action)" resolve="isSupported" />
                         <node concept="Rm8GO" id="49OWtI5q3TN" role="37wK5m">
-                          <ref role="1Px2BO" to="z60i:~Desktop$Action" resolve="Action" />
+                          <ref role="1Px2BO" to="z60i:~Desktop$Action" resolve="Desktop.Action" />
                           <ref role="Rm8GQ" to="z60i:~Desktop$Action.BROWSE" resolve="BROWSE" />
                         </node>
                       </node>

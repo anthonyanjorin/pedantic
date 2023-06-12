@@ -610,7 +610,7 @@
                   </node>
                   <node concept="2Zo12i" id="7$uY3$k_JSv" role="2OqNvi">
                     <node concept="chp4Y" id="7$uY3$k_Keo" role="2Zo12j">
-                      <ref role="cht4Q" to="9u6h:7G28cbunW$9" resolve="IVisualizable" />
+                      <ref role="cht4Q" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
                     </node>
                   </node>
                 </node>
@@ -1314,7 +1314,7 @@
                                   <node concept="3clFbF" id="3DA2Tw6yX_z" role="3cqZAp">
                                     <node concept="2OqwBi" id="3DA2Tw6yZ_1" role="3clFbG">
                                       <node concept="37vLTw" id="3DA2Tw6yX_x" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="3DA2Tw6y57n" resolve="outPrintWriter" />
+                                        <ref role="3cqZAo" node="3DA2Tw6y57n" resolve="out" />
                                       </node>
                                       <node concept="liA8E" id="3DA2Tw6z21O" role="2OqNvi">
                                         <ref role="37wK5l" to="guwi:~OutputStream.write(byte[])" resolve="write" />
@@ -1509,7 +1509,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="HFis1Ki766" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="HFis1K_EI_" role="37wK5m" />
@@ -1529,7 +1529,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Action)" resolve="JButton" />
                 <node concept="37vLTw" id="HFis1Kivde" role="37wK5m">
-                  <ref role="3cqZAo" node="HFis1Ki09h" resolve="zoomOut" />
+                  <ref role="3cqZAo" node="HFis1Ki09h" resolve="export" />
                 </node>
               </node>
             </node>
@@ -1553,12 +1553,12 @@
         <node concept="3clFbF" id="HFis1KC2lw" role="3cqZAp">
           <node concept="2OqwBi" id="HFis1KC3NW" role="3clFbG">
             <node concept="37vLTw" id="HFis1KC2lu" role="2Oq$k0">
-              <ref role="3cqZAo" node="HFis1KhNyD" resolve="getPlantUMLCodeButton" />
+              <ref role="3cqZAo" node="HFis1KhNyD" resolve="exportButton" />
             </node>
             <node concept="liA8E" id="3DA2Tw6omSn" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~AbstractButton.setIcon(javax.swing.Icon)" resolve="setIcon" />
               <node concept="37vLTw" id="3DA2Tw6on4P" role="37wK5m">
-                <ref role="3cqZAo" node="HFis1KC0_9" resolve="save" />
+                <ref role="3cqZAo" node="HFis1KC0_9" resolve="exportIcon" />
               </node>
             </node>
           </node>
@@ -1566,7 +1566,7 @@
         <node concept="3clFbF" id="HFis1KBazs" role="3cqZAp">
           <node concept="2OqwBi" id="HFis1KBco5" role="3clFbG">
             <node concept="37vLTw" id="HFis1KBazq" role="2Oq$k0">
-              <ref role="3cqZAo" node="HFis1KhNyD" resolve="getPlantUMLCodeButton" />
+              <ref role="3cqZAo" node="HFis1KhNyD" resolve="exportButton" />
             </node>
             <node concept="liA8E" id="HFis1KBeoK" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
@@ -1584,7 +1584,7 @@
             <node concept="liA8E" id="HFis1Kl1Xx" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
               <node concept="37vLTw" id="HFis1Kl2sh" role="37wK5m">
-                <ref role="3cqZAo" node="HFis1KhNyD" resolve="zoomOutButton" />
+                <ref role="3cqZAo" node="HFis1KhNyD" resolve="exportButton" />
               </node>
             </node>
           </node>
@@ -1680,7 +1680,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="gsia:~ChangeListener" resolve="ChangeListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="HFis1KmOCL" role="1B3o_S" />
                     <node concept="3clFb_" id="HFis1KmOCZ" role="jymVt">
                       <property role="TrG5h" value="stateChanged" />
@@ -1834,7 +1834,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="HFis1KmOD7" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
