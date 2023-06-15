@@ -240,6 +240,7 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="8432949284911505116" name="jetbrains.mps.lang.smodel.structure.Node_HasPrevSiblingOperation" flags="nn" index="2t3KhH" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
@@ -8295,6 +8296,42 @@
     </node>
     <node concept="13hLZK" id="49OWtI5g$8N" role="13h7CW">
       <node concept="3clFbS" id="49OWtI5g$8O" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="49jWCJJvRsH">
+    <property role="3GE5qa" value="Description" />
+    <ref role="13h7C2" to="3ido:4h$8nEbw52j" resolve="NormalText" />
+    <node concept="13i0hz" id="49jWCJJvRt0" role="13h7CS">
+      <property role="TrG5h" value="prefixSpace" />
+      <node concept="3Tm1VV" id="49jWCJJvRt1" role="1B3o_S" />
+      <node concept="17QB3L" id="49jWCJJvRto" role="3clF45" />
+      <node concept="3clFbS" id="49jWCJJvRt3" role="3clF47">
+        <node concept="3clFbJ" id="49jWCJJvRub" role="3cqZAp">
+          <node concept="2OqwBi" id="49jWCJJvRCH" role="3clFbw">
+            <node concept="13iPFW" id="49jWCJJvRuB" role="2Oq$k0" />
+            <node concept="2t3KhH" id="49jWCJJvRLv" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="49jWCJJvRud" role="3clFbx">
+            <node concept="3cpWs6" id="49jWCJJvRMd" role="3cqZAp">
+              <node concept="Xl_RD" id="49jWCJJvRMM" role="3cqZAk">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="49jWCJJvRO2" role="9aQIa">
+            <node concept="3clFbS" id="49jWCJJvRO3" role="9aQI4">
+              <node concept="3cpWs6" id="49jWCJJvROT" role="3cqZAp">
+                <node concept="Xl_RD" id="49jWCJJvRPB" role="3cqZAk">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="49jWCJJvRsI" role="13h7CW">
+      <node concept="3clFbS" id="49jWCJJvRsJ" role="2VODD2" />
     </node>
   </node>
 </model>
