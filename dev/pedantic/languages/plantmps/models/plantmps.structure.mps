@@ -60,7 +60,6 @@
     <property role="TrG5h" value="PlantUMLPackage" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="Metamodel" />
-    <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
     <node concept="1TJgyi" id="6okA5LUrYXv" role="1TKVEl">
       <property role="IQ2nx" value="7355671614361431903" />
       <property role="TrG5h" value="isFocus" />
@@ -80,12 +79,14 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5RN9bdVz5eQ" resolve="PlantUMLPackage" />
     </node>
+    <node concept="PrWs8" id="49jWCJJKPgx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5RN9bdVBS7g">
     <property role="EcuMT" value="6769795018159784400" />
     <property role="TrG5h" value="PlantUMLClass" />
     <property role="3GE5qa" value="Metamodel" />
-    <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
     <node concept="1TJgyi" id="6okA5LUnC2E" role="1TKVEl">
       <property role="IQ2nx" value="7355671614360289450" />
       <property role="TrG5h" value="isFocus" />
@@ -106,14 +107,7 @@
       <property role="20kJfa" value="origin" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="5RN9bdVCv5n">
-    <property role="EcuMT" value="6769795018159944023" />
-    <property role="TrG5h" value="PlantUMLModel" />
-    <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="Metamodel" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5RN9bdVFj5a" role="PzmwI">
+    <node concept="PrWs8" id="49jWCJJKPgv" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
@@ -122,7 +116,6 @@
     <property role="3GE5qa" value="Metamodel" />
     <property role="TrG5h" value="PlantUMLConnection" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
     <node concept="1TJgyj" id="5RN9bdWEl82" role="1TKVEi">
       <property role="IQ2ns" value="6769795018177204738" />
       <property role="20kJfa" value="source" />
@@ -145,12 +138,18 @@
     <property role="3GE5qa" value="Metamodel" />
     <property role="TrG5h" value="PlantUMLDiagram" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="49jWCJKiUAI" role="1TKVEi">
+      <property role="IQ2ns" value="4779430312416094638" />
+      <property role="20kJfa" value="classInFocus" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
+    </node>
     <node concept="1TJgyj" id="5RN9bdX7s9Q" role="1TKVEi">
       <property role="IQ2ns" value="6769795018184835702" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="models" />
+      <property role="20kJfa" value="packages" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="5RN9bdVCv5n" resolve="PlantUMLModel" />
+      <ref role="20lvS9" node="5RN9bdVz5eQ" resolve="PlantUMLPackage" />
     </node>
     <node concept="1TJgyj" id="5RN9bdWMFDH" role="1TKVEi">
       <property role="IQ2ns" value="6769795018179394157" />
@@ -193,6 +192,19 @@
       <property role="IQ2nx" value="7355671614383734166" />
       <property role="TrG5h" value="isAggregation" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="49jWCJKxVu1">
+    <property role="EcuMT" value="4779430312420030337" />
+    <property role="3GE5qa" value="Metamodel" />
+    <property role="TrG5h" value="PlantUmlStack" />
+    <ref role="1TJDcQ" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
+    <node concept="1TJgyj" id="49jWCJK$KD5" role="1TKVEi">
+      <property role="IQ2ns" value="4779430312420772421" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stackedClasses" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
     </node>
   </node>
 </model>
