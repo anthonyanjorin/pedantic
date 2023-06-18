@@ -197,7 +197,7 @@
   <node concept="1TIwiD" id="49jWCJKxVu1">
     <property role="EcuMT" value="4779430312420030337" />
     <property role="3GE5qa" value="Metamodel" />
-    <property role="TrG5h" value="PlantUmlStack" />
+    <property role="TrG5h" value="PlantUMLStack" />
     <ref role="1TJDcQ" node="5RN9bdVBS7g" resolve="PlantUMLClass" />
     <node concept="1TJgyj" id="49jWCJK$KD5" role="1TKVEi">
       <property role="IQ2ns" value="4779430312420772421" />

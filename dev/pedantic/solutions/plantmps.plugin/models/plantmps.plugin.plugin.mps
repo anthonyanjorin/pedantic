@@ -1251,6 +1251,31 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbF" id="9N_2qy4UHX" role="3cqZAp">
+                        <node concept="2OqwBi" id="9N_2qy4Xgv" role="3clFbG">
+                          <node concept="37vLTw" id="9N_2qy4UHV" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3DA2Tw6oBFN" resolve="fileChooser" />
+                          </node>
+                          <node concept="liA8E" id="9N_2qy4YKa" role="2OqNvi">
+                            <ref role="37wK5l" to="dxuu:~JFileChooser.setFileFilter(javax.swing.filechooser.FileFilter)" resolve="setFileFilter" />
+                            <node concept="2ShNRf" id="9N_2qy52rw" role="37wK5m">
+                              <node concept="1pGfFk" id="9N_2qy5EtM" role="2ShVmc">
+                                <property role="373rjd" value="true" />
+                                <ref role="37wK5l" to="jlyv:~FileNameExtensionFilter.&lt;init&gt;(java.lang.String,java.lang.String...)" resolve="FileNameExtensionFilter" />
+                                <node concept="Xl_RD" id="9N_2qy5HRR" role="37wK5m">
+                                  <property role="Xl_RC" value=".puml" />
+                                </node>
+                                <node concept="Xl_RD" id="9N_2qy5LDy" role="37wK5m">
+                                  <property role="Xl_RC" value=".svg" />
+                                </node>
+                                <node concept="Xl_RD" id="9N_2qy5OXn" role="37wK5m">
+                                  <property role="Xl_RC" value=".png" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3cpWs8" id="3DA2Tw6wf2J" role="3cqZAp">
                         <node concept="3cpWsn" id="3DA2Tw6wf2M" role="3cpWs9">
                           <property role="TrG5h" value="result" />
@@ -1348,7 +1373,7 @@
                                   <node concept="liA8E" id="3DA2Tw6yNRe" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
                                     <node concept="Xl_RD" id="3DA2Tw6yQjb" role="37wK5m">
-                                      <property role="Xl_RC" value=".plantuml" />
+                                      <property role="Xl_RC" value=".puml" />
                                     </node>
                                   </node>
                                 </node>
@@ -1446,7 +1471,7 @@
                                           <ref role="3cqZAo" node="2NkPjc5qlfx" resolve="panel" />
                                         </node>
                                         <node concept="Xl_RD" id="3DA2Tw6A6mS" role="37wK5m">
-                                          <property role="Xl_RC" value="Diagrams can only be exported as .plantuml, .svg, or .png." />
+                                          <property role="Xl_RC" value="Diagrams can only be exported as .puml, .svg, or .png." />
                                         </node>
                                         <node concept="Xl_RD" id="3DA2Tw6AC2L" role="37wK5m">
                                           <property role="Xl_RC" value="Wrong output file extension" />
@@ -1572,7 +1597,20 @@
             <node concept="liA8E" id="HFis1KBeoK" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
               <node concept="Xl_RD" id="HFis1KBeoP" role="37wK5m">
-                <property role="Xl_RC" value="Export as .plantuml, .svg, or .png." />
+                <property role="Xl_RC" value="Export as .puml, .svg, or .png" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9N_2qypZuy" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qyq0Q5" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qypZuw" role="2Oq$k0">
+              <ref role="3cqZAo" node="HFis1KhNyD" resolve="exportButton" />
+            </node>
+            <node concept="liA8E" id="9N_2qyq52c" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.setText(java.lang.String)" resolve="setText" />
+              <node concept="Xl_RD" id="9N_2qyq5Tq" role="37wK5m">
+                <property role="Xl_RC" value="export" />
               </node>
             </node>
           </node>
@@ -1590,7 +1628,191 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3DA2Tw6lWIh" role="3cqZAp" />
+        <node concept="3clFbH" id="9N_2qy5Rz5" role="3cqZAp" />
+        <node concept="3cpWs8" id="9N_2qy63LM" role="3cqZAp">
+          <node concept="3cpWsn" id="9N_2qy63LN" role="3cpWs9">
+            <property role="TrG5h" value="copyToClipboard" />
+            <node concept="3uibUv" id="9N_2qy63LO" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~Action" resolve="Action" />
+            </node>
+            <node concept="2ShNRf" id="9N_2qy63LP" role="33vP2m">
+              <node concept="YeOm9" id="9N_2qy63LQ" role="2ShVmc">
+                <node concept="1Y3b0j" id="9N_2qy63LR" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="dxuu:~AbstractAction.&lt;init&gt;(java.lang.String)" resolve="AbstractAction" />
+                  <ref role="1Y3XeK" to="dxuu:~AbstractAction" resolve="AbstractAction" />
+                  <node concept="3Tm1VV" id="9N_2qy63LS" role="1B3o_S" />
+                  <node concept="3clFb_" id="9N_2qy63LT" role="jymVt">
+                    <property role="TrG5h" value="actionPerformed" />
+                    <node concept="3Tm1VV" id="9N_2qy63LU" role="1B3o_S" />
+                    <node concept="3cqZAl" id="9N_2qy63LV" role="3clF45" />
+                    <node concept="37vLTG" id="9N_2qy63LW" role="3clF46">
+                      <property role="TrG5h" value="p1" />
+                      <node concept="3uibUv" id="9N_2qy63LX" role="1tU5fm">
+                        <ref role="3uigEE" to="hyam:~ActionEvent" resolve="ActionEvent" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="9N_2qy63LY" role="3clF47">
+                      <node concept="3cpWs8" id="2NkPjc5H480" role="3cqZAp">
+                        <node concept="3cpWsn" id="2NkPjc5H483" role="3cpWs9">
+                          <property role="TrG5h" value="s" />
+                          <node concept="17QB3L" id="2NkPjc5H47Y" role="1tU5fm" />
+                          <node concept="2OqwBi" id="9N_2qy7iaL" role="33vP2m">
+                            <node concept="2WthIp" id="9N_2qy7iaM" role="2Oq$k0">
+                              <ref role="32nkFo" node="2NkPjc5imDc" resolve="SVGViewer" />
+                            </node>
+                            <node concept="2BZ7hE" id="9N_2qy7iaN" role="2OqNvi">
+                              <ref role="2WH_rO" node="2NkPjc5HcOT" resolve="plantUMLSource" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="2NkPjc5H5hV" role="3cqZAp">
+                        <node concept="3cpWsn" id="2NkPjc5H5hW" role="3cpWs9">
+                          <property role="TrG5h" value="clip" />
+                          <node concept="3uibUv" id="2NkPjc5H5hX" role="1tU5fm">
+                            <ref role="3uigEE" to="kt01:~Clipboard" resolve="Clipboard" />
+                          </node>
+                          <node concept="2OqwBi" id="2NkPjc5H5ps" role="33vP2m">
+                            <node concept="2YIFZM" id="2NkPjc5H5kI" role="2Oq$k0">
+                              <ref role="37wK5l" to="z60i:~Toolkit.getDefaultToolkit()" resolve="getDefaultToolkit" />
+                              <ref role="1Pybhc" to="z60i:~Toolkit" resolve="Toolkit" />
+                            </node>
+                            <node concept="liA8E" id="2NkPjc5H5wZ" role="2OqNvi">
+                              <ref role="37wK5l" to="z60i:~Toolkit.getSystemClipboard()" resolve="getSystemClipboard" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="2NkPjc5H6lC" role="3cqZAp">
+                        <node concept="3cpWsn" id="2NkPjc5H6lD" role="3cpWs9">
+                          <property role="TrG5h" value="selection" />
+                          <node concept="3uibUv" id="2NkPjc5H6lE" role="1tU5fm">
+                            <ref role="3uigEE" to="kt01:~StringSelection" resolve="StringSelection" />
+                          </node>
+                          <node concept="2ShNRf" id="2NkPjc5H6pR" role="33vP2m">
+                            <node concept="1pGfFk" id="2NkPjc5HbQi" role="2ShVmc">
+                              <property role="373rjd" value="true" />
+                              <ref role="37wK5l" to="kt01:~StringSelection.&lt;init&gt;(java.lang.String)" resolve="StringSelection" />
+                              <node concept="37vLTw" id="2NkPjc5HbQV" role="37wK5m">
+                                <ref role="3cqZAo" node="2NkPjc5H483" resolve="s" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="2NkPjc5Hcca" role="3cqZAp">
+                        <node concept="2OqwBi" id="2NkPjc5HchC" role="3clFbG">
+                          <node concept="37vLTw" id="2NkPjc5Hcc8" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2NkPjc5H5hW" resolve="clip" />
+                          </node>
+                          <node concept="liA8E" id="2NkPjc5HczD" role="2OqNvi">
+                            <ref role="37wK5l" to="kt01:~Clipboard.setContents(java.awt.datatransfer.Transferable,java.awt.datatransfer.ClipboardOwner)" resolve="setContents" />
+                            <node concept="37vLTw" id="2NkPjc5Hc$P" role="37wK5m">
+                              <ref role="3cqZAo" node="2NkPjc5H6lD" resolve="selection" />
+                            </node>
+                            <node concept="10Nm6u" id="2NkPjc5HcF3" role="37wK5m" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2AHcQZ" id="9N_2qy63NS" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="9N_2qy63NT" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="9N_2qy62$N" role="3cqZAp" />
+        <node concept="3cpWs8" id="9N_2qy5Umj" role="3cqZAp">
+          <node concept="3cpWsn" id="9N_2qy5Umk" role="3cpWs9">
+            <property role="TrG5h" value="clipboardButton" />
+            <node concept="3uibUv" id="9N_2qy5Uml" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
+            </node>
+            <node concept="2ShNRf" id="9N_2qy5YuF" role="33vP2m">
+              <node concept="1pGfFk" id="9N_2qy61RA" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Action)" resolve="JButton" />
+                <node concept="37vLTw" id="9N_2qy6kN7" role="37wK5m">
+                  <ref role="3cqZAo" node="9N_2qy63LN" resolve="copyToClipboard" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="9N_2qy6nLm" role="3cqZAp">
+          <node concept="3cpWsn" id="9N_2qy6nLn" role="3cpWs9">
+            <property role="TrG5h" value="copyIcon" />
+            <node concept="3uibUv" id="9N_2qy6nLo" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
+            </node>
+            <node concept="2YIFZM" id="9N_2qy6nLp" role="33vP2m">
+              <ref role="37wK5l" to="dxuu:~UIManager.getIcon(java.lang.Object)" resolve="getIcon" />
+              <ref role="1Pybhc" to="dxuu:~UIManager" resolve="UIManager" />
+              <node concept="Xl_RD" id="9N_2qy6nLq" role="37wK5m">
+                <property role="Xl_RC" value="Tree.leafIcon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9N_2qy6nLr" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qy6nLs" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qy6nLt" role="2Oq$k0">
+              <ref role="3cqZAo" node="9N_2qy5Umk" resolve="clipboardButton" />
+            </node>
+            <node concept="liA8E" id="9N_2qy6nLu" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.setIcon(javax.swing.Icon)" resolve="setIcon" />
+              <node concept="37vLTw" id="9N_2qy6nLv" role="37wK5m">
+                <ref role="3cqZAo" node="9N_2qy6nLn" resolve="exportIcon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9N_2qy6nLw" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qy6nLx" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qy6nLy" role="2Oq$k0">
+              <ref role="3cqZAo" node="9N_2qy5Umk" resolve="clipboardButton" />
+            </node>
+            <node concept="liA8E" id="9N_2qy6nLz" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
+              <node concept="Xl_RD" id="9N_2qy6nL$" role="37wK5m">
+                <property role="Xl_RC" value="Copy plantuml text to clipboard" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9N_2qypMR2" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qypNUr" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qypMR0" role="2Oq$k0">
+              <ref role="3cqZAo" node="9N_2qy5Umk" resolve="clipboardButton" />
+            </node>
+            <node concept="liA8E" id="9N_2qypQ6H" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.setText(java.lang.String)" resolve="setText" />
+              <node concept="Xl_RD" id="9N_2qypT4J" role="37wK5m">
+                <property role="Xl_RC" value="copy" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9N_2qy6nL_" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qy6nLA" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qy6nLB" role="2Oq$k0">
+              <ref role="3cqZAo" node="2NkPjc5GgQm" resolve="toolbar" />
+            </node>
+            <node concept="liA8E" id="9N_2qy6nLC" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+              <node concept="37vLTw" id="9N_2qy6nLD" role="37wK5m">
+                <ref role="3cqZAo" node="9N_2qy5Umk" resolve="clipboardButton" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="9N_2qy6lWT" role="3cqZAp" />
         <node concept="3clFbF" id="HFis1KtUzk" role="3cqZAp">
           <node concept="37vLTI" id="HFis1KtW_e" role="3clFbG">
             <node concept="2OqwBi" id="HFis1KtVBA" role="37vLTJ">
