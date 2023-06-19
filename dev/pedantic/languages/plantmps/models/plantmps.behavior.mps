@@ -32,7 +32,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="1225194472832" name="isVirtual" index="13i0it" />
-        <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
@@ -385,13 +384,8 @@
       <node concept="3Tqbb2" id="5RN9bdX81Jt" role="3clF45">
         <ref role="ehGHo" to="9u6h:5RN9bdX7s99" resolve="PlantUMLDiagram" />
       </node>
-      <node concept="37vLTG" id="2mYtA676DnS" role="3clF46">
-        <property role="TrG5h" value="projectName" />
-        <node concept="17QB3L" id="2mYtA676DnR" role="1tU5fm" />
-      </node>
     </node>
     <node concept="13i0hz" id="5RN9bdW6Kr2" role="13h7CS">
-      <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="getVisualization" />
       <node concept="3Tm1VV" id="5RN9bdW6Kr3" role="1B3o_S" />
