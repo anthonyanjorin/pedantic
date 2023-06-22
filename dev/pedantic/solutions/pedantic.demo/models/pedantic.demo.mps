@@ -26,6 +26,7 @@
         <child id="3889923412177894711" name="ref" index="3BFnmc" />
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
+        <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
         <child id="3889923412177894683" name="children" index="3BFnmw" />
         <child id="3889923412177894678" name="supers" index="3BFnmH" />
       </concept>
@@ -43,17 +44,7 @@
   <node concept="3UcZMl" id="49jWCJKEE96">
     <property role="TrG5h" value="Test" />
     <node concept="3f6AUY" id="49jWCJKEE98" role="3f6AUZ">
-      <node concept="3f6AUQ" id="49jWCJKEE99" role="3f6AUE">
-        <node concept="3fT77D" id="9N_2q$aa3I" role="3f6BbQ">
-          <property role="3fT77I" value="This" />
-        </node>
-        <node concept="3fT77D" id="9N_2q$aa3K" role="3f6BbQ">
-          <property role="3fT77I" value="uses" />
-        </node>
-        <node concept="3f6BbC" id="9N_2q$aa3R" role="3f6BbQ">
-          <ref role="3f6BbD" node="49jWCJKEE9g" resolve="Concept2" />
-        </node>
-      </node>
+      <node concept="3f6AUQ" id="49jWCJKEE99" role="3f6AUE" />
       <node concept="3f6AUX" id="49jWCJKEE9a" role="3f6AUK">
         <property role="TrG5h" value="Concept1" />
       </node>
@@ -63,6 +54,7 @@
       <node concept="3f6AUX" id="9N_2q$sZyY" role="3f6AUK">
         <property role="TrG5h" value="Bar" />
       </node>
+      <node concept="3BFnmI" id="9N_2qAgcWR" role="3BFnmE" />
     </node>
     <node concept="3f6AUY" id="9N_2q_31QM" role="3f6AUZ">
       <node concept="3f6AUQ" id="9N_2q_31QN" role="3f6AUE" />
@@ -82,7 +74,20 @@
       </node>
     </node>
     <node concept="3f6AUY" id="49jWCJKEE9e" role="3f6AUZ">
-      <node concept="3f6AUQ" id="49jWCJKEE9f" role="3f6AUE" />
+      <node concept="3f6AUQ" id="49jWCJKEE9f" role="3f6AUE">
+        <node concept="3fT77D" id="9N_2qA_Iph" role="3f6BbQ">
+          <property role="3fT77I" value="A" />
+        </node>
+        <node concept="3fT77D" id="9N_2qA_Ipj" role="3f6BbQ">
+          <property role="3fT77I" value="mention" />
+        </node>
+        <node concept="3fT77D" id="9N_2qA_Ipm" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3f6BbC" id="9N_2qA_Ipv" role="3f6BbQ">
+          <ref role="3f6BbD" node="9N_2q_31QO" resolve="Concept3" />
+        </node>
+      </node>
       <node concept="3f6AUX" id="49jWCJKEE9g" role="3f6AUK">
         <property role="TrG5h" value="Concept2" />
       </node>
@@ -91,6 +96,14 @@
       </node>
       <node concept="3f6AUX" id="9N_2q$GGfc" role="3f6AUK">
         <property role="TrG5h" value="Blap" />
+      </node>
+      <node concept="3BFnmI" id="9N_2qA_Ipf" role="3BFnmE">
+        <node concept="3BFnma" id="9N_2qB1hD6" role="3BFnmh">
+          <property role="TrG5h" value="a foo" />
+          <node concept="3f6BbC" id="9N_2qB1hD7" role="3BFnmc">
+            <ref role="3f6BbD" node="49jWCJKEE9a" resolve="Concept1" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3f6AUQ" id="49jWCJKEE97" role="3f6AUR" />

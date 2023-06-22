@@ -3636,6 +3636,28 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="9N_2qAhxPV" role="3cqZAp" />
+        <node concept="3clFbF" id="9N_2qAi0VY" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qAi500" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qAi0VW" role="2Oq$k0">
+              <ref role="3cqZAo" node="9N_2q$LsiX" resolve="diagram" />
+            </node>
+            <node concept="2qgKlT" id="9N_2qAi90C" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:6okA5LTI9PL" resolve="performLosslessStackingOptimisation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="9N_2qAie4T" role="3cqZAp">
+          <node concept="2OqwBi" id="9N_2qAihzf" role="3clFbG">
+            <node concept="37vLTw" id="9N_2qAie4R" role="2Oq$k0">
+              <ref role="3cqZAo" node="9N_2q$LsiX" resolve="diagram" />
+            </node>
+            <node concept="2qgKlT" id="9N_2qAilxV" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:9N_2qAhUKW" resolve="performRemoveRedundantDependencyArrowsOptimisation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="9N_2qAi0Tr" role="3cqZAp" />
         <node concept="3cpWs6" id="9N_2q$LsjH" role="3cqZAp">
           <node concept="37vLTw" id="9N_2q$LsjI" role="3cqZAk">
             <ref role="3cqZAo" node="9N_2q$LsiX" resolve="diagram" />
