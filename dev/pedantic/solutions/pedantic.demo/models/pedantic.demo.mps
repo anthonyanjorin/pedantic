@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="4748363379704933816" name="pedantic.structure.ShowContext" flags="ng" index="2YbbVH">
+        <child id="4748363379704933817" name="contextRefs" index="2YbbVG" />
+      </concept>
+      <concept id="4748363379704933819" name="pedantic.structure.ContextReference" flags="ng" index="2YbbVI">
+        <reference id="4748363379706040721" name="target" index="2YfSb4" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -33,6 +39,12 @@
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
+      </concept>
+      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9">
+        <child id="7161014301864230937" name="items" index="1Xvgy8" />
+      </concept>
+      <concept id="7161014301864230953" name="pedantic.structure.TermDiagram" flags="ng" index="1XvgyS">
+        <child id="7161014301864230954" name="context" index="1XvgyV" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -191,6 +203,24 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="9N_2qDkuQc" role="3f6AUR" />
+  </node>
+  <node concept="1Xvgy9" id="9N_2qF3v7K">
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="Report" />
+    <node concept="1XvgyS" id="9N_2qF3v7N" role="1Xvgy8">
+      <property role="TrG5h" value="foodyhoo" />
+      <node concept="2YbbVH" id="9N_2qF3v7P" role="1XvgyV">
+        <node concept="2YbbVI" id="9N_2qF3v7V" role="2YbbVG">
+          <ref role="2YfSb4" node="9N_2qDYCpE" resolve="B" />
+        </node>
+        <node concept="2YbbVI" id="9N_2qF3v7T" role="2YbbVG">
+          <ref role="2YfSb4" node="9N_2qDYCpw" resolve="A" />
+        </node>
+        <node concept="2YbbVI" id="9N_2qF3v7Y" role="2YbbVG">
+          <ref role="2YfSb4" node="49jWCJKEE9a" resolve="Concept1" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
