@@ -589,7 +589,7 @@
                           </node>
                         </node>
                         <node concept="2qgKlT" id="9N_2qzLVHF" role="2OqNvi">
-                          <ref role="37wK5l" to="lsyl:5RN9bdX7sap" resolve="getDiagramText" />
+                          <ref role="37wK5l" to="lsyl:9N_2qBjW_c" resolve="getDiagramText" />
                           <node concept="2OqwBi" id="9N_2qzM2y8" role="37wK5m">
                             <node concept="2OqwBi" id="9N_2qzM1Vt" role="2Oq$k0">
                               <node concept="2WthIp" id="9N_2qzM18E" role="2Oq$k0" />
@@ -678,7 +678,7 @@
                             </node>
                           </node>
                           <node concept="2qgKlT" id="2mYtA676Z4F" role="2OqNvi">
-                            <ref role="37wK5l" to="lsyl:5RN9bdX7sap" resolve="getDiagramText" />
+                            <ref role="37wK5l" to="lsyl:9N_2qBjW_c" resolve="getDiagramText" />
                             <node concept="2OqwBi" id="2mYtA6770pR" role="37wK5m">
                               <node concept="2OqwBi" id="2mYtA676ZX0" role="2Oq$k0">
                                 <node concept="2WthIp" id="2mYtA676Zyn" role="2Oq$k0" />
@@ -731,7 +731,7 @@
                             </node>
                           </node>
                           <node concept="2qgKlT" id="2mYtA6772Mc" role="2OqNvi">
-                            <ref role="37wK5l" to="lsyl:5RN9bdX7sap" resolve="getDiagramText" />
+                            <ref role="37wK5l" to="lsyl:9N_2qBjW_c" resolve="getDiagramText" />
                             <node concept="2OqwBi" id="2mYtA6774O$" role="37wK5m">
                               <node concept="2OqwBi" id="2mYtA6773FD" role="2Oq$k0">
                                 <node concept="2WthIp" id="2mYtA6773gt" role="2Oq$k0" />

@@ -513,11 +513,7 @@
     <property role="EcuMT" value="470559418583006276" />
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="Message" />
-    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="q7KOLenXKD" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
-    </node>
   </node>
   <node concept="1TIwiD" id="q7KOLemFL7">
     <property role="EcuMT" value="470559418583006279" />
