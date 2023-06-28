@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="3891251144740888488" name="pedantic.structure.URL" flags="ng" index="2g75Z$">
+        <reference id="3891251144740888493" name="base" index="2g75Zx" />
+      </concept>
+      <concept id="3891251144741215093" name="pedantic.structure.URLAlias" flags="ng" index="2g8lGT">
+        <child id="3891251144741215096" name="url" index="2g8lGO" />
+      </concept>
       <concept id="4748363379704933816" name="pedantic.structure.ShowContext" flags="ng" index="2YbbVH">
         <child id="4748363379704933817" name="contextRefs" index="2YbbVG" />
       </concept>
@@ -18,6 +24,7 @@
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
+        <child id="3891251144741215078" name="urls" index="2g8lGE" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
@@ -37,6 +44,7 @@
         <child id="3889923412177894678" name="supers" index="3BFnmH" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
+        <child id="3891251144740888495" name="urlAliases" index="2g75Zz" />
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
       </concept>
@@ -165,13 +173,25 @@
   </node>
   <node concept="3UcZMl" id="9N_2qDkuQb">
     <property role="TrG5h" value="Foodyblublp" />
+    <node concept="2g8lGT" id="9N_2qGYOxk" role="2g75Zz">
+      <property role="TrG5h" value="Foo" />
+      <node concept="2g75Z$" id="9N_2qGYOxl" role="2g8lGO">
+        <property role="TrG5h" value="www.Foo.de/" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="9N_2qDkuQd" role="3f6AUZ">
+      <node concept="2g75Z$" id="9N_2qH9Djr" role="2g8lGE">
+        <property role="TrG5h" value="www.Blah.de" />
+      </node>
       <node concept="3f6AUQ" id="9N_2qDkuQe" role="3f6AUE" />
       <node concept="3f6AUX" id="9N_2qDkuQf" role="3f6AUK">
         <property role="TrG5h" value="Blah" />
       </node>
     </node>
     <node concept="3f6AUY" id="9N_2qDRhSO" role="3f6AUZ">
+      <node concept="2g75Z$" id="9N_2qGZnkM" role="2g8lGE">
+        <ref role="2g75Zx" node="9N_2qGYOxk" resolve="Foo" />
+      </node>
       <node concept="3f6AUQ" id="9N_2qDRhSP" role="3f6AUE" />
       <node concept="3f6AUX" id="9N_2qDRhSQ" role="3f6AUK">
         <property role="TrG5h" value="Bla" />
@@ -180,10 +200,10 @@
         <property role="TrG5h" value="asdf " />
       </node>
       <node concept="3f6AUX" id="9N_2qDRhUs" role="3f6AUK">
-        <property role="TrG5h" value="asf " />
+        <property role="TrG5h" value="bla" />
       </node>
       <node concept="3f6AUX" id="9N_2qDRhUw" role="3f6AUK">
-        <property role="TrG5h" value="adf" />
+        <property role="TrG5h" value="blA" />
       </node>
       <node concept="3BFnmI" id="9N_2qDRhTj" role="3BFnmE">
         <node concept="3f6BbC" id="9N_2qDRhTS" role="3BFnmH">
@@ -192,7 +212,33 @@
       </node>
     </node>
     <node concept="3f6AUY" id="9N_2qDRhTl" role="3f6AUZ">
-      <node concept="3f6AUQ" id="9N_2qDRhTm" role="3f6AUE" />
+      <node concept="2g75Z$" id="9N_2qGYOxi" role="2g8lGE">
+        <property role="TrG5h" value="Bloo" />
+        <ref role="2g75Zx" node="9N_2qGYOxk" resolve="Foo" />
+      </node>
+      <node concept="3f6AUQ" id="9N_2qDRhTm" role="3f6AUE">
+        <node concept="3fT77D" id="9N_2qGK6cA" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="9N_2qGK6cw" role="3f6BbQ">
+          <property role="3fT77I" value="best" />
+        </node>
+        <node concept="3f6BbC" id="9N_2qGM5lf" role="3f6BbQ">
+          <ref role="3f6BbD" node="9N_2qDRhUs" resolve="bla" />
+        </node>
+        <node concept="3f6BbC" id="9N_2qGM5l7" role="3f6BbQ">
+          <ref role="3f6BbD" node="9N_2qDRhSQ" resolve="Bla" />
+        </node>
+        <node concept="3f6BbC" id="9N_2qGM5ln" role="3f6BbQ">
+          <ref role="3f6BbD" node="9N_2qDRhUw" resolve="blA" />
+        </node>
+        <node concept="3f6BbC" id="9N_2qGM5lv" role="3f6BbQ">
+          <ref role="3f6BbD" node="9N_2qDRhUs" resolve="bla" />
+        </node>
+        <node concept="3fT77D" id="9N_2qGLjsb" role="3f6BbQ">
+          <property role="3fT77I" value="kkk" />
+        </node>
+      </node>
       <node concept="3f6AUX" id="9N_2qDRhTn" role="3f6AUK">
         <property role="TrG5h" value="Bloo" />
       </node>
