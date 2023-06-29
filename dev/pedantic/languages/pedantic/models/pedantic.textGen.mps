@@ -821,7 +821,7 @@
                 </node>
               </node>
               <node concept="2qgKlT" id="47_$Po0jn8O" role="2OqNvi">
-                <ref role="37wK5l" to="lsyl:9N_2qBjW_c" resolve="getDiagramText" />
+                <ref role="37wK5l" to="lsyl:9N_2qHythu" resolve="getNonTrivialDiagramText" />
                 <node concept="10Nm6u" id="2mYtA679rVr" role="37wK5m" />
               </node>
             </node>

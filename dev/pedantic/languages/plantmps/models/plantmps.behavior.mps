@@ -250,6 +250,9 @@
       <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
       <concept id="4124388153790980106" name="jetbrains.mps.lang.smodel.structure.Reference_GetTargetOperation" flags="nn" index="2ZHEkA" />
       <concept id="1171500988903" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenOperation" flags="nn" index="32TBzR" />
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
+      </concept>
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
         <child id="6750920497477143623" name="conceptArgument" index="3MHPCF" />
       </concept>
@@ -334,6 +337,7 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1240217271293" name="jetbrains.mps.baseLanguage.collections.structure.LinkedHashSetCreator" flags="nn" index="32HrFt" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1167380149909" name="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation" flags="nn" index="3dhRuq" />
       <concept id="5232196642625575054" name="jetbrains.mps.baseLanguage.collections.structure.TailListOperation" flags="nn" index="1eb2uI">
@@ -6192,6 +6196,32 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="9N_2qHyvjM" role="13h7CS">
+      <property role="TrG5h" value="isEmpty" />
+      <ref role="13i0hy" node="9N_2qHyt8a" resolve="isEmpty" />
+      <node concept="3Tm1VV" id="9N_2qHyvjN" role="1B3o_S" />
+      <node concept="3clFbS" id="9N_2qHyvjQ" role="3clF47">
+        <node concept="3cpWs6" id="9N_2qHyACk" role="3cqZAp">
+          <node concept="3eOVzh" id="9N_2qHyHgG" role="3cqZAk">
+            <node concept="2OqwBi" id="9N_2qHyEvP" role="3uHU7B">
+              <node concept="2OqwBi" id="9N_2qHyCyU" role="2Oq$k0">
+                <node concept="BsUDl" id="9N_2qHyACN" role="2Oq$k0">
+                  <ref role="37wK5l" node="9N_2qD$E8l" resolve="getAllPackages" />
+                </node>
+                <node concept="13MTOL" id="9N_2qHyDX9" role="2OqNvi">
+                  <ref role="13MTZf" to="9u6h:5RN9bdVBS7j" resolve="classes" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="9N_2qHyFaL" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="9N_2qHHvts" role="3uHU7w">
+              <property role="3cmrfH" value="2" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="9N_2qHyvjR" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="6okA5LVMkYy">
     <property role="3GE5qa" value="Metamodel.ClassDiagram" />
@@ -8727,6 +8757,49 @@
         <node concept="17QB3L" id="9N_2qBjWAn" role="1tU5fm" />
       </node>
     </node>
+    <node concept="13i0hz" id="9N_2qHyt8a" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <property role="TrG5h" value="isEmpty" />
+      <node concept="3Tm1VV" id="9N_2qHyt8b" role="1B3o_S" />
+      <node concept="10P_77" id="9N_2qHyt9U" role="3clF45" />
+      <node concept="3clFbS" id="9N_2qHyt8d" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="9N_2qHythu" role="13h7CS">
+      <property role="TrG5h" value="getNonTrivialDiagramText" />
+      <node concept="3Tm1VV" id="9N_2qHythv" role="1B3o_S" />
+      <node concept="17QB3L" id="9N_2qHyti0" role="3clF45" />
+      <node concept="3clFbS" id="9N_2qHythx" role="3clF47">
+        <node concept="3clFbJ" id="9N_2qHytl0" role="3cqZAp">
+          <node concept="BsUDl" id="9N_2qHytls" role="3clFbw">
+            <ref role="37wK5l" node="9N_2qHyt8a" resolve="isEmpty" />
+          </node>
+          <node concept="3clFbS" id="9N_2qHytl2" role="3clFbx">
+            <node concept="3cpWs6" id="9N_2qHytm7" role="3cqZAp">
+              <node concept="Xl_RD" id="9N_2qHytmE" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="9N_2qHytnj" role="9aQIa">
+            <node concept="3clFbS" id="9N_2qHytnk" role="9aQI4">
+              <node concept="3cpWs6" id="9N_2qHytnU" role="3cqZAp">
+                <node concept="BsUDl" id="9N_2qHytoD" role="3cqZAk">
+                  <ref role="37wK5l" node="9N_2qBjW_c" resolve="getDiagramText" />
+                  <node concept="37vLTw" id="9N_2qHytpE" role="37wK5m">
+                    <ref role="3cqZAo" node="9N_2qHytjO" resolve="projectName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="9N_2qHytjO" role="3clF46">
+        <property role="TrG5h" value="projectName" />
+        <node concept="17QB3L" id="9N_2qHytjN" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="13hLZK" id="9N_2qBjWdE" role="13h7CW">
       <node concept="3clFbS" id="9N_2qBjWdF" role="2VODD2" />
     </node>
@@ -9063,6 +9136,17 @@
         <node concept="17QB3L" id="9N_2qBjYUT" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="9N_2qBjYUU" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="9N_2qH_gLP" role="13h7CS">
+      <property role="TrG5h" value="isEmpty" />
+      <ref role="13i0hy" node="9N_2qHyt8a" resolve="isEmpty" />
+      <node concept="3Tm1VV" id="9N_2qH_gLQ" role="1B3o_S" />
+      <node concept="3clFbS" id="9N_2qH_gLT" role="3clF47">
+        <node concept="3clFbF" id="9N_2qH_gLW" role="3cqZAp">
+          <node concept="3clFbT" id="9N_2qH_gLV" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="10P_77" id="9N_2qH_gLU" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="9N_2qBt$rS">
