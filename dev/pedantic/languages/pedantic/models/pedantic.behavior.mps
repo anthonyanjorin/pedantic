@@ -3833,16 +3833,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="9N_2qJjnj7" role="3cqZAp">
-          <node concept="2OqwBi" id="9N_2qJjqT2" role="3clFbG">
-            <node concept="37vLTw" id="9N_2qJjnj5" role="2Oq$k0">
-              <ref role="3cqZAo" node="9N_2q$LsiX" resolve="diagram" />
-            </node>
-            <node concept="2qgKlT" id="9N_2qJjw_v" role="2OqNvi">
-              <ref role="37wK5l" to="lsyl:9N_2qJh8SQ" resolve="performRemoveIsolatedClassesOptimisation" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="9N_2qDAkwI" role="3cqZAp">
           <node concept="2OqwBi" id="9N_2qDAmF_" role="3clFbG">
             <node concept="37vLTw" id="9N_2qDAkwG" role="2Oq$k0">
@@ -3857,7 +3847,7 @@
         <node concept="3clFbF" id="9N_2qEb3Nq" role="3cqZAp">
           <node concept="37vLTI" id="9N_2qEbu_7" role="3clFbG">
             <node concept="Xl_RD" id="9N_2qEbB_q" role="37vLTx">
-              <property role="Xl_RC" value="Pedantic domain/design model visualisation" />
+              <property role="Xl_RC" value="Domain/design model visualisation by Pedantic" />
             </node>
             <node concept="2OqwBi" id="9N_2qEbcGC" role="37vLTJ">
               <node concept="37vLTw" id="9N_2qEb3No" role="2Oq$k0">
@@ -3947,7 +3937,7 @@
         <node concept="3clFbF" id="9N_2qEmCd9" role="3cqZAp">
           <node concept="37vLTI" id="9N_2qEmCda" role="3clFbG">
             <node concept="Xl_RD" id="9N_2qEmCdb" role="37vLTx">
-              <property role="Xl_RC" value="Pedantic sequence diagram visualisation" />
+              <property role="Xl_RC" value="Sequence diagram visualisation by Pedantic" />
             </node>
             <node concept="2OqwBi" id="9N_2qEmCdc" role="37vLTJ">
               <node concept="37vLTw" id="9N_2qEmCdd" role="2Oq$k0">
@@ -5756,7 +5746,7 @@
       <node concept="3Tm6S6" id="6z9qnNlLsmW" role="1B3o_S" />
       <node concept="10Oyi0" id="6z9qnNlLsuE" role="1tU5fm" />
       <node concept="3cmrfG" id="6z9qnNlLsCf" role="33vP2m">
-        <property role="3cmrfH" value="1000" />
+        <property role="3cmrfH" value="10000" />
       </node>
     </node>
     <node concept="2tJIrI" id="6z9qnNlCgrZ" role="jymVt" />
@@ -5775,6 +5765,24 @@
         </node>
         <node concept="3clFbJ" id="6z9qnNlChAC" role="3cqZAp">
           <node concept="3clFbS" id="6z9qnNlChAE" role="3clFbx">
+            <node concept="2xdQw9" id="1jfkFw3RN7j" role="3cqZAp">
+              <property role="2xdLsb" value="h1akgim/info" />
+              <node concept="3cpWs3" id="1jfkFw3VB8N" role="9lYJi">
+                <node concept="Xl_RD" id="1jfkFw3RN7l" role="3uHU7B">
+                  <property role="Xl_RC" value="Recomputing cache, elapsed: " />
+                </node>
+                <node concept="1eOMI4" id="1jfkFw3VGXX" role="3uHU7w">
+                  <node concept="3cpWsd" id="1jfkFw3VI3q" role="1eOMHV">
+                    <node concept="37vLTw" id="1jfkFw3VIoe" role="3uHU7w">
+                      <ref role="3cqZAo" node="6z9qnNlChm6" resolve="lastTimeComputed" />
+                    </node>
+                    <node concept="37vLTw" id="1jfkFw3VH7_" role="3uHU7B">
+                      <ref role="3cqZAo" node="6z9qnNlChxu" resolve="now" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="6z9qnNlCkmV" role="3cqZAp">
               <node concept="37vLTI" id="6z9qnNlCl9z" role="3clFbG">
                 <node concept="37vLTw" id="6z9qnNlCliY" role="37vLTx">
