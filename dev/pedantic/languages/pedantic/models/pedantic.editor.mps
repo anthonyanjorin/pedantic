@@ -283,8 +283,8 @@
         </node>
         <node concept="3EZMnI" id="47_$Po0$6Jm" role="3EZMnx">
           <node concept="VPM3Z" id="47_$Po0$6Jo" role="3F10Kt" />
-          <node concept="3F0ifn" id="q7KOLdEYE_" role="3EZMnx">
-            <property role="3F0ifm" value="source" />
+          <node concept="3F0ifn" id="1jfkFw4b1Mw" role="3EZMnx">
+            <property role="3F0ifm" value="source:" />
           </node>
           <node concept="3F0A7n" id="47_$Po0$6JQ" role="3EZMnx">
             <property role="39s7Ar" value="true" />
@@ -293,6 +293,19 @@
           </node>
           <node concept="l2Vlx" id="47_$Po0$6Jr" role="2iSdaV" />
         </node>
+        <node concept="3EZMnI" id="1jfkFw4b1M6" role="3EZMnx">
+          <node concept="VPM3Z" id="1jfkFw4b1M7" role="3F10Kt" />
+          <node concept="3F0ifn" id="1jfkFw4b1M$" role="3EZMnx">
+            <property role="3F0ifm" value="validate links:" />
+          </node>
+          <node concept="3F0A7n" id="1jfkFw4b1M9" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
+            <property role="1O74Pk" value="true" />
+            <ref role="1NtTu8" to="3ido:1jfkFw4b1L_" resolve="validateLinks" />
+          </node>
+          <node concept="l2Vlx" id="1jfkFw4b1Ma" role="2iSdaV" />
+        </node>
+        <node concept="3F0ifn" id="1jfkFw4b1LP" role="3EZMnx" />
         <node concept="2iRkQZ" id="47_$Po0zT9p" role="2iSdaV" />
         <node concept="ljvvj" id="47_$Po0$6HQ" role="3F10Kt">
           <property role="VOm3f" value="true" />
