@@ -307,5 +307,9 @@
     <property role="TrG5h" value="PlantUMLNote" />
     <ref role="1TJDcQ" node="9N_2qBt426" resolve="PlantUMLMessage" />
   </node>
+  <node concept="PlHQZ" id="6TQOipx4Tbo">
+    <property role="EcuMT" value="7959779354191565528" />
+    <property role="TrG5h" value="PedanticSearchIndexElement" />
+  </node>
 </model>
 

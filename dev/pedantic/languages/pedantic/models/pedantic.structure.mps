@@ -186,6 +186,9 @@
     <node concept="PrWs8" id="47_$PnYJ8yl" role="PzmwI">
       <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
+    <node concept="PrWs8" id="6TQOipznbsC" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4h$8nEbv$Z7">
     <property role="EcuMT" value="4928100702460202951" />

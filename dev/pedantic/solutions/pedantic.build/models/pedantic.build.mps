@@ -583,6 +583,16 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6TQOipxMbia" role="3bR37C">
+          <node concept="3bR9La" id="6TQOipxMbib" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6TQOipxMbic" role="3bR37C">
+          <node concept="3bR9La" id="6TQOipxMbid" role="1SiIV1">
+            <ref role="3bR37D" node="5Q23RPTxrzz" resolve="plantmps.plugin" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5Q23RPTxrzz" role="2G$12L">
         <property role="TrG5h" value="plantmps.plugin" />
