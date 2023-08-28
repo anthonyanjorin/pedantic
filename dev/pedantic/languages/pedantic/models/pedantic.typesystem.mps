@@ -1425,8 +1425,11 @@
                                       </node>
                                       <node concept="3CnSsL" id="6TQOip$uzsq" role="3Coj4f">
                                         <ref role="QkamJ" node="3DA2Tw6UduZ" resolve="numberOfSegments" />
-                                        <node concept="3cmrfG" id="6TQOip$uzsr" role="3CoRuB">
-                                          <property role="3cmrfH" value="1" />
+                                        <node concept="2OqwBi" id="6TQOip_393q" role="3CoRuB">
+                                          <node concept="37vLTw" id="6TQOip_385Y" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="3DA2Tw6NYgX" resolve="segments" />
+                                          </node>
+                                          <node concept="34oBXx" id="6TQOip_3a1f" role="2OqNvi" />
                                         </node>
                                       </node>
                                     </node>
