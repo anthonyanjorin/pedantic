@@ -328,6 +328,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4h$8nEbv_ei" resolve="TermReference" />
     </node>
+    <node concept="1TJgyj" id="6TQOip_n$O3" role="1TKVEi">
+      <property role="IQ2ns" value="7959779354263571715" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
+    </node>
     <node concept="PrWs8" id="3nVMbJioyv5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
