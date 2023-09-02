@@ -79,8 +79,8 @@
     <property role="EcuMT" value="4928100702460363394" />
     <property role="3GE5qa" value="Description" />
     <property role="TrG5h" value="DomainReference" />
-    <property role="R4oN_" value="Refer to a domain" />
-    <property role="34LRSv" value="##" />
+    <property role="R4oN_" value="Refererence a domain" />
+    <property role="34LRSv" value="§" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
     <node concept="1TJgyj" id="4h$8nEbwca3" role="1TKVEi">
       <property role="IQ2ns" value="4928100702460363395" />
@@ -117,7 +117,7 @@
     <property role="EcuMT" value="4928100702460203922" />
     <property role="3GE5qa" value="Description" />
     <property role="TrG5h" value="TermReference" />
-    <property role="R4oN_" value="Refer to a label" />
+    <property role="R4oN_" value="Reference a label" />
     <property role="34LRSv" value="#" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
     <node concept="1TJgyj" id="4h$8nEbv_ej" role="1TKVEi">
@@ -723,6 +723,40 @@
     </node>
     <node concept="PrWs8" id="3o0w4MA8tHQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6TQOip_f_kF">
+    <property role="EcuMT" value="7959779354261476651" />
+    <property role="3GE5qa" value="Description" />
+    <property role="TrG5h" value="SequenceReference" />
+    <property role="R4oN_" value="Reference a sequence" />
+    <property role="34LRSv" value="*" />
+    <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
+    <node concept="PrWs8" id="6TQOip_f_kG" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+    </node>
+    <node concept="1TJgyj" id="6TQOip_f_kI" role="1TKVEi">
+      <property role="IQ2ns" value="7959779354261476654" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="7MTUMX1blZL" resolve="Sequence" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6TQOip_hMRt">
+    <property role="EcuMT" value="7959779354262056413" />
+    <property role="3GE5qa" value="Description" />
+    <property role="TrG5h" value="ServiceReference" />
+    <property role="34LRSv" value="$" />
+    <property role="R4oN_" value="Reference a service" />
+    <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
+    <node concept="1TJgyj" id="6TQOip_hMRu" role="1TKVEi">
+      <property role="IQ2ns" value="7959779354262056414" />
+      <property role="20kJfa" value="targetService" />
+      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
+    </node>
+    <node concept="1TJgyj" id="6TQOip_iuy4" role="1TKVEi">
+      <property role="IQ2ns" value="7959779354262235268" />
+      <property role="20kJfa" value="targetLabel" />
+      <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
     </node>
   </node>
 </model>

@@ -8481,5 +8481,35 @@
       <node concept="17QB3L" id="6TQOip$1VWL" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="6TQOip_f_kK">
+    <property role="3GE5qa" value="Description" />
+    <ref role="13h7C2" to="3ido:6TQOip_f_kF" resolve="SequenceReference" />
+    <node concept="13i0hz" id="6TQOip_f_kN" role="13h7CS">
+      <property role="TrG5h" value="transformToPlantUML" />
+      <ref role="13i0hy" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+      <node concept="3clFbS" id="6TQOip_f_kO" role="3clF47">
+        <node concept="3cpWs6" id="6TQOip_f_kP" role="3cqZAp">
+          <node concept="2EnYce" id="6TQOip_f_kQ" role="3cqZAk">
+            <node concept="2EnYce" id="6TQOip_f_kR" role="2Oq$k0">
+              <node concept="13iPFW" id="6TQOip_f_kS" role="2Oq$k0" />
+              <node concept="3TrEf2" id="6TQOip_f_kT" role="2OqNvi">
+                <ref role="3Tt5mk" to="3ido:6TQOip_f_kI" resolve="target" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="6TQOip_f_kU" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6TQOip_f_kV" role="3clF45">
+        <ref role="ehGHo" to="9u6h:9N_2qBjWdC" resolve="PlantUMLDiagram" />
+      </node>
+      <node concept="3Tm1VV" id="6TQOip_f_kW" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="6TQOip_f_kL" role="13h7CW">
+      <node concept="3clFbS" id="6TQOip_f_kM" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

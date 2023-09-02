@@ -97,6 +97,10 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
+        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
+        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
+      </concept>
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
         <child id="6750920497477143623" name="conceptArgument" index="3MHPCF" />
       </concept>
@@ -440,6 +444,36 @@
                 <node concept="2qgKlT" id="q7KOLeu041" role="2OqNvi">
                   <ref role="37wK5l" to="8nwy:q7KOLesJcQ" resolve="getAllServices" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6TQOip_iuzf">
+    <property role="3GE5qa" value="Description" />
+    <ref role="1M2myG" to="3ido:6TQOip_hMRt" resolve="ServiceReference" />
+    <node concept="1N5Pfh" id="6TQOip_iuzg" role="1Mr941">
+      <ref role="1N5Vy1" to="3ido:6TQOip_hMRu" resolve="targetService" />
+      <node concept="3dgokm" id="6TQOip_iuAf" role="1N6uqs">
+        <node concept="3clFbS" id="6TQOip_iuAg" role="2VODD2">
+          <node concept="3clFbF" id="6TQOip_iuDL" role="3cqZAp">
+            <node concept="2YIFZM" id="6TQOip_iuNY" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+              <node concept="2OqwBi" id="6TQOip_jb34" role="37wK5m">
+                <node concept="2OqwBi" id="6TQOip_jaA9" role="2Oq$k0">
+                  <node concept="3kakTB" id="6TQOip_jalR" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6TQOip_jaP6" role="2OqNvi">
+                    <ref role="3Tt5mk" to="3ido:6TQOip_iuy4" resolve="targetLabel" />
+                  </node>
+                </node>
+                <node concept="1mfA1w" id="6TQOip_jbiI" role="2OqNvi" />
+              </node>
+              <node concept="359W_D" id="6TQOip_jbtD" role="37wK5m">
+                <ref role="359W_E" to="3ido:4h$8nEbv$Z4" resolve="Term" />
+                <ref role="359W_F" to="3ido:7MTUMX1bm0g" resolve="services" />
               </node>
             </node>
           </node>
