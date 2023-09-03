@@ -292,6 +292,11 @@
     <property role="3GE5qa" value="Metamodel.SequenceDiagram" />
     <property role="TrG5h" value="PlantUMLInstance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="6TQOip_CsFk" role="1TKVEl">
+      <property role="IQ2nx" value="7959779354267994836" />
+      <property role="TrG5h" value="label" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="9N_2qBwFbi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -309,7 +314,7 @@
   </node>
   <node concept="PlHQZ" id="6TQOipx4Tbo">
     <property role="EcuMT" value="7959779354191565528" />
-    <property role="TrG5h" value="PedanticSearchIndexElement" />
+    <property role="TrG5h" value="PlantMPSSearchIndexElement" />
   </node>
 </model>
 

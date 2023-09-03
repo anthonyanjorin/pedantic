@@ -137,6 +137,11 @@
     <property role="R4oN_" value="A term to be defined" />
     <property role="3GE5qa" value="Terms" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6TQOip_ygDj" role="1TKVEl">
+      <property role="IQ2nx" value="7959779354266372691" />
+      <property role="TrG5h" value="type" />
+      <ref role="AX2Wp" node="6TQOip_ygDe" resolve="TermType" />
+    </node>
     <node concept="1TJgyj" id="47_$PnZMiQN" role="1TKVEi">
       <property role="IQ2ns" value="4748363379704933811" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -536,6 +541,7 @@
     <property role="EcuMT" value="470559418583006276" />
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="Message" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="q7KOLemFL7">
@@ -763,6 +769,20 @@
       <property role="IQ2ns" value="7959779354262235268" />
       <property role="20kJfa" value="targetLabel" />
       <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6TQOip_ygDe">
+    <property role="3F6X1D" value="7959779354266372686" />
+    <property role="3GE5qa" value="Terms" />
+    <property role="TrG5h" value="TermType" />
+    <ref role="1H5jkz" node="6TQOip_ygDf" resolve="unspecified" />
+    <node concept="25R33" id="6TQOip_ygDf" role="25R1y">
+      <property role="3tVfz5" value="7959779354266372687" />
+      <property role="TrG5h" value="unspecified" />
+    </node>
+    <node concept="25R33" id="6TQOip_ygDg" role="25R1y">
+      <property role="3tVfz5" value="7959779354266372688" />
+      <property role="TrG5h" value="actor" />
     </node>
   </node>
 </model>
