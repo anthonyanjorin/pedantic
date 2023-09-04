@@ -98,7 +98,6 @@
         <child id="394857668356997869" name="places" index="med8o" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
-        <child id="8976425910813834639" name="icon" index="3Uehp1" />
       </concept>
       <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
         <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
@@ -2164,7 +2163,7 @@
   </node>
   <node concept="sE7Ow" id="2NkPjc5iGsf">
     <property role="TrG5h" value="VisualizeAction" />
-    <property role="2uzpH1" value="Visualise" />
+    <property role="2uzpH1" value="Pedantic Visualise" />
     <property role="ngHcd" value="V" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
     <property role="3GE5qa" value="PedanticActions" />
@@ -2232,15 +2231,6 @@
       <node concept="1oajcY" id="2NkPjc5raRP" role="1oa70y" />
       <node concept="3Tqbb2" id="2NkPjc5raIf" role="1tU5fm" />
     </node>
-    <node concept="1irR5M" id="HFis1JIXhF" role="3Uehp1">
-      <property role="2$rrk2" value="dd7bb4a6-5f79-4dec-937d-11ee6624d6da" />
-      <node concept="1irPie" id="HFis1JIXnv" role="1irR9h">
-        <property role="1irPi9" value="V" />
-        <node concept="3PKj8D" id="HFis1JIXnR" role="3PKjny">
-          <property role="3PKj8l" value="AED6F1" />
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="tC5Ba" id="2NkPjc5iRKN">
     <property role="TrG5h" value="PedanticActionGroup" />
@@ -2268,6 +2258,7 @@
       <node concept="pLAjd" id="6TQOip_VK1M" role="Zd501">
         <property role="pLAjc" value="ctrl+alt" />
         <property role="pLAjf" value="VK_S" />
+        <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
     <node concept="Zd509" id="2NkPjc5iXX0" role="Zd508">
@@ -2275,6 +2266,7 @@
       <node concept="pLAjd" id="2NkPjc5iXX1" role="Zd501">
         <property role="pLAjc" value="ctrl+alt" />
         <property role="pLAjf" value="VK_V" />
+        <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
   </node>
@@ -3742,7 +3734,7 @@
   <node concept="sE7Ow" id="6TQOip_Rf3R">
     <property role="TrG5h" value="PedanticSearchAction" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
-    <property role="2uzpH1" value="Search" />
+    <property role="2uzpH1" value="Pedantic Search" />
     <property role="ngHcd" value="S" />
     <property role="1WHSii" value="Search for a model element" />
     <property role="fJN8o" value="true" />
@@ -4052,15 +4044,6 @@
       </node>
     </node>
     <node concept="mfpdH" id="6TQOip_Rf3V" role="med8o" />
-    <node concept="1irR5M" id="6TQOip_Rf3X" role="3Uehp1">
-      <property role="2$rrk2" value="bcc6cfc9-0733-48b0-94ca-b998ec65d378" />
-      <node concept="1irPie" id="6TQOip_Rf3Y" role="1irR9h">
-        <property role="1irPi9" value="S" />
-        <node concept="3PKj8D" id="6TQOip_Rf3Z" role="3PKjny">
-          <property role="3PKj8l" value="ff9f88" />
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="Zd50a" id="2NkPjc5iXXi">
     <property role="TrG5h" value="MacOSX105" />
