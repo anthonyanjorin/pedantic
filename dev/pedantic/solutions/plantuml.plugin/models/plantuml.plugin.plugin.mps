@@ -2257,7 +2257,7 @@
       <ref role="1bYAoF" node="6TQOip_Rf3R" resolve="PedanticSearch" />
       <node concept="pLAjd" id="6TQOip_VK1M" role="Zd501">
         <property role="pLAjc" value="ctrl+alt" />
-        <property role="pLAjf" value="VK_S" />
+        <property role="pLAjf" value="VK_0" />
         <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
@@ -4053,7 +4053,7 @@
       <ref role="1bYAoF" node="6TQOip_Rf3R" resolve="PedanticSearchAction" />
       <node concept="pLAjd" id="3DzuiyYnlhs" role="Zd501">
         <property role="pLAjc" value="ctrl+alt" />
-        <property role="pLAjf" value="VK_S" />
+        <property role="pLAjf" value="VK_0" />
         <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
@@ -4074,7 +4074,7 @@
       <ref role="1bYAoF" node="6TQOip_Rf3R" resolve="PedanticSearchAction" />
       <node concept="pLAjd" id="3DzuiyYnlh3" role="Zd501">
         <property role="pLAjc" value="ctrl+alt" />
-        <property role="pLAjf" value="VK_S" />
+        <property role="pLAjf" value="VK_0" />
         <property role="3hacHL" value="5SFo3Mf0QpD/replace_all" />
       </node>
     </node>
