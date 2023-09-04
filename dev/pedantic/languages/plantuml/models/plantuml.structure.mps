@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantmps.structure)">
+<model ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
@@ -314,7 +314,7 @@
   </node>
   <node concept="PlHQZ" id="6TQOipx4Tbo">
     <property role="EcuMT" value="7959779354191565528" />
-    <property role="TrG5h" value="PlantMPSSearchIndexElement" />
+    <property role="TrG5h" value="PedanticSearchIndexElement" />
   </node>
 </model>
 

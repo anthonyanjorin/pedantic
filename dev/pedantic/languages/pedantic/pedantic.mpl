@@ -78,10 +78,10 @@
     <module reference="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
-    <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)" version="0" />
+    <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
-    <extendedLanguage>e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)</extendedLanguage>
+    <extendedLanguage>e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)</extendedLanguage>
   </extendedLanguages>
 </language>
 

@@ -163,7 +163,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrCPK" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrCPL" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrCPM" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrCPN" role="2Ry0An">
@@ -179,7 +179,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrCEc" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrCEh" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrCEm" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrCEr" role="2Ry0An">
@@ -195,7 +195,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrCII" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrCIN" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrCIQ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrCRm" role="2Ry0An">
@@ -211,7 +211,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrVYC" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrVYD" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrVYE" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrW0j" role="2Ry0An">
@@ -227,7 +227,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrW3h" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrW3i" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrW3j" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrW52" role="2Ry0An">
@@ -243,7 +243,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrW86" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrW87" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrW88" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrW9X" role="2Ry0An">
@@ -259,7 +259,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWd7" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWd8" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWd9" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrWf4" role="2Ry0An">
@@ -275,7 +275,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWik" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWil" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWim" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrWkn" role="2Ry0An">
@@ -291,7 +291,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWnH" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWnI" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWnJ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrWpQ" role="2Ry0An">
@@ -307,7 +307,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWti" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWtj" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWtk" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrWvx" role="2Ry0An">
@@ -323,7 +323,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWz3" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWz4" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWz5" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrW_o" role="2Ry0An">
@@ -339,7 +339,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWD0" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWD1" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWD2" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrWFr" role="2Ry0An">
@@ -355,7 +355,7 @@
               <node concept="2Ry0Ak" id="zYuWUNrWJ9" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNrWJa" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNrWJb" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNrWLE" role="2Ry0An">
@@ -371,7 +371,7 @@
               <node concept="2Ry0Ak" id="zYuWUNsdgu" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNsdgv" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNsdgw" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNsdj5" role="2Ry0An">
@@ -387,7 +387,7 @@
               <node concept="2Ry0Ak" id="zYuWUNsdmZ" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNsdn0" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNsdn1" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNsdpG" role="2Ry0An">
@@ -403,7 +403,7 @@
               <node concept="2Ry0Ak" id="zYuWUNsdtG" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="zYuWUNsdtH" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="zYuWUNsdtI" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="zYuWUNsdwv" role="2Ry0An">
@@ -426,8 +426,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
-        <node concept="3Mxwew" id="6TQOip_cX3j" role="3MwsjC">
-          <property role="3MwjfP" value="3.2.4" />
+        <node concept="3Mxwew" id="3DzuiyYt$$E" role="3MwsjC">
+          <property role="3MwjfP" value="3.2.5" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -539,15 +539,15 @@
       </node>
       <node concept="1E1JtD" id="5Q23RPTxrzt" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="plantmps" />
+        <property role="TrG5h" value="plantuml" />
         <property role="3LESm3" value="e8c53fb6-e3d1-45b8-804f-056de67b4715" />
         <node concept="55IIr" id="5Q23RPTxrzo" role="3LF7KH">
           <node concept="2Ry0Ak" id="5Q23RPTxrzp" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
             <node concept="2Ry0Ak" id="5Q23RPTxrzq" role="2Ry0An">
-              <property role="2Ry0Am" value="plantmps" />
-              <node concept="2Ry0Ak" id="5Q23RPTxrzr" role="2Ry0An">
-                <property role="2Ry0Am" value="plantmps.mpl" />
+              <property role="2Ry0Am" value="plantuml" />
+              <node concept="2Ry0Ak" id="6TQOipA3oKt" role="2Ry0An">
+                <property role="2Ry0Am" value="plantuml.mpl" />
               </node>
             </node>
           </node>
@@ -561,19 +561,19 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="5Q23RPTxr$f" role="1HemKq">
-            <node concept="55IIr" id="5Q23RPTxr$a" role="3LXTmr">
-              <node concept="2Ry0Ak" id="5Q23RPTxr$b" role="iGT6I">
+          <node concept="3LXTmp" id="6TQOipA3oKF" role="1HemKq">
+            <node concept="55IIr" id="6TQOipA3oKB" role="3LXTmr">
+              <node concept="2Ry0Ak" id="6TQOipA3oKC" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="5Q23RPTxr$c" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps" />
-                  <node concept="2Ry0Ak" id="5Q23RPTxr$d" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6TQOipA3oKD" role="2Ry0An">
+                  <property role="2Ry0Am" value="plantuml" />
+                  <node concept="2Ry0Ak" id="6TQOipA3oKE" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="5Q23RPTxr$g" role="3LXTna">
+            <node concept="3qWCbU" id="6TQOipA3oKG" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -595,15 +595,15 @@
         </node>
       </node>
       <node concept="1E1JtA" id="5Q23RPTxrzz" role="2G$12L">
-        <property role="TrG5h" value="plantmps.plugin" />
+        <property role="TrG5h" value="plantuml.plugin" />
         <property role="3LESm3" value="beaed0c8-33f4-4fee-b915-08ae3bf43b28" />
         <node concept="55IIr" id="5Q23RPTxrzu" role="3LF7KH">
           <node concept="2Ry0Ak" id="5Q23RPTxrzv" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="5Q23RPTxrzw" role="2Ry0An">
-              <property role="2Ry0Am" value="plantmps.plugin" />
-              <node concept="2Ry0Ak" id="5Q23RPTxrzx" role="2Ry0An">
-                <property role="2Ry0Am" value="plantmps.plugin.msd" />
+              <property role="2Ry0Am" value="plantuml.plugin" />
+              <node concept="2Ry0Ak" id="6TQOipA3oKv" role="2Ry0An">
+                <property role="2Ry0Am" value="plantuml.plugin.msd" />
               </node>
             </node>
           </node>
@@ -650,7 +650,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr$D" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr$E" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr$F" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr$G" role="2Ry0An">
@@ -668,7 +668,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr$K" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr$L" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr$M" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr$N" role="2Ry0An">
@@ -686,7 +686,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr$R" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr$S" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr$T" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr$U" role="2Ry0An">
@@ -704,7 +704,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr$Y" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr$Z" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_0" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_1" role="2Ry0An">
@@ -722,7 +722,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_5" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_6" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_7" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_8" role="2Ry0An">
@@ -740,7 +740,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_c" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_d" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_e" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_f" role="2Ry0An">
@@ -758,7 +758,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_j" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_k" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_l" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_m" role="2Ry0An">
@@ -776,7 +776,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_q" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_r" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_s" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_t" role="2Ry0An">
@@ -794,7 +794,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_x" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_y" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_z" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_$" role="2Ry0An">
@@ -812,7 +812,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_C" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_D" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_E" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_F" role="2Ry0An">
@@ -830,7 +830,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_J" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_K" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_L" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_M" role="2Ry0An">
@@ -848,7 +848,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_Q" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_R" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_S" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxr_T" role="2Ry0An">
@@ -866,7 +866,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxr_X" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxr_Y" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxr_Z" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxrA0" role="2Ry0An">
@@ -884,7 +884,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxrA4" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxrA5" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxrA6" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxrA7" role="2Ry0An">
@@ -902,7 +902,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxrAb" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxrAc" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxrAd" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxrAe" role="2Ry0An">
@@ -920,7 +920,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxrAi" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxrAj" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxrAk" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="5Q23RPTxrAl" role="2Ry0An">
@@ -941,7 +941,7 @@
               <node concept="2Ry0Ak" id="5Q23RPTxrAp" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
                 <node concept="2Ry0Ak" id="5Q23RPTxrAq" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                   <node concept="2Ry0Ak" id="5Q23RPTxrAr" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
@@ -963,8 +963,8 @@
             <node concept="55IIr" id="47_$Po02bG0" role="3LXTmr">
               <node concept="2Ry0Ak" id="47_$Po02bG1" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="47_$Po02bG2" role="2Ry0An">
-                  <property role="2Ry0Am" value="plantmps.plugin" />
+                <node concept="2Ry0Ak" id="6TQOipA3oKx" role="2Ry0An">
+                  <property role="2Ry0Am" value="plantuml.plugin" />
                 </node>
               </node>
             </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a89c67ec-cfdf-453f-9d6b-b6bb7a111489(plantmps.editor)">
+<model ref="r:a89c67ec-cfdf-453f-9d6b-b6bb7a111489(plantuml.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />

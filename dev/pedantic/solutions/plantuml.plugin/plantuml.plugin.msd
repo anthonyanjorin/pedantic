@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="plantmps.plugin" uuid="beaed0c8-33f4-4fee-b915-08ae3bf43b28" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="plantuml.plugin" uuid="beaed0c8-33f4-4fee-b915-08ae3bf43b28" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -39,12 +39,13 @@
     <dependency reexport="false">5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)</dependency>
     <dependency reexport="false">760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)</dependency>
     <dependency reexport="false">86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)</dependency>
-    <dependency reexport="false">e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)</dependency>
+    <dependency reexport="false">e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)</dependency>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
+    <language slang="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
@@ -86,8 +87,8 @@
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
-    <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantmps)" version="0" />
-    <module reference="beaed0c8-33f4-4fee-b915-08ae3bf43b28(plantmps.plugin)" version="0" />
+    <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
+    <module reference="beaed0c8-33f4-4fee-b915-08ae3bf43b28(plantuml.plugin)" version="0" />
   </dependencyVersions>
 </solution>
 

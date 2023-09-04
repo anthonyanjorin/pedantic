@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d58c41ef-2ace-4af3-a5dc-b2dd0237a31c(plantmps.behavior)">
+<model ref="r:d58c41ef-2ace-4af3-a5dc-b2dd0237a31c(plantuml.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -16,7 +16,7 @@
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantmps.structure)" />
+    <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
@@ -10337,7 +10337,7 @@
   </node>
   <node concept="13h7C7" id="6TQOipx4Tbp">
     <property role="3GE5qa" value="UI" />
-    <ref role="13h7C2" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+    <ref role="13h7C2" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
     <node concept="13i0hz" id="6TQOipx4TbG" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
@@ -10396,13 +10396,13 @@
       <node concept="3Tm6S6" id="6TQOipyI3oa" role="1B3o_S" />
       <node concept="_YKpA" id="6TQOipyI43D" role="1tU5fm">
         <node concept="3Tqbb2" id="6TQOipyI4Pp" role="_ZDj9">
-          <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+          <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
         </node>
       </node>
       <node concept="2ShNRf" id="6TQOipyKGSW" role="33vP2m">
         <node concept="Tc6Ow" id="6TQOipyKGqU" role="2ShVmc">
           <node concept="3Tqbb2" id="6TQOipyKGqV" role="HW$YZ">
-            <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+            <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
           </node>
         </node>
       </node>
@@ -10693,7 +10693,7 @@
         <node concept="1ajhzC" id="6TQOipyhlZ0" role="1tU5fm">
           <node concept="3cqZAl" id="6TQOipyhm92" role="1ajl9A" />
           <node concept="3Tqbb2" id="6TQOipyhneD" role="1ajw0F">
-            <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+            <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
           </node>
         </node>
       </node>
@@ -10908,13 +10908,13 @@
                   <property role="TrG5h" value="allElements" />
                   <node concept="_YKpA" id="6TQOipx58kk" role="1tU5fm">
                     <node concept="3Tqbb2" id="6TQOipyhIzC" role="_ZDj9">
-                      <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+                      <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
                     </node>
                   </node>
                   <node concept="2ShNRf" id="6TQOip_43LS" role="33vP2m">
                     <node concept="Tc6Ow" id="6TQOip_43jQ" role="2ShVmc">
                       <node concept="3Tqbb2" id="6TQOip_43jR" role="HW$YZ">
-                        <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+                        <ref role="ehGHo" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
                       </node>
                     </node>
                   </node>
@@ -10931,7 +10931,7 @@
                       <node concept="X8dFx" id="6TQOipyllcq" role="2OqNvi">
                         <node concept="qVDSY" id="7YN1vGY3W8P" role="25WWJ7">
                           <node concept="chp4Y" id="6TQOipx4Umb" role="qVDSX">
-                            <ref role="cht4Q" to="9u6h:6TQOipx4Tbo" resolve="PlantMPSSearchIndexElement" />
+                            <ref role="cht4Q" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
                           </node>
                         </node>
                       </node>
@@ -11163,6 +11163,43 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="6TQOipxt539" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="6TQOip_P9oi">
+    <property role="3GE5qa" value="Optimisations" />
+    <property role="TrG5h" value="MergeReferencesOptimisation" />
+    <node concept="3clFbW" id="6TQOip_P9rQ" role="jymVt">
+      <node concept="37vLTG" id="6TQOip_P9EW" role="3clF46">
+        <property role="TrG5h" value="diagram" />
+        <node concept="3Tqbb2" id="6TQOip_P9EX" role="1tU5fm">
+          <ref role="ehGHo" to="9u6h:5RN9bdX7s99" resolve="PlantUMLClassDiagram" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6TQOip_P9rS" role="3clF45" />
+      <node concept="3Tm1VV" id="6TQOip_P9rT" role="1B3o_S" />
+      <node concept="3clFbS" id="6TQOip_P9rU" role="3clF47">
+        <node concept="XkiVB" id="6TQOip_Pa8R" role="3cqZAp">
+          <ref role="37wK5l" node="9N_2qAqKkm" resolve="PlantUMLDiagramOptimisation" />
+          <node concept="37vLTw" id="6TQOip_PaF$" role="37wK5m">
+            <ref role="3cqZAo" node="6TQOip_P9EW" resolve="diagram" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6TQOip_PaFA" role="jymVt" />
+    <node concept="2tJIrI" id="6TQOip_PbcK" role="jymVt" />
+    <node concept="3Tm1VV" id="6TQOip_P9oj" role="1B3o_S" />
+    <node concept="3uibUv" id="6TQOip_P9qb" role="1zkMxy">
+      <ref role="3uigEE" node="9N_2qAqkJ3" resolve="PlantUMLDiagramOptimisation" />
+    </node>
+    <node concept="3clFb_" id="6TQOip_Pbl7" role="jymVt">
+      <property role="TrG5h" value="optimise" />
+      <node concept="3Tm1VV" id="6TQOip_Pbl9" role="1B3o_S" />
+      <node concept="3cqZAl" id="6TQOip_Pbla" role="3clF45" />
+      <node concept="3clFbS" id="6TQOip_Pblb" role="3clF47" />
+      <node concept="2AHcQZ" id="6TQOip_Pblc" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
