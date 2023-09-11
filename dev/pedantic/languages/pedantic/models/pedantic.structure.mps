@@ -784,6 +784,18 @@
       <property role="3tVfz5" value="7959779354266372688" />
       <property role="TrG5h" value="actor" />
     </node>
+    <node concept="25R33" id="3DzuiyYFX63" role="25R1y">
+      <property role="3tVfz5" value="4207339692799021443" />
+      <property role="TrG5h" value="meeting" />
+    </node>
+    <node concept="25R33" id="3DzuiyYFX67" role="25R1y">
+      <property role="3tVfz5" value="4207339692799021447" />
+      <property role="TrG5h" value="tool" />
+    </node>
+    <node concept="25R33" id="3DzuiyYFX6c" role="25R1y">
+      <property role="3tVfz5" value="4207339692799021452" />
+      <property role="TrG5h" value="artefact" />
+    </node>
   </node>
 </model>
 
