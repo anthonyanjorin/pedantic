@@ -266,17 +266,15 @@
     <property role="3GE5qa" value="Metamodel.SequenceDiagram" />
     <property role="TrG5h" value="PlantUMLMessage" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="9N_2qCaKUU" role="1TKVEi">
-      <property role="IQ2ns" value="176647704148643514" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="source" />
-      <ref role="20lvS9" node="9N_2qBwoKd" resolve="PlantUMLInstance" />
+    <node concept="1TJgyi" id="5dCxDLPWO20" role="1TKVEl">
+      <property role="IQ2nx" value="6010201709277823104" />
+      <property role="TrG5h" value="source" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyj" id="9N_2qCaKVb" role="1TKVEi">
-      <property role="IQ2ns" value="176647704148643531" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="target" />
-      <ref role="20lvS9" node="9N_2qBwoKd" resolve="PlantUMLInstance" />
+    <node concept="1TJgyi" id="5dCxDLPWO22" role="1TKVEl">
+      <property role="IQ2nx" value="6010201709277823106" />
+      <property role="TrG5h" value="target" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="9N_2qBwzmM" role="1TKVEi">
       <property role="IQ2ns" value="176647704137577906" />
@@ -315,6 +313,12 @@
   <node concept="PlHQZ" id="6TQOipx4Tbo">
     <property role="EcuMT" value="7959779354191565528" />
     <property role="TrG5h" value="PedanticSearchIndexElement" />
+  </node>
+  <node concept="1TIwiD" id="5dCxDLQcQgJ">
+    <property role="EcuMT" value="6010201709282026543" />
+    <property role="3GE5qa" value="Metamodel.SequenceDiagram" />
+    <property role="TrG5h" value="PlantUMLSeparator" />
+    <ref role="1TJDcQ" node="9N_2qBt426" resolve="PlantUMLMessage" />
   </node>
 </model>
 

@@ -326,6 +326,7 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -2583,6 +2584,99 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="5dCxDLPNVcx">
+    <property role="TrG5h" value="UniqueParticipantNames" />
+    <node concept="3clFbS" id="5dCxDLPNVcy" role="18ibNy">
+      <node concept="3clFbF" id="5dCxDLPO$TO" role="3cqZAp">
+        <node concept="2OqwBi" id="5dCxDLPOBwX" role="3clFbG">
+          <node concept="2OqwBi" id="5dCxDLPO_5h" role="2Oq$k0">
+            <node concept="1YBJjd" id="5dCxDLPO$TN" role="2Oq$k0">
+              <ref role="1YBMHb" node="5dCxDLPNVc$" resolve="sequence" />
+            </node>
+            <node concept="3Tsc0h" id="5dCxDLPO_iJ" role="2OqNvi">
+              <ref role="3TtcxE" to="3ido:5dCxDLPlQu3" resolve="participants" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="5dCxDLPODnf" role="2OqNvi">
+            <node concept="1bVj0M" id="5dCxDLPODnh" role="23t8la">
+              <node concept="3clFbS" id="5dCxDLPODni" role="1bW5cS">
+                <node concept="3clFbJ" id="5dCxDLPODq1" role="3cqZAp">
+                  <node concept="2OqwBi" id="5dCxDLPOEfR" role="3clFbw">
+                    <node concept="2OqwBi" id="5dCxDLPOD_B" role="2Oq$k0">
+                      <node concept="1YBJjd" id="5dCxDLPODw_" role="2Oq$k0">
+                        <ref role="1YBMHb" node="5dCxDLPNVc$" resolve="sequence" />
+                      </node>
+                      <node concept="3Tsc0h" id="5dCxDLPODT0" role="2OqNvi">
+                        <ref role="3TtcxE" to="3ido:5dCxDLPlQu3" resolve="participants" />
+                      </node>
+                    </node>
+                    <node concept="2HwmR7" id="5dCxDLPOIpQ" role="2OqNvi">
+                      <node concept="1bVj0M" id="5dCxDLPOIpS" role="23t8la">
+                        <node concept="3clFbS" id="5dCxDLPOIpT" role="1bW5cS">
+                          <node concept="3clFbF" id="5dCxDLPOIUP" role="3cqZAp">
+                            <node concept="1Wc70l" id="5dCxDLPOKuh" role="3clFbG">
+                              <node concept="17R0WA" id="5dCxDLPOLTM" role="3uHU7w">
+                                <node concept="2OqwBi" id="5dCxDLPOMgz" role="3uHU7w">
+                                  <node concept="37vLTw" id="5dCxDLPOM3y" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5dCxDLPOIpU" resolve="otherP" />
+                                  </node>
+                                  <node concept="3TrcHB" id="5dCxDLPOMup" role="2OqNvi">
+                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="5dCxDLPOKAR" role="3uHU7B">
+                                  <node concept="37vLTw" id="5dCxDLPOKzp" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5dCxDLPODnj" resolve="p" />
+                                  </node>
+                                  <node concept="3TrcHB" id="5dCxDLPOKXX" role="2OqNvi">
+                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="17QLQc" id="5dCxDLPOKbI" role="3uHU7B">
+                                <node concept="37vLTw" id="5dCxDLPOIUO" role="3uHU7B">
+                                  <ref role="3cqZAo" node="5dCxDLPODnj" resolve="p" />
+                                </node>
+                                <node concept="37vLTw" id="5dCxDLPOKkW" role="3uHU7w">
+                                  <ref role="3cqZAo" node="5dCxDLPOIpU" resolve="otherP" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="5dCxDLPOIpU" role="1bW2Oz">
+                          <property role="TrG5h" value="otherP" />
+                          <node concept="2jxLKc" id="5dCxDLPOIpV" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="5dCxDLPODq3" role="3clFbx">
+                    <node concept="2MkqsV" id="5dCxDLPOM$F" role="3cqZAp">
+                      <node concept="Xl_RD" id="5dCxDLPOME7" role="2MkJ7o">
+                        <property role="Xl_RC" value="Names of participants in a sequence must be unique." />
+                      </node>
+                      <node concept="37vLTw" id="5dCxDLPON$9" role="1urrMF">
+                        <ref role="3cqZAo" node="5dCxDLPODnj" resolve="p" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="5dCxDLPODnj" role="1bW2Oz">
+                <property role="TrG5h" value="p" />
+                <node concept="2jxLKc" id="5dCxDLPODnk" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5dCxDLPNVc$" role="1YuTPh">
+      <property role="TrG5h" value="sequence" />
+      <ref role="1YaFvo" to="3ido:7MTUMX1blZL" resolve="Sequence" />
     </node>
   </node>
 </model>

@@ -1535,5 +1535,28 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="5dCxDLPP6nD">
+    <property role="3GE5qa" value="Description" />
+    <ref role="WuzLi" to="3ido:6TQOip_f_kF" resolve="SequenceReference" />
+    <node concept="11bSqf" id="5dCxDLPP6nE" role="11c4hB">
+      <node concept="3clFbS" id="5dCxDLPP6nF" role="2VODD2">
+        <node concept="lc7rE" id="5dCxDLPP6po" role="3cqZAp">
+          <node concept="l9hG8" id="5dCxDLPP6pp" role="lcghm">
+            <node concept="2OqwBi" id="5dCxDLPP7ob" role="lb14g">
+              <node concept="2OqwBi" id="5dCxDLPP6pq" role="2Oq$k0">
+                <node concept="117lpO" id="5dCxDLPP6pr" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5dCxDLPP77f" role="2OqNvi">
+                  <ref role="3Tt5mk" to="3ido:6TQOip_f_kI" resolve="target" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5dCxDLPP7At" role="2OqNvi">
+                <ref role="37wK5l" to="8nwy:6dx294tzYT2" resolve="getHyperLink" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
