@@ -341,6 +341,7 @@
   </registry>
   <node concept="18kY7G" id="7YN1vGXQQW4">
     <property role="TrG5h" value="LabelDuplicates" />
+    <property role="3GE5qa" value="terms" />
     <node concept="3clFbS" id="7YN1vGXQQW5" role="18ibNy">
       <node concept="3clFbJ" id="7YN1vGY5pv4" role="3cqZAp">
         <node concept="3clFbS" id="7YN1vGY5pv6" role="3clFbx">
@@ -2588,6 +2589,7 @@
   </node>
   <node concept="18kY7G" id="5dCxDLPNVcx">
     <property role="TrG5h" value="UniqueParticipantNames" />
+    <property role="3GE5qa" value="scenarios" />
     <node concept="3clFbS" id="5dCxDLPNVcy" role="18ibNy">
       <node concept="3clFbF" id="5dCxDLPO$TO" role="3cqZAp">
         <node concept="2OqwBi" id="5dCxDLPOBwX" role="3clFbG">
@@ -2677,6 +2679,100 @@
     <node concept="1YaCAy" id="5dCxDLPNVc$" role="1YuTPh">
       <property role="TrG5h" value="sequence" />
       <ref role="1YaFvo" to="3ido:7MTUMX1blZL" resolve="Sequence" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5dCxDLQCC71">
+    <property role="3GE5qa" value="scenarios" />
+    <property role="TrG5h" value="UniqueBindings" />
+    <node concept="3clFbS" id="5dCxDLQCC72" role="18ibNy">
+      <node concept="3clFbF" id="5dCxDLQDb$4" role="3cqZAp">
+        <node concept="2OqwBi" id="5dCxDLQDdOV" role="3clFbG">
+          <node concept="2OqwBi" id="5dCxDLQDbHX" role="2Oq$k0">
+            <node concept="1YBJjd" id="5dCxDLQDb$3" role="2Oq$k0">
+              <ref role="1YBMHb" node="5dCxDLQCC74" resolve="sequenceInvocation" />
+            </node>
+            <node concept="3Tsc0h" id="5dCxDLQDbSl" role="2OqNvi">
+              <ref role="3TtcxE" to="3ido:5dCxDLQxbdz" resolve="bindings" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="5dCxDLQDhTP" role="2OqNvi">
+            <node concept="1bVj0M" id="5dCxDLQDhTR" role="23t8la">
+              <node concept="3clFbS" id="5dCxDLQDhTS" role="1bW5cS">
+                <node concept="3clFbJ" id="5dCxDLQDi0C" role="3cqZAp">
+                  <node concept="2OqwBi" id="5dCxDLQDiGJ" role="3clFbw">
+                    <node concept="2OqwBi" id="5dCxDLQDi8o" role="2Oq$k0">
+                      <node concept="1YBJjd" id="5dCxDLQDi2Q" role="2Oq$k0">
+                        <ref role="1YBMHb" node="5dCxDLQCC74" resolve="sequenceInvocation" />
+                      </node>
+                      <node concept="3Tsc0h" id="5dCxDLQDio7" role="2OqNvi">
+                        <ref role="3TtcxE" to="3ido:5dCxDLQxbdz" resolve="bindings" />
+                      </node>
+                    </node>
+                    <node concept="2HwmR7" id="5dCxDLQDjUZ" role="2OqNvi">
+                      <node concept="1bVj0M" id="5dCxDLQDjV1" role="23t8la">
+                        <node concept="3clFbS" id="5dCxDLQDjV2" role="1bW5cS">
+                          <node concept="3clFbF" id="5dCxDLQDkdW" role="3cqZAp">
+                            <node concept="1Wc70l" id="5dCxDLQDkU2" role="3clFbG">
+                              <node concept="17R0WA" id="5dCxDLQDlLW" role="3uHU7w">
+                                <node concept="2OqwBi" id="5dCxDLQDm4f" role="3uHU7w">
+                                  <node concept="37vLTw" id="5dCxDLQDlVw" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5dCxDLQDjV3" resolve="otherB" />
+                                  </node>
+                                  <node concept="3TrEf2" id="5dCxDLQDmb$" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="3ido:5dCxDLQxbdD" resolve="parameter" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="5dCxDLQDl48" role="3uHU7B">
+                                  <node concept="37vLTw" id="5dCxDLQDkYY" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5dCxDLQDhTT" resolve="b" />
+                                  </node>
+                                  <node concept="3TrEf2" id="5dCxDLQDlja" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="3ido:5dCxDLQxbdD" resolve="parameter" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="17QLQc" id="5dCxDLQDkBR" role="3uHU7B">
+                                <node concept="37vLTw" id="5dCxDLQDkdV" role="3uHU7B">
+                                  <ref role="3cqZAo" node="5dCxDLQDhTT" resolve="b" />
+                                </node>
+                                <node concept="37vLTw" id="5dCxDLQDkKT" role="3uHU7w">
+                                  <ref role="3cqZAo" node="5dCxDLQDjV3" resolve="otherB" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="5dCxDLQDjV3" role="1bW2Oz">
+                          <property role="TrG5h" value="otherB" />
+                          <node concept="2jxLKc" id="5dCxDLQDjV4" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="5dCxDLQDi0E" role="3clFbx">
+                    <node concept="2MkqsV" id="5dCxDLQDmhJ" role="3cqZAp">
+                      <node concept="Xl_RD" id="5dCxDLQDmmZ" role="2MkJ7o">
+                        <property role="Xl_RC" value="You can only bind a parameter once." />
+                      </node>
+                      <node concept="37vLTw" id="5dCxDLQDnaH" role="1urrMF">
+                        <ref role="3cqZAo" node="5dCxDLQDhTT" resolve="b" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="5dCxDLQDhTT" role="1bW2Oz">
+                <property role="TrG5h" value="b" />
+                <node concept="2jxLKc" id="5dCxDLQDhTU" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5dCxDLQCC74" role="1YuTPh">
+      <property role="TrG5h" value="sequenceInvocation" />
+      <ref role="1YaFvo" to="3ido:5dCxDLQxbdw" resolve="SequenceInvocation" />
     </node>
   </node>
 </model>

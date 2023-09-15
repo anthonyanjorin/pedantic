@@ -814,5 +814,42 @@
       <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5dCxDLQxbdw">
+    <property role="EcuMT" value="6010201709287355232" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="SequenceInvocation" />
+    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
+    <node concept="1TJgyj" id="5dCxDLQxbdz" role="1TKVEi">
+      <property role="IQ2ns" value="6010201709287355235" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bindings" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5dCxDLQxbdA" resolve="InstanceBinding" />
+    </node>
+    <node concept="1TJgyj" id="5dCxDLQxbdx" role="1TKVEi">
+      <property role="IQ2ns" value="6010201709287355233" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MTUMX1blZL" resolve="Sequence" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5dCxDLQxbdA">
+    <property role="EcuMT" value="6010201709287355238" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="InstanceBinding" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5dCxDLQxbdD" role="1TKVEi">
+      <property role="IQ2ns" value="6010201709287355241" />
+      <property role="20kJfa" value="parameter" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+    </node>
+    <node concept="1TJgyj" id="5dCxDLQxbdB" role="1TKVEi">
+      <property role="IQ2ns" value="6010201709287355239" />
+      <property role="20kJfa" value="argument" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+    </node>
+  </node>
 </model>
 

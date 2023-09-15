@@ -320,5 +320,18 @@
     <property role="TrG5h" value="PlantUMLSeparator" />
     <ref role="1TJDcQ" node="9N_2qBt426" resolve="PlantUMLMessage" />
   </node>
+  <node concept="1TIwiD" id="5dCxDLQDJch">
+    <property role="EcuMT" value="6010201709289599761" />
+    <property role="3GE5qa" value="Metamodel.SequenceDiagram" />
+    <property role="TrG5h" value="PlantUMLSeqRef" />
+    <ref role="1TJDcQ" node="9N_2qBt426" resolve="PlantUMLMessage" />
+    <node concept="1TJgyj" id="5dCxDLQDQCu" role="1TKVEi">
+      <property role="IQ2ns" value="6010201709289630238" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="9N_2qBwoKd" resolve="PlantUMLInstance" />
+    </node>
+  </node>
 </model>
 

@@ -7,11 +7,23 @@
   <imports />
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="7959779354262056413" name="pedantic.structure.ServiceReference" flags="ng" index="bcvNV">
+        <reference id="7959779354262056414" name="targetService" index="bcvNS" />
+        <reference id="7959779354262235268" name="targetLabel" index="bfNAy" />
+      </concept>
       <concept id="7959779354261476651" name="pedantic.structure.SequenceReference" flags="ng" index="bi8gd">
         <reference id="7959779354261476654" name="target" index="bi8g8" />
       </concept>
       <concept id="6010201709281840802" name="pedantic.structure.Separator" flags="ng" index="_m0wY">
         <child id="6010201709281840803" name="desc" index="_m0wZ" />
+      </concept>
+      <concept id="6010201709287355238" name="pedantic.structure.InstanceBinding" flags="ng" index="_V3nU">
+        <reference id="6010201709287355241" name="parameter" index="_V3nP" />
+        <reference id="6010201709287355239" name="argument" index="_V3nV" />
+      </concept>
+      <concept id="6010201709287355232" name="pedantic.structure.SequenceInvocation" flags="ng" index="_V3nW">
+        <reference id="6010201709287355233" name="target" index="_V3nX" />
+        <child id="6010201709287355235" name="bindings" index="_V3nZ" />
       </concept>
       <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT" />
       <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
@@ -319,28 +331,6 @@
     <property role="TrG5h" value="Foo" />
     <node concept="X_bju" id="5dCxDLPJ6nU" role="1LuVN3">
       <property role="TrG5h" value="Capability Workflow as it is" />
-      <node concept="19Azo$" id="5dCxDLPQDxW" role="X_bjp">
-        <node concept="3f6AUQ" id="5dCxDLPQDxY" role="1YyRMU">
-          <node concept="3fT77D" id="5dCxDLPQDy8" role="3f6BbQ">
-            <property role="3fT77I" value="Not" />
-          </node>
-          <node concept="3fT77D" id="5dCxDLPQDya" role="3f6BbQ">
-            <property role="3fT77I" value="sure" />
-          </node>
-          <node concept="3fT77D" id="5dCxDLPQDyd" role="3f6BbQ">
-            <property role="3fT77I" value="what" />
-          </node>
-          <node concept="3fT77D" id="5dCxDLPQDyh" role="3f6BbQ">
-            <property role="3fT77I" value="is" />
-          </node>
-          <node concept="3fT77D" id="5dCxDLPQDym" role="3f6BbQ">
-            <property role="3fT77I" value="expected" />
-          </node>
-          <node concept="3fT77D" id="5dCxDLPQDys" role="3f6BbQ">
-            <property role="3fT77I" value="here" />
-          </node>
-        </node>
-      </node>
       <node concept="1bfm7D" id="5dCxDLPJS5P" role="AfY4v">
         <property role="TrG5h" value="a" />
         <ref role="1bfm7A" node="3DzuiyYPAXJ" resolve="A" />
@@ -358,6 +348,22 @@
         <ref role="1bfm7A" node="3DzuiyYFWXr" resolve="Jira" />
       </node>
       <node concept="3f6AUQ" id="5dCxDLPJ6nV" role="X_bjr" />
+      <node concept="19Azo$" id="5dCxDLQLSOy" role="X_bjp">
+        <node concept="3f6AUQ" id="5dCxDLQLSO$" role="1YyRMU">
+          <node concept="3fT77D" id="5dCxDLQLSPb" role="3f6BbQ">
+            <property role="3fT77I" value="asdf" />
+          </node>
+          <node concept="3fT77D" id="5dCxDLQLSPd" role="3f6BbQ">
+            <property role="3fT77I" value="asdf" />
+          </node>
+          <node concept="3fT77D" id="5dCxDLQLSPg" role="3f6BbQ">
+            <property role="3fT77I" value="asdf" />
+          </node>
+          <node concept="3fT77D" id="5dCxDLQLSPk" role="3f6BbQ">
+            <property role="3fT77I" value="asdf" />
+          </node>
+        </node>
+      </node>
       <node concept="_m0wY" id="5dCxDLQcQ3y" role="X_bjp">
         <node concept="3f6AUQ" id="5dCxDLQcQ3H" role="_m0wZ">
           <node concept="3f6BbC" id="5dCxDLQcQ3J" role="3f6BbQ">
@@ -420,6 +426,17 @@
           </node>
         </node>
       </node>
+      <node concept="_V3nW" id="5dCxDLQzHJO" role="X_bjp">
+        <ref role="_V3nX" node="5dCxDLPM5Y9" resolve="Epic Workflow" />
+        <node concept="_V3nU" id="5dCxDLQDbfz" role="_V3nZ">
+          <ref role="_V3nP" node="5dCxDLPP5zd" resolve="a" />
+          <ref role="_V3nV" node="5dCxDLPOzR5" resolve="ab" />
+        </node>
+        <node concept="_V3nU" id="5dCxDLQKkn1" role="_V3nZ">
+          <ref role="_V3nP" node="5dCxDLQAY2E" resolve="b" />
+          <ref role="_V3nV" node="5dCxDLPJS5R" resolve="cc" />
+        </node>
+      </node>
     </node>
     <node concept="X_bju" id="5dCxDLPM5Y9" role="1LuVN3">
       <property role="TrG5h" value="Epic Workflow" />
@@ -427,11 +444,37 @@
         <property role="TrG5h" value="a" />
         <ref role="1bfm7A" node="3DzuiyYPAXJ" resolve="A" />
       </node>
+      <node concept="1bfm7D" id="5dCxDLQAY2E" role="AfY4v">
+        <property role="TrG5h" value="b" />
+        <ref role="1bfm7A" node="3DzuiyYCeox" resolve="Epic" />
+      </node>
       <node concept="18RnWb" id="5dCxDLPM5Ys" role="X_bjp">
         <ref role="AfY4r" node="5dCxDLPP5zd" resolve="a" />
         <ref role="19Fzs9" node="5dCxDLPM5WL" resolve="asdfadsfas" />
       </node>
+      <node concept="_V3nW" id="5dCxDLQKlQ7" role="X_bjp">
+        <ref role="_V3nX" node="5dCxDLPJ6nU" resolve="Capability Workflow as it is" />
+        <node concept="_V3nU" id="5dCxDLQKlQ9" role="_V3nZ">
+          <ref role="_V3nP" node="5dCxDLPJS5P" resolve="a" />
+          <ref role="_V3nV" node="5dCxDLQAY2E" resolve="b" />
+        </node>
+      </node>
       <node concept="3f6AUQ" id="5dCxDLPM5Ya" role="X_bjr" />
+      <node concept="_V3nW" id="5dCxDLQKlQu" role="X_bjp">
+        <ref role="_V3nX" node="5dCxDLPM5Y9" resolve="Epic Workflow" />
+        <node concept="_V3nU" id="5dCxDLQKlQw" role="_V3nZ">
+          <ref role="_V3nP" node="5dCxDLQAY2E" resolve="b" />
+          <ref role="_V3nV" node="5dCxDLPP5zd" resolve="a" />
+        </node>
+      </node>
+      <node concept="_m0wY" id="5dCxDLQKlQQ" role="X_bjp">
+        <node concept="3f6AUQ" id="5dCxDLQKlQY" role="_m0wZ">
+          <node concept="bcvNV" id="5dCxDLQKlR0" role="3f6BbQ">
+            <ref role="bfNAy" node="3DzuiyYPB0a" resolve="C" />
+            <ref role="bcvNS" node="5dCxDLPM5Xa" resolve="dddd" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3f6AUQ" id="5dCxDLPJ6nT" role="1LuVN1" />
   </node>

@@ -80,16 +80,23 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
         <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
         <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <property id="1238684351431" name="asCast" index="1BlNFB" />
       </concept>
@@ -452,6 +459,93 @@
               <node concept="359W_D" id="6TQOip_jbtD" role="37wK5m">
                 <ref role="359W_E" to="3ido:4h$8nEbv$Z4" resolve="Term" />
                 <ref role="359W_F" to="3ido:7MTUMX1bm0g" resolve="services" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5dCxDLQAHLJ">
+    <property role="3GE5qa" value="Scenarios" />
+    <ref role="1M2myG" to="3ido:5dCxDLQxbdA" resolve="InstanceBinding" />
+    <node concept="1N5Pfh" id="5dCxDLQAIrF" role="1Mr941">
+      <ref role="1N5Vy1" to="3ido:5dCxDLQxbdB" resolve="argument" />
+      <node concept="3dgokm" id="5dCxDLQAIxE" role="1N6uqs">
+        <node concept="3clFbS" id="5dCxDLQAIxF" role="2VODD2">
+          <node concept="3cpWs8" id="5dCxDLQAI_z" role="3cqZAp">
+            <node concept="3cpWsn" id="5dCxDLQAI_A" role="3cpWs9">
+              <property role="TrG5h" value="seq" />
+              <node concept="3Tqbb2" id="5dCxDLQAI_y" role="1tU5fm">
+                <ref role="ehGHo" to="3ido:7MTUMX1blZL" resolve="Sequence" />
+              </node>
+              <node concept="2OqwBi" id="5dCxDLQAJ3q" role="33vP2m">
+                <node concept="3kakTB" id="5dCxDLQAITO" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="5dCxDLQALo8" role="2OqNvi">
+                  <node concept="1xMEDy" id="5dCxDLQALoa" role="1xVPHs">
+                    <node concept="chp4Y" id="5dCxDLQAL$H" role="ri$Ld">
+                      <ref role="cht4Q" to="3ido:7MTUMX1blZL" resolve="Sequence" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="5dCxDLQAJyW" role="3cqZAp">
+            <node concept="2YIFZM" id="5dCxDLQAJE4" role="3cqZAk">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="5dCxDLQAJWN" role="37wK5m">
+                <node concept="37vLTw" id="5dCxDLQAJGY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5dCxDLQAI_A" resolve="seq" />
+                </node>
+                <node concept="3Tsc0h" id="5dCxDLQAZ3P" role="2OqNvi">
+                  <ref role="3TtcxE" to="3ido:5dCxDLPlQu3" resolve="participants" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="5dCxDLQAIuE" role="1Mr941">
+      <ref role="1N5Vy1" to="3ido:5dCxDLQxbdD" resolve="parameter" />
+      <node concept="3dgokm" id="5dCxDLQAKu_" role="1N6uqs">
+        <node concept="3clFbS" id="5dCxDLQAKuB" role="2VODD2">
+          <node concept="3cpWs8" id="5dCxDLQAKw6" role="3cqZAp">
+            <node concept="3cpWsn" id="5dCxDLQAKw7" role="3cpWs9">
+              <property role="TrG5h" value="seq" />
+              <node concept="3Tqbb2" id="5dCxDLQAKw8" role="1tU5fm">
+                <ref role="ehGHo" to="3ido:7MTUMX1blZL" resolve="Sequence" />
+              </node>
+              <node concept="2OqwBi" id="5dCxDLQAMFX" role="33vP2m">
+                <node concept="2OqwBi" id="5dCxDLQALXO" role="2Oq$k0">
+                  <node concept="3kakTB" id="5dCxDLQAKwc" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="5dCxDLQB39H" role="2OqNvi">
+                    <node concept="1xMEDy" id="5dCxDLQB39J" role="1xVPHs">
+                      <node concept="chp4Y" id="5dCxDLQB3dk" role="ri$Ld">
+                        <ref role="cht4Q" to="3ido:5dCxDLQxbdw" resolve="SequenceInvocation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="5dCxDLQAN5B" role="2OqNvi">
+                  <ref role="3Tt5mk" to="3ido:5dCxDLQxbdx" resolve="target" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="5dCxDLQAKwe" role="3cqZAp">
+            <node concept="2YIFZM" id="5dCxDLQAKwf" role="3cqZAk">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="5dCxDLQAKwg" role="37wK5m">
+                <node concept="37vLTw" id="5dCxDLQAKwh" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5dCxDLQAKw7" resolve="seq" />
+                </node>
+                <node concept="3Tsc0h" id="5dCxDLQAZg5" role="2OqNvi">
+                  <ref role="3TtcxE" to="3ido:5dCxDLPlQu3" resolve="participants" />
+                </node>
               </node>
             </node>
           </node>
