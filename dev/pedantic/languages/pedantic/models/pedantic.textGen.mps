@@ -62,6 +62,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -877,12 +878,22 @@
               <node concept="3clFbS" id="3DA2Tw6I2ki" role="2LFqv$">
                 <node concept="lc7rE" id="3DA2Tw6I6$I" role="3cqZAp">
                   <node concept="l9hG8" id="3DA2Tw6I6_7" role="lcghm">
-                    <node concept="2OqwBi" id="3DA2Tw6I6Ho" role="lb14g">
-                      <node concept="37vLTw" id="3DA2Tw6I6A0" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3DA2Tw6I2kj" resolve="service" />
+                    <node concept="3cpWs3" id="5dCxDLRChyQ" role="lb14g">
+                      <node concept="2OqwBi" id="5dCxDLRClM1" role="3uHU7w">
+                        <node concept="37vLTw" id="5dCxDLRClzM" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3DA2Tw6I2kj" resolve="service" />
+                        </node>
+                        <node concept="2qgKlT" id="5dCxDLRClZe" role="2OqNvi">
+                          <ref role="37wK5l" to="8nwy:5dCxDLRCkGl" resolve="getServiceReturn" />
+                        </node>
                       </node>
-                      <node concept="3TrcHB" id="3DA2Tw6I6P8" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      <node concept="2OqwBi" id="3DA2Tw6I6Ho" role="3uHU7B">
+                        <node concept="37vLTw" id="3DA2Tw6I6A0" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3DA2Tw6I2kj" resolve="service" />
+                        </node>
+                        <node concept="3TrcHB" id="3DA2Tw6I6P8" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
                       </node>
                     </node>
                   </node>

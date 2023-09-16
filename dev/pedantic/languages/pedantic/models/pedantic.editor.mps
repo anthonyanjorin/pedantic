@@ -820,10 +820,16 @@
         <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
       </node>
       <node concept="3F0ifn" id="7MTUMX1bm3_" role="3EZMnx">
-        <property role="3F0ifm" value="(...)" />
+        <property role="3F0ifm" value="(...) -&gt;" />
         <ref role="1k5W1q" node="47_$PnZMXw8" resolve="Small" />
         <node concept="11L4FC" id="7MTUMX1bTsN" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5dCxDLRnGAI" role="3EZMnx">
+        <ref role="1NtTu8" to="3ido:5dCxDLRnGAt" resolve="returns" />
+        <node concept="VSNWy" id="5dCxDLRnGAU" role="3F10Kt">
+          <property role="1lJzqX" value="10" />
         </node>
       </node>
       <node concept="3F0ifn" id="q7KOLdHv_d" role="3EZMnx">
