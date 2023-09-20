@@ -77,6 +77,11 @@
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="sequences" index="1LuVN3" />
       </concept>
+      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
+        <reference id="6010201709267609490" name="to" index="AfY4e" />
+        <reference id="6010201709267609485" name="from" index="AfY4h" />
+        <reference id="470559418596586568" name="service" index="19Fzs4" />
+      </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
@@ -141,6 +146,9 @@
       </node>
     </node>
     <node concept="3f6AUY" id="3DzuiyYCeov" role="3f6AUZ">
+      <node concept="X_8GT" id="2WTnVpO991S" role="X_8GZ">
+        <property role="TrG5h" value="dddd" />
+      </node>
       <node concept="3f6AUQ" id="3DzuiyYCeow" role="3f6AUE" />
       <node concept="3f6AUX" id="3DzuiyYCeox" role="3f6AUK">
         <property role="TrG5h" value="Epic" />
@@ -399,6 +407,12 @@
       </node>
       <node concept="3f6AUX" id="5dCxDLRbRdi" role="3f6AUK">
         <property role="TrG5h" value="Casdfasdf" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="2WTnVpO8RjS" role="3f6AUZ">
+      <node concept="3f6AUQ" id="2WTnVpO8RjT" role="3f6AUE" />
+      <node concept="3f6AUX" id="2WTnVpO8RjU" role="3f6AUK">
+        <property role="TrG5h" value="Foodyhoo" />
       </node>
     </node>
     <node concept="3f6AUQ" id="9N_2qHyobp" role="3f6AUR" />
@@ -671,6 +685,23 @@
           <property role="3fT77I" value="." />
         </node>
       </node>
+    </node>
+    <node concept="X_bju" id="2WTnVpO8RlR" role="1LuVN3">
+      <property role="TrG5h" value="Foodyhoo" />
+      <node concept="1LuVN4" id="2WTnVpO8Rnv" role="X_bjp">
+        <ref role="AfY4h" node="2WTnVpO8Rno" resolve="a" />
+        <ref role="AfY4e" node="2WTnVpO8Rnq" resolve="dd" />
+        <ref role="19Fzs4" node="2WTnVpO991S" resolve="dddd" />
+      </node>
+      <node concept="1bfm7D" id="2WTnVpO8Rno" role="AfY4v">
+        <property role="TrG5h" value="a" />
+        <ref role="1bfm7A" node="3DzuiyYPAXJ" resolve="A" />
+      </node>
+      <node concept="1bfm7D" id="2WTnVpO8Rnq" role="AfY4v">
+        <property role="TrG5h" value="dd" />
+        <ref role="1bfm7A" node="3DzuiyYCeox" resolve="Epic" />
+      </node>
+      <node concept="3f6AUQ" id="2WTnVpO8RlS" role="X_bjr" />
     </node>
     <node concept="3f6AUQ" id="5dCxDLPJ6nT" role="1LuVN1" />
   </node>
