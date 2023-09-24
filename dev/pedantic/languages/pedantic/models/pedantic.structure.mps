@@ -429,13 +429,7 @@
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="SendReceiveMessage" />
     <property role="34LRSv" value="send to receiver" />
-    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
-    <node concept="1TJgyj" id="q7KOLfavh8" role="1TKVEi">
-      <property role="IQ2ns" value="470559418596586568" />
-      <property role="20kJfa" value="service" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
-    </node>
+    <ref role="1TJDcQ" node="2WTnVpOemuc" resolve="ServiceInvocation" />
     <node concept="1TJgyj" id="5dCxDLPlQud" role="1TKVEi">
       <property role="IQ2ns" value="6010201709267609485" />
       <property role="20kJfa" value="from" />
@@ -561,13 +555,7 @@
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="SelfMessage" />
     <property role="34LRSv" value="send to self" />
-    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
-    <node concept="1TJgyj" id="q7KOLfavh5" role="1TKVEi">
-      <property role="IQ2ns" value="470559418596586565" />
-      <property role="20kJfa" value="service" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
-    </node>
+    <ref role="1TJDcQ" node="2WTnVpOemuc" resolve="ServiceInvocation" />
     <node concept="1TJgyj" id="5dCxDLPlQu7" role="1TKVEi">
       <property role="IQ2ns" value="6010201709267609479" />
       <property role="20kJfa" value="self" />
@@ -858,6 +846,19 @@
       <property role="20kJfa" value="argument" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2WTnVpOemuc">
+    <property role="EcuMT" value="3402856230693726092" />
+    <property role="3GE5qa" value="Scenarios" />
+    <property role="TrG5h" value="ServiceInvocation" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
+    <node concept="1TJgyj" id="q7KOLfavh5" role="1TKVEi">
+      <property role="IQ2ns" value="470559418596586565" />
+      <property role="20kJfa" value="service" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
     </node>
   </node>
 </model>
