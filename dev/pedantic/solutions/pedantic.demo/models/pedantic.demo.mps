@@ -36,7 +36,6 @@
       </concept>
       <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
         <reference id="6010201709267609479" name="self" index="AfY4r" />
-        <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
       <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
         <child id="7161014301860983851" name="desc" index="1YyRMU" />
@@ -62,6 +61,9 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
+        <reference id="470559418596586565" name="service" index="19Fzs9" />
+      </concept>
       <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
         <property id="3889923412177894713" name="trg_min" index="3BFnm2" />
         <property id="3889923412177894706" name="src_min" index="3BFnm9" />
@@ -80,7 +82,6 @@
       <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
         <reference id="6010201709267609490" name="to" index="AfY4e" />
         <reference id="6010201709267609485" name="from" index="AfY4h" />
-        <reference id="470559418596586568" name="service" index="19Fzs4" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -192,6 +193,9 @@
       <node concept="3f6AUQ" id="3DzuiyYFWXq" role="3f6AUE" />
       <node concept="3f6AUX" id="3DzuiyYFWXr" role="3f6AUK">
         <property role="TrG5h" value="Jira" />
+      </node>
+      <node concept="X_8GT" id="2WTnVpODHw8" role="X_8GZ">
+        <property role="TrG5h" value="checkTicket" />
       </node>
     </node>
     <node concept="3f6AUY" id="3DzuiyYPuEU" role="3f6AUZ">
@@ -343,6 +347,12 @@
           </node>
         </node>
       </node>
+      <node concept="X_8GT" id="2WTnVpODE$h" role="X_8GZ">
+        <property role="TrG5h" value="kkkkkk" />
+      </node>
+      <node concept="X_8GT" id="2WTnVpODE$$" role="X_8GZ">
+        <property role="TrG5h" value="adsfasdfasdf" />
+      </node>
     </node>
     <node concept="3f6AUY" id="3DzuiyYPB08" role="3f6AUZ">
       <node concept="X_8GT" id="5dCxDLPM5X7" role="X_8GZ">
@@ -473,10 +483,6 @@
           </node>
         </node>
       </node>
-      <node concept="18RnWb" id="5dCxDLQcQ3Y" role="X_bjp">
-        <ref role="AfY4r" node="5dCxDLPJS5P" resolve="a" />
-        <ref role="19Fzs9" node="5dCxDLPM5WP" resolve="aaaa" />
-      </node>
       <node concept="_m0wY" id="5dCxDLQnhw5" role="X_bjp">
         <node concept="3f6AUQ" id="5dCxDLQnhwo" role="_m0wZ">
           <node concept="3fT77D" id="5dCxDLQnhwq" role="3f6BbQ">
@@ -537,10 +543,6 @@
       <node concept="1bfm7D" id="5dCxDLQAY2E" role="AfY4v">
         <property role="TrG5h" value="b" />
         <ref role="1bfm7A" node="3DzuiyYCeox" resolve="Epic" />
-      </node>
-      <node concept="18RnWb" id="5dCxDLPM5Ys" role="X_bjp">
-        <ref role="AfY4r" node="5dCxDLPP5zd" resolve="a" />
-        <ref role="19Fzs9" node="5dCxDLPM5WL" resolve="asdfadsfas" />
       </node>
       <node concept="_V3nW" id="5dCxDLQKlQ7" role="X_bjp">
         <ref role="_V3nX" node="5dCxDLPJ6nU" resolve="Capability Workflow as it is" />
@@ -619,6 +621,11 @@
           </node>
         </node>
       </node>
+      <node concept="1LuVN4" id="2WTnVpODHvM" role="X_bjp">
+        <ref role="AfY4h" node="5dCxDLQU$H7" resolve="I" />
+        <ref role="AfY4e" node="5dCxDLQU$J$" resolve="S" />
+        <ref role="19Fzs9" node="2WTnVpODHw8" resolve="checkTicket" />
+      </node>
       <node concept="1bfm7D" id="5dCxDLQU$H5" role="AfY4v">
         <property role="TrG5h" value="R" />
         <ref role="1bfm7A" node="3DzuiyYFWZl" resolve="Software Architect" />
@@ -688,10 +695,14 @@
     </node>
     <node concept="X_bju" id="2WTnVpO8RlR" role="1LuVN3">
       <property role="TrG5h" value="Foodyhoo" />
-      <node concept="1LuVN4" id="2WTnVpO8Rnv" role="X_bjp">
+      <node concept="1LuVN4" id="2WTnVpO_fm4" role="X_bjp">
         <ref role="AfY4h" node="2WTnVpO8Rno" resolve="a" />
         <ref role="AfY4e" node="2WTnVpO8Rnq" resolve="dd" />
-        <ref role="19Fzs4" node="2WTnVpO991S" resolve="dddd" />
+        <ref role="19Fzs9" node="5dCxDLPM5Xa" resolve="dddd" />
+      </node>
+      <node concept="18RnWb" id="2WTnVpOCngS" role="X_bjp">
+        <ref role="AfY4r" node="2WTnVpO8Rno" resolve="a" />
+        <ref role="19Fzs9" node="5dCxDLPM5WL" resolve="asdfadsfas" />
       </node>
       <node concept="1bfm7D" id="2WTnVpO8Rno" role="AfY4v">
         <property role="TrG5h" value="a" />
@@ -699,7 +710,7 @@
       </node>
       <node concept="1bfm7D" id="2WTnVpO8Rnq" role="AfY4v">
         <property role="TrG5h" value="dd" />
-        <ref role="1bfm7A" node="3DzuiyYCeox" resolve="Epic" />
+        <ref role="1bfm7A" node="3DzuiyYPB0a" resolve="C" />
       </node>
       <node concept="3f6AUQ" id="2WTnVpO8RlS" role="X_bjr" />
     </node>
