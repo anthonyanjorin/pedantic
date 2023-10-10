@@ -333,5 +333,79 @@
       <ref role="20lvS9" node="9N_2qBwoKd" resolve="PlantUMLInstance" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2WTnVpP35aQ">
+    <property role="EcuMT" value="3402856230707548854" />
+    <property role="3GE5qa" value="Metamodel.StateDiagram" />
+    <property role="TrG5h" value="PlantUMLStateDiagram" />
+    <ref role="1TJDcQ" node="9N_2qBjWdC" resolve="PlantUMLDiagram" />
+    <node concept="1TJgyj" id="2WTnVpP3b7o" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707573208" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2WTnVpP3b7q" resolve="PlantUMLState" />
+    </node>
+    <node concept="1TJgyj" id="2WTnVpP3b7E" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707573226" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="transitions" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2WTnVpP3b7v" resolve="PlantUMLTransition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2WTnVpP3b7q">
+    <property role="EcuMT" value="3402856230707573210" />
+    <property role="3GE5qa" value="Metamodel.StateDiagram" />
+    <property role="TrG5h" value="PlantUMLState" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2WTnVpP3b7I" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707573230" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2WTnVpP3b7q" resolve="PlantUMLState" />
+    </node>
+    <node concept="1TJgyj" id="2WTnVpP3b7J" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707573231" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="transitions" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2WTnVpP3b7v" resolve="PlantUMLTransition" />
+    </node>
+    <node concept="1TJgyj" id="2WTnVpP3vwi" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707656722" />
+      <property role="20kJfa" value="origin" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="PrWs8" id="2WTnVpP3b7t" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2WTnVpP3b7v">
+    <property role="EcuMT" value="3402856230707573215" />
+    <property role="3GE5qa" value="Metamodel.StateDiagram" />
+    <property role="TrG5h" value="PlantUMLTransition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2WTnVpP3b7$" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707573220" />
+      <property role="20kJfa" value="source" />
+      <ref role="20lvS9" node="2WTnVpP3b7q" resolve="PlantUMLState" />
+    </node>
+    <node concept="1TJgyj" id="2WTnVpP3b7A" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230707573222" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="2WTnVpP3b7q" resolve="PlantUMLState" />
+    </node>
+    <node concept="1TJgyj" id="2WTnVpPnhfN" role="1TKVEi">
+      <property role="IQ2ns" value="3402856230712841203" />
+      <property role="20kJfa" value="origin" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="PrWs8" id="2WTnVpP3b7x" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

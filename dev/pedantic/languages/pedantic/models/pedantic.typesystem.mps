@@ -2619,7 +2619,7 @@
   </node>
   <node concept="18kY7G" id="5dCxDLPNVcx">
     <property role="TrG5h" value="UniqueParticipantNames" />
-    <property role="3GE5qa" value="scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <node concept="3clFbS" id="5dCxDLPNVcy" role="18ibNy">
       <node concept="3clFbF" id="5dCxDLPO$TO" role="3cqZAp">
         <node concept="2OqwBi" id="5dCxDLPOBwX" role="3clFbG">
@@ -2712,7 +2712,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="5dCxDLQCC71">
-    <property role="3GE5qa" value="scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <property role="TrG5h" value="UniqueBindings" />
     <node concept="3clFbS" id="5dCxDLQCC72" role="18ibNy">
       <node concept="3clFbF" id="5dCxDLQDb$4" role="3cqZAp">
@@ -2806,7 +2806,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="2WTnVpO7P0J">
-    <property role="3GE5qa" value="scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <property role="TrG5h" value="RelatedParticipants" />
     <node concept="3clFbS" id="2WTnVpO7P0K" role="18ibNy">
       <node concept="3cpWs8" id="2WTnVpO87op" role="3cqZAp">

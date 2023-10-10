@@ -64,6 +64,27 @@
       <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
         <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
+      <concept id="3402856230705402903" name="pedantic.structure.InitialState" flags="ng" index="1rOGIx" />
+      <concept id="3402856230705402906" name="pedantic.structure.CompositeState" flags="ng" index="1rOGIG">
+        <child id="3402856230705402934" name="terminal" index="1rOGI0" />
+        <child id="3402856230705402935" name="states" index="1rOGI1" />
+        <child id="3402856230705402933" name="initial" index="1rOGI3" />
+        <child id="3402856230705525364" name="transitions" index="1rP2R2" />
+      </concept>
+      <concept id="3402856230705402905" name="pedantic.structure.TerminalState" flags="ng" index="1rOGIJ" />
+      <concept id="3402856230705410214" name="pedantic.structure.Transition" flags="ng" index="1rOIWg">
+        <reference id="3402856230705417435" name="target" index="1rODdH" />
+        <reference id="3402856230705417433" name="source" index="1rODdJ" />
+        <child id="3402856230705417445" name="action" index="1rODdj" />
+        <child id="3402856230705417441" name="trigger" index="1rODdn" />
+      </concept>
+      <concept id="3402856230704572653" name="pedantic.structure.StateMachine" flags="ng" index="1rTVtr">
+        <child id="3402856230705402919" name="states" index="1rOGIh" />
+        <child id="3402856230705402915" name="terminal" index="1rOGIl" />
+        <child id="3402856230705402912" name="initial" index="1rOGIm" />
+        <child id="3402856230705402909" name="description" index="1rOGIF" />
+        <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
+      </concept>
       <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
         <property id="3889923412177894713" name="trg_min" index="3BFnm2" />
         <property id="3889923412177894706" name="src_min" index="3BFnm9" />
@@ -74,10 +95,12 @@
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
         <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
         <child id="3889923412177894692" name="incoming" index="3BFnmv" />
+        <child id="3889923412177894683" name="children" index="3BFnmw" />
+        <child id="3889923412177894687" name="parents" index="3BFnm$" />
       </concept>
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
-        <child id="579219467669762506" name="sequences" index="1LuVN3" />
+        <child id="579219467669762506" name="behaviours" index="1LuVN3" />
       </concept>
       <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
         <reference id="6010201709267609490" name="to" index="AfY4e" />
@@ -97,7 +120,7 @@
   <node concept="3UcZMl" id="9N_2qHyobo">
     <property role="TrG5h" value="My Process" />
     <node concept="3f6AUY" id="9N_2qHyobB" role="3f6AUZ">
-      <property role="bZXHP" value="6TQOip_ygDg/actor" />
+      <property role="bZXHP" value="2WTnVpORK8o/state" />
       <node concept="3f6AUQ" id="9N_2qHyobC" role="3f6AUE">
         <node concept="3fT77D" id="3DzuiyYCen8" role="3f6BbQ">
           <property role="3fT77I" value="An" />
@@ -128,6 +151,26 @@
         <property role="TrG5h" value="Epic Owner" />
       </node>
       <node concept="3BFnmI" id="3DzuiyYCeoK" role="3BFnmE">
+        <node concept="3BFnma" id="2WTnVpPgLBq" role="3BFnm$">
+          <node concept="3f6BbC" id="2WTnVpPgLBr" role="3BFnmc">
+            <ref role="3f6BbD" node="3DzuiyYPB0a" resolve="C" />
+          </node>
+          <node concept="3f6AUQ" id="2WTnVpPgLEP" role="ba9K_">
+            <node concept="3fT77D" id="2WTnVpPgLER" role="3f6BbQ">
+              <property role="3fT77I" value="asdfasdf" />
+            </node>
+          </node>
+        </node>
+        <node concept="3BFnma" id="2WTnVpPgLBm" role="3BFnmw">
+          <node concept="3f6BbC" id="2WTnVpPgLBn" role="3BFnmc">
+            <ref role="3f6BbD" node="3DzuiyYPAXJ" resolve="A" />
+          </node>
+        </node>
+        <node concept="3BFnma" id="2WTnVpOR28H" role="3BFnmv">
+          <node concept="3f6BbC" id="2WTnVpOR28I" role="3BFnmc">
+            <ref role="3f6BbD" node="3DzuiyYFWXr" resolve="Jira" />
+          </node>
+        </node>
         <node concept="3BFnma" id="3DzuiyYCeoM" role="3BFnmh">
           <property role="3BFnm9" value="1" />
           <property role="3BFnmf" value="1" />
@@ -713,6 +756,131 @@
         <ref role="1bfm7A" node="3DzuiyYPB0a" resolve="C" />
       </node>
       <node concept="3f6AUQ" id="2WTnVpO8RlS" role="X_bjr" />
+    </node>
+    <node concept="1rTVtr" id="2WTnVpOWTCR" role="1LuVN3">
+      <property role="TrG5h" value="System States" />
+      <node concept="1rOIWg" id="2WTnVpPn3XD" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpOWTEB" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="2WTnVpOWTEA" resolve="Startup" />
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPqHxW" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpOWTEA" resolve="Startup" />
+        <ref role="1rODdH" node="2WTnVpP32wl" resolve="Active" />
+        <node concept="3f6AUQ" id="2WTnVpPqHyJ" role="1rODdn">
+          <node concept="3fT77D" id="2WTnVpPv0ph" role="3f6BbQ">
+            <property role="3fT77I" value="ddfd" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="2WTnVpPqHyN" role="1rODdj">
+          <node concept="3fT77D" id="2WTnVpPqHyP" role="3f6BbQ">
+            <property role="3fT77I" value="dfdfd" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPqHy0" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpP32wl" resolve="Active" />
+        <ref role="1rODdH" node="2WTnVpP32wN" resolve="Discharge" />
+        <node concept="3f6AUQ" id="2WTnVpPqHyR" role="1rODdn">
+          <node concept="3fT77D" id="2WTnVpPqHyT" role="3f6BbQ">
+            <property role="3fT77I" value="dd" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPqHy5" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpP32wN" resolve="Discharge" />
+        <ref role="1rODdH" node="2WTnVpP32wt" resolve="Shut Down" />
+        <node concept="3f6AUQ" id="2WTnVpPqHyZ" role="1rODdj">
+          <node concept="3fT77D" id="2WTnVpPqHz1" role="3f6BbQ">
+            <property role="3fT77I" value="dddfdf" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPqHyb" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpP32wt" resolve="Shut Down" />
+        <ref role="1rODdH" node="2WTnVpOWTEw" resolve="-&gt;(*)" />
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPv0pj" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpP32wl" resolve="Active" />
+        <ref role="1rODdH" node="2WTnVpP32wB" resolve="Standby" />
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPv0py" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpP32wl" resolve="Active" />
+        <ref role="1rODdH" node="2WTnVpP32x1" resolve="Product Test" />
+      </node>
+      <node concept="1rOIWg" id="2WTnVpPv0q0" role="1rP2Rr">
+        <ref role="1rODdJ" node="2WTnVpP32wB" resolve="Standby" />
+        <ref role="1rODdH" node="2WTnVpOWTEw" resolve="-&gt;(*)" />
+      </node>
+      <node concept="1rOGIG" id="2WTnVpOWTEA" role="1rOGIh">
+        <property role="TrG5h" value="Startup" />
+        <node concept="1rOGIx" id="2WTnVpOWTEB" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="2WTnVpP32wl" role="1rOGIh">
+        <property role="TrG5h" value="Active" />
+        <node concept="1rOIWg" id="2WTnVpPztLN" role="1rP2R2">
+          <ref role="1rODdJ" node="2WTnVpOWTEB" resolve="(*)-&gt;" />
+          <ref role="1rODdH" node="2WTnVpPv0qy" resolve="Operation" />
+        </node>
+        <node concept="1rOIWg" id="2WTnVpPztM7" role="1rP2R2">
+          <ref role="1rODdJ" node="2WTnVpPv0qy" resolve="Operation" />
+          <ref role="1rODdH" node="2WTnVpPv0qA" resolve="Privacy" />
+        </node>
+        <node concept="1rOIWg" id="2WTnVpP$pxF" role="1rP2R2">
+          <ref role="1rODdJ" node="2WTnVpPv0qA" resolve="Privacy" />
+          <ref role="1rODdH" node="2WTnVpP$pxJ" resolve="-&gt;(*)" />
+        </node>
+        <node concept="1rOGIG" id="2WTnVpPv0qy" role="1rOGI1">
+          <property role="TrG5h" value="Operation" />
+          <node concept="1rOGIx" id="2WTnVpPv0qz" role="1rOGI3">
+            <property role="TrG5h" value="(*)-&gt;" />
+          </node>
+        </node>
+        <node concept="1rOGIG" id="2WTnVpPv0qA" role="1rOGI1">
+          <property role="TrG5h" value="Privacy" />
+          <node concept="1rOGIx" id="2WTnVpPv0qB" role="1rOGI3">
+            <property role="TrG5h" value="(*)-&gt;" />
+          </node>
+        </node>
+        <node concept="1rOGIx" id="2WTnVpP32wm" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+        <node concept="1rOGIJ" id="2WTnVpP$pxJ" role="1rOGI0">
+          <property role="TrG5h" value="-&gt;(*)" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="2WTnVpP32wt" role="1rOGIh">
+        <property role="TrG5h" value="Shut Down" />
+        <node concept="1rOGIx" id="2WTnVpP32wu" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="2WTnVpP32wB" role="1rOGIh">
+        <property role="TrG5h" value="Standby" />
+        <node concept="1rOGIx" id="2WTnVpP32wC" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="2WTnVpP32wN" role="1rOGIh">
+        <property role="TrG5h" value="Discharge" />
+        <node concept="1rOGIx" id="2WTnVpP32wO" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="2WTnVpP32x1" role="1rOGIh">
+        <property role="TrG5h" value="Product Test" />
+        <node concept="1rOGIx" id="2WTnVpP32x2" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="2WTnVpOWTCT" role="1rOGIF" />
+      <node concept="1rOGIx" id="2WTnVpOWTCV" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="2WTnVpOWTEw" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
+      </node>
     </node>
     <node concept="3f6AUQ" id="5dCxDLPJ6nT" role="1LuVN1" />
   </node>

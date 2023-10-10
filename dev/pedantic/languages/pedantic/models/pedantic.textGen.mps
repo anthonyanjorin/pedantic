@@ -1035,7 +1035,7 @@
             <node concept="2OqwBi" id="6dx294tGxlh" role="lbANJ">
               <node concept="117lpO" id="6dx294tGxc_" role="2Oq$k0" />
               <node concept="3Tsc0h" id="6dx294tGxvq" role="2OqNvi">
-                <ref role="3TtcxE" to="3ido:w9Ng_TsB7a" resolve="sequences" />
+                <ref role="3TtcxE" to="3ido:w9Ng_TsB7a" resolve="behaviours" />
               </node>
             </node>
           </node>
@@ -1056,7 +1056,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="6dx294tGInB">
-    <property role="3GE5qa" value="Scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <ref role="WuzLi" to="3ido:7MTUMX1blZL" resolve="Sequence" />
     <node concept="11bSqf" id="6dx294tGInC" role="11c4hB">
       <node concept="3clFbS" id="6dx294tGInD" role="2VODD2">
@@ -1567,6 +1567,13 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2WTnVpOYNvn">
+    <property role="3GE5qa" value="Scenarios.StateMachines" />
+    <ref role="WuzLi" to="3ido:2WTnVpORIzH" resolve="StateMachine" />
+    <node concept="11bSqf" id="2WTnVpOYNvo" role="11c4hB">
+      <node concept="3clFbS" id="2WTnVpOYNvp" role="2VODD2" />
     </node>
   </node>
 </model>

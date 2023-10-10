@@ -231,6 +231,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -597,6 +600,7 @@
   <node concept="2S6QgY" id="2WTnVpOCoBL">
     <property role="TrG5h" value="CreateService" />
     <property role="2ZfUl3" value="true" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <ref role="2ZfgGC" to="3ido:2WTnVpOemuc" resolve="ServiceInvocation" />
     <node concept="2BZ0e9" id="2WTnVpODngc" role="1S$sla">
       <property role="TrG5h" value="serviceName" />

@@ -113,7 +113,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="q7KOLdGE7W">
-    <property role="3GE5qa" value="Scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <ref role="1M2myG" to="3ido:w9Ng_TsB7d" resolve="SendReceiveMessage" />
     <node concept="1N5Pfh" id="q7KOLdGE7X" role="1Mr941">
       <ref role="1N5Vy1" to="3ido:q7KOLfavh5" resolve="service" />
@@ -239,7 +239,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="q7KOLenWku">
-    <property role="3GE5qa" value="Scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <ref role="1M2myG" to="3ido:q7KOLemFL7" resolve="SelfMessage" />
     <node concept="1N5Pfh" id="q7KOLenWkz" role="1Mr941">
       <ref role="1N5Vy1" to="3ido:q7KOLfavh5" resolve="service" />
@@ -367,7 +367,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="5dCxDLQAHLJ">
-    <property role="3GE5qa" value="Scenarios" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <ref role="1M2myG" to="3ido:5dCxDLQxbdA" resolve="InstanceBinding" />
     <node concept="1N5Pfh" id="5dCxDLQAIrF" role="1Mr941">
       <ref role="1N5Vy1" to="3ido:5dCxDLQxbdB" resolve="argument" />
