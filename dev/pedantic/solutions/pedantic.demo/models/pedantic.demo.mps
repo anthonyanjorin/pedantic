@@ -760,7 +760,7 @@
     <node concept="1rTVtr" id="2WTnVpOWTCR" role="1LuVN3">
       <property role="TrG5h" value="System States" />
       <node concept="1rOIWg" id="2WTnVpPn3XD" role="1rP2Rr">
-        <ref role="1rODdJ" node="2WTnVpOWTEB" resolve="(*)-&gt;" />
+        <ref role="1rODdJ" node="2WTnVpOWTCV" resolve="(*)-&gt;" />
         <ref role="1rODdH" node="2WTnVpOWTEA" resolve="Startup" />
       </node>
       <node concept="1rOIWg" id="2WTnVpPqHxW" role="1rP2Rr">
@@ -820,7 +820,7 @@
       <node concept="1rOGIG" id="2WTnVpP32wl" role="1rOGIh">
         <property role="TrG5h" value="Active" />
         <node concept="1rOIWg" id="2WTnVpPztLN" role="1rP2R2">
-          <ref role="1rODdJ" node="2WTnVpOWTEB" resolve="(*)-&gt;" />
+          <ref role="1rODdJ" node="2WTnVpP32wm" resolve="(*)-&gt;" />
           <ref role="1rODdH" node="2WTnVpPv0qy" resolve="Operation" />
         </node>
         <node concept="1rOIWg" id="2WTnVpPztM7" role="1rP2R2">
