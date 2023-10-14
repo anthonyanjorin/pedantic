@@ -856,6 +856,7 @@
     <property role="EcuMT" value="3402856230693726092" />
     <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <property role="TrG5h" value="ServiceInvocation" />
+    <property role="34LRSv" value="invoke service" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="q7KOLemFL4" resolve="Message" />
     <node concept="1TJgyj" id="q7KOLfavh5" role="1TKVEi">
