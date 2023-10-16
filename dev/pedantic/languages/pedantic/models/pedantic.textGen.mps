@@ -1106,36 +1106,11 @@
               </node>
               <node concept="l9hG8" id="6dx294tMGvj" role="lcghm">
                 <node concept="2OqwBi" id="6dx294tMHRR" role="lb14g">
-                  <node concept="2OqwBi" id="6G$_vrlGpfP" role="2Oq$k0">
-                    <node concept="2OqwBi" id="6dx294tMrrs" role="2Oq$k0">
-                      <node concept="2OqwBi" id="6dx294tKuJ4" role="2Oq$k0">
-                        <node concept="117lpO" id="6dx294tKuGF" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="6dx294tKItt" role="2OqNvi">
-                          <ref role="37wK5l" to="8nwy:6dx294tKvoH" resolve="getParticipants" />
-                        </node>
-                      </node>
-                      <node concept="3$u5V9" id="6dx294tMrV2" role="2OqNvi">
-                        <node concept="1bVj0M" id="6dx294tMrV4" role="23t8la">
-                          <node concept="3clFbS" id="6dx294tMrV5" role="1bW5cS">
-                            <node concept="3clFbF" id="6dx294tMs1E" role="3cqZAp">
-                              <node concept="2OqwBi" id="6dx294tMsCp" role="3clFbG">
-                                <node concept="37vLTw" id="6dx294tMs1D" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="6dx294tMrV6" resolve="it" />
-                                </node>
-                                <node concept="2qgKlT" id="6dx294tMWii" role="2OqNvi">
-                                  <ref role="37wK5l" to="8nwy:6dx294tldFL" resolve="getHyperLink" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Rh6nW" id="6dx294tMrV6" role="1bW2Oz">
-                            <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="6dx294tMrV7" role="1tU5fm" />
-                          </node>
-                        </node>
-                      </node>
+                  <node concept="2OqwBi" id="6dx294tKuJ4" role="2Oq$k0">
+                    <node concept="117lpO" id="6dx294tKuGF" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="6dx294tKItt" role="2OqNvi">
+                      <ref role="37wK5l" to="8nwy:6dx294tKvoH" resolve="getParticipants" />
                     </node>
-                    <node concept="1VAtEI" id="6G$_vrlGpWS" role="2OqNvi" />
                   </node>
                   <node concept="3uJxvA" id="6dx294tMI_x" role="2OqNvi">
                     <node concept="Xl_RD" id="6dx294tMJqK" role="3uJOhx">
