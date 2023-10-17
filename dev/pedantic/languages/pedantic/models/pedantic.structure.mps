@@ -78,23 +78,23 @@
   <node concept="1TIwiD" id="4h$8nEbwca2">
     <property role="EcuMT" value="4928100702460363394" />
     <property role="3GE5qa" value="Description" />
-    <property role="TrG5h" value="DomainReference" />
-    <property role="R4oN_" value="Refererence a domain" />
+    <property role="TrG5h" value="PublishableReference" />
+    <property role="R4oN_" value="Refererence a domain, report, or scenario" />
     <property role="34LRSv" value="§" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
     <node concept="1TJgyj" id="4h$8nEbwca3" role="1TKVEi">
       <property role="IQ2ns" value="4928100702460363395" />
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4ggIgYY8Omq" resolve="Domain" />
+      <ref role="20lvS9" node="7MTUMX1e36k" resolve="Publishable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4h$8nEbw52j">
     <property role="EcuMT" value="4928100702460334227" />
     <property role="3GE5qa" value="Description" />
     <property role="TrG5h" value="NormalText" />
-    <property role="34LRSv" value="normal text" />
     <property role="R4oN_" value="Normal text" />
+    <property role="34LRSv" value="_" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4h$8nEbw52k" role="1TKVEl">
       <property role="IQ2nx" value="4928100702460334228" />

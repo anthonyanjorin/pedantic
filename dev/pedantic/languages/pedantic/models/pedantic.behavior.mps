@@ -5477,7 +5477,7 @@
                       </node>
                       <node concept="1pnPoh" id="6dx294tULZT" role="1_3QMm">
                         <node concept="3gn64h" id="6dx294tULZV" role="1pnPq6">
-                          <ref role="3gnhBz" to="3ido:4h$8nEbwca2" resolve="DomainReference" />
+                          <ref role="3gnhBz" to="3ido:4h$8nEbwca2" resolve="PublishableReference" />
                         </node>
                         <node concept="3clFbS" id="6dx294tULZX" role="1pnPq1">
                           <node concept="3cpWs6" id="6dx294tUM0m" role="3cqZAp">
@@ -5487,7 +5487,7 @@
                                   <node concept="1PxgMI" id="6dx294tUN89" role="2Oq$k0">
                                     <property role="1BlNFB" value="true" />
                                     <node concept="chp4Y" id="6dx294tUN8i" role="3oSUPX">
-                                      <ref role="cht4Q" to="3ido:4h$8nEbwca2" resolve="DomainReference" />
+                                      <ref role="cht4Q" to="3ido:4h$8nEbwca2" resolve="PublishableReference" />
                                     </node>
                                     <node concept="37vLTw" id="6dx294tUMJ2" role="1m5AlR">
                                       <ref role="3cqZAo" node="6dx294tUINd" resolve="it" />

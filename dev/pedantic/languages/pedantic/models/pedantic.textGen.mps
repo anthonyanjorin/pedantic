@@ -318,7 +318,7 @@
   </node>
   <node concept="WtQ9Q" id="47_$Po02vh1">
     <property role="3GE5qa" value="Description" />
-    <ref role="WuzLi" to="3ido:4h$8nEbwca2" resolve="DomainReference" />
+    <ref role="WuzLi" to="3ido:4h$8nEbwca2" resolve="PublishableReference" />
     <node concept="11bSqf" id="47_$Po02vh2" role="11c4hB">
       <node concept="3clFbS" id="47_$Po02vh3" role="2VODD2">
         <node concept="lc7rE" id="47_$Po02vhl" role="3cqZAp">

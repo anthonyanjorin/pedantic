@@ -56,6 +56,9 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="4928100702460363394" name="pedantic.structure.PublishableReference" flags="ng" index="3fTefS">
+        <reference id="4928100702460363395" name="target" index="3fTefT" />
+      </concept>
       <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
         <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
@@ -77,6 +80,7 @@
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
       </concept>
+      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -88,7 +92,17 @@
     <property role="TrG5h" value="Test" />
     <property role="XwtES" value="www.google.de" />
     <node concept="3f6AUY" id="6G$_vrll5OG" role="3f6AUZ">
-      <node concept="3f6AUQ" id="6G$_vrll5OH" role="3f6AUE" />
+      <node concept="3f6AUQ" id="6G$_vrll5OH" role="3f6AUE">
+        <node concept="3fTefS" id="6G$_vrlX8eh" role="3f6BbQ">
+          <ref role="3fTefT" node="6G$_vrlX8ek" resolve="lkjkljh" />
+        </node>
+        <node concept="3fT77D" id="6G$_vrlX8el" role="3f6BbQ">
+          <property role="3fT77I" value="lllllllll" />
+        </node>
+        <node concept="3fT77D" id="6G$_vrlX8fm" role="3f6BbQ">
+          <property role="3fT77I" value="lllll" />
+        </node>
+      </node>
       <node concept="3f6AUX" id="6G$_vrll5OP" role="3f6AUK">
         <property role="TrG5h" value="A" />
       </node>
@@ -255,6 +269,10 @@
         <property role="3fT77I" value="hjf" />
       </node>
     </node>
+  </node>
+  <node concept="1Xvgy9" id="6G$_vrlX8ek">
+    <property role="TrG5h" value="mmmmmm" />
+    <property role="XwtES" value="www.foo.de" />
   </node>
 </model>
 

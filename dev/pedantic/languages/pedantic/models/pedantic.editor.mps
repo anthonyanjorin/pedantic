@@ -174,7 +174,7 @@
   </node>
   <node concept="24kQdi" id="4h$8nEbwca5">
     <property role="3GE5qa" value="Description" />
-    <ref role="1XX52x" to="3ido:4h$8nEbwca2" resolve="DomainReference" />
+    <ref role="1XX52x" to="3ido:4h$8nEbwca2" resolve="PublishableReference" />
     <node concept="3EZMnI" id="4h$8nEbwVxL" role="2wV5jI">
       <node concept="3F0ifn" id="4h$8nEbwVzA" role="3EZMnx">
         <node concept="11LMrY" id="4h$8nEbx5oE" role="3F10Kt">
