@@ -83,6 +83,9 @@
       <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -91,6 +94,7 @@
   <node concept="3UcZMl" id="6G$_vrll5OE">
     <property role="TrG5h" value="Test" />
     <property role="XwtES" value="www.google.de" />
+    <property role="3GE5qa" value="foo.Test.bar" />
     <node concept="3f6AUY" id="6G$_vrll5OG" role="3f6AUZ">
       <node concept="3f6AUQ" id="6G$_vrll5OH" role="3f6AUE">
         <node concept="3fTefS" id="6G$_vrlX8eh" role="3f6BbQ">
@@ -117,6 +121,12 @@
             <ref role="3f6BbD" node="6G$_vrll5OU" resolve="B" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="6G$_vrm3INv" role="3f6AUZ">
+      <node concept="3f6AUQ" id="6G$_vrm3INw" role="3f6AUE" />
+      <node concept="3f6AUX" id="6G$_vrm3INx" role="3f6AUK">
+        <property role="TrG5h" value="Test" />
       </node>
     </node>
     <node concept="3f6AUQ" id="6G$_vrll5OF" role="3f6AUR" />
@@ -164,6 +174,12 @@
   </node>
   <node concept="3UcZMl" id="6G$_vrll5PE">
     <property role="TrG5h" value="Another test" />
+    <node concept="3f6AUY" id="6G$_vrm86zx" role="3f6AUZ">
+      <node concept="3f6AUQ" id="6G$_vrm86zy" role="3f6AUE" />
+      <node concept="3f6AUX" id="6G$_vrm86zz" role="3f6AUK">
+        <property role="TrG5h" value="A" />
+      </node>
+    </node>
     <node concept="3f6AUQ" id="6G$_vrll5PF" role="3f6AUR" />
   </node>
   <node concept="3UcZMl" id="6G$_vrll5Q4">
