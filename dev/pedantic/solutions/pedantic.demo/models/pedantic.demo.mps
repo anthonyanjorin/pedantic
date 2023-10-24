@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="1574892915121134955" name="pedantic.structure.StatemachineImage" flags="ng" index="8M3AC">
+        <reference id="1574892915121134958" name="target" index="8M3AH" />
+      </concept>
+      <concept id="1574892915123760894" name="pedantic.structure.StatemachineDescription" flags="ng" index="8S0CX">
+        <reference id="1574892915123760895" name="target" index="8S0CW" />
+      </concept>
       <concept id="6010201709281840802" name="pedantic.structure.Separator" flags="ng" index="_m0wY">
         <child id="6010201709281840803" name="desc" index="_m0wZ" />
       </concept>
@@ -62,6 +68,22 @@
       <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
         <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
+      <concept id="3402856230705402903" name="pedantic.structure.InitialState" flags="ng" index="1rOGIx" />
+      <concept id="3402856230705402906" name="pedantic.structure.CompositeState" flags="ng" index="1rOGIG">
+        <child id="3402856230705402933" name="initial" index="1rOGI3" />
+      </concept>
+      <concept id="3402856230705402905" name="pedantic.structure.TerminalState" flags="ng" index="1rOGIJ" />
+      <concept id="3402856230705410214" name="pedantic.structure.Transition" flags="ng" index="1rOIWg">
+        <reference id="3402856230705417435" name="target" index="1rODdH" />
+        <reference id="3402856230705417433" name="source" index="1rODdJ" />
+      </concept>
+      <concept id="3402856230704572653" name="pedantic.structure.StateMachine" flags="ng" index="1rTVtr">
+        <child id="3402856230705402919" name="states" index="1rOGIh" />
+        <child id="3402856230705402915" name="terminal" index="1rOGIl" />
+        <child id="3402856230705402912" name="initial" index="1rOGIm" />
+        <child id="3402856230705402909" name="description" index="1rOGIF" />
+        <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
+      </concept>
       <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
         <child id="3889923412177894711" name="ref" index="3BFnmc" />
       </concept>
@@ -80,7 +102,13 @@
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
       </concept>
-      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9" />
+      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9">
+        <child id="7161014301864230937" name="items" index="1Xvgy8" />
+      </concept>
+      <concept id="7161014301864230939" name="pedantic.structure.ReportItem" flags="ng" index="1Xvgya" />
+      <concept id="7161014301864230940" name="pedantic.structure.Paragraph" flags="ng" index="1Xvgyd">
+        <child id="7161014301864230941" name="desc" index="1Xvgyc" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -262,6 +290,43 @@
         </node>
       </node>
     </node>
+    <node concept="1rTVtr" id="1nr9cct6NdI" role="1LuVN3">
+      <property role="TrG5h" value="asdfasdf" />
+      <node concept="1rOIWg" id="1nr9cct6Ngj" role="1rP2Rr">
+        <ref role="1rODdJ" node="1nr9cct6NdM" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="1nr9cct6Ngf" resolve="F" />
+      </node>
+      <node concept="1rOIWg" id="1nr9ccteCLE" role="1rP2Rr">
+        <ref role="1rODdJ" node="1nr9cct6Ngf" resolve="F" />
+        <ref role="1rODdH" node="1nr9cct6Ngd" resolve="-&gt;(*)" />
+      </node>
+      <node concept="1rOGIG" id="1nr9cct6Ngf" role="1rOGIh">
+        <property role="TrG5h" value="F" />
+        <node concept="1rOGIx" id="1nr9cct6Ngg" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="1nr9cct6NdK" role="1rOGIF">
+        <node concept="3fT77D" id="1nr9cct6Ng4" role="3f6BbQ">
+          <property role="3fT77I" value="This" />
+        </node>
+        <node concept="3fT77D" id="1nr9cctfDhH" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="1nr9cctfDhK" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="1nr9cctfDhO" role="3f6BbQ">
+          <property role="3fT77I" value="description" />
+        </node>
+      </node>
+      <node concept="1rOGIx" id="1nr9cct6NdM" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="1nr9cct6Ngd" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
+      </node>
+    </node>
     <node concept="3f6AUQ" id="6G$_vrlBJx0" role="1LuVN1">
       <node concept="3fT77D" id="6G$_vrlBJMG" role="3f6BbQ">
         <property role="3fT77I" value="jhgfjhgf" />
@@ -289,6 +354,29 @@
   <node concept="1Xvgy9" id="6G$_vrlX8ek">
     <property role="TrG5h" value="mmmmmm" />
     <property role="XwtES" value="www.foo.de" />
+  </node>
+  <node concept="1Xvgy9" id="1nr9cct6Nc0">
+    <property role="TrG5h" value="Asdfasdf" />
+    <node concept="8S0CX" id="1nr9cctfF75" role="1Xvgy8">
+      <ref role="8S0CW" node="1nr9cct6NdI" resolve="asdfasdf" />
+    </node>
+    <node concept="8M3AC" id="1nr9cct6Nc3" role="1Xvgy8">
+      <ref role="8M3AH" node="1nr9cct6NdI" resolve="asdfasdf" />
+    </node>
+    <node concept="1Xvgya" id="1nr9cct6Nef" role="1Xvgy8" />
+    <node concept="1Xvgyd" id="1nr9cct6Nem" role="1Xvgy8">
+      <node concept="3f6AUQ" id="1nr9cct6Neo" role="1Xvgyc">
+        <node concept="3fT77D" id="1nr9cct6NeC" role="3f6BbQ">
+          <property role="3fT77I" value="asdfasd" />
+        </node>
+        <node concept="3fT77D" id="1nr9cct6NeE" role="3f6BbQ">
+          <property role="3fT77I" value="fasdf" />
+        </node>
+        <node concept="3fT77D" id="1nr9cct6Q4h" role="3f6BbQ">
+          <property role="3fT77I" value="hh" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

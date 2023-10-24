@@ -1019,5 +1019,34 @@
       <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1nr9cct4LPF">
+    <property role="EcuMT" value="1574892915121134955" />
+    <property role="3GE5qa" value="Reports" />
+    <property role="TrG5h" value="StatemachineImage" />
+    <property role="34LRSv" value="statemachine img" />
+    <ref role="1TJDcQ" node="6dx294u700r" resolve="ReportItem" />
+    <node concept="1TJgyj" id="1nr9cct4LPI" role="1TKVEi">
+      <property role="IQ2ns" value="1574892915121134958" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2WTnVpORIzH" resolve="StateMachine" />
+    </node>
+    <node concept="PrWs8" id="1nr9cct4LPG" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1nr9ccteMVY">
+    <property role="EcuMT" value="1574892915123760894" />
+    <property role="3GE5qa" value="Reports" />
+    <property role="TrG5h" value="StatemachineDescription" />
+    <property role="34LRSv" value="statemachine desc" />
+    <ref role="1TJDcQ" node="6dx294u700r" resolve="ReportItem" />
+    <node concept="1TJgyj" id="1nr9ccteMVZ" role="1TKVEi">
+      <property role="IQ2ns" value="1574892915123760895" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2WTnVpORIzH" resolve="StateMachine" />
+    </node>
+  </node>
 </model>
 

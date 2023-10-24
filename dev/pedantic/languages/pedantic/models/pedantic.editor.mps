@@ -1853,5 +1853,53 @@
       <node concept="l2Vlx" id="2WTnVpOVnDk" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1nr9cct4LPK">
+    <property role="3GE5qa" value="Reports" />
+    <ref role="1XX52x" to="3ido:1nr9cct4LPF" resolve="StatemachineImage" />
+    <node concept="3EZMnI" id="1nr9cct4LPM" role="2wV5jI">
+      <node concept="1iCGBv" id="1nr9cct4LPN" role="3EZMnx">
+        <ref role="1k5W1q" node="5B3sq7DIIhO" resolve="Reference" />
+        <ref role="1NtTu8" to="3ido:1nr9cct4LPI" resolve="target" />
+        <node concept="1sVBvm" id="1nr9cct4LPO" role="1sWHZn">
+          <node concept="3F0A7n" id="1nr9cct4LPP" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1nr9cct4LPQ" role="3EZMnx">
+        <property role="3F0ifm" value="::image" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+        <node concept="11L4FC" id="1nr9cct4LPR" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1nr9cct4LPS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1nr9ccteMW0">
+    <property role="3GE5qa" value="Reports" />
+    <ref role="1XX52x" to="3ido:1nr9ccteMVY" resolve="StatemachineDescription" />
+    <node concept="3EZMnI" id="1nr9ccteMW2" role="2wV5jI">
+      <node concept="1iCGBv" id="1nr9ccteMW3" role="3EZMnx">
+        <ref role="1NtTu8" to="3ido:1nr9ccteMVZ" resolve="target" />
+        <ref role="1k5W1q" node="5B3sq7DIIhO" resolve="Reference" />
+        <node concept="1sVBvm" id="1nr9ccteMW4" role="1sWHZn">
+          <node concept="3F0A7n" id="1nr9ccteMW5" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1nr9ccteMW6" role="3EZMnx">
+        <property role="3F0ifm" value="::description" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+        <node concept="11L4FC" id="1nr9ccteMW7" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1nr9ccteMW8" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
