@@ -114,7 +114,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -126,7 +126,7 @@
     <node concept="3f6AUY" id="6G$_vrll5OG" role="3f6AUZ">
       <node concept="3f6AUQ" id="6G$_vrll5OH" role="3f6AUE">
         <node concept="3fTefS" id="6G$_vrlX8eh" role="3f6BbQ">
-          <ref role="3fTefT" node="6G$_vrlX8ek" resolve="lkjkljh" />
+          <ref role="3fTefT" node="6G$_vrlX8ek" resolve="mmmmmm" />
         </node>
         <node concept="3fT77D" id="6G$_vrlX8el" role="3f6BbQ">
           <property role="3fT77I" value="lllllllll" />

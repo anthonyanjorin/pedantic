@@ -58,7 +58,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
@@ -71,7 +71,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -427,7 +427,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="1nr9cctfF9P" role="3MwsjC">
-          <property role="3MwjfP" value="3.5.12" />
+          <property role="3MwjfP" value="4.0.0" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -493,7 +493,7 @@
         </node>
         <node concept="1SiIV0" id="5Q23RPTxrGU" role="3bR37C">
           <node concept="1Busua" id="5Q23RPTxrGV" role="1SiIV1">
-            <ref role="1Busuk" node="5Q23RPTxrzt" resolve="plantmps" />
+            <ref role="1Busuk" node="5Q23RPTxrzt" resolve="plantuml" />
           </node>
         </node>
         <node concept="3rtmxn" id="q7KOLdLtwy" role="3bR31x">
@@ -595,7 +595,7 @@
         </node>
         <node concept="1SiIV0" id="6TQOipxMbic" role="3bR37C">
           <node concept="3bR9La" id="6TQOipxMbid" role="1SiIV1">
-            <ref role="3bR37D" node="5Q23RPTxrzz" resolve="plantmps.plugin" />
+            <ref role="3bR37D" node="5Q23RPTxrzz" resolve="plantuml.plugin" />
           </node>
         </node>
       </node>
@@ -960,7 +960,7 @@
         </node>
         <node concept="1SiIV0" id="5Q23RPTxrHa" role="3bR37C">
           <node concept="3bR9La" id="5Q23RPTxrHb" role="1SiIV1">
-            <ref role="3bR37D" node="5Q23RPTxrzt" resolve="plantmps" />
+            <ref role="3bR37D" node="5Q23RPTxrzt" resolve="plantuml" />
           </node>
         </node>
         <node concept="3rtmxn" id="47_$Po02bFY" role="3bR31x">

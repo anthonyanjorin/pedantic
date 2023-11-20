@@ -2,8 +2,7 @@
 <model ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
@@ -55,7 +54,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -838,7 +837,7 @@
     <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <property role="TrG5h" value="InstanceBinding" />
     <property role="34LRSv" value="binding" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5dCxDLQxbdD" role="1TKVEi">
       <property role="IQ2ns" value="6010201709287355241" />
       <property role="20kJfa" value="parameter" />
@@ -871,7 +870,7 @@
     <property role="3GE5qa" value="Scenarios" />
     <property role="TrG5h" value="BehaviouralDiagram" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2WTnVpORIzH">
     <property role="EcuMT" value="3402856230704572653" />
@@ -933,7 +932,7 @@
     <property role="3GE5qa" value="Scenarios.StateMachines" />
     <property role="TrG5h" value="State" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2WTnVpOVnD1" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -993,7 +992,7 @@
     <property role="3GE5qa" value="Scenarios.StateMachines" />
     <property role="TrG5h" value="Transition" />
     <property role="34LRSv" value="transition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2WTnVpOUWNp" role="1TKVEi">
       <property role="IQ2ns" value="3402856230705417433" />
       <property role="20kJfa" value="source" />
