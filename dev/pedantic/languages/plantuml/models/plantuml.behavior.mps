@@ -10584,7 +10584,7 @@
             <node concept="liA8E" id="dWb9J52VUQ" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
               <node concept="Xl_RD" id="dWb9J52XYA" role="37wK5m">
-                <property role="Xl_RC" value="+ separated keywords to search in name" />
+                <property role="Xl_RC" value="name is matched with '+' separated keywords" />
               </node>
             </node>
           </node>
@@ -10662,15 +10662,12 @@
                                     <node concept="Xl_RD" id="dWb9J58WVI" role="3uHU7B">
                                       <property role="Xl_RC" value=":" />
                                     </node>
-                                    <node concept="2OqwBi" id="dWb9J58hRo" role="3uHU7w">
-                                      <node concept="2OqwBi" id="dWb9J58h26" role="2Oq$k0">
-                                        <node concept="37vLTw" id="dWb9J58gQO" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="4yZRtOOy_G2" resolve="it" />
-                                        </node>
-                                        <node concept="2yIwOk" id="dWb9J58hj8" role="2OqNvi" />
+                                    <node concept="2OqwBi" id="53iYGAiqT9n" role="3uHU7w">
+                                      <node concept="37vLTw" id="53iYGAiqS1g" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="4yZRtOOy_G2" resolve="it" />
                                       </node>
-                                      <node concept="liA8E" id="dWb9J58ivv" role="2OqNvi">
-                                        <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                                      <node concept="2qgKlT" id="53iYGAiqV82" role="2OqNvi">
+                                        <ref role="37wK5l" node="6TQOipx4TbG" resolve="getDisplayedType" />
                                       </node>
                                     </node>
                                   </node>
@@ -10736,6 +10733,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="53iYGAiu_Pl" role="3cqZAp">
+          <node concept="2OqwBi" id="53iYGAiuDUr" role="3clFbG">
+            <node concept="37vLTw" id="53iYGAiu_Pj" role="2Oq$k0">
+              <ref role="3cqZAo" node="dWb9J4QKVl" resolve="types" />
+            </node>
+            <node concept="liA8E" id="53iYGAiuXzb" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComboBox.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
+              <node concept="Xjq3P" id="53iYGAiv1iq" role="37wK5m" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="dWb9J4SGnJ" role="3cqZAp" />
         <node concept="3clFbF" id="6TQOipxmafx" role="3cqZAp">
           <node concept="37vLTI" id="6TQOipxmcbe" role="3clFbG">
@@ -10785,7 +10793,7 @@
             <node concept="liA8E" id="dWb9J53cc3" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
               <node concept="Xl_RD" id="dWb9J53cc4" role="37wK5m">
-                <property role="Xl_RC" value="+ separated keywords to search in body" />
+                <property role="Xl_RC" value="body is matched with '+' separated keywords" />
               </node>
             </node>
           </node>
@@ -10814,30 +10822,53 @@
               <ref role="37wK5l" to="dxuu:~JComponent.registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)" resolve="registerKeyboardAction" />
               <node concept="1bVj0M" id="6TQOipxYgPs" role="37wK5m">
                 <node concept="3clFbS" id="6TQOipxYgPt" role="1bW5cS">
-                  <node concept="3clFbF" id="6TQOipyhrss" role="3cqZAp">
-                    <node concept="15s5l7" id="dWb9J50_8R" role="lGtFl">
-                      <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type org.jetbrains.mps.openapi.model.SNode is not a subtype of node&lt;PedanticSearchIndexElement&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c89590337(jetbrains.mps.baseLanguage.closures.typesystem)/668767903263948978]&quot;;" />
-                      <property role="huDt6" value="Error: type org.jetbrains.mps.openapi.model.SNode is not a subtype of node&lt;PedanticSearchIndexElement&gt;" />
-                    </node>
-                    <node concept="2Sg_IR" id="6TQOipyhtnS" role="3clFbG">
-                      <node concept="37vLTw" id="6TQOipyhtnT" role="2SgG2M">
-                        <ref role="3cqZAo" node="6TQOipyhln9" resolve="actionForChosenElement" />
-                      </node>
-                      <node concept="2OqwBi" id="6TQOipyIThn" role="2SgHGx">
-                        <node concept="37vLTw" id="6TQOipyIQIO" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6TQOipyI4Ps" resolve="orderedHits" />
-                        </node>
-                        <node concept="liA8E" id="6TQOipyIWQZ" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
-                          <node concept="2OqwBi" id="6TQOipyhDja" role="37wK5m">
-                            <node concept="37vLTw" id="6TQOipyhC3x" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6TQOipxlXOq" resolve="results" />
+                  <node concept="3clFbJ" id="53iYGAiHRj8" role="3cqZAp">
+                    <node concept="3clFbS" id="53iYGAiHRja" role="3clFbx">
+                      <node concept="3clFbF" id="6TQOipyhrss" role="3cqZAp">
+                        <node concept="2Sg_IR" id="6TQOipyhtnS" role="3clFbG">
+                          <node concept="37vLTw" id="6TQOipyhtnT" role="2SgG2M">
+                            <ref role="3cqZAo" node="6TQOipyhln9" resolve="actionForChosenElement" />
+                          </node>
+                          <node concept="2OqwBi" id="6TQOipyIThn" role="2SgHGx">
+                            <node concept="37vLTw" id="6TQOipyIQIO" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6TQOipyI4Ps" resolve="orderedHits" />
                             </node>
-                            <node concept="liA8E" id="6TQOipyINVH" role="2OqNvi">
-                              <ref role="37wK5l" to="dxuu:~JList.getSelectedIndex()" resolve="getSelectedIndex" />
+                            <node concept="liA8E" id="6TQOipyIWQZ" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                              <node concept="2OqwBi" id="6TQOipyhDja" role="37wK5m">
+                                <node concept="37vLTw" id="6TQOipyhC3x" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6TQOipxlXOq" resolve="results" />
+                                </node>
+                                <node concept="liA8E" id="6TQOipyINVH" role="2OqNvi">
+                                  <ref role="37wK5l" to="dxuu:~JList.getSelectedIndex()" resolve="getSelectedIndex" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
+                      </node>
+                      <node concept="3clFbF" id="53iYGAiB19G" role="3cqZAp">
+                        <node concept="1rXfSq" id="53iYGAiB19E" role="3clFbG">
+                          <ref role="37wK5l" node="53iYGAi$mci" resolve="setFocus" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1Wc70l" id="53iYGAiI9qs" role="3clFbw">
+                      <node concept="3fqX7Q" id="53iYGAiIsOH" role="3uHU7w">
+                        <node concept="2OqwBi" id="53iYGAiIsOJ" role="3fr31v">
+                          <node concept="37vLTw" id="53iYGAiIsOK" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6TQOipxlXOq" resolve="results" />
+                          </node>
+                          <node concept="liA8E" id="53iYGAiIsOL" role="2OqNvi">
+                            <ref role="37wK5l" to="dxuu:~JList.isSelectionEmpty()" resolve="isSelectionEmpty" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="53iYGAiKy1C" role="3uHU7B">
+                        <node concept="37vLTw" id="53iYGAiKy1D" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6TQOipyI4Ps" resolve="orderedHits" />
+                        </node>
+                        <node concept="3GX2aA" id="53iYGAiKCo6" role="2OqNvi" />
                       </node>
                     </node>
                   </node>
@@ -10862,6 +10893,19 @@
               </node>
               <node concept="37vLTw" id="6TQOipxYjAk" role="37wK5m">
                 <ref role="3cqZAo" to="dxuu:~JComponent.WHEN_IN_FOCUSED_WINDOW" resolve="WHEN_IN_FOCUSED_WINDOW" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="53iYGAiwT4c" role="3cqZAp">
+          <node concept="2OqwBi" id="53iYGAiwWKQ" role="3clFbG">
+            <node concept="37vLTw" id="53iYGAiwT4a" role="2Oq$k0">
+              <ref role="3cqZAo" node="6TQOipxlXOq" resolve="results" />
+            </node>
+            <node concept="liA8E" id="53iYGAix5W0" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
+              <node concept="Xl_RD" id="53iYGAixaxN" role="37wK5m">
+                <property role="Xl_RC" value="Results are (re-)computed when you select a type or confirm press ENTER in the name or body" />
               </node>
             </node>
           </node>
@@ -11090,6 +11134,27 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="53iYGAi$6Iy" role="jymVt" />
+    <node concept="3clFb_" id="53iYGAi$mci" role="jymVt">
+      <property role="TrG5h" value="setFocus" />
+      <node concept="3clFbS" id="53iYGAi$mcl" role="3clF47">
+        <node concept="3clFbF" id="53iYGAi$tOg" role="3cqZAp">
+          <node concept="2OqwBi" id="53iYGAi$IRh" role="3clFbG">
+            <node concept="2OqwBi" id="53iYGAi$y_B" role="2Oq$k0">
+              <node concept="Xjq3P" id="53iYGAi$tOf" role="2Oq$k0" />
+              <node concept="2OwXpG" id="53iYGAi$An6" role="2OqNvi">
+                <ref role="2Oxat5" node="6TQOipxlXOq" resolve="results" />
+              </node>
+            </node>
+            <node concept="liA8E" id="53iYGAi$W5E" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.requestFocus()" resolve="requestFocus" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="53iYGAi$e_0" role="1B3o_S" />
+      <node concept="3cqZAl" id="53iYGAi$jop" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="6TQOip$CU0k" role="jymVt" />
     <node concept="3Tm1VV" id="6TQOipxlTaA" role="1B3o_S" />
@@ -11331,7 +11396,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="6TQOipyUi_3" role="3cqZAp" />
               <node concept="3clFbH" id="dWb9J5ll9N" role="3cqZAp" />
               <node concept="3SKdUt" id="dWb9J5nbhA" role="3cqZAp">
                 <node concept="1PaTwC" id="dWb9J5nbhB" role="1aUNEU">
@@ -11627,7 +11691,7 @@
                     <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
                     <node concept="3cpWs3" id="dWb9J5iz7g" role="37wK5m">
                       <node concept="Xl_RD" id="dWb9J5iAyE" role="3uHU7w">
-                        <property role="Xl_RC" value=" matches" />
+                        <property role="Xl_RC" value=" match(es)" />
                       </node>
                       <node concept="3cpWs3" id="dWb9J5id8q" role="3uHU7B">
                         <node concept="Xl_RD" id="dWb9J5hZNu" role="3uHU7B">
@@ -11642,6 +11706,25 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="53iYGAiCPNZ" role="3cqZAp" />
+              <node concept="3clFbF" id="53iYGAiD47x" role="3cqZAp">
+                <node concept="2OqwBi" id="53iYGAiD8Fr" role="3clFbG">
+                  <node concept="37vLTw" id="53iYGAiD47v" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6TQOipxlXOq" resolve="results" />
+                  </node>
+                  <node concept="liA8E" id="53iYGAiDiYV" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~JList.setSelectedIndex(int)" resolve="setSelectedIndex" />
+                    <node concept="3cmrfG" id="53iYGAiDnuD" role="37wK5m">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="53iYGAiFHby" role="3cqZAp">
+                <node concept="1rXfSq" id="53iYGAiFHbw" role="3clFbG">
+                  <ref role="37wK5l" node="53iYGAi$mci" resolve="setFocus" />
                 </node>
               </node>
             </node>
