@@ -3052,5 +3052,40 @@
       <ref role="1YaFvo" to="3ido:w9Ng_TsB7d" resolve="SendReceiveMessage" />
     </node>
   </node>
+  <node concept="18kY7G" id="2WbVv2Bmala">
+    <property role="3GE5qa" value="terms" />
+    <property role="TrG5h" value="UseOfObsoleteLabel" />
+    <node concept="3clFbS" id="2WbVv2Bmalb" role="18ibNy">
+      <node concept="3clFbJ" id="2WbVv2BmaBe" role="3cqZAp">
+        <node concept="2OqwBi" id="2WbVv2Bmx8x" role="3clFbw">
+          <node concept="2OqwBi" id="2WbVv2BmaNT" role="2Oq$k0">
+            <node concept="1YBJjd" id="2WbVv2BmaBq" role="2Oq$k0">
+              <ref role="1YBMHb" node="2WbVv2Bmald" resolve="termReference" />
+            </node>
+            <node concept="3TrEf2" id="2WbVv2BmwVj" role="2OqNvi">
+              <ref role="3Tt5mk" to="3ido:4h$8nEbv_ej" resolve="target" />
+            </node>
+          </node>
+          <node concept="3TrcHB" id="2WbVv2BmxIl" role="2OqNvi">
+            <ref role="3TsBF5" to="3ido:2WbVv2Bm5cE" resolve="isObsolete" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="2WbVv2BmaBg" role="3clFbx">
+          <node concept="a7r0C" id="2WbVv2Bmbpy" role="3cqZAp">
+            <node concept="Xl_RD" id="2WbVv2BmbpI" role="a7wSD">
+              <property role="Xl_RC" value="The referenced label is obsolete." />
+            </node>
+            <node concept="1YBJjd" id="2WbVv2Bmbs9" role="1urrMF">
+              <ref role="1YBMHb" node="2WbVv2Bmald" resolve="label" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2WbVv2Bmald" role="1YuTPh">
+      <property role="TrG5h" value="termReference" />
+      <ref role="1YaFvo" to="3ido:4h$8nEbv_ei" resolve="TermReference" />
+    </node>
+  </node>
 </model>
 

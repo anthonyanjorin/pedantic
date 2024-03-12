@@ -30,6 +30,7 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -113,6 +114,12 @@
       </concept>
       <concept id="1225900081164" name="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" flags="sg" stub="3708815482283559694" index="1HlG4h">
         <child id="1225900141900" name="modelAccessor" index="1HlULh" />
+      </concept>
+      <concept id="1088612959204" name="jetbrains.mps.lang.editor.structure.CellModel_Alternation" flags="sg" stub="8104358048506729361" index="1QoScp">
+        <property id="1088613081987" name="vertical" index="1QpmdY" />
+        <child id="1145918517974" name="alternationCondition" index="3e4ffs" />
+        <child id="1088612958265" name="ifTrueCellModel" index="1QoS34" />
+        <child id="1088612973955" name="ifFalseCellModel" index="1QoVPY" />
       </concept>
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="1950447826681509042" name="jetbrains.mps.lang.editor.structure.ApplyStyleClass" flags="lg" index="3Xmtl4">
@@ -523,8 +530,44 @@
   <node concept="24kQdi" id="4h$8nEbwoHU">
     <property role="3GE5qa" value="Terms" />
     <ref role="1XX52x" to="3ido:4h$8nEbv$Z7" resolve="Label" />
-    <node concept="3F0A7n" id="4h$8nEbwoHW" role="2wV5jI">
-      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    <node concept="1QoScp" id="2WbVv2Bn3Qn" role="2wV5jI">
+      <property role="1QpmdY" value="true" />
+      <node concept="3EZMnI" id="2WbVv2Bn5NN" role="1QoS34">
+        <node concept="3F0A7n" id="2WbVv2Bn64m" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="VechU" id="2WbVv2Bn64y" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+          <node concept="Vb9p2" id="2WbVv2BocTi" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="2WbVv2Bn64s" role="3EZMnx">
+          <property role="3F0ifm" value="(obsolete)" />
+          <node concept="VechU" id="2WbVv2BocTd" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+          <node concept="Vb9p2" id="2WbVv2BocTp" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="2WbVv2Bn5NQ" role="2iSdaV" />
+      </node>
+      <node concept="pkWqt" id="2WbVv2Bn3Qq" role="3e4ffs">
+        <node concept="3clFbS" id="2WbVv2Bn3Qs" role="2VODD2">
+          <node concept="3clFbF" id="2WbVv2Bn4p$" role="3cqZAp">
+            <node concept="2OqwBi" id="2WbVv2Bn4PD" role="3clFbG">
+              <node concept="pncrf" id="2WbVv2Bn4pz" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2WbVv2Bn5wi" role="2OqNvi">
+                <ref role="3TsBF5" to="3ido:2WbVv2Bm5cE" resolve="isObsolete" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="2WbVv2Bn5zk" role="1QoVPY">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="4h$8nEbwxXK">

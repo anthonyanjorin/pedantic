@@ -210,6 +210,9 @@
     <node concept="PrWs8" id="7YN1vGY5p$S" role="PzmwI">
       <ref role="PrY4T" node="7YN1vGY5p$I" resolve="Reviewable" />
     </node>
+    <node concept="PrWs8" id="2WbVv2Bm5cG" role="PzmwI">
+      <ref role="PrY4T" node="2WbVv2Bm5cD" resolve="CanBeObsolete" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4ggIgYY8Omq">
     <property role="EcuMT" value="4904623471472100762" />
@@ -1045,6 +1048,15 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2WTnVpORIzH" resolve="StateMachine" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2WbVv2Bm5cD">
+    <property role="EcuMT" value="3390064762381947689" />
+    <property role="TrG5h" value="CanBeObsolete" />
+    <node concept="1TJgyi" id="2WbVv2Bm5cE" role="1TKVEl">
+      <property role="IQ2nx" value="3390064762381947690" />
+      <property role="TrG5h" value="isObsolete" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>

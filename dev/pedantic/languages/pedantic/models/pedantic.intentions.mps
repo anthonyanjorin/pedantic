@@ -918,5 +918,59 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="2WbVv2Bm5wi">
+    <property role="TrG5h" value="ToggleObsoleteState" />
+    <ref role="2ZfgGC" to="3ido:2WbVv2Bm5cD" resolve="CanBeObsolete" />
+    <node concept="2S6ZIM" id="2WbVv2Bm5wj" role="2ZfVej">
+      <node concept="3clFbS" id="2WbVv2Bm5wk" role="2VODD2">
+        <node concept="3clFbJ" id="2WbVv2Bm5wl" role="3cqZAp">
+          <node concept="2OqwBi" id="2WbVv2Bm5wm" role="3clFbw">
+            <node concept="2Sf5sV" id="2WbVv2Bm5wn" role="2Oq$k0" />
+            <node concept="3TrcHB" id="2WbVv2Bm5wo" role="2OqNvi">
+              <ref role="3TsBF5" to="3ido:2WbVv2Bm5cE" resolve="isObsolete" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2WbVv2Bm5wp" role="3clFbx">
+            <node concept="3cpWs6" id="2WbVv2Bm5wq" role="3cqZAp">
+              <node concept="Xl_RD" id="2WbVv2Bm5wr" role="3cqZAk">
+                <property role="Xl_RC" value="Mark as not obsolete" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2WbVv2Bm5ws" role="9aQIa">
+            <node concept="3clFbS" id="2WbVv2Bm5wt" role="9aQI4">
+              <node concept="3cpWs6" id="2WbVv2Bm5wu" role="3cqZAp">
+                <node concept="Xl_RD" id="2WbVv2Bm5wv" role="3cqZAk">
+                  <property role="Xl_RC" value="Mark as obsolete" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2WbVv2Bm5ww" role="2ZfgGD">
+      <node concept="3clFbS" id="2WbVv2Bm5wx" role="2VODD2">
+        <node concept="3clFbF" id="2WbVv2Bm5wy" role="3cqZAp">
+          <node concept="37vLTI" id="2WbVv2Bm5wz" role="3clFbG">
+            <node concept="3fqX7Q" id="2WbVv2Bm5w$" role="37vLTx">
+              <node concept="2OqwBi" id="2WbVv2Bm5w_" role="3fr31v">
+                <node concept="2Sf5sV" id="2WbVv2Bm5wA" role="2Oq$k0" />
+                <node concept="3TrcHB" id="2WbVv2Bm5wB" role="2OqNvi">
+                  <ref role="3TsBF5" to="3ido:2WbVv2Bm5cE" resolve="isObsolete" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2WbVv2Bm5wC" role="37vLTJ">
+              <node concept="2Sf5sV" id="2WbVv2Bm5wD" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2WbVv2Bm7cQ" role="2OqNvi">
+                <ref role="3TsBF5" to="3ido:2WbVv2Bm5cE" resolve="isObsolete" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
