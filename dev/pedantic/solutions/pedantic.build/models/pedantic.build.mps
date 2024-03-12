@@ -87,6 +87,7 @@
         <child id="6592112598314499028" name="dependencies" index="m$_yJ" />
         <child id="6592112598314499021" name="name" index="m$_yQ" />
         <child id="6592112598314855574" name="containerName" index="m_cZH" />
+        <child id="2172791612906637490" name="description" index="3s6cr7" />
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
@@ -427,7 +428,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="53iYGAiMmQj" role="3MwsjC">
-          <property role="3MwjfP" value="4.2.0" />
+          <property role="3MwjfP" value="5.0.0" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -451,6 +452,11 @@
         <property role="2pNNFO" value="depends" />
         <node concept="3o6iSG" id="5Q23RPTxrzJ" role="3o6s8t">
           <property role="3o6i5n" value="com.intellij.modules.platform" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="2WbVv2BzGjo" role="3s6cr7">
+        <node concept="3Mxwew" id="1_0SmCQTexR" role="3MwsjC">
+          <property role="3MwjfP" value="A family of DSLs for model-based system documentation" />
         </node>
       </node>
     </node>
@@ -601,6 +607,21 @@
         <node concept="1SiIV0" id="6TQOipxMbic" role="3bR37C">
           <node concept="3bR9La" id="6TQOipxMbid" role="1SiIV1">
             <ref role="3bR37D" node="5Q23RPTxrzz" resolve="plantuml.plugin" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="1_0SmCQZaQX" role="3bR31x">
+          <node concept="3LXTmp" id="1_0SmCQZaQY" role="3rtmxm">
+            <node concept="55IIr" id="1_0SmCQZaQZ" role="3LXTmr">
+              <node concept="2Ry0Ak" id="1_0SmCQZaR0" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="1_0SmCQZaR1" role="2Ry0An">
+                  <property role="2Ry0Am" value="plantuml" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1_0SmCQZaR3" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
           </node>
         </node>
       </node>

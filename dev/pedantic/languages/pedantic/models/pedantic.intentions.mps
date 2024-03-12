@@ -307,7 +307,7 @@
       <node concept="3clFbS" id="49OWtI5kDtO" role="2VODD2">
         <node concept="3cpWs6" id="49OWtI5kDyV" role="3cqZAp">
           <node concept="Xl_RD" id="49OWtI5kDBY" role="3cqZAk">
-            <property role="Xl_RC" value="Navigate to resource" />
+            <property role="Xl_RC" value="Navigate to Resource" />
           </node>
         </node>
       </node>
@@ -385,7 +385,7 @@
       <node concept="3clFbS" id="49OWtI5pP9O" role="2VODD2">
         <node concept="3clFbF" id="49OWtI5q3Fi" role="3cqZAp">
           <node concept="Xl_RD" id="49OWtI5q3Fh" role="3clFbG">
-            <property role="Xl_RC" value="Navigate to primary resource" />
+            <property role="Xl_RC" value="Navigate to Primary Resource" />
           </node>
         </node>
       </node>

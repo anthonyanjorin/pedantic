@@ -29,7 +29,7 @@
     <import index="er5d" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.swing(plantuml.plugin/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
-    <import index="4anb" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.swing.svg(plantmps.plugin/)" />
+    <import index="4anb" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.swing.svg(plantuml.plugin/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="tpi8" ref="r:00000000-0000-4000-0000-011c8959057c(jetbrains.mps.baseLanguage.logging.actions)" />
@@ -42,16 +42,16 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
-    <import index="e373" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.util(plantmps.plugin/)" />
-    <import index="41rc" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.swing.gvt(plantmps.plugin/)" />
+    <import index="e373" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.util(plantuml.plugin/)" />
+    <import index="41rc" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.swing.gvt(plantuml.plugin/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="ugom" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.bridge(plantuml.plugin/)" />
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
     <import index="lsyl" ref="r:d58c41ef-2ace-4af3-a5dc-b2dd0237a31c(plantuml.behavior)" />
-    <import index="81o" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:net.sourceforge.plantuml(plantmps.plugin/)" />
+    <import index="81o" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:net.sourceforge.plantuml(plantuml.plugin/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="iyaa" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.anim.dom(plantmps.plugin/)" />
-    <import index="ughz" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.w3c.dom.svg(plantmps.plugin/)" />
+    <import index="iyaa" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.apache.batik.anim.dom(plantuml.plugin/)" />
+    <import index="ughz" ref="beaed0c8-33f4-4fee-b915-08ae3bf43b28/java:org.w3c.dom.svg(plantuml.plugin/)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="7bx7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.workbench.action(MPS.Platform/)" />
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
@@ -448,7 +448,7 @@
   <node concept="2DaZZR" id="2NkPjc5imDb" />
   <node concept="sEfby" id="2NkPjc5imDc">
     <property role="TrG5h" value="SVGViewer" />
-    <property role="2XNbzY" value="visualization" />
+    <property role="2XNbzY" value="Visualization" />
     <property role="2bmUCM" value="2aGS$UDXOxV/RIGHT" />
     <node concept="2XrIbr" id="2NkPjc5qVeV" role="2XNbBy">
       <property role="TrG5h" value="load" />
@@ -2741,7 +2741,7 @@
                             <node concept="2OqwBi" id="2NkPjc5kB1F" role="3clFbG">
                               <node concept="2OqwBi" id="2NkPjc5k_4X" role="2Oq$k0">
                                 <node concept="37vLTw" id="2NkPjc5k$jp" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4yZRtOOy_JY" />
+                                  <ref role="3cqZAo" node="4yZRtOOy_JY" resolve="it" />
                                 </node>
                                 <node concept="liA8E" id="2NkPjc5kAmO" role="2OqNvi">
                                   <ref role="37wK5l" to="z1c3:~Project.getName()" resolve="getName" />

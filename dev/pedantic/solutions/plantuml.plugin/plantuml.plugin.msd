@@ -25,7 +25,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet languageLevel="JAVA_10" type="java" compile="mps" classes="mps" ext="yes">
+    <facet type="java" languageLevel="JAVA_10" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/batik-anim-1.8.jar" />
       <library location="${module}/lib/batik-awt-util-1.8.jar" />
