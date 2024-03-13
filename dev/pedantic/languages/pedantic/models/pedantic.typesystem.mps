@@ -2061,7 +2061,7 @@
             <property role="TrG5h" value="e" />
             <node concept="nSUau" id="1_0SmCRnEEb" role="1tU5fm">
               <node concept="3uibUv" id="1_0SmCRnENS" role="nSUat">
-                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
               </node>
             </node>
           </node>
