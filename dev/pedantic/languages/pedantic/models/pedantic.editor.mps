@@ -287,7 +287,7 @@
   </node>
   <node concept="24kQdi" id="4h$8nEbw2BK">
     <property role="3GE5qa" value="Description" />
-    <ref role="1XX52x" to="3ido:4h$8nEbv_eh" resolve="Punctuation" />
+    <ref role="1XX52x" to="3ido:4h$8nEbv_eh" resolve="WordExtensionRight" />
     <node concept="3F0A7n" id="4h$8nEbw2BM" role="2wV5jI">
       <ref role="34QXea" node="2NkPjc5JEbW" resolve="HandleSpace" />
       <ref role="1NtTu8" to="3ido:4h$8nEbw52k" resolve="content" />
@@ -2102,6 +2102,17 @@
         </node>
       </node>
       <node concept="l2Vlx" id="1nr9ccteMW8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6DPc73hhEFy">
+    <property role="3GE5qa" value="Description" />
+    <ref role="1XX52x" to="3ido:6DPc73hhEFx" resolve="WordExtensionLeft" />
+    <node concept="3F0A7n" id="6DPc73hhEF$" role="2wV5jI">
+      <ref role="34QXea" node="2NkPjc5JEbW" resolve="HandleSpace" />
+      <ref role="1NtTu8" to="3ido:4h$8nEbw52k" resolve="content" />
+      <node concept="11LMrY" id="6DPc73hhEFC" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
 </model>

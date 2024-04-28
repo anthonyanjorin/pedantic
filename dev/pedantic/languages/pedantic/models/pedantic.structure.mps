@@ -106,10 +106,10 @@
   </node>
   <node concept="1TIwiD" id="4h$8nEbv_eh">
     <property role="EcuMT" value="4928100702460203921" />
-    <property role="TrG5h" value="Punctuation" />
+    <property role="TrG5h" value="WordExtensionRight" />
     <property role="3GE5qa" value="Description" />
     <property role="34LRSv" value="+" />
-    <property role="R4oN_" value="Extend a word" />
+    <property role="R4oN_" value="Extend a word to the right" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
   </node>
   <node concept="1TIwiD" id="4h$8nEbv_ei">
@@ -1058,6 +1058,14 @@
       <property role="TrG5h" value="isObsolete" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6DPc73hhEFx">
+    <property role="EcuMT" value="7671090801401047777" />
+    <property role="TrG5h" value="WordExtensionLeft" />
+    <property role="3GE5qa" value="Description" />
+    <property role="R4oN_" value="Extend a word to the left" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
   </node>
 </model>
 
