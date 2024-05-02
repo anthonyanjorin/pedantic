@@ -406,5 +406,84 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5IIk38lX1Dc">
+    <property role="EcuMT" value="6606305879446002252" />
+    <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
+    <property role="TrG5h" value="PlantUMLComponentDiagram" />
+    <ref role="1TJDcQ" node="9N_2qBjWdC" resolve="PlantUMLDiagram" />
+    <node concept="1TJgyj" id="5IIk38lYbtR" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879446304631" />
+      <property role="20kJfa" value="origin" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="5IIk38lX2QH" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879446007213" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="requiredInterfaces" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
+    </node>
+    <node concept="1TJgyj" id="5IIk38lX2QL" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879446007217" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="providedInterfaces" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
+    </node>
+    <node concept="1TJgyj" id="5IIk38mj6iI" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879451788462" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="components" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5IIk38mj4Zq" resolve="PlantUMLComponent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5IIk38lX2QG">
+    <property role="EcuMT" value="6606305879446007212" />
+    <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
+    <property role="TrG5h" value="PlantUMLComponentInterface" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5IIk38lXFub" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879446173579" />
+      <property role="20kJfa" value="origin" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="PrWs8" id="5IIk38lXLEx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5IIk38mj4Zq">
+    <property role="EcuMT" value="6606305879451783130" />
+    <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
+    <property role="TrG5h" value="PlantUMLComponent" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="5IIk38mJ9nK" role="1TKVEl">
+      <property role="IQ2nx" value="6606305879459141104" />
+      <property role="TrG5h" value="isActor" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="5IIk38mj4Zx" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879451783137" />
+      <property role="20kJfa" value="origin" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="5IIk38mj4Zt" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879451783133" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="requiredInterfaces" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
+    </node>
+    <node concept="1TJgyj" id="5IIk38mj4Zu" role="1TKVEi">
+      <property role="IQ2ns" value="6606305879451783134" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="providedInterfaces" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
+    </node>
+    <node concept="PrWs8" id="5IIk38mj4Zr" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
