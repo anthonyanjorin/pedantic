@@ -442,7 +442,7 @@
     <property role="EcuMT" value="6606305879446007212" />
     <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
     <property role="TrG5h" value="PlantUMLComponentInterface" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5IIk38lXFub" role="1TKVEi">
       <property role="IQ2ns" value="6606305879446173579" />
       <property role="20kJfa" value="origin" />
@@ -456,7 +456,7 @@
     <property role="EcuMT" value="6606305879451783130" />
     <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
     <property role="TrG5h" value="PlantUMLComponent" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5IIk38mJ9nK" role="1TKVEl">
       <property role="IQ2nx" value="6606305879459141104" />
       <property role="TrG5h" value="isActor" />
