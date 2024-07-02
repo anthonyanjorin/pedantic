@@ -1232,5 +1232,13 @@
     <property role="34LRSv" value="push" />
     <ref role="1TJDcQ" node="5IIk38kX7Mr" resolve="Forwarding" />
   </node>
+  <node concept="1TIwiD" id="56wML2LqKDz">
+    <property role="EcuMT" value="5881924385902365283" />
+    <property role="3GE5qa" value="Description" />
+    <property role="TrG5h" value="Newline" />
+    <property role="34LRSv" value="\n" />
+    <property role="R4oN_" value="Add a new line" />
+    <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
+  </node>
 </model>
 
