@@ -11,6 +11,7 @@
     </facet>
   </facets>
   <languageVersions>
+    <language slang="l:bf4c75ed-13a6-481a-8ccf-7c044af2f1d3:arango_graphs" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:1ef906aa-9948-4d71-9acf-933538b34ecf:pedantic" version="0" />
     <language slang="l:e8c53fb6-e3d1-45b8-804f-056de67b4715:plantuml" version="0" />

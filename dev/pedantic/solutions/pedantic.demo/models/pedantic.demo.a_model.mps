@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic" version="0" />
+    <use id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs" version="0" />
   </languages>
   <imports />
   <registry>
