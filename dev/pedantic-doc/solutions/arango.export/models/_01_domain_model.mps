@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic" version="0" />
+    <use id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs" version="0" />
   </languages>
   <imports />
   <registry>
@@ -37,6 +38,11 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs">
+      <concept id="554348626576371995" name="arango_graphs.structure.ArangoDBExportConfig" flags="ng" index="2fvw0S">
+        <property id="554348626578172494" name="destination" index="2fmTHH" />
       </concept>
     </language>
   </registry>
@@ -253,6 +259,9 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="5IIk38nbzsA" role="3f6AUR" />
+  </node>
+  <node concept="2fvw0S" id="uLsie9fwgR">
+    <property role="2fmTHH" value="/Users/anthonyanjorin/Downloads/pedantic-arango-export" />
   </node>
 </model>
 
