@@ -16,6 +16,7 @@
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
+        <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -53,6 +54,14 @@
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
       <concept id="5881924385902365283" name="pedantic.structure.Newline" flags="ng" index="3wMW5N" />
+      <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
+        <child id="7959779354263571715" name="description" index="ba9K_" />
+        <child id="3889923412177894711" name="ref" index="3BFnmc" />
+      </concept>
+      <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
+        <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
+        <child id="3889923412177894678" name="supers" index="3BFnmH" />
+      </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
@@ -61,6 +70,11 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs">
+      <concept id="554348626576371995" name="arango_graphs.structure.ArangoDBExportConfig" flags="ng" index="2fvw0S">
+        <property id="554348626578172494" name="destination" index="2fmTHH" />
       </concept>
     </language>
   </registry>
@@ -123,9 +137,43 @@
       </node>
     </node>
     <node concept="3f6AUY" id="41vYxjge2b3" role="3f6AUZ">
-      <node concept="3f6AUQ" id="41vYxjge2b4" role="3f6AUE" />
+      <node concept="3f6AUQ" id="41vYxjge2b4" role="3f6AUE">
+        <node concept="3fT77D" id="uLsie8YFlj" role="3f6BbQ">
+          <property role="3fT77I" value="I" />
+        </node>
+        <node concept="3fT77D" id="uLsie8YFll" role="3f6BbQ">
+          <property role="3fT77I" value="use" />
+        </node>
+        <node concept="3f6BbC" id="uLsie8YFls" role="3f6BbQ">
+          <ref role="3f6BbD" node="41vYxjge2at" resolve="Electricity" />
+        </node>
+      </node>
       <node concept="3f6AUX" id="41vYxjge2b5" role="3f6AUK">
         <property role="TrG5h" value="Control" />
+      </node>
+      <node concept="3BFnmI" id="uLsie8ZX3E" role="3BFnmE">
+        <node concept="3BFnma" id="uLsie91xTH" role="3BFnmh">
+          <node concept="3f6BbC" id="uLsie91xTI" role="3BFnmc">
+            <ref role="3f6BbD" node="4GkWBJsr84b" resolve="Blah" />
+          </node>
+          <node concept="3f6AUQ" id="uLsie91xTL" role="ba9K_">
+            <node concept="3fT77D" id="uLsie91xTN" role="3f6BbQ">
+              <property role="3fT77I" value="this" />
+            </node>
+            <node concept="3fT77D" id="uLsie91xTP" role="3f6BbQ">
+              <property role="3fT77I" value="is" />
+            </node>
+            <node concept="3fT77D" id="uLsie91xTS" role="3f6BbQ">
+              <property role="3fT77I" value="just" />
+            </node>
+            <node concept="3fT77D" id="uLsie91xTW" role="3f6BbQ">
+              <property role="3fT77I" value="boopydoo" />
+            </node>
+          </node>
+        </node>
+        <node concept="3f6BbC" id="uLsie8ZX3G" role="3BFnmH">
+          <ref role="3f6BbD" node="41vYxjgccAY" resolve="Fun" />
+        </node>
       </node>
     </node>
     <node concept="3f6AUQ" id="41vYxjgccAV" role="3f6AUR" />
@@ -284,6 +332,9 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="4GkWBJsr848" role="3f6AUR" />
+  </node>
+  <node concept="2fvw0S" id="uLsie8NSZu">
+    <property role="2fmTHH" value="/Users/anthonyanjorin/Downloads/pedantic-arango-export" />
   </node>
 </model>
 

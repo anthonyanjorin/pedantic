@@ -49,15 +49,15 @@
   </registry>
   <node concept="1TIwiD" id="5as0aefAIfv">
     <property role="EcuMT" value="5952633509965915103" />
-    <property role="TrG5h" value="Node" />
+    <property role="TrG5h" value="ArangoNode" />
     <property role="3GE5qa" value="Nodes" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5as0aefALqM" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965928114" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="attributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5as0aefAIfO" resolve="Attribute" />
+      <ref role="20lvS9" node="5as0aefAIfO" resolve="ArangoAttribute" />
     </node>
     <node concept="PrWs8" id="5as0aefBDNM" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -65,34 +65,34 @@
   </node>
   <node concept="1TIwiD" id="5as0aefAIfw">
     <property role="EcuMT" value="5952633509965915104" />
-    <property role="TrG5h" value="Edge" />
+    <property role="TrG5h" value="ArangoEdge" />
     <property role="3GE5qa" value="Edges" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5as0aefB_Vd" role="1TKVEi">
       <property role="IQ2ns" value="5952633509966143181" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="attributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5as0aefAIfO" resolve="Attribute" />
+      <ref role="20lvS9" node="5as0aefAIfO" resolve="ArangoAttribute" />
     </node>
     <node concept="1TJgyj" id="5as0aefAIfA" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965915110" />
       <property role="20kJfa" value="from" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5as0aefAIfv" resolve="Node" />
+      <ref role="20lvS9" node="5as0aefAIfv" resolve="ArangoNode" />
     </node>
     <node concept="1TJgyj" id="5as0aefAIfC" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965915112" />
       <property role="20kJfa" value="to" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5as0aefAIfv" resolve="Node" />
+      <ref role="20lvS9" node="5as0aefAIfv" resolve="ArangoNode" />
     </node>
   </node>
   <node concept="1TIwiD" id="5as0aefAIfO">
     <property role="EcuMT" value="5952633509965915124" />
-    <property role="TrG5h" value="Attribute" />
+    <property role="TrG5h" value="ArangoAttribute" />
     <property role="3GE5qa" value="" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5as0aefB5tF" role="1TKVEl">
       <property role="IQ2nx" value="5952633509966010219" />
       <property role="TrG5h" value="value" />
@@ -107,16 +107,16 @@
   </node>
   <node concept="1TIwiD" id="5as0aefATxU">
     <property role="EcuMT" value="5952633509965961338" />
-    <property role="TrG5h" value="Edges" />
+    <property role="TrG5h" value="ArangoEdgeCollection" />
     <property role="3GE5qa" value="Edges" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5as0aefAIfz" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965915107" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="edges" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5as0aefAIfw" resolve="Edge" />
+      <ref role="20lvS9" node="5as0aefAIfw" resolve="ArangoEdge" />
     </node>
     <node concept="PrWs8" id="5as0aefBdpk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -124,19 +124,30 @@
   </node>
   <node concept="1TIwiD" id="5as0aefATy0">
     <property role="EcuMT" value="5952633509965961344" />
-    <property role="TrG5h" value="Nodes" />
+    <property role="TrG5h" value="ArangoNodeCollection" />
     <property role="3GE5qa" value="Nodes" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5as0aefAIfx" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965915105" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="nodes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5as0aefAIfv" resolve="Node" />
+      <ref role="20lvS9" node="5as0aefAIfv" resolve="ArangoNode" />
     </node>
     <node concept="PrWs8" id="5as0aefBdpi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="uLsie8NR4r">
+    <property role="EcuMT" value="554348626576371995" />
+    <property role="TrG5h" value="ArangoDBExportConfig" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="uLsie8UIDe" role="1TKVEl">
+      <property role="IQ2nx" value="554348626578172494" />
+      <property role="TrG5h" value="destination" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
