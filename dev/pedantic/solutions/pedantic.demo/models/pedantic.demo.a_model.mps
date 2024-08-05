@@ -9,11 +9,19 @@
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
       <concept id="7671090801401047777" name="pedantic.structure.WordExtensionLeft" flags="ng" index="2VcTEh" />
+      <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
+        <child id="6010201709267609475" name="participants" index="AfY4v" />
+        <child id="8987473119584018420" name="description" index="X_bjr" />
+      </concept>
+      <concept id="470559418572513957" name="pedantic.structure.Instance" flags="ng" index="1bfm7D">
+        <reference id="470559418572513962" name="type" index="1bfm7A" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
+        <property id="7959779354266372691" name="type" index="bZXHP" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
@@ -53,6 +61,9 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
+        <reference id="8617956174760287129" name="target" index="1hSrFy" />
+      </concept>
       <concept id="5881924385902365283" name="pedantic.structure.Newline" flags="ng" index="3wMW5N" />
       <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
         <child id="7959779354263571715" name="description" index="ba9K_" />
@@ -61,6 +72,10 @@
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
         <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
         <child id="3889923412177894678" name="supers" index="3BFnmH" />
+      </concept>
+      <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
+        <child id="579219467669762504" name="description" index="1LuVN1" />
+        <child id="579219467669762506" name="behaviours" index="1LuVN3" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -292,6 +307,7 @@
   <node concept="3UcZMl" id="4GkWBJsr847">
     <property role="TrG5h" value="Test" />
     <node concept="3f6AUY" id="4GkWBJsr849" role="3f6AUZ">
+      <property role="bZXHP" value="6TQOip_ygDg/actor" />
       <node concept="3f6AUQ" id="4GkWBJsr84a" role="3f6AUE">
         <node concept="3f6BbC" id="4GkWBJsr84z" role="3f6BbQ">
           <ref role="3f6BbD" node="4GkWBJsr84b" resolve="Blah" />
@@ -335,6 +351,45 @@
   </node>
   <node concept="2fvw0S" id="uLsie8NSZu">
     <property role="2fmTHH" value="/Users/anthonyanjorin/Downloads/pedantic-arango-export" />
+  </node>
+  <node concept="1Lr20E" id="7up8nGAtA83">
+    <property role="TrG5h" value="With Components" />
+    <node concept="X_bju" id="7up8nGAtAEa" role="1LuVN3">
+      <property role="TrG5h" value="Blup" />
+      <node concept="1bfm7D" id="7up8nGAtAEg" role="AfY4v">
+        <property role="TrG5h" value="blah" />
+        <ref role="1bfm7A" node="4GkWBJsr84b" resolve="Blah" />
+      </node>
+      <node concept="1bfm7D" id="7up8nGAtAEi" role="AfY4v">
+        <property role="TrG5h" value="c" />
+        <ref role="1bfm7A" node="41vYxjge2b5" resolve="Control" />
+      </node>
+      <node concept="1bfm7D" id="7up8nGAtAEo" role="AfY4v">
+        <property role="TrG5h" value="b2" />
+        <ref role="1bfm7A" node="4GkWBJsr84b" resolve="Blah" />
+      </node>
+      <node concept="3f6AUQ" id="7up8nGAtAEc" role="X_bjr" />
+    </node>
+    <node concept="3f6AUQ" id="7up8nGAtA84" role="1LuVN1">
+      <node concept="3fT77D" id="7up8nGAvNVo" role="3f6BbQ">
+        <property role="3fT77I" value="This" />
+      </node>
+      <node concept="3fT77D" id="7up8nGAvNVq" role="3f6BbQ">
+        <property role="3fT77I" value="explains" />
+      </node>
+      <node concept="1hSrFG" id="7up8nGAvQ8R" role="3f6BbQ">
+        <ref role="1hSrFy" node="41vYxjge2aD" resolve="Operating System" />
+      </node>
+      <node concept="3fT77D" id="7up8nGAvQ8W" role="3f6BbQ">
+        <property role="3fT77I" value="asdfasdf" />
+      </node>
+      <node concept="3fT77D" id="7up8nGAvQ91" role="3f6BbQ">
+        <property role="3fT77I" value="asdf" />
+      </node>
+      <node concept="3fT77D" id="7up8nGAvQ97" role="3f6BbQ">
+        <property role="3fT77I" value="asdf" />
+      </node>
+    </node>
   </node>
 </model>
 

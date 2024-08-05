@@ -109,7 +109,6 @@
     <property role="EcuMT" value="5952633509965961338" />
     <property role="TrG5h" value="ArangoEdgeCollection" />
     <property role="3GE5qa" value="Edges" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5as0aefAIfz" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965915107" />
@@ -126,7 +125,6 @@
     <property role="EcuMT" value="5952633509965961344" />
     <property role="TrG5h" value="ArangoNodeCollection" />
     <property role="3GE5qa" value="Nodes" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5as0aefAIfx" role="1TKVEi">
       <property role="IQ2ns" value="5952633509965915105" />

@@ -14,8 +14,6 @@
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
-    <import index="lk2n" ref="r:da044acc-81a4-4fd8-b89a-91df4cfe6214(jetbrains.mps.execution.api.commands)" />
-    <import index="qff7" ref="r:2ba2e307-a81d-4a21-9e0b-de3624e2fb83(jetbrains.mps.lang.access.structure)" />
     <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
     <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" />
     <import index="zh2f" ref="r:ae1027d5-edb9-4948-8d78-81dfc8b60f65(arango_graphs.structure)" implicit="true" />
@@ -432,6 +430,56 @@
                                           </node>
                                           <node concept="3TrcHB" id="uLsie8WpFm" role="2OqNvi">
                                             <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="7up8nGAvTDY" role="3cqZAp">
+                              <node concept="2OqwBi" id="7up8nGAvWZy" role="3clFbG">
+                                <node concept="2OqwBi" id="7up8nGAvTRH" role="2Oq$k0">
+                                  <node concept="37vLTw" id="7up8nGAvTDW" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="uLsie8Wo10" resolve="n" />
+                                  </node>
+                                  <node concept="3Tsc0h" id="7up8nGAvU7a" role="2OqNvi">
+                                    <ref role="3TtcxE" to="zh2f:5as0aefALqM" resolve="attributes" />
+                                  </node>
+                                </node>
+                                <node concept="TSZUe" id="7up8nGAvZi5" role="2OqNvi">
+                                  <node concept="2pJPEk" id="7up8nGAvZpM" role="25WWJ7">
+                                    <node concept="2pJPED" id="7up8nGAvZpO" role="2pJPEn">
+                                      <ref role="2pJxaS" to="zh2f:5as0aefAIfO" resolve="ArangoAttribute" />
+                                      <node concept="2pJxcG" id="7up8nGAvZNu" role="2pJxcM">
+                                        <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                                        <node concept="WxPPo" id="7up8nGAw1$z" role="28ntcv">
+                                          <node concept="Xl_RD" id="7up8nGAw1$y" role="WxPPp">
+                                            <property role="Xl_RC" value="name" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="2pJxcG" id="7up8nGAw12i" role="2pJxcM">
+                                        <ref role="2pJxcJ" to="zh2f:5as0aefB5tF" resolve="value" />
+                                        <node concept="WxPPo" id="7up8nGAwcw5" role="28ntcv">
+                                          <node concept="3cpWs3" id="7up8nGAwjmh" role="WxPPp">
+                                            <node concept="Xl_RD" id="7up8nGAwjqV" role="3uHU7w">
+                                              <property role="Xl_RC" value="\&quot;" />
+                                            </node>
+                                            <node concept="3cpWs3" id="7up8nGAwfyH" role="3uHU7B">
+                                              <node concept="Xl_RD" id="7up8nGAwcw4" role="3uHU7B">
+                                                <property role="Xl_RC" value="\&quot;" />
+                                              </node>
+                                              <node concept="2OqwBi" id="7up8nGAwgig" role="3uHU7w">
+                                                <node concept="37vLTw" id="7up8nGAwfQC" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="uLsie8Wo10" resolve="n" />
+                                                </node>
+                                                <node concept="3TrcHB" id="7up8nGAwgyv" role="2OqNvi">
+                                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                                </node>
+                                              </node>
+                                            </node>
                                           </node>
                                         </node>
                                       </node>

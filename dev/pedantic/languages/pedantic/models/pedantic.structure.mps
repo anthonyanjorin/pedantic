@@ -1240,5 +1240,21 @@
     <property role="R4oN_" value="Add a new line" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
   </node>
+  <node concept="1TIwiD" id="7up8nGAu9In">
+    <property role="EcuMT" value="8617956174760287127" />
+    <property role="3GE5qa" value="Description" />
+    <property role="TrG5h" value="ComponentReference" />
+    <property role="R4oN_" value="Reference a component" />
+    <property role="34LRSv" value="&amp;" />
+    <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
+    <node concept="PrWs8" id="7up8nGAu9Io" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+    </node>
+    <node concept="1TJgyj" id="7up8nGAu9Ip" role="1TKVEi">
+      <property role="IQ2ns" value="8617956174760287129" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="5IIk38kX7LU" resolve="Component" />
+    </node>
+  </node>
 </model>
 
