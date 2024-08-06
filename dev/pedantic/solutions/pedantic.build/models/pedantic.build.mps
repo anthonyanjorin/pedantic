@@ -686,6 +686,26 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7up8nGA_k_X" role="3bR37C">
+          <node concept="3bR9La" id="7up8nGA_k_Y" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7up8nGA_kCL" role="3bR31x">
+          <node concept="3LXTmp" id="7up8nGA_kCM" role="3rtmxm">
+            <node concept="55IIr" id="7up8nGA_kCN" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7up8nGA_kCO" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7up8nGA_kCP" role="2Ry0An">
+                  <property role="2Ry0Am" value="arango_graphs" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7up8nGA_kCR" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5Q23RPTxrzz" role="2G$12L">
         <property role="TrG5h" value="plantuml.plugin" />

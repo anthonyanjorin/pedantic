@@ -186,9 +186,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
-        <child id="1144104376918" name="parameter" index="1xVPHs" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
@@ -203,11 +200,7 @@
       </concept>
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -239,10 +232,6 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
-        <child id="540871147943773366" name="argument" index="25WWJ7" />
-      </concept>
-      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
@@ -776,37 +765,19 @@
           <ref role="JncvD" to="3ido:q7KOLemFL7" resolve="SelfMessage" />
           <node concept="2Sf5sV" id="2WTnVpODqRe" role="JncvB" />
           <node concept="3clFbS" id="2WTnVpODqPn" role="Jncv$">
-            <node concept="3clFbF" id="2WTnVpODqUP" role="3cqZAp">
-              <node concept="2OqwBi" id="2WTnVpODvus" role="3clFbG">
-                <node concept="2OqwBi" id="2WTnVpODsMY" role="2Oq$k0">
-                  <node concept="2OqwBi" id="2WTnVpODsjl" role="2Oq$k0">
-                    <node concept="2OqwBi" id="2WTnVpODryr" role="2Oq$k0">
-                      <node concept="2OqwBi" id="2WTnVpODr7P" role="2Oq$k0">
-                        <node concept="Jnkvi" id="2WTnVpODqUO" role="2Oq$k0">
-                          <ref role="1M0zk5" node="2WTnVpODqPp" resolve="message" />
-                        </node>
-                        <node concept="3TrEf2" id="2WTnVpODrl8" role="2OqNvi">
-                          <ref role="3Tt5mk" to="3ido:5dCxDLPlQu7" resolve="self" />
-                        </node>
-                      </node>
-                      <node concept="3TrEf2" id="2WTnVpODrLV" role="2OqNvi">
-                        <ref role="3Tt5mk" to="3ido:q7KOLdIEaE" resolve="type" />
-                      </node>
-                    </node>
-                    <node concept="2Xjw5R" id="2WTnVpODsAx" role="2OqNvi">
-                      <node concept="1xMEDy" id="2WTnVpODsAz" role="1xVPHs">
-                        <node concept="chp4Y" id="2WTnVpODsB_" role="ri$Ld">
-                          <ref role="cht4Q" to="3ido:4h$8nEbv$Z4" resolve="Term" />
-                        </node>
-                      </node>
-                    </node>
+            <node concept="3clFbF" id="7up8nGBgK44" role="3cqZAp">
+              <node concept="2OqwBi" id="7up8nGBgKHX" role="3clFbG">
+                <node concept="2OqwBi" id="7up8nGBgKf3" role="2Oq$k0">
+                  <node concept="Jnkvi" id="7up8nGBgK42" role="2Oq$k0">
+                    <ref role="1M0zk5" node="2WTnVpODqPp" resolve="message" />
                   </node>
-                  <node concept="3Tsc0h" id="2WTnVpODtfn" role="2OqNvi">
-                    <ref role="3TtcxE" to="3ido:7MTUMX1bm0g" resolve="services" />
+                  <node concept="3TrEf2" id="7up8nGBgKyQ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="3ido:5dCxDLPlQu7" resolve="self" />
                   </node>
                 </node>
-                <node concept="TSZUe" id="2WTnVpOD$dz" role="2OqNvi">
-                  <node concept="37vLTw" id="2WTnVpOD$pC" role="25WWJ7">
+                <node concept="2qgKlT" id="7up8nGBgKYZ" role="2OqNvi">
+                  <ref role="37wK5l" to="8nwy:7up8nGBgIZc" resolve="addService" />
+                  <node concept="37vLTw" id="7up8nGBgKZb" role="37wK5m">
                     <ref role="3cqZAo" node="2WTnVpODk2T" resolve="service" />
                   </node>
                 </node>
@@ -823,37 +794,19 @@
           <ref role="JncvD" to="3ido:w9Ng_TsB7d" resolve="SendReceiveMessage" />
           <node concept="2Sf5sV" id="2WTnVpOD_43" role="JncvB" />
           <node concept="3clFbS" id="2WTnVpOD_44" role="Jncv$">
-            <node concept="3clFbF" id="2WTnVpOD_45" role="3cqZAp">
-              <node concept="2OqwBi" id="2WTnVpOD_46" role="3clFbG">
-                <node concept="2OqwBi" id="2WTnVpOD_47" role="2Oq$k0">
-                  <node concept="2OqwBi" id="2WTnVpOD_48" role="2Oq$k0">
-                    <node concept="2OqwBi" id="2WTnVpOD_49" role="2Oq$k0">
-                      <node concept="2OqwBi" id="2WTnVpOD_4a" role="2Oq$k0">
-                        <node concept="Jnkvi" id="2WTnVpOD_4b" role="2Oq$k0">
-                          <ref role="1M0zk5" node="2WTnVpOD_4k" resolve="message" />
-                        </node>
-                        <node concept="3TrEf2" id="2WTnVpOD_4c" role="2OqNvi">
-                          <ref role="3Tt5mk" to="3ido:5dCxDLPlQui" resolve="to" />
-                        </node>
-                      </node>
-                      <node concept="3TrEf2" id="2WTnVpOD_4d" role="2OqNvi">
-                        <ref role="3Tt5mk" to="3ido:q7KOLdIEaE" resolve="type" />
-                      </node>
-                    </node>
-                    <node concept="2Xjw5R" id="2WTnVpOD_4e" role="2OqNvi">
-                      <node concept="1xMEDy" id="2WTnVpOD_4f" role="1xVPHs">
-                        <node concept="chp4Y" id="2WTnVpOD_4g" role="ri$Ld">
-                          <ref role="cht4Q" to="3ido:4h$8nEbv$Z4" resolve="Term" />
-                        </node>
-                      </node>
-                    </node>
+            <node concept="3clFbF" id="7up8nGBgL2p" role="3cqZAp">
+              <node concept="2OqwBi" id="7up8nGBgLxe" role="3clFbG">
+                <node concept="2OqwBi" id="7up8nGBgLdO" role="2Oq$k0">
+                  <node concept="Jnkvi" id="7up8nGBgL2n" role="2Oq$k0">
+                    <ref role="1M0zk5" node="2WTnVpOD_4k" resolve="message" />
                   </node>
-                  <node concept="3Tsc0h" id="2WTnVpOD_4h" role="2OqNvi">
-                    <ref role="3TtcxE" to="3ido:7MTUMX1bm0g" resolve="services" />
+                  <node concept="3TrEf2" id="7up8nGBgLw1" role="2OqNvi">
+                    <ref role="3Tt5mk" to="3ido:5dCxDLPlQui" resolve="to" />
                   </node>
                 </node>
-                <node concept="TSZUe" id="2WTnVpOD_4i" role="2OqNvi">
-                  <node concept="37vLTw" id="2WTnVpOD_4j" role="25WWJ7">
+                <node concept="2qgKlT" id="7up8nGBgLAz" role="2OqNvi">
+                  <ref role="37wK5l" to="8nwy:7up8nGBgIZc" resolve="addService" />
+                  <node concept="37vLTw" id="7up8nGBgLAJ" role="37wK5m">
                     <ref role="3cqZAo" node="2WTnVpODk2T" resolve="service" />
                   </node>
                 </node>
