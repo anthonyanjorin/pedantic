@@ -436,13 +436,13 @@
       <property role="IQ2ns" value="6010201709267609485" />
       <property role="20kJfa" value="from" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Participant" />
     </node>
     <node concept="1TJgyj" id="5dCxDLPlQui" role="1TKVEi">
       <property role="IQ2ns" value="6010201709267609490" />
       <property role="20kJfa" value="to" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Participant" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MTUMX1blZL">
@@ -463,7 +463,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="participants" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Participant" />
     </node>
     <node concept="1TJgyj" id="7MTUMX1blZQ" role="1TKVEi">
       <property role="IQ2ns" value="8987473119584018422" />
@@ -532,8 +532,8 @@
   <node concept="1TIwiD" id="q7KOLdIEa_">
     <property role="EcuMT" value="470559418572513957" />
     <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
-    <property role="TrG5h" value="Instance" />
-    <property role="34LRSv" value="instance" />
+    <property role="TrG5h" value="Participant" />
+    <property role="34LRSv" value="participant" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7up8nGC79xn" role="PzmwI">
@@ -557,7 +557,7 @@
       <property role="IQ2ns" value="6010201709267609479" />
       <property role="20kJfa" value="self" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Participant" />
     </node>
   </node>
   <node concept="1TIwiD" id="q7KOLf7vlC">
@@ -844,13 +844,13 @@
       <property role="IQ2ns" value="6010201709287355241" />
       <property role="20kJfa" value="parameter" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Participant" />
     </node>
     <node concept="1TJgyj" id="5dCxDLQxbdB" role="1TKVEi">
       <property role="IQ2ns" value="6010201709287355239" />
       <property role="20kJfa" value="argument" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Instance" />
+      <ref role="20lvS9" node="q7KOLdIEa_" resolve="Participant" />
     </node>
   </node>
   <node concept="1TIwiD" id="2WTnVpOemuc">
@@ -1092,6 +1092,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4h$8nEbv_ei" resolve="TermReference" />
     </node>
+    <node concept="1TJgyj" id="7up8nGCsnLr" role="1TKVEi">
+      <property role="IQ2ns" value="8617956174793374811" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="services" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7MTUMX1bm0m" resolve="Service" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5IIk38kX7M0">
     <property role="EcuMT" value="6606305879429250176" />
@@ -1256,7 +1263,7 @@
     <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <property role="TrG5h" value="TermParticipant" />
     <property role="34LRSv" value="term instance" />
-    <ref role="1TJDcQ" node="q7KOLdIEa_" resolve="Instance" />
+    <ref role="1TJDcQ" node="q7KOLdIEa_" resolve="Participant" />
     <node concept="1TJgyj" id="7up8nGAy0en" role="1TKVEi">
       <property role="IQ2ns" value="8617956174761296791" />
       <property role="20kJfa" value="type" />
@@ -1268,7 +1275,7 @@
     <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
     <property role="TrG5h" value="ComponentParticipant" />
     <property role="34LRSv" value="component instance" />
-    <ref role="1TJDcQ" node="q7KOLdIEa_" resolve="Instance" />
+    <ref role="1TJDcQ" node="q7KOLdIEa_" resolve="Participant" />
     <node concept="1TJgyj" id="7up8nGBDG1f" role="1TKVEi">
       <property role="IQ2ns" value="8617956174780088399" />
       <property role="20kJfa" value="ref" />

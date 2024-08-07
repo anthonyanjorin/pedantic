@@ -9,9 +9,14 @@
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
       <concept id="7671090801401047777" name="pedantic.structure.WordExtensionLeft" flags="ng" index="2VcTEh" />
+      <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT" />
       <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
         <child id="6010201709267609475" name="participants" index="AfY4v" />
+        <child id="8987473119584018422" name="messages" index="X_bjp" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
+      </concept>
+      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="6010201709267609479" name="self" index="AfY4r" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
@@ -30,6 +35,7 @@
       <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
         <child id="6606305879429250182" name="provided" index="1fmyMO" />
         <child id="6606305879429250184" name="required" index="1fmyMU" />
+        <child id="8617956174793374811" name="services" index="1vU5Ow" />
       </concept>
       <concept id="6606305879429250214" name="pedantic.structure.Pull" flags="ng" index="1fmyMk" />
       <concept id="6606305879429250220" name="pedantic.structure.Push" flags="ng" index="1fmyMu" />
@@ -64,6 +70,9 @@
       <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
         <reference id="8617956174760287129" name="target" index="1hSrFy" />
       </concept>
+      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
+        <reference id="470559418596586565" name="service" index="19Fzs9" />
+      </concept>
       <concept id="5881924385902365283" name="pedantic.structure.Newline" flags="ng" index="3wMW5N" />
       <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
         <child id="7959779354263571715" name="description" index="ba9K_" />
@@ -76,6 +85,10 @@
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
+      </concept>
+      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
+        <reference id="6010201709267609490" name="to" index="AfY4e" />
+        <reference id="6010201709267609485" name="from" index="AfY4h" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -94,7 +107,7 @@
     </language>
   </registry>
   <node concept="1fmyL8" id="41vYxjg9W5G">
-    <property role="TrG5h" value="iPad" />
+    <property role="TrG5h" value="iPadddd" />
     <node concept="3f6BbC" id="41vYxjge2a$" role="1fmyMO">
       <ref role="3f6BbD" node="41vYxjgccAY" resolve="Fun" />
     </node>
@@ -103,20 +116,27 @@
     </node>
     <node concept="1fmyMZ" id="41vYxjg9W5H" role="1fmyMW">
       <node concept="1fmyMC" id="41vYxjge2bX" role="1fmyMH">
-        <ref role="1fmyM0" node="41vYxjge2aE" resolve="app" />
+        <ref role="1fmyM0" node="41vYxjge2aE" resolve="appss" />
         <ref role="1fmyM6" node="41vYxjge2aG" resolve="os" />
         <node concept="3f6BbC" id="41vYxjge2bY" role="1eUoJ5">
           <ref role="3f6BbD" node="41vYxjge2b5" resolve="Control" />
         </node>
       </node>
+      <node concept="1fmyMC" id="7up8nGCW2Xo" role="1fmyMH">
+        <ref role="1fmyM0" node="7up8nGCSgEB" resolve="fluffy" />
+        <ref role="1fmyM6" node="41vYxjge2aG" resolve="os" />
+        <node concept="3f6BbC" id="7up8nGCW2Xp" role="1eUoJ5">
+          <ref role="3f6BbD" node="41vYxjge2b5" resolve="Control" />
+        </node>
+      </node>
       <node concept="1fmyMu" id="41vYxjge2bJ" role="1e2t$s">
-        <ref role="1fmyMv" node="41vYxjge2aE" resolve="app" />
+        <ref role="1fmyMv" node="41vYxjge2aE" resolve="appss" />
         <node concept="3f6BbC" id="41vYxjge2bK" role="1eUoJ9">
           <ref role="3f6BbD" node="41vYxjgccAY" resolve="Fun" />
         </node>
       </node>
       <node concept="1fmyMk" id="41vYxjge2br" role="1e2t$0">
-        <ref role="1fmyMv" node="41vYxjge2aE" resolve="app" />
+        <ref role="1fmyMv" node="41vYxjge2aE" resolve="appss" />
         <node concept="3f6BbC" id="41vYxjge2bs" role="1eUoJ9">
           <ref role="3f6BbD" node="41vYxjge2at" resolve="Electricity" />
         </node>
@@ -128,12 +148,16 @@
         </node>
       </node>
       <node concept="1fmyMA" id="41vYxjge2aE" role="1fmyM_">
-        <property role="TrG5h" value="app" />
+        <property role="TrG5h" value="appss" />
         <ref role="1fmyMB" node="41vYxjge29F" resolve="App" />
       </node>
       <node concept="1fmyMA" id="41vYxjge2aG" role="1fmyM_">
         <property role="TrG5h" value="os" />
         <ref role="1fmyMB" node="41vYxjge2aD" resolve="Operating System" />
+      </node>
+      <node concept="1fmyMA" id="7up8nGCSgEB" role="1fmyM_">
+        <property role="TrG5h" value="fluffy" />
+        <ref role="1fmyMB" node="41vYxjge29F" resolve="App" />
       </node>
     </node>
   </node>
@@ -204,6 +228,9 @@
     <node concept="3f6BbC" id="41vYxjge2b0" role="1fmyMU">
       <ref role="3f6BbD" node="41vYxjge2b5" resolve="Control" />
     </node>
+    <node concept="X_8GT" id="7up8nGCSgEg" role="1vU5Ow">
+      <property role="TrG5h" value="dfdf" />
+    </node>
   </node>
   <node concept="1fmyL8" id="41vYxjge2aD">
     <property role="TrG5h" value="Operating System" />
@@ -212,6 +239,12 @@
     </node>
     <node concept="3f6BbC" id="41vYxjge2aY" role="1fmyMU">
       <ref role="3f6BbD" node="41vYxjge2at" resolve="Electricity" />
+    </node>
+    <node concept="X_8GT" id="7up8nGCvInv" role="1vU5Ow">
+      <property role="TrG5h" value="food" />
+    </node>
+    <node concept="X_8GT" id="7up8nGCx7OO" role="1vU5Ow">
+      <property role="TrG5h" value="ffllupp" />
     </node>
   </node>
   <node concept="1fmyMM" id="41vYxjge2Pm">
@@ -356,13 +389,31 @@
     <property role="TrG5h" value="With Components" />
     <node concept="X_bju" id="7up8nGAtAEa" role="1LuVN3">
       <property role="TrG5h" value="Blup" />
-      <node concept="1gfTUo" id="7up8nGCll8z" role="AfY4v">
-        <property role="TrG5h" value="iPad.app" />
+      <node concept="1LuVN4" id="7up8nGCsnHe" role="X_bjp">
+        <ref role="AfY4h" node="7up8nGCqLnJ" resolve="iPad.app" />
+        <ref role="AfY4e" node="7up8nGCsnFX" resolve="iPad.os" />
+        <ref role="19Fzs9" node="7up8nGCx7OO" resolve="ffllupp" />
+      </node>
+      <node concept="18RnWb" id="7up8nGCx7OU" role="X_bjp">
+        <ref role="AfY4r" node="7up8nGCsnFX" resolve="iPad.os" />
+        <ref role="19Fzs9" node="7up8nGCvInv" resolve="food" />
+      </node>
+      <node concept="1LuVN4" id="7up8nGCSgEb" role="X_bjp">
+        <ref role="AfY4h" node="7up8nGCSgE2" resolve="Foodyhoo.blup" />
+        <ref role="AfY4e" node="7up8nGCsnFX" resolve="iPadddd.os" />
+        <ref role="19Fzs9" node="7up8nGCx7OO" resolve="ffllupp" />
+      </node>
+      <node concept="1gfTUo" id="7up8nGCqLnJ" role="AfY4v">
+        <property role="TrG5h" value="iPadddd.appss" />
         <ref role="1gfY4O" node="41vYxjge2aE" resolve="app" />
       </node>
-      <node concept="1gfTUo" id="7up8nGCmRhv" role="AfY4v">
-        <property role="TrG5h" value="Foodyhoo.blup" />
-        <ref role="1gfY4O" node="41vYxjge2Pp" resolve="blup" />
+      <node concept="1gfTUo" id="7up8nGCsnFX" role="AfY4v">
+        <property role="TrG5h" value="iPadddd.os" />
+        <ref role="1gfY4O" node="41vYxjge2aG" resolve="os" />
+      </node>
+      <node concept="1gfTUo" id="7up8nGCSgE2" role="AfY4v">
+        <property role="TrG5h" value="iPadddd.fluffy" />
+        <ref role="1gfY4O" node="7up8nGCSgEB" resolve="fluffy" />
       </node>
       <node concept="3f6AUQ" id="7up8nGAtAEc" role="X_bjr" />
     </node>
