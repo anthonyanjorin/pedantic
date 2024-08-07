@@ -13,9 +13,6 @@
         <child id="6010201709267609475" name="participants" index="AfY4v" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
       </concept>
-      <concept id="470559418572513957" name="pedantic.structure.Instance" flags="ng" index="1bfm7D">
-        <reference id="470559418572513962" name="type" index="1bfm7A" />
-      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -60,6 +57,9 @@
       </concept>
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
+      </concept>
+      <concept id="8617956174780088291" name="pedantic.structure.ComponentParticipant" flags="ng" index="1gfTUo">
+        <reference id="8617956174780088399" name="ref" index="1gfY4O" />
       </concept>
       <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
         <reference id="8617956174760287129" name="target" index="1hSrFy" />
@@ -356,17 +356,13 @@
     <property role="TrG5h" value="With Components" />
     <node concept="X_bju" id="7up8nGAtAEa" role="1LuVN3">
       <property role="TrG5h" value="Blup" />
-      <node concept="1bfm7D" id="7up8nGAtAEg" role="AfY4v">
-        <property role="TrG5h" value="blah" />
-        <ref role="1bfm7A" node="4GkWBJsr84b" resolve="Blah" />
+      <node concept="1gfTUo" id="7up8nGCll8z" role="AfY4v">
+        <property role="TrG5h" value="iPad.app" />
+        <ref role="1gfY4O" node="41vYxjge2aE" resolve="app" />
       </node>
-      <node concept="1bfm7D" id="7up8nGAtAEi" role="AfY4v">
-        <property role="TrG5h" value="c" />
-        <ref role="1bfm7A" node="41vYxjge2b5" resolve="Control" />
-      </node>
-      <node concept="1bfm7D" id="7up8nGAtAEo" role="AfY4v">
-        <property role="TrG5h" value="b2" />
-        <ref role="1bfm7A" node="4GkWBJsr84b" resolve="Blah" />
+      <node concept="1gfTUo" id="7up8nGCmRhv" role="AfY4v">
+        <property role="TrG5h" value="Foodyhoo.blup" />
+        <ref role="1gfY4O" node="41vYxjge2Pp" resolve="blup" />
       </node>
       <node concept="3f6AUQ" id="7up8nGAtAEc" role="X_bjr" />
     </node>

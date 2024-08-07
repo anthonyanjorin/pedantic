@@ -536,7 +536,7 @@
     <property role="34LRSv" value="instance" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="q7KOLdIEaC" role="PzmwI">
+    <node concept="PrWs8" id="7up8nGC79xn" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
@@ -1254,12 +1254,25 @@
   <node concept="1TIwiD" id="7up8nGAy0el">
     <property role="EcuMT" value="8617956174761296789" />
     <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
-    <property role="TrG5h" value="TermInstance" />
+    <property role="TrG5h" value="TermParticipant" />
+    <property role="34LRSv" value="term instance" />
     <ref role="1TJDcQ" node="q7KOLdIEa_" resolve="Instance" />
     <node concept="1TJgyj" id="7up8nGAy0en" role="1TKVEi">
       <property role="IQ2ns" value="8617956174761296791" />
       <property role="20kJfa" value="type" />
       <ref role="20lvS9" node="4h$8nEbv$Z7" resolve="Label" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7up8nGBDFZz">
+    <property role="EcuMT" value="8617956174780088291" />
+    <property role="3GE5qa" value="Scenarios.SequenceDiagrams" />
+    <property role="TrG5h" value="ComponentParticipant" />
+    <property role="34LRSv" value="component instance" />
+    <ref role="1TJDcQ" node="q7KOLdIEa_" resolve="Instance" />
+    <node concept="1TJgyj" id="7up8nGBDG1f" role="1TKVEi">
+      <property role="IQ2ns" value="8617956174780088399" />
+      <property role="20kJfa" value="ref" />
+      <ref role="20lvS9" node="5IIk38kX7Mk" resolve="ComponentInstance" />
     </node>
   </node>
 </model>
