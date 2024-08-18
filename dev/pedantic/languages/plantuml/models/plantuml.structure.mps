@@ -410,6 +410,7 @@
     <property role="EcuMT" value="6606305879446002252" />
     <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
     <property role="TrG5h" value="PlantUMLComponentDiagram" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="9N_2qBjWdC" resolve="PlantUMLDiagram" />
     <node concept="1TJgyj" id="5IIk38lYbtR" role="1TKVEi">
       <property role="IQ2ns" value="6606305879446304631" />
@@ -436,6 +437,13 @@
       <property role="20kJfa" value="components" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5IIk38mj4Zq" resolve="PlantUMLComponent" />
+    </node>
+    <node concept="1TJgyj" id="32uEtBkerli" role="1TKVEi">
+      <property role="IQ2ns" value="3503424313174373714" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="connections" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="32uEtBkerlc" resolve="PlantUMLComponentInterfaceConnection" />
     </node>
   </node>
   <node concept="1TIwiD" id="5IIk38lX2QG">
@@ -483,6 +491,24 @@
     </node>
     <node concept="PrWs8" id="5IIk38mj4Zr" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="32uEtBkerlc">
+    <property role="EcuMT" value="3503424313174373708" />
+    <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
+    <property role="TrG5h" value="PlantUMLComponentInterfaceConnection" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="32uEtBkerld" role="1TKVEi">
+      <property role="IQ2ns" value="3503424313174373709" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
+    </node>
+    <node concept="1TJgyj" id="32uEtBkerlf" role="1TKVEi">
+      <property role="IQ2ns" value="3503424313174373711" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
     </node>
   </node>
 </model>

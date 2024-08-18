@@ -11,6 +11,7 @@
     <import index="zh2f" ref="r:ae1027d5-edb9-4948-8d78-81dfc8b60f65(arango_graphs.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="d32a" ref="r:05d3d776-445a-4f78-ac72-df0fa77e7fc3(arango_graphs.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -85,6 +86,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -355,6 +357,22 @@
               <node concept="la8eA" id="5as0aefBAyT" role="lcghm">
                 <property role="lacIc" value="&quot;" />
               </node>
+              <node concept="l9hG8" id="32uEtBiy6vr" role="lcghm">
+                <node concept="2OqwBi" id="32uEtBiygoF" role="lb14g">
+                  <node concept="2OqwBi" id="32uEtBiy6E6" role="2Oq$k0">
+                    <node concept="117lpO" id="32uEtBiy6xH" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="32uEtBiy6LQ" role="2OqNvi">
+                      <ref role="3Tt5mk" to="zh2f:5as0aefAIfA" resolve="from" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="32uEtBiygzQ" role="2OqNvi">
+                    <ref role="37wK5l" to="d32a:32uEtBiy7HQ" resolve="getDocumentName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="32uEtBiygGk" role="lcghm">
+                <property role="lacIc" value="/" />
+              </node>
               <node concept="l9hG8" id="5as0aefBAyU" role="lcghm">
                 <node concept="2OqwBi" id="7up8nGAt910" role="lb14g">
                   <node concept="2OqwBi" id="7up8nGAt8tV" role="2Oq$k0">
@@ -387,6 +405,22 @@
               </node>
               <node concept="la8eA" id="5as0aefBALS" role="lcghm">
                 <property role="lacIc" value="&quot;" />
+              </node>
+              <node concept="l9hG8" id="32uEtBiyOg$" role="lcghm">
+                <node concept="2OqwBi" id="32uEtBiyOg_" role="lb14g">
+                  <node concept="2OqwBi" id="32uEtBiyOgA" role="2Oq$k0">
+                    <node concept="117lpO" id="32uEtBiyOgB" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="32uEtBiyOEi" role="2OqNvi">
+                      <ref role="3Tt5mk" to="zh2f:5as0aefAIfC" resolve="to" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="32uEtBiyOgD" role="2OqNvi">
+                    <ref role="37wK5l" to="d32a:32uEtBiy7HQ" resolve="getDocumentName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="32uEtBiyOI1" role="lcghm">
+                <property role="lacIc" value="/" />
               </node>
               <node concept="l9hG8" id="5as0aefBALT" role="lcghm">
                 <node concept="2OqwBi" id="7up8nGAtehi" role="lb14g">
