@@ -75,11 +75,25 @@
         <child id="6606305879429250199" name="instances" index="1fmyM_" />
         <child id="6606305879429250207" name="fulfillments" index="1fmyMH" />
       </concept>
+      <concept id="3402856230705402903" name="pedantic.structure.InitialState" flags="ng" index="1rOGIx" />
+      <concept id="3402856230705402906" name="pedantic.structure.CompositeState" flags="ng" index="1rOGIG">
+        <child id="3402856230705402935" name="states" index="1rOGI1" />
+        <child id="3402856230705402933" name="initial" index="1rOGI3" />
+      </concept>
+      <concept id="3402856230704572653" name="pedantic.structure.StateMachine" flags="ng" index="1rTVtr">
+        <child id="3402856230705402919" name="states" index="1rOGIh" />
+        <child id="3402856230705402912" name="initial" index="1rOGIm" />
+        <child id="3402856230705402909" name="description" index="1rOGIF" />
+      </concept>
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
         <child id="3889923412177894678" name="supers" index="3BFnmH" />
+      </concept>
+      <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
+        <child id="579219467669762504" name="description" index="1LuVN1" />
+        <child id="579219467669762506" name="behaviours" index="1LuVN3" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -284,6 +298,41 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="32uEtBjCbtS" role="3f6AUR" />
+  </node>
+  <node concept="1Lr20E" id="mQDXj0yGaO">
+    <property role="TrG5h" value="TestStatemachine" />
+    <node concept="1rTVtr" id="mQDXj0yGaS" role="1LuVN3">
+      <property role="TrG5h" value="Top" />
+      <node concept="1rOGIG" id="mQDXj0yGb1" role="1rOGIh">
+        <property role="TrG5h" value="FirstLevel1" />
+        <node concept="1rOGIG" id="mQDXj0yGbd" role="1rOGI1">
+          <property role="TrG5h" value="SecondLevel1" />
+          <node concept="1rOGIG" id="mQDXj0yGbh" role="1rOGI1">
+            <property role="TrG5h" value="ThirdLevel1" />
+            <node concept="1rOGIG" id="mQDXj0_4eM" role="1rOGI1">
+              <property role="TrG5h" value="FourthLevel1" />
+              <node concept="1rOGIx" id="mQDXj0_4eN" role="1rOGI3">
+                <property role="TrG5h" value="(*)-&gt;" />
+              </node>
+            </node>
+            <node concept="1rOGIx" id="mQDXj0yGbi" role="1rOGI3">
+              <property role="TrG5h" value="(*)-&gt;" />
+            </node>
+          </node>
+          <node concept="1rOGIx" id="mQDXj0yGbe" role="1rOGI3">
+            <property role="TrG5h" value="(*)-&gt;" />
+          </node>
+        </node>
+        <node concept="1rOGIx" id="mQDXj0yGb2" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="mQDXj0yGaU" role="1rOGIF" />
+      <node concept="1rOGIx" id="mQDXj0yGaW" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="mQDXj0yGaP" role="1LuVN1" />
   </node>
 </model>
 
