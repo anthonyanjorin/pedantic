@@ -497,7 +497,7 @@
     <property role="EcuMT" value="3503424313174373708" />
     <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
     <property role="TrG5h" value="PlantUMLComponentInterfaceConnection" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="32uEtBkerld" role="1TKVEi">
       <property role="IQ2ns" value="3503424313174373709" />
       <property role="20kJfa" value="source" />
