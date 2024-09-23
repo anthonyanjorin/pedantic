@@ -43,6 +43,7 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -173,6 +174,7 @@
         <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
         <node concept="1sVBvm" id="1ap1xRT35vS" role="1sWHZn">
           <node concept="3F0A7n" id="1ap1xRT35vU" role="2wV5jI">
+            <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
@@ -233,6 +235,7 @@
         <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
         <node concept="1sVBvm" id="1ap1xRT35y1" role="1sWHZn">
           <node concept="3F0A7n" id="1ap1xRT35y3" role="2wV5jI">
+            <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
@@ -246,6 +249,7 @@
         <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
         <node concept="1sVBvm" id="1ap1xRT35xU" role="1sWHZn">
           <node concept="3F0A7n" id="1ap1xRT35xW" role="2wV5jI">
+            <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
