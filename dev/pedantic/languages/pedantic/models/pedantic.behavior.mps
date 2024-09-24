@@ -31,7 +31,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
-    <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" implicit="true" />
+    <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -12706,6 +12706,76 @@
         </node>
       </node>
       <node concept="17QB3L" id="7up8nGBX6yV" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="33ZohV4F7fM">
+    <property role="3GE5qa" value="Scenarios.StateMachines" />
+    <ref role="13h7C2" to="3ido:2WTnVpOUTgm" resolve="State" />
+    <node concept="13i0hz" id="33ZohV4GITe" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="transformToPlantUML" />
+      <ref role="13i0hy" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+      <node concept="3clFbS" id="33ZohV4GITf" role="3clF47">
+        <node concept="3cpWs6" id="33ZohV4GJqz" role="3cqZAp">
+          <node concept="2OqwBi" id="33ZohV4GK1o" role="3cqZAk">
+            <node concept="2OqwBi" id="33ZohV4GJAq" role="2Oq$k0">
+              <node concept="13iPFW" id="33ZohV4GJr7" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="33ZohV4GJLc" role="2OqNvi">
+                <node concept="1xMEDy" id="33ZohV4GJLe" role="1xVPHs">
+                  <node concept="chp4Y" id="33ZohV4GJNO" role="ri$Ld">
+                    <ref role="cht4Q" to="3ido:2WTnVpORIzH" resolve="StateMachine" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2qgKlT" id="33ZohV4GKfH" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="33ZohV4GITC" role="3clF45">
+        <ref role="ehGHo" to="9u6h:9N_2qBjWdC" resolve="PlantUMLDiagram" />
+      </node>
+      <node concept="3Tm1VV" id="33ZohV4GITD" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="33ZohV4F7fN" role="13h7CW">
+      <node concept="3clFbS" id="33ZohV4F7fO" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="33ZohV4Ijrx">
+    <property role="3GE5qa" value="Scenarios.StateMachines" />
+    <ref role="13h7C2" to="3ido:2WTnVpOUV2A" resolve="Transition" />
+    <node concept="13i0hz" id="33ZohV4IjrO" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="transformToPlantUML" />
+      <ref role="13i0hy" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+      <node concept="3clFbS" id="33ZohV4IjrP" role="3clF47">
+        <node concept="3cpWs6" id="33ZohV4IjYr" role="3cqZAp">
+          <node concept="2OqwBi" id="33ZohV4Ikz5" role="3cqZAk">
+            <node concept="2OqwBi" id="33ZohV4Ik9M" role="2Oq$k0">
+              <node concept="13iPFW" id="33ZohV4IjZh" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="33ZohV4Ikj3" role="2OqNvi">
+                <node concept="1xMEDy" id="33ZohV4Ikj5" role="1xVPHs">
+                  <node concept="chp4Y" id="33ZohV4IklA" role="ri$Ld">
+                    <ref role="cht4Q" to="3ido:2WTnVpORIzH" resolve="StateMachine" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2qgKlT" id="33ZohV4IkLq" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="33ZohV4Ijse" role="3clF45">
+        <ref role="ehGHo" to="9u6h:9N_2qBjWdC" resolve="PlantUMLDiagram" />
+      </node>
+      <node concept="3Tm1VV" id="33ZohV4Ijsf" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="33ZohV4Ijry" role="13h7CW">
+      <node concept="3clFbS" id="33ZohV4Ijrz" role="2VODD2" />
     </node>
   </node>
 </model>

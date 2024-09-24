@@ -80,10 +80,17 @@
         <child id="3402856230705402935" name="states" index="1rOGI1" />
         <child id="3402856230705402933" name="initial" index="1rOGI3" />
       </concept>
+      <concept id="3402856230705402905" name="pedantic.structure.TerminalState" flags="ng" index="1rOGIJ" />
+      <concept id="3402856230705410214" name="pedantic.structure.Transition" flags="ng" index="1rOIWg">
+        <reference id="3402856230705417435" name="target" index="1rODdH" />
+        <reference id="3402856230705417433" name="source" index="1rODdJ" />
+      </concept>
       <concept id="3402856230704572653" name="pedantic.structure.StateMachine" flags="ng" index="1rTVtr">
         <child id="3402856230705402919" name="states" index="1rOGIh" />
+        <child id="3402856230705402915" name="terminal" index="1rOGIl" />
         <child id="3402856230705402912" name="initial" index="1rOGIm" />
         <child id="3402856230705402909" name="description" index="1rOGIF" />
+        <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
       </concept>
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
@@ -303,6 +310,14 @@
     <property role="TrG5h" value="TestStatemachine" />
     <node concept="1rTVtr" id="mQDXj0yGaS" role="1LuVN3">
       <property role="TrG5h" value="Top" />
+      <node concept="1rOIWg" id="33ZohV4BWEW" role="1rP2Rr">
+        <ref role="1rODdJ" node="mQDXj0yGaW" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="mQDXj0yGb1" resolve="FirstLevel1" />
+      </node>
+      <node concept="1rOIWg" id="33ZohV4BWEX" role="1rP2Rr">
+        <ref role="1rODdJ" node="mQDXj0yGb1" resolve="FirstLevel1" />
+        <ref role="1rODdH" node="33ZohV4BWEY" resolve="-&gt;(*)" />
+      </node>
       <node concept="1rOGIG" id="mQDXj0yGb1" role="1rOGIh">
         <property role="TrG5h" value="FirstLevel1" />
         <node concept="1rOGIG" id="mQDXj0yGbd" role="1rOGI1">
@@ -323,6 +338,18 @@
             <property role="TrG5h" value="(*)-&gt;" />
           </node>
         </node>
+        <node concept="1rOGIG" id="33ZohV4Dx6g" role="1rOGI1">
+          <property role="TrG5h" value="SecondLevel2" />
+          <node concept="1rOGIx" id="33ZohV4Dx6h" role="1rOGI3">
+            <property role="TrG5h" value="(*)-&gt;" />
+          </node>
+        </node>
+        <node concept="1rOGIG" id="33ZohV4Dx6i" role="1rOGI1">
+          <property role="TrG5h" value="SecondLevel3" />
+          <node concept="1rOGIx" id="33ZohV4Dx6j" role="1rOGI3">
+            <property role="TrG5h" value="(*)-&gt;" />
+          </node>
+        </node>
         <node concept="1rOGIx" id="mQDXj0yGb2" role="1rOGI3">
           <property role="TrG5h" value="(*)-&gt;" />
         </node>
@@ -330,6 +357,9 @@
       <node concept="3f6AUQ" id="mQDXj0yGaU" role="1rOGIF" />
       <node concept="1rOGIx" id="mQDXj0yGaW" role="1rOGIm">
         <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="33ZohV4BWEY" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
       </node>
     </node>
     <node concept="3f6AUQ" id="mQDXj0yGaP" role="1LuVN1" />
