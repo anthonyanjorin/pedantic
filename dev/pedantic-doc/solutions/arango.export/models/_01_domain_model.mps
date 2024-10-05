@@ -240,7 +240,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="5IIk38nbzsL" role="3f6AUK">
-        <property role="TrG5h" value="Arango DB" />
+        <property role="TrG5h" value="Arango DB " />
       </node>
       <node concept="3BFnmI" id="5IIk38nbzsS" role="3BFnmE">
         <node concept="3f6BbC" id="5IIk38nbzsU" role="3BFnmH">
@@ -261,7 +261,7 @@
     <node concept="3f6AUQ" id="5IIk38nbzsA" role="3f6AUR" />
   </node>
   <node concept="2fvw0S" id="uLsie9fwgR">
-    <property role="2fmTHH" value="/Users/anthonyanjorin/Downloads/pedantic-arango-export" />
+    <property role="2fmTHH" value="/Users/stefankostic/Downloads/json_files" />
   </node>
 </model>
 
