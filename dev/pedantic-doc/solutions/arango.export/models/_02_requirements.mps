@@ -17,6 +17,7 @@
         <property id="7959779354266372691" name="type" index="bZXHP" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
+        <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -131,7 +132,7 @@
           <property role="3fT77I" value="in" />
         </node>
         <node concept="3f6BbC" id="5IIk38nbzZX" role="3f6BbQ">
-          <ref role="3f6BbD" to="wjwp:5IIk38nbzsL" resolve="Arango DB" />
+          <ref role="3f6BbD" to="wjwp:5IIk38nbzsL" resolve="Arango DB " />
         </node>
         <node concept="3f6BbF" id="5IIk38nbzZu" role="3f6BbQ">
           <property role="3fT77I" value="." />
@@ -209,6 +210,7 @@
       <node concept="3f6AUX" id="5IIk38nbAcC" role="3f6AUK">
         <property role="TrG5h" value="(R1) Export Node" />
       </node>
+      <node concept="3f6AUQ" id="1MLxd2WlaRo" role="3jToc2" />
     </node>
     <node concept="3f6AUY" id="5IIk38nb$rc" role="3f6AUZ">
       <property role="bZXHP" value="5IIk38kTBl1/requirement" />
