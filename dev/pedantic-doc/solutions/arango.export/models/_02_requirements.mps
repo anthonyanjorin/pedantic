@@ -18,6 +18,7 @@
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
+        <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -26,6 +27,7 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI" />
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
@@ -53,6 +55,327 @@
   </node>
   <node concept="3UcZMl" id="5IIk38nbzQg">
     <property role="TrG5h" value="Functional Requirements" />
+    <node concept="3f6AUY" id="3wDyTgG61kC" role="3f6AUZ">
+      <node concept="3f6AUQ" id="3wDyTgG61kD" role="3f6AUE">
+        <node concept="3fT77D" id="3wDyTgG61p7" role="3f6BbQ">
+          <property role="3fT77I" value="As" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61pd" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61pq" role="3f6BbQ">
+          <property role="3fT77I" value="MPS" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61pu" role="3f6BbQ">
+          <property role="3fT77I" value="user" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61pD" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61pz" role="3f6BbQ">
+          <property role="3fT77I" value="i" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61pK" role="3f6BbQ">
+          <property role="3fT77I" value="want" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61pS" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61q1" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61qb" role="3f6BbQ">
+          <property role="3fT77I" value="able" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61qm" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61qy" role="3f6BbQ">
+          <property role="3fT77I" value="choose" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61qJ" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61qX" role="3f6BbQ">
+          <property role="3fT77I" value="arbitrary" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG625X" role="3f6BbQ">
+          <property role="3fT77I" value="MPS" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG625Y" role="3f6BbQ">
+          <property role="3fT77I" value="node" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61rs" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61sf" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG626K" role="3f6BbQ">
+          <property role="3fT77I" value="MPS" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61sx" role="3f6BbQ">
+          <property role="3fT77I" value="domain" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61sO" role="3f6BbQ">
+          <property role="3fT77I" value="model" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61uJ" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61v5" role="3f6BbQ">
+          <property role="3fT77I" value="export" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61vs" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61wa" role="3f6BbQ">
+          <property role="3fT77I" value="as" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61wy" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61wV" role="3f6BbQ">
+          <property role="3fT77I" value="Graph" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61xl" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61xK" role="3f6BbQ">
+          <property role="3fT77I" value="ArangoDB" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61yc" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61yD" role="3f6BbQ">
+          <property role="3fT77I" value="All" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61z7" role="3f6BbQ">
+          <property role="3fT77I" value="elements" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61zA" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61$6" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61$B" role="3f6BbQ">
+          <property role="3fT77I" value="node" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61_9" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61_G" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Ag" role="3f6BbQ">
+          <property role="3fT77I" value="exported" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61C2" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61AP" role="3f6BbQ">
+          <property role="3fT77I" value="together" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Br" role="3f6BbQ">
+          <property role="3fT77I" value="with" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61CE" role="3f6BbQ">
+          <property role="3fT77I" value="all" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Dj" role="3f6BbQ">
+          <property role="3fT77I" value="referenced" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61DX" role="3f6BbQ">
+          <property role="3fT77I" value="elements" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61Fk" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61EC" role="3f6BbQ">
+          <property role="3fT77I" value="which" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61G1" role="3f6BbQ">
+          <property role="3fT77I" value="might" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61GJ" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Hu" role="3f6BbQ">
+          <property role="3fT77I" value="another" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Ie" role="3f6BbQ">
+          <property role="3fT77I" value="nodes" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="3wDyTgG61kE" role="3f6AUK">
+        <property role="TrG5h" value="Export a node from domain model " />
+      </node>
+      <node concept="3f6AUX" id="3wDyTgG61p4" role="3f6AUK">
+        <property role="TrG5h" value="(R0) Export Node from domain model" />
+      </node>
+      <node concept="3f6AUQ" id="3wDyTgG61IZ" role="3jToc2">
+        <node concept="3fT77D" id="3wDyTgG61J1" role="3f6BbQ">
+          <property role="3fT77I" value="Firstly" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61J6" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61J3" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Ja" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Lk" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Js" role="3f6BbQ">
+          <property role="3fT77I" value="defined" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61J$" role="3f6BbQ">
+          <property role="3fT77I" value="when" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61JH" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Kb" role="3f6BbQ">
+          <property role="3fT77I" value="MPS" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Km" role="3f6BbQ">
+          <property role="3fT77I" value="node" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Ky" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61KJ" role="3f6BbQ">
+          <property role="3fT77I" value="have" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61LV" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3f6BbC" id="3wDyTgG61Mo" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:3wDyTgG5ZUL" resolve="Edge" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61MC" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG627z" role="3f6BbQ">
+          <property role="3fT77I" value="its" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61MS" role="3f6BbQ">
+          <property role="3fT77I" value="referenced" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61NF" role="3f6BbQ">
+          <property role="3fT77I" value="elements" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61NX" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Og" role="3f6BbQ">
+          <property role="3fT77I" value="In" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61PQ" role="3f6BbQ">
+          <property role="3fT77I" value="general" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG621K" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Qb" role="3f6BbQ">
+          <property role="3fT77I" value="this" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Qx" role="3f6BbQ">
+          <property role="3fT77I" value="definition" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61TW" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Uk" role="3f6BbQ">
+          <property role="3fT77I" value="needed" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61UH" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61WJ" role="3f6BbQ">
+          <property role="3fT77I" value="every" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Xa" role="3f6BbQ">
+          <property role="3fT77I" value="MPS" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61Zo" role="3f6BbQ">
+          <property role="3fT77I" value="model" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG61ZP" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG622I" role="3f6BbQ">
+          <property role="3fT77I" value="case" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG623e" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG623J" role="3f6BbQ">
+          <property role="3fT77I" value="export" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG624h" role="3f6BbQ">
+          <property role="3fT77I" value="its" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG624O" role="3f6BbQ">
+          <property role="3fT77I" value="MPS" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG625o" role="3f6BbQ">
+          <property role="3fT77I" value="node" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG628K" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG6289" role="3f6BbQ">
+          <property role="3fT77I" value="Therefore" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG62aF" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG629o" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62a1" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62hb" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62bm" role="3f6BbQ">
+          <property role="3fT77I" value="started" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62c2" role="3f6BbQ">
+          <property role="3fT77I" value="with" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62cJ" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62dt" role="3f6BbQ">
+          <property role="3fT77I" value="export" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62fE" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62gq" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62hX" role="3f6BbQ">
+          <property role="3fT77I" value="specific" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62iK" role="3f6BbQ">
+          <property role="3fT77I" value="model's" />
+        </node>
+        <node concept="3fT77D" id="3wDyTgG62j$" role="3f6BbQ">
+          <property role="3fT77I" value="node" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG62kp" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+    </node>
     <node concept="3f6AUY" id="5IIk38nbzQi" role="3f6AUZ">
       <property role="bZXHP" value="5IIk38kTBl1/requirement" />
       <node concept="3f6AUQ" id="5IIk38nbzQj" role="3f6AUE">
@@ -60,9 +383,12 @@
           <property role="3fT77I" value="As" />
         </node>
         <node concept="3f6BbC" id="5IIk38nbzRn" role="3f6BbQ">
-          <ref role="3f6BbD" node="5IIk38nbzQG" resolve="an MPS user" />
+          <ref role="3f6BbD" to="wjwp:5IIk38nbzP5" resolve="MPS" />
         </node>
-        <node concept="3f6BbF" id="5IIk38nbzRC" role="3f6BbQ">
+        <node concept="3fT77D" id="3wDyTgG61ey" role="3f6BbQ">
+          <property role="3fT77I" value="User" />
+        </node>
+        <node concept="3f6BbF" id="3wDyTgG61hE" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="5IIk38nbzQJ" role="3f6BbQ">
@@ -101,8 +427,8 @@
         <node concept="3fT77D" id="5IIk38nb$0O" role="3f6BbQ">
           <property role="3fT77I" value="an" />
         </node>
-        <node concept="3fT77D" id="5IIk38nbzTj" role="3f6BbQ">
-          <property role="3fT77I" value="MPS" />
+        <node concept="3f6BbC" id="3wDyTgG61it" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:5IIk38nbzP5" resolve="MPS" />
         </node>
         <node concept="3fT77D" id="5IIk38nb$1f" role="3f6BbQ">
           <property role="3fT77I" value="model" />
@@ -125,8 +451,8 @@
         <node concept="3fT77D" id="5IIk38nbzXi" role="3f6BbQ">
           <property role="3fT77I" value="a" />
         </node>
-        <node concept="3fT77D" id="5IIk38nbzXG" role="3f6BbQ">
-          <property role="3fT77I" value="graph" />
+        <node concept="3f6BbC" id="3wDyTgG61jh" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:3wDyTgG5XIT" resolve="Graph " />
         </node>
         <node concept="3fT77D" id="5IIk38nbzY7" role="3f6BbQ">
           <property role="3fT77I" value="in" />
@@ -210,7 +536,7 @@
       <node concept="3f6AUX" id="5IIk38nbAcC" role="3f6AUK">
         <property role="TrG5h" value="(R1) Export Node" />
       </node>
-      <node concept="3f6AUQ" id="1MLxd2WlaRo" role="3jToc2" />
+      <node concept="3BFnmI" id="3wDyTgG615C" role="3BFnmE" />
     </node>
     <node concept="3f6AUY" id="5IIk38nb$rc" role="3f6AUZ">
       <property role="bZXHP" value="5IIk38kTBl1/requirement" />
