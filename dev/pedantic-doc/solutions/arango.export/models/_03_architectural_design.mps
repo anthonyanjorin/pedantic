@@ -29,8 +29,8 @@
         <reference id="6606305879429250197" name="type" index="1fmyMB" />
       </concept>
       <concept id="6606305879429250202" name="pedantic.structure.Fulfillment" flags="ng" index="1fmyMC">
-        <reference id="6606305879429250226" name="sourceRequires" index="1fmyM0" />
-        <reference id="6606305879429250228" name="targetProvides" index="1fmyM6" />
+        <reference id="6606305879429250226" name="sourceProvides" index="1fmyM0" />
+        <reference id="6606305879429250228" name="targetRequires" index="1fmyM6" />
         <child id="6606305879434714103" name="interface" index="1eUoJ5" />
       </concept>
       <concept id="6606305879429250203" name="pedantic.structure.Forwarding" flags="ng" index="1fmyMD">

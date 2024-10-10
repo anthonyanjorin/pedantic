@@ -1611,7 +1611,7 @@
     <node concept="3f6AUQ" id="5IIk38nbzsA" role="3f6AUR" />
   </node>
   <node concept="2fvw0S" id="uLsie9fwgR">
-    <property role="2fmTHH" value="/Users/stefankostic/Downloads/json_files" />
+    <property role="2fmTHH" value="/Applications/Uni/Bachelorarbeit/pedantic" />
   </node>
 </model>
 
