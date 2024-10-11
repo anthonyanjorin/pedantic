@@ -12,6 +12,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="e8c53fb6-e3d1-45b8-804f-056de67b4715" name="plantuml" version="0" />
+    <use id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs" version="0" />
   </languages>
   <imports>
     <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" />
@@ -36,6 +37,12 @@
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
     </language>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="4748363379704933816" name="pedantic.structure.ShowContext" flags="ng" index="2YbbVH">
+        <child id="4748363379704933817" name="contextRefs" index="2YbbVG" />
+      </concept>
+      <concept id="4748363379704933819" name="pedantic.structure.ContextReference" flags="ng" index="2YbbVI">
+        <reference id="4748363379706040721" name="target" index="2YfSb4" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ" />
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
@@ -105,6 +112,12 @@
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
+      </concept>
+      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9">
+        <child id="7161014301864230937" name="items" index="1Xvgy8" />
+      </concept>
+      <concept id="7161014301864230953" name="pedantic.structure.TermDiagram" flags="ng" index="1XvgyS">
+        <child id="7161014301864230954" name="context" index="1XvgyV" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -363,6 +376,26 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="mQDXj0yGaP" role="1LuVN1" />
+  </node>
+  <node concept="1Xvgy9" id="33ZohV4MtS5">
+    <property role="TrG5h" value="Foo" />
+    <node concept="1XvgyS" id="33ZohV4MtS6" role="1Xvgy8">
+      <property role="TrG5h" value="foo" />
+      <node concept="2YbbVH" id="33ZohV4MtS7" role="1XvgyV">
+        <node concept="2YbbVI" id="33ZohV4MP_O" role="2YbbVG">
+          <ref role="2YfSb4" node="32uEtBjCbKH" resolve="Fluid" />
+        </node>
+        <node concept="2YbbVI" id="33ZohV4MPA1" role="2YbbVG">
+          <ref role="2YfSb4" node="32uEtBjCbKx" resolve="Heat" />
+        </node>
+        <node concept="2YbbVI" id="33ZohV4OU6K" role="2YbbVG">
+          <ref role="2YfSb4" node="32uEtBjCbKo" resolve="Residue" />
+        </node>
+        <node concept="2YbbVI" id="33ZohV4OU6S" role="2YbbVG">
+          <ref role="2YfSb4" node="32uEtBjCbKe" resolve="H20" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
