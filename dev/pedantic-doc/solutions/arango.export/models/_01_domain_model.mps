@@ -172,7 +172,7 @@
           <property role="3fT77I" value="typical" />
         </node>
         <node concept="3fT77D" id="3wDyTgG5Xcc" role="3f6BbQ">
-          <property role="3fT77I" value="examole" />
+          <property role="3fT77I" value="example" />
         </node>
         <node concept="3fT77D" id="3wDyTgG5Xcg" role="3f6BbQ">
           <property role="3fT77I" value="for" />
