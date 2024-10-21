@@ -9,9 +9,7 @@
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
-      <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
-        <child id="4928100702460203916" name="words" index="3f6BbQ" />
-      </concept>
+      <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ" />
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
         <child id="4928100702460202960" name="description" index="3f6AUE" />
@@ -22,7 +20,6 @@
       </concept>
       <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
         <child id="6606305879429250182" name="provided" index="1fmyMO" />
-        <child id="6606305879429250184" name="required" index="1fmyMU" />
       </concept>
       <concept id="6606305879429250220" name="pedantic.structure.Push" flags="ng" index="1fmyMu" />
       <concept id="6606305879429250196" name="pedantic.structure.ComponentInstance" flags="ng" index="1fmyMA">
@@ -38,7 +35,6 @@
         <child id="6606305879434714107" name="interface" index="1eUoJ9" />
       </concept>
       <concept id="6606305879429250176" name="pedantic.structure.System" flags="ng" index="1fmyMM">
-        <child id="6606305879429977748" name="description" index="1fksqA" />
         <child id="6606305879429250190" name="collaboration" index="1fmyMW" />
       </concept>
       <concept id="6606305879429250189" name="pedantic.structure.Collaboration" flags="ng" index="1fmyMZ">
@@ -96,17 +92,6 @@
       <node concept="1fmyMA" id="25VKDKDBxLG" role="1fmyM_">
         <property role="TrG5h" value="pedantic" />
         <ref role="1fmyMB" node="25VKDKDBxLI" resolve="Pedantic" />
-      </node>
-    </node>
-  </node>
-  <node concept="1fmyL8" id="25VKDKDBxJb">
-    <property role="TrG5h" value="ArangoDB" />
-    <node concept="3f6BbC" id="25VKDKDBxLv" role="1fmyMU">
-      <ref role="3f6BbD" node="25VKDKDBxLn" resolve="JSON" />
-    </node>
-    <node concept="3f6AUQ" id="25VKDKDBxMp" role="1fksqA">
-      <node concept="3f6BbC" id="25VKDKDBxMI" role="3f6BbQ">
-        <ref role="3f6BbD" to="wjwp:5IIk38nbzsL" resolve="Arango DB" />
       </node>
     </node>
   </node>
