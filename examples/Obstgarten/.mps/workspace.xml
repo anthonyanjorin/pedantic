@@ -12,194 +12,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.mps/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/Obstgarten.mpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/Language.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/behavior/BehaviorAspectDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/behavior/PathSegment__BehaviorDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/behavior/Raven__BehaviorDescriptor$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/behavior/Raven__BehaviorDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/behavior/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/constraints/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/constraints/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_EditorBuilder_a$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_SubstituteMenu$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_SubstituteMenu$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_SubstituteMenu$SMP_ReferenceScope_ed3rdk_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_SubstituteMenu$SMP_Subconcepts_ed3rdk_b.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Dice_SubstituteMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitBasket_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitBasket_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitBasket_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitBasket_EditorBuilder_a$fruitsListHandler_1ekj0p_c1a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitBasket_EditorBuilder_a$fruitsListHandler_1ekj0p_c2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitBasket_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_EditorBuilder_a$fruitsListHandler_glm1jx_c2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_EditorBuilder_a$fruitsListHandler_glm1jx_c3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/FruitTree_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Fruit_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Fruit_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$basketSingleRoleHandler_n8qp8w_j2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$basketSingleRoleHandler_n8qp8w_m2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$basketSingleRoleHandler_n8qp8w_m3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$diceSingleRoleHandler_n8qp8w_d2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$diceSingleRoleHandler_n8qp8w_f2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$diceSingleRoleHandler_n8qp8w_f3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$pathwaySingleRoleHandler_n8qp8w_n2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$pathwaySingleRoleHandler_n8qp8w_q2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$pathwaySingleRoleHandler_n8qp8w_q3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$ravenSingleRoleHandler_n8qp8w_b2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$ravenSingleRoleHandler_n8qp8w_c2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$ravenSingleRoleHandler_n8qp8w_c3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$treesListHandler_n8qp8w_f2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$treesListHandler_n8qp8w_i2a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a$treesListHandler_n8qp8w_i3a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Orchard_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/PathSegment_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/PathSegment_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/PathSegment_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/PathSegment_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Pathway_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Pathway_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Pathway_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Pathway_EditorBuilder_a$segmentsListHandler_v6f7g1_c1a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Pathway_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_Editor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_EditorBuilder_a$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_EditorBuilder_a$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_EditorBuilder_a$PROPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_EditorBuilder_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_SubstituteMenu$CONCEPTS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_SubstituteMenu$LINKS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_SubstituteMenu$SMP_ReferenceScope_fm2gqc_a.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_SubstituteMenu$SMP_Subconcepts_fm2gqc_b.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/Raven_SubstituteMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/editor/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/structure/LanguageConceptSwitch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/structure/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/structure/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/typesystem/TypesystemDescriptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/typesystem/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/classes_gen/Obstgarten/typesystem/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/classes_gen/Obstgarten/generator/Generator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/classes_gen/Obstgarten/generator/templates/QueriesGenerated.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/classes_gen/Obstgarten/generator/templates/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/classes_gen/Obstgarten/generator/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen.caches/Obstgarten/generator/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen.caches/Obstgarten/generator/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen.caches/Obstgarten/generator/templates/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen.caches/Obstgarten/generator/templates/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen.caches/deps.cp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen/Obstgarten/generator/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen/Obstgarten/generator/templates/QueriesGenerated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen/Obstgarten/generator/templates/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/source_gen/Obstgarten/generator/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/templates/Obstgarten.generator.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.typesystem.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/behavior/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/behavior/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/constraints/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/constraints/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/editor/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/editor/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/structure/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/structure/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/typesystem/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/Obstgarten/typesystem/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen.caches/deps.cp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/behavior/PathSegment__BehaviorDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/behavior/Raven__BehaviorDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/behavior/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/constraints/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/constraints/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Dice_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Dice_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Dice_SubstituteMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/FruitBasket_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/FruitBasket_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/FruitTree_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/FruitTree_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Fruit_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Fruit_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Orchard_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Orchard_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/PathSegment_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/PathSegment_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Pathway_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Pathway_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Raven_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Raven_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/Raven_SubstituteMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/editor/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/structure/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/structure/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/typesystem/TypesystemDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/typesystem/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/source_gen/Obstgarten/typesystem/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/HabaObstgarten.msd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/source_gen.caches/HabaObstgarten/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/source_gen.caches/HabaObstgarten/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/source_gen.caches/deps.cp" afterDir="false" />
-      <change beforePath="$project_home$/languages/pedantic/models/pedantic.editor.mps" beforeDir="false" afterPath="$project_home$/languages/pedantic/models/pedantic.editor.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/plantuml/models/plantuml.behavior.mps" beforeDir="false" afterPath="$project_home$/languages/plantuml/models/plantuml.behavior.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/plantuml/models/plantuml.structure.mps" beforeDir="false" afterPath="$project_home$/languages/plantuml/models/plantuml.structure.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/generator/templates/quilter.generator.templates@generator.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/generator/templates/quilter.generator.templates@generator.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.behavior.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.behavior.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.constraints.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.constraints.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.editor.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.editor.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.structure.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.structure.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/quilter.mpl" beforeDir="false" afterPath="$project_home$/languages/quilter/quilter.mpl" afterDir="false" />
-      <change beforePath="$project_home$/solutions/pedantic.build/models/pedantic.build.mps" beforeDir="false" afterPath="$project_home$/solutions/pedantic.build/models/pedantic.build.mps" afterDir="false" />
-      <change beforePath="$project_home$/solutions/pedantic.tests/models/pedantic_tests.mps" beforeDir="false" afterPath="$project_home$/solutions/pedantic.tests/models/pedantic_tests.mps" afterDir="false" />
-      <change beforePath="$project_home$/solutions/pedantic.tests/pedantic.tests.msd" beforeDir="false" afterPath="$project_home$/solutions/pedantic.tests/pedantic.tests.msd" afterDir="false" />
-    </list>
+    <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +128,7 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1" />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <subPane>
@@ -323,6 +136,17 @@
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [Obstgarten] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Obstgarten] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Obstgarten] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:2a5a5d9c-6b01-417a-a63c-5c297d4263ba(HabaObstgarten) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/Obstgarten/solutions/HabaObstgarten/models/HabaObstgarten.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
             </path>
           </expand>
           <select />
@@ -355,6 +179,11 @@
     "last_opened_file_path": "/Users/anthonyanjorin/git/pedantic/examples/Obstgarten"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -364,6 +193,15 @@
       <option name="presentableId" value="Default" />
       <updated>1729314360026</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Obstgarten example">
+      <option name="closed" value="true" />
+      <created>1730320604973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730320604973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -372,5 +210,9 @@
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Obstgarten example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Obstgarten example" />
   </component>
 </project>
