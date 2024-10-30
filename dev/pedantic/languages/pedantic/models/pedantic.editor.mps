@@ -1826,7 +1826,7 @@
         <property role="S$Qs1" value="true" />
         <node concept="VPM3Z" id="33ZohV4zfF$" role="3F10Kt" />
         <node concept="3F1sOY" id="2WTnVpOVnai" role="3EZMnx">
-          <ref role="1NtTu8" to="3ido:2WTnVpOUTgw" />
+          <ref role="1NtTu8" to="3ido:2WTnVpOUTgw" resolve="initial" />
           <node concept="pVoyu" id="2WTnVpOVnaF" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -1835,7 +1835,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="2WTnVpOVnbb" role="3EZMnx">
-          <ref role="1NtTu8" to="3ido:2WTnVpOUTgz" />
+          <ref role="1NtTu8" to="3ido:2WTnVpOUTgz" resolve="terminal" />
           <node concept="pVoyu" id="2WTnVpOVnbB" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -1844,7 +1844,7 @@
           </node>
         </node>
         <node concept="3F2HdR" id="2WTnVpOVn8o" role="3EZMnx">
-          <ref role="1NtTu8" to="3ido:2WTnVpOUTgB" />
+          <ref role="1NtTu8" to="3ido:2WTnVpOUTgB" resolve="states" />
           <node concept="2iRkQZ" id="2WTnVpOVn8p" role="2czzBx" />
           <node concept="VPM3Z" id="2WTnVpOVn8q" role="3F10Kt" />
           <node concept="pVoyu" id="2WTnVpOVn8r" role="3F10Kt">
@@ -1870,7 +1870,7 @@
         <property role="S$Qs1" value="true" />
         <node concept="VPM3Z" id="33ZohV4zfFJ" role="3F10Kt" />
         <node concept="3F2HdR" id="2WTnVpOVn8v" role="3EZMnx">
-          <ref role="1NtTu8" to="3ido:2WTnVpOVn9H" />
+          <ref role="1NtTu8" to="3ido:2WTnVpOVn9H" resolve="transitions" />
           <node concept="2iRkQZ" id="2WTnVpOVn8w" role="2czzBx" />
           <node concept="VPM3Z" id="2WTnVpOVn8x" role="3F10Kt" />
           <node concept="pVoyu" id="2WTnVpOVn8y" role="3F10Kt">

@@ -428,7 +428,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="33ZohV4i_jw" role="3MwsjC">
-          <property role="3MwjfP" value="6.0.2" />
+          <property role="3MwjfP" value="6.0.3" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -729,6 +729,78 @@
             <node concept="3qWCbU" id="7up8nGA_kCR" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="7BVCYER7mgq" role="2G$12L">
+        <property role="TrG5h" value="quilter" />
+        <property role="BnDLt" value="true" />
+        <property role="3LESm3" value="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" />
+        <node concept="55IIr" id="7BVCYER7mgt" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7BVCYER7mkg" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="7BVCYER7mmN" role="2Ry0An">
+              <property role="2Ry0Am" value="quilter" />
+              <node concept="2Ry0Ak" id="7BVCYER7mpm" role="2Ry0An">
+                <property role="2Ry0Am" value="quilter.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mtj" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYER7mtk" role="1SiIV1">
+            <ref role="3bR37D" node="5Q23RPTxrzn" resolve="pedantic" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mtl" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYER7mtm" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mtn" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYER7mto" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mtp" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYER7mtq" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mtr" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYER7mts" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8q" resolve="jetbrains.mps.lang.pattern" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="7BVCYER7mtx" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7BVCYER7mty" role="1HemKq">
+            <node concept="55IIr" id="7BVCYER7mtt" role="3LXTmr">
+              <node concept="2Ry0Ak" id="7BVCYER7mtu" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7BVCYER7mtv" role="2Ry0An">
+                  <property role="2Ry0Am" value="quilter" />
+                  <node concept="2Ry0Ak" id="7BVCYER7mtw" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7BVCYER7mtz" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mt$" role="3bR37C">
+          <node concept="1Busua" id="7BVCYER7mt_" role="1SiIV1">
+            <ref role="1Busuk" node="5Q23RPTxrzt" resolve="plantuml" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYER7mtA" role="3bR37C">
+          <node concept="1Busua" id="7BVCYER7mtB" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6L8q" resolve="jetbrains.mps.lang.pattern" />
           </node>
         </node>
       </node>

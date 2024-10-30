@@ -511,5 +511,11 @@
       <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7BVCYEQB0s$">
+    <property role="EcuMT" value="8789799326225008420" />
+    <property role="3GE5qa" value="Metamodel.ClassDiagram" />
+    <property role="TrG5h" value="PlantUMLEmptyClassDiagram" />
+    <ref role="1TJDcQ" node="5RN9bdX7s99" resolve="PlantUMLClassDiagram" />
+  </node>
 </model>
 

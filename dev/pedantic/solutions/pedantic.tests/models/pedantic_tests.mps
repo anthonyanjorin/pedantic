@@ -13,36 +13,13 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="e8c53fb6-e3d1-45b8-804f-056de67b4715" name="plantuml" version="0" />
     <use id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs" version="0" />
+    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
   </languages>
   <imports>
-    <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" />
+    <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
   </imports>
   <registry>
-    <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
-      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
-        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
-      </concept>
-      <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
-        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
-        <child id="1217501895093" name="testMethods" index="1SL9yI" />
-      </concept>
-      <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
-    </language>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
-        <child id="1068580123133" name="returnType" index="3clF45" />
-        <child id="1068580123135" name="body" index="3clF47" />
-      </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
-      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-    </language>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
-      <concept id="4748363379704933816" name="pedantic.structure.ShowContext" flags="ng" index="2YbbVH">
-        <child id="4748363379704933817" name="contextRefs" index="2YbbVG" />
-      </concept>
-      <concept id="4748363379704933819" name="pedantic.structure.ContextReference" flags="ng" index="2YbbVI">
-        <reference id="4748363379706040721" name="target" index="2YfSb4" />
-      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ" />
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
@@ -82,42 +59,15 @@
         <child id="6606305879429250199" name="instances" index="1fmyM_" />
         <child id="6606305879429250207" name="fulfillments" index="1fmyMH" />
       </concept>
-      <concept id="3402856230705402903" name="pedantic.structure.InitialState" flags="ng" index="1rOGIx" />
-      <concept id="3402856230705402906" name="pedantic.structure.CompositeState" flags="ng" index="1rOGIG">
-        <child id="3402856230705402935" name="states" index="1rOGI1" />
-        <child id="3402856230705402933" name="initial" index="1rOGI3" />
-      </concept>
-      <concept id="3402856230705402905" name="pedantic.structure.TerminalState" flags="ng" index="1rOGIJ" />
-      <concept id="3402856230705410214" name="pedantic.structure.Transition" flags="ng" index="1rOIWg">
-        <reference id="3402856230705417435" name="target" index="1rODdH" />
-        <reference id="3402856230705417433" name="source" index="1rODdJ" />
-      </concept>
-      <concept id="3402856230704572653" name="pedantic.structure.StateMachine" flags="ng" index="1rTVtr">
-        <child id="3402856230705402919" name="states" index="1rOGIh" />
-        <child id="3402856230705402915" name="terminal" index="1rOGIl" />
-        <child id="3402856230705402912" name="initial" index="1rOGIm" />
-        <child id="3402856230705402909" name="description" index="1rOGIF" />
-        <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
-      </concept>
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
         <child id="3889923412177894678" name="supers" index="3BFnmH" />
       </concept>
-      <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
-        <child id="579219467669762504" name="description" index="1LuVN1" />
-        <child id="579219467669762506" name="behaviours" index="1LuVN3" />
-      </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
-      </concept>
-      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9">
-        <child id="7161014301864230937" name="items" index="1Xvgy8" />
-      </concept>
-      <concept id="7161014301864230953" name="pedantic.structure.TermDiagram" flags="ng" index="1XvgyS">
-        <child id="7161014301864230954" name="context" index="1XvgyV" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -128,19 +78,25 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
+      <concept id="8789799326224677412" name="quilter.structure.ParentVariable" flags="ng" index="3frlBe" />
+      <concept id="8789799326224677413" name="quilter.structure.ChildrenVariable" flags="ng" index="3frlBf" />
+      <concept id="1340109089921503716" name="quilter.structure.LinkVariable" flags="ng" index="3F$xvT">
+        <reference id="1340109089921504582" name="target" index="3F$xdr" />
+        <reference id="1340109089921504630" name="type" index="3F$xdF" />
+      </concept>
+      <concept id="1340109089921503713" name="quilter.structure.ObjectVariable" flags="ng" index="3F$xvW">
+        <reference id="1340109089921504584" name="type" index="3F$xdl" />
+        <child id="1340109089921503721" name="linkVariables" index="3F$xvO" />
+      </concept>
+      <concept id="1340109089921471067" name="quilter.structure.Quilt" flags="ng" index="3F$Th6">
+        <child id="1340109089921471075" name="patterns" index="3F$ThY" />
+      </concept>
+      <concept id="1340109089921471072" name="quilter.structure.Pattern" flags="ng" index="3F$ThX">
+        <child id="1340109089921503719" name="objectVariables" index="3F$xvU" />
+      </concept>
+    </language>
   </registry>
-  <node concept="1lH9Xt" id="4DaF$HQDDNA">
-    <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="TrG5h" value="ComponentVisualisation" />
-    <node concept="1LZb2c" id="4DaF$HQDDOh" role="1SL9yI">
-      <property role="TrG5h" value="vis" />
-      <node concept="3cqZAl" id="4DaF$HQDDOi" role="3clF45" />
-      <node concept="3clFbS" id="4DaF$HQDDOm" role="3clF47" />
-    </node>
-  </node>
-  <node concept="2XOHcx" id="4DaF$HQE1Up">
-    <property role="2XOHcw" value="${project_home}" />
-  </node>
   <node concept="1fmyL8" id="32uEtBj4ZDH">
     <property role="TrG5h" value="Distiller" />
     <property role="3GE5qa" value="Distilling Example" />
@@ -319,80 +275,90 @@
     </node>
     <node concept="3f6AUQ" id="32uEtBjCbtS" role="3f6AUR" />
   </node>
-  <node concept="1Lr20E" id="mQDXj0yGaO">
-    <property role="TrG5h" value="TestStatemachine" />
-    <node concept="1rTVtr" id="mQDXj0yGaS" role="1LuVN3">
-      <property role="TrG5h" value="Top" />
-      <node concept="1rOIWg" id="33ZohV4BWEW" role="1rP2Rr">
-        <ref role="1rODdJ" node="mQDXj0yGaW" resolve="(*)-&gt;" />
-        <ref role="1rODdH" node="mQDXj0yGb1" resolve="FirstLevel1" />
-      </node>
-      <node concept="1rOIWg" id="33ZohV4BWEX" role="1rP2Rr">
-        <ref role="1rODdJ" node="mQDXj0yGb1" resolve="FirstLevel1" />
-        <ref role="1rODdH" node="33ZohV4BWEY" resolve="-&gt;(*)" />
-      </node>
-      <node concept="1rOGIG" id="mQDXj0yGb1" role="1rOGIh">
-        <property role="TrG5h" value="FirstLevel1" />
-        <node concept="1rOGIG" id="mQDXj0yGbd" role="1rOGI1">
-          <property role="TrG5h" value="SecondLevel1" />
-          <node concept="1rOGIG" id="mQDXj0yGbh" role="1rOGI1">
-            <property role="TrG5h" value="ThirdLevel1" />
-            <node concept="1rOGIG" id="mQDXj0_4eM" role="1rOGI1">
-              <property role="TrG5h" value="FourthLevel1" />
-              <node concept="1rOGIx" id="mQDXj0_4eN" role="1rOGI3">
-                <property role="TrG5h" value="(*)-&gt;" />
-              </node>
-            </node>
-            <node concept="1rOGIx" id="mQDXj0yGbi" role="1rOGI3">
-              <property role="TrG5h" value="(*)-&gt;" />
-            </node>
-          </node>
-          <node concept="1rOGIx" id="mQDXj0yGbe" role="1rOGI3">
-            <property role="TrG5h" value="(*)-&gt;" />
-          </node>
-        </node>
-        <node concept="1rOGIG" id="33ZohV4Dx6g" role="1rOGI1">
-          <property role="TrG5h" value="SecondLevel2" />
-          <node concept="1rOGIx" id="33ZohV4Dx6h" role="1rOGI3">
-            <property role="TrG5h" value="(*)-&gt;" />
-          </node>
-        </node>
-        <node concept="1rOGIG" id="33ZohV4Dx6i" role="1rOGI1">
-          <property role="TrG5h" value="SecondLevel3" />
-          <node concept="1rOGIx" id="33ZohV4Dx6j" role="1rOGI3">
-            <property role="TrG5h" value="(*)-&gt;" />
-          </node>
-        </node>
-        <node concept="1rOGIx" id="mQDXj0yGb2" role="1rOGI3">
-          <property role="TrG5h" value="(*)-&gt;" />
+  <node concept="3F$Th6" id="7BVCYEQx818">
+    <property role="TrG5h" value="PedanticQuilts" />
+    <property role="3GE5qa" value="Quilter" />
+    <node concept="3F$ThX" id="7BVCYEQx81T" role="3F$ThY">
+      <property role="TrG5h" value="RelatedTerms" />
+      <node concept="3F$xvW" id="7BVCYEQx81U" role="3F$xvU">
+        <property role="TrG5h" value="oneTerm" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Z4" resolve="Term" />
+        <node concept="3F$xvT" id="7BVCYEQx81W" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="7BVCYEQx81V" resolve="desc" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv$Zg" resolve="description" />
         </node>
       </node>
-      <node concept="3f6AUQ" id="mQDXj0yGaU" role="1rOGIF" />
-      <node concept="1rOGIx" id="mQDXj0yGaW" role="1rOGIm">
-        <property role="TrG5h" value="(*)-&gt;" />
+      <node concept="3F$xvW" id="7BVCYEQx81V" role="3F$xvU">
+        <property role="TrG5h" value="desc" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Zc" resolve="Description" />
+        <node concept="3F$xvT" id="7BVCYEQyNwp" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="7BVCYEQxUt8" resolve="tf" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ec" resolve="words" />
+        </node>
       </node>
-      <node concept="1rOGIJ" id="33ZohV4BWEY" role="1rOGIl">
-        <property role="TrG5h" value="-&gt;(*)" />
+      <node concept="3F$xvW" id="7BVCYEQxUt8" role="3F$xvU">
+        <property role="TrG5h" value="tf" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv_ei" resolve="TermReference" />
+        <node concept="3F$xvT" id="7BVCYEQyPBf" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" resolve="target" />
+          <ref role="3F$xdr" node="7BVCYEQxUtX" resolve="label" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="7BVCYEQxUtX" role="3F$xvU">
+        <property role="TrG5h" value="label" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Z7" resolve="Label" />
+        <node concept="3frlBe" id="7BVCYER04CU" role="3F$xvO">
+          <property role="TrG5h" value="parent" />
+          <ref role="3F$xdr" node="7BVCYEQxUtY" resolve="otherTerm" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="7BVCYEQxUtY" role="3F$xvU">
+        <property role="TrG5h" value="otherTerm" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Z4" resolve="Term" />
       </node>
     </node>
-    <node concept="3f6AUQ" id="mQDXj0yGaP" role="1LuVN1" />
-  </node>
-  <node concept="1Xvgy9" id="33ZohV4MtS5">
-    <property role="TrG5h" value="Foo" />
-    <node concept="1XvgyS" id="33ZohV4MtS6" role="1Xvgy8">
-      <property role="TrG5h" value="foo" />
-      <node concept="2YbbVH" id="33ZohV4MtS7" role="1XvgyV">
-        <node concept="2YbbVI" id="33ZohV4MP_O" role="2YbbVG">
-          <ref role="2YfSb4" node="32uEtBjCbKH" resolve="Fluid" />
+    <node concept="3F$ThX" id="7BVCYEQyPC7" role="3F$ThY">
+      <property role="TrG5h" value="SubTerms" />
+      <node concept="3F$xvW" id="7BVCYEQyPC8" role="3F$xvU">
+        <property role="TrG5h" value="term" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Z4" resolve="Term" />
+        <node concept="3F$xvT" id="7BVCYEQyPC9" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="3ido:3nVMbJilFOh" resolve="formalisation" />
+          <ref role="3F$xdr" node="7BVCYEQz0Vl" resolve="fm" />
         </node>
-        <node concept="2YbbVI" id="33ZohV4MPA1" role="2YbbVG">
-          <ref role="2YfSb4" node="32uEtBjCbKx" resolve="Heat" />
+      </node>
+      <node concept="3F$xvW" id="7BVCYEQz0Vl" role="3F$xvU">
+        <property role="TrG5h" value="fm" />
+        <ref role="3F$xdl" to="3ido:3nVMbJilFOl" resolve="FormalRelations" />
+        <node concept="3F$xvT" id="7BVCYEQz0Vm" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="3ido:3nVMbJilFOo" resolve="subs" />
+          <ref role="3F$xdr" node="7BVCYEQ_JCu" resolve="tf" />
         </node>
-        <node concept="2YbbVI" id="33ZohV4OU6K" role="2YbbVG">
-          <ref role="2YfSb4" node="32uEtBjCbKo" resolve="Residue" />
+      </node>
+      <node concept="3F$xvW" id="7BVCYEQ_JCu" role="3F$xvU">
+        <property role="TrG5h" value="tf" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv_ei" resolve="TermReference" />
+        <node concept="3F$xvT" id="7BVCYEQ_JCw" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" resolve="target" />
+          <ref role="3F$xdr" node="7BVCYEQ_JCx" resolve="l" />
         </node>
-        <node concept="2YbbVI" id="33ZohV4OU6S" role="2YbbVG">
-          <ref role="2YfSb4" node="32uEtBjCbKe" resolve="H20" />
+      </node>
+      <node concept="3F$xvW" id="7BVCYEQ_JCx" role="3F$xvU">
+        <property role="TrG5h" value="l" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Z7" resolve="Label" />
+      </node>
+      <node concept="3F$xvW" id="7BVCYEQ_JCv" role="3F$xvU">
+        <property role="TrG5h" value="subTerm" />
+        <ref role="3F$xdl" to="3ido:4h$8nEbv$Z4" resolve="Term" />
+        <node concept="3frlBf" id="7BVCYEQVDNh" role="3F$xvO">
+          <property role="TrG5h" value="child" />
+          <ref role="3F$xdr" node="7BVCYEQ_JCx" resolve="l" />
         </node>
       </node>
     </node>

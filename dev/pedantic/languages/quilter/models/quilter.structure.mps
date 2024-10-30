@@ -6,6 +6,8 @@
   </languages>
   <imports>
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
+    <import index="tp3t" ref="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -33,6 +35,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -48,7 +53,7 @@
     <node concept="1TJgyj" id="1ap1xRT2D9z" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921471075" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="quilts" />
+      <property role="20kJfa" value="patterns" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
     </node>
@@ -72,6 +77,9 @@
     <node concept="PrWs8" id="1ap1xRT2D9x" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="7BVCYEQSJ9t" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1ap1xRT2L7x">
     <property role="EcuMT" value="1340109089921503713" />
@@ -90,14 +98,18 @@
       <property role="20kJfa" value="type" />
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
-    <node concept="PrWs8" id="1ap1xRT2L7y" role="PzmwI">
+    <node concept="PrWs8" id="7BVCYEQEEox" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1ap1xRT2L7y" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="1ap1xRT2L7$">
     <property role="EcuMT" value="1340109089921503716" />
     <property role="TrG5h" value="LinkVariable" />
-    <property role="34LRSv" value="lv" />
+    <property role="34LRSv" value="link" />
+    <property role="3GE5qa" value="links" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1ap1xRT2Ll6" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921504582" />
@@ -113,6 +125,20 @@
     <node concept="PrWs8" id="1ap1xRT2L7_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7BVCYEQ_JC$">
+    <property role="EcuMT" value="8789799326224677412" />
+    <property role="TrG5h" value="ParentVariable" />
+    <property role="34LRSv" value="parent" />
+    <property role="3GE5qa" value="links" />
+    <ref role="1TJDcQ" node="1ap1xRT2L7$" resolve="LinkVariable" />
+  </node>
+  <node concept="1TIwiD" id="7BVCYEQ_JC_">
+    <property role="EcuMT" value="8789799326224677413" />
+    <property role="TrG5h" value="ChildrenVariable" />
+    <property role="34LRSv" value="child" />
+    <property role="3GE5qa" value="links" />
+    <ref role="1TJDcQ" node="1ap1xRT2L7$" resolve="LinkVariable" />
   </node>
 </model>
 

@@ -15237,5 +15237,23 @@
       <node concept="3clFbS" id="5IIk38mmPcS" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="7BVCYEQB0s_">
+    <property role="3GE5qa" value="Metamodel.ClassDiagram" />
+    <ref role="13h7C2" to="9u6h:7BVCYEQB0s$" resolve="PlantUMLEmptyClassDiagram" />
+    <node concept="13i0hz" id="7BVCYEQB0BU" role="13h7CS">
+      <property role="TrG5h" value="isEmpty" />
+      <ref role="13i0hy" node="9N_2qHyt8a" resolve="isEmpty" />
+      <node concept="3Tm1VV" id="7BVCYEQB0BV" role="1B3o_S" />
+      <node concept="3clFbS" id="7BVCYEQB0BW" role="3clF47">
+        <node concept="3clFbF" id="7BVCYEQBcQB" role="3cqZAp">
+          <node concept="3clFbT" id="7BVCYEQBcQY" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="10P_77" id="7BVCYEQB0C5" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="7BVCYEQB0sA" role="13h7CW">
+      <node concept="3clFbS" id="7BVCYEQB0sB" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
