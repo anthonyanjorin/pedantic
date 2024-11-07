@@ -2929,6 +2929,631 @@
         <property role="TrG5h" value="JSON " />
       </node>
     </node>
+    <node concept="3f6AUY" id="Sv$7iJa0T$" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa0T_" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa0TD" role="3f6BbQ">
+          <property role="3fT77I" value="Python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TE" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TF" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TG" role="3f6BbQ">
+          <property role="3fT77I" value="versatile" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Uj" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TH" role="3f6BbQ">
+          <property role="3fT77I" value="high-level" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TI" role="3f6BbQ">
+          <property role="3fT77I" value="programming" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TJ" role="3f6BbQ">
+          <property role="3fT77I" value="language" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TK" role="3f6BbQ">
+          <property role="3fT77I" value="known" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TL" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TM" role="3f6BbQ">
+          <property role="3fT77I" value="its" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TN" role="3f6BbQ">
+          <property role="3fT77I" value="readability" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TO" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TP" role="3f6BbQ">
+          <property role="3fT77I" value="simplicity" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Ui" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TQ" role="3f6BbQ">
+          <property role="3fT77I" value="making" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TR" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TS" role="3f6BbQ">
+          <property role="3fT77I" value="great" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TT" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TU" role="3f6BbQ">
+          <property role="3fT77I" value="both" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TV" role="3f6BbQ">
+          <property role="3fT77I" value="beginners" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TW" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TX" role="3f6BbQ">
+          <property role="3fT77I" value="experts" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Up" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TY" role="3f6BbQ">
+          <property role="3fT77I" value="It" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0TZ" role="3f6BbQ">
+          <property role="3fT77I" value="supports" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U0" role="3f6BbQ">
+          <property role="3fT77I" value="multiple" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U1" role="3f6BbQ">
+          <property role="3fT77I" value="programming" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U2" role="3f6BbQ">
+          <property role="3fT77I" value="paradigms" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Um" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U3" role="3f6BbQ">
+          <property role="3fT77I" value="including" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U4" role="3f6BbQ">
+          <property role="3fT77I" value="procedural" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Ul" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U5" role="3f6BbQ">
+          <property role="3fT77I" value="object-oriented" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Un" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U6" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U7" role="3f6BbQ">
+          <property role="3fT77I" value="functional" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U8" role="3f6BbQ">
+          <property role="3fT77I" value="programming" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Uk" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U9" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Ua" role="3f6BbQ">
+          <property role="3fT77I" value="has" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Ub" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Uc" role="3f6BbQ">
+          <property role="3fT77I" value="vast" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Ud" role="3f6BbQ">
+          <property role="3fT77I" value="ecosystem" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Ue" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Uf" role="3f6BbQ">
+          <property role="3fT77I" value="libraries" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Ug" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Uh" role="3f6BbQ">
+          <property role="3fT77I" value="frameworks" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Uo" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0TA" role="3f6AUK">
+        <property role="TrG5h" value="Python" />
+      </node>
+      <node concept="3BFnmI" id="Sv$7iJa0Vw" role="3BFnmE" />
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa0Ur" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa0Us" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa0Uw" role="3f6BbQ">
+          <property role="3fT77I" value="A" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Ux" role="3f6BbQ">
+          <property role="3fT77I" value="Python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Uy" role="3f6BbQ">
+          <property role="3fT77I" value="script" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Uz" role="3f6BbQ">
+          <property role="3fT77I" value="or" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U$" role="3f6BbQ">
+          <property role="3fT77I" value="program" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0U_" role="3f6BbQ">
+          <property role="3fT77I" value="refers" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UA" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UB" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UC" role="3f6BbQ">
+          <property role="3fT77I" value="file" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UD" role="3f6BbQ">
+          <property role="3fT77I" value="that" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UE" role="3f6BbQ">
+          <property role="3fT77I" value="contains" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UF" role="3f6BbQ">
+          <property role="3fT77I" value="executable" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UG" role="3f6BbQ">
+          <property role="3fT77I" value="code" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UH" role="3f6BbQ">
+          <property role="3fT77I" value="written" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UI" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Y1" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0TA" resolve="Python" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0V3" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UK" role="3f6BbQ">
+          <property role="3fT77I" value="The" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UL" role="3f6BbQ">
+          <property role="3fT77I" value="ability" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UM" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UN" role="3f6BbQ">
+          <property role="3fT77I" value="execute" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UO" role="3f6BbQ">
+          <property role="3fT77I" value="python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Y3" role="3f6BbQ">
+          <property role="3fT77I" value="script" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UQ" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UR" role="3f6BbQ">
+          <property role="3fT77I" value="code" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0US" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UT" role="3f6BbQ">
+          <property role="3fT77I" value="arguably" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UU" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UV" role="3f6BbQ">
+          <property role="3fT77I" value="most" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UW" role="3f6BbQ">
+          <property role="3fT77I" value="essential" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UX" role="3f6BbQ">
+          <property role="3fT77I" value="skill" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UY" role="3f6BbQ">
+          <property role="3fT77I" value="required" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0UZ" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0V0" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0V1" role="3f6BbQ">
+          <property role="3fT77I" value="Python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Y4" role="3f6BbQ">
+          <property role="3fT77I" value="-" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Y5" role="3f6BbQ">
+          <property role="3fT77I" value="developer" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0V4" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0Ut" role="3f6AUK">
+        <property role="TrG5h" value="Python Script " />
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0Uu" role="3f6AUK">
+        <property role="TrG5h" value="Python Program" />
+      </node>
+      <node concept="3BFnmI" id="Sv$7iJa0V5" role="3BFnmE">
+        <node concept="3BFnma" id="Sv$7iJa0WR" role="3BFnm$">
+          <node concept="3f6BbC" id="Sv$7iJa0WS" role="3BFnmc">
+            <ref role="3f6BbD" node="Sv$7iJa0TA" resolve="Python" />
+          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa0WT" role="ba9K_">
+            <node concept="3fT77D" id="Sv$7iJa0WU" role="3f6BbQ">
+              <property role="3fT77I" value="generates" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa0Xc" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa0Xd" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa0Xh" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xi" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xk" role="3f6BbQ">
+          <property role="3fT77I" value="instance" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xm" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xn" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Xp" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0Ut" resolve="Python Sctipt " />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xr" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xs" role="3f6BbQ">
+          <property role="3fT77I" value="defines" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xt" role="3f6BbQ">
+          <property role="3fT77I" value="important" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xu" role="3f6BbQ">
+          <property role="3fT77I" value="functions" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xw" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xx" role="3f6BbQ">
+          <property role="3fT77I" value="guarantee" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xy" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Xz" role="3f6BbQ">
+          <property role="3fT77I" value="interaction" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0X$" role="3f6BbQ">
+          <property role="3fT77I" value="between" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0XB" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0TA" resolve="Python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0XD" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0XF" role="3f6BbQ">
+          <ref role="3f6BbD" node="5IIk38nbzsL" resolve="ArangoDB " />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0Xe" role="3f6AUK">
+        <property role="TrG5h" value="ArangoDBControlFunctions.py" />
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0XJ" role="3f6AUK">
+        <property role="TrG5h" value="ArangoControlFunctions" />
+      </node>
+      <node concept="3BFnmI" id="Sv$7iJa0Z4" role="3BFnmE">
+        <node concept="3BFnma" id="Sv$7iJa0Z9" role="3BFnmw">
+          <property role="3BFnm2" value="1" />
+          <property role="3BFnm6" value="1" />
+          <node concept="3f6BbC" id="Sv$7iJa0Za" role="3BFnmc">
+            <ref role="3f6BbD" node="Sv$7iJa0Y9" resolve="document_adder()" />
+          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa0Zb" role="ba9K_">
+            <node concept="3fT77D" id="Sv$7iJa0Zc" role="3f6BbQ">
+              <property role="3fT77I" value="contains" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="Sv$7iJa0ZV" role="3jToc2">
+        <node concept="3fT77D" id="Sv$7iJa0ZW" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZX" role="3f6BbQ">
+          <property role="3fT77I" value="crosses" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZY" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa100" role="3f6BbQ">
+          <property role="3fT77I" value="interface" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa101" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa103" role="3f6BbQ">
+          <ref role="3f6BbD" node="5IIk38nbzsL" resolve="ArangoDB " />
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa0Y7" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa0Y8" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa0Ye" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yf" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Yh" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0TA" resolve="Python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yj" role="3f6BbQ">
+          <property role="3fT77I" value="function" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yk" role="3f6BbQ">
+          <property role="3fT77I" value="within" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yl" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Yo" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0Ut" resolve="Python Sctipt " />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Ys" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0Xe" resolve="ArangoDBControlFunctions.py" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yu" role="3f6BbQ" />
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0Y9" role="3f6AUK">
+        <property role="TrG5h" value="document_adder()" />
+      </node>
+      <node concept="3BFnmI" id="Sv$7iJa0Yc" role="3BFnmE">
+        <node concept="3BFnma" id="Sv$7iJa0YS" role="3BFnmh">
+          <property role="3BFnm2" value="0" />
+          <property role="3BFnm9" value="1" />
+          <property role="3BFnmf" value="1" />
+          <node concept="3f6BbC" id="Sv$7iJa0YT" role="3BFnmc">
+            <ref role="3f6BbD" node="Sv$7iJa0Fk" resolve="JSON " />
+          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa0YU" role="ba9K_">
+            <node concept="3fT77D" id="Sv$7iJa0YV" role="3f6BbQ">
+              <property role="3fT77I" value="reads" />
+            </node>
+            <node concept="3fT77D" id="Sv$7iJa0YW" role="3f6BbQ">
+              <property role="3fT77I" value="from" />
+            </node>
+          </node>
+        </node>
+        <node concept="3BFnma" id="Sv$7iJa0YX" role="3BFnmh">
+          <node concept="3f6BbC" id="Sv$7iJa0YY" role="3BFnmc">
+            <ref role="3f6BbD" node="3wDyTgG5Wth" resolve="Collection" />
+          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa0YZ" role="ba9K_">
+            <node concept="3fT77D" id="Sv$7iJa0Z0" role="3f6BbQ">
+              <property role="3fT77I" value="exports" />
+            </node>
+            <node concept="3fT77D" id="Sv$7iJa0Z1" role="3f6BbQ">
+              <property role="3fT77I" value="JSON" />
+            </node>
+            <node concept="3fT77D" id="Sv$7iJa0Z3" role="3f6BbQ">
+              <property role="3fT77I" value="file" />
+            </node>
+            <node concept="3fT77D" id="Sv$7iJa0Z2" role="3f6BbQ">
+              <property role="3fT77I" value="to" />
+            </node>
+          </node>
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Yd" role="3BFnmH">
+          <ref role="3f6BbD" node="Sv$7iJa0XJ" resolve="ArangoControlFunctions" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="Sv$7iJa0Yv" role="3jToc2">
+        <node concept="3fT77D" id="Sv$7iJa0Yw" role="3f6BbQ">
+          <property role="3fT77I" value="This" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yx" role="3f6BbQ">
+          <property role="3fT77I" value="function" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yy" role="3f6BbQ">
+          <property role="3fT77I" value="reads" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Yz" role="3f6BbQ">
+          <property role="3fT77I" value="from" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Y$" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0YA" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0Fj" resolve="JSON File " />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YC" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YD" role="3f6BbQ">
+          <property role="3fT77I" value="exports" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YE" role="3f6BbQ">
+          <property role="3fT77I" value="their" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YR" role="3f6BbQ">
+          <property role="3fT77I" value="contents" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YF" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YG" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0YI" role="3f6BbQ">
+          <ref role="3f6BbD" node="3wDyTgG5Wth" resolve="Collection" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YK" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YL" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0YQ" role="3f6BbQ">
+          <property role="3fT77I" value="existing" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0YN" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJ9ZEi" resolve="ArangoDB Database" />
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa0Ze" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa0Zf" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa0Zk" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zl" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zm" role="3f6BbQ">
+          <property role="3fT77I" value="GUI" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zn" role="3f6BbQ">
+          <property role="3fT77I" value="written" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zo" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0Zq" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0TA" resolve="Python" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zs" role="3f6BbQ">
+          <property role="3fT77I" value="using" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zt" role="3f6BbQ">
+          <property role="3fT77I" value="PyQt5" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zu" role="3f6BbQ">
+          <property role="3fT77I" value="package" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa0Zv" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa0Zg" role="3f6AUK">
+        <property role="TrG5h" value="Arango Remote GUI" />
+      </node>
+      <node concept="3f6AUQ" id="Sv$7iJa0Zw" role="3jToc2">
+        <node concept="3fT77D" id="Sv$7iJa0Zx" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zy" role="3f6BbQ">
+          <property role="3fT77I" value="imports" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Zz" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0Z$" role="3f6BbQ">
+          <property role="3fT77I" value="whole" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0ZA" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0Ut" resolve="Python Script " />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa0ZE" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa0Xe" resolve="ArangoDBControlFunctions.py" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZG" role="3f6BbQ">
+          <property role="3fT77I" value="making" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZI" role="3f6BbQ">
+          <property role="3fT77I" value="use" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZJ" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZK" role="3f6BbQ">
+          <property role="3fT77I" value="its" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa0ZL" role="3f6BbQ">
+          <property role="3fT77I" value="functions" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa106" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa107" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa10a" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa10b" role="3f6BbQ">
+          <property role="3fT77I" value="option" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa10c" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa10d" role="3f6BbQ">
+          <property role="3fT77I" value="efficiently" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa10e" role="3f6BbQ">
+          <property role="3fT77I" value="interarct" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa10f" role="3f6BbQ">
+          <property role="3fT77I" value="with" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa10i" role="3f6BbQ">
+          <ref role="3f6BbD" node="5IIk38nbzsL" resolve="ArangoDB " />
+        </node>
+      </node>
+      <node concept="3BFnmI" id="Sv$7iJa12c" role="3BFnmE">
+        <node concept="3BFnma" id="Sv$7iJa12d" role="3BFnmw">
+          <node concept="3f6BbC" id="Sv$7iJa12e" role="3BFnmc">
+            <ref role="3f6BbD" node="Sv$7iJa0Xe" resolve="ArangoDBControlFunctions.py" />
+          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa12f" role="ba9K_">
+            <node concept="3fT77D" id="Sv$7iJa12g" role="3f6BbQ">
+              <property role="3fT77I" value="imports" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3f6AUQ" id="5IIk38nbzsA" role="3f6AUR" />
   </node>
   <node concept="2fvw0S" id="uLsie9fwgR">
