@@ -15,32 +15,28 @@
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
       </concept>
-      <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
-        <reference id="4928100702460203923" name="target" index="3f6BbD" />
-      </concept>
       <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
         <child id="6606305879429250182" name="provided" index="1fmyMO" />
+        <child id="6606305879429250184" name="required" index="1fmyMU" />
       </concept>
-      <concept id="6606305879429250220" name="pedantic.structure.Push" flags="ng" index="1fmyMu" />
       <concept id="6606305879429250196" name="pedantic.structure.ComponentInstance" flags="ng" index="1fmyMA">
         <reference id="6606305879429250197" name="type" index="1fmyMB" />
       </concept>
       <concept id="6606305879429250202" name="pedantic.structure.Fulfillment" flags="ng" index="1fmyMC">
         <reference id="6606305879429250226" name="sourceProvides" index="1fmyM0" />
         <reference id="6606305879429250228" name="targetRequires" index="1fmyM6" />
-        <child id="6606305879434714103" name="interface" index="1eUoJ5" />
-      </concept>
-      <concept id="6606305879429250203" name="pedantic.structure.Forwarding" flags="ng" index="1fmyMD">
-        <reference id="6606305879429250221" name="source" index="1fmyMv" />
-        <child id="6606305879434714107" name="interface" index="1eUoJ9" />
+        <reference id="3503424313156701904" name="providedInterface" index="3zGEs9" />
+        <reference id="3503424313156701900" name="requiredInterface" index="3zGEsl" />
       </concept>
       <concept id="6606305879429250176" name="pedantic.structure.System" flags="ng" index="1fmyMM">
         <child id="6606305879429250190" name="collaboration" index="1fmyMW" />
       </concept>
       <concept id="6606305879429250189" name="pedantic.structure.Collaboration" flags="ng" index="1fmyMZ">
-        <child id="6606305879440984366" name="pushes" index="1e2t$s" />
         <child id="6606305879429250199" name="instances" index="1fmyM_" />
         <child id="6606305879429250207" name="fulfillments" index="1fmyMH" />
+      </concept>
+      <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
+        <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -57,41 +53,61 @@
     </language>
   </registry>
   <node concept="1fmyMM" id="25VKDKDBxJ2">
-    <property role="TrG5h" value="Export" />
+    <property role="TrG5h" value="Export to ArangoDB" />
     <node concept="1fmyMZ" id="25VKDKDBxJ3" role="1fmyMW">
-      <node concept="1fmyMC" id="25VKDKDBxLb" role="1fmyMH">
-        <ref role="1fmyM0" node="25VKDKDBxJ7" resolve="arangodb" />
-        <ref role="1fmyM6" node="25VKDKDBxJ5" resolve="mps" />
-        <node concept="3f6BbC" id="25VKDKDBxLc" role="1eUoJ5">
-          <ref role="3f6BbD" node="25VKDKDBxLn" resolve="JSON" />
-        </node>
+      <node concept="1fmyMC" id="Sv$7iJa8g5" role="1fmyMH">
+        <ref role="1fmyM0" node="25VKDKDBxJ7" resolve="i2_pedantic" />
+        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
+        <ref role="3zGEsl" node="Sv$7iJa8fY" resolve="Json-File" />
+        <ref role="3zGEs9" node="Sv$7iJa8gC" resolve="jsonfile" />
+      </node>
+      <node concept="1fmyMC" id="Sv$7iJa8i6" role="1fmyMH">
+        <ref role="1fmyM0" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEs9" node="Sv$7iJa8hH" resolve="conn:http://localhost:8529" />
+        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
+        <ref role="3zGEsl" node="Sv$7iJa8hP" resolve="http://localhost:8529" />
+      </node>
+      <node concept="1fmyMC" id="Sv$7iJa8iI" role="1fmyMH">
+        <ref role="1fmyM0" node="Sv$7iJa8g6" resolve="i4_python" />
+        <ref role="3zGEs9" node="Sv$7iJa8h1" resolve="Json_for_arango" />
+        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEsl" node="Sv$7iJa8hG" resolve="Json_for_arango" />
+      </node>
+      <node concept="1fmyMC" id="Sv$7iJa8j4" role="1fmyMH">
+        <ref role="1fmyM0" node="Sv$7iJa8j5" resolve="i5_docker" />
+        <ref role="3zGEs9" node="Sv$7iJa8iY" resolve="access_localhost:8529" />
+        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEsl" node="Sv$7iJa8j2" resolve="Access_to_localhost" />
       </node>
       <node concept="1fmyMA" id="25VKDKDBxJ5" role="1fmyM_">
-        <property role="TrG5h" value="mps" />
+        <property role="TrG5h" value="i1_mps" />
         <ref role="1fmyMB" node="25VKDKDBxJa" resolve="MPS" />
       </node>
       <node concept="1fmyMA" id="25VKDKDBxJ7" role="1fmyM_">
-        <property role="TrG5h" value="arangodb" />
-        <ref role="1fmyMB" node="25VKDKDBxJb" resolve="ArangoDB" />
+        <property role="TrG5h" value="i2_pedantic" />
+        <ref role="1fmyMB" node="Sv$7iJa8gB" resolve="Pedantic" />
+      </node>
+      <node concept="1fmyMA" id="Sv$7iJa8g4" role="1fmyM_">
+        <property role="TrG5h" value="i3_arangodb" />
+        <ref role="1fmyMB" node="Sv$7iJa8fW" resolve="ArangoDB Component" />
+      </node>
+      <node concept="1fmyMA" id="Sv$7iJa8g6" role="1fmyM_">
+        <property role="TrG5h" value="i4_python" />
+        <ref role="1fmyMB" node="Sv$7iJa8fX" resolve="Python Script" />
+      </node>
+      <node concept="1fmyMA" id="Sv$7iJa8j5" role="1fmyM_">
+        <property role="TrG5h" value="i5_docker" />
+        <ref role="1fmyMB" node="Sv$7iJa8iX" resolve="Docker" />
       </node>
     </node>
   </node>
   <node concept="1fmyL8" id="25VKDKDBxJa">
     <property role="TrG5h" value="MPS" />
     <property role="3GE5qa" value="MPS" />
-    <node concept="3f6BbC" id="25VKDKDBxLf" role="1fmyMO">
-      <ref role="3f6BbD" node="25VKDKDBxLn" resolve="JSON" />
-    </node>
     <node concept="1fmyMZ" id="25VKDKDBxLE" role="1fmyMW">
-      <node concept="1fmyMu" id="25VKDKDBxLY" role="1e2t$s">
-        <ref role="1fmyMv" node="25VKDKDBxLG" resolve="pedantic" />
-        <node concept="3f6BbC" id="25VKDKDBxLZ" role="1eUoJ9">
-          <ref role="3f6BbD" node="25VKDKDBxLn" resolve="JSON" />
-        </node>
-      </node>
       <node concept="1fmyMA" id="25VKDKDBxLG" role="1fmyM_">
         <property role="TrG5h" value="pedantic" />
-        <ref role="1fmyMB" node="25VKDKDBxLI" resolve="Pedantic" />
+        <ref role="1fmyMB" node="Sv$7iJa8gB" resolve="Pedantic" />
       </node>
     </node>
   </node>
@@ -102,14 +118,70 @@
       <node concept="3f6AUX" id="25VKDKDBxLn" role="3f6AUK">
         <property role="TrG5h" value="JSON" />
       </node>
+      <node concept="3f6AUX" id="Sv$7iJa8fV" role="3f6AUK">
+        <property role="TrG5h" value="JSON-File" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa8hI" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa8hJ" role="3f6AUE" />
+      <node concept="3f6AUX" id="Sv$7iJa8hK" role="3f6AUK">
+        <property role="TrG5h" value="Local Host" />
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa8hL" role="3f6AUK">
+        <property role="TrG5h" value="ArangoDB Local Host" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa8iZ" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa8j0" role="3f6AUE" />
+      <node concept="3f6AUX" id="Sv$7iJa8j1" role="3f6AUK">
+        <property role="TrG5h" value="Docker Access Local Host" />
+      </node>
     </node>
     <node concept="3f6AUQ" id="25VKDKDBxLi" role="3f6AUR" />
   </node>
-  <node concept="1fmyL8" id="25VKDKDBxLI">
-    <property role="TrG5h" value="Pedantic" />
+  <node concept="1fmyL8" id="Sv$7iJa8fW">
+    <property role="TrG5h" value="ArangoDB Component" />
+    <node concept="3zGEss" id="Sv$7iJa8hH" role="1fmyMO">
+      <property role="TrG5h" value="conn:http://localhost:8529" />
+      <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="Local Host" />
+    </node>
+    <node concept="3zGEss" id="Sv$7iJa8hG" role="1fmyMU">
+      <property role="TrG5h" value="Json_for_arango" />
+      <ref role="3zGEsh" node="25VKDKDBxLn" resolve="JSON" />
+    </node>
+    <node concept="3zGEss" id="Sv$7iJa8j2" role="1fmyMU">
+      <property role="TrG5h" value="Access_to_localhost" />
+      <ref role="3zGEsh" node="Sv$7iJa8j1" resolve="Docker Access Local Host" />
+    </node>
+  </node>
+  <node concept="1fmyL8" id="Sv$7iJa8fX">
+    <property role="TrG5h" value="Python Script" />
+    <node concept="3zGEss" id="Sv$7iJa8fY" role="1fmyMU">
+      <property role="TrG5h" value="Json-File" />
+      <ref role="3zGEsh" node="25VKDKDBxLn" resolve="JSON" />
+    </node>
+    <node concept="3zGEss" id="Sv$7iJa8hP" role="1fmyMU">
+      <property role="TrG5h" value="conn:http://localhost:8529" />
+      <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="Local Host" />
+    </node>
+    <node concept="3zGEss" id="Sv$7iJa8h1" role="1fmyMO">
+      <property role="TrG5h" value="Json_for_arango" />
+      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
+  </node>
+  <node concept="1fmyL8" id="Sv$7iJa8gB">
     <property role="3GE5qa" value="MPS" />
-    <node concept="3f6BbC" id="25VKDKDBxLJ" role="1fmyMO">
-      <ref role="3f6BbD" node="25VKDKDBxLn" resolve="JSON" />
+    <property role="TrG5h" value="Pedantic" />
+    <node concept="3zGEss" id="Sv$7iJa8gC" role="1fmyMO">
+      <property role="TrG5h" value="jsonfile" />
+      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
+  </node>
+  <node concept="1fmyL8" id="Sv$7iJa8iX">
+    <property role="TrG5h" value="Docker" />
+    <node concept="3zGEss" id="Sv$7iJa8iY" role="1fmyMO">
+      <property role="TrG5h" value="access_localhost:8529" />
+      <ref role="3zGEsh" node="Sv$7iJa8j1" resolve="Docker Access Local Host" />
     </node>
   </node>
 </model>
