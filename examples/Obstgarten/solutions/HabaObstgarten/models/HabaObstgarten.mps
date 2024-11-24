@@ -66,6 +66,7 @@
       </concept>
     </language>
     <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
+      <concept id="8789799326247349636" name="quilter.structure.SearchPlan" flags="ng" index="3e2OTI" />
       <concept id="8789799326246411078" name="quilter.structure.UntypedConnection" flags="ng" index="3e6jyG">
         <reference id="8789799326244297586" name="source" index="3eevyo" />
         <reference id="8789799326244297587" name="target" index="3eevyp" />
@@ -99,8 +100,9 @@
       </concept>
       <concept id="8789799326235322522" name="quilter.structure.MatchStatement" flags="ng" index="3eKGHK">
         <reference id="8789799326235322523" name="pattern" index="3eKGHL" />
+        <child id="8789799326247601497" name="sp" index="3e3QqN" />
         <child id="8789799326242999406" name="csp" index="3eliY4" />
-        <child id="8789799326235322525" name="inputMatch" index="3eKGHR" />
+        <child id="8789799326235322525" name="preMatch" index="3eKGHR" />
       </concept>
       <concept id="8789799326235322526" name="quilter.structure.MatchContainer" flags="ng" index="3eKGHO">
         <child id="8789799326235945360" name="matchLabels" index="3eIkDU" />
@@ -262,6 +264,7 @@
     <node concept="3eKGHH" id="7BVCYERfoGL" role="3F$ThY">
       <node concept="3eKGHs" id="7BVCYERlkoO" role="3eKGHX">
         <ref role="3eKGHL" node="7BVCYER4Fb8" resolve="FruitOnATree" />
+        <node concept="3e2OTI" id="7BVCYERZlb4" role="3e3QqN" />
         <node concept="3eImRP" id="7BVCYERAGXs" role="3eKGHR">
           <node concept="3eJ099" id="7BVCYERAGXt" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />
@@ -283,36 +286,36 @@
           </node>
           <node concept="3eImVg" id="7BVCYERAGX_" role="3eImRb" />
         </node>
-        <node concept="3elqOZ" id="7BVCYERVMnj" role="3eliY4">
-          <node concept="3eirzv" id="7BVCYERVMnk" role="3eirzu">
+        <node concept="3elqOZ" id="7BVCYEStru3" role="3eliY4">
+          <node concept="3eirzv" id="7BVCYEStru4" role="3eirzu">
             <property role="TrG5h" value="orchard" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVMnl" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVMnk" resolve="orchard" />
+          <node concept="3el$ZR" id="7BVCYEStru5" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStru4" resolve="orchard" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N5i" resolve="Orchard" />
           </node>
-          <node concept="3eirzv" id="7BVCYERVMnm" role="3eirzu">
+          <node concept="3eirzv" id="7BVCYEStru6" role="3eirzu">
             <property role="TrG5h" value="tree" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVMnn" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVMnm" resolve="tree" />
+          <node concept="3el$ZR" id="7BVCYEStru7" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStru6" resolve="tree" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
           </node>
-          <node concept="3eirzv" id="7BVCYERVMno" role="3eirzu">
+          <node concept="3eirzv" id="7BVCYEStru8" role="3eirzu">
             <property role="TrG5h" value="aFruit" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVMnp" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVMno" resolve="aFruit" />
+          <node concept="3el$ZR" id="7BVCYEStru9" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStru8" resolve="aFruit" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
           </node>
-          <node concept="3el$ZO" id="7BVCYERVMnq" role="3elqOW">
-            <ref role="3eevyo" node="7BVCYERVMnk" resolve="orchard" />
-            <ref role="3eevyp" node="7BVCYERVMnm" resolve="tree" />
+          <node concept="3el$ZO" id="7BVCYEStrua" role="3elqOW">
+            <ref role="3eevyo" node="7BVCYEStru4" resolve="orchard" />
+            <ref role="3eevyp" node="7BVCYEStru6" resolve="tree" />
             <ref role="3eevyu" to="5e0r:7BVCYER1NEQ" resolve="trees" />
           </node>
-          <node concept="3el$ZO" id="7BVCYERVMnr" role="3elqOW">
-            <ref role="3eevyo" node="7BVCYERVMnm" resolve="tree" />
-            <ref role="3eevyp" node="7BVCYERVMno" resolve="aFruit" />
+          <node concept="3el$ZO" id="7BVCYEStrub" role="3elqOW">
+            <ref role="3eevyo" node="7BVCYEStru6" resolve="tree" />
+            <ref role="3eevyp" node="7BVCYEStru8" resolve="aFruit" />
             <ref role="3eevyu" to="5e0r:7BVCYER1NFx" resolve="fruits" />
           </node>
         </node>
@@ -340,57 +343,57 @@
           <node concept="3eImVg" id="7BVCYERVcmN" role="3eImRb" />
           <node concept="3eImVg" id="7BVCYERVcmO" role="3eImRb" />
         </node>
-        <node concept="3elqOZ" id="7BVCYERVcmP" role="3eliY4">
-          <node concept="3eirzv" id="7BVCYERVcmQ" role="3eirzu">
+        <node concept="3elqOZ" id="7BVCYEStrug" role="3eliY4">
+          <node concept="3eirzv" id="7BVCYEStruh" role="3eirzu">
             <property role="TrG5h" value="orchard" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVcmR" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVcmQ" resolve="orchard" />
+          <node concept="3el$ZR" id="7BVCYEStrui" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStruh" resolve="orchard" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N5i" resolve="Orchard" />
           </node>
-          <node concept="3eirzv" id="7BVCYERVcmS" role="3eirzu">
+          <node concept="3eirzv" id="7BVCYEStruj" role="3eirzu">
             <property role="TrG5h" value="tree" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVcmT" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVcmS" resolve="tree" />
+          <node concept="3el$ZR" id="7BVCYEStruk" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStruj" resolve="tree" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
           </node>
-          <node concept="3eirzv" id="7BVCYERVcmU" role="3eirzu">
+          <node concept="3eirzv" id="7BVCYEStrul" role="3eirzu">
             <property role="TrG5h" value="dice" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVcmV" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVcmU" resolve="dice" />
+          <node concept="3el$ZR" id="7BVCYEStrum" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStrul" resolve="dice" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N5c" resolve="Dice" />
           </node>
-          <node concept="3eirzv" id="7BVCYERVcmW" role="3eirzu">
+          <node concept="3eirzv" id="7BVCYEStrun" role="3eirzu">
             <property role="TrG5h" value="fruit" />
           </node>
-          <node concept="3el$ZR" id="7BVCYERVcmX" role="3elqOW">
-            <ref role="3eirzp" node="7BVCYERVcmW" resolve="fruit" />
+          <node concept="3el$ZR" id="7BVCYEStruo" role="3elqOW">
+            <ref role="3eirzp" node="7BVCYEStrun" resolve="fruit" />
             <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
           </node>
-          <node concept="3el$ZO" id="7BVCYERVcmY" role="3elqOW">
-            <ref role="3eevyo" node="7BVCYERVcmQ" resolve="orchard" />
-            <ref role="3eevyp" node="7BVCYERVcmU" resolve="dice" />
+          <node concept="3el$ZO" id="7BVCYEStrup" role="3elqOW">
+            <ref role="3eevyo" node="7BVCYEStruh" resolve="orchard" />
+            <ref role="3eevyp" node="7BVCYEStrul" resolve="dice" />
             <ref role="3eevyu" to="5e0r:7BVCYER1NEX" resolve="dice" />
           </node>
-          <node concept="3el$ZO" id="7BVCYERVcmZ" role="3elqOW">
-            <ref role="3eevyo" node="7BVCYERVcmQ" resolve="orchard" />
-            <ref role="3eevyp" node="7BVCYERVcmS" resolve="tree" />
+          <node concept="3el$ZO" id="7BVCYEStruq" role="3elqOW">
+            <ref role="3eevyo" node="7BVCYEStruh" resolve="orchard" />
+            <ref role="3eevyp" node="7BVCYEStruj" resolve="tree" />
             <ref role="3eevyu" to="5e0r:7BVCYER1NEQ" resolve="trees" />
           </node>
-          <node concept="3el$ZO" id="7BVCYERVcn0" role="3elqOW">
-            <ref role="3eevyo" node="7BVCYERVcmU" resolve="dice" />
-            <ref role="3eevyp" node="7BVCYERVcmS" resolve="tree" />
+          <node concept="3el$ZO" id="7BVCYEStrur" role="3elqOW">
+            <ref role="3eevyo" node="7BVCYEStrul" resolve="dice" />
+            <ref role="3eevyp" node="7BVCYEStruj" resolve="tree" />
             <ref role="3eevyu" to="5e0r:7BVCYER1NFB" resolve="nextMove" />
           </node>
-          <node concept="3e6jyG" id="7BVCYERVcn1" role="3elqOW">
-            <ref role="3eevyo" node="7BVCYERVcmW" resolve="fruit" />
-            <ref role="3eevyp" node="7BVCYERVcmS" resolve="tree" />
+          <node concept="3e6jyG" id="7BVCYEStrus" role="3elqOW">
+            <ref role="3eevyo" node="7BVCYEStrun" resolve="fruit" />
+            <ref role="3eevyp" node="7BVCYEStruj" resolve="tree" />
           </node>
-          <node concept="3el$Za" id="7BVCYERVcn2" role="3elqOW">
-            <ref role="3eevyp" node="7BVCYERVcmW" resolve="fruit" />
-            <ref role="3eevyo" node="7BVCYERVcmS" resolve="tree" />
+          <node concept="3el$Za" id="7BVCYEStrut" role="3elqOW">
+            <ref role="3eevyp" node="7BVCYEStrun" resolve="fruit" />
+            <ref role="3eevyo" node="7BVCYEStruj" resolve="tree" />
           </node>
         </node>
       </node>

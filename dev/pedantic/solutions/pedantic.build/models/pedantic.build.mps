@@ -803,6 +803,31 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6L8q" resolve="jetbrains.mps.lang.pattern" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7BVCYES8c5a" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYES8c5b" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7lusBUs9EO5" resolve="jetbrains.mps.lang.editor.table" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYES8c5c" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYES8c5d" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYES8c5e" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYES8c5f" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7BVCYES8c5g" role="3bR37C">
+          <node concept="3bR9La" id="7BVCYES8c5h" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L5j" resolve="jetbrains.mps.lang.editor.table.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4ljD3mHTLr1" role="3bR37C">
+          <node concept="3bR9La" id="4ljD3mHTLr2" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9w" resolve="jetbrains.mps.lang.script" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5Q23RPTxrzz" role="2G$12L">
         <property role="TrG5h" value="plantuml.plugin" />

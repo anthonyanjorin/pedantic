@@ -12,7 +12,13 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example" />
+    <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example">
+      <change beforePath="$project_home$/languages/quilter/models/quilter.behavior.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.behavior.mps" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.editor.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.editor.mps" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.structure.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.structure.mps" afterDir="false" />
+      <change beforePath="$project_home$/solutions/pedantic.build/models/pedantic.build.mps" beforeDir="false" afterPath="$project_home$/solutions/pedantic.build/models/pedantic.build.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +30,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="1fc7b8fc-fbdd-4522-a3be-94dcd2f948f2/r:c080ef0d-6fff-4f1f-8181-ce57eb73ffc0(TempModule1fc7b8fc-fbdd-4522-a3be-94dcd2f948f2/ConsoleModel_24050808913463)">
+            <model ref="9a080b61-8192-4ff8-a854-d4fc2ee52edc/r:a56b9122-d011-4d03-9482-0f3d613a13d3(TempModule9a080b61-8192-4ff8-a854-d4fc2ee52edc/ConsoleModel_137275391596176)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -44,11 +50,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7BVCYER1N4Z">
-                <node concept="3balQm" id="7BVCYER1N50" role="aymYE" />
-                <node concept="2Clz$F" id="7BVCYER1N51" role="aymYO" />
-                <node concept="2_V_lH" id="7BVCYER1N52" role="1PhJh3">
-                  <ref role="2_V_lI" node="7BVCYER1N51" />
+              <node concept="aymSD" id="7BVCYERemx$">
+                <node concept="3balQm" id="7BVCYERemx_" role="aymYE" />
+                <node concept="2Clz$F" id="7BVCYERemxA" role="aymYO" />
+                <node concept="2_V_lH" id="7BVCYERemxB" role="1PhJh3">
+                  <ref role="2_V_lI" node="7BVCYERemxA" />
                 </node>
               </node>
             </model>
@@ -93,14 +99,12 @@
     <option name="defaultListState">
       <MessageListState>
         <option name="autoscrollToSource" value="true" />
-        <option name="info" value="true" />
-        <option name="warnings" value="true" />
       </MessageListState>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ndsaNXrHYG9Dmf2n0nfexjzP03" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -148,6 +152,17 @@
               <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
               <item name="r:2a5a5d9c-6b01-417a-a63c-5c297d4263ba(HabaObstgarten) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/Obstgarten/solutions/HabaObstgarten/models/HabaObstgarten.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
             </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Obstgarten] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Obstgarten [language]" type="cd46e9f6:LanguageProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [Obstgarten] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Obstgarten [language]" type="cd46e9f6:LanguageProjectViewNode" />
+              <item name="r:6b4428a1-42dd-4d1b-98c0-dfdab1da415b(Obstgarten.structure) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/Obstgarten/languages/Obstgarten/models/Obstgarten.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,14 +186,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/anthonyanjorin/git/pedantic/examples/Obstgarten"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anthonyanjorin/git/pedantic/examples/Obstgarten&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
