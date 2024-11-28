@@ -13,56 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example">
-      <change afterPath="$project_home$/solutions/quilter.tests/models/quilter.tests.sokoban.mps" afterDir="false" />
-      <change afterPath="$project_home$/solutions/quilter.tests/quilter.tests.msd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/Obstgarten.mpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/generator/templates/Obstgarten.generator.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.typesystem.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/HabaObstgarten.msd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/PedanticPatterns/PedanticPatterns.msd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/PedanticPatterns/models/PedanticPatterns.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.behavior.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.behavior.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.constraints.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.constraints.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.editor.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.editor.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.structure.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.structure.mps" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/quilter.mpl" beforeDir="false" afterPath="$project_home$/languages/quilter/quilter.mpl" afterDir="false" />
-      <change beforePath="$project_home$/solutions/pedantic.build/models/pedantic.build.mps" beforeDir="false" afterPath="$project_home$/solutions/pedantic.build/models/pedantic.build.mps" afterDir="false" />
-      <change beforePath="$project_home$/solutions/pedantic.tests/models/pedantic_tests.mps" beforeDir="false" afterPath="$project_home$/solutions/pedantic.tests/models/pedantic_tests.mps" afterDir="false" />
-      <change beforePath="$project_home$/solutions/pedantic.tests/pedantic.tests.msd" beforeDir="false" afterPath="$project_home$/solutions/pedantic.tests/pedantic.tests.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/.mps/migration.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/.mps/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/.mps/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/.mps/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/Obstgarten.mpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/generator/templates/Obstgarten.generator.templates@generator.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/models/Obstgarten.behavior.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/models/Obstgarten.constraints.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/models/Obstgarten.editor.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/models/Obstgarten.structure.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/languages/Obstgarten/models/Obstgarten.typesystem.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/solutions/HabaObstgarten/HabaObstgarten.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Obstgarten/solutions/HabaObstgarten/models/HabaObstgarten.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/.mps/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/.mps/migration.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/.mps/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/.mps/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/.mps/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/solutions/PedanticPatterns/PedanticPatterns.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/solutions/PedanticPatterns/models/PedanticPatterns.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/solutions/PedanticPatterns/source_gen.caches/PedanticPatterns/dependencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/solutions/PedanticPatterns/source_gen.caches/PedanticPatterns/generated" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pedantic/solutions/PedanticPatterns/source_gen.caches/deps.cp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +27,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="07daf21a-699b-440d-b378-f17569434485/r:76a7fa64-710a-4113-9c4f-0580f02040e5(TempModule07daf21a-699b-440d-b378-f17569434485/ConsoleModel_255223244044531)">
+            <model ref="2e835004-4684-4809-9cf8-19aa2d44a20c/r:c91efe0c-250e-4b8f-9476-e8293159a2da(TempModule2e835004-4684-4809-9cf8-19aa2d44a20c/ConsoleModel_287103909579268)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -95,11 +47,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2tbV4VN_Y7r">
-                <node concept="3balQm" id="2tbV4VN_Y7s" role="aymYE" />
-                <node concept="2Clz$F" id="2tbV4VN_Y7t" role="aymYO" />
-                <node concept="2_V_lH" id="2tbV4VN_Y7u" role="1PhJh3">
-                  <ref role="2_V_lI" node="2tbV4VN_Y7t" />
+              <node concept="aymSD" id="2tbV4VOG9Fl">
+                <node concept="3balQm" id="2tbV4VOG9Fm" role="aymYE" />
+                <node concept="2Clz$F" id="2tbV4VOG9Fn" role="aymYO" />
+                <node concept="2_V_lH" id="2tbV4VOG9Fo" role="1PhJh3">
+                  <ref role="2_V_lI" node="2tbV4VOG9Fn" />
                 </node>
               </node>
             </model>
@@ -186,17 +138,6 @@
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
             </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
-              <item name="r:2a5a5d9c-6b01-417a-a63c-5c297d4263ba(HabaObstgarten) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/quilter_examples/solutions/HabaObstgarten/models/HabaObstgarten.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -220,15 +161,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "JUnit Tests.All Tests in Project.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/anthonyanjorin/git/pedantic/examples/Obstgarten"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit Tests.All Tests in Project.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anthonyanjorin/git/pedantic/examples/Obstgarten&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
