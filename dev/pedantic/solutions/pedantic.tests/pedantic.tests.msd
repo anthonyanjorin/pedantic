@@ -13,6 +13,7 @@
   <dependencies>
     <dependency reexport="false">1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)</dependency>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+    <dependency reexport="false">cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:bf4c75ed-13a6-481a-8ccf-7c044af2f1d3:arango_graphs" version="0" />
@@ -48,10 +49,13 @@
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="d4615e3b-d671-4ba9-af01-2b78369b0ba7(jetbrains.mps.lang.pattern)" version="0" />
+    <module reference="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="53100040-323b-4b92-8ce7-efd8105eb44c(pedantic.tests)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
+    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
   </dependencyVersions>
 </solution>
 

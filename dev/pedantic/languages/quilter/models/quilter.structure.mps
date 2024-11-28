@@ -247,7 +247,6 @@
       <property role="IQ2ns" value="8789799326235322527" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="resultMatches" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7BVCYERgGSw" resolve="PostMatchContainer" />
     </node>
     <node concept="1TJgyi" id="7BVCYERemyw" role="1TKVEl">
@@ -313,6 +312,9 @@
       <property role="IQ2nx" value="8789799326236254628" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="2tbV4VOeyYS" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKs">
@@ -454,10 +456,16 @@
     <property role="3GE5qa" value="searchplan.operations" />
     <property role="TrG5h" value="Type_F" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="4ljD3mI_aQH" role="1TKVEi">
+      <property role="IQ2ns" value="4995516962153213357" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    </node>
     <node concept="1TJgyj" id="7BVCYERWzcu" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247432990" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variable" />
+      <property role="20kJfa" value="adornedVariable" />
       <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
     </node>
   </node>
@@ -466,10 +474,16 @@
     <property role="3GE5qa" value="searchplan.operations" />
     <property role="TrG5h" value="Type_B" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="4ljD3mIwOJm" role="1TKVEi">
+      <property role="IQ2ns" value="4995516962152074198" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    </node>
     <node concept="1TJgyj" id="7BVCYERWzct" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247432989" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variable" />
+      <property role="20kJfa" value="adornedVariable" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
     </node>
@@ -491,6 +505,12 @@
     <property role="3GE5qa" value="searchplan.operations" />
     <property role="TrG5h" value="TypedConnection_BB" />
     <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <node concept="1TJgyj" id="2tbV4VMRlHI" role="1TKVEi">
+      <property role="IQ2ns" value="2831616614558686062" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
     <node concept="1TJgyj" id="7BVCYERWAl7" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247445831" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -511,6 +531,12 @@
     <property role="3GE5qa" value="searchplan.operations" />
     <property role="TrG5h" value="TypedConnection_BF" />
     <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <node concept="1TJgyj" id="2tbV4VMRu0A" role="1TKVEi">
+      <property role="IQ2ns" value="2831616614558720038" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
     <node concept="1TJgyj" id="7BVCYERWAla" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247445834" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -524,26 +550,6 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7BVCYERWAlc">
-    <property role="EcuMT" value="8789799326247445836" />
-    <property role="3GE5qa" value="searchplan.operations" />
-    <property role="TrG5h" value="TypedConnection_FB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
-    <node concept="1TJgyj" id="7BVCYERWAld" role="1TKVEi">
-      <property role="IQ2ns" value="8789799326247445837" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="source" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
-    </node>
-    <node concept="1TJgyj" id="7BVCYERWAle" role="1TKVEi">
-      <property role="IQ2ns" value="8789799326247445838" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERWF4A">
@@ -584,26 +590,6 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7BVCYERWF4G">
-    <property role="EcuMT" value="8789799326247465260" />
-    <property role="3GE5qa" value="searchplan.operations" />
-    <property role="TrG5h" value="UntypedConnection_FB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
-    <node concept="1TJgyj" id="7BVCYERWF4H" role="1TKVEi">
-      <property role="IQ2ns" value="8789799326247465261" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="source" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
-    </node>
-    <node concept="1TJgyj" id="7BVCYERWF4I" role="1TKVEi">
-      <property role="IQ2ns" value="8789799326247465262" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERWJiY">
@@ -672,6 +658,32 @@
     <property role="TrG5h" value="Connection" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+  </node>
+  <node concept="1TIwiD" id="2tbV4VNrzE5">
+    <property role="EcuMT" value="2831616614568180357" />
+    <property role="3GE5qa" value="searchplan.operations" />
+    <property role="TrG5h" value="TypedChildConnection_FB" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <node concept="1TJgyj" id="2tbV4VNrDMU" role="1TKVEi">
+      <property role="IQ2ns" value="2831616614568205498" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="2tbV4VNrzE6" role="1TKVEi">
+      <property role="IQ2ns" value="2831616614568180358" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
+    </node>
+    <node concept="1TJgyj" id="2tbV4VNrzE7" role="1TKVEi">
+      <property role="IQ2ns" value="2831616614568180359" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
   </node>
 </model>
 
