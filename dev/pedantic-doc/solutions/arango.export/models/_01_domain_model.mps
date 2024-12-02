@@ -3745,6 +3745,38 @@
           </node>
         </node>
       </node>
+      <node concept="3f6AUQ" id="Sv$7iJa8MT" role="3jToc2">
+        <node concept="3fT77D" id="Sv$7iJa8MU" role="3f6BbQ">
+          <property role="3fT77I" value="They" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8MV" role="3f6BbQ">
+          <property role="3fT77I" value="have" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8MW" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8MX" role="3f6BbQ">
+          <property role="3fT77I" value="name" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8MY" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8N0" role="3f6BbQ">
+          <property role="3fT77I" value="can" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8N3" role="3f6BbQ">
+          <property role="3fT77I" value="include" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8N5" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa8$z" resolve="Collections" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8N7" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8N9" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa8_Q" resolve="Graphs" />
+        </node>
+      </node>
     </node>
     <node concept="3f6AUY" id="Sv$7iJa8$w" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8$x" role="3f6AUE">
@@ -4397,8 +4429,8 @@
       <node concept="3BFnmI" id="Sv$7iJa8EM" role="3BFnmE">
         <node concept="3BFnma" id="Sv$7iJa8EQ" role="3BFnmh">
           <property role="3BFnm9" value="1" />
-          <property role="3BFnmf" value="1" />
           <property role="3BFnm2" value="1" />
+          <property role="3BFnmf" value="1" />
           <node concept="3f6BbC" id="Sv$7iJa8ER" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8CX" resolve="graph nodes" />
           </node>
@@ -4711,6 +4743,7 @@
   </node>
   <node concept="3UcZMl" id="Sv$7iJa8tD">
     <property role="TrG5h" value="Databases in General" />
+    <property role="XwtER" value="Stefan Kostic" />
     <node concept="3f6AUY" id="Sv$7iJa8tL" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8tM" role="3f6AUE">
         <node concept="3fT77D" id="Sv$7iJa8tP" role="3f6BbQ">
@@ -5191,8 +5224,8 @@
       <node concept="3fT77D" id="Sv$7iJa8tJ" role="3f6BbQ">
         <property role="3fT77I" value="of" />
       </node>
-      <node concept="3fT77D" id="Sv$7iJa8tK" role="3f6BbQ">
-        <property role="3fT77I" value="databases" />
+      <node concept="3f6BbC" id="Sv$7iJa8Mg" role="3f6BbQ">
+        <ref role="3f6BbD" node="Sv$7iJa8tO" resolve="Databases" />
       </node>
     </node>
   </node>
