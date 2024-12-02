@@ -17,6 +17,7 @@
         <property id="7959779354266372691" name="type" index="bZXHP" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
+        <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
         <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
@@ -38,22 +39,8 @@
       </concept>
     </language>
   </registry>
-  <node concept="3UcZMl" id="5IIk38nbzOJ">
-    <property role="TrG5h" value="Users, Tools and Artefacts" />
-    <node concept="3f6AUY" id="5IIk38nbzOL" role="3f6AUZ">
-      <property role="bZXHP" value="6TQOip_ygDg/actor" />
-      <node concept="3f6AUQ" id="5IIk38nbzOM" role="3f6AUE" />
-      <node concept="3f6AUX" id="5IIk38nbzON" role="3f6AUK">
-        <property role="TrG5h" value="An MPS User" />
-      </node>
-      <node concept="3f6AUX" id="5IIk38nbzQG" role="3f6AUK">
-        <property role="TrG5h" value="an MPS user" />
-      </node>
-    </node>
-    <node concept="3f6AUQ" id="5IIk38nbzOK" role="3f6AUR" />
-  </node>
   <node concept="3UcZMl" id="5IIk38nbzQg">
-    <property role="TrG5h" value="Functional Requirements" />
+    <property role="TrG5h" value="Funct. Requirements (old)" />
     <node concept="3f6AUY" id="Sv$7iJa13Q" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa13R" role="3f6AUE">
         <node concept="3fT77D" id="Sv$7iJa141" role="3f6BbQ">
@@ -1520,6 +1507,147 @@
         <property role="TrG5h" value="Minimal preparation" />
       </node>
     </node>
+    <node concept="3f6AUY" id="Sv$7iJa8YY" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa8YZ" role="3f6AUE">
+        <node concept="3f6BbC" id="Sv$7iJa8Z$" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8z9" resolve="ArangoDB-Databases" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZA" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8ZC" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8$z" resolve="Collections" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZE" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZF" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8ZH" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8_Q" resolve="Graphs" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZJ" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZK" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90s" role="3f6BbQ">
+          <property role="3fT77I" value="defined" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZM" role="3f6BbQ">
+          <property role="3fT77I" value="with" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZN" role="3f6BbQ">
+          <property role="3fT77I" value="suitable" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa906" role="3f6BbQ">
+          <property role="3fT77I" value="static" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZO" role="3f6BbQ">
+          <property role="3fT77I" value="names" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZP" role="3f6BbQ">
+          <property role="3fT77I" value="each" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa908" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa907" role="3f6BbQ">
+          <property role="3fT77I" value="automatically" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90y" role="3f6BbQ">
+          <property role="3fT77I" value="by" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90z" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90$" role="3f6BbQ">
+          <property role="3fT77I" value="software" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa8ZR" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZS" role="3f6BbQ">
+          <property role="3fT77I" value="While" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZV" role="3f6BbQ">
+          <property role="3fT77I" value="executing" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZW" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZX" role="3f6BbQ">
+          <property role="3fT77I" value="export" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa8ZZ" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8ZY" role="3f6BbQ">
+          <property role="3fT77I" value="no" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa900" role="3f6BbQ">
+          <property role="3fT77I" value="extra" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa901" role="3f6BbQ">
+          <property role="3fT77I" value="step" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa902" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa903" role="3f6BbQ">
+          <property role="3fT77I" value="creations" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa909" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa90b" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90d" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90e" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90f" role="3f6BbQ">
+          <property role="3fT77I" value="taken" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90t" role="3f6BbQ">
+          <property role="3fT77I" value="by" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90u" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa90w" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa8VY" resolve="MPS User" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa90g" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa8Z0" role="3f6AUK">
+        <property role="TrG5h" value="Automatic setup in ArangoDB" />
+      </node>
+      <node concept="3f6AUQ" id="Sv$7iJa90h" role="3jToc2">
+        <node concept="3fT77D" id="Sv$7iJa90o" role="3f6BbQ">
+          <property role="3fT77I" value="It" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90p" role="3f6BbQ">
+          <property role="3fT77I" value="helps" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90q" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa90r" role="3f6BbQ">
+          <property role="3fT77I" value="achieving" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa90m" role="3f6BbQ">
+          <ref role="3f6BbD" node="5IIk38nbAbu" resolve="Minimal preparation" />
+        </node>
+      </node>
+    </node>
     <node concept="3f6AUY" id="5IIk38nxg0m" role="3f6AUZ">
       <property role="bZXHP" value="5IIk38kTBl1/requirement" />
       <node concept="3f6AUQ" id="5IIk38nxg0n" role="3f6AUE">
@@ -1619,6 +1747,198 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="5IIk38nb_Zj" role="3f6AUR" />
+  </node>
+  <node concept="3UcZMl" id="Sv$7iJa8VU">
+    <property role="TrG5h" value="Users and Tools" />
+    <node concept="3f6AUY" id="Sv$7iJa8VW" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa8VX" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa8Wk" role="3f6BbQ">
+          <property role="3fT77I" value="A" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Wl" role="3f6BbQ">
+          <property role="3fT77I" value="person" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Wm" role="3f6BbQ">
+          <property role="3fT77I" value="or" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Wn" role="3f6BbQ">
+          <property role="3fT77I" value="developer" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Wo" role="3f6BbQ">
+          <property role="3fT77I" value="who" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Wp" role="3f6BbQ">
+          <property role="3fT77I" value="uses" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8Wr" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8NM" resolve="MPS" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa8VY" role="3f6AUK">
+        <property role="TrG5h" value="MPS User" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="Sv$7iJa8Wt" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa8Wu" role="3f6AUE" />
+      <node concept="3f6AUX" id="Sv$7iJa8Wv" role="3f6AUK">
+        <property role="TrG5h" value="Docker" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="Sv$7iJa8VV" role="3f6AUR" />
+  </node>
+  <node concept="3UcZMl" id="Sv$7iJa8Wy">
+    <property role="TrG5h" value="Functional Requirements" />
+    <node concept="3f6AUY" id="Sv$7iJa8X7" role="3f6AUZ">
+      <node concept="3f6AUQ" id="Sv$7iJa8X8" role="3f6AUE">
+        <node concept="3fT77D" id="Sv$7iJa8XE" role="3f6BbQ">
+          <property role="3fT77I" value="As" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8XG" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa8VY" resolve="MPS User" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XY" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XL" role="3f6BbQ">
+          <property role="3fT77I" value="I" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XM" role="3f6BbQ">
+          <property role="3fT77I" value="want" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XN" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XO" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XP" role="3f6BbQ">
+          <property role="3fT77I" value="able" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XQ" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XR" role="3f6BbQ">
+          <property role="3fT77I" value="choose" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XS" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XT" role="3f6BbQ">
+          <property role="3fT77I" value="arbitrary" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8Yz" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8OU" resolve="AST-Node" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XV" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8XW" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8Yb" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8Y2" resolve="Model" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YT" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yf" role="3f6BbQ">
+          <property role="3fT77I" value="export" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yg" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yh" role="3f6BbQ">
+          <property role="3fT77I" value="as" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yi" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8Yk" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8_P" resolve="Graph" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Ym" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8Yo" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yq" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa8X9" role="3f6AUK">
+        <property role="TrG5h" value="Export node to ArangoDB" />
+      </node>
+      <node concept="3f6AUX" id="Sv$7iJa8XD" role="3f6AUK">
+        <property role="TrG5h" value="(R0) Export Node" />
+      </node>
+      <node concept="3f6AUQ" id="Sv$7iJa8Ys" role="3jToc2">
+        <node concept="3fT77D" id="Sv$7iJa8Yt" role="3f6BbQ">
+          <property role="3fT77I" value="All" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yu" role="3f6BbQ">
+          <property role="3fT77I" value="elements" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yv" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8Yw" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3f6BbC" id="Sv$7iJa8Y_" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8OU" resolve="AST-Node" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YB" role="3f6BbQ">
+          <property role="3fT77I" value="should" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YD" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YE" role="3f6BbQ">
+          <property role="3fT77I" value="exported" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa8YH" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YF" role="3f6BbQ">
+          <property role="3fT77I" value="together" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YG" role="3f6BbQ">
+          <property role="3fT77I" value="with" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YI" role="3f6BbQ">
+          <property role="3fT77I" value="all" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YJ" role="3f6BbQ">
+          <property role="3fT77I" value="referenced" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YK" role="3f6BbQ">
+          <property role="3fT77I" value="elements" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa8YM" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YL" role="3f6BbQ">
+          <property role="3fT77I" value="which" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YN" role="3f6BbQ">
+          <property role="3fT77I" value="might" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YO" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YP" role="3f6BbQ">
+          <property role="3fT77I" value="other" />
+        </node>
+        <node concept="3fT77D" id="Sv$7iJa8YQ" role="3f6BbQ">
+          <property role="3fT77I" value="nodes" />
+        </node>
+        <node concept="3f6BbF" id="Sv$7iJa8YS" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="Sv$7iJa8Wz" role="3f6AUR" />
   </node>
 </model>
 
