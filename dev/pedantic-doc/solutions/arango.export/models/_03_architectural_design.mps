@@ -45,6 +45,9 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
+        <reference id="8617956174760287129" name="target" index="1hSrFy" />
+      </concept>
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
@@ -74,8 +77,14 @@
       <node concept="1fmyMC" id="7C5UPHnZAFq" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAFp" resolve="i6_path" />
         <ref role="3zGEs9" node="7C5UPHnZAFr" resolve="json_for_py" />
-        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
-        <ref role="3zGEsl" node="Sv$7iJa8fY" resolve="Json-File" />
+        <ref role="1fmyM6" node="7C5UPHnZAIV" resolve="i9_f3" />
+        <ref role="3zGEsl" node="7C5UPHnZAIU" resolve="json" />
+      </node>
+      <node concept="1fmyMC" id="7C5UPHnZAJK" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAIV" resolve="i9_f3" />
+        <ref role="3zGEs9" node="7C5UPHnZAJg" resolve="json_arango" />
+        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEsl" node="Sv$7iJa8hG" resolve="Json_for_arango" />
       </node>
       <node concept="1fmyMC" id="Sv$7iJa8i6" role="1fmyMH">
         <ref role="1fmyM0" node="Sv$7iJa8g4" resolve="i3_arangodb" />
@@ -126,12 +135,16 @@
         <ref role="1fmyMB" node="7C5UPHnZAEE" resolve="Path" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZAGz" role="1fmyM_">
-        <property role="TrG5h" value="i7_f1" />
+        <property role="TrG5h" value="i7_func1" />
         <ref role="1fmyMB" node="7C5UPHnZAGb" resolve="Function1: Create Database" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZAIq" role="1fmyM_">
-        <property role="TrG5h" value="i8_f2" />
+        <property role="TrG5h" value="i8_func2" />
         <ref role="1fmyMB" node="7C5UPHnZAI7" resolve="Function2: Create Collection" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZAIV" role="1fmyM_">
+        <property role="TrG5h" value="i9_func3" />
+        <ref role="1fmyMB" node="7C5UPHnZAIT" resolve="Function 3: Export JSON Files" />
       </node>
     </node>
   </node>
@@ -181,7 +194,7 @@
     </node>
     <node concept="3zGEss" id="Sv$7iJa8hG" role="1fmyMU">
       <property role="TrG5h" value="Json_for_arango" />
-      <ref role="3zGEsh" node="25VKDKDBxLn" resolve="JSON" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="Sv$7iJa8j2" role="1fmyMU">
       <property role="TrG5h" value="Access_to_localhost" />
@@ -198,10 +211,6 @@
   </node>
   <node concept="1fmyL8" id="Sv$7iJa8fX">
     <property role="TrG5h" value="Python Script" />
-    <node concept="3zGEss" id="Sv$7iJa8fY" role="1fmyMU">
-      <property role="TrG5h" value="Json-File" />
-      <ref role="3zGEsh" node="25VKDKDBxLn" resolve="JSON" />
-    </node>
     <node concept="3zGEss" id="Sv$7iJa8hP" role="1fmyMU">
       <property role="TrG5h" value="conn:http://localhost:8529" />
       <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="Local Host" />
@@ -232,7 +241,7 @@
     <property role="TrG5h" value="Path" />
     <node concept="3zGEss" id="7C5UPHnZAFr" role="1fmyMO">
       <property role="TrG5h" value="json_for_py" />
-      <ref role="3zGEsh" node="25VKDKDBxLn" resolve="JSON" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7C5UPHnZAF4" role="1fmyMU">
       <property role="TrG5h" value="json" />
@@ -335,7 +344,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAGb">
-    <property role="TrG5h" value="Function1: Create Database" />
+    <property role="TrG5h" value="Function 1: Create Database" />
     <node concept="3zGEss" id="7C5UPHnZAGw" role="1fmyMO">
       <property role="TrG5h" value="arango_database" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
@@ -371,7 +380,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAI7">
-    <property role="TrG5h" value="Function2: Create Collection" />
+    <property role="TrG5h" value="Function 2: Create Collection" />
     <node concept="3zGEss" id="7C5UPHnZAIp" role="1fmyMO">
       <property role="TrG5h" value="Collection" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
@@ -402,6 +411,52 @@
         <property role="3fT77I" value="within" />
       </node>
       <node concept="3f6BbC" id="7C5UPHnZAIn" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
+      </node>
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAIT">
+    <property role="TrG5h" value="Function 3: Export JSON Files" />
+    <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
+      <property role="TrG5h" value="json_arango" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZAIU" role="1fmyMU">
+      <property role="TrG5h" value="json" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
+    </node>
+    <node concept="3f6AUQ" id="7C5UPHnZAIW" role="1fksqA">
+      <node concept="3fT77D" id="7C5UPHnZAIX" role="3f6BbQ">
+        <property role="3fT77I" value="Intercepts" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAIZ" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ1" role="3f6BbQ">
+        <property role="3fT77I" value="from" />
+      </node>
+      <node concept="1hSrFG" id="7C5UPHnZAJ3" role="3f6BbQ">
+        <ref role="1hSrFy" node="7C5UPHnZAEE" resolve="Path" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ5" role="3f6BbQ">
+        <property role="3fT77I" value="and" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ6" role="3f6BbQ">
+        <property role="3fT77I" value="provides" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ7" role="3f6BbQ">
+        <property role="3fT77I" value="it" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ8" role="3f6BbQ">
+        <property role="3fT77I" value="to" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAJa" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJc" role="3f6BbQ">
+        <property role="3fT77I" value="in" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAJe" role="3f6BbQ">
         <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
       </node>
     </node>

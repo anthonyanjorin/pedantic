@@ -19,7 +19,7 @@
     </language>
   </registry>
   <node concept="3UcZMl" id="Sv$7iJa8t4">
-    <property role="TrG5h" value="Python Script - Code Planning" />
+    <property role="TrG5h" value="Python Script" />
     <node concept="3f6AUQ" id="Sv$7iJa8t5" role="3f6AUR" />
   </node>
 </model>
