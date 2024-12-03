@@ -1542,17 +1542,11 @@
         <node concept="3fT77D" id="Sv$7iJa8ZN" role="3f6BbQ">
           <property role="3fT77I" value="suitable" />
         </node>
-        <node concept="3fT77D" id="Sv$7iJa906" role="3f6BbQ">
-          <property role="3fT77I" value="static" />
-        </node>
         <node concept="3fT77D" id="Sv$7iJa8ZO" role="3f6BbQ">
           <property role="3fT77I" value="names" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8ZP" role="3f6BbQ">
           <property role="3fT77I" value="each" />
-        </node>
-        <node concept="3f6BbF" id="Sv$7iJa908" role="3f6BbQ">
-          <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="Sv$7iJa907" role="3f6BbQ">
           <property role="3fT77I" value="automatically" />
@@ -1624,7 +1618,7 @@
           <ref role="3f6BbD" node="Sv$7iJa8VY" resolve="MPS User" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa90g" role="3f6BbQ">
-          <property role="3fT77I" value="." />
+          <property role="3fT77I" value=".c" />
         </node>
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8Z0" role="3f6AUK">
