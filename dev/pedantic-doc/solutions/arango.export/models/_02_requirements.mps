@@ -1838,6 +1838,12 @@
         <node concept="3f6BbC" id="Sv$7iJa8Yb" role="3f6BbQ">
           <ref role="3f6BbD" to="wjwp:Sv$7iJa8Y2" resolve="Model" />
         </node>
+        <node concept="3fT77D" id="7C5UPHnZAEj" role="3f6BbQ">
+          <property role="3fT77I" value="from" />
+        </node>
+        <node concept="3f6BbC" id="7C5UPHnZAEl" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8Tr" resolve="Pedantic" />
+        </node>
         <node concept="3fT77D" id="Sv$7iJa8YT" role="3f6BbQ">
           <property role="3fT77I" value="and" />
         </node>
