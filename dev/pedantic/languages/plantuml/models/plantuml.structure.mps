@@ -445,6 +445,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="32uEtBkerlc" resolve="PlantUMLComponentInterfaceConnection" />
     </node>
+    <node concept="1TJgyj" id="2LgBuUc2Td6" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783683027782" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="directConnections" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2LgBuUc2D2n" resolve="PlantUMLComponentConnection" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5IIk38lX2QG">
     <property role="EcuMT" value="6606305879446007212" />
@@ -516,6 +523,24 @@
     <property role="3GE5qa" value="Metamodel.ClassDiagram" />
     <property role="TrG5h" value="PlantUMLEmptyClassDiagram" />
     <ref role="1TJDcQ" node="5RN9bdX7s99" resolve="PlantUMLClassDiagram" />
+  </node>
+  <node concept="1TIwiD" id="2LgBuUc2D2n">
+    <property role="EcuMT" value="3193225783682961559" />
+    <property role="3GE5qa" value="Metamodel.ComponentDiagram" />
+    <property role="TrG5h" value="PlantUMLComponentConnection" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2LgBuUc2D2o" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783682961560" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5IIk38lX2QG" resolve="PlantUMLComponentInterface" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUc2D2p" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783682961561" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5IIk38mj4Zq" resolve="PlantUMLComponent" />
+    </node>
   </node>
 </model>
 
