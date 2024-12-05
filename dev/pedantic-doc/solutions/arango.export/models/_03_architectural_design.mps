@@ -9,6 +9,9 @@
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
+        <child id="6010201709301647773" name="returns" index="$d$W1" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -24,6 +27,7 @@
       <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
         <child id="6606305879429250182" name="provided" index="1fmyMO" />
         <child id="6606305879429250184" name="required" index="1fmyMU" />
+        <child id="8617956174793374811" name="services" index="1vU5Ow" />
       </concept>
       <concept id="6606305879429250196" name="pedantic.structure.ComponentInstance" flags="ng" index="1fmyMA">
         <reference id="6606305879429250197" name="type" index="1fmyMB" />
@@ -235,6 +239,14 @@
     <node concept="3zGEss" id="Sv$7iJa8iY" role="1fmyMO">
       <property role="TrG5h" value="access_localhost:8529" />
       <ref role="3zGEsh" node="Sv$7iJa8j1" resolve="Docker Access Local Host" />
+    </node>
+    <node concept="X_8GT" id="7C5UPHnZARm" role="1vU5Ow">
+      <property role="TrG5h" value="selfservice" />
+      <node concept="3f6AUQ" id="7C5UPHnZARn" role="$d$W1">
+        <node concept="3fT77D" id="7C5UPHnZARo" role="3f6BbQ">
+          <property role="3fT77I" value="sssss" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAEE">

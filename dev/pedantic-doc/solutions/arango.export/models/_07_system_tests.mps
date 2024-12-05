@@ -4,16 +4,33 @@
   <languages>
     <use id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="aamg" ref="r:feb907e2-853a-4c90-9dca-07beabfe1084(_03_architectural_design)" />
+  </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="6010201709287355238" name="pedantic.structure.InstanceBinding" flags="ng" index="_V3nU">
+        <reference id="6010201709287355241" name="parameter" index="_V3nP" />
+        <reference id="6010201709287355239" name="argument" index="_V3nV" />
+      </concept>
+      <concept id="6010201709287355232" name="pedantic.structure.SequenceInvocation" flags="ng" index="_V3nW">
+        <reference id="6010201709287355233" name="target" index="_V3nX" />
+        <child id="6010201709287355235" name="bindings" index="_V3nZ" />
+      </concept>
       <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
         <child id="6010201709301647773" name="returns" index="$d$W1" />
         <child id="470559418572020240" name="description" index="1bdd_s" />
       </concept>
       <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
         <child id="6010201709267609475" name="participants" index="AfY4v" />
+        <child id="8987473119584018422" name="messages" index="X_bjp" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
+      </concept>
+      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="6010201709267609479" name="self" index="AfY4r" />
+      </concept>
+      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
+        <child id="7161014301860983851" name="desc" index="1YyRMU" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
@@ -24,6 +41,9 @@
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
+      </concept>
+      <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
+        <reference id="4928100702460203923" name="target" index="3f6BbD" />
       </concept>
       <concept id="4928100702460203921" name="pedantic.structure.WordExtensionRight" flags="ng" index="3f6BbF" />
       <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
@@ -91,13 +111,27 @@
     </node>
     <node concept="X_bju" id="7C5UPHnZAAp" role="1LuVN3">
       <property role="TrG5h" value="Export of one node to ArangoDB" />
+      <node concept="19Azo$" id="7C5UPHnZAPZ" role="X_bjp">
+        <node concept="3f6AUQ" id="7C5UPHnZAQ1" role="1YyRMU">
+          <node concept="3f6BbC" id="7C5UPHnZAQ8" role="3f6BbQ">
+            <ref role="3f6BbD" node="7C5UPHnZACU" resolve="JSON" />
+          </node>
+        </node>
+      </node>
+      <node concept="_V3nW" id="7C5UPHnZAQK" role="X_bjp">
+        <ref role="_V3nX" node="7C5UPHnZAAp" resolve="Export of one node to ArangoDB" />
+        <node concept="_V3nU" id="7C5UPHnZAQM" role="_V3nZ">
+          <ref role="_V3nP" node="7C5UPHnZACx" resolve="Docker" />
+          <ref role="_V3nV" node="7C5UPHnZAB9" resolve="LocalHost" />
+        </node>
+      </node>
       <node concept="1h4ibI" id="7C5UPHnZAB9" role="AfY4v">
-        <property role="TrG5h" value="User1" />
-        <ref role="1h4ibG" node="7C5UPHnZABi" resolve="User" />
+        <property role="TrG5h" value="LocalHost" />
+        <ref role="1h4ibG" to="aamg:Sv$7iJa8hL" resolve="ArangoDB Local Host" />
       </node>
       <node concept="1h4ibI" id="7C5UPHnZACx" role="AfY4v">
-        <property role="TrG5h" value="ArangoDB" />
-        <ref role="1h4ibG" node="7C5UPHnZABr" resolve="ArangoDB" />
+        <property role="TrG5h" value="Docker" />
+        <ref role="1h4ibG" to="aamg:Sv$7iJa8j1" resolve="Docker Access Local Host" />
       </node>
       <node concept="3f6AUQ" id="7C5UPHnZAAq" role="X_bjr">
         <node concept="3fT77D" id="7C5UPHnZAAs" role="3f6BbQ">
@@ -133,6 +167,16 @@
         <node concept="3f6BbF" id="7C5UPHnZAAR" role="3f6BbQ">
           <property role="3fT77I" value="." />
         </node>
+      </node>
+      <node concept="19Azo$" id="7C5UPHnZAQW" role="X_bjp">
+        <node concept="3f6AUQ" id="7C5UPHnZAQY" role="1YyRMU">
+          <node concept="3f6BbC" id="7C5UPHnZAR1" role="3f6BbQ">
+            <ref role="3f6BbD" to="aamg:Sv$7iJa8hK" resolve="Local Host" />
+          </node>
+        </node>
+      </node>
+      <node concept="18RnWb" id="7C5UPHnZARq" role="X_bjp">
+        <ref role="AfY4r" node="7C5UPHnZACx" resolve="Docker" />
       </node>
     </node>
   </node>
