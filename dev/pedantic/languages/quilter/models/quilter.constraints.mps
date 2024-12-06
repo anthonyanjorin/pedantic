@@ -235,7 +235,7 @@
   </registry>
   <node concept="1M2fIO" id="7BVCYEQxzEH">
     <property role="3GE5qa" value="patterns.links" />
-    <ref role="1M2myG" to="uyb6:1ap1xRT2L7$" resolve="LinkVariable" />
+    <ref role="1M2myG" to="uyb6:1ap1xRT2L7$" resolve="Link" />
     <node concept="2XrIbr" id="7BVCYEQ$ecl" role="32lrUH">
       <property role="TrG5h" value="makeFilteringScope" />
       <node concept="3uibUv" id="7BVCYEQ$frF" role="3clF45">
@@ -753,7 +753,7 @@
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="7BVCYEQyY4z" role="2OqNvi">
-                  <ref role="3TtcxE" to="uyb6:1ap1xRT2L7B" resolve="objectVariables" />
+                  <ref role="3TtcxE" to="uyb6:1ap1xRT2L7B" resolve="objects" />
                 </node>
               </node>
             </node>
@@ -764,7 +764,7 @@
   </node>
   <node concept="1M2fIO" id="7BVCYEQxThX">
     <property role="3GE5qa" value="patterns.objects" />
-    <ref role="1M2myG" to="uyb6:1ap1xRT2L7x" resolve="ObjectVariable" />
+    <ref role="1M2myG" to="uyb6:1ap1xRT2L7x" resolve="Object" />
     <node concept="1N5Pfh" id="7BVCYEQxTso" role="1Mr941">
       <ref role="1N5Vy1" to="uyb6:1ap1xRT2Ll8" resolve="type" />
       <node concept="3dgokm" id="7BVCYEQxTuu" role="1N6uqs">
