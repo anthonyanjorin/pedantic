@@ -119,40 +119,50 @@
       </concept>
     </language>
     <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
-      <concept id="3193225783692482552" name="quilter.structure.ForbiddenChildConnection_BB" flags="ng" index="2wMOCm" />
-      <concept id="3193225783692482551" name="quilter.structure.ForbiddenTypedConnection_BB" flags="ng" index="2wMOCp" />
-      <concept id="8789799326247465254" name="quilter.structure.UntypedConnection_BB" flags="ng" index="3e2hbc">
+      <concept id="3193225783692482552" name="quilter.structure.ForbiddenChildLink_BB" flags="ng" index="2wMOCm" />
+      <concept id="3193225783692482551" name="quilter.structure.ForbiddenTypedLink_BB" flags="ng" index="2wMOCp" />
+      <concept id="3193225783703260596" name="quilter.structure.ForbiddenObjectConstraint" flags="ng" index="2x4d1q">
+        <property id="3193225783705859679" name="variableName" index="2xdQIL" />
+        <reference id="3193225783703417785" name="csp" index="2x4yTn" />
+        <reference id="3193225783703461735" name="type" index="2x4Wa9" />
+      </concept>
+      <concept id="3193225783709619349" name="quilter.structure.ForbiddenObject_F" flags="ng" index="2xWs_V">
+        <property id="3193225783711000945" name="variableName" index="2xTJiv" />
+        <reference id="3193225783710498111" name="type" index="2xZy3h" />
+        <child id="3193225783710495414" name="allVariablesInRestOfPattern" index="2xZyXo" />
+      </concept>
+      <concept id="8789799326247465254" name="quilter.structure.UntypedLink_BB" flags="ng" index="3e2hbc">
         <child id="8789799326247465256" name="target" index="3e2hb2" />
         <child id="8789799326247465255" name="source" index="3e2hbd" />
       </concept>
-      <concept id="8789799326247482561" name="quilter.structure.ChildConnection_BF" flags="ng" index="3e2lsF">
+      <concept id="8789799326247482561" name="quilter.structure.ChildLink_BF" flags="ng" index="3e2lsF">
         <child id="8789799326247482562" name="source" index="3e2lsC" />
         <child id="8789799326247482563" name="target" index="3e2lsD" />
       </concept>
-      <concept id="8789799326247482564" name="quilter.structure.ChildConnection_FB" flags="ng" index="3e2lsI">
+      <concept id="8789799326247482564" name="quilter.structure.ChildLink_FB" flags="ng" index="3e2lsI">
         <child id="8789799326247482566" name="target" index="3e2lsG" />
         <child id="8789799326247482565" name="source" index="3e2lsJ" />
       </concept>
-      <concept id="8789799326247482558" name="quilter.structure.ChildConnection_BB" flags="ng" index="3e2ltk">
+      <concept id="8789799326247482558" name="quilter.structure.ChildLink_BB" flags="ng" index="3e2ltk">
         <child id="8789799326247482560" name="target" index="3e2lsE" />
         <child id="8789799326247482559" name="source" index="3e2ltl" />
       </concept>
       <concept id="8789799326247432952" name="quilter.structure.FreeVariable" flags="ng" index="3e2p4i" />
       <concept id="8789799326247432951" name="quilter.structure.BoundVariable" flags="ng" index="3e2p4t" />
-      <concept id="8789799326247423512" name="quilter.structure.Type_F" flags="ng" index="3e2qRM">
-        <reference id="4995516962153213357" name="value" index="3FLKAo" />
+      <concept id="8789799326247423512" name="quilter.structure.TypedObject_F" flags="ng" index="3e2qRM">
+        <reference id="4995516962153213357" name="type" index="3FLKAo" />
         <child id="8789799326247432990" name="adornedVariable" index="3e2p3O" />
       </concept>
-      <concept id="8789799326247423513" name="quilter.structure.Type_B" flags="ng" index="3e2qRN">
+      <concept id="8789799326247423513" name="quilter.structure.TypedObject_B" flags="ng" index="3e2qRN">
         <reference id="4995516962152074198" name="value" index="3FOeZz" />
         <child id="8789799326247432989" name="adornedVariable" index="3e2p3R" />
       </concept>
-      <concept id="8789799326247445833" name="quilter.structure.TypedConnection_BF" flags="ng" index="3e2sqz">
+      <concept id="8789799326247445833" name="quilter.structure.TypedLink_BF" flags="ng" index="3e2sqz">
         <reference id="2831616614558720038" name="type" index="3l_wLC" />
         <child id="8789799326247445834" name="source" index="3e2sqw" />
         <child id="8789799326247445835" name="target" index="3e2sqx" />
       </concept>
-      <concept id="8789799326247445830" name="quilter.structure.TypedConnection_BB" flags="ng" index="3e2sqG">
+      <concept id="8789799326247445830" name="quilter.structure.TypedLink_BB" flags="ng" index="3e2sqG">
         <reference id="2831616614558686062" name="type" index="3l_Fsw" />
         <child id="8789799326247445832" name="target" index="3e2sqy" />
         <child id="8789799326247445831" name="source" index="3e2sqH" />
@@ -167,7 +177,7 @@
       <concept id="8789799326247353102" name="quilter.structure.Operation" flags="ng" index="3e2Pz$">
         <reference id="4995516962133953191" name="constraint" index="3CfmUi" />
       </concept>
-      <concept id="8789799326246411078" name="quilter.structure.UntypedConnection" flags="ng" index="3e6jyG">
+      <concept id="8789799326246411078" name="quilter.structure.UntypedLinkConstraint" flags="ng" index="3e6jyG">
         <property id="3193225783691154500" name="isForbidden" index="2wPKAE" />
         <reference id="8789799326244297586" name="source" index="3eevyo" />
         <reference id="8789799326244297587" name="target" index="3eevyp" />
@@ -177,12 +187,12 @@
         <child id="8789799326243232564" name="variables" index="3eirzu" />
         <child id="8789799326242967254" name="constraints" index="3elqOW" />
       </concept>
-      <concept id="8789799326242958368" name="quilter.structure.ChildConnection" flags="ng" index="3el$Za" />
-      <concept id="8789799326242958366" name="quilter.structure.TypedConnection" flags="ng" index="3el$ZO">
+      <concept id="8789799326242958368" name="quilter.structure.ChildLinkConstraint" flags="ng" index="3el$Za" />
+      <concept id="8789799326242958366" name="quilter.structure.TypedLinkConstraint" flags="ng" index="3el$ZO">
         <reference id="8789799326244297588" name="type" index="3eevyu" />
       </concept>
-      <concept id="8789799326242958365" name="quilter.structure.Type" flags="ng" index="3el$ZR">
-        <reference id="8789799326243279585" name="value" index="3ein4b" />
+      <concept id="8789799326242958365" name="quilter.structure.ObjectConstraint" flags="ng" index="3el$ZR">
+        <reference id="8789799326243279585" name="type" index="3ein4b" />
         <reference id="8789799326243232563" name="variable" index="3eirzp" />
       </concept>
       <concept id="8789799326235935171" name="quilter.structure.ObjectRef" flags="ng" index="3eIm8D">
@@ -214,18 +224,19 @@
         <child id="8789799326235941647" name="ovRefs" index="3eInz_" />
       </concept>
       <concept id="8789799326224677412" name="quilter.structure.ParentLink" flags="ng" index="3frlBe" />
-      <concept id="8789799326224677413" name="quilter.structure.ChildrenLink" flags="ng" index="3frlBf" />
-      <concept id="2831616614568180357" name="quilter.structure.TypedChildConnection_FB" flags="ng" index="3k9trb">
+      <concept id="8789799326224677413" name="quilter.structure.ChildLink" flags="ng" index="3frlBf" />
+      <concept id="2831616614568180357" name="quilter.structure.TypedChildLink_FB" flags="ng" index="3k9trb">
         <reference id="2831616614568205498" name="type" index="3k9n3O" />
         <child id="2831616614568180358" name="source" index="3k9tr8" />
         <child id="2831616614568180359" name="target" index="3k9tr9" />
       </concept>
       <concept id="1340109089921503716" name="quilter.structure.Link" flags="ng" index="3F$xvT">
         <property id="3193225783689214776" name="presence" index="2wemrm" />
-        <reference id="1340109089921504582" name="target" index="3F$xdr" />
+        <reference id="1340109089921504582" name="targetObject" index="3F$xdr" />
         <reference id="1340109089921504630" name="type" index="3F$xdF" />
       </concept>
       <concept id="1340109089921503713" name="quilter.structure.Object" flags="ng" index="3F$xvW">
+        <property id="3193225783697074137" name="presence" index="2wGnCR" />
         <reference id="1340109089921504584" name="type" index="3F$xdl" />
         <child id="1340109089921503721" name="links" index="3F$xvO" />
       </concept>
@@ -579,6 +590,30 @@
       <node concept="3F$xvW" id="2LgBuUcQKeM" role="3F$xvU">
         <property role="TrG5h" value="basket" />
         <ref role="3F$xdl" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2LgBuUcWYuS" role="3F$ThY">
+      <property role="TrG5h" value="NoSecondBasket" />
+      <node concept="3F$xvW" id="2LgBuUcWYuU" role="3F$xvU">
+        <property role="TrG5h" value="basket" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+      </node>
+      <node concept="3F$xvW" id="2LgBuUdAnaU" role="3F$xvU">
+        <property role="TrG5h" value="other" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2LgBuUdM3YR" role="3F$ThY">
+      <property role="TrG5h" value="NoSecondFruit" />
+      <node concept="3F$xvW" id="2LgBuUdM3YT" role="3F$xvU">
+        <property role="TrG5h" value="fruit" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+      <node concept="3F$xvW" id="2LgBuUdM3YU" role="3F$xvU">
+        <property role="TrG5h" value="other" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
       </node>
     </node>
   </node>
@@ -1442,6 +1477,104 @@
             <property role="TrG5h" value="p9" />
           </node>
         </node>
+        <node concept="3eKGHs" id="2LgBuUdM4bY" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="1" />
+          <ref role="3eKGHL" node="2LgBuUcWYuS" resolve="NoSecondBasket" />
+          <node concept="3eImRP" id="2LgBuUdM4c0" role="3eKGHR">
+            <node concept="3eJ099" id="2LgBuUdM4c1" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="2LgBuUdM4c2" role="3eInz_">
+              <ref role="3eIm8I" node="2LgBuUcWYuU" resolve="basket" />
+            </node>
+            <node concept="3eImVg" id="2LgBuUdM4c3" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="2LgBuUdM4co" role="3eliY4">
+            <node concept="3eirzv" id="2LgBuUdM4cp" role="3eirzu">
+              <property role="TrG5h" value="basket" />
+            </node>
+            <node concept="3el$ZR" id="2LgBuUdM4cq" role="3elqOW">
+              <ref role="3eirzp" node="2LgBuUdM4cp" resolve="basket" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+            </node>
+            <node concept="2x4d1q" id="2LgBuUdM4cr" role="3elqOW">
+              <property role="2xdQIL" value="other" />
+              <ref role="2x4yTn" node="2LgBuUdM4co" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="2LgBuUdM4cD" role="3e3QqN">
+            <property role="3e1rJ9" value="110" />
+            <node concept="3e2qRM" id="2LgBuUdM4cE" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUdM4cq" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+              <node concept="3e2p4i" id="2LgBuUdM4cF" role="3e2p3O">
+                <ref role="3e2p4s" node="2LgBuUdM4cp" resolve="basket" />
+              </node>
+            </node>
+            <node concept="2xWs_V" id="2LgBuUdM4cA" role="3e2PzU">
+              <property role="2xTJiv" value="other" />
+              <ref role="3CfmUi" node="2LgBuUdM4cr" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+              <node concept="3e2p4t" id="2LgBuUdM4cB" role="2xZyXo">
+                <ref role="3e2p4s" node="2LgBuUdM4cp" resolve="basket" />
+              </node>
+            </node>
+          </node>
+          <node concept="3xLA65" id="2LgBuUdM4cH" role="lGtFl">
+            <property role="TrG5h" value="p10" />
+          </node>
+        </node>
+        <node concept="3eKGHs" id="2LgBuUdM4cJ" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="0" />
+          <ref role="3eKGHL" node="2LgBuUdM3YR" resolve="NoSecondFruit" />
+          <node concept="3eImRP" id="2LgBuUdM4cL" role="3eKGHR">
+            <node concept="3eJ099" id="2LgBuUdM4cM" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="2LgBuUdM4cN" role="3eInz_">
+              <ref role="3eIm8I" node="2LgBuUdM3YT" resolve="fruit" />
+            </node>
+            <node concept="3eImVg" id="2LgBuUdM4cO" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="2LgBuUdM4d9" role="3eliY4">
+            <node concept="3eirzv" id="2LgBuUdM4da" role="3eirzu">
+              <property role="TrG5h" value="fruit" />
+            </node>
+            <node concept="3el$ZR" id="2LgBuUdM4db" role="3elqOW">
+              <ref role="3eirzp" node="2LgBuUdM4da" resolve="fruit" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="2x4d1q" id="2LgBuUdM4dc" role="3elqOW">
+              <property role="2xdQIL" value="other" />
+              <ref role="2x4yTn" node="2LgBuUdM4d9" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="2LgBuUdM4dq" role="3e3QqN">
+            <property role="3e1rJ9" value="110" />
+            <node concept="3e2qRM" id="2LgBuUdM4dr" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUdM4db" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="2LgBuUdM4ds" role="3e2p3O">
+                <ref role="3e2p4s" node="2LgBuUdM4da" resolve="fruit" />
+              </node>
+            </node>
+            <node concept="2xWs_V" id="2LgBuUdM4dn" role="3e2PzU">
+              <property role="2xTJiv" value="other" />
+              <ref role="3CfmUi" node="2LgBuUdM4dc" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4t" id="2LgBuUdM4do" role="2xZyXo">
+                <ref role="3e2p4s" node="2LgBuUdM4da" resolve="fruit" />
+              </node>
+            </node>
+          </node>
+          <node concept="3xLA65" id="2LgBuUdM4du" role="lGtFl">
+            <property role="TrG5h" value="p11" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1LZb2c" id="2tbV4VNC3Gk" role="1SL9yI">
@@ -1730,6 +1863,64 @@
             <node concept="3TrcHB" id="2LgBuUcQLsy" role="2OqNvi">
               <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2LgBuUdM4dM" role="1SL9yI">
+      <property role="TrG5h" value="noSecondFruitbasket" />
+      <node concept="3cqZAl" id="2LgBuUdM4dN" role="3clF45" />
+      <node concept="3clFbS" id="2LgBuUdM4dO" role="3clF47">
+        <node concept="3clFbF" id="2LgBuUdM4dP" role="3cqZAp">
+          <node concept="2OqwBi" id="2LgBuUdM4dQ" role="3clFbG">
+            <node concept="3xONca" id="2LgBuUdM4dR" role="2Oq$k0">
+              <ref role="3xOPvv" node="2LgBuUdM4cH" resolve="p10" />
+            </node>
+            <node concept="2qgKlT" id="2LgBuUdM4dS" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="2LgBuUdM4dT" role="3cqZAp">
+          <node concept="2OqwBi" id="2LgBuUdM4dV" role="3tpDZA">
+            <node concept="3xONca" id="2LgBuUdM4dW" role="2Oq$k0">
+              <ref role="3xOPvv" node="2LgBuUdM4cH" resolve="p10" />
+            </node>
+            <node concept="3TrcHB" id="2LgBuUdM4dX" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="2LgBuUdM4tu" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2LgBuUdM4ye" role="1SL9yI">
+      <property role="TrG5h" value="noSecondFruit" />
+      <node concept="3cqZAl" id="2LgBuUdM4yf" role="3clF45" />
+      <node concept="3clFbS" id="2LgBuUdM4yg" role="3clF47">
+        <node concept="3clFbF" id="2LgBuUdM4yh" role="3cqZAp">
+          <node concept="2OqwBi" id="2LgBuUdM4yi" role="3clFbG">
+            <node concept="3xONca" id="2LgBuUdM4yj" role="2Oq$k0">
+              <ref role="3xOPvv" node="2LgBuUdM4du" resolve="p11" />
+            </node>
+            <node concept="2qgKlT" id="2LgBuUdM4yk" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="2LgBuUdM4yl" role="3cqZAp">
+          <node concept="2OqwBi" id="2LgBuUdM4yn" role="3tpDZA">
+            <node concept="3xONca" id="2LgBuUdM4yo" role="2Oq$k0">
+              <ref role="3xOPvv" node="2LgBuUdM4du" resolve="p11" />
+            </node>
+            <node concept="3TrcHB" id="2LgBuUdM4yp" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="2LgBuUdM4Hm" role="3tpDZB">
+            <property role="3cmrfH" value="0" />
           </node>
         </node>
       </node>

@@ -108,6 +108,11 @@
     <property role="34LRSv" value="ov" />
     <property role="3GE5qa" value="patterns.objects" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2LgBuUcSuvp" role="1TKVEl">
+      <property role="IQ2nx" value="3193225783697074137" />
+      <property role="TrG5h" value="presence" />
+      <ref role="AX2Wp" node="2LgBuUcqvGZ" resolve="PRESENCE" />
+    </node>
     <node concept="1TJgyj" id="1ap1xRT2L7D" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921503721" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -135,7 +140,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1ap1xRT2Ll6" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921504582" />
-      <property role="20kJfa" value="target" />
+      <property role="20kJfa" value="targetObject" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1ap1xRT2L7x" resolve="Object" />
     </node>
@@ -162,7 +167,7 @@
   </node>
   <node concept="1TIwiD" id="7BVCYEQ_JC_">
     <property role="EcuMT" value="8789799326224677413" />
-    <property role="TrG5h" value="ChildrenLink" />
+    <property role="TrG5h" value="ChildLink" />
     <property role="34LRSv" value="child" />
     <property role="3GE5qa" value="patterns.links" />
     <ref role="1TJDcQ" node="1ap1xRT2L7$" resolve="Link" />
@@ -342,8 +347,8 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKt">
     <property role="EcuMT" value="8789799326242958365" />
-    <property role="TrG5h" value="Type" />
-    <property role="3GE5qa" value="csp" />
+    <property role="TrG5h" value="ObjectConstraint" />
+    <property role="3GE5qa" value="csp.objects" />
     <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
     <node concept="1TJgyj" id="7BVCYERGxGN" role="1TKVEi">
       <property role="IQ2ns" value="8789799326243232563" />
@@ -353,16 +358,16 @@
     </node>
     <node concept="1TJgyj" id="7BVCYERGHbx" role="1TKVEi">
       <property role="IQ2ns" value="8789799326243279585" />
-      <property role="20kJfa" value="value" />
+      <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKu">
     <property role="EcuMT" value="8789799326242958366" />
-    <property role="TrG5h" value="TypedConnection" />
-    <property role="3GE5qa" value="csp" />
-    <ref role="1TJDcQ" node="7BVCYERSDH6" resolve="UntypedConnection" />
+    <property role="TrG5h" value="TypedLinkConstraint" />
+    <property role="3GE5qa" value="csp.links" />
+    <ref role="1TJDcQ" node="7BVCYERSDH6" resolve="UntypedLinkConstraint" />
     <node concept="1TJgyj" id="7BVCYERK_HO" role="1TKVEi">
       <property role="IQ2ns" value="8789799326244297588" />
       <property role="20kJfa" value="type" />
@@ -372,9 +377,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKw">
     <property role="EcuMT" value="8789799326242958368" />
-    <property role="3GE5qa" value="csp" />
-    <property role="TrG5h" value="ChildConnection" />
-    <ref role="1TJDcQ" node="7BVCYERSDH6" resolve="UntypedConnection" />
+    <property role="3GE5qa" value="csp.links" />
+    <property role="TrG5h" value="ChildLinkConstraint" />
+    <ref role="1TJDcQ" node="7BVCYERSDH6" resolve="UntypedLinkConstraint" />
   </node>
   <node concept="1TIwiD" id="7BVCYERFwVl">
     <property role="EcuMT" value="8789799326242967253" />
@@ -407,8 +412,8 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERSDH6">
     <property role="EcuMT" value="8789799326246411078" />
-    <property role="3GE5qa" value="csp" />
-    <property role="TrG5h" value="UntypedConnection" />
+    <property role="3GE5qa" value="csp.links" />
+    <property role="TrG5h" value="UntypedLinkConstraint" />
     <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
     <node concept="1TJgyj" id="7BVCYERK_HM" role="1TKVEi">
       <property role="IQ2ns" value="8789799326244297586" />
@@ -474,12 +479,12 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWwSo">
     <property role="EcuMT" value="8789799326247423512" />
-    <property role="3GE5qa" value="searchplan.operations.typed_object" />
-    <property role="TrG5h" value="Type_F" />
+    <property role="3GE5qa" value="searchplan.operations.objects.typed" />
+    <property role="TrG5h" value="TypedObject_F" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
     <node concept="1TJgyj" id="4ljD3mI_aQH" role="1TKVEi">
       <property role="IQ2ns" value="4995516962153213357" />
-      <property role="20kJfa" value="value" />
+      <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
@@ -492,8 +497,8 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWwSp">
     <property role="EcuMT" value="8789799326247423513" />
-    <property role="3GE5qa" value="searchplan.operations.typed_object" />
-    <property role="TrG5h" value="Type_B" />
+    <property role="3GE5qa" value="searchplan.operations.objects.typed" />
+    <property role="TrG5h" value="TypedObject_B" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
     <node concept="1TJgyj" id="4ljD3mIwOJm" role="1TKVEi">
       <property role="IQ2ns" value="4995516962152074198" />
@@ -523,9 +528,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWAl6">
     <property role="EcuMT" value="8789799326247445830" />
-    <property role="3GE5qa" value="searchplan.operations.typed_link" />
-    <property role="TrG5h" value="TypedConnection_BB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.typed" />
+    <property role="TrG5h" value="TypedLink_BB" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="2tbV4VMRlHI" role="1TKVEi">
       <property role="IQ2ns" value="2831616614558686062" />
       <property role="20kJfa" value="type" />
@@ -549,9 +554,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWAl9">
     <property role="EcuMT" value="8789799326247445833" />
-    <property role="3GE5qa" value="searchplan.operations.typed_link" />
-    <property role="TrG5h" value="TypedConnection_BF" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.typed" />
+    <property role="TrG5h" value="TypedLink_BF" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="2tbV4VMRu0A" role="1TKVEi">
       <property role="IQ2ns" value="2831616614558720038" />
       <property role="20kJfa" value="type" />
@@ -575,9 +580,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWF4A">
     <property role="EcuMT" value="8789799326247465254" />
-    <property role="3GE5qa" value="searchplan.operations.untyped_link" />
-    <property role="TrG5h" value="UntypedConnection_BB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.untyped" />
+    <property role="TrG5h" value="UntypedLink_BB" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="7BVCYERWF4B" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247465255" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -595,9 +600,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWF4D">
     <property role="EcuMT" value="8789799326247465257" />
-    <property role="3GE5qa" value="searchplan.operations.untyped_link" />
-    <property role="TrG5h" value="UntypedConnection_BF" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.untyped" />
+    <property role="TrG5h" value="UntypedLink_BF" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="7BVCYERWF4E" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247465258" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -615,9 +620,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWJiY">
     <property role="EcuMT" value="8789799326247482558" />
-    <property role="3GE5qa" value="searchplan.operations.child" />
-    <property role="TrG5h" value="ChildConnection_BB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.children" />
+    <property role="TrG5h" value="ChildLink_BB" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="7BVCYERWJiZ" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247482559" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -635,9 +640,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWJj1">
     <property role="EcuMT" value="8789799326247482561" />
-    <property role="3GE5qa" value="searchplan.operations.child" />
-    <property role="TrG5h" value="ChildConnection_BF" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.children" />
+    <property role="TrG5h" value="ChildLink_BF" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="7BVCYERWJj2" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247482562" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -655,9 +660,9 @@
   </node>
   <node concept="1TIwiD" id="7BVCYERWJj4">
     <property role="EcuMT" value="8789799326247482564" />
-    <property role="3GE5qa" value="searchplan.operations.child" />
-    <property role="TrG5h" value="ChildConnection_FB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.children" />
+    <property role="TrG5h" value="ChildLink_FB" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="7BVCYERWJj5" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247482565" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -675,16 +680,16 @@
   </node>
   <node concept="1TIwiD" id="4ljD3mHHbWk">
     <property role="EcuMT" value="4995516962138537748" />
-    <property role="3GE5qa" value="searchplan.operations" />
-    <property role="TrG5h" value="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links" />
+    <property role="TrG5h" value="LinkOperation" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
   </node>
   <node concept="1TIwiD" id="2tbV4VNrzE5">
     <property role="EcuMT" value="2831616614568180357" />
-    <property role="3GE5qa" value="searchplan.operations.typed_link" />
-    <property role="TrG5h" value="TypedChildConnection_FB" />
-    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="Connection" />
+    <property role="3GE5qa" value="searchplan.operations.links.typed" />
+    <property role="TrG5h" value="TypedChildLink_FB" />
+    <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
     <node concept="1TJgyj" id="2tbV4VNrDMU" role="1TKVEi">
       <property role="IQ2ns" value="2831616614568205498" />
       <property role="20kJfa" value="type" />
@@ -724,21 +729,78 @@
   </node>
   <node concept="1TIwiD" id="2LgBuUczSGX">
     <property role="EcuMT" value="3193225783691676477" />
-    <property role="3GE5qa" value="searchplan.operations.forbid_link" />
-    <property role="TrG5h" value="ForbiddenUntypedConnection_BB" />
-    <ref role="1TJDcQ" node="7BVCYERWF4A" resolve="UntypedConnection_BB" />
+    <property role="3GE5qa" value="searchplan.operations.links.forbidden" />
+    <property role="TrG5h" value="ForbiddenUntypedLink_BB" />
+    <ref role="1TJDcQ" node="7BVCYERWF4A" resolve="UntypedLink_BB" />
   </node>
   <node concept="1TIwiD" id="2LgBuUcAXvR">
     <property role="EcuMT" value="3193225783692482551" />
-    <property role="3GE5qa" value="searchplan.operations.forbid_link" />
-    <property role="TrG5h" value="ForbiddenTypedConnection_BB" />
-    <ref role="1TJDcQ" node="7BVCYERWAl6" resolve="TypedConnection_BB" />
+    <property role="3GE5qa" value="searchplan.operations.links.forbidden" />
+    <property role="TrG5h" value="ForbiddenTypedLink_BB" />
+    <ref role="1TJDcQ" node="7BVCYERWAl6" resolve="TypedLink_BB" />
   </node>
   <node concept="1TIwiD" id="2LgBuUcAXvS">
     <property role="EcuMT" value="3193225783692482552" />
-    <property role="3GE5qa" value="searchplan.operations.forbid_link" />
-    <property role="TrG5h" value="ForbiddenChildConnection_BB" />
-    <ref role="1TJDcQ" node="7BVCYERWJiY" resolve="ChildConnection_BB" />
+    <property role="3GE5qa" value="searchplan.operations.links.forbidden" />
+    <property role="TrG5h" value="ForbiddenChildLink_BB" />
+    <ref role="1TJDcQ" node="7BVCYERWJiY" resolve="ChildLink_BB" />
+  </node>
+  <node concept="1TIwiD" id="2LgBuUdg4QO">
+    <property role="EcuMT" value="3193225783703260596" />
+    <property role="3GE5qa" value="csp.objects" />
+    <property role="TrG5h" value="ForbiddenObjectConstraint" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyi" id="2LgBuUdpZpv" role="1TKVEl">
+      <property role="IQ2nx" value="3193225783705859679" />
+      <property role="TrG5h" value="variableName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUdgFeT" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783703417785" />
+      <property role="20kJfa" value="csp" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERFwVl" resolve="CSP" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUdh3qr" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783703516827" />
+      <property role="20kJfa" value="incidentLink" />
+      <ref role="20lvS9" node="1ap1xRT2L7$" resolve="Link" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUdh5s7" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783703525127" />
+      <property role="20kJfa" value="connectedObjectVariable" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUdgPXB" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783703461735" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2LgBuUdClil">
+    <property role="EcuMT" value="3193225783709619349" />
+    <property role="3GE5qa" value="searchplan.operations.objects.forbidden" />
+    <property role="TrG5h" value="ForbiddenObject_F" />
+    <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyi" id="2LgBuUdHA_L" role="1TKVEl">
+      <property role="IQ2nx" value="3193225783711000945" />
+      <property role="TrG5h" value="variableName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUdFFOZ" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783710498111" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUdFFaQ" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783710495414" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="allVariablesInRestOfPattern" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
   </node>
 </model>
 

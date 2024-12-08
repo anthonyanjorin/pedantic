@@ -13,7 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.behavior.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.behavior.mps" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.constraints.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.constraints.mps" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.editor.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.editor.mps" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.structure.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="2e835004-4684-4809-9cf8-19aa2d44a20c/r:c91efe0c-250e-4b8f-9476-e8293159a2da(TempModule2e835004-4684-4809-9cf8-19aa2d44a20c/ConsoleModel_287103909579268)">
+            <model ref="971efda5-8005-4a26-abef-4afe64d534f9/r:00b4bc87-663c-4fbe-a10d-e01d51973b85(TempModule971efda5-8005-4a26-abef-4afe64d534f9/ConsoleModel_321602689715104)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -47,11 +50,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2tbV4VOG9Fl">
-                <node concept="3balQm" id="2tbV4VOG9Fm" role="aymYE" />
-                <node concept="2Clz$F" id="2tbV4VOG9Fn" role="aymYO" />
-                <node concept="2_V_lH" id="2tbV4VOG9Fo" role="1PhJh3">
-                  <ref role="2_V_lI" node="2tbV4VOG9Fn" />
+              <node concept="aymSD" id="2LgBuUcpdGu">
+                <node concept="3balQm" id="2LgBuUcpdGv" role="aymYE" />
+                <node concept="2Clz$F" id="2LgBuUcpdGw" role="aymYO" />
+                <node concept="2_V_lH" id="2LgBuUcpdGx" role="1PhJh3">
+                  <ref role="2_V_lI" node="2LgBuUcpdGw" />
                 </node>
               </node>
             </model>
@@ -96,6 +99,7 @@
     <option name="defaultListState">
       <MessageListState>
         <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
       </MessageListState>
     </option>
   </component>
@@ -137,6 +141,22 @@
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="HabaObstgarten [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:2a5a5d9c-6b01-417a-a63c-5c297d4263ba(HabaObstgarten) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/quilter_examples/solutions/HabaObstgarten/models/HabaObstgarten.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="Obstgarten [language]" type="cd46e9f6:LanguageProjectViewNode" />
             </path>
           </expand>
           <select />
