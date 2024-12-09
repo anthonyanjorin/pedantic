@@ -6,19 +6,23 @@
   </languages>
   <imports>
     <import index="wjwp" ref="r:09762c2c-84c4-4d3c-86ba-5448ddf98491(_01_domain_model)" />
+    <import index="xqh8" ref="r:268bf1c3-502d-4cc5-9b08-a5a7076b17ed(_06_integration_tests)" />
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
       <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
         <child id="6010201709301647773" name="returns" index="$d$W1" />
+        <child id="470559418572020240" name="description" index="1bdd_s" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
+        <child id="8987473119584018448" name="services" index="X_8GZ" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
+        <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -55,6 +59,7 @@
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
+      <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI" />
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
@@ -87,32 +92,50 @@
       <node concept="1fmyMC" id="7C5UPHnZAJK" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAIV" resolve="i9_f3" />
         <ref role="3zGEs9" node="7C5UPHnZAJg" resolve="json_arango" />
-        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
-        <ref role="3zGEsl" node="Sv$7iJa8hG" resolve="Json_for_arango" />
+        <ref role="1fmyM6" node="7C5UPHnZAYK" resolve="i11_ArangoCollection" />
+        <ref role="3zGEsl" node="7C5UPHnZB13" resolve="doc_for_coll" />
       </node>
       <node concept="1fmyMC" id="Sv$7iJa8i6" role="1fmyMH">
-        <ref role="1fmyM0" node="Sv$7iJa8g4" resolve="i3_arangodb" />
-        <ref role="3zGEs9" node="Sv$7iJa8hH" resolve="conn:http://localhost:8529" />
-        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
-        <ref role="3zGEsl" node="Sv$7iJa8hP" resolve="http://localhost:8529" />
+        <ref role="1fmyM0" node="Sv$7iJa8g6" resolve="i4_python" />
+        <ref role="3zGEs9" node="7C5UPHnZAXm" resolve="http_connection_localhost:8529" />
+        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEsl" node="7C5UPHnZAXr" resolve="conn:http://localhost:8529" />
       </node>
       <node concept="1fmyMC" id="Sv$7iJa8iI" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_f1" />
-        <ref role="3zGEs9" node="7C5UPHnZAGw" resolve="arango_database" />
+        <ref role="3zGEs9" node="7C5UPHnZAW1" resolve="arango_database" />
         <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
-        <ref role="3zGEsl" node="7C5UPHnZAGy" resolve="Database" />
+        <ref role="3zGEsl" node="7C5UPHnZAZi" resolve="Database" />
       </node>
       <node concept="1fmyMC" id="7C5UPHnZAIr" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAIq" resolve="i8_f2" />
         <ref role="3zGEs9" node="7C5UPHnZAIp" resolve="Collection" />
-        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
-        <ref role="3zGEsl" node="7C5UPHnZAIs" resolve="Collection" />
+        <ref role="1fmyM6" node="7C5UPHnZAW3" resolve="i10_ArangoDatabase" />
+        <ref role="3zGEsl" node="7C5UPHnZAZO" resolve="Collection" />
       </node>
       <node concept="1fmyMC" id="Sv$7iJa8j4" role="1fmyMH">
         <ref role="1fmyM0" node="Sv$7iJa8j5" resolve="i5_docker" />
         <ref role="3zGEs9" node="Sv$7iJa8iY" resolve="access_localhost:8529" />
         <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
         <ref role="3zGEsl" node="Sv$7iJa8j2" resolve="Access_to_localhost" />
+      </node>
+      <node concept="1fmyMC" id="7C5UPHnZB2w" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAYK" resolve="i11_ArangoCollection" />
+        <ref role="3zGEs9" node="7C5UPHnZB2a" resolve="doc_coll" />
+        <ref role="1fmyM6" node="7C5UPHnZB2v" resolve="i12_ArangoGraph" />
+        <ref role="3zGEsl" node="7C5UPHnZB1Y" resolve="doc1" />
+      </node>
+      <node concept="1fmyMC" id="7C5UPHnZB2x" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAYK" resolve="i11_ArangoCollection" />
+        <ref role="3zGEs9" node="7C5UPHnZB2a" resolve="doc_coll" />
+        <ref role="1fmyM6" node="7C5UPHnZB2v" resolve="i12_ArangoGraph" />
+        <ref role="3zGEsl" node="7C5UPHnZB1Z" resolve="doc2" />
+      </node>
+      <node concept="1fmyMC" id="7C5UPHnZB2y" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAYK" resolve="i11_ArangoCollection" />
+        <ref role="3zGEs9" node="7C5UPHnZB29" resolve="edge_coll" />
+        <ref role="1fmyM6" node="7C5UPHnZB2v" resolve="i12_ArangoGraph" />
+        <ref role="3zGEsl" node="7C5UPHnZB1X" resolve="edge_col" />
       </node>
       <node concept="1fmyMA" id="25VKDKDBxJ5" role="1fmyM_">
         <property role="TrG5h" value="i1_mps" />
@@ -150,6 +173,18 @@
         <property role="TrG5h" value="i9_func3" />
         <ref role="1fmyMB" node="7C5UPHnZAIT" resolve="Function 3: Export JSON Files" />
       </node>
+      <node concept="1fmyMA" id="7C5UPHnZAW3" role="1fmyM_">
+        <property role="TrG5h" value="i10_ArangoDatabase" />
+        <ref role="1fmyMB" node="7C5UPHnZAVS" resolve="Arango Database" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZAYK" role="1fmyM_">
+        <property role="TrG5h" value="i11_ArangoCollection" />
+        <ref role="1fmyMB" node="7C5UPHnZAYs" resolve="Collection" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZB2v" role="1fmyM_">
+        <property role="TrG5h" value="i12_ArangoGraph" />
+        <ref role="1fmyMB" node="7C5UPHnZAZQ" resolve="Arango Graph" />
+      </node>
     </node>
   </node>
   <node concept="1fmyL8" id="25VKDKDBxJa">
@@ -183,46 +218,95 @@
       </node>
     </node>
     <node concept="3f6AUY" id="Sv$7iJa8iZ" role="3f6AUZ">
+      <node concept="X_8GT" id="7C5UPHnZBeN" role="X_8GZ">
+        <property role="TrG5h" value="connection" />
+        <node concept="3f6AUQ" id="7C5UPHnZBeO" role="$d$W1">
+          <node concept="3fT77D" id="7C5UPHnZBeP" role="3f6BbQ">
+            <property role="3fT77I" value="connection" />
+          </node>
+          <node concept="3fT77D" id="7C5UPHnZBeQ" role="3f6BbQ">
+            <property role="3fT77I" value="to" />
+          </node>
+          <node concept="3fT77D" id="7C5UPHnZBeR" role="3f6BbQ">
+            <property role="3fT77I" value="something" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7C5UPHnZBeS" role="1bdd_s">
+          <node concept="3fT77D" id="7C5UPHnZBeT" role="3f6BbQ">
+            <property role="3fT77I" value="dddd" />
+          </node>
+        </node>
+      </node>
       <node concept="3f6AUQ" id="Sv$7iJa8j0" role="3f6AUE" />
       <node concept="3f6AUX" id="Sv$7iJa8j1" role="3f6AUK">
         <property role="TrG5h" value="Docker Access Local Host" />
       </node>
+      <node concept="3BFnmI" id="7C5UPHnZBeM" role="3BFnmE" />
     </node>
     <node concept="3f6AUQ" id="25VKDKDBxLi" role="3f6AUR" />
   </node>
   <node concept="1fmyL8" id="Sv$7iJa8fW">
     <property role="TrG5h" value="ArangoDB " />
-    <node concept="3zGEss" id="Sv$7iJa8hH" role="1fmyMO">
-      <property role="TrG5h" value="conn:http://localhost:8529" />
-      <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="Local Host" />
-    </node>
-    <node concept="3zGEss" id="Sv$7iJa8hG" role="1fmyMU">
-      <property role="TrG5h" value="Json_for_arango" />
-      <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
-    </node>
     <node concept="3zGEss" id="Sv$7iJa8j2" role="1fmyMU">
       <property role="TrG5h" value="Access_to_localhost" />
       <ref role="3zGEsh" node="Sv$7iJa8j1" resolve="Docker Access Local Host" />
     </node>
-    <node concept="3zGEss" id="7C5UPHnZAGy" role="1fmyMU">
+    <node concept="3zGEss" id="7C5UPHnZAXr" role="1fmyMU">
+      <property role="TrG5h" value="conn:http://localhost:8529" />
+      <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="Local Host" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZAZi" role="1fmyMU">
       <property role="TrG5h" value="Database" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
     </node>
-    <node concept="3zGEss" id="7C5UPHnZAIs" role="1fmyMU">
-      <property role="TrG5h" value="Collection" />
-      <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+    <node concept="1fmyMZ" id="7C5UPHnZAVQ" role="1fmyMW">
+      <node concept="1fmyMA" id="7C5UPHnZAVR" role="1fmyM_">
+        <property role="TrG5h" value="ArangoDatabase" />
+        <ref role="1fmyMB" node="7C5UPHnZAVS" resolve="Arango Database" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="7C5UPHnZBgG" role="1fksqA">
+      <node concept="3fT77D" id="7C5UPHnZBgH" role="3f6BbQ">
+        <property role="3fT77I" value="Is" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZBgI" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZBgJ" role="3f6BbQ">
+        <property role="3fT77I" value="ArangoDB" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZBgK" role="3f6BbQ">
+        <property role="3fT77I" value="Component" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZBgL" role="3f6BbQ">
+        <property role="3fT77I" value="in" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZBgM" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZBgN" role="3f6BbQ">
+        <property role="3fT77I" value="System" />
+      </node>
     </node>
   </node>
   <node concept="1fmyL8" id="Sv$7iJa8fX">
     <property role="TrG5h" value="Python Script" />
-    <node concept="3zGEss" id="Sv$7iJa8hP" role="1fmyMU">
-      <property role="TrG5h" value="conn:http://localhost:8529" />
+    <node concept="3zGEss" id="7C5UPHnZAXm" role="1fmyMO">
+      <property role="TrG5h" value="http_connection_localhost:8529" />
       <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="Local Host" />
     </node>
     <node concept="1fmyMZ" id="7C5UPHnZAFM" role="1fmyMW">
       <node concept="1fmyMA" id="7C5UPHnZAG9" role="1fmyM_">
         <property role="TrG5h" value="create_db" />
         <ref role="1fmyMB" node="7C5UPHnZAGb" resolve="Function1: Create Database" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZB7m" role="1fmyM_">
+        <property role="TrG5h" value="create_coll" />
+        <ref role="1fmyMB" node="7C5UPHnZAI7" resolve="Function 2: Create Collection" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZB7n" role="1fmyM_">
+        <property role="TrG5h" value="add_document" />
+        <ref role="1fmyMB" node="7C5UPHnZAIT" resolve="Function 3: Export JSON Files" />
       </node>
     </node>
   </node>
@@ -236,17 +320,43 @@
   </node>
   <node concept="1fmyL8" id="Sv$7iJa8iX">
     <property role="TrG5h" value="Docker" />
+    <node concept="X_8GT" id="7C5UPHnZBcv" role="1vU5Ow">
+      <property role="TrG5h" value="access" />
+      <node concept="3f6AUQ" id="7C5UPHnZBcw" role="$d$W1">
+        <node concept="3fT77D" id="7C5UPHnZBcx" role="3f6BbQ">
+          <property role="3fT77I" value="opening" />
+        </node>
+        <node concept="3f6BbF" id="7C5UPHnZBgw" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="7C5UPHnZBgx" role="3f6BbQ">
+          <property role="3fT77I" value="using" />
+        </node>
+        <node concept="3f6BbC" id="7C5UPHnZBc$" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:7C5UPHnZBbr" resolve="Docker" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7C5UPHnZBcA" role="1bdd_s">
+        <node concept="3fT77D" id="7C5UPHnZBgy" role="3f6BbQ">
+          <property role="3fT77I" value="usage" />
+        </node>
+        <node concept="3fT77D" id="7C5UPHnZBgz" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="7C5UPHnZBg$" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7C5UPHnZBg_" role="3f6BbQ">
+          <property role="3fT77I" value="docker" />
+        </node>
+        <node concept="3fT77D" id="7C5UPHnZBgA" role="3f6BbQ">
+          <property role="3fT77I" value="application" />
+        </node>
+      </node>
+    </node>
     <node concept="3zGEss" id="Sv$7iJa8iY" role="1fmyMO">
       <property role="TrG5h" value="access_localhost:8529" />
       <ref role="3zGEsh" node="Sv$7iJa8j1" resolve="Docker Access Local Host" />
-    </node>
-    <node concept="X_8GT" id="7C5UPHnZARm" role="1vU5Ow">
-      <property role="TrG5h" value="selfservice" />
-      <node concept="3f6AUQ" id="7C5UPHnZARn" role="$d$W1">
-        <node concept="3fT77D" id="7C5UPHnZARo" role="3f6BbQ">
-          <property role="3fT77I" value="sssss" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAEE">
@@ -356,9 +466,9 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAGb">
-    <property role="TrG5h" value="Function 1: Create Database" />
-    <node concept="3zGEss" id="7C5UPHnZAGw" role="1fmyMO">
-      <property role="TrG5h" value="arango_database" />
+    <property role="TrG5h" value="Function1: Create Database" />
+    <node concept="3zGEss" id="7C5UPHnZAW1" role="1fmyMO">
+      <property role="TrG5h" value="created_database" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZAGc" role="1fksqA">
@@ -471,6 +581,58 @@
       <node concept="3f6BbC" id="7C5UPHnZAJe" role="3f6BbQ">
         <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
       </node>
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAVS">
+    <property role="TrG5h" value="Arango Database" />
+    <node concept="3zGEss" id="7C5UPHnZAZO" role="1fmyMU">
+      <property role="TrG5h" value="Collection" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZAZP" role="1fmyMU">
+      <property role="TrG5h" value="GraphDefinition" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8_P" resolve="Graph" />
+    </node>
+    <node concept="1fmyMZ" id="7C5UPHnZAYu" role="1fmyMW">
+      <node concept="1fmyMA" id="7C5UPHnZAYv" role="1fmyM_">
+        <property role="TrG5h" value="ArangoCollection" />
+        <ref role="1fmyMB" node="7C5UPHnZAYs" resolve="Collection" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZAZR" role="1fmyM_">
+        <property role="TrG5h" value="ArangoGraph" />
+        <ref role="1fmyMB" node="7C5UPHnZAZQ" resolve="Arango Graph" />
+      </node>
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAYs">
+    <property role="TrG5h" value="Collection" />
+    <node concept="3zGEss" id="7C5UPHnZB29" role="1fmyMO">
+      <property role="TrG5h" value="edge_coll" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8FH" resolve="Edge-Document" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZB2a" role="1fmyMO">
+      <property role="TrG5h" value="doc_coll" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZB13" role="1fmyMU">
+      <property role="TrG5h" value="receive_doc_input" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
+    </node>
+    <node concept="1fmyMZ" id="7C5UPHnZAYt" role="1fmyMW" />
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAZQ">
+    <property role="TrG5h" value="Arango Graph" />
+    <node concept="3zGEss" id="7C5UPHnZB1X" role="1fmyMU">
+      <property role="TrG5h" value="edge_col" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8FH" resolve="Edge-Document" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZB1Y" role="1fmyMU">
+      <property role="TrG5h" value="doc1" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZB1Z" role="1fmyMU">
+      <property role="TrG5h" value="doc2" />
+      <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
     </node>
   </node>
 </model>

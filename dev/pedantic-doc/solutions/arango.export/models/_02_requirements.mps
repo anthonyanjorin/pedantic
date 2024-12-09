@@ -1554,14 +1554,8 @@
         <node concept="3fT77D" id="Sv$7iJa90z" role="3f6BbQ">
           <property role="3fT77I" value="the" />
         </node>
-        <node concept="3fT77D" id="Sv$7iJa90$" role="3f6BbQ">
-          <property role="3fT77I" value="software" />
-        </node>
-        <node concept="3f6BbF" id="7C5UPHnZALV" role="3f6BbQ">
-          <property role="3fT77I" value="," />
-        </node>
-        <node concept="3fT77D" id="7C5UPHnZALU" role="3f6BbQ">
-          <property role="3fT77I" value="automatically" />
+        <node concept="3f6BbC" id="7C5UPHnZB5D" role="3f6BbQ">
+          <ref role="3f6BbD" node="Sv$7iJa8VY" resolve="MPS User" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8ZR" role="3f6BbQ">
           <property role="3fT77I" value="." />
@@ -1588,7 +1582,7 @@
           <property role="3fT77I" value="extra" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa901" role="3f6BbQ">
-          <property role="3fT77I" value="step" />
+          <property role="3fT77I" value="steps" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa902" role="3f6BbQ">
           <property role="3fT77I" value="for" />
@@ -1625,7 +1619,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8Z0" role="3f6AUK">
-        <property role="TrG5h" value="Automatic setup in ArangoDB" />
+        <property role="TrG5h" value="Semi-Automatic setup in ArangoDB" />
       </node>
       <node concept="3f6AUQ" id="Sv$7iJa90h" role="3jToc2">
         <node concept="3fT77D" id="Sv$7iJa90o" role="3f6BbQ">
@@ -1773,12 +1767,6 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8VY" role="3f6AUK">
         <property role="TrG5h" value="MPS User" />
-      </node>
-    </node>
-    <node concept="3f6AUY" id="Sv$7iJa8Wt" role="3f6AUZ">
-      <node concept="3f6AUQ" id="Sv$7iJa8Wu" role="3f6AUE" />
-      <node concept="3f6AUX" id="Sv$7iJa8Wv" role="3f6AUK">
-        <property role="TrG5h" value="Docker" />
       </node>
     </node>
     <node concept="3f6AUQ" id="Sv$7iJa8VV" role="3f6AUR" />

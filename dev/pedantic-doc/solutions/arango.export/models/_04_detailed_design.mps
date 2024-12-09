@@ -533,5 +533,31 @@
       </node>
     </node>
   </node>
+  <node concept="3UcZMl" id="7C5UPHnZB5B">
+    <property role="TrG5h" value="document_adder()" />
+    <node concept="3f6AUQ" id="7C5UPHnZB5C" role="3f6AUR">
+      <node concept="3fT77D" id="7C5UPHnZB5F" role="3f6BbQ">
+        <property role="3fT77I" value="A" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZB5G" role="3f6BbQ">
+        <property role="3fT77I" value="detailed" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZB5H" role="3f6BbQ">
+        <property role="3fT77I" value="description" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZB5I" role="3f6BbQ">
+        <property role="3fT77I" value="about" />
+      </node>
+      <node concept="1hSrFG" id="7C5UPHnZB5M" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAIT" resolve="Function 3: Export JSON Files" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZB5O" role="3f6BbQ">
+        <property role="3fT77I" value="within" />
+      </node>
+      <node concept="1hSrFG" id="7C5UPHnZB5V" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAIT" resolve="Function 3: Export JSON Files" />
+      </node>
+    </node>
+  </node>
 </model>
 
