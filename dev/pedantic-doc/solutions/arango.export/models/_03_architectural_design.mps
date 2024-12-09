@@ -13,6 +13,9 @@
       <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
         <child id="6010201709301647773" name="returns" index="$d$W1" />
       </concept>
+      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
+        <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -232,14 +235,14 @@
   <node concept="3UcZMl" id="25VKDKDBxLh">
     <property role="TrG5h" value="Interfaces" />
     <node concept="3f6AUY" id="25VKDKDBxLl" role="3f6AUZ">
-      <node concept="3f6AUQ" id="25VKDKDBxLm" role="3f6AUE">
-        <node concept="3fT77D" id="7C5UPHnZKYz" role="3f6BbQ" />
-      </node>
+      <node concept="3f6AUQ" id="25VKDKDBxLm" role="3f6AUE" />
       <node concept="3f6AUX" id="25VKDKDBxLn" role="3f6AUK">
         <property role="TrG5h" value="JSON" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8fV" role="3f6AUK">
         <property role="TrG5h" value="JSON-File" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUQ" id="7C5UPHnZKY$" role="3jToc2" />
       <node concept="3BFnmI" id="7C5UPHnZKY_" role="3BFnmE" />
