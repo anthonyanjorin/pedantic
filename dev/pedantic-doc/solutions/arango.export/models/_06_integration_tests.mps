@@ -11,7 +11,6 @@
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
       <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
         <child id="6010201709267609475" name="participants" index="AfY4v" />
-        <child id="8987473119584018422" name="messages" index="X_bjp" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
@@ -29,22 +28,12 @@
       <concept id="8617956174780088291" name="pedantic.structure.ComponentParticipant" flags="ng" index="1gfTUo">
         <reference id="8617956174780088399" name="ref" index="1gfY4O" />
       </concept>
-      <concept id="8617956174761296789" name="pedantic.structure.TermParticipant" flags="ng" index="1h4ibI">
-        <reference id="8617956174761296791" name="type" index="1h4ibG" />
-      </concept>
       <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
         <reference id="8617956174760287129" name="target" index="1hSrFy" />
-      </concept>
-      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
-        <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
-      </concept>
-      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
-        <reference id="6010201709267609490" name="to" index="AfY4e" />
-        <reference id="6010201709267609485" name="from" index="AfY4h" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -61,25 +50,23 @@
     <property role="TrG5h" value="Activation of Arango Container" />
     <node concept="X_bju" id="7C5UPHnZBbu" role="1LuVN3">
       <property role="TrG5h" value="Run Arango Container " />
-      <node concept="1LuVN4" id="7C5UPHnZBgp" role="X_bjp">
-        <ref role="AfY4h" node="7C5UPHnZBfX" resolve="Tester" />
-        <ref role="AfY4e" node="7C5UPHnZBfy" resolve="Export to ArangoDB.i5_docker" />
-        <ref role="19Fzs9" to="aamg:7C5UPHnZBcv" resolve="access2" />
-      </node>
-      <node concept="1h4ibI" id="7C5UPHnZBfX" role="AfY4v">
-        <property role="TrG5h" value="Tester" />
-        <ref role="1h4ibG" node="7C5UPHnZBfK" resolve="Tester" />
-      </node>
       <node concept="3f6AUQ" id="7C5UPHnZBbw" role="X_bjr" />
-      <node concept="1gfTUo" id="7C5UPHnZBfy" role="AfY4v">
+      <node concept="1gfTUo" id="7C5UPHnZL2k" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.i13_Client" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZKQE" resolve="i13_Client" />
+      </node>
+      <node concept="1gfTUo" id="7C5UPHnZL2m" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.i14_browser" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZKYA" resolve="i14_browser" />
+      </node>
+      <node concept="1gfTUo" id="7C5UPHnZL2p" role="AfY4v">
         <property role="TrG5h" value="Export to ArangoDB.i5_docker" />
         <ref role="1gfY4O" to="aamg:Sv$7iJa8j5" resolve="i5_docker" />
       </node>
-      <node concept="1gfTUo" id="7C5UPHnZBfA" role="AfY4v">
-        <property role="TrG5h" value="Export to ArangoDB.i3_arangodb" />
-        <ref role="1gfY4O" to="aamg:Sv$7iJa8g4" resolve="i3_arangodb" />
+      <node concept="1gfTUo" id="7C5UPHnZL2s" role="AfY4v">
+        <property role="TrG5h" value="Docker Container.ArangoDB" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZBjo" resolve="ArangoDB" />
       </node>
-      <node concept="1gfTUo" id="7C5UPHnZBh0" role="AfY4v" />
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZB9l" role="1LuVN1">
       <node concept="3fT77D" id="7C5UPHnZBab" role="3f6BbQ">
@@ -115,10 +102,52 @@
       <node concept="1hSrFG" id="7C5UPHnZBbi" role="3f6BbQ">
         <ref role="1hSrFy" to="aamg:Sv$7iJa8fW" resolve="ArangoDB " />
       </node>
+      <node concept="3fT77D" id="7C5UPHnZL20" role="3f6BbQ">
+        <property role="3fT77I" value="and" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL2f" role="3f6BbQ">
+        <property role="3fT77I" value="if" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL2g" role="3f6BbQ">
+        <property role="3fT77I" value="it" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL2h" role="3f6BbQ">
+        <property role="3fT77I" value="displays" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL22" role="3f6BbQ">
+        <property role="3fT77I" value="it" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL23" role="3f6BbQ">
+        <property role="3fT77I" value="correctly" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL24" role="3f6BbQ">
+        <property role="3fT77I" value="within" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL25" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="1hSrFG" id="7C5UPHnZL27" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZKY0" resolve="Browser" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL29" role="3f6BbQ">
+        <property role="3fT77I" value="that" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL2a" role="3f6BbQ">
+        <property role="3fT77I" value="is" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL2b" role="3f6BbQ">
+        <property role="3fT77I" value="used" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZL2c" role="3f6BbQ">
+        <property role="3fT77I" value="by" />
+      </node>
+      <node concept="1hSrFG" id="7C5UPHnZL2i" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZKQy" resolve="Client" />
+      </node>
     </node>
   </node>
   <node concept="3UcZMl" id="7C5UPHnZBfG">
-    <property role="TrG5h" value="Integration Test Roles" />
+    <property role="TrG5h" value="Test Interaction with System" />
     <node concept="3f6AUY" id="7C5UPHnZBfI" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZBfJ" role="3f6AUE">
         <node concept="3fT77D" id="7C5UPHnZBfL" role="3f6BbQ">
