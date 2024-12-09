@@ -8,14 +8,14 @@
   <imports />
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
-      <concept id="3390064762381947689" name="pedantic.structure.CanBeObsolete" flags="ngI" index="28kVVp">
+      <concept id="3390064762381947689" name="pedantic.structure.CanBeObsolete" flags="ng" index="28kVVp">
         <property id="3390064762381947690" name="isObsolete" index="28kVVq" />
       </concept>
       <concept id="3891251144740888488" name="pedantic.structure.URL" flags="ng" index="2g75Z$" />
       <concept id="8987473119584727444" name="pedantic.structure.Publishable" flags="ng" index="XwtEV">
         <property id="8987473119584727448" name="author" index="XwtER" />
       </concept>
-      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
+      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ng" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
@@ -57,7 +57,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -4431,10 +4431,10 @@
           <property role="3BFnm9" value="1" />
           <property role="3BFnm2" value="1" />
           <property role="3BFnmf" value="1" />
+          <property role="3BFnm6" value="1" />
           <node concept="3f6BbC" id="Sv$7iJa8ER" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8CX" resolve="graph nodes" />
           </node>
-          <node concept="3fT77D" id="Sv$7iJa8EV" role="3BFnmc" />
           <node concept="3f6AUQ" id="Sv$7iJa8ES" role="ba9K_">
             <node concept="3fT77D" id="Sv$7iJa8ET" role="3f6BbQ">
               <property role="3fT77I" value="consists" />
@@ -6104,13 +6104,13 @@
       </node>
       <node concept="3f6AUQ" id="Sv$7iJa8Ox" role="3jToc2" />
     </node>
+    <node concept="3f6AUQ" id="Sv$7iJa8NW" role="3f6AUR" />
     <node concept="3f6AUY" id="7C5UPHnZBbp" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZBbq" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZBbr" role="3f6AUK">
         <property role="TrG5h" value="Docker" />
       </node>
     </node>
-    <node concept="3f6AUQ" id="Sv$7iJa8NW" role="3f6AUR" />
   </node>
 </model>
 

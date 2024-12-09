@@ -34,7 +34,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -378,9 +378,9 @@
           <property role="3fT77I" value="an" />
         </node>
         <node concept="3f6BbC" id="Sv$7iJa160" role="3f6BbQ">
-          <ref role="3f6BbD" node="5IIk38nbzON" resolve="An MPS User" />
+          <ref role="3f6BbD" node="Sv$7iJa8VY" resolve="MPS User" />
         </node>
-        <node concept="3fT77D" id="Sv$7iJa162" role="3f6BbQ">
+        <node concept="3f6BbF" id="2AekCPxfebl" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="Sv$7iJa163" role="3f6BbQ">
