@@ -68,6 +68,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -122,14 +123,22 @@
       <concept id="3193225783692482552" name="quilter.structure.ForbiddenChildLink_BB" flags="ng" index="2wMOCm" />
       <concept id="3193225783692482551" name="quilter.structure.ForbiddenTypedLink_BB" flags="ng" index="2wMOCp" />
       <concept id="3193225783703260596" name="quilter.structure.ForbiddenObjectConstraint" flags="ng" index="2x4d1q">
-        <property id="3193225783705859679" name="variableName" index="2xdQIL" />
         <reference id="3193225783703417785" name="csp" index="2x4yTn" />
         <reference id="3193225783703461735" name="type" index="2x4Wa9" />
+        <reference id="3193225783703516827" name="incidentLink" index="2x5aHP" />
+        <reference id="3193225783703525127" name="connectedObjectVariable" index="2x5cFD" />
+        <reference id="4853636992404229773" name="forbiddenObject" index="13E9IG" />
       </concept>
-      <concept id="3193225783709619349" name="quilter.structure.ForbiddenObject_F" flags="ng" index="2xWs_V">
+      <concept id="3193225783709619349" name="quilter.structure.ForbiddenObject_B_Star" flags="ng" index="2xWs_V">
         <property id="3193225783711000945" name="variableName" index="2xTJiv" />
         <reference id="3193225783710498111" name="type" index="2xZy3h" />
         <child id="3193225783710495414" name="allVariablesInRestOfPattern" index="2xZyXo" />
+      </concept>
+      <concept id="4853636992413211152" name="quilter.structure.ForbiddenLinkedObjectOp_B_Star" flags="ng" index="129SWL" />
+      <concept id="4853636992415859337" name="quilter.structure.ForbiddenInverselyLinkedObjectOp_B_Star" flags="ng" index="12ZLuC" />
+      <concept id="4853636992404771380" name="quilter.structure.ForbiddenParentOp_B_Star" flags="ng" index="13Ccsl">
+        <property id="4853636992409365818" name="connectedObjectVariableIndex" index="126Jwr" />
+        <reference id="4853636992405307180" name="incidentLinkType" index="12meCd" />
       </concept>
       <concept id="8789799326247465254" name="quilter.structure.UntypedLink_BB" flags="ng" index="3e2hbc">
         <child id="8789799326247465256" name="target" index="3e2hb2" />
@@ -614,6 +623,148 @@
         <property role="TrG5h" value="other" />
         <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
         <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i41bmcP" role="3F$ThY">
+      <property role="TrG5h" value="FruitNotOnATree1" />
+      <node concept="3F$xvW" id="4dr_i41bmHF" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+      </node>
+      <node concept="3F$xvW" id="4dr_i41bmHH" role="3F$xvU">
+        <property role="TrG5h" value="fruit" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+        <node concept="3frlBe" id="4dr_i41bmHP" role="3F$xvO">
+          <property role="TrG5h" value="parent" />
+          <ref role="3F$xdr" node="4dr_i41bmHF" resolve="tree" />
+        </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i41pr9e" role="3F$ThY">
+      <property role="TrG5h" value="FruitNotOnATree2" />
+      <node concept="3F$xvW" id="4dr_i41pr9f" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+        <node concept="3frlBf" id="4dr_i41pr9i" role="3F$xvO">
+          <property role="TrG5h" value="child" />
+          <ref role="3F$xdr" node="4dr_i41pr9g" resolve="fruit" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4dr_i41pr9g" role="3F$xvU">
+        <property role="TrG5h" value="fruit" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i41praI" role="3F$ThY">
+      <property role="TrG5h" value="FruitNotOnATree3" />
+      <node concept="3F$xvW" id="4dr_i41praJ" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+        <node concept="3F$xvT" id="4dr_i41praM" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4dr_i41praL" resolve="fruit" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4dr_i41praL" role="3F$xvU">
+        <property role="TrG5h" value="fruit" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i41r046" role="3F$ThY">
+      <property role="TrG5h" value="FruitTreeWithOnlyOneFruit" />
+      <node concept="3F$xvW" id="4dr_i41r048" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+        <node concept="3F$xvT" id="4dr_i41r04g" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4dr_i41r049" resolve="aFruit" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+        </node>
+        <node concept="3F$xvT" id="4dr_i41r04h" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4dr_i41r04a" resolve="anotherFruit" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4dr_i41r049" role="3F$xvU">
+        <property role="TrG5h" value="aFruit" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+      <node concept="3F$xvW" id="4dr_i41r04a" role="3F$xvU">
+        <property role="TrG5h" value="anotherFruit" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i41CIjM" role="3F$ThY">
+      <property role="TrG5h" value="FruitTreeWithOnlyTwoFruits" />
+      <node concept="3F$xvW" id="4dr_i41CIjO" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+        <node concept="3F$xvT" id="4dr_i41CIjT" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4dr_i41CIjQ" resolve="fruit2" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+        </node>
+        <node concept="3F$xvT" id="4dr_i41CIjW" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+          <ref role="3F$xdr" node="4dr_i41CIjR" resolve="fruit3" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4dr_i41CIjP" role="3F$xvU">
+        <property role="TrG5h" value="fruit1" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+        <node concept="3frlBe" id="4dr_i41CIjV" role="3F$xvO">
+          <property role="TrG5h" value="parent" />
+          <ref role="3F$xdr" node="4dr_i41CIjO" resolve="tree" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4dr_i41CIjQ" role="3F$xvU">
+        <property role="TrG5h" value="fruit2" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+      <node concept="3F$xvW" id="4dr_i41CIjR" role="3F$xvU">
+        <property role="TrG5h" value="fruit3" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i42h8xQ" role="3F$ThY">
+      <property role="TrG5h" value="NoBasketConnectedToFruit" />
+      <node concept="3F$xvW" id="4dr_i42h8xS" role="3F$xvU">
+        <property role="TrG5h" value="fruit" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+      <node concept="3F$xvW" id="4dr_i42h8xT" role="3F$xvU">
+        <property role="TrG5h" value="basket" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+        <node concept="3F$xvT" id="4dr_i42h8xU" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4dr_i42h8xS" resolve="fruit" />
+        </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4dr_i42jQXv" role="3F$ThY">
+      <property role="TrG5h" value="NoRavenOnSegment" />
+      <node concept="3F$xvW" id="4dr_i42jQXx" role="3F$xvU">
+        <property role="TrG5h" value="raven" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N58" resolve="Raven" />
+        <node concept="3F$xvT" id="4dr_i42jRAB" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4dr_i42jQXy" resolve="segment" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFu" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4dr_i42jQXy" role="3F$xvU">
+        <property role="TrG5h" value="segment" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
       </node>
     </node>
   </node>
@@ -1481,6 +1632,9 @@
           <property role="3Fq0gx" value="2" />
           <property role="3eKfJL" value="1" />
           <ref role="3eKGHL" node="2LgBuUcWYuS" resolve="NoSecondBasket" />
+          <node concept="3xLA65" id="2LgBuUdM4cH" role="lGtFl">
+            <property role="TrG5h" value="p10" />
+          </node>
           <node concept="3eImRP" id="2LgBuUdM4c0" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUdM4c1" role="3eIkDU">
               <property role="3eJ09e" value="pre-match" />
@@ -1490,46 +1644,46 @@
             </node>
             <node concept="3eImVg" id="2LgBuUdM4c3" role="3eImRb" />
           </node>
-          <node concept="3elqOZ" id="2LgBuUdM4co" role="3eliY4">
-            <node concept="3eirzv" id="2LgBuUdM4cp" role="3eirzu">
+          <node concept="3elqOZ" id="4dr_i41prr1" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41prr2" role="3eirzu">
               <property role="TrG5h" value="basket" />
             </node>
-            <node concept="3el$ZR" id="2LgBuUdM4cq" role="3elqOW">
-              <ref role="3eirzp" node="2LgBuUdM4cp" resolve="basket" />
+            <node concept="3el$ZR" id="4dr_i41prr3" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41prr2" resolve="basket" />
               <ref role="3ein4b" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
             </node>
-            <node concept="2x4d1q" id="2LgBuUdM4cr" role="3elqOW">
-              <property role="2xdQIL" value="other" />
-              <ref role="2x4yTn" node="2LgBuUdM4co" />
+            <node concept="2x4d1q" id="4dr_i41prr4" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41prr1" />
               <ref role="2x4Wa9" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+              <ref role="13E9IG" node="2LgBuUdAnaU" resolve="other" />
             </node>
           </node>
-          <node concept="3e2OTI" id="2LgBuUdM4cD" role="3e3QqN">
+          <node concept="3e2OTI" id="4dr_i41prri" role="3e3QqN">
             <property role="3e1rJ9" value="110" />
-            <node concept="3e2qRM" id="2LgBuUdM4cE" role="3e2PzU">
-              <ref role="3CfmUi" node="2LgBuUdM4cq" />
+            <node concept="3e2qRM" id="4dr_i41prrj" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41prr3" />
               <ref role="3FLKAo" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
-              <node concept="3e2p4i" id="2LgBuUdM4cF" role="3e2p3O">
-                <ref role="3e2p4s" node="2LgBuUdM4cp" resolve="basket" />
+              <node concept="3e2p4i" id="4dr_i41prrk" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41prr2" resolve="basket" />
               </node>
             </node>
-            <node concept="2xWs_V" id="2LgBuUdM4cA" role="3e2PzU">
+            <node concept="2xWs_V" id="4dr_i41prrf" role="3e2PzU">
               <property role="2xTJiv" value="other" />
-              <ref role="3CfmUi" node="2LgBuUdM4cr" />
+              <ref role="3CfmUi" node="4dr_i41prr4" />
               <ref role="2xZy3h" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
-              <node concept="3e2p4t" id="2LgBuUdM4cB" role="2xZyXo">
-                <ref role="3e2p4s" node="2LgBuUdM4cp" resolve="basket" />
+              <node concept="3e2p4t" id="4dr_i41prrg" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41prr2" resolve="basket" />
               </node>
             </node>
-          </node>
-          <node concept="3xLA65" id="2LgBuUdM4cH" role="lGtFl">
-            <property role="TrG5h" value="p10" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUdM4cJ" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" node="2LgBuUdM3YR" resolve="NoSecondFruit" />
+          <node concept="3xLA65" id="2LgBuUdM4du" role="lGtFl">
+            <property role="TrG5h" value="p11" />
+          </node>
           <node concept="3eImRP" id="2LgBuUdM4cL" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUdM4cM" role="3eIkDU">
               <property role="3eJ09e" value="pre-match" />
@@ -1539,40 +1693,514 @@
             </node>
             <node concept="3eImVg" id="2LgBuUdM4cO" role="3eImRb" />
           </node>
-          <node concept="3elqOZ" id="2LgBuUdM4d9" role="3eliY4">
-            <node concept="3eirzv" id="2LgBuUdM4da" role="3eirzu">
+          <node concept="3elqOZ" id="4dr_i41prvK" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41prvL" role="3eirzu">
               <property role="TrG5h" value="fruit" />
             </node>
-            <node concept="3el$ZR" id="2LgBuUdM4db" role="3elqOW">
-              <ref role="3eirzp" node="2LgBuUdM4da" resolve="fruit" />
+            <node concept="3el$ZR" id="4dr_i41prvM" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41prvL" resolve="fruit" />
               <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
             </node>
-            <node concept="2x4d1q" id="2LgBuUdM4dc" role="3elqOW">
-              <property role="2xdQIL" value="other" />
-              <ref role="2x4yTn" node="2LgBuUdM4d9" />
+            <node concept="2x4d1q" id="4dr_i41prvN" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41prvK" />
               <ref role="2x4Wa9" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <ref role="13E9IG" node="2LgBuUdM3YU" resolve="other" />
             </node>
           </node>
-          <node concept="3e2OTI" id="2LgBuUdM4dq" role="3e3QqN">
+          <node concept="3e2OTI" id="4dr_i41prw1" role="3e3QqN">
             <property role="3e1rJ9" value="110" />
-            <node concept="3e2qRM" id="2LgBuUdM4dr" role="3e2PzU">
-              <ref role="3CfmUi" node="2LgBuUdM4db" />
+            <node concept="3e2qRM" id="4dr_i41prw2" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41prvM" />
               <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
-              <node concept="3e2p4i" id="2LgBuUdM4ds" role="3e2p3O">
-                <ref role="3e2p4s" node="2LgBuUdM4da" resolve="fruit" />
+              <node concept="3e2p4i" id="4dr_i41prw3" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41prvL" resolve="fruit" />
               </node>
             </node>
-            <node concept="2xWs_V" id="2LgBuUdM4dn" role="3e2PzU">
+            <node concept="2xWs_V" id="4dr_i41prvY" role="3e2PzU">
               <property role="2xTJiv" value="other" />
-              <ref role="3CfmUi" node="2LgBuUdM4dc" />
+              <ref role="3CfmUi" node="4dr_i41prvN" />
               <ref role="2xZy3h" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
-              <node concept="3e2p4t" id="2LgBuUdM4do" role="2xZyXo">
-                <ref role="3e2p4s" node="2LgBuUdM4da" resolve="fruit" />
+              <node concept="3e2p4t" id="4dr_i41prvZ" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41prvL" resolve="fruit" />
               </node>
             </node>
           </node>
-          <node concept="3xLA65" id="2LgBuUdM4du" role="lGtFl">
-            <property role="TrG5h" value="p11" />
+        </node>
+        <node concept="3eKGHs" id="4dr_i41puF7" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="2" />
+          <ref role="3eKGHL" node="4dr_i41bmcP" resolve="FruitNotOnATree1" />
+          <node concept="3xLA65" id="4dr_i41puFx" role="lGtFl">
+            <property role="TrG5h" value="p12" />
+          </node>
+          <node concept="3eImRP" id="4dr_i41puF9" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i41puFa" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41puFb" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41bmHH" resolve="fruit" />
+            </node>
+            <node concept="3eImVg" id="4dr_i41puFc" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="4dr_i41puFy" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41puFz" role="3eirzu">
+              <property role="TrG5h" value="fruit" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41puF$" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41puFz" resolve="fruit" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i41puF_" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41puFy" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <ref role="2x5aHP" node="4dr_i41bmHP" resolve="parent" />
+              <ref role="2x5cFD" node="4dr_i41puFz" resolve="fruit" />
+              <ref role="13E9IG" node="4dr_i41bmHF" resolve="tree" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i41puFN" role="3e3QqN">
+            <property role="3e1rJ9" value="110" />
+            <node concept="3e2qRM" id="4dr_i41puFO" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41puF$" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="4dr_i41puFP" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41puFz" resolve="fruit" />
+              </node>
+            </node>
+            <node concept="13Ccsl" id="4dr_i41puFK" role="3e2PzU">
+              <property role="2xTJiv" value="tree" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i41puF_" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <node concept="3e2p4t" id="4dr_i41puFL" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41puFz" resolve="fruit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="4dr_i41puFS" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="2" />
+          <ref role="3eKGHL" node="4dr_i41pr9e" resolve="FruitNotOnATree2" />
+          <node concept="3xLA65" id="4dr_i41puFT" role="lGtFl">
+            <property role="TrG5h" value="p13" />
+          </node>
+          <node concept="3eImRP" id="4dr_i41puFU" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i41puFV" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41puG7" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41pr9g" resolve="fruit" />
+            </node>
+            <node concept="3eImVg" id="4dr_i41puG8" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="4dr_i41puGt" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41puGu" role="3eirzu">
+              <property role="TrG5h" value="fruit" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41puGv" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41puGu" resolve="fruit" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i41puGw" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41puGt" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <ref role="2x5aHP" node="4dr_i41pr9i" resolve="child" />
+              <ref role="2x5cFD" node="4dr_i41puGu" resolve="fruit" />
+              <ref role="13E9IG" node="4dr_i41pr9f" resolve="tree" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i41puGI" role="3e3QqN">
+            <property role="3e1rJ9" value="110" />
+            <node concept="3e2qRM" id="4dr_i41puGJ" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41puGv" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="4dr_i41puGK" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41puGu" resolve="fruit" />
+              </node>
+            </node>
+            <node concept="13Ccsl" id="4dr_i41puGF" role="3e2PzU">
+              <property role="2xTJiv" value="tree" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i41puGw" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <node concept="3e2p4t" id="4dr_i41puGG" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41puGu" resolve="fruit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="4dr_i41puGN" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="2" />
+          <ref role="3eKGHL" node="4dr_i41praI" resolve="FruitNotOnATree3" />
+          <node concept="3xLA65" id="4dr_i41puGO" role="lGtFl">
+            <property role="TrG5h" value="p14" />
+          </node>
+          <node concept="3eImRP" id="4dr_i41puGP" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i41puGQ" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41puH2" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41praL" resolve="fruit" />
+            </node>
+            <node concept="3eImVg" id="4dr_i41puH3" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="4dr_i41puHo" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41puHp" role="3eirzu">
+              <property role="TrG5h" value="fruit" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41puHq" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41puHp" resolve="fruit" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i41puHr" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41puHo" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <ref role="2x5aHP" node="4dr_i41praM" resolve="_" />
+              <ref role="2x5cFD" node="4dr_i41puHp" resolve="fruit" />
+              <ref role="13E9IG" node="4dr_i41praJ" resolve="tree" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i41puHD" role="3e3QqN">
+            <property role="3e1rJ9" value="110" />
+            <node concept="3e2qRM" id="4dr_i41puHE" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41puHq" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="4dr_i41puHF" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41puHp" resolve="fruit" />
+              </node>
+            </node>
+            <node concept="13Ccsl" id="4dr_i41puHA" role="3e2PzU">
+              <property role="2xTJiv" value="tree" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i41puHr" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <ref role="12meCd" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+              <node concept="3e2p4t" id="4dr_i41puHB" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41puHp" resolve="fruit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="4dr_i41CL9a" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="1" />
+          <ref role="3eKGHL" node="4dr_i41r046" resolve="FruitTreeWithOnlyOneFruit" />
+          <node concept="3xLA65" id="4dr_i41CL9b" role="lGtFl">
+            <property role="TrG5h" value="p15" />
+          </node>
+          <node concept="3eImRP" id="4dr_i41CL9c" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i41CL9d" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41CL9p" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41r048" resolve="tree" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41CL9q" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41r049" resolve="aFruit" />
+            </node>
+            <node concept="3eImVg" id="4dr_i41CL9r" role="3eImRb" />
+            <node concept="3eImVg" id="4dr_i41CL9s" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="4dr_i41CLbZ" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41CLc0" role="3eirzu">
+              <property role="TrG5h" value="tree" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41CLc1" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41CLc0" resolve="tree" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+            </node>
+            <node concept="3eirzv" id="4dr_i41CLc2" role="3eirzu">
+              <property role="TrG5h" value="aFruit" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41CLc3" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41CLc2" resolve="aFruit" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="3el$ZO" id="4dr_i41CLc4" role="3elqOW">
+              <property role="2wPKAE" value="false" />
+              <ref role="3eevyo" node="4dr_i41CLc0" resolve="tree" />
+              <ref role="3eevyp" node="4dr_i41CLc2" resolve="aFruit" />
+              <ref role="3eevyu" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i41CLc5" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41CLbZ" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <ref role="2x5aHP" node="4dr_i41r04h" resolve="_" />
+              <ref role="2x5cFD" node="4dr_i41CLc0" resolve="tree" />
+              <ref role="13E9IG" node="4dr_i41r04a" resolve="anotherFruit" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i41CLea" role="3e3QqN">
+            <property role="3e1rJ9" value="116" />
+            <node concept="3e2qRM" id="4dr_i41CLeb" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLc3" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="4dr_i41CLec" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41CLc2" resolve="aFruit" />
+              </node>
+            </node>
+            <node concept="3k9trb" id="4dr_i41CLed" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLc4" />
+              <ref role="3k9n3O" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+              <node concept="3e2p4i" id="4dr_i41CLee" role="3k9tr8">
+                <ref role="3e2p4s" node="4dr_i41CLc0" resolve="tree" />
+              </node>
+              <node concept="3e2p4t" id="4dr_i41CLef" role="3k9tr9">
+                <ref role="3e2p4s" node="4dr_i41CLc2" resolve="aFruit" />
+              </node>
+            </node>
+            <node concept="3e2qRN" id="4dr_i41CLeg" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLc1" />
+              <ref role="3FOeZz" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <node concept="3e2p4t" id="4dr_i41CLeh" role="3e2p3R">
+                <ref role="3e2p4s" node="4dr_i41CLc0" resolve="tree" />
+              </node>
+            </node>
+            <node concept="129SWL" id="4dr_i41CLe5" role="3e2PzU">
+              <property role="2xTJiv" value="anotherFruit" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i41CLc5" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <ref role="12meCd" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+              <node concept="3e2p4t" id="4dr_i41CLe6" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41CLc0" resolve="tree" />
+              </node>
+              <node concept="3e2p4t" id="4dr_i41CLe7" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41CLc2" resolve="aFruit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="4dr_i41CLez" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="4" />
+          <ref role="3eKGHL" node="4dr_i41CIjM" resolve="FruitTreeWithOnlyTwoFruits" />
+          <node concept="3xLA65" id="4dr_i41CLe$" role="lGtFl">
+            <property role="TrG5h" value="p16" />
+          </node>
+          <node concept="3eImRP" id="4dr_i41CLe_" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i41CLeA" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41CLf6" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41CIjO" resolve="tree" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41CLf7" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41CIjP" resolve="fruit1" />
+            </node>
+            <node concept="3eIm8D" id="4dr_i41CLf8" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i41CIjQ" resolve="fruit2" />
+            </node>
+            <node concept="3eImVg" id="4dr_i41CLf9" role="3eImRb" />
+            <node concept="3eImVg" id="4dr_i41CLfa" role="3eImRb" />
+            <node concept="3eImVg" id="4dr_i41CLfb" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="4dr_i41CLme" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i41CLmf" role="3eirzu">
+              <property role="TrG5h" value="tree" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41CLmg" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41CLmf" resolve="tree" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+            </node>
+            <node concept="3eirzv" id="4dr_i41CLmh" role="3eirzu">
+              <property role="TrG5h" value="fruit1" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41CLmi" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41CLmh" resolve="fruit1" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="3eirzv" id="4dr_i41CLmj" role="3eirzu">
+              <property role="TrG5h" value="fruit2" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i41CLmk" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i41CLmj" resolve="fruit2" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="3el$ZO" id="4dr_i41CLml" role="3elqOW">
+              <property role="2wPKAE" value="false" />
+              <ref role="3eevyo" node="4dr_i41CLmf" resolve="tree" />
+              <ref role="3eevyp" node="4dr_i41CLmj" resolve="fruit2" />
+              <ref role="3eevyu" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+            </node>
+            <node concept="3el$Za" id="4dr_i41CLmm" role="3elqOW">
+              <property role="2wPKAE" value="false" />
+              <ref role="3eevyp" node="4dr_i41CLmh" resolve="fruit1" />
+              <ref role="3eevyo" node="4dr_i41CLmf" resolve="tree" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i41CLmn" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i41CLme" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <ref role="2x5aHP" node="4dr_i41CIjW" resolve="_" />
+              <ref role="2x5cFD" node="4dr_i41CLmf" resolve="tree" />
+              <ref role="13E9IG" node="4dr_i41CIjR" resolve="fruit3" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i41CLsH" role="3e3QqN">
+            <property role="3e1rJ9" value="137" />
+            <node concept="3e2qRM" id="4dr_i41CLsI" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLmi" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="4dr_i41CLsJ" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i41CLmh" resolve="fruit1" />
+              </node>
+            </node>
+            <node concept="3e2lsI" id="4dr_i41CLsK" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLmm" />
+              <node concept="3e2p4i" id="4dr_i41CLsL" role="3e2lsJ">
+                <ref role="3e2p4s" node="4dr_i41CLmf" resolve="tree" />
+              </node>
+              <node concept="3e2p4t" id="4dr_i41CLsM" role="3e2lsG">
+                <ref role="3e2p4s" node="4dr_i41CLmh" resolve="fruit1" />
+              </node>
+            </node>
+            <node concept="3e2qRN" id="4dr_i41CLsN" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLmg" />
+              <ref role="3FOeZz" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+              <node concept="3e2p4t" id="4dr_i41CLsO" role="3e2p3R">
+                <ref role="3e2p4s" node="4dr_i41CLmf" resolve="tree" />
+              </node>
+            </node>
+            <node concept="3e2sqz" id="4dr_i41CLsP" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLml" />
+              <ref role="3l_wLC" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+              <node concept="3e2p4t" id="4dr_i41CLsQ" role="3e2sqw">
+                <ref role="3e2p4s" node="4dr_i41CLmf" resolve="tree" />
+              </node>
+              <node concept="3e2p4i" id="4dr_i41CLsR" role="3e2sqx">
+                <ref role="3e2p4s" node="4dr_i41CLmj" resolve="fruit2" />
+              </node>
+            </node>
+            <node concept="3e2qRN" id="4dr_i41CLsS" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i41CLmk" />
+              <ref role="3FOeZz" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4t" id="4dr_i41CLsT" role="3e2p3R">
+                <ref role="3e2p4s" node="4dr_i41CLmj" resolve="fruit2" />
+              </node>
+            </node>
+            <node concept="129SWL" id="4dr_i41CLsA" role="3e2PzU">
+              <property role="2xTJiv" value="fruit3" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i41CLmn" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <ref role="12meCd" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+              <node concept="3e2p4t" id="4dr_i41CLsB" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41CLmf" resolve="tree" />
+              </node>
+              <node concept="3e2p4t" id="4dr_i41CLsC" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41CLmh" resolve="fruit1" />
+              </node>
+              <node concept="3e2p4t" id="4dr_i41CLsD" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i41CLmj" resolve="fruit2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="4dr_i42jRTS" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="4" />
+          <ref role="3eKGHL" node="4dr_i42jQXv" resolve="NoRavenOnSegment" />
+          <node concept="3xLA65" id="4dr_i42jRTT" role="lGtFl">
+            <property role="TrG5h" value="p17" />
+          </node>
+          <node concept="3eImRP" id="4dr_i42jRTU" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i42jRTV" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eImVg" id="4dr_i42jRTZ" role="3eImRb" />
+            <node concept="3eIm8D" id="4dr_i42jRUR" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i42jQXy" resolve="segment" />
+            </node>
+          </node>
+          <node concept="3elqOZ" id="4dr_i42jRVc" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i42jRVd" role="3eirzu">
+              <property role="TrG5h" value="segment" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i42jRVe" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i42jRVd" resolve="segment" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i42jRVf" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i42jRVc" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N58" resolve="Raven" />
+              <ref role="2x5aHP" node="4dr_i42jRAB" resolve="_" />
+              <ref role="2x5cFD" node="4dr_i42jRVd" resolve="segment" />
+              <ref role="13E9IG" node="4dr_i42jQXx" resolve="raven" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i42jRVt" role="3e3QqN">
+            <property role="3e1rJ9" value="150" />
+            <node concept="3e2qRM" id="4dr_i42jRVu" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i42jRVe" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+              <node concept="3e2p4i" id="4dr_i42jRVv" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i42jRVd" resolve="segment" />
+              </node>
+            </node>
+            <node concept="12ZLuC" id="4dr_i42jRVq" role="3e2PzU">
+              <property role="2xTJiv" value="raven" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i42jRVf" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N58" resolve="Raven" />
+              <ref role="12meCd" to="5e0r:7BVCYER1NFu" resolve="on" />
+              <node concept="3e2p4t" id="4dr_i42jRVr" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i42jRVd" resolve="segment" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="4dr_i42jRUi" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="5" />
+          <ref role="3eKGHL" node="4dr_i42h8xQ" resolve="NoBasketConnectedToFruit" />
+          <node concept="3xLA65" id="4dr_i42jRUj" role="lGtFl">
+            <property role="TrG5h" value="p18" />
+          </node>
+          <node concept="3eImRP" id="4dr_i42jRUk" role="3eKGHR">
+            <node concept="3eJ099" id="4dr_i42jRUl" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eImVg" id="4dr_i42jRUq" role="3eImRb" />
+            <node concept="3eIm8D" id="4dr_i42jRVx" role="3eInz_">
+              <ref role="3eIm8I" node="4dr_i42h8xS" resolve="fruit" />
+            </node>
+          </node>
+          <node concept="3elqOZ" id="4dr_i42jRVQ" role="3eliY4">
+            <node concept="3eirzv" id="4dr_i42jRVR" role="3eirzu">
+              <property role="TrG5h" value="fruit" />
+            </node>
+            <node concept="3el$ZR" id="4dr_i42jRVS" role="3elqOW">
+              <ref role="3eirzp" node="4dr_i42jRVR" resolve="fruit" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+            </node>
+            <node concept="2x4d1q" id="4dr_i42jRVT" role="3elqOW">
+              <ref role="2x4yTn" node="4dr_i42jRVQ" />
+              <ref role="2x4Wa9" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+              <ref role="2x5aHP" node="4dr_i42h8xU" resolve="_" />
+              <ref role="2x5cFD" node="4dr_i42jRVR" resolve="fruit" />
+              <ref role="13E9IG" node="4dr_i42h8xT" resolve="basket" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="4dr_i42jRW7" role="3e3QqN">
+            <property role="3e1rJ9" value="150" />
+            <node concept="3e2qRM" id="4dr_i42jRW8" role="3e2PzU">
+              <ref role="3CfmUi" node="4dr_i42jRVS" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              <node concept="3e2p4i" id="4dr_i42jRW9" role="3e2p3O">
+                <ref role="3e2p4s" node="4dr_i42jRVR" resolve="fruit" />
+              </node>
+            </node>
+            <node concept="12ZLuC" id="4dr_i42jRW4" role="3e2PzU">
+              <property role="2xTJiv" value="basket" />
+              <property role="126Jwr" value="0" />
+              <ref role="3CfmUi" node="4dr_i42jRVT" />
+              <ref role="2xZy3h" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
+              <node concept="3e2p4t" id="4dr_i42jRW5" role="2xZyXo">
+                <ref role="3e2p4s" node="4dr_i42jRVR" resolve="fruit" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1921,6 +2549,188 @@
           </node>
           <node concept="3cmrfG" id="2LgBuUdM4Hm" role="3tpDZB">
             <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4dr_i41puI0" role="1SL9yI">
+      <property role="TrG5h" value="fruitNotOnATree" />
+      <node concept="3cqZAl" id="4dr_i41puI1" role="3clF45" />
+      <node concept="3clFbS" id="4dr_i41puI5" role="3clF47">
+        <node concept="3clFbF" id="4dr_i41puKG" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i41puX2" role="3clFbG">
+            <node concept="3xONca" id="4dr_i41puKF" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41puFx" resolve="p12" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i41pvnQ" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4dr_i41pvzu" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i41pvLU" role="3clFbG">
+            <node concept="3xONca" id="4dr_i41pvzs" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41puFT" resolve="p13" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i41pw6_" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4dr_i41pwiz" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i41pwxa" role="3clFbG">
+            <node concept="3xONca" id="4dr_i41pwix" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41puGO" resolve="p14" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i41pwQN" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4dr_i41pwYr" role="3cqZAp" />
+        <node concept="3vlDli" id="4dr_i41px37" role="3cqZAp">
+          <node concept="3cmrfG" id="4dr_i41pxAD" role="3tpDZB">
+            <property role="3cmrfH" value="2" />
+          </node>
+          <node concept="2OqwBi" id="4dr_i41pxme" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i41px7N" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41puFx" resolve="p12" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i41pxxT" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="4dr_i41pxJU" role="3cqZAp">
+          <node concept="3cmrfG" id="4dr_i41pxJV" role="3tpDZB">
+            <property role="3cmrfH" value="2" />
+          </node>
+          <node concept="2OqwBi" id="4dr_i41pxJW" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i41pxJX" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41puFT" resolve="p13" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i41pxJY" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="4dr_i41pxQ6" role="3cqZAp">
+          <node concept="3cmrfG" id="4dr_i41pxQ7" role="3tpDZB">
+            <property role="3cmrfH" value="2" />
+          </node>
+          <node concept="2OqwBi" id="4dr_i41pxQ8" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i41pxQ9" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41puGO" resolve="p14" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i41pxQa" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4dr_i41CLt$" role="1SL9yI">
+      <property role="TrG5h" value="fruitTreeWithOnly" />
+      <node concept="3cqZAl" id="4dr_i41CLt_" role="3clF45" />
+      <node concept="3clFbS" id="4dr_i41CLtD" role="3clF47">
+        <node concept="3clFbF" id="4dr_i41CLv0" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i41CLHe" role="3clFbG">
+            <node concept="3xONca" id="4dr_i41CLuZ" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41CL9b" resolve="p15" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i41CM82" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4dr_i41CMg4" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i41CMiF" role="3clFbG">
+            <node concept="3xONca" id="4dr_i41CMg2" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41CLe$" resolve="p16" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i41CM$r" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4dr_i41CMCj" role="3cqZAp" />
+        <node concept="3vlDli" id="4dr_i41CMCZ" role="3cqZAp">
+          <node concept="3cmrfG" id="4dr_i41CMY_" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="4dr_i41CMQ3" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i41CMHw" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41CL9b" resolve="p15" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i41CMXP" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="4dr_i41CN5K" role="3cqZAp">
+          <node concept="3cmrfG" id="4dr_i41CNlm" role="3tpDZB">
+            <property role="3cmrfH" value="4" />
+          </node>
+          <node concept="2OqwBi" id="4dr_i41CNcV" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i41CNah" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i41CLe$" resolve="p16" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i41CNkA" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4dr_i42jRRu" role="1SL9yI">
+      <property role="TrG5h" value="forbidInverseConnections" />
+      <node concept="3cqZAl" id="4dr_i42jRRv" role="3clF45" />
+      <node concept="3clFbS" id="4dr_i42jRRz" role="3clF47">
+        <node concept="3clFbF" id="4dr_i42jRWg" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i42jRWh" role="3clFbG">
+            <node concept="3xONca" id="4dr_i42jRWi" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i42jRTT" resolve="p17" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i42jRWj" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4dr_i42jRWk" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i42jRWl" role="3clFbG">
+            <node concept="3xONca" id="4dr_i42jRWm" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i42jRUj" resolve="p18" />
+            </node>
+            <node concept="2qgKlT" id="4dr_i42jRWn" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updateAndExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4dr_i42jRWo" role="3cqZAp" />
+        <node concept="3vlDli" id="4dr_i42jRWp" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i42jRWr" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i42jRWs" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i42jRTT" resolve="p17" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i42jRWt" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="4dr_i42k1l1" role="3tpDZB">
+            <property role="3cmrfH" value="4" />
+          </node>
+        </node>
+        <node concept="3vlDli" id="4dr_i42jRWu" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i42jRWw" role="3tpDZA">
+            <node concept="3xONca" id="4dr_i42jRWx" role="2Oq$k0">
+              <ref role="3xOPvv" node="4dr_i42jRUj" resolve="p18" />
+            </node>
+            <node concept="3TrcHB" id="4dr_i42jRWy" role="2OqNvi">
+              <ref role="3TsBF5" to="uyb6:7BVCYERePwr" resolve="nrOfMatches" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="4dr_i42k1px" role="3tpDZB">
+            <property role="3cmrfH" value="5" />
           </node>
         </node>
       </node>

@@ -750,11 +750,6 @@
     <property role="3GE5qa" value="csp.objects" />
     <property role="TrG5h" value="ForbiddenObjectConstraint" />
     <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
-    <node concept="1TJgyi" id="2LgBuUdpZpv" role="1TKVEl">
-      <property role="IQ2nx" value="3193225783705859679" />
-      <property role="TrG5h" value="variableName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="2LgBuUdgFeT" role="1TKVEi">
       <property role="IQ2ns" value="3193225783703417785" />
       <property role="20kJfa" value="csp" />
@@ -765,6 +760,12 @@
       <property role="IQ2ns" value="3193225783703516827" />
       <property role="20kJfa" value="incidentLink" />
       <ref role="20lvS9" node="1ap1xRT2L7$" resolve="Link" />
+    </node>
+    <node concept="1TJgyj" id="4dr_i40WKUd" role="1TKVEi">
+      <property role="IQ2ns" value="4853636992404229773" />
+      <property role="20kJfa" value="forbiddenObject" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2L7x" resolve="Object" />
     </node>
     <node concept="1TJgyj" id="2LgBuUdh5s7" role="1TKVEi">
       <property role="IQ2ns" value="3193225783703525127" />
@@ -781,7 +782,7 @@
   <node concept="1TIwiD" id="2LgBuUdClil">
     <property role="EcuMT" value="3193225783709619349" />
     <property role="3GE5qa" value="searchplan.operations.objects.forbidden" />
-    <property role="TrG5h" value="ForbiddenObject_F" />
+    <property role="TrG5h" value="ForbiddenObject_B_Star" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
     <node concept="1TJgyi" id="2LgBuUdHA_L" role="1TKVEl">
       <property role="IQ2nx" value="3193225783711000945" />
@@ -801,6 +802,40 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4dr_i40YP8O">
+    <property role="EcuMT" value="4853636992404771380" />
+    <property role="3GE5qa" value="searchplan.operations.objects.forbidden" />
+    <property role="TrG5h" value="ForbiddenParentOp_B_Star" />
+    <ref role="1TJDcQ" node="2LgBuUdClil" resolve="ForbiddenObject_B_Star" />
+    <node concept="1TJgyj" id="4dr_i410RWG" role="1TKVEi">
+      <property role="IQ2ns" value="4853636992405307180" />
+      <property role="20kJfa" value="incidentLinkType" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="1TJgyi" id="4dr_i41gmOU" role="1TKVEl">
+      <property role="IQ2nx" value="4853636992409365818" />
+      <property role="TrG5h" value="connectedObjectVariableIndex" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4dr_i41v1Cg">
+    <property role="EcuMT" value="4853636992413211152" />
+    <property role="3GE5qa" value="searchplan.operations.objects.forbidden" />
+    <property role="TrG5h" value="ForbiddenLinkedObjectOp_B_Star" />
+    <ref role="1TJDcQ" node="4dr_i40YP8O" resolve="ForbiddenParentOp_B_Star" />
+  </node>
+  <node concept="1TIwiD" id="4dr_i41D6Kk">
+    <property role="EcuMT" value="4853636992415853588" />
+    <property role="3GE5qa" value="searchplan.operations.objects.forbidden" />
+    <property role="TrG5h" value="ForbiddenChildOp_B_Star" />
+    <ref role="1TJDcQ" node="4dr_i40YP8O" resolve="ForbiddenParentOp_B_Star" />
+  </node>
+  <node concept="1TIwiD" id="4dr_i41D8a9">
+    <property role="EcuMT" value="4853636992415859337" />
+    <property role="3GE5qa" value="searchplan.operations.objects.forbidden" />
+    <property role="TrG5h" value="ForbiddenInverselyLinkedObjectOp_B_Star" />
+    <ref role="1TJDcQ" node="4dr_i40YP8O" resolve="ForbiddenParentOp_B_Star" />
   </node>
 </model>
 

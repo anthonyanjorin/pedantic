@@ -7,7 +7,6 @@
       <modulePath path="$PROJECT_DIR$/languages/plantuml/plantuml.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/quilter/quilter.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/pedantic.build/pedantic.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/pedantic.tests/pedantic.tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/plantuml.plugin/plantuml.plugin.msd" folder="" />
     </projectModules>
   </component>
