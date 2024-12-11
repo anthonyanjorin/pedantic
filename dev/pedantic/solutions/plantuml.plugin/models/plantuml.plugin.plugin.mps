@@ -3784,34 +3784,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3DzuiyYgO92" role="3cqZAp" />
-        <node concept="3cpWs8" id="3DzuiyYfq2I" role="3cqZAp">
-          <node concept="3cpWsn" id="3DzuiyYfq2L" role="3cpWs9">
-            <property role="TrG5h" value="dialog" />
-            <node concept="3uibUv" id="6TQOip$CWcg" role="1tU5fm">
-              <ref role="3uigEE" to="dxuu:~JDialog" resolve="JDialog" />
-            </node>
-            <node concept="2ShNRf" id="3DzuiyYfQj3" role="33vP2m">
-              <node concept="1pGfFk" id="3DzuiyYgebg" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="dxuu:~JDialog.&lt;init&gt;()" resolve="JDialog" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6TQOipxs_KL" role="3cqZAp">
-          <node concept="2OqwBi" id="6TQOipxsB3d" role="3clFbG">
-            <node concept="37vLTw" id="6TQOipxs_KJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
-            </node>
-            <node concept="liA8E" id="6TQOipxsCZU" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Dialog.setTitle(java.lang.String)" resolve="setTitle" />
-              <node concept="Xl_RD" id="6TQOipxsDJ_" role="37wK5m">
-                <property role="Xl_RC" value="Search for a model element" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3DzuiyYgBBz" role="3cqZAp" />
         <node concept="3cpWs8" id="6TQOipxnQ67" role="3cqZAp">
           <node concept="3cpWsn" id="6TQOipxnQ68" role="3cpWs9">
             <property role="TrG5h" value="searchWindow" />
@@ -3859,7 +3831,7 @@
                         <ref role="3cqZAo" node="3DzuiyYgVez" resolve="repo" />
                       </node>
                     </node>
-                    <node concept="3clFbH" id="3DzuiyYk8pH" role="3cqZAp" />
+                    <node concept="3clFbH" id="4dr_i42BjKo" role="3cqZAp" />
                     <node concept="3cpWs8" id="3DzuiyYgSjQ" role="3cqZAp">
                       <node concept="3cpWsn" id="3DzuiyYgSjR" role="3cpWs9">
                         <property role="TrG5h" value="svgViewer" />
@@ -3917,61 +3889,27 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="53iYGAiAKKx" role="3cqZAp" />
-        <node concept="3clFbF" id="6TQOipxqo6u" role="3cqZAp">
-          <node concept="2OqwBi" id="6TQOipxqpnR" role="3clFbG">
-            <node concept="37vLTw" id="6TQOipxqo6s" role="2Oq$k0">
-              <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
+        <node concept="3clFbH" id="4dr_i42Bk2A" role="3cqZAp" />
+        <node concept="3cpWs8" id="4dr_i42CcRo" role="3cqZAp">
+          <node concept="3cpWsn" id="4dr_i42CcRp" role="3cpWs9">
+            <property role="TrG5h" value="dialog" />
+            <node concept="3uibUv" id="4dr_i42CcRq" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JDialog" resolve="JDialog" />
             </node>
-            <node concept="liA8E" id="6TQOipxqrHV" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JDialog.setContentPane(java.awt.Container)" resolve="setContentPane" />
-              <node concept="37vLTw" id="6TQOipxqwrY" role="37wK5m">
+            <node concept="2OqwBi" id="4dr_i42CkA9" role="33vP2m">
+              <node concept="37vLTw" id="4dr_i42Cjys" role="2Oq$k0">
                 <ref role="3cqZAo" node="6TQOipxnQ68" resolve="searchWindow" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6TQOipxQgXa" role="3cqZAp">
-          <node concept="2OqwBi" id="6TQOipxQigj" role="3clFbG">
-            <node concept="37vLTw" id="6TQOipxQgX8" role="2Oq$k0">
-              <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
-            </node>
-            <node concept="liA8E" id="6TQOipxQkmi" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Window.setSize(int,int)" resolve="setSize" />
-              <node concept="3cmrfG" id="6TQOipxQl7V" role="37wK5m">
-                <property role="3cmrfH" value="100" />
+              <node concept="liA8E" id="4dr_i42D1zk" role="2OqNvi">
+                <ref role="37wK5l" to="lsyl:4dr_i42CNkO" resolve="getDialog" />
               </node>
-              <node concept="3cmrfG" id="6TQOipxQpX_" role="37wK5m">
-                <property role="3cmrfH" value="100" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6TQOipxq$WZ" role="3cqZAp">
-          <node concept="2OqwBi" id="6TQOipxq_Di" role="3clFbG">
-            <node concept="37vLTw" id="6TQOipxq$WX" role="2Oq$k0">
-              <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
-            </node>
-            <node concept="liA8E" id="6TQOipxq_VI" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Window.pack()" resolve="pack" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6TQOipxQ$qu" role="3cqZAp">
-          <node concept="2OqwBi" id="6TQOipxQ_ME" role="3clFbG">
-            <node concept="37vLTw" id="6TQOipxQ$qs" role="2Oq$k0">
-              <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
-            </node>
-            <node concept="liA8E" id="6TQOipxQC9K" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Window.setLocationRelativeTo(java.awt.Component)" resolve="setLocationRelativeTo" />
-              <node concept="10Nm6u" id="6TQOipxQEWX" role="37wK5m" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="6TQOipxqEnL" role="3cqZAp">
           <node concept="2OqwBi" id="6TQOipxqFQ2" role="3clFbG">
             <node concept="37vLTw" id="6TQOipxqEnJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
+              <ref role="3cqZAo" node="4dr_i42CcRp" resolve="dialog" />
             </node>
             <node concept="liA8E" id="6TQOipxqHqz" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Dialog.setVisible(boolean)" resolve="setVisible" />
@@ -3981,59 +3919,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6TQOipxRUmz" role="3cqZAp" />
-        <node concept="3clFbF" id="6TQOipxRYPo" role="3cqZAp">
-          <node concept="2OqwBi" id="6TQOipxS3kM" role="3clFbG">
-            <node concept="2OqwBi" id="6TQOipxRZYH" role="2Oq$k0">
-              <node concept="37vLTw" id="6TQOipxRYPm" role="2Oq$k0">
-                <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
-              </node>
-              <node concept="liA8E" id="6TQOipxS2JJ" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~JDialog.getRootPane()" resolve="getRootPane" />
-              </node>
+        <node concept="3clFbF" id="4dr_i42$QtA" role="3cqZAp">
+          <node concept="2OqwBi" id="4dr_i42$RUT" role="3clFbG">
+            <node concept="37vLTw" id="4dr_i42$Qt$" role="2Oq$k0">
+              <ref role="3cqZAo" node="4dr_i42CcRp" resolve="dialog" />
             </node>
-            <node concept="liA8E" id="6TQOipxS5ce" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JComponent.registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)" resolve="registerKeyboardAction" />
-              <node concept="1bVj0M" id="6TQOipxS6Ek" role="37wK5m">
-                <node concept="3clFbS" id="6TQOipxS6El" role="1bW5cS">
-                  <node concept="3clFbF" id="6TQOipxSbba" role="3cqZAp">
-                    <node concept="2OqwBi" id="6TQOipxScvZ" role="3clFbG">
-                      <node concept="37vLTw" id="6TQOipxSbb9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3DzuiyYfq2L" resolve="dialog" />
-                      </node>
-                      <node concept="liA8E" id="6TQOipxSerJ" role="2OqNvi">
-                        <ref role="37wK5l" to="z60i:~Dialog.setVisible(boolean)" resolve="setVisible" />
-                        <node concept="3clFbT" id="6TQOipxShRj" role="37wK5m" />
-                      </node>
-                    </node>
-                  </node>
+            <node concept="liA8E" id="4dr_i42$TST" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Window.setLocation(java.awt.Point)" resolve="setLocation" />
+              <node concept="2OqwBi" id="4dr_i42_tcg" role="37wK5m">
+                <node concept="2YIFZM" id="4dr_i42_t3y" role="2Oq$k0">
+                  <ref role="37wK5l" to="z60i:~MouseInfo.getPointerInfo()" resolve="getPointerInfo" />
+                  <ref role="1Pybhc" to="z60i:~MouseInfo" resolve="MouseInfo" />
                 </node>
-                <node concept="37vLTG" id="6TQOipxSEwV" role="1bW2Oz">
-                  <property role="TrG5h" value="ae" />
-                  <node concept="3uibUv" id="6TQOipxSEwU" role="1tU5fm">
-                    <ref role="3uigEE" to="hyam:~ActionEvent" resolve="ActionEvent" />
-                  </node>
+                <node concept="liA8E" id="4dr_i42_tkx" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~PointerInfo.getLocation()" resolve="getLocation" />
                 </node>
-              </node>
-              <node concept="2YIFZM" id="6TQOipxSlHa" role="37wK5m">
-                <ref role="37wK5l" to="dxuu:~KeyStroke.getKeyStroke(int,int)" resolve="getKeyStroke" />
-                <ref role="1Pybhc" to="dxuu:~KeyStroke" resolve="KeyStroke" />
-                <node concept="10M0yZ" id="6TQOipxSpdX" role="37wK5m">
-                  <ref role="3cqZAo" to="hyam:~KeyEvent.VK_ESCAPE" resolve="VK_ESCAPE" />
-                  <ref role="1PxDUh" to="hyam:~KeyEvent" resolve="KeyEvent" />
-                </node>
-                <node concept="3cmrfG" id="6TQOipxSr2G" role="37wK5m">
-                  <property role="3cmrfH" value="0" />
-                </node>
-              </node>
-              <node concept="10M0yZ" id="6TQOipxS$B$" role="37wK5m">
-                <ref role="3cqZAo" to="dxuu:~JComponent.WHEN_IN_FOCUSED_WINDOW" resolve="WHEN_IN_FOCUSED_WINDOW" />
-                <ref role="1PxDUh" to="dxuu:~JComponent" resolve="JComponent" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3DzuiyYgf1k" role="3cqZAp" />
       </node>
     </node>
     <node concept="mfpdH" id="6TQOip_Rf3V" role="med8o" />

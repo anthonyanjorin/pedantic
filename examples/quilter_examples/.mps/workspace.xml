@@ -13,13 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example">
-      <change beforePath="$PROJECT_DIR$/../../dev/pedantic/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dev/pedantic/.mps/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dev/pedantic/languages/quilter/models/quilter.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/../../dev/pedantic/languages/quilter/models/quilter.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../dev/pedantic/languages/quilter/models/quilter.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/../../dev/pedantic/languages/quilter/models/quilter.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dev/pedantic/languages/quilter/models/quilter.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/../../dev/pedantic/languages/quilter/models/quilter.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dev/pedantic/solutions/pedantic.tests/models/pedantic_tests.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dev/pedantic/solutions/pedantic.tests/pedantic.tests.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dev/pedantic/solutions/plantuml.plugin/models/plantuml.plugin.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/../../dev/pedantic/solutions/plantuml.plugin/models/plantuml.plugin.plugin.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/HabaObstgarten/models/HabaObstgarten.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +28,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="04e552bc-65b0-418b-9f73-615d518c54ca/r:a0754fb8-66cd-484a-bd02-20550a03d125(TempModule04e552bc-65b0-418b-9f73-615d518c54ca/ConsoleModel_558694291442299)">
+            <model ref="fd68fbf2-1c2a-4601-be3e-e3a9d9469958/r:0992fca1-1c78-4314-a909-391b48d653b9(TempModulefd68fbf2-1c2a-4601-be3e-e3a9d9469958/ConsoleModel_640623567214400)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +48,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4dr_i40UrK1">
-                <node concept="3balQm" id="4dr_i40UrK2" role="aymYE" />
-                <node concept="2Clz$F" id="4dr_i40UrK3" role="aymYO" />
-                <node concept="2_V_lH" id="4dr_i40UrK4" role="1PhJh3">
-                  <ref role="2_V_lI" node="4dr_i40UrK3" />
+              <node concept="aymSD" id="4dr_i41qQxS">
+                <node concept="3balQm" id="4dr_i41qQxT" role="aymYE" />
+                <node concept="2Clz$F" id="4dr_i41qQxU" role="aymYO" />
+                <node concept="2_V_lH" id="4dr_i41qQxV" role="1PhJh3">
+                  <ref role="2_V_lI" node="4dr_i41qQxU" />
                 </node>
               </node>
             </model>
