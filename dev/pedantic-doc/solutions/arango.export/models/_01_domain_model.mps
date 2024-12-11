@@ -11,6 +11,9 @@
       <concept id="8987473119584727444" name="pedantic.structure.Publishable" flags="ng" index="XwtEV">
         <property id="8987473119584727448" name="author" index="XwtER" />
       </concept>
+      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
+        <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -77,6 +80,7 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8yd" role="3f6AUK">
         <property role="TrG5h" value="ArangoDB" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUQ" id="Sv$7iJa8yr" role="3jToc2">
         <node concept="3fT77D" id="Sv$7iJa8ys" role="3f6BbQ">
@@ -484,7 +488,7 @@
           <property role="3fT77I" value="a" />
         </node>
         <node concept="3f6BbC" id="Sv$7iJa8JT" role="3f6BbQ">
-          <ref role="3f6BbD" node="3wDyTgG5Wth" resolve="Collection" />
+          <ref role="3f6BbD" node="Sv$7iJa8$y" resolve="Collection" />
         </node>
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8JD" role="3f6AUK">
@@ -1924,7 +1928,7 @@
     <node concept="3f6AUY" id="7C5UPHnZZ3P" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZZ3Q" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZZ3R" role="3f6AUK">
-        <property role="TrG5h" value="Script" />
+        <property role="TrG5h" value="Python Script" />
       </node>
     </node>
     <node concept="3f6AUQ" id="Sv$7iJa8tk" role="3f6AUR" />
@@ -2428,6 +2432,7 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8Vh" role="3f6AUK">
         <property role="TrG5h" value="JSON" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8Vi" role="3f6AUK">
         <property role="TrG5h" value="JSON-File" />

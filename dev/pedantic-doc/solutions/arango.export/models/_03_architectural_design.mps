@@ -12,6 +12,7 @@
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
       <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
         <child id="6010201709301647773" name="returns" index="$d$W1" />
+        <child id="470559418572020240" name="description" index="1bdd_s" />
       </concept>
       <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
@@ -31,6 +32,7 @@
       </concept>
       <concept id="4928100702460203921" name="pedantic.structure.WordExtensionRight" flags="ng" index="3f6BbF" />
       <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
+        <property id="6606305879459122677" name="isActor" index="1d4xR7" />
         <child id="6606305879429250182" name="provided" index="1fmyMO" />
         <child id="6606305879429250184" name="required" index="1fmyMU" />
         <child id="8617956174793374811" name="services" index="1vU5Ow" />
@@ -391,6 +393,7 @@
   </node>
   <node concept="1fmyL8" id="Sv$7iJa8fW">
     <property role="TrG5h" value="ArangoDB " />
+    <property role="3GE5qa" value="ArangoDB" />
     <node concept="3zGEss" id="7C5UPHnZKOG" role="1fmyMO">
       <property role="TrG5h" value="ConnectionToPython" />
       <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="PyArango Connection" />
@@ -442,6 +445,7 @@
   </node>
   <node concept="1fmyL8" id="Sv$7iJa8fX">
     <property role="TrG5h" value="Python Script" />
+    <property role="3GE5qa" value="Python" />
     <node concept="3zGEss" id="7C5UPHnZKOH" role="1fmyMU">
       <property role="TrG5h" value="Connection_arangodb" />
       <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="PyArango Connection" />
@@ -464,6 +468,31 @@
   <node concept="1fmyL8" id="Sv$7iJa8gB">
     <property role="3GE5qa" value="MPS" />
     <property role="TrG5h" value="Pedantic" />
+    <node concept="X_8GT" id="7J16yTfmAL$" role="1vU5Ow">
+      <property role="TrG5h" value="ArangoDBExportConfig" />
+      <node concept="3f6AUQ" id="7J16yTfmAV_" role="$d$W1" />
+      <node concept="3f6AUQ" id="7J16yTfmCQm" role="1bdd_s">
+        <node concept="3fT77D" id="7J16yTfmDmW" role="3f6BbQ">
+          <property role="3fT77I" value="export" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfmDmX" role="3f6BbQ">
+          <property role="3fT77I" value="JSON" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfmD5p" role="3f6BbQ">
+          <property role="3fT77I" value="documents" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfmDaq" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfmDar" role="3f6BbQ">
+          <property role="3fT77I" value="path" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="7J16yTfmE1z" role="1vU5Ow">
+      <property role="TrG5h" value="ChoosePath" />
+      <node concept="3f6AUQ" id="7J16yTfmEj4" role="$d$W1" />
+    </node>
     <node concept="3zGEss" id="7C5UPHnZKSJ" role="1fmyMU">
       <property role="TrG5h" value="export_trigger" />
       <ref role="3zGEsh" node="7C5UPHnZKSh" resolve="Interaction with Pedantic" />
@@ -558,6 +587,10 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAEE">
     <property role="TrG5h" value="Path" />
+    <property role="3GE5qa" value="Other" />
+    <node concept="X_8GT" id="7J16yTfmFhK" role="1vU5Ow">
+      <property role="TrG5h" value="exportJSON" />
+    </node>
     <node concept="3zGEss" id="7C5UPHnZAFr" role="1fmyMO">
       <property role="TrG5h" value="json_for_py" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
@@ -663,7 +696,8 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAGb">
-    <property role="TrG5h" value="Function1: Create Database" />
+    <property role="TrG5h" value="Function 1: Create Database" />
+    <property role="3GE5qa" value="Python" />
     <node concept="3zGEss" id="7C5UPHnZAW1" role="1fmyMO">
       <property role="TrG5h" value="created_database" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
@@ -700,6 +734,7 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAI7">
     <property role="TrG5h" value="Function 2: Create Collection" />
+    <property role="3GE5qa" value="Python" />
     <node concept="3zGEss" id="7C5UPHnZAIp" role="1fmyMO">
       <property role="TrG5h" value="Collection" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
@@ -736,6 +771,7 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAIT">
     <property role="TrG5h" value="Function 3: Export JSON Files" />
+    <property role="3GE5qa" value="Python" />
     <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
       <property role="TrG5h" value="json_arango" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
@@ -782,6 +818,7 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAVS">
     <property role="TrG5h" value="Arango Database" />
+    <property role="3GE5qa" value="ArangoDB" />
     <node concept="3zGEss" id="7C5UPHnZAZO" role="1fmyMU">
       <property role="TrG5h" value="Collection" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
@@ -803,6 +840,7 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAYs">
     <property role="TrG5h" value="Collection" />
+    <property role="3GE5qa" value="ArangoDB" />
     <node concept="3zGEss" id="7C5UPHnZB29" role="1fmyMO">
       <property role="TrG5h" value="edge_coll" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8FH" resolve="Edge-Document" />
@@ -819,6 +857,7 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAZQ">
     <property role="TrG5h" value="Arango Graph" />
+    <property role="3GE5qa" value="ArangoDB" />
     <node concept="3zGEss" id="7C5UPHnZB1X" role="1fmyMU">
       <property role="TrG5h" value="edge_col" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8FH" resolve="Edge-Document" />
@@ -834,6 +873,8 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZKQy">
     <property role="TrG5h" value="Engineer" />
+    <property role="3GE5qa" value="Other" />
+    <property role="1d4xR7" value="true" />
     <node concept="X_8GT" id="7C5UPHnZL2H" role="1vU5Ow">
       <property role="TrG5h" value="show" />
       <node concept="3f6AUQ" id="7C5UPHnZL4K" role="$d$W1">
@@ -868,6 +909,7 @@
   </node>
   <node concept="1fmyL8" id="7C5UPHnZKY0">
     <property role="TrG5h" value="Browser" />
+    <property role="3GE5qa" value="Other" />
     <node concept="X_8GT" id="7C5UPHnZL7h" role="1vU5Ow">
       <property role="TrG5h" value="forwardStatus" />
       <node concept="3f6AUQ" id="7C5UPHnZL7i" role="$d$W1">
