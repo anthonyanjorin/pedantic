@@ -100,10 +100,10 @@
         <ref role="3zGEsl" node="7C5UPHnZB13" resolve="doc_for_coll" />
       </node>
       <node concept="1fmyMC" id="Sv$7iJa8i6" role="1fmyMH">
-        <ref role="1fmyM0" node="Sv$7iJa8g4" resolve="i3_arangodb" />
-        <ref role="3zGEs9" node="7C5UPHnZKOG" resolve="ConnectionToPython" />
-        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
-        <ref role="3zGEsl" node="7C5UPHnZKOH" resolve="Connection_arangodb" />
+        <ref role="1fmyM0" node="Sv$7iJa8g6" resolve="i4_python" />
+        <ref role="3zGEs9" node="7J16yTfmKgy" resolve="pyArango_conn" />
+        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEsl" node="7J16yTfmKL3" resolve="Connection" />
       </node>
       <node concept="1fmyMC" id="Sv$7iJa8iI" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_f1" />
@@ -394,10 +394,6 @@
   <node concept="1fmyL8" id="Sv$7iJa8fW">
     <property role="TrG5h" value="ArangoDB " />
     <property role="3GE5qa" value="ArangoDB" />
-    <node concept="3zGEss" id="7C5UPHnZKOG" role="1fmyMO">
-      <property role="TrG5h" value="ConnectionToPython" />
-      <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="PyArango Connection" />
-    </node>
     <node concept="X_8GT" id="7C5UPHnZBiq" role="1vU5Ow">
       <property role="TrG5h" value="configure network" />
       <node concept="3f6AUQ" id="7C5UPHnZBir" role="$d$W1" />
@@ -412,6 +408,10 @@
     <node concept="3zGEss" id="7C5UPHnZAZi" role="1fmyMU">
       <property role="TrG5h" value="Database" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfmKL3" role="1fmyMU">
+      <property role="TrG5h" value="Connection" />
+      <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="PyArango Connection" />
     </node>
     <node concept="1fmyMZ" id="7C5UPHnZAVQ" role="1fmyMW">
       <node concept="1fmyMA" id="7C5UPHnZAVR" role="1fmyM_">
@@ -446,8 +446,8 @@
   <node concept="1fmyL8" id="Sv$7iJa8fX">
     <property role="TrG5h" value="Python Script" />
     <property role="3GE5qa" value="Python" />
-    <node concept="3zGEss" id="7C5UPHnZKOH" role="1fmyMU">
-      <property role="TrG5h" value="Connection_arangodb" />
+    <node concept="3zGEss" id="7J16yTfmKgy" role="1fmyMO">
+      <property role="TrG5h" value="pyArango_conn" />
       <ref role="3zGEsh" node="Sv$7iJa8hK" resolve="PyArango Connection" />
     </node>
     <node concept="1fmyMZ" id="7C5UPHnZAFM" role="1fmyMW">
@@ -578,12 +578,7 @@
         <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
       </node>
     </node>
-    <node concept="1fmyMZ" id="7C5UPHnZBjn" role="1fmyMW">
-      <node concept="1fmyMA" id="7C5UPHnZBjo" role="1fmyM_">
-        <property role="TrG5h" value="ArangoDB" />
-        <ref role="1fmyMB" node="Sv$7iJa8fW" resolve="ArangoDB " />
-      </node>
-    </node>
+    <node concept="1fmyMZ" id="7C5UPHnZBjn" role="1fmyMW" />
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAEE">
     <property role="TrG5h" value="Path" />
