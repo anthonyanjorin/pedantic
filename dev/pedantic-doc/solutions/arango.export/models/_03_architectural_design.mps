@@ -222,6 +222,23 @@
         <ref role="1fmyMB" node="7C5UPHnZKY0" resolve="Browser" />
       </node>
     </node>
+    <node concept="3f6AUQ" id="7J16yTfnk2h" role="1fksqA">
+      <node concept="3fT77D" id="7J16yTfnk4M" role="3f6BbQ">
+        <property role="3fT77I" value="Detailed" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnk7j" role="3f6BbQ">
+        <property role="3fT77I" value="architecture" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnkml" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnkoQ" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnkro" role="3f6BbQ">
+        <property role="3fT77I" value="export" />
+      </node>
+    </node>
   </node>
   <node concept="1fmyL8" id="25VKDKDBxJa">
     <property role="TrG5h" value="MPS" />
@@ -258,13 +275,13 @@
           <property role="3fT77I" value="between" />
         </node>
         <node concept="3f6BbC" id="7C5UPHnZKNX" role="3f6BbQ">
-          <ref role="3f6BbD" to="wjwp:Sv$7iJa0TA" resolve="Python" />
+          <ref role="3f6BbD" to="wjwp:7C5UPHnZZ3R" resolve="Python Script" />
         </node>
         <node concept="3fT77D" id="7C5UPHnZKNZ" role="3f6BbQ">
           <property role="3fT77I" value="and" />
         </node>
-        <node concept="3fT77D" id="7C5UPHnZKO0" role="3f6BbQ">
-          <property role="3fT77I" value="ArangoDB" />
+        <node concept="3f6BbC" id="7J16yTfnfR8" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
         </node>
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8hK" role="3f6AUK">

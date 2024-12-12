@@ -471,5 +471,39 @@
       </node>
     </node>
   </node>
+  <node concept="1Lr20E" id="7J16yTfnhRy">
+    <property role="TrG5h" value="Connection from Python to ArangoDB" />
+    <node concept="3f6AUQ" id="7J16yTfnhRz" role="1LuVN1">
+      <node concept="3fT77D" id="7J16yTfnij4" role="3f6BbQ">
+        <property role="3fT77I" value="Tests" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnil_" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfniqA" role="3f6BbQ">
+        <property role="3fT77I" value="connection" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnivB" role="3f6BbQ">
+        <property role="3fT77I" value="process" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfniy8" role="3f6BbQ">
+        <property role="3fT77I" value="from" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfniGa" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnj0f" role="3f6BbQ">
+        <property role="3fT77I" value="to" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfnj5h" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:Sv$7iJa8fW" resolve="ArangoDB " />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnjcO" role="3f6BbQ">
+        <property role="3fT77I" value="." />
+      </node>
+      <node concept="3fT77D" id="7J16yTfnjmS" role="3f6BbQ" />
+      <node concept="3fT77D" id="7J16yTfniVe" role="3f6BbQ" />
+    </node>
+  </node>
 </model>
 
