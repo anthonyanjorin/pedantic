@@ -181,7 +181,7 @@
       <node concept="19Azo$" id="7C5UPHnZBc7" role="X_bjp">
         <node concept="3f6AUQ" id="7C5UPHnZBc9" role="1YyRMU">
           <node concept="3f6BbC" id="7C5UPHnZBcd" role="3f6BbQ">
-            <ref role="3f6BbD" to="aamg:Sv$7iJa8j1" resolve="Docker Access Local Host" />
+            <ref role="3f6BbD" to="aamg:7C5UPHnZKW8" resolve="Browser Interaction" />
           </node>
         </node>
       </node>
