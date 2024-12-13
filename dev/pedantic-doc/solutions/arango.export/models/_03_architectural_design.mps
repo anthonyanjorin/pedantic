@@ -153,17 +153,47 @@
         <ref role="1fmyM6" node="25VKDKDBxJ7" resolve="i2_pedantic" />
         <ref role="3zGEsl" node="7C5UPHnZKSJ" resolve="export_trigger" />
       </node>
-      <node concept="1fmyMC" id="7C5UPHnZKZs" role="1fmyMH">
-        <ref role="1fmyM0" node="7C5UPHnZKYA" resolve="i14_browser" />
-        <ref role="3zGEs9" node="7C5UPHnZKY1" resolve="UI_Arango" />
-        <ref role="1fmyM6" node="7C5UPHnZKQE" resolve="i13_Client" />
-        <ref role="3zGEsl" node="7C5UPHnZKY8" resolve="UI_Arango" />
-      </node>
       <node concept="1fmyMC" id="7C5UPHnZL5F" role="1fmyMH">
         <ref role="1fmyM0" node="Sv$7iJa8j5" resolve="i5_docker" />
         <ref role="3zGEs9" node="Sv$7iJa8iY" resolve="localhost:8529" />
         <ref role="1fmyM6" node="7C5UPHnZKYA" resolve="i14_browser" />
         <ref role="3zGEsl" node="7C5UPHnZL5_" resolve="HTTP" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfnIRm" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_func1" />
+        <ref role="3zGEs9" node="7J16yTfnF9J" resolve="db_name" />
+        <ref role="1fmyM6" node="7C5UPHnZAIq" resolve="i8_func2" />
+        <ref role="3zGEsl" node="7J16yTfnI0l" resolve="db_for_colleciton" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfnM0n" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZKQE" resolve="i13_Engineer" />
+        <ref role="3zGEs9" node="7J16yTfnLvQ" resolve="db_name_input" />
+        <ref role="1fmyM6" node="7C5UPHnZAGz" resolve="i7_func1" />
+        <ref role="3zGEsl" node="7J16yTfnL1P" resolve="db_name" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfnOPo" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZKQE" resolve="i13_Engineer" />
+        <ref role="3zGEs9" node="7J16yTfnMNm" resolve="path_input" />
+        <ref role="1fmyM6" node="7C5UPHnZAGz" resolve="i7_func1" />
+        <ref role="3zGEsl" node="7J16yTfnOsn" resolve="path_input" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfnRk0" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_func1" />
+        <ref role="3zGEs9" node="7J16yTfnF9J" resolve="db_name" />
+        <ref role="1fmyM6" node="7C5UPHnZAIV" resolve="i9_func3" />
+        <ref role="3zGEsl" node="7J16yTfnPTU" resolve="db_name" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfnRTx" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_func1" />
+        <ref role="3zGEs9" node="7J16yTfnQZZ" resolve="collection_name" />
+        <ref role="1fmyM6" node="7C5UPHnZAIV" resolve="i9_func3" />
+        <ref role="3zGEsl" node="7J16yTfnQ8V" resolve="collection_name" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfnVxQ" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_func1" />
+        <ref role="3zGEs9" node="7J16yTfnTt$" resolve="path_forward" />
+        <ref role="1fmyM6" node="7C5UPHnZAIV" resolve="i9_func3" />
+        <ref role="3zGEsl" node="7J16yTfnTY5" resolve="path_to_read_from" />
       </node>
       <node concept="1fmyMA" id="25VKDKDBxJ5" role="1fmyM_">
         <property role="TrG5h" value="i1_mps" />
@@ -404,6 +434,29 @@
       <node concept="3f6AUQ" id="7C5UPHnZL5B" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZL5C" role="3f6AUK">
         <property role="TrG5h" value="HTTP" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfnFjK" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfnFjL" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfnFjM" role="3f6AUK">
+        <property role="TrG5h" value="Arango Database" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3f6AUX" id="7J16yTfnFJj" role="3f6AUK">
+        <property role="TrG5h" value="Database Name" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfnJGM" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfnJGN" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfnJGO" role="3f6AUK">
+        <property role="TrG5h" value="Path Input" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfnQgs" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfnQgt" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfnQgu" role="3f6AUK">
+        <property role="TrG5h" value="Collection name" />
       </node>
     </node>
     <node concept="3f6AUQ" id="25VKDKDBxLi" role="3f6AUR" />
@@ -710,9 +763,29 @@
   <node concept="1fmyL8" id="7C5UPHnZAGb">
     <property role="TrG5h" value="Function 1: Create Database" />
     <property role="3GE5qa" value="Python" />
+    <node concept="3zGEss" id="7J16yTfnL1P" role="1fmyMU">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnOsn" role="1fmyMU">
+      <property role="TrG5h" value="path_input" />
+      <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
+    </node>
     <node concept="3zGEss" id="7C5UPHnZAW1" role="1fmyMO">
       <property role="TrG5h" value="created_database" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnF9J" role="1fmyMO">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" node="7J16yTfnFJj" resolve="DB Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnQZZ" role="1fmyMO">
+      <property role="TrG5h" value="collection_name" />
+      <ref role="3zGEsh" node="7J16yTfnQgu" resolve="Collection name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnTt$" role="1fmyMO">
+      <property role="TrG5h" value="path_forward" />
+      <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZAGc" role="1fksqA">
       <node concept="3fT77D" id="7C5UPHnZAGd" role="3f6BbQ">
@@ -747,6 +820,10 @@
   <node concept="1fmyL8" id="7C5UPHnZAI7">
     <property role="TrG5h" value="Function 2: Create Collection" />
     <property role="3GE5qa" value="Python" />
+    <node concept="3zGEss" id="7J16yTfnI0l" role="1fmyMU">
+      <property role="TrG5h" value="db_for_colleciton" />
+      <ref role="3zGEsh" node="7J16yTfnFjM" resolve="Arango Database" />
+    </node>
     <node concept="3zGEss" id="7C5UPHnZAIp" role="1fmyMO">
       <property role="TrG5h" value="Collection" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
@@ -789,8 +866,20 @@
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7C5UPHnZAIU" role="1fmyMU">
-      <property role="TrG5h" value="json" />
+      <property role="TrG5h" value="read_json" />
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnPTU" role="1fmyMU">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnQ8V" role="1fmyMU">
+      <property role="TrG5h" value="collection_name" />
+      <ref role="3zGEsh" node="7J16yTfnQgu" resolve="Collection name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnTY5" role="1fmyMU">
+      <property role="TrG5h" value="path_to_read_from" />
+      <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZAIW" role="1fksqA">
       <node concept="3fT77D" id="7C5UPHnZAIX" role="3f6BbQ">
@@ -917,6 +1006,14 @@
     <node concept="3zGEss" id="7C5UPHnZKSI" role="1fmyMO">
       <property role="TrG5h" value="interaction" />
       <ref role="3zGEsh" node="7C5UPHnZKSh" resolve="Export Nodes from Pedantic" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnLvQ" role="1fmyMO">
+      <property role="TrG5h" value="db_name_input" />
+      <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnMNm" role="1fmyMO">
+      <property role="TrG5h" value="path_input" />
+      <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZKY0">

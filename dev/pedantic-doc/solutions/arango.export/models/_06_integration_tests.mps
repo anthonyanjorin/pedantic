@@ -473,6 +473,10 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfnhRy">
     <property role="TrG5h" value="Connection from Python to ArangoDB" />
+    <node concept="X_bju" id="7J16yTfnrm6" role="1LuVN3">
+      <property role="TrG5h" value="Export JSON Documents to ArangoDB " />
+      <node concept="3f6AUQ" id="7J16yTfnrm8" role="X_bjr" />
+    </node>
     <node concept="3f6AUQ" id="7J16yTfnhRz" role="1LuVN1">
       <node concept="3fT77D" id="7J16yTfnij4" role="3f6BbQ">
         <property role="3fT77I" value="Tests" />
@@ -501,9 +505,19 @@
       <node concept="3fT77D" id="7J16yTfnjcO" role="3f6BbQ">
         <property role="3fT77I" value="." />
       </node>
-      <node concept="3fT77D" id="7J16yTfnjmS" role="3f6BbQ" />
-      <node concept="3fT77D" id="7J16yTfniVe" role="3f6BbQ" />
     </node>
+  </node>
+  <node concept="1fmyL8" id="7J16yTfnCfr">
+    <property role="3GE5qa" value="Test Components " />
+    <property role="TrG5h" value="ArangoDB" />
+  </node>
+  <node concept="1fmyL8" id="7J16yTfnCps">
+    <property role="3GE5qa" value="Test Components " />
+    <property role="TrG5h" value="Docker" />
+  </node>
+  <node concept="1fmyL8" id="7J16yTfnCrX">
+    <property role="3GE5qa" value="Test Components " />
+    <property role="TrG5h" value="Browser" />
   </node>
 </model>
 

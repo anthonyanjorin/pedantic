@@ -26,9 +26,6 @@
         <child id="8987473119584018422" name="messages" index="X_bjp" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
       </concept>
-      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
-        <reference id="6010201709267609479" name="self" index="AfY4r" />
-      </concept>
       <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
         <child id="7161014301860983851" name="desc" index="1YyRMU" />
       </concept>
@@ -59,9 +56,6 @@
       <concept id="8617956174761296789" name="pedantic.structure.TermParticipant" flags="ng" index="1h4ibI">
         <reference id="8617956174761296791" name="type" index="1h4ibG" />
       </concept>
-      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
-        <reference id="470559418596586565" name="service" index="19Fzs9" />
-      </concept>
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
@@ -69,10 +63,6 @@
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
-      </concept>
-      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
-        <reference id="6010201709267609490" name="to" index="AfY4e" />
-        <reference id="6010201709267609485" name="from" index="AfY4h" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -188,21 +178,12 @@
           </node>
         </node>
       </node>
-      <node concept="18RnWb" id="7C5UPHnZARq" role="X_bjp">
-        <ref role="AfY4r" node="7C5UPHnZACx" resolve="Docker" />
-        <ref role="19Fzs9" to="aamg:7C5UPHnZBeN" resolve="connection" />
-      </node>
       <node concept="19Azo$" id="7C5UPHnZBc7" role="X_bjp">
         <node concept="3f6AUQ" id="7C5UPHnZBc9" role="1YyRMU">
           <node concept="3f6BbC" id="7C5UPHnZBcd" role="3f6BbQ">
             <ref role="3f6BbD" to="aamg:Sv$7iJa8j1" resolve="Docker Access Local Host" />
           </node>
         </node>
-      </node>
-      <node concept="1LuVN4" id="7C5UPHnZBf4" role="X_bjp">
-        <ref role="AfY4h" node="7C5UPHnZAB9" resolve="Arango" />
-        <ref role="AfY4e" node="7C5UPHnZACx" resolve="Docker" />
-        <ref role="19Fzs9" to="aamg:7C5UPHnZBeN" resolve="connection" />
       </node>
     </node>
   </node>
@@ -222,9 +203,7 @@
           </node>
         </node>
       </node>
-      <node concept="3f6AUQ" id="7C5UPHnZABh" role="3f6AUE">
-        <node concept="3fT77D" id="7C5UPHnZADJ" role="3f6BbQ" />
-      </node>
+      <node concept="3f6AUQ" id="7C5UPHnZABh" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZABi" role="3f6AUK">
         <property role="TrG5h" value="User" />
       </node>
