@@ -117,12 +117,6 @@
         <ref role="1fmyM6" node="7C5UPHnZAW3" resolve="i10_ArangoDatabase" />
         <ref role="3zGEsl" node="7C5UPHnZAZO" resolve="Collection" />
       </node>
-      <node concept="1fmyMC" id="Sv$7iJa8j4" role="1fmyMH">
-        <ref role="1fmyM0" node="Sv$7iJa8j5" resolve="i5_docker" />
-        <ref role="3zGEs9" node="Sv$7iJa8iY" resolve="access_localhost:8529" />
-        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="i3_arangodb" />
-        <ref role="3zGEsl" node="Sv$7iJa8j2" resolve="Access_to_localhost" />
-      </node>
       <node concept="1fmyMC" id="7C5UPHnZB2w" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAYK" resolve="i11_ArangoCollection" />
         <ref role="3zGEs9" node="7C5UPHnZB2a" resolve="doc_coll" />
@@ -141,23 +135,11 @@
         <ref role="1fmyM6" node="7C5UPHnZB2v" resolve="i12_ArangoGraph" />
         <ref role="3zGEsl" node="7C5UPHnZB1X" resolve="edge_col" />
       </node>
-      <node concept="1fmyMC" id="7C5UPHnZKQF" role="1fmyMH">
-        <ref role="1fmyM0" node="7C5UPHnZKQE" resolve="i13_Client" />
-        <ref role="3zGEs9" node="7C5UPHnZKQz" resolve="requestDocker" />
-        <ref role="1fmyM6" node="Sv$7iJa8j5" resolve="i5_docker" />
-        <ref role="3zGEsl" node="7C5UPHnZKQD" resolve="StartTrigger" />
-      </node>
       <node concept="1fmyMC" id="7C5UPHnZKSK" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZKQE" resolve="i13_Client" />
         <ref role="3zGEs9" node="7C5UPHnZKSI" resolve="export Nodes" />
         <ref role="1fmyM6" node="25VKDKDBxJ7" resolve="i2_pedantic" />
         <ref role="3zGEsl" node="7C5UPHnZKSJ" resolve="export_trigger" />
-      </node>
-      <node concept="1fmyMC" id="7C5UPHnZL5F" role="1fmyMH">
-        <ref role="1fmyM0" node="Sv$7iJa8j5" resolve="i5_docker" />
-        <ref role="3zGEs9" node="Sv$7iJa8iY" resolve="localhost:8529" />
-        <ref role="1fmyM6" node="7C5UPHnZKYA" resolve="i14_browser" />
-        <ref role="3zGEsl" node="7C5UPHnZL5_" resolve="HTTP" />
       </node>
       <node concept="1fmyMC" id="7J16yTfnIRm" role="1fmyMH">
         <ref role="1fmyM0" node="7C5UPHnZAGz" resolve="i7_func1" />
@@ -210,10 +192,6 @@
       <node concept="1fmyMA" id="Sv$7iJa8g6" role="1fmyM_">
         <property role="TrG5h" value="i4_python" />
         <ref role="1fmyMB" node="Sv$7iJa8fX" resolve="Python Script" />
-      </node>
-      <node concept="1fmyMA" id="Sv$7iJa8j5" role="1fmyM_">
-        <property role="TrG5h" value="i5_docker" />
-        <ref role="1fmyMB" node="Sv$7iJa8iX" resolve="Docker" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZAFp" role="1fmyM_">
         <property role="TrG5h" value="i6_path" />
@@ -994,10 +972,6 @@
           <property role="3fT77I" value="ArangoWebUI" />
         </node>
       </node>
-    </node>
-    <node concept="3zGEss" id="7C5UPHnZKY8" role="1fmyMU">
-      <property role="TrG5h" value="UI_Arango" />
-      <ref role="3zGEsh" node="7C5UPHnZKVX" resolve="ArangoDB Interface" />
     </node>
     <node concept="3zGEss" id="7C5UPHnZKQz" role="1fmyMO">
       <property role="TrG5h" value="docker_interact" />
