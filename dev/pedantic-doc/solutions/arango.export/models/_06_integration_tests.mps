@@ -10,16 +10,13 @@
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
-      <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
-        <child id="6010201709301647773" name="returns" index="$d$W1" />
+      <concept id="7959779354261476651" name="pedantic.structure.SequenceReference" flags="ng" index="bi8gd">
+        <reference id="7959779354261476654" name="target" index="bi8g8" />
       </concept>
       <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
         <child id="6010201709267609475" name="participants" index="AfY4v" />
         <child id="8987473119584018422" name="messages" index="X_bjp" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
-      </concept>
-      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
-        <child id="7161014301860983851" name="desc" index="1YyRMU" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
@@ -28,12 +25,6 @@
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
       </concept>
       <concept id="4928100702460203921" name="pedantic.structure.WordExtensionRight" flags="ng" index="3f6BbF" />
-      <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
-        <property id="6606305879459122677" name="isActor" index="1d4xR7" />
-        <child id="6606305879429250182" name="provided" index="1fmyMO" />
-        <child id="6606305879429250184" name="required" index="1fmyMU" />
-        <child id="8617956174793374811" name="services" index="1vU5Ow" />
-      </concept>
       <concept id="6606305879429250196" name="pedantic.structure.ComponentInstance" flags="ng" index="1fmyMA">
         <reference id="6606305879429250197" name="type" index="1fmyMB" />
       </concept>
@@ -63,9 +54,6 @@
       <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
         <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
-      <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
-        <reference id="3503424313156701896" name="type" index="3zGEsh" />
-      </concept>
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
@@ -86,70 +74,70 @@
   </registry>
   <node concept="1Lr20E" id="7C5UPHnZB9k">
     <property role="TrG5h" value="Activation of Arango Container (Deployment)" />
-    <property role="3GE5qa" value="Docker Deployment" />
+    <property role="3GE5qa" value="Docker Deployment - Test Design" />
     <node concept="X_bju" id="7J16yTfoa2W" role="1LuVN3">
       <property role="TrG5h" value="Run Arango Container " />
       <node concept="1LuVN4" id="7J16yTfolYk" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfol29" resolve="Export to Path: Architecture.test_Engineer" />
         <ref role="AfY4e" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="19Fzs9" node="7J16yTfo7ch" resolve="run" />
+        <ref role="19Fzs9" to="aamg:7C5UPHnZL30" resolve="run " />
       </node>
       <node concept="1LuVN4" id="7J16yTfonLA" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="AfY4e" node="7J16yTfolJh" resolve="Docker Deployment Test .arangodb" />
-        <ref role="19Fzs9" node="7J16yTfookC" resolve="configureNetwork" />
+        <ref role="AfY4e" node="7J16yTfsBJX" resolve="Docker Deployment Test .arangodb host" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsDbR" resolve="configure network" />
       </node>
       <node concept="1LuVN4" id="7J16yTfooRE" role="X_bjp">
-        <ref role="AfY4h" node="7J16yTfolJh" resolve="Docker Deployment Test .arangodb" />
+        <ref role="AfY4h" node="7J16yTfsBJX" resolve="Docker Deployment Test .arangodb host" />
         <ref role="AfY4e" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="19Fzs9" node="7J16yTfo7jM" resolve="confirm" />
+        <ref role="19Fzs9" to="aamg:7C5UPHnZL3E" resolve="confirm" />
       </node>
       <node concept="1LuVN4" id="7J16yTfopVh" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfol29" resolve="Docker Deployment Test .engineer" />
         <ref role="AfY4e" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="19Fzs9" node="7J16yTfoepM" resolve="click_on_port" />
+        <ref role="19Fzs9" to="aamg:7C5UPHnZL52" resolve="click on Port" />
       </node>
       <node concept="1LuVN4" id="7J16yTfoqkk" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfol9F" resolve="Docker Deployment Test .browser" />
         <ref role="AfY4e" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="19Fzs9" node="7J16yTfo7yN" resolve="HTTP-Request" />
+        <ref role="19Fzs9" to="aamg:7C5UPHnZL5j" resolve="HTTP-Request" />
       </node>
       <node concept="1LuVN4" id="7J16yTfoqHn" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="AfY4e" node="7J16yTfolJh" resolve="Docker Deployment Test .arangodb" />
-        <ref role="19Fzs9" node="7J16yTfornT" resolve="forwardHTTP_request" />
+        <ref role="AfY4e" node="7J16yTfsBJX" resolve="Docker Deployment Test .arangodb host" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsDlI" resolve="forward HTTP request" />
       </node>
       <node concept="1LuVN4" id="7J16yTforKV" role="X_bjp">
-        <ref role="AfY4h" node="7J16yTfolJh" resolve="Docker Deployment Test .arangodb" />
+        <ref role="AfY4h" node="7J16yTfsBJX" resolve="Docker Deployment Test .arangodb host" />
         <ref role="AfY4e" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
-        <ref role="19Fzs9" node="7J16yTfo7Yk" resolve="ResponseStatus" />
+        <ref role="19Fzs9" to="aamg:7C5UPHnZL6Y" resolve="responseStatus" />
       </node>
       <node concept="1LuVN4" id="7J16yTfos7u" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfolyI" resolve="Docker Deployment Test .docker" />
         <ref role="AfY4e" node="7J16yTfol9F" resolve="Docker Deployment Test .browser" />
-        <ref role="19Fzs9" node="7J16yTfo9qR" resolve="forwardStatus" />
+        <ref role="19Fzs9" to="aamg:7J16yTfo9qR" resolve="forwardStatus" />
       </node>
       <node concept="1LuVN4" id="7J16yTfosrx" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfol9F" resolve="Docker Deployment Test .browser" />
         <ref role="AfY4e" node="7J16yTfol29" resolve="Docker Deployment Test .engineer" />
-        <ref role="19Fzs9" node="7J16yTfodTg" resolve="show" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsxrj" resolve="show" />
       </node>
       <node concept="3f6AUQ" id="7J16yTfoa2Y" role="X_bjr" />
       <node concept="1gfTUo" id="7J16yTfol29" role="AfY4v">
-        <property role="TrG5h" value="Docker Deployment Test .engineer" />
-        <ref role="1gfY4O" node="7J16yTfob43" resolve="engineer" />
+        <property role="TrG5h" value="Docker Deployment Test .deployment test enginner " />
+        <ref role="1gfY4O" to="aamg:7J16yTfsrfl" resolve="deployment test enginner " />
       </node>
       <node concept="1gfTUo" id="7J16yTfol9F" role="AfY4v">
         <property role="TrG5h" value="Docker Deployment Test .browser" />
-        <ref role="1gfY4O" node="7J16yTfobI_" resolve="browser" />
+        <ref role="1gfY4O" to="aamg:7J16yTfsrfn" resolve="browser" />
       </node>
       <node concept="1gfTUo" id="7J16yTfolyI" role="AfY4v">
-        <property role="TrG5h" value="Docker Deployment Test .docker" />
-        <ref role="1gfY4O" node="7J16yTfoby4" resolve="docker" />
+        <property role="TrG5h" value="Docker Deployment Test .test docker" />
+        <ref role="1gfY4O" to="aamg:7J16yTfsrfm" resolve="test docker" />
       </node>
-      <node concept="1gfTUo" id="7J16yTfolJh" role="AfY4v">
-        <property role="TrG5h" value="Docker Deployment Test .arangodb" />
-        <ref role="1gfY4O" node="7J16yTfoc56" resolve="arangodb" />
+      <node concept="1gfTUo" id="7J16yTfsBJX" role="AfY4v">
+        <property role="TrG5h" value="Docker Deployment Test .arangodb host" />
+        <ref role="1gfY4O" to="aamg:7J16yTfsrfo" resolve="arangodb container" />
       </node>
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZB9l" role="1LuVN1">
@@ -289,50 +277,47 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfmx6q">
     <property role="TrG5h" value="Test: Export JSON to Different Paths" />
-    <property role="3GE5qa" value="Export to Path" />
+    <property role="3GE5qa" value="Export to Path - Test Design" />
     <node concept="X_bju" id="7J16yTfmzdG" role="1LuVN3">
       <property role="TrG5h" value="Export to Path" />
       <node concept="1LuVN4" id="7J16yTfn3l9" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfn24X" resolve="Export to Path: Architecture.test_Engineer" />
-        <ref role="AfY4e" node="7J16yTfn2H0" resolve="Export to Path: Architecture.pedantic" />
-        <ref role="19Fzs9" node="7J16yTfmUN7" resolve="ChoosePathA" />
+        <ref role="AfY4e" node="7J16yTfsIFF" resolve="Export to Path: Architecture.mps" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsGW3" resolve="Choose Path A" />
       </node>
       <node concept="1LuVN4" id="7J16yTfn5aM" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfn24X" resolve="Export to Path: Architecture.test_Engineer" />
-        <ref role="AfY4e" node="7J16yTfn2H0" resolve="Export to Path: Architecture.pedantic" />
-        <ref role="19Fzs9" node="7J16yTfmUAA" resolve="ArangoExportConfig" />
+        <ref role="AfY4e" node="7J16yTfsIFF" resolve="Export to Path: Architecture.mps" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsHzt" resolve="ArangoDBExportConfig" />
       </node>
       <node concept="1LuVN4" id="7J16yTfn3Ic" role="X_bjp">
-        <ref role="AfY4h" node="7J16yTfn2H0" resolve="Export to Path: Architecture.pedantic" />
+        <ref role="AfY4h" node="7J16yTfsIFF" resolve="Export to Path: Architecture.mps" />
         <ref role="AfY4e" node="7J16yTfn313" resolve="Export to Path: Architecture.pathA" />
-        <ref role="19Fzs9" node="7J16yTfmVVL" resolve="exportJSON" />
+        <ref role="19Fzs9" to="aamg:7J16yTfmFhK" resolve="exportJSON" />
       </node>
       <node concept="1LuVN4" id="7J16yTfn4GJ" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfn24X" resolve="Export to Path: Architecture.test_Engineer" />
-        <ref role="AfY4e" node="7J16yTfn2H0" resolve="Export to Path: Architecture.pedantic" />
-        <ref role="19Fzs9" node="7J16yTfmV9G" resolve="ChoosePathB" />
+        <ref role="AfY4e" node="7J16yTfsIFF" resolve="Export to Path: Architecture.mps" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsHj2" resolve="Choose Path B" />
       </node>
       <node concept="1LuVN4" id="7J16yTfn5HQ" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfn24X" resolve="Export to Path: Architecture.test_Engineer" />
-        <ref role="AfY4e" node="7J16yTfn2H0" resolve="Export to Path: Architecture.pedantic" />
-        <ref role="19Fzs9" node="7J16yTfmUAA" resolve="ArangoExportConfig" />
+        <ref role="AfY4e" node="7J16yTfsIFF" resolve="Export to Path: Architecture.mps" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsHzt" resolve="ArangoDBExportConfig" />
       </node>
       <node concept="1LuVN4" id="7J16yTfn64p" role="X_bjp">
-        <ref role="AfY4h" node="7J16yTfn2H0" resolve="Export to Path: Architecture.pedantic" />
+        <ref role="AfY4h" node="7J16yTfsIFF" resolve="Export to Path: Architecture.mps" />
         <ref role="AfY4e" node="7J16yTfn38A" resolve="Export to Path: Architecture.pathB" />
-        <ref role="19Fzs9" node="7J16yTfmW5M" resolve="exportJSON" />
-      </node>
-      <node concept="19Azo$" id="7J16yTfokq1" role="X_bjp">
-        <node concept="3f6AUQ" id="7J16yTfokq3" role="1YyRMU" />
+        <ref role="19Fzs9" to="aamg:7J16yTfmFhK" resolve="exportJSON" />
       </node>
       <node concept="3f6AUQ" id="7J16yTfmzdI" role="X_bjr" />
       <node concept="1gfTUo" id="7J16yTfn24X" role="AfY4v">
-        <property role="TrG5h" value="Export to Path: Architecture.test_Engineer" />
+        <property role="TrG5h" value="Export to Path: Architecture.test_Engineer100" />
         <ref role="1gfY4O" node="7J16yTfmWRP" resolve="test_Engineer" />
       </node>
-      <node concept="1gfTUo" id="7J16yTfn2H0" role="AfY4v">
-        <property role="TrG5h" value="Export to Path: Architecture.pedantic" />
-        <ref role="1gfY4O" node="7J16yTfmXto" resolve="pedantic" />
+      <node concept="1gfTUo" id="7J16yTfsIFF" role="AfY4v">
+        <property role="TrG5h" value="Export to Path: Architecture.mps" />
+        <ref role="1gfY4O" node="7J16yTfmXto" resolve="mps" />
       </node>
       <node concept="1gfTUo" id="7J16yTfn313" role="AfY4v">
         <property role="TrG5h" value="Export to Path: Architecture.pathA" />
@@ -377,20 +362,8 @@
       <node concept="3fT77D" id="7J16yTfn0Rf" role="3f6BbQ">
         <property role="3fT77I" value="different" />
       </node>
-      <node concept="3fT77D" id="7J16yTfn0TK" role="3f6BbQ">
-        <property role="3fT77I" value="Path" />
-      </node>
-      <node concept="3fT77D" id="7J16yTfn0Wh" role="3f6BbQ">
-        <property role="3fT77I" value="inputs" />
-      </node>
-      <node concept="1hSrFG" id="7J16yTfn16j" role="3f6BbQ">
-        <ref role="1hSrFy" node="7J16yTfmQ1W" resolve="Path A" />
-      </node>
-      <node concept="3fT77D" id="7J16yTfn1bl" role="3f6BbQ">
-        <property role="3fT77I" value="and" />
-      </node>
-      <node concept="1hSrFG" id="7J16yTfn1qp" role="3f6BbQ">
-        <ref role="1hSrFy" node="7J16yTfmQet" resolve="Path B" />
+      <node concept="3f6BbC" id="7J16yTfrG19" role="3f6BbQ">
+        <ref role="3f6BbD" to="aamg:7J16yTfnJGO" resolve="Path Input" />
       </node>
       <node concept="3fT77D" id="7J16yTfnb20" role="3f6BbQ">
         <property role="3fT77I" value="and" />
@@ -415,303 +388,394 @@
       </node>
     </node>
   </node>
-  <node concept="1fmyL8" id="7J16yTfmPp3">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="Test Engineer" />
-    <property role="1d4xR7" value="true" />
-    <node concept="3zGEss" id="7J16yTfoizU" role="1fmyMU">
-      <property role="TrG5h" value="ui_arango" />
-      <ref role="3zGEsh" to="aamg:7C5UPHnZKVX" resolve="Interface" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfmTJ_" role="1vU5Ow">
-      <property role="TrG5h" value="A" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfodTg" role="1vU5Ow">
-      <property role="TrG5h" value="show" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfoe8h" role="1vU5Ow">
-      <property role="TrG5h" value="showArangoDB" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfmTc$" role="1fmyMO">
-      <property role="TrG5h" value="pedantic_interact" />
-      <ref role="3zGEsh" to="aamg:7C5UPHnZKSh" resolve="Interaction with Pedantic" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfoeUj" role="1fmyMO">
-      <property role="TrG5h" value="docker_inter" />
-      <ref role="3zGEsh" to="aamg:7C5UPHnZKQA" resolve="Interaction Docker Container" />
-    </node>
-  </node>
-  <node concept="1fmyL8" id="7J16yTfmQ1W">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="Path A" />
-    <node concept="3zGEss" id="7J16yTfmYfq" role="1fmyMU">
-      <property role="TrG5h" value="json" />
-      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfmVVL" role="1vU5Ow">
-      <property role="TrG5h" value="exportJSON" />
-    </node>
-  </node>
-  <node concept="1fmyL8" id="7J16yTfmQet">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="Path B" />
-    <node concept="3zGEss" id="7J16yTfmYzs" role="1fmyMU">
-      <property role="TrG5h" value="json" />
-      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfmW5M" role="1vU5Ow">
-      <property role="TrG5h" value="exportJSON" />
-    </node>
-  </node>
-  <node concept="1fmyL8" id="7J16yTfmQSY">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="Pedantic" />
-    <node concept="X_8GT" id="7J16yTfmUAA" role="1vU5Ow">
-      <property role="TrG5h" value="ArangoExportConfig" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfmUN7" role="1vU5Ow">
-      <property role="TrG5h" value="ChoosePathA" />
-      <node concept="3f6AUQ" id="7J16yTfmUUC" role="$d$W1">
-        <node concept="3fT77D" id="7J16yTfmUX9" role="3f6BbQ">
-          <property role="3fT77I" value="Path" />
-        </node>
-        <node concept="3fT77D" id="7J16yTfmV2a" role="3f6BbQ">
-          <property role="3fT77I" value="A" />
-        </node>
-        <node concept="3fT77D" id="7J16yTfmV4F" role="3f6BbQ">
-          <property role="3fT77I" value="inserted" />
-        </node>
-      </node>
-    </node>
-    <node concept="X_8GT" id="7J16yTfmV9G" role="1vU5Ow">
-      <property role="TrG5h" value="ChoosePathB" />
-      <node concept="3f6AUQ" id="7J16yTfmVjH" role="$d$W1">
-        <node concept="3fT77D" id="7J16yTfmVjI" role="3f6BbQ">
-          <property role="3fT77I" value="Path" />
-        </node>
-        <node concept="3fT77D" id="7J16yTfmVmf" role="3f6BbQ">
-          <property role="3fT77I" value="B" />
-        </node>
-        <node concept="3fT77D" id="7J16yTfmVrg" role="3f6BbQ">
-          <property role="3fT77I" value="inserted" />
-        </node>
-      </node>
-    </node>
-    <node concept="3zGEss" id="7J16yTfmSo3" role="1fmyMU">
-      <property role="TrG5h" value="export_trigger" />
-      <ref role="3zGEsh" to="aamg:7C5UPHnZKSh" resolve="Interaction with Pedantic" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfmRfv" role="1fmyMO">
-      <property role="TrG5h" value="json" />
-      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
-    </node>
-  </node>
   <node concept="1fmyMM" id="7J16yTfmWfN">
-    <property role="3GE5qa" value="Export to Path" />
+    <property role="3GE5qa" value="Export to Path - Test Design" />
     <property role="TrG5h" value="Export to Path: Architecture" />
     <node concept="1fmyMZ" id="7J16yTfmWPk" role="1fmyMW">
       <node concept="1fmyMC" id="7J16yTfmXLp" role="1fmyMH">
         <ref role="1fmyM0" node="7J16yTfmWRP" resolve="test_Engineer" />
-        <ref role="3zGEs9" node="7J16yTfmTc$" resolve="pedantic_interact" />
+        <ref role="3zGEs9" to="aamg:7J16yTfpal0" resolve="path input" />
         <ref role="1fmyM6" node="7J16yTfmXto" resolve="pedantic" />
-        <ref role="3zGEsl" node="7J16yTfmSo3" resolve="export_trigger" />
+        <ref role="3zGEsl" to="aamg:7J16yTfpbvq" resolve="path input" />
       </node>
       <node concept="1fmyMC" id="7J16yTfmZdX" role="1fmyMH">
         <ref role="1fmyM0" node="7J16yTfmXto" resolve="pedantic" />
-        <ref role="3zGEs9" node="7J16yTfmRfv" resolve="json" />
+        <ref role="3zGEs9" to="aamg:7J16yTfoCvs" resolve="JSON" />
         <ref role="1fmyM6" node="7J16yTfmX6Q" resolve="pathA" />
-        <ref role="3zGEsl" node="7J16yTfmYfq" resolve="json" />
+        <ref role="3zGEsl" to="aamg:7C5UPHnZAF4" resolve="JSON" />
       </node>
       <node concept="1fmyMC" id="7J16yTfmZvu" role="1fmyMH">
         <ref role="1fmyM0" node="7J16yTfmXto" resolve="pedantic" />
-        <ref role="3zGEs9" node="7J16yTfmRfv" resolve="json" />
+        <ref role="3zGEs9" to="aamg:7J16yTfoCvs" resolve="JSON" />
         <ref role="1fmyM6" node="7J16yTfmXgR" resolve="pathB" />
-        <ref role="3zGEsl" node="7J16yTfmYzs" resolve="json" />
+        <ref role="3zGEsl" to="aamg:7C5UPHnZAF4" resolve="JSON" />
       </node>
       <node concept="1fmyMA" id="7J16yTfmWRP" role="1fmyM_">
-        <property role="TrG5h" value="test_Engineer" />
-        <ref role="1fmyMB" node="7J16yTfmPp3" resolve="Test Engineer" />
+        <property role="TrG5h" value="test_Engineer100" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
       </node>
       <node concept="1fmyMA" id="7J16yTfmX6Q" role="1fmyM_">
         <property role="TrG5h" value="pathA" />
-        <ref role="1fmyMB" node="7J16yTfmQ1W" resolve="Path A" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZAEE" resolve="Path" />
       </node>
       <node concept="1fmyMA" id="7J16yTfmXgR" role="1fmyM_">
         <property role="TrG5h" value="pathB" />
-        <ref role="1fmyMB" node="7J16yTfmQet" resolve="Path B" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZAEE" resolve="Path" />
       </node>
       <node concept="1fmyMA" id="7J16yTfmXto" role="1fmyM_">
-        <property role="TrG5h" value="pedantic" />
-        <ref role="1fmyMB" node="7J16yTfmQSY" resolve="Pedantic" />
+        <property role="TrG5h" value="mps" />
+        <ref role="1fmyMB" to="aamg:25VKDKDBxJa" resolve="MPS" />
       </node>
     </node>
   </node>
-  <node concept="1Lr20E" id="7J16yTfnhRy">
-    <property role="TrG5h" value="Connection from Python to ArangoDB" />
-    <node concept="X_bju" id="7J16yTfnrm6" role="1LuVN3">
-      <property role="TrG5h" value="Export JSON Documents to ArangoDB " />
-      <node concept="3f6AUQ" id="7J16yTfnrm8" role="X_bjr" />
+  <node concept="1Lr20E" id="7J16yTfqI2V">
+    <property role="TrG5h" value="Python Function Reads From Path" />
+    <property role="3GE5qa" value="Read JSON from Path - Test Design" />
+    <node concept="X_bju" id="7J16yTfqM7I" role="1LuVN3">
+      <property role="TrG5h" value="Read JSON from Path" />
+      <node concept="1LuVN4" id="7J16yTfrw3Z" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfrhth" resolve="Read JSON from Path.TestEngineer2" />
+        <ref role="AfY4e" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
+        <ref role="19Fzs9" to="aamg:7J16yTfrtcl" resolve="input: &quot;Path A&quot;" />
+      </node>
+      <node concept="1LuVN4" id="7J16yTfryxo" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfrhth" resolve="Read JSON from Path.TestEngineer2" />
+        <ref role="AfY4e" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
+        <ref role="19Fzs9" to="aamg:7J16yTfryIG" resolve="run" />
+      </node>
+      <node concept="1LuVN4" id="7J16yTfrwA$" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
+        <ref role="AfY4e" node="7J16yTfrrpQ" resolve="Read JSON from Path.Path A" />
+        <ref role="19Fzs9" to="aamg:7J16yTfrpMb" resolve="readJSON" />
+      </node>
+      <node concept="1LuVN4" id="7J16yTfrCTe" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfrhth" resolve="Read JSON from Path.TestEngineer2" />
+        <ref role="AfY4e" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
+        <ref role="19Fzs9" to="aamg:7J16yTfrtQQ" resolve="input: &quot;Path B&quot;" />
+      </node>
+      <node concept="1LuVN4" id="7J16yTfrD9d" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
+        <ref role="AfY4e" node="7J16yTfrrWr" resolve="Read JSON from Path.Path B" />
+        <ref role="19Fzs9" to="aamg:7J16yTfrpMb" resolve="readJSON" />
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfqM7K" role="X_bjr" />
+      <node concept="1gfTUo" id="7J16yTfrhth" role="AfY4v">
+        <property role="TrG5h" value="Read JSON from Path.TestEngineer2" />
+        <ref role="1gfY4O" node="7J16yTfrd01" resolve="TestEngineer" />
+      </node>
+      <node concept="1gfTUo" id="7J16yTfrnll" role="AfY4v">
+        <property role="TrG5h" value="Read JSON from Path.test_script" />
+        <ref role="1gfY4O" node="7J16yTfrdiC" resolve="test_script" />
+      </node>
+      <node concept="1gfTUo" id="7J16yTfrrpQ" role="AfY4v">
+        <property role="TrG5h" value="Read JSON from Path.Path A" />
+        <ref role="1gfY4O" node="7J16yTfrdvV" resolve="Path A" />
+      </node>
+      <node concept="1gfTUo" id="7J16yTfrrWr" role="AfY4v">
+        <property role="TrG5h" value="Read JSON from Path.Path B" />
+        <ref role="1gfY4O" node="7J16yTfrdPc" resolve="Path B" />
+      </node>
     </node>
-    <node concept="3f6AUQ" id="7J16yTfnhRz" role="1LuVN1">
-      <node concept="3fT77D" id="7J16yTfnij4" role="3f6BbQ">
-        <property role="3fT77I" value="Tests" />
+    <node concept="3f6AUQ" id="7J16yTfqI2W" role="1LuVN1">
+      <node concept="3fT77D" id="7J16yTfrDNT" role="3f6BbQ">
+        <property role="3fT77I" value="Test" />
       </node>
-      <node concept="3fT77D" id="7J16yTfnil_" role="3f6BbQ">
-        <property role="3fT77I" value="the" />
+      <node concept="3fT77D" id="7J16yTfrDNU" role="3f6BbQ">
+        <property role="3fT77I" value="if" />
       </node>
-      <node concept="3fT77D" id="7J16yTfniqA" role="3f6BbQ">
-        <property role="3fT77I" value="connection" />
-      </node>
-      <node concept="3fT77D" id="7J16yTfnivB" role="3f6BbQ">
-        <property role="3fT77I" value="process" />
-      </node>
-      <node concept="3fT77D" id="7J16yTfniy8" role="3f6BbQ">
-        <property role="3fT77I" value="from" />
-      </node>
-      <node concept="1hSrFG" id="7J16yTfniGa" role="3f6BbQ">
+      <node concept="1hSrFG" id="7J16yTfqKUq" role="3f6BbQ">
         <ref role="1hSrFy" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
       </node>
-      <node concept="3fT77D" id="7J16yTfnj0f" role="3f6BbQ">
+      <node concept="3fT77D" id="7J16yTfqL2q" role="3f6BbQ">
+        <property role="3fT77I" value="correctly" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfqLap" role="3f6BbQ">
+        <property role="3fT77I" value="reads" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfqLt5" role="3f6BbQ">
+        <property role="3fT77I" value="from" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfqLBJ" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAEE" resolve="Path" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfqLMp" role="3f6BbQ">
+        <property role="3fT77I" value="after" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfrE3S" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrEbS" role="3f6BbQ">
+        <property role="3fT77I" value="gave" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrEez" role="3f6BbQ">
+        <property role="3fT77I" value="input" />
+      </node>
+      <node concept="3f6BbF" id="7J16yTfrEjT" role="3f6BbQ">
+        <property role="3fT77I" value="." />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrEjU" role="3f6BbQ">
+        <property role="3fT77I" value="It" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrEm_" role="3f6BbQ">
+        <property role="3fT77I" value="takes" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrEmA" role="3f6BbQ">
+        <property role="3fT77I" value="place" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrEph" role="3f6BbQ">
+        <property role="3fT77I" value="after" />
+      </node>
+      <node concept="bi8gd" id="7J16yTfqLX3" role="3f6BbQ">
+        <ref role="bi8g8" node="7J16yTfmzdG" resolve="Export to Path" />
+      </node>
+    </node>
+  </node>
+  <node concept="1fmyMM" id="7J16yTfrcHp">
+    <property role="TrG5h" value="Read JSON from Path" />
+    <property role="3GE5qa" value="Read JSON from Path - Test Design" />
+    <node concept="1fmyMZ" id="7J16yTfrcXm" role="1fmyMW">
+      <node concept="1fmyMC" id="7J16yTfreqD" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrd01" resolve="TestEngineer" />
+        <ref role="3zGEs9" to="aamg:7J16yTfpal0" resolve="path input" />
+        <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
+        <ref role="3zGEsl" to="aamg:7J16yTfpeiA" resolve="path input" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfrgJK" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrd01" resolve="TestEngineer" />
+        <ref role="3zGEs9" to="aamg:7J16yTfnLvQ" resolve="db_name_input" />
+        <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
+        <ref role="3zGEsl" to="aamg:7J16yTfoJ2w" resolve="db_name" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfrfEn" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrdvV" resolve="Path A" />
+        <ref role="3zGEs9" to="aamg:7C5UPHnZAFr" resolve="json_for_py" />
+        <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
+        <ref role="3zGEsl" to="aamg:7J16yTfoLpK" resolve="read_json" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfrgf$" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrdPc" resolve="Path B" />
+        <ref role="3zGEs9" to="aamg:7C5UPHnZAFr" resolve="json_for_py" />
+        <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
+        <ref role="3zGEsl" to="aamg:7J16yTfoLpK" resolve="read_json" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfrd01" role="1fmyM_">
+        <property role="TrG5h" value="TestEngineer2" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfrdiC" role="1fmyM_">
+        <property role="TrG5h" value="test_script" />
+        <ref role="1fmyMB" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfrdvV" role="1fmyM_">
+        <property role="TrG5h" value="Path A" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZAEE" resolve="Path" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfrdPc" role="1fmyM_">
+        <property role="TrG5h" value="Path B" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZAEE" resolve="Path" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="7J16yTfrhZO" role="1fksqA">
+      <node concept="3fT77D" id="7J16yTfrhZP" role="3f6BbQ">
+        <property role="3fT77I" value="Defines" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfri7O" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfri7P" role="3f6BbQ">
+        <property role="3fT77I" value="instances" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfriaw" role="3f6BbQ">
         <property role="3fT77I" value="to" />
       </node>
-      <node concept="1hSrFG" id="7J16yTfnj5h" role="3f6BbQ">
-        <ref role="1hSrFy" to="aamg:Sv$7iJa8fW" resolve="ArangoDB " />
+      <node concept="3fT77D" id="7J16yTfrkEW" role="3f6BbQ">
+        <property role="3fT77I" value="plan" />
       </node>
-      <node concept="3fT77D" id="7J16yTfnjcO" role="3f6BbQ">
+      <node concept="3fT77D" id="7J16yTfrkHC" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrkHD" role="3f6BbQ">
+        <property role="3fT77I" value="test" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrifQ" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfriix" role="3f6BbQ">
+        <property role="3fT77I" value="interfaces" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfriqx" role="3f6BbQ">
+        <property role="3fT77I" value="between" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfriyx" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfriEx" role="3f6BbQ">
+        <property role="3fT77I" value="," />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfriMx" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfriRR" role="3f6BbQ">
+        <property role="3fT77I" value="and" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfriZR" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAEE" resolve="Path" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrjay" role="3f6BbQ">
+        <property role="3fT77I" value="from" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrjdd" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrjfS" role="3f6BbQ">
+        <property role="3fT77I" value="Architectural" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfrjnR" role="3f6BbQ">
+        <property role="3fT77I" value="Design" />
+      </node>
+      <node concept="3f6BbF" id="7J16yTfrkd5" role="3f6BbQ">
         <property role="3fT77I" value="." />
       </node>
     </node>
   </node>
-  <node concept="1fmyL8" id="7J16yTfnCfr">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="ArangoDB" />
-    <node concept="X_8GT" id="7J16yTfookC" role="1vU5Ow">
-      <property role="TrG5h" value="configureNetwork" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfornT" role="1vU5Ow">
-      <property role="TrG5h" value="forwardHTTP_request" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfohNh" role="1fmyMU">
-      <property role="TrG5h" value="access_to_localhost" />
-      <ref role="3zGEsh" to="aamg:Sv$7iJa8j1" resolve="Arango Connection" />
-    </node>
-  </node>
-  <node concept="1fmyL8" id="7J16yTfnCps">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="Docker Container" />
-    <node concept="X_8GT" id="7J16yTfo7ch" role="1vU5Ow">
-      <property role="TrG5h" value="run" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfo7jM" role="1vU5Ow">
-      <property role="TrG5h" value="confirm" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfo7yN" role="1vU5Ow">
-      <property role="TrG5h" value="HTTP-Request" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfo7Yk" role="1vU5Ow">
-      <property role="TrG5h" value="ResponseStatus" />
-    </node>
-    <node concept="X_8GT" id="7J16yTfoepM" role="1vU5Ow">
-      <property role="TrG5h" value="click_on_port" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfo6UK" role="1fmyMU">
-      <property role="TrG5h" value="interaction" />
-      <ref role="3zGEsh" to="aamg:7C5UPHnZKQA" resolve="Interaction Docker Container" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfo6sJ" role="1fmyMO">
-      <property role="TrG5h" value="localhost:" />
-      <ref role="3zGEsh" to="aamg:Sv$7iJa8j1" resolve="Arango Connection" />
-    </node>
-    <node concept="3f6AUQ" id="7J16yTfo552" role="1fksqA">
-      <node concept="3fT77D" id="7J16yTfo553" role="3f6BbQ">
-        <property role="3fT77I" value="realises" />
+  <node concept="1Lr20E" id="7J16yTfrSmz">
+    <property role="TrG5h" value="Define Graph in ArangoDB" />
+    <property role="3GE5qa" value="Define Graph in ArangoDB - Test Design" />
+    <node concept="X_bju" id="7J16yTfrTmo" role="1LuVN3">
+      <property role="TrG5h" value="Export JSON to ArangoDB to different Databases" />
+      <node concept="1LuVN4" id="7J16yTfs6ta" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfs0os" resolve="Export Graph to ArangoDB.test engineer4" />
+        <ref role="AfY4e" node="7J16yTfs0z6" resolve="Export Graph to ArangoDB.test script_arango" />
+        <ref role="19Fzs9" to="aamg:7J16yTfs7d0" resolve="db_name=&quot;testDB1&quot;" />
       </node>
-      <node concept="3fT77D" id="7J16yTfo57$" role="3f6BbQ">
-        <property role="3fT77I" value="a" />
+      <node concept="1LuVN4" id="7J16yTfs9LU" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfs0z6" resolve="Export Graph to ArangoDB.test script_arango" />
+        <ref role="AfY4e" node="7J16yTfs0Kr" resolve="Export Graph to ArangoDB.arango db" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsdJ4" resolve="ExportJSON-Files" />
       </node>
-      <node concept="3fT77D" id="7J16yTfo5a5" role="3f6BbQ">
-        <property role="3fT77I" value="kid" />
+      <node concept="1LuVN4" id="7J16yTfseuV" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfs0z6" resolve="Export Graph to ArangoDB.test script_arango" />
+        <ref role="AfY4e" node="7J16yTfs0Kr" resolve="Export Graph to ArangoDB.testDB1" />
+        <ref role="19Fzs9" to="aamg:7J16yTfseWb" resolve="CreateGraph" />
       </node>
-      <node concept="3fT77D" id="7J16yTfo5a6" role="3f6BbQ">
-        <property role="3fT77I" value="of" />
+      <node concept="1LuVN4" id="7J16yTfshp8" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfs0os" resolve="Export Graph to ArangoDB.test engineer4" />
+        <ref role="AfY4e" node="7J16yTfs0z6" resolve="Export Graph to ArangoDB.test script_arango" />
+        <ref role="19Fzs9" to="aamg:7J16yTfs8q9" resolve="db_name=&quot;testDB2&quot;" />
       </node>
-      <node concept="3fT77D" id="7J16yTfo5cB" role="3f6BbQ">
-        <property role="3fT77I" value="virtual" />
+      <node concept="1LuVN4" id="7J16yTfshIr" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfs0z6" resolve="Export Graph to ArangoDB.test script_arango" />
+        <ref role="AfY4e" node="7J16yTfsdpM" resolve="Export Graph to ArangoDB.testDB2" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsdJ4" resolve="ExportJSON-Files" />
       </node>
-      <node concept="3fT77D" id="7J16yTfo5hC" role="3f6BbQ">
-        <property role="3fT77I" value="machine" />
+      <node concept="1LuVN4" id="7J16yTfsiem" role="X_bjp">
+        <ref role="AfY4h" node="7J16yTfs0z6" resolve="Export Graph to ArangoDB.test script_arango" />
+        <ref role="AfY4e" node="7J16yTfsdpM" resolve="Export Graph to ArangoDB.testDB2" />
+        <ref role="19Fzs9" to="aamg:7J16yTfseWb" resolve="CreateGraph" />
       </node>
-      <node concept="3fT77D" id="7J16yTfo5hD" role="3f6BbQ">
-        <property role="3fT77I" value="for" />
-      </node>
-      <node concept="3f6BbC" id="7J16yTfo5Cd" role="3f6BbQ">
-        <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
-      </node>
-    </node>
-  </node>
-  <node concept="1fmyL8" id="7J16yTfnCrX">
-    <property role="3GE5qa" value="Test Components " />
-    <property role="TrG5h" value="Browser" />
-    <node concept="X_8GT" id="7J16yTfo9qR" role="1vU5Ow">
-      <property role="TrG5h" value="forwardStatus" />
-      <node concept="3f6AUQ" id="7J16yTfo9yo" role="$d$W1">
-        <node concept="3fT77D" id="7J16yTfo9yp" role="3f6BbQ">
-          <property role="3fT77I" value="OK" />
+      <node concept="3f6AUQ" id="7J16yTfrTmq" role="X_bjr">
+        <node concept="1hSrFG" id="7J16yTfs2aR" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs2C7" role="3f6BbQ">
+          <property role="3fT77I" value="runs" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTfs5Hb" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs5Mx" role="3f6BbQ">
+          <property role="3fT77I" value="with" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs5Pc" role="3f6BbQ">
+          <property role="3fT77I" value="different" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTfs5ZQ" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs62y" role="3f6BbQ">
+          <property role="3fT77I" value="as" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs62z" role="3f6BbQ">
+          <property role="3fT77I" value="parameters" />
+        </node>
+        <node concept="3f6BbF" id="7J16yTfs6ay" role="3f6BbQ">
+          <property role="3fT77I" value="." />
         </node>
       </node>
+      <node concept="1gfTUo" id="7J16yTfs0os" role="AfY4v">
+        <property role="TrG5h" value="Export Graph to ArangoDB.test engineer4" />
+        <ref role="1gfY4O" node="7J16yTfrV0K" resolve="test engineer4" />
+      </node>
+      <node concept="1gfTUo" id="7J16yTfs0z6" role="AfY4v">
+        <property role="TrG5h" value="Export Graph to ArangoDB.test script_arango" />
+        <ref role="1gfY4O" node="7J16yTfrVzk" resolve="test script_arango" />
+      </node>
+      <node concept="1gfTUo" id="7J16yTfs0Kr" role="AfY4v">
+        <property role="TrG5h" value="Export Graph to ArangoDB.testDB1" />
+        <ref role="1gfY4O" node="7J16yTfrW3e" resolve="arango db" />
+      </node>
+      <node concept="1gfTUo" id="7J16yTfsdpM" role="AfY4v">
+        <property role="TrG5h" value="Export Graph to ArangoDB.testDB2" />
+        <ref role="1gfY4O" node="7J16yTfsbLu" resolve="testDB2" />
+      </node>
     </node>
-    <node concept="3zGEss" id="7J16yTfo8Am" role="1fmyMU">
-      <property role="TrG5h" value="http" />
-      <ref role="3zGEsh" to="aamg:Sv$7iJa8j1" resolve="Arango Connection" />
-    </node>
-    <node concept="3zGEss" id="7J16yTfo8dl" role="1fmyMO">
-      <property role="TrG5h" value="UI" />
-      <ref role="3zGEsh" to="aamg:7C5UPHnZKVX" resolve="Interface" />
-    </node>
+    <node concept="3f6AUQ" id="7J16yTfrSm$" role="1LuVN1" />
   </node>
-  <node concept="1fmyMM" id="7J16yTfoaMx">
-    <property role="TrG5h" value="Docker Deployment Test " />
-    <property role="3GE5qa" value="Docker Deployment" />
-    <node concept="1fmyMZ" id="7J16yTfob1y" role="1fmyMW">
-      <node concept="1fmyMC" id="7J16yTfock7" role="1fmyMH">
-        <ref role="1fmyM0" node="7J16yTfob43" resolve="engineer" />
-        <ref role="3zGEs9" node="7J16yTfoeUj" resolve="docker_inter" />
-        <ref role="1fmyM6" node="7J16yTfoby4" resolve="docker" />
-        <ref role="3zGEsl" node="7J16yTfo6UK" resolve="interaction" />
+  <node concept="1fmyMM" id="7J16yTfrUj$">
+    <property role="3GE5qa" value="Define Graph in ArangoDB - Test Design" />
+    <property role="TrG5h" value="Export Graph to ArangoDB" />
+    <node concept="1fmyMZ" id="7J16yTfrUY5" role="1fmyMW">
+      <node concept="1fmyMC" id="7J16yTfrWCr" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrV0K" resolve="test engineer4" />
+        <ref role="3zGEs9" to="aamg:7J16yTfnLvQ" resolve="db_name_input" />
+        <ref role="1fmyM6" node="7J16yTfrVzk" resolve="test script_arango" />
+        <ref role="3zGEsl" to="aamg:7J16yTfoJ2w" resolve="db_name" />
       </node>
-      <node concept="1fmyMC" id="7J16yTfofMs" role="1fmyMH">
-        <ref role="1fmyM0" node="7J16yTfoby4" resolve="docker" />
-        <ref role="3zGEs9" node="7J16yTfo6sJ" resolve="localhost:" />
-        <ref role="1fmyM6" node="7J16yTfobI_" resolve="browser" />
-        <ref role="3zGEsl" node="7J16yTfo8Am" resolve="http" />
+      <node concept="1fmyMC" id="7J16yTfrXdC" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrV0K" resolve="test engineer4" />
+        <ref role="3zGEs9" to="aamg:7J16yTfpal0" resolve="path input" />
+        <ref role="1fmyM6" node="7J16yTfrVzk" resolve="test script_arango" />
+        <ref role="3zGEsl" to="aamg:7J16yTfpeiA" resolve="path input" />
       </node>
-      <node concept="1fmyMC" id="7J16yTfoh3K" role="1fmyMH">
-        <ref role="1fmyM0" node="7J16yTfoby4" resolve="docker" />
-        <ref role="3zGEs9" node="7J16yTfo6sJ" resolve="localhost:" />
-        <ref role="1fmyM6" node="7J16yTfoc56" resolve="arangodb" />
-        <ref role="3zGEsl" node="7J16yTfohNh" resolve="access_to_localhost" />
+      <node concept="1fmyMC" id="7J16yTfrXyT" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrVzk" resolve="test script_arango" />
+        <ref role="3zGEs9" to="aamg:7J16yTfoKJf" resolve="json_arango" />
+        <ref role="1fmyM6" node="7J16yTfrW3e" resolve="arango db" />
+        <ref role="3zGEsl" to="aamg:7J16yTfoSRR" resolve="document_input" />
       </node>
-      <node concept="1fmyMC" id="7J16yTfojer" role="1fmyMH">
-        <ref role="1fmyM0" node="7J16yTfobI_" resolve="browser" />
-        <ref role="3zGEs9" node="7J16yTfo8dl" resolve="UI" />
-        <ref role="1fmyM6" node="7J16yTfob43" resolve="engineer" />
-        <ref role="3zGEsl" node="7J16yTfoizU" resolve="ui_arango" />
+      <node concept="1fmyMC" id="7J16yTfrXSa" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrVzk" resolve="test script_arango" />
+        <ref role="3zGEs9" to="aamg:7J16yTfoZUa" resolve="Arango Graph" />
+        <ref role="1fmyM6" node="7J16yTfrW3e" resolve="arango db" />
+        <ref role="3zGEsl" to="aamg:7J16yTfp3$U" resolve="Graph Definition" />
       </node>
-      <node concept="1fmyMA" id="7J16yTfob43" role="1fmyM_">
-        <property role="TrG5h" value="engineer" />
-        <ref role="1fmyMB" node="7J16yTfmPp3" resolve="Test Engineer" />
+      <node concept="1fmyMC" id="7J16yTfsckl" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrVzk" resolve="test script_arango" />
+        <ref role="3zGEs9" to="aamg:7J16yTfoKJf" resolve="json_arango" />
+        <ref role="1fmyM6" node="7J16yTfsbLu" resolve="testDB2" />
+        <ref role="3zGEsl" to="aamg:7J16yTfoSRR" resolve="document_input" />
       </node>
-      <node concept="1fmyMA" id="7J16yTfoby4" role="1fmyM_">
-        <property role="TrG5h" value="docker" />
-        <ref role="1fmyMB" node="7J16yTfnCps" resolve="Docker Container" />
+      <node concept="1fmyMC" id="7J16yTfscDA" role="1fmyMH">
+        <ref role="1fmyM0" node="7J16yTfrVzk" resolve="test script_arango" />
+        <ref role="3zGEs9" to="aamg:7J16yTfoZUa" resolve="Arango Graph" />
+        <ref role="1fmyM6" node="7J16yTfsbLu" resolve="testDB2" />
+        <ref role="3zGEsl" to="aamg:7J16yTfp3$U" resolve="Graph Definition" />
       </node>
-      <node concept="1fmyMA" id="7J16yTfobI_" role="1fmyM_">
-        <property role="TrG5h" value="browser" />
-        <ref role="1fmyMB" node="7J16yTfnCrX" resolve="Browser" />
+      <node concept="1fmyMA" id="7J16yTfrV0K" role="1fmyM_">
+        <property role="TrG5h" value="test engineer4" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
       </node>
-      <node concept="1fmyMA" id="7J16yTfoc56" role="1fmyM_">
-        <property role="TrG5h" value="arangodb" />
-        <ref role="1fmyMB" node="7J16yTfnCfr" resolve="ArangoDB" />
+      <node concept="1fmyMA" id="7J16yTfrVzk" role="1fmyM_">
+        <property role="TrG5h" value="test script_arango" />
+        <ref role="1fmyMB" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfrW3e" role="1fmyM_">
+        <property role="TrG5h" value="testDB1" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZAVS" resolve="Arango Database" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfsbLu" role="1fmyM_">
+        <property role="TrG5h" value="testDB2" />
+        <ref role="1fmyMB" to="aamg:7C5UPHnZAVS" resolve="Arango Database" />
       </node>
     </node>
   </node>

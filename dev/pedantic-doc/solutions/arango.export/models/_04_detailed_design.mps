@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
+        <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -388,6 +391,7 @@
         </node>
         <node concept="3fT77D" id="7C5UPHnZATw" role="3f6BbQ">
           <property role="3fT77I" value="document" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7C5UPHnZATx" role="3f6BbQ">
           <property role="3fT77I" value="and" />
