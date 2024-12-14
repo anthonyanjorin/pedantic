@@ -50,6 +50,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -64,8 +67,9 @@
     <property role="2fmTHH" value="/Applications/Uni/Bachelorarbeit/pedantic" />
   </node>
   <node concept="3UcZMl" id="Sv$7iJa8tf">
-    <property role="TrG5h" value="ArangoDB Terms" />
+    <property role="TrG5h" value="ArangoDB Terminology" />
     <property role="XwtER" value="Stefan Kostic" />
+    <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUY" id="Sv$7iJa8yb" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8yc" role="3f6AUE">
         <node concept="3fT77D" id="Sv$7iJa8ye" role="3f6BbQ">
@@ -1177,6 +1181,7 @@
   </node>
   <node concept="3UcZMl" id="Sv$7iJa8th">
     <property role="TrG5h" value="Jetbrains MPS and Pedantic" />
+    <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUY" id="Sv$7iJa8NK" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8NL" role="3f6AUE">
         <node concept="3fT77D" id="Sv$7iJa8NQ" role="3f6BbQ">
@@ -1925,6 +1930,7 @@
   </node>
   <node concept="3UcZMl" id="Sv$7iJa8tj">
     <property role="TrG5h" value="Python " />
+    <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUY" id="7C5UPHnZZ3P" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZZ3Q" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZZ3R" role="3f6AUK">
@@ -1936,6 +1942,7 @@
   <node concept="3UcZMl" id="Sv$7iJa8tD">
     <property role="TrG5h" value="General Terminology" />
     <property role="XwtER" value="Stefan Kostic" />
+    <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUY" id="Sv$7iJa8tL" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8tM" role="3f6AUE">
         <node concept="3fT77D" id="Sv$7iJa8tP" role="3f6BbQ">
@@ -2482,6 +2489,7 @@
   </node>
   <node concept="3UcZMl" id="Sv$7iJa8NV">
     <property role="TrG5h" value="Tools and Workbenches" />
+    <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUY" id="Sv$7iJa8O1" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8O2" role="3f6AUE">
         <node concept="3f6BbF" id="Sv$7iJa8O5" role="3f6BbQ">

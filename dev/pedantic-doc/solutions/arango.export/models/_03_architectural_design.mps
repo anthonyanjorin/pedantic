@@ -1219,7 +1219,7 @@
     </node>
   </node>
   <node concept="1fmyMM" id="7J16yTfsrff">
-    <property role="TrG5h" value="Docker Deployment Test " />
+    <property role="TrG5h" value="Docker Deployment " />
     <property role="3GE5qa" value="Deployment " />
     <node concept="1fmyMZ" id="7J16yTfsrfg" role="1fmyMW">
       <node concept="1fmyMC" id="7J16yTfsrfh" role="1fmyMH">
@@ -1247,7 +1247,7 @@
         <ref role="3zGEsl" node="7J16yTfsuyG" resolve="UI" />
       </node>
       <node concept="1fmyMA" id="7J16yTfsrfl" role="1fmyM_">
-        <property role="TrG5h" value="deployment test enginner " />
+        <property role="TrG5h" value="deployment test engineer " />
         <ref role="1fmyMB" node="7J16yTfsrX1" resolve="Deployment Engineer" />
       </node>
       <node concept="1fmyMA" id="7J16yTfsrfm" role="1fmyM_">
@@ -1268,7 +1268,7 @@
     <property role="3GE5qa" value="Deployment " />
     <property role="TrG5h" value="Deployment Engineer" />
     <node concept="X_8GT" id="7J16yTfsxrj" role="1vU5Ow">
-      <property role="TrG5h" value="show" />
+      <property role="TrG5h" value="showUI" />
     </node>
     <node concept="3zGEss" id="7J16yTfsuyG" role="1fmyMU">
       <property role="TrG5h" value="UI" />
