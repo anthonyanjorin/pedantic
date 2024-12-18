@@ -360,14 +360,65 @@
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfnFjK" role="3f6AUZ">
-      <node concept="3f6AUQ" id="7J16yTfnFjL" role="3f6AUE" />
-      <node concept="3f6AUX" id="7J16yTfnFjM" role="3f6AUK">
-        <property role="TrG5h" value="Arango Database" />
-        <property role="11DDNk" value="true" />
+      <node concept="3f6AUQ" id="7J16yTfnFjL" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTftplq" role="3f6BbQ">
+          <property role="3fT77I" value="The" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftpT_" role="3f6BbQ">
+          <property role="3fT77I" value="name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftpWS" role="3f6BbQ">
+          <property role="3fT77I" value="that" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftq0b" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTftqa3" role="3f6BbQ">
+          <ref role="1hSrFy" node="7C5UPHnZKQy" resolve="Engineer" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftqgD" role="3f6BbQ">
+          <property role="3fT77I" value="chooses" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftqne" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftqqx" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTftqS8" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftrir" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="7J16yTftrlI" role="3f6BbQ">
+          <property role="3fT77I" value="It" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftrlJ" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftrsk" role="3f6BbQ">
+          <property role="3fT77I" value="an" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftryT" role="3f6BbQ">
+          <property role="3fT77I" value="important" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftrGK" role="3f6BbQ">
+          <property role="3fT77I" value="parameter" />
+        </node>
+        <node concept="3fT77D" id="7J16yTftrNl" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTfts3L" role="3f6BbQ">
+          <ref role="1hSrFy" node="7C5UPHnZAGb" resolve="Function 1: Create Database" />
+        </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfnFJj" role="3f6AUK">
         <property role="TrG5h" value="Database Name" />
         <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3f6AUX" id="7J16yTftoRQ" role="3f6AUK">
+        <property role="TrG5h" value="db_name()" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfnJGM" role="3f6AUZ">
@@ -955,7 +1006,7 @@
     <property role="3GE5qa" value="Python Components" />
     <node concept="3zGEss" id="7J16yTfnI0l" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
-      <ref role="3zGEsh" node="7J16yTfnFjM" resolve="Arango Database" />
+      <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
     </node>
     <node concept="3zGEss" id="7C5UPHnZAIp" role="1fmyMO">
       <property role="TrG5h" value="Collection" />

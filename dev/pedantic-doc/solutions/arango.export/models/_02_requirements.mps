@@ -9,6 +9,9 @@
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
+        <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -1479,20 +1482,12 @@
         <node concept="3fT77D" id="Sv$7iJa8XM" role="3f6BbQ">
           <property role="3fT77I" value="want" />
         </node>
-        <node concept="3fT77D" id="Sv$7iJa8XN" role="3f6BbQ">
-          <property role="3fT77I" value="to" />
-        </node>
-        <node concept="3fT77D" id="Sv$7iJa8XO" role="3f6BbQ">
-          <property role="3fT77I" value="be" />
-        </node>
-        <node concept="3fT77D" id="Sv$7iJa8XP" role="3f6BbQ">
-          <property role="3fT77I" value="able" />
-        </node>
         <node concept="3fT77D" id="Sv$7iJa8XQ" role="3f6BbQ">
           <property role="3fT77I" value="to" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8XR" role="3f6BbQ">
           <property role="3fT77I" value="choose" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8XS" role="3f6BbQ">
           <property role="3fT77I" value="an" />
@@ -1541,9 +1536,6 @@
         </node>
         <node concept="3f6BbC" id="Sv$7iJa8Yo" role="3f6BbQ">
           <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
-        </node>
-        <node concept="3fT77D" id="Sv$7iJa8Yq" role="3f6BbQ">
-          <property role="3fT77I" value="." />
         </node>
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8X9" role="3f6AUK">
