@@ -603,7 +603,33 @@
   </node>
   <node concept="3UcZMl" id="7C5UPHnZAS1">
     <property role="TrG5h" value="Collection Control" />
-    <property role="3GE5qa" value="Collection Functions" />
+    <property role="3GE5qa" value="Collection Function Descriptions" />
+    <node concept="3f6AUY" id="7J16yTfvM91" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfvM92" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfvMsK" role="3f6BbQ">
+          <property role="3fT77I" value="process" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvMHc" role="3f6BbQ">
+          <property role="3fT77I" value="for" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvMHd" role="3f6BbQ">
+          <property role="3fT77I" value="creating" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTfvN7v" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8$z" resolve="Collections" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvNhn" role="3f6BbQ">
+          <property role="3fT77I" value="via" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTfvNCq" role="3f6BbQ">
+          <property role="11DDNk" value="true" />
+          <ref role="1hSrFy" to="aamg:Sv$7iJa8fX" resolve="Python Script" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfvM93" role="3f6AUK">
+        <property role="TrG5h" value="Create Collections" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7C5UPHnZASh" role="3f6AUZ">
       <node concept="3f6AUX" id="7C5UPHnZASD" role="3f6AUK">
         <property role="TrG5h" value="Access Database" />
@@ -1137,7 +1163,7 @@
     </node>
   </node>
   <node concept="3UcZMl" id="7J16yTftLrN">
-    <property role="3GE5qa" value="Collection Functions" />
+    <property role="3GE5qa" value="Collection Function Descriptions" />
     <property role="TrG5h" value="edge_collection_control()" />
     <node concept="3f6AUY" id="7J16yTftO9L" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTftO9M" role="3f6AUE">
@@ -1407,7 +1433,7 @@
     <node concept="3f6AUQ" id="7J16yTftLrO" role="3f6AUR" />
   </node>
   <node concept="3UcZMl" id="7J16yTfu7dZ">
-    <property role="3GE5qa" value="Collection Functions" />
+    <property role="3GE5qa" value="Collection Function Descriptions" />
     <property role="TrG5h" value="doc_collection_control()" />
     <node concept="3f6AUY" id="7J16yTfu7e0" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfu7e1" role="3f6AUE">
@@ -2102,6 +2128,81 @@
       </node>
       <node concept="1rOGIJ" id="7J16yTfuVol" role="1rOGIl">
         <property role="TrG5h" value="-&gt;(*)" />
+      </node>
+    </node>
+  </node>
+  <node concept="1Lr20E" id="7J16yTfvKc5">
+    <property role="3GE5qa" value="State Charts" />
+    <property role="TrG5h" value="Create Collection" />
+    <node concept="1rTVtr" id="7J16yTfvLh9" role="1LuVN3">
+      <property role="TrG5h" value="Collection Control" />
+      <ref role="1rOGIq" node="7J16yTfvM93" resolve="Create Collections" />
+      <node concept="1rOGIG" id="7J16yTfvSH_" role="1rOGIh">
+        <property role="TrG5h" value="Inform Engineer" />
+        <ref role="1rOGI5" node="7J16yTfu7fj" resolve="Inform Engineer" />
+        <node concept="1rOGIx" id="7J16yTfvSHA" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfvRJ8" role="1rOGIh">
+        <property role="TrG5h" value="Create Document Collection" />
+        <ref role="1rOGI5" node="7J16yTfu7f3" resolve="Create Collection of Type &quot;document&quot;" />
+        <node concept="1rOGIx" id="7J16yTfvRJ9" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfvPWb" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfvLhd" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="7J16yTfvOKD" resolve="Connect to DB" />
+      </node>
+      <node concept="1rOIWg" id="7J16yTfvR4r" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfvOKD" resolve="Connect to DB" />
+        <ref role="1rODdH" node="7J16yTfvRJ8" resolve="Create Document Collection" />
+        <node concept="3f6AUQ" id="7J16yTfvRb0" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfvRb1" role="3f6BbQ">
+            <property role="3fT77I" value="success" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfvTbf" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfvRJ8" resolve="Create Document Collection" />
+        <ref role="1rODdH" node="7J16yTfvSH_" resolve="Inform Engineer" />
+        <node concept="3f6AUQ" id="7J16yTfvTrE" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfvTrF" role="3f6BbQ">
+            <property role="3fT77I" value="collection" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfvTyg" role="3f6BbQ">
+            <property role="3fT77I" value="created" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfvOKD" role="1rOGIh">
+        <property role="TrG5h" value="Connect to DB" />
+        <ref role="1rOGI5" node="7C5UPHnZASE" resolve="Connect to Database" />
+        <node concept="1rOGIx" id="7J16yTfvOKE" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+        <node concept="1rOGIJ" id="7J16yTfvQms" role="1rOGI0">
+          <property role="TrG5h" value="-&gt;(*)" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfvLhb" role="1rOGIF" />
+      <node concept="1rOGIx" id="7J16yTfvLhd" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="7J16yTfvOKC" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="7J16yTfvKc6" role="1LuVN1">
+      <node concept="3fT77D" id="7J16yTfvKKd" role="3f6BbQ">
+        <property role="3fT77I" value="behaviour" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfvKQM" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfvKXo" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2: Create Collection" />
       </node>
     </node>
   </node>
