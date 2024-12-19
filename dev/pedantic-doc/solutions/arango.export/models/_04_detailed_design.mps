@@ -103,6 +103,9 @@
         <property role="TrG5h" value="Function Name" />
         <property role="11DDNk" value="true" />
       </node>
+      <node concept="3f6AUX" id="7J16yTfvHIm" role="3f6AUK">
+        <property role="TrG5h" value="database_control()" />
+      </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfufUp" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfufUq" role="3f6AUE">
@@ -524,6 +527,51 @@
         <node concept="3fT77D" id="7J16yTftDhx" role="3f6BbQ">
           <property role="3fT77I" value="called" />
         </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfvu7u" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfvu7v" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfvuFB" role="3f6BbQ">
+          <property role="3fT77I" value="Inform" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTfvwrv" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
+        </node>
+        <node concept="3f6BbF" id="7J16yTfvv9d" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvv5T" role="3f6BbQ">
+          <property role="3fT77I" value="if" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTfvwCD" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8tN" resolve="Database" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvzz" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvz$" role="3f6BbQ">
+          <property role="3fT77I" value="created" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvAR" role="3f6BbQ">
+          <property role="3fT77I" value="or" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvEa" role="3f6BbQ">
+          <property role="3fT77I" value="when" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvEb" role="3f6BbQ">
+          <property role="3fT77I" value="it" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvHu" role="3f6BbQ">
+          <property role="3fT77I" value="already" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfvvO3" role="3f6BbQ">
+          <property role="3fT77I" value="exists" />
+          <property role="11DDNk" value="true" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfvu7w" role="3f6AUK">
+        <property role="TrG5h" value="Inform Engineer" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZALh" role="3f6AUR">
@@ -1941,7 +1989,8 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfuUAZ">
-    <property role="TrG5h" value="Create Database State Diagram" />
+    <property role="TrG5h" value="Create Database State " />
+    <property role="3GE5qa" value="State Charts" />
     <node concept="3f6AUQ" id="7J16yTfuUB0" role="1LuVN1">
       <node concept="3fT77D" id="7J16yTfuUH_" role="3f6BbQ">
         <property role="3fT77I" value="behaviour" />
@@ -1954,18 +2003,41 @@
       </node>
     </node>
     <node concept="1rTVtr" id="7J16yTfuUUI" role="1LuVN3">
-      <property role="TrG5h" value="Function1" />
-      <ref role="1rOGIq" node="7C5UPHnZAMG" resolve="Existence of Database" />
+      <property role="TrG5h" value="Function" />
+      <ref role="1rOGIq" node="7J16yTfvHIm" resolve="database_control()" />
+      <node concept="1rOGIG" id="7J16yTfvxEk" role="1rOGIh">
+        <property role="TrG5h" value="Inform Engineer" />
+        <ref role="1rOGI5" node="7J16yTfvu7w" resolve="Inform Engineer" />
+        <node concept="1rOGIx" id="7J16yTfvxEl" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
       <node concept="1rOGIG" id="7J16yTfvnJx" role="1rOGIh">
         <property role="TrG5h" value="Create DB" />
         <node concept="1rOIWg" id="7J16yTfvqah" role="1rP2R2">
           <ref role="1rODdJ" node="7J16yTfvnJy" resolve="(*)-&gt;" />
           <ref role="1rODdH" node="7J16yTfvpvs" resolve="ggg" />
         </node>
+        <node concept="1rOIWg" id="7J16yTfvAoF" role="1rP2R2">
+          <ref role="1rODdJ" node="7J16yTfvpvs" resolve="Create Database" />
+          <ref role="1rODdH" node="7J16yTfvCvk" resolve="Inform Engineer" />
+          <node concept="3f6AUQ" id="7J16yTfvAMW" role="1rODdn">
+            <node concept="3fT77D" id="7J16yTfvAMX" role="3f6BbQ">
+              <property role="3fT77I" value="done" />
+            </node>
+          </node>
+        </node>
         <node concept="1rOGIG" id="7J16yTfvpvs" role="1rOGI1">
-          <property role="TrG5h" value="ggg" />
-          <ref role="1rOGI5" to="wjwp:Sv$7iJa8P3" resolve="AST" />
+          <property role="TrG5h" value="Create Database" />
+          <ref role="1rOGI5" node="7J16yTfv5NL" resolve="Create DB" />
           <node concept="1rOGIx" id="7J16yTfvpvt" role="1rOGI3">
+            <property role="TrG5h" value="(*)-&gt;" />
+          </node>
+        </node>
+        <node concept="1rOGIG" id="7J16yTfvCvk" role="1rOGI1">
+          <property role="TrG5h" value="Inform Engineer" />
+          <ref role="1rOGI5" node="7J16yTfvu7w" resolve="Inform Engineer" />
+          <node concept="1rOGIx" id="7J16yTfvCvl" role="1rOGI3">
             <property role="TrG5h" value="(*)-&gt;" />
           </node>
         </node>
@@ -2005,6 +2077,14 @@
             <property role="3fT77I" value="no" />
           </node>
         </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfvrfl" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfvlhD" resolve="DB already exists" />
+        <ref role="1rODdH" node="7J16yTfvxEk" resolve="Inform Engineer" />
+      </node>
+      <node concept="1rOIWg" id="7J16yTfvyr$" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfvxEk" resolve="Inform Engineer" />
+        <ref role="1rODdH" node="7J16yTfuVol" resolve="-&gt;(*)" />
       </node>
       <node concept="1rOGIG" id="7J16yTfvfk0" role="1rOGIh">
         <property role="TrG5h" value="Check if DB exists" />
