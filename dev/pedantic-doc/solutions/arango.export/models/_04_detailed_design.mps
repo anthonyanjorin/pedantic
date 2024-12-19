@@ -7,6 +7,7 @@
   <imports>
     <import index="wjwp" ref="r:09762c2c-84c4-4d3c-86ba-5448ddf98491(_01_domain_model)" />
     <import index="aamg" ref="r:feb907e2-853a-4c90-9dca-07beabfe1084(_03_architectural_design)" />
+    <import index="rgqf" ref="r:95f5d145-b886-4c75-aaf6-a3d002539697(_05_unit_tests)" />
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
@@ -24,6 +25,7 @@
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
+        <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -58,6 +60,7 @@
         <child id="3402856230705402909" name="description" index="1rOGIF" />
         <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
       </concept>
+      <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI" />
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
@@ -93,9 +96,6 @@
         <node concept="3fT77D" id="7C5UPHnZAMD" role="3f6BbQ">
           <property role="3fT77I" value="&quot;database_control()&quot;" />
         </node>
-        <node concept="3f6BbF" id="7J16yTftclL" role="3f6BbQ">
-          <property role="3fT77I" value="." />
-        </node>
         <node concept="3f6BbC" id="7J16yTftd$I" role="3f6BbQ">
           <ref role="3f6BbD" to="wjwp:Sv$7iJa8P3" resolve="AST" />
         </node>
@@ -107,6 +107,18 @@
       <node concept="3f6AUX" id="7J16yTfvHIm" role="3f6AUK">
         <property role="TrG5h" value="database_control()" />
       </node>
+      <node concept="3f6AUQ" id="7J16yTfx5cc" role="3jToc2">
+        <node concept="3fT77D" id="7J16yTfx5cd" role="3f6BbQ">
+          <property role="3fT77I" value="tested" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfx5fw" role="3f6BbQ">
+          <property role="3fT77I" value="by" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTfx5iO" role="3f6BbQ">
+          <ref role="3f6BbD" to="rgqf:7J16yTfwYON" resolve="Test: Create Database" />
+        </node>
+      </node>
+      <node concept="3BFnmI" id="7J16yTfx7UP" role="3BFnmE" />
     </node>
     <node concept="3f6AUY" id="7J16yTfufUp" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfufUq" role="3f6AUE">
@@ -881,7 +893,33 @@
     </node>
   </node>
   <node concept="3UcZMl" id="7C5UPHnZB5B">
-    <property role="TrG5h" value="document_adder()" />
+    <property role="TrG5h" value="Document Adder" />
+    <node concept="3f6AUY" id="7J16yTfxlf0" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfxlf1" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfxlsb" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxlsc" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxlsd" role="3f6BbQ">
+          <property role="3fT77I" value="name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxlvw" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxlvx" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxlyO" role="3f6BbQ">
+          <property role="3fT77I" value="function" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfxlf2" role="3f6AUK">
+        <property role="TrG5h" value="document_adder" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7J16yTfwk2g" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfwk2h" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfwkiH" role="3f6BbQ">
@@ -1219,6 +1257,27 @@
   <node concept="3UcZMl" id="7J16yTftLrN">
     <property role="3GE5qa" value="Collection Function Descriptions" />
     <property role="TrG5h" value="edge_collection_control()" />
+    <node concept="3f6AUY" id="7J16yTfxaNn" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfxaNo" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfxbqN" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxbu6" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxbu7" role="3f6BbQ">
+          <property role="3fT77I" value="function" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxbBZ" role="3f6BbQ">
+          <property role="3fT77I" value="name" />
+          <property role="11DDNk" value="true" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfxaNp" role="3f6AUK">
+        <property role="TrG5h" value="edge_collection_control()" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7J16yTftO9L" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTftO9M" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTftOBm" role="3f6BbQ">
@@ -1268,6 +1327,7 @@
         </node>
         <node concept="3fT77D" id="7J16yTftRsd" role="3f6BbQ">
           <property role="3fT77I" value="parameter" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3f6BbC" id="7J16yTftUZ6" role="3f6BbQ">
           <ref role="3f6BbD" node="7J16yTftRNf" resolve="doc_coll_name" />
@@ -1275,6 +1335,7 @@
       </node>
       <node concept="3f6AUX" id="7J16yTftO9N" role="3f6AUK">
         <property role="TrG5h" value="Parameters" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTftRNd" role="3f6AUZ">
@@ -1417,6 +1478,7 @@
         </node>
         <node concept="3fT77D" id="7J16yTfubGR" role="3f6BbQ">
           <property role="3fT77I" value="parameter" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfubNs" role="3f6BbQ">
           <property role="3fT77I" value="of" />
@@ -1482,6 +1544,7 @@
       </node>
       <node concept="3f6AUX" id="7J16yTfu4_K" role="3f6AUK">
         <property role="TrG5h" value="Inform Engineer" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTftLrO" role="3f6AUR" />
@@ -1489,6 +1552,51 @@
   <node concept="3UcZMl" id="7J16yTfu7dZ">
     <property role="3GE5qa" value="Collection Function Descriptions" />
     <property role="TrG5h" value="doc_collection_control()" />
+    <node concept="3f6AUY" id="7J16yTfxhkZ" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfxhl0" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfxhCI" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxhCJ" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxhG2" role="3f6BbQ">
+          <property role="3fT77I" value="identifier" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxhMB" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxhMC" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxhPV" role="3f6BbQ">
+          <property role="3fT77I" value="function" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTfxi9E" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2: Create Collection" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfximO" role="3f6BbQ">
+          <property role="3fT77I" value="that" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxiq7" role="3f6BbQ">
+          <property role="3fT77I" value="created" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxitq" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxiwI" role="3f6BbQ">
+          <property role="3fT77I" value="document" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxi$1" role="3f6BbQ">
+          <property role="3fT77I" value="collection" />
+          <property role="11DDNk" value="true" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfxhl1" role="3f6AUK">
+        <property role="TrG5h" value="doc_collection_control()" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7J16yTfu7e0" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfu7e1" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfu7e2" role="3f6BbQ">
@@ -1740,7 +1848,33 @@
     <node concept="3f6AUQ" id="7J16yTfu7fk" role="3f6AUR" />
   </node>
   <node concept="3UcZMl" id="7J16yTfuky5">
-    <property role="TrG5h" value="create_Graph()" />
+    <property role="TrG5h" value="Create Graph" />
+    <node concept="3f6AUY" id="7J16yTfxo76" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfxo77" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfxp8O" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxp8P" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxp8Q" role="3f6BbQ">
+          <property role="3fT77I" value="function" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxp5x" role="3f6BbQ">
+          <property role="3fT77I" value="name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfxpc9" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="1hSrFG" id="7J16yTfxpiJ" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:7J16yTfoYvK" resolve="Function 4: Define Graph" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfxo78" role="3f6AUK">
+        <property role="TrG5h" value="create_graph" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7J16yTfunwI" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfunwJ" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfunHT" role="3f6BbQ">
@@ -2089,7 +2223,7 @@
       </node>
     </node>
     <node concept="1rTVtr" id="7J16yTfuUUI" role="1LuVN3">
-      <property role="TrG5h" value="Function" />
+      <property role="TrG5h" value="Create Database" />
       <ref role="1rOGIq" node="7J16yTfvHIm" resolve="database_control()" />
       <node concept="1rOGIG" id="7J16yTfvxEk" role="1rOGIh">
         <property role="TrG5h" value="Inform Engineer" />
