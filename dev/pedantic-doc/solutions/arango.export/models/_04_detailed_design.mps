@@ -47,6 +47,7 @@
       <concept id="3402856230705410214" name="pedantic.structure.Transition" flags="ng" index="1rOIWg">
         <reference id="3402856230705417435" name="target" index="1rODdH" />
         <reference id="3402856230705417433" name="source" index="1rODdJ" />
+        <child id="3402856230705417445" name="action" index="1rODdj" />
         <child id="3402856230705417441" name="trigger" index="1rODdn" />
       </concept>
       <concept id="3402856230704572653" name="pedantic.structure.StateMachine" flags="ng" index="1rTVtr">
@@ -881,6 +882,59 @@
   </node>
   <node concept="3UcZMl" id="7C5UPHnZB5B">
     <property role="TrG5h" value="document_adder()" />
+    <node concept="3f6AUY" id="7J16yTfwk2g" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfwk2h" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfwkiH" role="3f6BbQ">
+          <property role="3fT77I" value="Check" />
+        </node>
+        <node concept="3f6BbF" id="7J16yTfwkpk" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="7J16yTfwkpi" role="3f6BbQ">
+          <property role="3fT77I" value="if" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfwkpj" role="3f6BbQ">
+          <property role="3fT77I" value="DB" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfwksB" role="3f6BbQ">
+          <property role="3fT77I" value="exists" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfwk2i" role="3f6AUK">
+        <property role="TrG5h" value="Existence of DB" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfwmXz" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfwmX$" role="3f6AUE">
+        <node concept="3fT77D" id="7J16yTfwnaI" role="3f6BbQ">
+          <property role="3fT77I" value="Check" />
+        </node>
+        <node concept="3f6BbF" id="7J16yTfwnhk" role="3f6BbQ">
+          <property role="3fT77I" value="," />
+        </node>
+        <node concept="3fT77D" id="7J16yTfwnhj" role="3f6BbQ">
+          <property role="3fT77I" value="if" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfwnkB" role="3f6BbQ">
+          <property role="3fT77I" value="Collection" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfwnxK" role="3f6BbQ">
+          <property role="3fT77I" value="exists" />
+          <property role="11DDNk" value="true" />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="7J16yTfwmX_" role="3f6AUK">
+        <property role="TrG5h" value="Existence of Collection" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfwyI2" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfwyI3" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfwyI4" role="3f6AUK">
+        <property role="TrG5h" value="Inform Engineer" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7J16yTfumrK" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfumrL" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfuKaT" role="3f6BbQ">
@@ -2015,7 +2069,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfuUAZ">
-    <property role="TrG5h" value="Create Database State " />
+    <property role="TrG5h" value="Create Database  " />
     <property role="3GE5qa" value="State Charts" />
     <node concept="3f6AUQ" id="7J16yTfuUB0" role="1LuVN1">
       <node concept="3fT77D" id="7J16yTfuUH_" role="3f6BbQ">
@@ -2133,7 +2187,7 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfvKc5">
     <property role="3GE5qa" value="State Charts" />
-    <property role="TrG5h" value="Create Collection" />
+    <property role="TrG5h" value="Create Document Collection" />
     <node concept="1rTVtr" id="7J16yTfvLh9" role="1LuVN3">
       <property role="TrG5h" value="Collection Control" />
       <ref role="1rOGIq" node="7J16yTfvM93" resolve="Create Collections" />
@@ -2170,9 +2224,22 @@
         <node concept="3f6AUQ" id="7J16yTfvTrE" role="1rODdn">
           <node concept="3fT77D" id="7J16yTfvTrF" role="3f6BbQ">
             <property role="3fT77I" value="collection" />
+            <property role="11DDNk" value="true" />
           </node>
           <node concept="3fT77D" id="7J16yTfvTyg" role="3f6BbQ">
             <property role="3fT77I" value="created" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfw7Lw" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfvSH_" resolve="Inform Engineer" />
+        <ref role="1rODdH" node="7J16yTfvOKC" resolve="-&gt;(*)" />
+        <node concept="3f6AUQ" id="7J16yTfw88v" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfw8in" role="3f6BbQ">
+            <property role="3fT77I" value="console" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfw8lE" role="3f6BbQ">
+            <property role="3fT77I" value="output" />
           </node>
         </node>
       </node>
@@ -2201,8 +2268,289 @@
       <node concept="3fT77D" id="7J16yTfvKQM" role="3f6BbQ">
         <property role="3fT77I" value="of" />
       </node>
+      <node concept="3fT77D" id="7J16yTfvZEo" role="3f6BbQ">
+        <property role="3fT77I" value="doc_collection_control()" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw07V" role="3f6BbQ">
+        <property role="3fT77I" value="as" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw07W" role="3f6BbQ">
+        <property role="3fT77I" value="part" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw0bf" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
       <node concept="1hSrFG" id="7J16yTfvKXo" role="3f6BbQ">
         <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2: Create Collection" />
+      </node>
+    </node>
+  </node>
+  <node concept="1Lr20E" id="7J16yTfvYFZ">
+    <property role="3GE5qa" value="State Charts" />
+    <property role="TrG5h" value="Create Edge Collection" />
+    <node concept="1rTVtr" id="7J16yTfw1gm" role="1LuVN3">
+      <property role="TrG5h" value="Edge Collection Control" />
+      <ref role="1rOGIq" node="7J16yTftYPA" resolve="Create Collection of Type &quot;edge&quot;" />
+      <node concept="1rOIWg" id="7J16yTfw5RS" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfw1gq" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="7J16yTfw2WK" resolve="Connect to DB" />
+      </node>
+      <node concept="1rOIWg" id="7J16yTfw6eR" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfw2WK" resolve="Connect to DB" />
+        <ref role="1rODdH" node="7J16yTfw4by" resolve="Create Edge Collection" />
+        <node concept="3f6AUQ" id="7J16yTfw6vi" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfw6vj" role="3f6BbQ">
+            <property role="3fT77I" value="success" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfw6_S" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfw4by" resolve="Create Edge Collection" />
+        <ref role="1rODdH" node="7J16yTfw5tA" resolve="Inform Engineer" />
+        <node concept="3f6AUQ" id="7J16yTfw6Qj" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfw7g$" role="3f6BbQ">
+            <property role="3fT77I" value="created" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfw93Q" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfw5tA" resolve="Inform Engineer" />
+        <ref role="1rODdH" node="7J16yTfw2Tt" resolve="-&gt;(*)" />
+        <node concept="3f6AUQ" id="7J16yTfw9gZ" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfw9h0" role="3f6BbQ">
+            <property role="3fT77I" value="output" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfw9qR" role="3f6BbQ">
+            <property role="3fT77I" value="on" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfw9qS" role="3f6BbQ">
+            <property role="3fT77I" value="console" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfw5tA" role="1rOGIh">
+        <property role="TrG5h" value="Inform Engineer" />
+        <ref role="1rOGI5" node="7J16yTfu7fj" resolve="Inform Engineer" />
+        <node concept="1rOGIx" id="7J16yTfw5tB" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfw4by" role="1rOGIh">
+        <property role="TrG5h" value="Create Edge Collection" />
+        <ref role="1rOGI5" node="7J16yTftYPA" resolve="Create Collection of Type &quot;edge&quot;" />
+        <node concept="1rOGIx" id="7J16yTfw4bz" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfw2WK" role="1rOGIh">
+        <property role="TrG5h" value="Connect to DB" />
+        <ref role="1rOGI5" node="7C5UPHnZASE" resolve="Connect to Database" />
+        <node concept="1rOGIx" id="7J16yTfw2WL" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfw1go" role="1rOGIF" />
+      <node concept="1rOGIx" id="7J16yTfw1gq" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="7J16yTfw2Tt" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="7J16yTfvYG0" role="1LuVN1">
+      <node concept="3fT77D" id="7J16yTfw0rE" role="3f6BbQ">
+        <property role="3fT77I" value="behaviour" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw0uX" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw0uY" role="3f6BbQ">
+        <property role="3fT77I" value="edge_collection_control()" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw0PZ" role="3f6BbQ">
+        <property role="3fT77I" value="as" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw0Ti" role="3f6BbQ">
+        <property role="3fT77I" value="part" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfw0Tj" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfw0ZT" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2: Create Collection" />
+      </node>
+    </node>
+  </node>
+  <node concept="1Lr20E" id="7J16yTfwaAD">
+    <property role="3GE5qa" value="State Charts" />
+    <property role="TrG5h" value="Add Documents" />
+    <node concept="1rTVtr" id="7J16yTfwgoZ" role="1LuVN3">
+      <property role="TrG5h" value="Document Adder" />
+      <ref role="1rOGIq" node="7J16yTfuGZ1" resolve="Load Documents to Collection" />
+      <node concept="1rOGIG" id="7J16yTfwt81" role="1rOGIh">
+        <property role="TrG5h" value="Read JSON" />
+        <ref role="1rOGI5" node="7J16yTfuExb" resolve="Read JSON from Path" />
+        <node concept="1rOGIx" id="7J16yTfwt82" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfwy3m" role="1rOGIh">
+        <property role="TrG5h" value="Inform Engineer" />
+        <ref role="1rOGI5" node="7J16yTfwyI4" resolve="Inform Engineer" />
+        <node concept="1rOGIx" id="7J16yTfwy3n" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfwvQb" role="1rOGIh">
+        <property role="TrG5h" value="Load Documents to Collection" />
+        <ref role="1rOGI5" node="7J16yTfuGZ1" resolve="Load Documents to Collection" />
+        <node concept="1rOGIx" id="7J16yTfwvQc" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfwuEz" role="1rOGIh">
+        <property role="TrG5h" value="Collection does not exist" />
+        <node concept="1rOGIx" id="7J16yTfwuE$" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfwqKF" role="1rOGIh">
+        <property role="TrG5h" value="DB does not exist" />
+        <ref role="1rOGI5" node="7J16yTfwk2i" resolve="Existence of DB" />
+        <node concept="1rOGIx" id="7J16yTfwqKG" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwozq" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwgp3" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="7J16yTfwlx_" resolve="Check if DB exists" />
+        <node concept="3f6AUQ" id="7J16yTfwoKz" role="1rODdn" />
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwpSP" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwlx_" resolve="Check if DB exists" />
+        <ref role="1rODdH" node="7J16yTfwmzh" resolve="Check if Collection exists" />
+        <node concept="3f6AUQ" id="7J16yTfwq9g" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfwq9h" role="3f6BbQ">
+            <property role="3fT77I" value="yes" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwqmq" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwlx_" resolve="Check if DB exists" />
+        <ref role="1rODdH" node="7J16yTfwqKF" resolve="DB does noz exist" />
+        <node concept="3f6AUQ" id="7J16yTfwrxV" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfwrxW" role="3f6BbQ">
+            <property role="3fT77I" value="no" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfwrWe" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfws9o" role="3f6BbQ">
+            <property role="3fT77I" value="raise" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfws9p" role="3f6BbQ">
+            <property role="3fT77I" value="error" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwu9I" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwqKF" resolve="DB does not exist" />
+        <ref role="1rODdH" node="7J16yTfwifn" resolve="-&gt;(*)" />
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwsL0" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwmzh" resolve="Check if Collection exists" />
+        <ref role="1rODdH" node="7J16yTfwt81" resolve="Read JSON" />
+        <node concept="3f6AUQ" id="7J16yTfwsR_" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfwsRA" role="3f6BbQ">
+            <property role="3fT77I" value="yes" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwtPZ" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwmzh" resolve="Check if Collection exists" />
+        <ref role="1rODdH" node="7J16yTfwuEz" resolve="Collection does not exist" />
+        <node concept="3f6AUQ" id="7J16yTfwtW$" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfwtW_" role="3f6BbQ">
+            <property role="3fT77I" value="no" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfwv4P" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfwv4Q" role="3f6BbQ">
+            <property role="3fT77I" value="raise" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfwv89" role="3f6BbQ">
+            <property role="3fT77I" value="error" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwveI" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwt81" resolve="Read JSON" />
+        <ref role="1rODdH" node="7J16yTfwvQb" resolve="Load Documents to Collection" />
+        <node concept="3f6AUQ" id="7J16yTfwvrR" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfwvrS" role="3f6BbQ">
+            <property role="3fT77I" value="export" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfwvyt" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfwv_K" role="3f6BbQ">
+            <property role="3fT77I" value="imported" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwxrV" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwvQb" resolve="Load Documents to Collection" />
+        <ref role="1rODdH" node="7J16yTfwy3m" resolve="Inform Engineer" />
+        <node concept="3f6AUQ" id="7J16yTfwzy_" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfwzyA" role="3f6BbQ">
+            <property role="3fT77I" value="success" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfwzDb" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfwzGu" role="3f6BbQ">
+            <property role="3fT77I" value="output" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfwzJL" role="3f6BbQ">
+            <property role="3fT77I" value="on" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfwzN4" role="3f6BbQ">
+            <property role="3fT77I" value="console" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfwzTD" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfwy3m" resolve="Inform Engineer" />
+        <ref role="1rODdH" node="7J16yTfwifn" resolve="-&gt;(*)" />
+      </node>
+      <node concept="1rOGIG" id="7J16yTfwmzh" role="1rOGIh">
+        <property role="TrG5h" value="Check if Collection exists" />
+        <ref role="1rOGI5" node="7J16yTfwmX_" resolve="Existence of Collection" />
+        <node concept="1rOGIx" id="7J16yTfwmzi" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfwlx_" role="1rOGIh">
+        <property role="TrG5h" value="Check if DB exists" />
+        <ref role="1rOGI5" node="7J16yTfwk2i" resolve="Existence of DB" />
+        <node concept="1rOGIx" id="7J16yTfwlxA" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfwgp1" role="1rOGIF" />
+      <node concept="1rOGIx" id="7J16yTfwgp3" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="7J16yTfwifn" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="7J16yTfwaAE" role="1LuVN1">
+      <node concept="3fT77D" id="7J16yTfweA0" role="3f6BbQ">
+        <property role="3fT77I" value="behaviour" />
+      </node>
+      <node concept="3fT77D" id="7J16yTfweDj" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="7J16yTfweJT" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAIT" resolve="Function 3: Document Adder" />
       </node>
     </node>
   </node>
