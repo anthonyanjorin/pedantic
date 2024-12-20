@@ -204,6 +204,7 @@
         </node>
         <node concept="3fT77D" id="5IIk38nb$1f" role="3f6BbQ">
           <property role="3fT77I" value="model" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3f6BbF" id="5IIk38nbzV2" role="3f6BbQ">
           <property role="3fT77I" value="," />
