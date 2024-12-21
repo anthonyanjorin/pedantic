@@ -2248,5 +2248,79 @@
       <node concept="l2Vlx" id="2LgBuUgB3qd" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2LgBuUiGE5n">
+    <property role="3GE5qa" value="csp.attributes" />
+    <ref role="1XX52x" to="uyb6:2LgBuUf6lao" resolve="EqualsToValue" />
+    <node concept="3EZMnI" id="2LgBuUiGE5p" role="2wV5jI">
+      <node concept="1iCGBv" id="2LgBuUiGE5q" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:2LgBuUiRyKE" />
+        <node concept="1sVBvm" id="2LgBuUiGE5r" role="1sWHZn">
+          <node concept="3F0A7n" id="2LgBuUiGE5s" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2LgBuUiGE5t" role="3EZMnx">
+        <property role="3F0ifm" value="==" />
+      </node>
+      <node concept="1iCGBv" id="2LgBuUiGE5u" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:2LgBuUiRyKF" />
+        <node concept="1sVBvm" id="2LgBuUiGE5v" role="1sWHZn">
+          <node concept="3F0A7n" id="2LgBuUiGE5z" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2LgBuUiGE5x" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2LgBuUj5gxv">
+    <property role="3GE5qa" value="searchplan.operations.attributes.eq" />
+    <ref role="1XX52x" to="uyb6:2LgBuUf53GI" resolve="TransferValueLeftToRight_BF" />
+    <node concept="3EZMnI" id="2LgBuUj5gxx" role="2wV5jI">
+      <node concept="3F0ifn" id="2LgBuUj5gxy" role="3EZMnx">
+        <property role="3F0ifm" value="TransferValue_BF[" />
+      </node>
+      <node concept="3F1sOY" id="2LgBuUj5gxz" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliC" />
+      </node>
+      <node concept="3F0ifn" id="2LgBuUj5gx$" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="2LgBuUj5gxG" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliD" resolve="freeRight" />
+      </node>
+      <node concept="3F0ifn" id="2LgBuUj5gxC" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="2LgBuUj5gxD" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2LgBuUj5gxI">
+    <property role="3GE5qa" value="searchplan.operations.attributes.eq" />
+    <ref role="1XX52x" to="uyb6:2LgBuUf53F7" resolve="TransferValueRightToLeft_FB" />
+    <node concept="3EZMnI" id="2LgBuUj5gxK" role="2wV5jI">
+      <node concept="3F0ifn" id="2LgBuUj5gxL" role="3EZMnx">
+        <property role="3F0ifm" value="TransferValue_FB[" />
+      </node>
+      <node concept="3F1sOY" id="2LgBuUj5gxM" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliA" />
+      </node>
+      <node concept="3F0ifn" id="2LgBuUj5gxN" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;-" />
+      </node>
+      <node concept="3F1sOY" id="2LgBuUj5gxO" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliB" />
+      </node>
+      <node concept="3F0ifn" id="2LgBuUj5gxP" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="2LgBuUj5gxQ" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

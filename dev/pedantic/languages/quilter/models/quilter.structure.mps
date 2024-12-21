@@ -976,18 +976,60 @@
     <property role="3GE5qa" value="searchplan.operations.attributes.eq" />
     <property role="TrG5h" value="CheckWithValue_BB" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="2LgBuUiiKbW" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783787848444" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boundLeft" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUiiKbX" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783787848445" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boundRight" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2LgBuUf53F7">
     <property role="EcuMT" value="3193225783733926599" />
     <property role="3GE5qa" value="searchplan.operations.attributes.eq" />
-    <property role="TrG5h" value="SetToValue_FB" />
+    <property role="TrG5h" value="TransferValueRightToLeft_FB" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="2LgBuUijliA" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783788000422" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="freeLeft" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUijliB" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783788000423" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boundRight" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2LgBuUf53GI">
     <property role="EcuMT" value="3193225783733926702" />
     <property role="3GE5qa" value="searchplan.operations.attributes.eq" />
-    <property role="TrG5h" value="TransferToValue_BF" />
+    <property role="TrG5h" value="TransferValueLeftToRight_BF" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="2LgBuUijliC" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783788000424" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boundLeft" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUijliD" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783788000425" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="freeRight" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2LgBuUf5WZP">
     <property role="EcuMT" value="3193225783734161397" />
@@ -1030,6 +1072,18 @@
     <property role="3GE5qa" value="csp.attributes" />
     <property role="TrG5h" value="EqualsToValue" />
     <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="2LgBuUiRyKE" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783797492778" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="2LgBuUiRyKF" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783797492779" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2LgBuUfb2UU">
     <property role="EcuMT" value="3193225783735496378" />

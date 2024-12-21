@@ -127,6 +127,14 @@
         <reference id="3193225783731934044" name="object" index="2yDkUM" />
         <reference id="3193225783731934045" name="attribute" index="2yDkUN" />
       </concept>
+      <concept id="3193225783737816615" name="quilter.structure.AttributeCheckOp_BF" flags="ng" index="2z7KJ9">
+        <child id="3193225783737816616" name="boundObject" index="2z7KJ6" />
+        <child id="3193225783737816617" name="attrValue" index="2z7KJ7" />
+      </concept>
+      <concept id="3193225783733926599" name="quilter.structure.TransferValueRightToLeft_FB" flags="ng" index="2zhasD">
+        <child id="3193225783788000422" name="freeLeft" index="2Y7s_8" />
+        <child id="3193225783788000423" name="boundRight" index="2Y7s_9" />
+      </concept>
       <concept id="3193225783733926487" name="quilter.structure.SetToConstant_F" flags="ng" index="2zhauT">
         <reference id="3193225783742259425" name="constant" index="2zKZOf" />
         <child id="3193225783742259424" name="value" index="2zKZOe" />
@@ -138,6 +146,10 @@
       <concept id="3193225783734203979" name="quilter.structure.EqualsToConstant" flags="ng" index="2zieI_">
         <reference id="3193225783742308248" name="constant" index="2zL89Q" />
         <reference id="3193225783742308249" name="variable" index="2zL89R" />
+      </concept>
+      <concept id="3193225783734260376" name="quilter.structure.EqualsToValue" flags="ng" index="2zisXQ">
+        <reference id="3193225783797492778" name="left" index="2YzF74" />
+        <reference id="3193225783797492779" name="right" index="2YzF75" />
       </concept>
       <concept id="3193225783735496378" name="quilter.structure.AttributeCheckOp_BB" flags="ng" index="2zvbdk">
         <child id="3193225783735496512" name="boundAttrValue" index="2zvbaI" />
@@ -3059,9 +3071,107 @@
         </node>
         <node concept="3eKGHs" id="2LgBuUh$tR1" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" node="2LgBuUepQX8" resolve="TwoSegmentsWithSameNr" />
           <node concept="3xLA65" id="2LgBuUh$tR3" role="lGtFl">
             <property role="TrG5h" value="p22" />
+          </node>
+          <node concept="3eImRP" id="2LgBuUjdW8P" role="3eKGHR">
+            <node concept="3eJ099" id="2LgBuUjdW8Q" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="2LgBuUjdW8R" role="3eInz_">
+              <ref role="3eIm8I" node="2LgBuUepQXa" resolve="segment" />
+            </node>
+            <node concept="3eImVg" id="2LgBuUjdW8S" role="3eImRb" />
+            <node concept="3eIm8D" id="2LgBuUjdW8T" role="3eInz_">
+              <ref role="3eIm8I" node="2LgBuUepQXi" resolve="other" />
+            </node>
+            <node concept="3eImVg" id="2LgBuUjdW8U" role="3eImRb" />
+          </node>
+          <node concept="3elqOZ" id="2LgBuUjdW8V" role="3eliY4">
+            <node concept="17UGNt" id="2LgBuUjdW8W" role="3eirzu">
+              <property role="TrG5h" value="segment" />
+              <ref role="17UGNs" node="2LgBuUepQXa" resolve="segment" />
+            </node>
+            <node concept="3el$ZR" id="2LgBuUjdW8X" role="3elqOW">
+              <ref role="3eirzp" node="2LgBuUjdW8W" resolve="segment" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+            </node>
+            <node concept="17UGNt" id="2LgBuUjdW8Y" role="3eirzu">
+              <property role="TrG5h" value="other" />
+              <ref role="17UGNs" node="2LgBuUepQXi" resolve="other" />
+            </node>
+            <node concept="3el$ZR" id="2LgBuUjdW8Z" role="3elqOW">
+              <ref role="3eirzp" node="2LgBuUjdW8Y" resolve="other" />
+              <ref role="3ein4b" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+            </node>
+            <node concept="2yDkUP" id="2LgBuUjdW90" role="3eirzu">
+              <property role="TrG5h" value="segment.position" />
+              <ref role="2yDkUM" node="2LgBuUepQXa" resolve="segment" />
+              <ref role="2yDkUN" to="5e0r:7BVCYER3u5_" resolve="position" />
+            </node>
+            <node concept="2zhP8r" id="2LgBuUjdW91" role="3elqOW">
+              <ref role="2zva64" node="2LgBuUjdW90" resolve="segment.position" />
+              <ref role="2zva67" node="2LgBuUjdW8W" resolve="segment" />
+            </node>
+            <node concept="2yDkUP" id="2LgBuUjdW92" role="3eirzu">
+              <property role="TrG5h" value="other.position" />
+              <ref role="2yDkUM" node="2LgBuUepQXi" resolve="other" />
+              <ref role="2yDkUN" to="5e0r:7BVCYER3u5_" resolve="position" />
+            </node>
+            <node concept="2zisXQ" id="2LgBuUjdW93" role="3elqOW">
+              <ref role="2YzF74" node="2LgBuUjdW90" resolve="segment.position" />
+              <ref role="2YzF75" node="2LgBuUjdW92" resolve="other.position" />
+            </node>
+            <node concept="2zhP8r" id="2LgBuUjdW94" role="3elqOW">
+              <ref role="2zva64" node="2LgBuUjdW92" resolve="other.position" />
+              <ref role="2zva67" node="2LgBuUjdW8Y" resolve="other" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="2LgBuUjdWd2" role="3e3QqN">
+            <property role="3e1rJ9" value="204" />
+            <node concept="3e2qRM" id="2LgBuUjdWd3" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUjdW8Z" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+              <node concept="3e2p4i" id="2LgBuUjdWd4" role="3e2p3O">
+                <ref role="3e2p4s" node="2LgBuUjdW8Y" resolve="other" />
+              </node>
+            </node>
+            <node concept="2z7KJ9" id="2LgBuUjdWd5" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUjdW94" />
+              <node concept="3e2p4t" id="2LgBuUjdWd6" role="2z7KJ6">
+                <ref role="3e2p4s" node="2LgBuUjdW8Y" resolve="other" />
+              </node>
+              <node concept="3e2p4i" id="2LgBuUjdWd7" role="2z7KJ7">
+                <ref role="3e2p4s" node="2LgBuUjdW92" resolve="other.position" />
+              </node>
+            </node>
+            <node concept="2zhasD" id="2LgBuUjdWd8" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUjdW93" />
+              <node concept="3e2p4i" id="2LgBuUjdWd9" role="2Y7s_8">
+                <ref role="3e2p4s" node="2LgBuUjdW90" resolve="segment.position" />
+              </node>
+              <node concept="3e2p4t" id="2LgBuUjdWda" role="2Y7s_9">
+                <ref role="3e2p4s" node="2LgBuUjdW92" resolve="other.position" />
+              </node>
+            </node>
+            <node concept="3e2qRM" id="2LgBuUjdWdb" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUjdW8X" />
+              <ref role="3FLKAo" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+              <node concept="3e2p4i" id="2LgBuUjdWdc" role="3e2p3O">
+                <ref role="3e2p4s" node="2LgBuUjdW8W" resolve="segment" />
+              </node>
+            </node>
+            <node concept="2zvbdk" id="2LgBuUjdWcV" role="3e2PzU">
+              <ref role="3CfmUi" node="2LgBuUjdW91" />
+              <node concept="3e2p4t" id="2LgBuUjdWcW" role="2zvbbh">
+                <ref role="3e2p4s" node="2LgBuUjdW8W" resolve="segment" />
+              </node>
+              <node concept="3e2p4t" id="2LgBuUjdWcX" role="2zvbaI">
+                <ref role="3e2p4s" node="2LgBuUjdW90" resolve="segment.position" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUh$tR5" role="3eKGHX">
