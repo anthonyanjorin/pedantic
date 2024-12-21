@@ -11,6 +11,7 @@
     <import index="5e0r" ref="r:6b4428a1-42dd-4d1b-98c0-dfdab1da415b(Obstgarten.structure)" />
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
     <import index="uyb6" ref="r:e40062e2-f107-4d3d-aa75-760bd16e6de6(quilter.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -61,6 +62,9 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -100,26 +104,45 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
-        <child id="3717301156197626301" name="content" index="3DQ709" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-    </language>
-    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
-        <property id="155656958578482949" name="value" index="3oM_SC" />
-      </concept>
-      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
-        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
-      </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
-        <child id="2535923850359271783" name="elements" index="1PaTwD" />
-      </concept>
     </language>
     <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
+      <concept id="3193225783721918930" name="quilter.structure.IntegerConstant" flags="ng" index="2y3pKW">
+        <child id="3193225783721918931" name="literal" index="2y3pKX" />
+      </concept>
+      <concept id="3193225783720295659" name="quilter.structure.StringConstant" flags="ng" index="2y5a45">
+        <child id="3193225783720295660" name="literal" index="2y5a42" />
+      </concept>
+      <concept id="3193225783717603960" name="quilter.structure.AttributeValue" flags="ng" index="2yiVum">
+        <reference id="3193225783722594989" name="object" index="2ydWX3" />
+        <reference id="3193225783717605033" name="attribute" index="2yiVd7" />
+      </concept>
+      <concept id="3193225783717603956" name="quilter.structure.EqualsExpression" flags="ng" index="2yiVuq">
+        <child id="3193225783717603962" name="rhs" index="2yiVuk" />
+        <child id="3193225783717603961" name="lhs" index="2yiVun" />
+      </concept>
+      <concept id="3193225783717603957" name="quilter.structure.AccessViaThis" flags="ng" index="2yiVur">
+        <reference id="3193225783722929657" name="attribute" index="2yff0n" />
+      </concept>
+      <concept id="3193225783731934043" name="quilter.structure.AttributeVariable" flags="ng" index="2yDkUP">
+        <reference id="3193225783731934044" name="object" index="2yDkUM" />
+        <reference id="3193225783731934045" name="attribute" index="2yDkUN" />
+      </concept>
+      <concept id="3193225783733926487" name="quilter.structure.SetToConstant_F" flags="ng" index="2zhauT">
+        <reference id="3193225783742259425" name="constant" index="2zKZOf" />
+        <child id="3193225783742259424" name="value" index="2zKZOe" />
+      </concept>
+      <concept id="3193225783734161397" name="quilter.structure.AttributeCheck" flags="ng" index="2zhP8r">
+        <reference id="3193225783735499882" name="attributeVariable" index="2zva64" />
+        <reference id="3193225783735499881" name="objectVariable" index="2zva67" />
+      </concept>
+      <concept id="3193225783734203979" name="quilter.structure.EqualsToConstant" flags="ng" index="2zieI_">
+        <reference id="3193225783742308248" name="constant" index="2zL89Q" />
+        <reference id="3193225783742308249" name="variable" index="2zL89R" />
+      </concept>
+      <concept id="3193225783735496378" name="quilter.structure.AttributeCheckOp_BB" flags="ng" index="2zvbdk">
+        <child id="3193225783735496512" name="boundAttrValue" index="2zvbaI" />
+        <child id="3193225783735496511" name="boundObject" index="2zvbbh" />
+      </concept>
       <concept id="4853636992445297461" name="quilter.structure.NegativePatternInvocation_B_Star" flags="ng" index="10fyok">
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
@@ -245,6 +268,7 @@
       <concept id="1340109089921503713" name="quilter.structure.Object" flags="ng" index="3F$xvW">
         <property id="3193225783697074137" name="presence" index="2wGnCR" />
         <reference id="1340109089921504584" name="type" index="3F$xdl" />
+        <child id="3193225783717603945" name="attributeExps" index="2yiVu7" />
         <child id="1340109089921503721" name="links" index="3F$xvO" />
       </concept>
       <concept id="1340109089921471067" name="quilter.structure.Quilt" flags="ng" index="3F$Th6">
@@ -439,23 +463,62 @@
       <node concept="3F$xvW" id="7BVCYER4n5i" role="3F$xvU">
         <property role="TrG5h" value="finalSgmnt" />
         <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
-        <node concept="3DQ70j" id="7BVCYER4n5u" role="lGtFl">
-          <property role="3V$3am" value="linkVariables" />
-          <property role="3V$3ak" value="cb6e6683-7c33-40af-94d4-5d1f5e613c2d/1340109089921503713/1340109089921503721" />
-          <node concept="1Pa9Pv" id="7BVCYER4n5x" role="3DQ709">
-            <node concept="1PaTwC" id="7BVCYER4n5y" role="1PaQFQ">
-              <node concept="3oM_SD" id="7BVCYER4n5A" role="1PaTwD">
-                <property role="3oM_SC" value="TODO:" />
-              </node>
-              <node concept="3oM_SD" id="7BVCYER4n5B" role="1PaTwD">
-                <property role="3oM_SC" value="position" />
-              </node>
-              <node concept="3oM_SD" id="7BVCYER4n5D" role="1PaTwD">
-                <property role="3oM_SC" value="==" />
-              </node>
-              <node concept="3oM_SD" id="7BVCYER4n5E" role="1PaTwD">
-                <property role="3oM_SC" value="4" />
-              </node>
+        <node concept="2yiVuq" id="2LgBuUgceSW" role="2yiVu7">
+          <node concept="2yiVur" id="2LgBuUgceSY" role="2yiVun">
+            <ref role="2yff0n" to="5e0r:7BVCYER3u5_" resolve="position" />
+          </node>
+          <node concept="2y3pKW" id="2LgBuUhsfQG" role="2yiVuk">
+            <node concept="3cmrfG" id="2LgBuUhsfQI" role="2y3pKX">
+              <property role="3cmrfH" value="4" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2LgBuUhsgGQ" role="3F$ThY">
+      <property role="TrG5h" value="RavenOnSecondSegment" />
+      <node concept="3F$xvW" id="2LgBuUhsgGR" role="3F$xvU">
+        <property role="TrG5h" value="orchard" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5i" resolve="Orchard" />
+        <node concept="3F$xvT" id="2LgBuUhsgGS" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NF0" />
+          <ref role="3F$xdr" node="2LgBuUhsgGU" resolve="pathway" />
+        </node>
+        <node concept="3F$xvT" id="2LgBuUhsgGT" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="2LgBuUhsgGW" resolve="raven" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NEO" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2LgBuUhsgGU" role="3F$xvU">
+        <property role="TrG5h" value="pathway" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N53" resolve="Pathway" />
+        <node concept="3F$xvT" id="2LgBuUhsgGV" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFi" />
+          <ref role="3F$xdr" node="2LgBuUhsgGY" resolve="finalSgmnt" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2LgBuUhsgGW" role="3F$xvU">
+        <property role="TrG5h" value="raven" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N58" resolve="Raven" />
+        <node concept="3F$xvT" id="2LgBuUhsgGX" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFu" />
+          <ref role="3F$xdr" node="2LgBuUhsgGY" resolve="finalSgmnt" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2LgBuUhsgGY" role="3F$xvU">
+        <property role="TrG5h" value="finalSgmnt" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+        <node concept="2yiVuq" id="2LgBuUhsgGZ" role="2yiVu7">
+          <node concept="2yiVur" id="2LgBuUhsgH0" role="2yiVun">
+            <ref role="2yff0n" to="5e0r:7BVCYER3u5_" resolve="position" />
+          </node>
+          <node concept="2y3pKW" id="2LgBuUhsgH1" role="2yiVuk">
+            <node concept="3cmrfG" id="2LgBuUhsgH2" role="2y3pKX">
+              <property role="3cmrfH" value="2" />
             </node>
           </node>
         </node>
@@ -839,6 +902,136 @@
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="4dr_i45294q" resolve="raven" />
           <ref role="3F$xdF" to="5e0r:7BVCYER1NFB" />
+        </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2LgBuUepQX8" role="3F$ThY">
+      <property role="TrG5h" value="TwoSegmentsWithSameNr" />
+      <node concept="3F$xvW" id="2LgBuUepQXa" role="3F$xvU">
+        <property role="TrG5h" value="segment" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+        <node concept="2yiVuq" id="2LgBuUg58T_" role="2yiVu7">
+          <node concept="2yiVur" id="2LgBuUg58TB" role="2yiVun">
+            <ref role="2yff0n" to="5e0r:7BVCYER3u5_" resolve="position" />
+          </node>
+          <node concept="2yiVum" id="2LgBuUg58TF" role="2yiVuk">
+            <ref role="2ydWX3" node="2LgBuUepQXi" resolve="other" />
+            <ref role="2yiVd7" to="5e0r:7BVCYER3u5_" resolve="position" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2LgBuUepQXi" role="3F$xvU">
+        <property role="TrG5h" value="other" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2LgBuUgDT8G" role="3F$ThY">
+      <property role="TrG5h" value="SegmentWithSpecificNumber" />
+      <node concept="3F$xvW" id="2LgBuUgDT8I" role="3F$xvU">
+        <property role="TrG5h" value="seg" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+        <node concept="2yiVuq" id="2LgBuUgDT8J" role="2yiVu7">
+          <node concept="2yiVur" id="2LgBuUgDT8K" role="2yiVun">
+            <ref role="2yff0n" to="5e0r:7BVCYER3u5_" resolve="position" />
+          </node>
+          <node concept="2y3pKW" id="2LgBuUgDT8M" role="2yiVuk">
+            <node concept="3cmrfG" id="2LgBuUgDT8O" role="2y3pKX">
+              <property role="3cmrfH" value="1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2LgBuUhsgHe" role="3F$ThY">
+      <property role="TrG5h" value="TheAppleTree" />
+      <node concept="3F$xvW" id="2LgBuUhsgHg" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+        <node concept="2yiVuq" id="2LgBuUhsgHi" role="2yiVu7">
+          <node concept="2yiVur" id="2LgBuUhsgHk" role="2yiVun">
+            <ref role="2yff0n" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2y5a45" id="2LgBuUhsgHo" role="2yiVuk">
+            <node concept="Xl_RD" id="2LgBuUhsgHq" role="2y5a42">
+              <property role="Xl_RC" value="apple tree" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3eKGHH" id="2LgBuUhsgHI" role="3F$ThY">
+      <node concept="3eKGH1" id="2LgBuUhsgHL" role="3eKGHX">
+        <property role="3Fq0gx" value="2" />
+        <property role="3eKGHa" value="10" />
+        <ref role="3eKGHL" node="2LgBuUhsgHe" resolve="TheAppleTree" />
+        <node concept="3eImRP" id="2LgBuUhsgSo" role="3eKGHR">
+          <node concept="3eJ099" id="2LgBuUhsgSp" role="3eIkDU">
+            <property role="3eJ09e" value="pre-match" />
+          </node>
+          <node concept="3eIm8D" id="2LgBuUhsgSq" role="3eInz_">
+            <ref role="3eIm8I" node="2LgBuUhsgHg" resolve="tree" />
+          </node>
+          <node concept="3eImVg" id="2LgBuUhsgSr" role="3eImRb" />
+        </node>
+        <node concept="3elqOZ" id="2LgBuUhsgSs" role="3eliY4">
+          <node concept="17UGNt" id="2LgBuUhsgSt" role="3eirzu">
+            <property role="TrG5h" value="tree" />
+            <ref role="17UGNs" node="2LgBuUhsgHg" resolve="tree" />
+          </node>
+          <node concept="3el$ZR" id="2LgBuUhsgSu" role="3elqOW">
+            <ref role="3eirzp" node="2LgBuUhsgSt" resolve="tree" />
+            <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+          </node>
+          <node concept="2yDkUP" id="2LgBuUhsgSv" role="3eirzu">
+            <property role="TrG5h" value="tree.name" />
+            <ref role="2yDkUM" node="2LgBuUhsgHg" resolve="tree" />
+            <ref role="2yDkUN" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2zhP8r" id="2LgBuUhsgSw" role="3elqOW">
+            <ref role="2zva64" node="2LgBuUhsgSv" resolve="tree.name" />
+            <ref role="2zva67" node="2LgBuUhsgSt" resolve="tree" />
+          </node>
+          <node concept="2zieI_" id="2LgBuUhsgSx" role="3elqOW">
+            <ref role="2zL89Q" node="2LgBuUhsgHo" />
+            <ref role="2zL89R" node="2LgBuUhsgSv" resolve="tree.name" />
+          </node>
+        </node>
+        <node concept="3e2OTI" id="2LgBuUhsgTx" role="3e3QqN">
+          <property role="3e1rJ9" value="104" />
+          <node concept="2zhauT" id="2LgBuUhsgTy" role="3e2PzU">
+            <ref role="3CfmUi" node="2LgBuUhsgSx" />
+            <ref role="2zKZOf" node="2LgBuUhsgHo" />
+            <node concept="3e2p4i" id="2LgBuUhsgTz" role="2zKZOe">
+              <ref role="3e2p4s" node="2LgBuUhsgSv" resolve="tree.name" />
+            </node>
+          </node>
+          <node concept="3e2qRM" id="2LgBuUhsgT$" role="3e2PzU">
+            <ref role="3CfmUi" node="2LgBuUhsgSu" />
+            <ref role="3FLKAo" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+            <node concept="3e2p4i" id="2LgBuUhsgT_" role="3e2p3O">
+              <ref role="3e2p4s" node="2LgBuUhsgSt" resolve="tree" />
+            </node>
+          </node>
+          <node concept="2zvbdk" id="2LgBuUhsgTs" role="3e2PzU">
+            <ref role="3CfmUi" node="2LgBuUhsgSw" />
+            <node concept="3e2p4t" id="2LgBuUhsgTt" role="2zvbbh">
+              <ref role="3e2p4s" node="2LgBuUhsgSt" resolve="tree" />
+            </node>
+            <node concept="3e2p4t" id="2LgBuUhsgTu" role="2zvbaI">
+              <ref role="3e2p4s" node="2LgBuUhsgSv" resolve="tree.name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eImRa" id="2LgBuUhsgTP" role="3eKGHP">
+          <node concept="3eImVg" id="2LgBuUhsgTQ" role="3eImRb">
+            <ref role="3eB4Im" node="7BVCYER1Ooy" resolve="apple tree" />
+          </node>
+          <node concept="3eJ099" id="2LgBuUhsgTS" role="3eIkDU">
+            <property role="3eJ09e" value="m_0" />
+          </node>
+          <node concept="3eIm8D" id="2LgBuUhsgTT" role="3eInz_">
+            <ref role="3eIm8I" node="2LgBuUhsgHg" resolve="tree" />
+          </node>
         </node>
       </node>
     </node>

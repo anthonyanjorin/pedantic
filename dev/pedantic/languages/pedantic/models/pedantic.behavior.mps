@@ -12032,7 +12032,7 @@
             </node>
             <node concept="2ShNRf" id="2LgBuUc2b68" role="33vP2m">
               <node concept="1pGfFk" id="2LgBuUc2b69" role="2ShVmc">
-                <ref role="37wK5l" to="lsyl:2LgBuUc1S55" />
+                <ref role="37wK5l" to="lsyl:2LgBuUc1S55" resolve="MergeIdenticalInterfacesInFulfillment" />
                 <node concept="37vLTw" id="2LgBuUc2b6a" role="37wK5m">
                   <ref role="3cqZAo" node="5IIk38mSTx7" resolve="diagram" />
                 </node>
