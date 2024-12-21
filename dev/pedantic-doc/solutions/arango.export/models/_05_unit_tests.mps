@@ -945,7 +945,176 @@
   <node concept="3UcZMl" id="7J16yTfyz4c">
     <property role="TrG5h" value="Create Graph - Test Design" />
     <property role="3GE5qa" value="Create Graph Test" />
+    <node concept="3f6AUY" id="7J16yTfyCNO" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfyCNP" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfyCNQ" role="3f6AUK">
+        <property role="TrG5h" value="Connect to Database" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfyE5U" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfyE5V" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfyE5W" role="3f6AUK">
+        <property role="TrG5h" value="Define Graph Class" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfyHNi" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfyHNj" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfyHNk" role="3f6AUK">
+        <property role="TrG5h" value="Create Graph" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfyJpc" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfyJpd" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfyJpe" role="3f6AUK">
+        <property role="TrG5h" value="Inform Engineer" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="7J16yTfyR5O" role="3f6AUZ">
+      <node concept="3f6AUQ" id="7J16yTfyR5P" role="3f6AUE" />
+      <node concept="3f6AUX" id="7J16yTfyR5Q" role="3f6AUK">
+        <property role="TrG5h" value="Error" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
     <node concept="3f6AUQ" id="7J16yTfyz4d" role="3f6AUR" />
+  </node>
+  <node concept="1Lr20E" id="7J16yTfyL2i">
+    <property role="3GE5qa" value="Create Graph Test" />
+    <property role="TrG5h" value="Create Graph" />
+    <node concept="1rTVtr" id="7J16yTfyLvR" role="1LuVN3">
+      <property role="TrG5h" value="Create Graph" />
+      <ref role="1rOGIq" node="7J16yTfyHNk" resolve="Create Graph" />
+      <node concept="1rOIWg" id="7J16yTfyQr8" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyLvV" resolve="(*)-&gt;" />
+        <ref role="1rODdH" node="7J16yTfyMxA" resolve="Connect to Database" />
+      </node>
+      <node concept="1rOIWg" id="7J16yTfyQFz" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyMxA" resolve="Connect to Database" />
+        <ref role="1rODdH" node="7J16yTfyO0O" resolve="Define Graph Class" />
+        <node concept="3f6AUQ" id="7J16yTfyRsP" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfyRsQ" role="3f6BbQ">
+            <property role="3fT77I" value="success" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfyRHh" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyMxA" resolve="Connect to Database" />
+        <ref role="1rODdH" node="7J16yTfyS4i" resolve="Error" />
+        <node concept="3f6AUQ" id="7J16yTfyRNQ" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfyRNR" role="3f6BbQ">
+            <property role="3fT77I" value="fail" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfyS_9" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfyS_a" role="3f6BbQ">
+            <property role="3fT77I" value="raise" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfySu$" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyO0O" resolve="Define Graph Class" />
+        <ref role="1rODdH" node="7J16yTfyOSC" resolve="Create Graph" />
+        <node concept="3f6AUQ" id="7J16yTfyT9i" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfyT9j" role="3f6BbQ">
+            <property role="3fT77I" value="defined" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfySW9" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyO0O" resolve="Define Graph Class" />
+        <ref role="1rODdH" node="7J16yTfyS4i" resolve="Error" />
+        <node concept="3f6AUQ" id="7J16yTfyTAQ" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfyTAR" role="3f6BbQ">
+            <property role="3fT77I" value="fail" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfyTU$" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfyTU_" role="3f6BbQ">
+            <property role="3fT77I" value="raise" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfyU1a" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyOSC" resolve="Create Graph" />
+        <ref role="1rODdH" node="7J16yTfyPKs" resolve="Inform Engineer" />
+        <node concept="3f6AUQ" id="7J16yTfyUb1" role="1rODdn">
+          <node concept="3fT77D" id="7J16yTfyUb2" role="3f6BbQ">
+            <property role="3fT77I" value="created" />
+          </node>
+        </node>
+        <node concept="3f6AUQ" id="7J16yTfyUrt" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfyUru" role="3f6BbQ">
+            <property role="3fT77I" value="console" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfyUuL" role="3f6BbQ">
+            <property role="3fT77I" value="output" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfyUMu" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyS4i" resolve="Error" />
+        <ref role="1rODdH" node="7J16yTfyPKs" resolve="Inform Engineer" />
+        <node concept="3f6AUQ" id="7J16yTfyV9u" role="1rODdj">
+          <node concept="3fT77D" id="7J16yTfyV9v" role="3f6BbQ">
+            <property role="3fT77I" value="console" />
+          </node>
+          <node concept="3fT77D" id="7J16yTfyVg4" role="3f6BbQ">
+            <property role="3fT77I" value="output" />
+          </node>
+        </node>
+      </node>
+      <node concept="1rOIWg" id="7J16yTfyVwG" role="1rP2Rr">
+        <ref role="1rODdJ" node="7J16yTfyPKs" resolve="Inform Engineer" />
+        <ref role="1rODdH" node="7J16yTfyW4N" resolve="-&gt;(*)" />
+      </node>
+      <node concept="1rOGIG" id="7J16yTfyMxA" role="1rOGIh">
+        <property role="TrG5h" value="Connect to Database" />
+        <ref role="1rOGI5" node="7J16yTfyCNQ" resolve="Connect to Database" />
+        <node concept="1rOGIx" id="7J16yTfyMxB" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfyO0O" role="1rOGIh">
+        <property role="TrG5h" value="Define Graph Class" />
+        <ref role="1rOGI5" node="7J16yTfyE5W" resolve="Define Graph Class" />
+        <node concept="1rOGIx" id="7J16yTfyO0P" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfyOSC" role="1rOGIh">
+        <property role="TrG5h" value="Create Graph" />
+        <ref role="1rOGI5" node="7J16yTfyHNk" resolve="Create Graph" />
+        <node concept="1rOGIx" id="7J16yTfyOSD" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfyPKs" role="1rOGIh">
+        <property role="TrG5h" value="Inform Engineer" />
+        <ref role="1rOGI5" node="7J16yTfyJpe" resolve="Inform Engineer" />
+        <node concept="1rOGIx" id="7J16yTfyPKt" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="1rOGIG" id="7J16yTfyS4i" role="1rOGIh">
+        <property role="TrG5h" value="Error" />
+        <ref role="1rOGI5" node="7J16yTfyR5Q" resolve="Error" />
+        <node concept="1rOGIx" id="7J16yTfyS4j" role="1rOGI3">
+          <property role="TrG5h" value="(*)-&gt;" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfyLvT" role="1rOGIF" />
+      <node concept="1rOGIx" id="7J16yTfyLvV" role="1rOGIm">
+        <property role="TrG5h" value="(*)-&gt;" />
+      </node>
+      <node concept="1rOGIJ" id="7J16yTfyW4N" role="1rOGIl">
+        <property role="TrG5h" value="-&gt;(*)" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="7J16yTfyL2j" role="1LuVN1" />
   </node>
 </model>
 
