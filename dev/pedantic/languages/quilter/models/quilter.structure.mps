@@ -325,6 +325,13 @@
     <property role="3GE5qa" value="matches" />
     <property role="TrG5h" value="PreMatch" />
     <ref role="1TJDcQ" node="7BVCYERemyu" resolve="MatchContainer" />
+    <node concept="1TJgyj" id="2LgBuUi2j6s" role="1TKVEi">
+      <property role="IQ2ns" value="3193225783783535004" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bindingsFromInvokingPattern" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7BVCYERgGOU" resolve="Binding" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERgGSw">
     <property role="EcuMT" value="8789799326235938336" />
