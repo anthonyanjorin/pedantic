@@ -2048,6 +2048,7 @@
       </node>
       <node concept="3f6AUX" id="7J16yTfuwDW" role="3f6AUK">
         <property role="TrG5h" value="Create Graph" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUQ" id="7J16yTfuRqV" role="3jToc2">
         <node concept="3fT77D" id="7J16yTfuRqW" role="3f6BbQ">
@@ -2179,6 +2180,7 @@
       <node concept="3f6AUQ" id="7J16yTfwIKi" role="3f6AUE" />
       <node concept="3f6AUX" id="7J16yTfwIKj" role="3f6AUK">
         <property role="TrG5h" value="Define Graph Class" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTfuky6" role="3f6AUR">

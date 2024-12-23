@@ -304,14 +304,7 @@
       <node concept="1rOIWg" id="7J16yTfzgaa" role="1rP2Rr">
         <ref role="1rODdJ" node="7J16yTfz7v2" resolve="(*)-&gt;" />
         <ref role="1rODdH" node="7J16yTfz8mS" resolve="Select Node" />
-        <node concept="3f6AUQ" id="7J16yTfzgtR" role="1rODdn">
-          <node concept="3fT77D" id="7J16yTfzgtS" role="3f6BbQ">
-            <property role="3fT77I" value="choice" />
-          </node>
-          <node concept="3fT77D" id="7J16yTfzgF2" role="3f6BbQ">
-            <property role="3fT77I" value="done" />
-          </node>
-        </node>
+        <node concept="3f6AUQ" id="7J16yTfzgtR" role="1rODdn" />
       </node>
       <node concept="1rOIWg" id="7J16yTfzgLB" role="1rP2Rr">
         <ref role="1rODdJ" node="7J16yTfz8mS" resolve="Select Nodes" />
