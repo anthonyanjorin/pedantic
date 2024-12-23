@@ -276,7 +276,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfmx6q">
-    <property role="TrG5h" value="Test: Export JSON to Different Paths" />
+    <property role="TrG5h" value="Test Export JSON to Different Paths" />
     <property role="3GE5qa" value="Export to Path - Test Design" />
     <node concept="X_bju" id="7J16yTfmzdG" role="1LuVN3">
       <property role="TrG5h" value="Export to Path" />
@@ -312,19 +312,19 @@
       </node>
       <node concept="3f6AUQ" id="7J16yTfmzdI" role="X_bjr" />
       <node concept="1gfTUo" id="7J16yTfn24X" role="AfY4v">
-        <property role="TrG5h" value="Export to Path: Architecture.test_Engineer100" />
+        <property role="TrG5h" value="Export to Path Architecture.test_Engineer100" />
         <ref role="1gfY4O" node="7J16yTfmWRP" resolve="test_Engineer" />
       </node>
       <node concept="1gfTUo" id="7J16yTfsIFF" role="AfY4v">
-        <property role="TrG5h" value="Export to Path: Architecture.mps" />
+        <property role="TrG5h" value="Export to Path Architecture.mps" />
         <ref role="1gfY4O" node="7J16yTfmXto" resolve="mps" />
       </node>
       <node concept="1gfTUo" id="7J16yTfn313" role="AfY4v">
-        <property role="TrG5h" value="Export to Path: Architecture.pathA" />
+        <property role="TrG5h" value="Export to Path Architecture.pathA" />
         <ref role="1gfY4O" node="7J16yTfmX6Q" resolve="pathA" />
       </node>
       <node concept="1gfTUo" id="7J16yTfn38A" role="AfY4v">
-        <property role="TrG5h" value="Export to Path: Architecture.pathB" />
+        <property role="TrG5h" value="Export to Path Architecture.pathB" />
         <ref role="1gfY4O" node="7J16yTfmXgR" resolve="pathB" />
       </node>
     </node>
@@ -390,7 +390,7 @@
   </node>
   <node concept="1fmyMM" id="7J16yTfmWfN">
     <property role="3GE5qa" value="Export to Path - Test Design" />
-    <property role="TrG5h" value="Export to Path: Architecture" />
+    <property role="TrG5h" value="Export to Path Architecture" />
     <node concept="1fmyMZ" id="7J16yTfmWPk" role="1fmyMW">
       <node concept="1fmyMC" id="7J16yTfmXLp" role="1fmyMH">
         <ref role="1fmyM0" node="7J16yTfmWRP" resolve="test_Engineer" />
