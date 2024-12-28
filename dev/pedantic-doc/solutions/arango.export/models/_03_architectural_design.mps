@@ -168,6 +168,7 @@
       </node>
       <node concept="3fT77D" id="7J16yTfnkro" role="3f6BbQ">
         <property role="3fT77I" value="export" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
   </node>
@@ -955,7 +956,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAGb">
-    <property role="TrG5h" value="Function 1: Create Database" />
+    <property role="TrG5h" value="Function 1 Create Database" />
     <property role="3GE5qa" value="Python Components" />
     <node concept="3zGEss" id="7J16yTfnL1P" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
@@ -1005,7 +1006,7 @@
     <node concept="1fmyMZ" id="7J16yTfo$BK" role="1fmyMW" />
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAI7">
-    <property role="TrG5h" value="Function 2: Create Collection" />
+    <property role="TrG5h" value="Function 2 Create Collection" />
     <property role="3GE5qa" value="Python Components" />
     <node concept="3zGEss" id="7J16yTfnI0l" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
@@ -1046,7 +1047,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAIT">
-    <property role="TrG5h" value="Function 3: Document Adder" />
+    <property role="TrG5h" value="Function 3 Document Adder" />
     <property role="3GE5qa" value="Python Components" />
     <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
       <property role="TrG5h" value="json_arango" />
@@ -1242,7 +1243,7 @@
   </node>
   <node concept="1fmyL8" id="7J16yTfoYvK">
     <property role="3GE5qa" value="Python Components" />
-    <property role="TrG5h" value="Function 4: Define Graph" />
+    <property role="TrG5h" value="Function 4 Define Graph" />
     <node concept="3zGEss" id="7J16yTfplkN" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
       <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
