@@ -12,6 +12,7 @@
   </facets>
   <dependencies>
     <dependency reexport="false">563b8661-a49f-4fda-ad97-911b4bd32744(quilter.examples.sokoban)</dependency>
+    <dependency reexport="false">cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />

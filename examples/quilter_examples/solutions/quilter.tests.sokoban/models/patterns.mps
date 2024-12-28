@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="icb1" ref="r:d425d313-b2f0-4051-a231-40f7c569ae78(quilter.examples.sokoban.structure)" />
-    <import index="7fxf" ref="r:f6947a76-e740-4169-95b8-2f6bf6359617(boards)" />
+    <import index="7fxf" ref="r:f6947a76-e740-4169-95b8-2f6bf6359617(models)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -50,7 +50,7 @@
     </language>
   </registry>
   <node concept="3F$Th6" id="2MtiOR1Y90Q">
-    <property role="TrG5h" value="Sokoban Patterns" />
+    <property role="TrG5h" value="SokobanPatterns" />
     <node concept="3F$ThX" id="2MtiOR1Y90S" role="3F$ThY">
       <property role="TrG5h" value="AtLeastOneSokoban" />
       <node concept="3F$xvW" id="2MtiOR1Y90V" role="3F$xvU">
@@ -441,7 +441,7 @@
       </node>
     </node>
     <node concept="3F$ThX" id="2MtiOR28Io8" role="3F$ThY">
-      <property role="TrG5h" value="BoxIsBlockedInTopLevelCorner" />
+      <property role="TrG5h" value="BoxIsBlockedInTopRightCorner" />
       <node concept="3F$xvW" id="2MtiOR28Ioa" role="3F$xvU">
         <property role="TrG5h" value="box" />
         <ref role="3F$xdl" to="icb1:2MtiOR1VKWz" resolve="Box" />
