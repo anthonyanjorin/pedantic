@@ -492,6 +492,162 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
       </node>
     </node>
+    <node concept="3F$ThX" id="2MtiOR2TvfO" role="3F$ThY">
+      <property role="TrG5h" value="BoxIsBlockedInTopLeftCorner" />
+      <node concept="3F$xvW" id="2MtiOR2TvfP" role="3F$xvU">
+        <property role="TrG5h" value="box" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWz" resolve="Box" />
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2TvfQ" role="3F$xvU">
+        <property role="TrG5h" value="boxCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2TvfR" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2TvfP" resolve="box" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2TvfT" role="3F$xvU">
+        <property role="TrG5h" value="leftCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2TvfU" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2TvfZ" resolve="rightBoulder" />
+        </node>
+        <node concept="3F$xvT" id="2MtiOR2TvpS" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="2MtiOR2TvfQ" resolve="boxCell" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2TvfV" role="3F$xvU">
+        <property role="TrG5h" value="upCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2TvfW" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" />
+          <ref role="3F$xdr" node="2MtiOR2TvfQ" resolve="boxCell" />
+        </node>
+        <node concept="3F$xvT" id="2MtiOR2TvfX" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2TvfY" resolve="upBoulder" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2TvfY" role="3F$xvU">
+        <property role="TrG5h" value="upBoulder" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2TvfZ" role="3F$xvU">
+        <property role="TrG5h" value="leftBoulder" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2MtiOR2Vklb" role="3F$ThY">
+      <property role="TrG5h" value="BoxIsBlockedInBottomLeftCorner" />
+      <node concept="3F$xvW" id="2MtiOR2Vklc" role="3F$xvU">
+        <property role="TrG5h" value="box" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWz" resolve="Box" />
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2Vkld" role="3F$xvU">
+        <property role="TrG5h" value="boxCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2Vkle" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2Vklc" resolve="box" />
+        </node>
+        <node concept="3F$xvT" id="2MtiOR2VklL" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" />
+          <ref role="3F$xdr" node="2MtiOR2Vkli" resolve="downCell" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2Vklf" role="3F$xvU">
+        <property role="TrG5h" value="leftCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2Vklg" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2Vklm" resolve="rightBoulder" />
+        </node>
+        <node concept="3F$xvT" id="2MtiOR2Vklh" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="2MtiOR2Vkld" resolve="boxCell" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2Vkli" role="3F$xvU">
+        <property role="TrG5h" value="downCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2Vklk" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2Vkll" resolve="upBoulder" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2Vkll" role="3F$xvU">
+        <property role="TrG5h" value="downBoulder" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2Vklm" role="3F$xvU">
+        <property role="TrG5h" value="leftBoulder" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2MtiOR2VkmO" role="3F$ThY">
+      <property role="TrG5h" value="BoxIsBlockedInBottomRightCorner" />
+      <node concept="3F$xvW" id="2MtiOR2VkmP" role="3F$xvU">
+        <property role="TrG5h" value="box" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWz" resolve="Box" />
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2VkmQ" role="3F$xvU">
+        <property role="TrG5h" value="boxCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2VkmR" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2VkmP" resolve="box" />
+        </node>
+        <node concept="3F$xvT" id="2MtiOR2VkmS" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" />
+          <ref role="3F$xdr" node="2MtiOR2VkmW" resolve="downCell" />
+        </node>
+        <node concept="3F$xvT" id="2MtiOR2Vknd" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" />
+          <ref role="3F$xdr" node="2MtiOR2VkmT" resolve="rightCell" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2VkmT" role="3F$xvU">
+        <property role="TrG5h" value="rightCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2VkmU" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2VkmZ" resolve="leftBoulder" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2VkmW" role="3F$xvU">
+        <property role="TrG5h" value="downCell" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="2MtiOR2VkmX" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR2VkmY" resolve="downBoulder" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2VkmY" role="3F$xvU">
+        <property role="TrG5h" value="downBoulder" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
+      </node>
+      <node concept="3F$xvW" id="2MtiOR2VkmZ" role="3F$xvU">
+        <property role="TrG5h" value="rightBoulder" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
+      </node>
+    </node>
   </node>
 </model>
 

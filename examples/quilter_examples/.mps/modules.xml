@@ -2,10 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/Obstgarten/Obstgarten.mpl" folder="Obstgarten" />
-      <modulePath path="$PROJECT_DIR$/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" folder="Quilter" />
-      <modulePath path="$PROJECT_DIR$/solutions/HabaObstgarten/HabaObstgarten.msd" folder="Obstgarten" />
-      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.sokoban/quilter.tests.sokoban.msd" folder="Quilter" />
+      <modulePath path="$PROJECT_DIR$/languages/quilter.examples.obstgarten/quilter.examples.obstgarten.mpl" folder="obstgarten" />
+      <modulePath path="$PROJECT_DIR$/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" folder="sokoban" />
+      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" folder="obstgarten" />
+      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.pedantic/quilter.tests.pedantic.msd" folder="pedantic" />
+      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.sokoban/quilter.tests.sokoban.msd" folder="sokoban" />
     </projectModules>
   </component>
 </project>

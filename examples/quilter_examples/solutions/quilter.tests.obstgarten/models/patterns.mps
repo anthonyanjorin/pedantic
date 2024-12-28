@@ -6,7 +6,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>
-    <import index="5e0r" ref="r:6b4428a1-42dd-4d1b-98c0-dfdab1da415b(Obstgarten.structure)" />
+    <import index="5e0r" ref="r:6b4428a1-42dd-4d1b-98c0-dfdab1da415b(quilter.examples.obstgarten.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="2hdc" ref="r:555e7b25-ff5e-4a7c-9dbe-07754103905c(models)" />
   </imports>

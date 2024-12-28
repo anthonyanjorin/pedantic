@@ -29,20 +29,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example">
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/generator/templates/quilter.examples.sokoban.generator.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/models/quilter.examples.sokoban.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/models/quilter.examples.sokoban.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/models/quilter.examples.sokoban.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/models/quilter.examples.sokoban.intentions.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/models/quilter.examples.sokoban.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/models/quilter.examples.sokoban.typesystem.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.sokoban/models/boards.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.sokoban/models/patterns.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.sokoban/quilter.tests.sokoban.msd" afterDir="false" />
-      <change beforePath="$project_home$/languages/quilter/models/quilter.editor.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/generator/templates/quilter.examples.obstgarten.generator.templates@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.behavior.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.constraints.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.editor.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.structure.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/Obstgarten.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/generator/templates/Obstgarten.generator.templates@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/patterns.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/patterns.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/tests.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/tests.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="4600b709-1075-4977-a241-fe9158b2864e/r:5be1ffe7-1fe4-47a2-9e79-9d93dcdff9f9(TempModule4600b709-1075-4977-a241-fe9158b2864e/ConsoleModel_545351881594242)">
+            <model ref="f12b89ca-2103-4798-a75c-08aad7b898cf/r:1cf7a6fb-b056-4ccc-a0ab-65df13742eb9(TempModulef12b89ca-2103-4798-a75c-08aad7b898cf/ConsoleModel_611099696888052)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -75,11 +77,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2MtiOR1_iDo">
-                <node concept="3balQm" id="2MtiOR1_iDp" role="aymYE" />
-                <node concept="2Clz$F" id="2MtiOR1_iDq" role="aymYO" />
-                <node concept="2_V_lH" id="2MtiOR1_iDr" role="1PhJh3">
-                  <ref role="2_V_lI" node="2MtiOR1_iDq" />
+              <node concept="aymSD" id="2MtiOR2Onp$">
+                <node concept="3balQm" id="2MtiOR2Onp_" role="aymYE" />
+                <node concept="2Clz$F" id="2MtiOR2OnpA" role="aymYO" />
+                <node concept="2_V_lH" id="2MtiOR2OnpB" role="1PhJh3">
+                  <ref role="2_V_lI" node="2MtiOR2OnpA" />
                 </node>
               </node>
             </model>
@@ -174,16 +176,6 @@
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="'Obstgarten'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
-            </path>
-            <path>
-              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
-              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
-              <item name="'Quilter'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
             </path>
           </expand>
           <select />
