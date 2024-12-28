@@ -11,7 +11,7 @@
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/Obstgarten/Obstgarten.mpl" folder="quilter.examples.obstgarten" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" folder="quilter.examples.sokoban" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/HabaObstgarten/HabaObstgarten.msd" folder="quilter.examples.obstgarten" />
-      <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/PedanticPatterns/PedanticPatterns.msd" folder="quilter.examples.pedantic" />
+      <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/quilter.tests.pedantic/quilter.tests.pedantic.msd" folder="quilter.examples.pedantic" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/quilter.tests.sokoban/quilter.tests.sokoban.msd" folder="quilter.examples.sokoban" />
     </projectModules>
   </component>

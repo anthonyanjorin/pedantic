@@ -101,7 +101,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="2MtiOR1UZfY" role="3EZMnx">
-        <ref role="1NtTu8" to="icb1:2MtiOR1UY8Z" />
+        <ref role="1NtTu8" to="icb1:2MtiOR1UY8Z" resolve="rows" />
         <node concept="2iRkQZ" id="2MtiOR1UZg1" role="2czzBx" />
         <node concept="VPM3Z" id="2MtiOR1UZg2" role="3F10Kt" />
         <node concept="pVoyu" id="2MtiOR1UZg3" role="3F10Kt">
@@ -126,7 +126,7 @@
         <property role="3F0ifm" value="▕" />
       </node>
       <node concept="3F2HdR" id="2MtiOR1V9nY" role="3EZMnx">
-        <ref role="1NtTu8" to="icb1:2MtiOR1UY99" />
+        <ref role="1NtTu8" to="icb1:2MtiOR1UY99" resolve="cells" />
         <node concept="2iRfu4" id="2MtiOR1V9o1" role="2czzBx" />
         <node concept="VPM3Z" id="2MtiOR1V9o2" role="3F10Kt" />
       </node>
@@ -192,7 +192,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="2MtiOR1V6RT" role="3EZMnx">
-        <ref role="1NtTu8" to="icb1:2MtiOR1V6tu" />
+        <ref role="1NtTu8" to="icb1:2MtiOR1V6tu" resolve="boards" />
         <node concept="2iRkQZ" id="2MtiOR1V6RW" role="2czzBx" />
         <node concept="VPM3Z" id="2MtiOR1V6RX" role="3F10Kt" />
         <node concept="pVoyu" id="2MtiOR1Y1Fk" role="3F10Kt">

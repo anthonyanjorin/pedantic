@@ -405,7 +405,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="3F2HdR" id="2LgBuUe6MUy" role="3EZMnx">
-          <ref role="1NtTu8" to="uyb6:2LgBuUe6MDD" />
+          <ref role="1NtTu8" to="uyb6:2LgBuUe6MDD" resolve="attributeExps" />
           <node concept="2iRkQZ" id="2LgBuUe6MU_" role="2czzBx" />
           <node concept="VPM3Z" id="2LgBuUe6MUA" role="3F10Kt" />
           <node concept="ljvvj" id="2LgBuUe6MUB" role="3F10Kt">
@@ -2010,7 +2010,7 @@
         <ref role="1k5W1q" to="9sqt:5B3sq7DIjTW" resolve="Header" />
       </node>
       <node concept="1iCGBv" id="2LgBuUe6MUV" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUer6RT" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUer6RT" resolve="attribute" />
         <node concept="1sVBvm" id="2LgBuUe6MUX" role="1sWHZn">
           <node concept="3F0A7n" id="2LgBuUe6MV1" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -2178,13 +2178,13 @@
         <property role="3F0ifm" value="AttributeCheckOp_BF[" />
       </node>
       <node concept="3F1sOY" id="2LgBuUgm9ei" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUfjToC" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUfjToC" resolve="boundObject" />
       </node>
       <node concept="3F0ifn" id="2LgBuUgm9eo" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="2LgBuUgm9el" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUfjToD" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUfjToD" resolve="attrValue" />
       </node>
       <node concept="3F0ifn" id="2LgBuUgu$U4" role="3EZMnx">
         <property role="3F0ifm" value="]" />
@@ -2234,13 +2234,13 @@
         <property role="3F0ifm" value="AttributeCheckOp_BB[" />
       </node>
       <node concept="3F1sOY" id="2LgBuUgB3q9" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUfb2WZ" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUfb2WZ" resolve="boundObject" />
       </node>
       <node concept="3F0ifn" id="2LgBuUgB3qa" role="3EZMnx">
         <property role="3F0ifm" value="&lt;-&gt;" />
       </node>
       <node concept="3F1sOY" id="2LgBuUgB3qb" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUfb2X0" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUfb2X0" resolve="boundAttrValue" />
       </node>
       <node concept="3F0ifn" id="2LgBuUgB3qc" role="3EZMnx">
         <property role="3F0ifm" value="]" />
@@ -2253,7 +2253,7 @@
     <ref role="1XX52x" to="uyb6:2LgBuUf6lao" resolve="EqualsToValue" />
     <node concept="3EZMnI" id="2LgBuUiGE5p" role="2wV5jI">
       <node concept="1iCGBv" id="2LgBuUiGE5q" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUiRyKE" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUiRyKE" resolve="left" />
         <node concept="1sVBvm" id="2LgBuUiGE5r" role="1sWHZn">
           <node concept="3F0A7n" id="2LgBuUiGE5s" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -2266,7 +2266,7 @@
         <property role="3F0ifm" value="==" />
       </node>
       <node concept="1iCGBv" id="2LgBuUiGE5u" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUiRyKF" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUiRyKF" resolve="right" />
         <node concept="1sVBvm" id="2LgBuUiGE5v" role="1sWHZn">
           <node concept="3F0A7n" id="2LgBuUiGE5z" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -2286,7 +2286,7 @@
         <property role="3F0ifm" value="TransferValue_BF[" />
       </node>
       <node concept="3F1sOY" id="2LgBuUj5gxz" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUijliC" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliC" resolve="boundLeft" />
       </node>
       <node concept="3F0ifn" id="2LgBuUj5gx$" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
@@ -2308,13 +2308,13 @@
         <property role="3F0ifm" value="TransferValue_FB[" />
       </node>
       <node concept="3F1sOY" id="2LgBuUj5gxM" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUijliA" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliA" resolve="freeLeft" />
       </node>
       <node concept="3F0ifn" id="2LgBuUj5gxN" role="3EZMnx">
         <property role="3F0ifm" value="&lt;-" />
       </node>
       <node concept="3F1sOY" id="2LgBuUj5gxO" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUijliB" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUijliB" resolve="boundRight" />
       </node>
       <node concept="3F0ifn" id="2LgBuUj5gxP" role="3EZMnx">
         <property role="3F0ifm" value="]" />
@@ -2330,13 +2330,13 @@
         <property role="3F0ifm" value="CheckWithConstant_B[" />
       </node>
       <node concept="3F1sOY" id="2LgBuUjl$o7" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUf5rA8" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUf5rA8" resolve="value" />
       </node>
       <node concept="3F0ifn" id="2LgBuUjl$o8" role="3EZMnx">
         <property role="3F0ifm" value="==" />
       </node>
       <node concept="1iCGBv" id="2LgBuUjl$o9" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUf5usv" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUf5usv" resolve="constant" />
         <node concept="1sVBvm" id="2LgBuUjl$oa" role="1sWHZn">
           <node concept="B$lHz" id="2LgBuUjl$ob" role="2wV5jI" />
         </node>

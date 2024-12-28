@@ -949,7 +949,7 @@
     <property role="3GE5qa" value="patterns.attributes.values" />
     <ref role="1M2myG" to="uyb6:2LgBuUe6MDP" resolve="AccessViaThis" />
     <node concept="1N5Pfh" id="2LgBuUecL6x" role="1Mr941">
-      <ref role="1N5Vy1" to="uyb6:2LgBuUer6RT" />
+      <ref role="1N5Vy1" to="uyb6:2LgBuUer6RT" resolve="attribute" />
       <node concept="3dgokm" id="2LgBuUecLdM" role="1N6uqs">
         <node concept="3clFbS" id="2LgBuUecLdN" role="2VODD2">
           <node concept="3clFbF" id="2LgBuUedfor" role="3cqZAp">
@@ -969,7 +969,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="2LgBuUecMAu" role="2OqNvi">
-                    <ref role="3Tt5mk" to="uyb6:1ap1xRT2Ll8" />
+                    <ref role="3Tt5mk" to="uyb6:1ap1xRT2Ll8" resolve="type" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="2LgBuUecNEg" role="2OqNvi">
@@ -1005,7 +1005,7 @@
     <property role="3GE5qa" value="patterns.attributes.values" />
     <ref role="1M2myG" to="uyb6:2LgBuUe6MDS" resolve="AttributeValue" />
     <node concept="1N5Pfh" id="2LgBuUeyh7Q" role="1Mr941">
-      <ref role="1N5Vy1" to="uyb6:2LgBuUepPaH" />
+      <ref role="1N5Vy1" to="uyb6:2LgBuUepPaH" resolve="object" />
       <node concept="3dgokm" id="2LgBuUeyheo" role="1N6uqs">
         <node concept="3clFbS" id="2LgBuUeyheq" role="2VODD2">
           <node concept="3clFbF" id="2LgBuUeyhix" role="3cqZAp">
@@ -1033,7 +1033,7 @@
       </node>
     </node>
     <node concept="1N5Pfh" id="2LgBuUeyk8q" role="1Mr941">
-      <ref role="1N5Vy1" to="uyb6:2LgBuUe6MUD" />
+      <ref role="1N5Vy1" to="uyb6:2LgBuUe6MUD" resolve="attribute" />
       <node concept="3dgokm" id="2LgBuUeykci" role="1N6uqs">
         <node concept="3clFbS" id="2LgBuUeykcj" role="2VODD2">
           <node concept="Jncv_" id="2LgBuUeykVd" role="3cqZAp">

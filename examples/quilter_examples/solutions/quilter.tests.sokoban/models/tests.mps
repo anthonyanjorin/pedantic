@@ -214,7 +214,7 @@
         <node concept="3vlDli" id="2MtiOR2mnQ7" role="3cqZAp">
           <node concept="2OqwBi" id="2MtiOR2mpq1" role="3tpDZA">
             <node concept="3xONca" id="2MtiOR2mnQa" role="2Oq$k0">
-              <ref role="3xOPvv" node="2MtiOR2moTd" resolve="p1" />
+              <ref role="3xOPvv" node="2MtiOR2moTd" resolve="p10" />
             </node>
             <node concept="2qgKlT" id="2MtiOR2mpHV" role="2OqNvi">
               <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
@@ -463,7 +463,7 @@
             <node concept="3el$ZO" id="2MtiOR2mpar" role="3elqOW">
               <ref role="3eevyo" node="2MtiOR2mpaj" resolve="board" />
               <ref role="3eevyp" node="2MtiOR2mpal" resolve="row" />
-              <ref role="3eevyu" to="icb1:2MtiOR1UY8Z" />
+              <ref role="3eevyu" to="icb1:2MtiOR1UY8Z" resolve="rows" />
             </node>
             <node concept="3el$ZO" id="2MtiOR2mpas" role="3elqOW">
               <ref role="3eevyo" node="2MtiOR2mpal" resolve="row" />
@@ -603,17 +603,17 @@
             <node concept="3el$ZO" id="2MtiOR2oFod" role="3elqOW">
               <ref role="3eevyo" node="2MtiOR2oFo5" resolve="board" />
               <ref role="3eevyp" node="2MtiOR2oFo7" resolve="row" />
-              <ref role="3eevyu" to="icb1:2MtiOR1UY8Z" />
+              <ref role="3eevyu" to="icb1:2MtiOR1UY8Z" resolve="rows" />
             </node>
             <node concept="3el$ZO" id="2MtiOR2oFoe" role="3elqOW">
               <ref role="3eevyo" node="2MtiOR2oFo7" resolve="row" />
               <ref role="3eevyp" node="2MtiOR2oFo9" resolve="cell" />
-              <ref role="3eevyu" to="icb1:2MtiOR1UY99" />
+              <ref role="3eevyu" to="icb1:2MtiOR1UY99" resolve="cells" />
             </node>
             <node concept="3el$ZO" id="2MtiOR2oFof" role="3elqOW">
               <ref role="3eevyo" node="2MtiOR2oFo9" resolve="cell" />
               <ref role="3eevyp" node="2MtiOR2oFob" resolve="sok" />
-              <ref role="3eevyu" to="icb1:2MtiOR1Vy$A" />
+              <ref role="3eevyu" to="icb1:2MtiOR1Vy$A" resolve="figure" />
             </node>
           </node>
           <node concept="3e2OTI" id="2MtiOR2oFog" role="3e3QqN">
@@ -627,7 +627,7 @@
             </node>
             <node concept="3k9trb" id="2MtiOR2oFoj" role="3e2PzU">
               <ref role="3CfmUi" node="2MtiOR2oFod" />
-              <ref role="3k9n3O" to="icb1:2MtiOR1UY8Z" />
+              <ref role="3k9n3O" to="icb1:2MtiOR1UY8Z" resolve="rows" />
               <node concept="3e2p4i" id="2MtiOR2oFok" role="3k9tr8">
                 <ref role="3e2p4s" node="2MtiOR2oFo5" resolve="board" />
               </node>
@@ -644,7 +644,7 @@
             </node>
             <node concept="3e2sqz" id="2MtiOR2oFoo" role="3e2PzU">
               <ref role="3CfmUi" node="2MtiOR2oFoe" />
-              <ref role="3l_wLC" to="icb1:2MtiOR1UY99" />
+              <ref role="3l_wLC" to="icb1:2MtiOR1UY99" resolve="cells" />
               <node concept="3e2p4t" id="2MtiOR2oFop" role="3e2sqw">
                 <ref role="3e2p4s" node="2MtiOR2oFo7" resolve="row" />
               </node>
@@ -661,7 +661,7 @@
             </node>
             <node concept="3e2sqz" id="2MtiOR2oFot" role="3e2PzU">
               <ref role="3CfmUi" node="2MtiOR2oFof" />
-              <ref role="3l_wLC" to="icb1:2MtiOR1Vy$A" />
+              <ref role="3l_wLC" to="icb1:2MtiOR1Vy$A" resolve="figure" />
               <node concept="3e2p4t" id="2MtiOR2oFou" role="3e2sqw">
                 <ref role="3e2p4s" node="2MtiOR2oFo9" resolve="cell" />
               </node>
@@ -1515,7 +1515,7 @@
         </node>
         <node concept="3eKGHs" id="2MtiOR2tjj$" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
-          <ref role="3eKGHL" to="glxn:2MtiOR28Io8" resolve="BoxIsBlockedInTopLevelCorner" />
+          <ref role="3eKGHL" to="glxn:2MtiOR28Io8" resolve="BoxIsBlockedInTopRightCorner" />
           <node concept="3xLA65" id="2MtiOR2tjj_" role="lGtFl">
             <property role="TrG5h" value="p80" />
           </node>

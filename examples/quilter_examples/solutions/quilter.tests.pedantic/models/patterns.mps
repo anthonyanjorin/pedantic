@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:36a5b9dd-3672-4a23-bce4-67bb45495247(PedanticPatterns)">
+<model ref="r:36a5b9dd-3672-4a23-bce4-67bb45495247(patterns)">
   <persistence version="9" />
   <languages>
     <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
@@ -15,20 +15,20 @@
       </concept>
     </language>
     <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
-      <concept id="8789799326224677412" name="quilter.structure.ParentVariable" flags="ng" index="3frlBe" />
-      <concept id="1340109089921503716" name="quilter.structure.LinkVariable" flags="ng" index="3F$xvT">
-        <reference id="1340109089921504582" name="target" index="3F$xdr" />
+      <concept id="8789799326224677412" name="quilter.structure.ParentLink" flags="ng" index="3frlBe" />
+      <concept id="1340109089921503716" name="quilter.structure.Link" flags="ng" index="3F$xvT">
+        <reference id="1340109089921504582" name="targetObject" index="3F$xdr" />
         <reference id="1340109089921504630" name="type" index="3F$xdF" />
       </concept>
-      <concept id="1340109089921503713" name="quilter.structure.ObjectVariable" flags="ng" index="3F$xvW">
+      <concept id="1340109089921503713" name="quilter.structure.Object" flags="ng" index="3F$xvW">
         <reference id="1340109089921504584" name="type" index="3F$xdl" />
-        <child id="1340109089921503721" name="linkVariables" index="3F$xvO" />
+        <child id="1340109089921503721" name="links" index="3F$xvO" />
       </concept>
       <concept id="1340109089921471067" name="quilter.structure.Quilt" flags="ng" index="3F$Th6">
-        <child id="1340109089921471075" name="patterns" index="3F$ThY" />
+        <child id="1340109089921471075" name="elements" index="3F$ThY" />
       </concept>
       <concept id="1340109089921471072" name="quilter.structure.Pattern" flags="ng" index="3F$ThX">
-        <child id="1340109089921503719" name="objectVariables" index="3F$xvU" />
+        <child id="1340109089921503719" name="objects" index="3F$xvU" />
       </concept>
     </language>
   </registry>
@@ -42,7 +42,7 @@
         <node concept="3F$xvT" id="7BVCYERemvO" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="7BVCYERemwe" resolve="description" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv$Zg" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv$Zg" resolve="description" />
         </node>
       </node>
       <node concept="3F$xvW" id="7BVCYERemwe" role="3F$xvU">
@@ -50,7 +50,7 @@
         <ref role="3F$xdl" to="3ido:4h$8nEbv$Zc" resolve="Description" />
         <node concept="3F$xvT" id="7BVCYERemwf" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv_ec" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ec" resolve="words" />
           <ref role="3F$xdr" node="7BVCYERemwg" resolve="ref" />
         </node>
       </node>
@@ -59,7 +59,7 @@
         <ref role="3F$xdl" to="3ido:4h$8nEbv_ei" resolve="TermReference" />
         <node concept="3F$xvT" id="7BVCYERemwC" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" resolve="target" />
           <ref role="3F$xdr" node="7BVCYERemwD" resolve="label" />
         </node>
       </node>
@@ -84,7 +84,7 @@
         <node concept="3F$xvT" id="7BVCYERemwU" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="7BVCYERemwV" resolve="description" />
-          <ref role="3F$xdF" to="3ido:1BEYxja3R$m" />
+          <ref role="3F$xdF" to="3ido:1BEYxja3R$m" resolve="detailedDescription" />
         </node>
       </node>
       <node concept="3F$xvW" id="7BVCYERemwV" role="3F$xvU">
@@ -92,7 +92,7 @@
         <ref role="3F$xdl" to="3ido:4h$8nEbv$Zc" resolve="Description" />
         <node concept="3F$xvT" id="7BVCYERemwW" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv_ec" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ec" resolve="words" />
           <ref role="3F$xdr" node="7BVCYERemwX" resolve="ref" />
         </node>
       </node>
@@ -101,7 +101,7 @@
         <ref role="3F$xdl" to="3ido:4h$8nEbv_ei" resolve="TermReference" />
         <node concept="3F$xvT" id="7BVCYERemwY" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" resolve="target" />
           <ref role="3F$xdr" node="7BVCYERemwZ" resolve="label" />
         </node>
       </node>

@@ -811,7 +811,7 @@
     <property role="3GE5qa" value="patterns.attributes" />
     <property role="TrG5h" value="AttributeExpression" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2LgBuUe6MDO">
     <property role="EcuMT" value="3193225783717603956" />
@@ -849,7 +849,7 @@
     <property role="3GE5qa" value="patterns.attributes.values" />
     <property role="TrG5h" value="ValueExpression" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2LgBuUe6MDR">
     <property role="EcuMT" value="3193225783717603959" />

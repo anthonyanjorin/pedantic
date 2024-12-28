@@ -44,7 +44,7 @@
   <node concept="1TIwiD" id="2MtiOR1UY8T">
     <property role="EcuMT" value="3214808506350428729" />
     <property role="TrG5h" value="Board" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2MtiOR1UY8Z" role="1TKVEi">
       <property role="IQ2ns" value="3214808506350428735" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -59,7 +59,7 @@
   <node concept="1TIwiD" id="2MtiOR1UY8U">
     <property role="EcuMT" value="3214808506350428730" />
     <property role="TrG5h" value="Row" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2MtiOR1UY99" role="1TKVEi">
       <property role="IQ2ns" value="3214808506350428745" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -71,7 +71,7 @@
   <node concept="1TIwiD" id="2MtiOR1UY8V">
     <property role="EcuMT" value="3214808506350428731" />
     <property role="TrG5h" value="Cell" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2MtiOR1WLSR" role="1TKVEi">
       <property role="IQ2ns" value="3214808506350902839" />
       <property role="20kJfa" value="down" />
@@ -98,7 +98,7 @@
     <property role="EcuMT" value="3214808506350462813" />
     <property role="TrG5h" value="World" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2MtiOR1V6tu" role="1TKVEi">
       <property role="IQ2ns" value="3214808506350462814" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -114,7 +114,7 @@
     <property role="EcuMT" value="3214808506350577957" />
     <property role="TrG5h" value="Figure" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2MtiOR1VKWx">
     <property role="EcuMT" value="3214808506350636833" />

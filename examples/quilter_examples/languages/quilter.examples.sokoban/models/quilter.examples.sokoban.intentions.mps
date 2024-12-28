@@ -190,7 +190,7 @@
                           <ref role="3cqZAo" node="2MtiOR1Xnj6" resolve="cell" />
                         </node>
                         <node concept="3TrEf2" id="2MtiOR1X5lk" role="2OqNvi">
-                          <ref role="3Tt5mk" to="icb1:2MtiOR1WLST" />
+                          <ref role="3Tt5mk" to="icb1:2MtiOR1WLST" resolve="right" />
                         </node>
                       </node>
                     </node>

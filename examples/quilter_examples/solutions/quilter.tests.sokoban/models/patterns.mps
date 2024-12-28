@@ -58,7 +58,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8T" resolve="Board" />
         <node concept="3F$xvT" id="2MtiOR1Y91$" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" resolve="rows" />
           <ref role="3F$xdr" node="2MtiOR1Y92j" resolve="row" />
         </node>
       </node>
@@ -67,7 +67,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8U" resolve="Row" />
         <node concept="3F$xvT" id="2MtiOR1Y92r" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
           <ref role="3F$xdr" node="2MtiOR1Y92q" resolve="cell" />
         </node>
       </node>
@@ -76,7 +76,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR1Y92$" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR1Y90U" resolve="sok" />
         </node>
       </node>
@@ -92,8 +92,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8T" resolve="Board" />
         <node concept="3F$xvT" id="2MtiOR1Yb7P" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" />
-          <ref role="3F$xdr" node="2MtiOR1Yb7R" resolve="row1" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" resolve="rows" />
+          <ref role="3F$xdr" node="2MtiOR1Yb7R" resolve="row" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR1Yb7R" role="3F$xvU">
@@ -101,12 +101,12 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8U" resolve="Row" />
         <node concept="3F$xvT" id="2MtiOR1Yb7S" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
           <ref role="3F$xdr" node="2MtiOR1Yb7V" resolve="cell1" />
         </node>
         <node concept="3F$xvT" id="2MtiOR1Yb7U" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
           <ref role="3F$xdr" node="2MtiOR1Yb7X" resolve="cell2" />
         </node>
       </node>
@@ -115,7 +115,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR1Yb7W" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR1Yb7Z" resolve="sok1" />
         </node>
       </node>
@@ -124,7 +124,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR1Yb7Y" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR1Yb80" resolve="sok2" />
         </node>
       </node>
@@ -144,12 +144,12 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8T" resolve="Board" />
         <node concept="3F$xvT" id="2MtiOR1Y9QQ" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" />
-          <ref role="3F$xdr" node="2MtiOR1Y9QR" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" resolve="rows" />
+          <ref role="3F$xdr" node="2MtiOR1Y9QR" resolve="row1" />
         </node>
         <node concept="3F$xvT" id="2MtiOR1Yb6V" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" resolve="rows" />
           <ref role="3F$xdr" node="2MtiOR1Yb6U" resolve="row2" />
         </node>
       </node>
@@ -158,8 +158,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8U" resolve="Row" />
         <node concept="3F$xvT" id="2MtiOR1Y9QS" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
-          <ref role="3F$xdr" node="2MtiOR1Y9QT" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
+          <ref role="3F$xdr" node="2MtiOR1Y9QT" resolve="cell1" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR1Yb6U" role="3F$xvU">
@@ -167,7 +167,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8U" resolve="Row" />
         <node concept="3F$xvT" id="2MtiOR1Y9Ru" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
           <ref role="3F$xdr" node="2MtiOR1Y9Ri" resolve="cell2" />
         </node>
       </node>
@@ -176,8 +176,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR1Y9QU" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
-          <ref role="3F$xdr" node="2MtiOR1Y9QV" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
+          <ref role="3F$xdr" node="2MtiOR1Y9QV" resolve="sok1" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR1Y9Ri" role="3F$xvU">
@@ -185,7 +185,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR1Y9RF" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR1Y9R5" resolve="sok2" />
         </node>
       </node>
@@ -206,7 +206,7 @@
         <node concept="3F$xvT" id="2MtiOR28tNF" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR28tNG" resolve="row" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" resolve="rows" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR28tNG" role="3F$xvU">
@@ -215,7 +215,7 @@
         <node concept="3F$xvT" id="2MtiOR28tNH" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR28tNo" resolve="endPlace" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR28tNo" role="3F$xvU">
@@ -223,8 +223,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28tNS" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR28tNR" resolve="noFigure" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR28tNR" resolve="noBox" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
         </node>
         <node concept="2yiVuq" id="2MtiOR28tNq" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR28tNs" role="2yiVun">
@@ -250,8 +250,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8T" resolve="Board" />
         <node concept="3F$xvT" id="2MtiOR28vGi" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR28vGj" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" />
+          <ref role="3F$xdr" node="2MtiOR28vGj" resolve="row" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY8Z" resolve="rows" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR28vGj" role="3F$xvU">
@@ -259,8 +259,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8U" resolve="Row" />
         <node concept="3F$xvT" id="2MtiOR28vGk" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR28vGl" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" />
+          <ref role="3F$xdr" node="2MtiOR28vGl" resolve="endPlace" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1UY99" resolve="cells" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR28vGl" role="3F$xvU">
@@ -268,8 +268,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28vGm" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR28vGr" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR28vGr" resolve="boulder" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
         </node>
         <node concept="2yiVuq" id="2MtiOR28vGn" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR28vGo" role="2yiVun">
@@ -298,12 +298,12 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28wlW" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28wlP" resolve="box" />
         </node>
         <node concept="3F$xvT" id="2MtiOR28wm7" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" resolve="right" />
           <ref role="3F$xdr" node="2MtiOR28wm6" resolve="targetCell" />
         </node>
       </node>
@@ -312,12 +312,12 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28wlT" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" resolve="right" />
           <ref role="3F$xdr" node="2MtiOR28wlV" resolve="boxCell" />
         </node>
         <node concept="3F$xvT" id="2MtiOR28wlU" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28wlQ" resolve="sok" />
         </node>
       </node>
@@ -330,7 +330,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28wm8" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28wm9" resolve="fig" />
         </node>
       </node>
@@ -351,13 +351,13 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28xMk" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28xMi" resolve="box" />
         </node>
         <node concept="3F$xvT" id="2MtiOR28xMF" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR28xMm" resolve="sokCell" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" resolve="down" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR28xMm" role="3F$xvU">
@@ -365,7 +365,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28xMo" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28xMp" resolve="sok" />
         </node>
       </node>
@@ -378,12 +378,12 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28xMr" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28xMs" resolve="fig" />
         </node>
         <node concept="3F$xvT" id="2MtiOR28xME" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" resolve="down" />
           <ref role="3F$xdr" node="2MtiOR28xMj" resolve="boxCell" />
         </node>
       </node>
@@ -420,8 +420,8 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28C02" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR28C07" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdr" node="2MtiOR28C07" resolve="noBox" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
         </node>
         <node concept="2yiVuq" id="2MtiOR28C03" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR28C04" role="2yiVun">
@@ -451,12 +451,12 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28Ioc" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28Ioa" resolve="box" />
         </node>
         <node concept="3F$xvT" id="2MtiOR28Ioj" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLST" resolve="right" />
           <ref role="3F$xdr" node="2MtiOR28Ioi" resolve="rightCell" />
         </node>
       </node>
@@ -465,7 +465,7 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28IIL" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           <ref role="3F$xdr" node="2MtiOR28IIJ" resolve="rightBoulder" />
         </node>
       </node>
@@ -474,13 +474,13 @@
         <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
         <node concept="3F$xvT" id="2MtiOR28Iol" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" resolve="down" />
           <ref role="3F$xdr" node="2MtiOR28Iob" resolve="boxCell" />
         </node>
         <node concept="3F$xvT" id="2MtiOR28IIK" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" />
-          <ref role="3F$xdr" node="2MtiOR28IIH" resolve="boulder" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1Vy$A" resolve="figure" />
+          <ref role="3F$xdr" node="2MtiOR28IIH" resolve="upBoulder" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR28IIH" role="3F$xvU">

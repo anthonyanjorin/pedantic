@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="PedanticPatterns" uuid="78930d22-0424-47f7-b07d-6b18163edfba" moduleVersion="0">
+<solution name="quilter.tests.pedantic" uuid="78930d22-0424-47f7-b07d-6b18163edfba" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot path="${module}/models" />
@@ -28,10 +28,10 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-    <module reference="78930d22-0424-47f7-b07d-6b18163edfba(PedanticPatterns)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
+    <module reference="78930d22-0424-47f7-b07d-6b18163edfba(quilter.tests.pedantic)" version="0" />
   </dependencyVersions>
 </solution>
 
