@@ -373,6 +373,7 @@
       </node>
       <node concept="3fT77D" id="7J16yTfnb4x" role="3f6BbQ">
         <property role="3fT77I" value="tests" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3fT77D" id="7J16yTfnb72" role="3f6BbQ">
         <property role="3fT77I" value="the" />
