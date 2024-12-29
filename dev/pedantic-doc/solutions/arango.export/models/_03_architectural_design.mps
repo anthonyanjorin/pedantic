@@ -14,8 +14,16 @@
         <child id="6010201709301647773" name="returns" index="$d$W1" />
         <child id="470559418572020240" name="description" index="1bdd_s" />
       </concept>
+      <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
+        <child id="6010201709267609475" name="participants" index="AfY4v" />
+        <child id="8987473119584018422" name="messages" index="X_bjp" />
+        <child id="8987473119584018420" name="description" index="X_bjr" />
+      </concept>
       <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
+      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="6010201709267609479" name="self" index="AfY4r" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
@@ -66,13 +74,27 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="8617956174780088291" name="pedantic.structure.ComponentParticipant" flags="ng" index="1gfTUo">
+        <reference id="8617956174780088399" name="ref" index="1gfY4O" />
+      </concept>
       <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
         <reference id="8617956174760287129" name="target" index="1hSrFy" />
+      </concept>
+      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
+        <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
       <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
         <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI" />
+      <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
+        <child id="579219467669762504" name="description" index="1LuVN1" />
+        <child id="579219467669762506" name="behaviours" index="1LuVN3" />
+      </concept>
+      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
+        <reference id="6010201709267609490" name="to" index="AfY4e" />
+        <reference id="6010201709267609485" name="from" index="AfY4h" />
+      </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
@@ -179,6 +201,19 @@
     </node>
     <node concept="X_8GT" id="7J16yTfsHzt" role="1vU5Ow">
       <property role="TrG5h" value="ArangoDBExportConfig" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWIQi" role="1vU5Ow">
+      <property role="TrG5h" value="Path Input" />
+      <node concept="3f6AUQ" id="4jS$w1NWJs7" role="$d$W1" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWL6R" role="1vU5Ow">
+      <property role="TrG5h" value="click" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWMiE" role="1vU5Ow">
+      <property role="TrG5h" value="ArangoDBExportConfig" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWXkq" role="1vU5Ow">
+      <property role="TrG5h" value="Read JSON" />
     </node>
     <node concept="3zGEss" id="7J16yTfpbvq" role="1fmyMU">
       <property role="TrG5h" value="path input" />
@@ -476,6 +511,21 @@
   <node concept="1fmyL8" id="Sv$7iJa8fW">
     <property role="TrG5h" value="ArangoDB " />
     <property role="3GE5qa" value="ArangoDB Components" />
+    <node concept="X_8GT" id="4jS$w1NX042" role="1vU5Ow">
+      <property role="TrG5h" value="Establish Connection" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWZxD" role="1vU5Ow">
+      <property role="TrG5h" value="Create Database" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NX7O5" role="1vU5Ow">
+      <property role="TrG5h" value="Create Collection" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NXafa" role="1vU5Ow">
+      <property role="TrG5h" value="Add Documents" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NXi6B" role="1vU5Ow">
+      <property role="TrG5h" value="Create Graph" />
+    </node>
     <node concept="3zGEss" id="4jS$w1NVysK" role="1fmyMO">
       <property role="TrG5h" value="Arango Web-Browser" />
       <ref role="3zGEsh" node="4jS$w1NVwUj" resolve="ArangoDB Web UI" />
@@ -610,6 +660,40 @@
         </node>
       </node>
     </node>
+    <node concept="X_8GT" id="4jS$w1NWPWX" role="1vU5Ow">
+      <property role="TrG5h" value="Path Input" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWQKy" role="1vU5Ow">
+      <property role="TrG5h" value="Database Name Input" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWUTv" role="1vU5Ow">
+      <property role="TrG5h" value="run function" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NX5bg" role="1vU5Ow">
+      <property role="TrG5h" value="CollectionControl()" />
+      <node concept="3f6AUQ" id="4jS$w1NX5L5" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1NX5L6" role="3f6BbQ">
+          <property role="3fT77I" value="runs" />
+        </node>
+        <node concept="1hSrFG" id="4jS$w1NX62k" role="3f6BbQ">
+          <ref role="1hSrFy" node="7C5UPHnZAI7" resolve="Function 2 Create Collection" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1NXbTN" role="1vU5Ow">
+      <property role="TrG5h" value="doc_adder()" />
+      <node concept="3f6AUQ" id="4jS$w1NXclk" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1NXcll" role="3f6BbQ">
+          <property role="3fT77I" value="runs" />
+        </node>
+        <node concept="1hSrFG" id="4jS$w1NXcvF" role="3f6BbQ">
+          <ref role="1hSrFy" node="7C5UPHnZAIT" resolve="Function 3 Document Adder" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1NXjEn" role="1vU5Ow">
+      <property role="TrG5h" value="create_Graph()" />
+    </node>
     <node concept="3zGEss" id="7J16yTfoJ2w" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
       <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
@@ -695,6 +779,14 @@
       <node concept="1fmyMA" id="7J16yTfp0q4" role="1fmyM_">
         <property role="TrG5h" value="graph instance function" />
         <ref role="1fmyMB" node="7J16yTfoYvK" resolve="Function 4: Define Graph" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="4jS$w1NWtFV" role="1fksqA">
+      <node concept="3fT77D" id="4jS$w1NWtJe" role="3f6BbQ">
+        <property role="3fT77I" value="provides" />
+      </node>
+      <node concept="3f6BbC" id="4jS$w1NWtPO" role="3f6BbQ">
+        <ref role="3f6BbD" node="Sv$7iJa8fV" resolve="JSON-File" />
       </node>
     </node>
   </node>
@@ -1161,6 +1253,17 @@
         <ref role="1fmyMB" node="7C5UPHnZAZQ" resolve="Arango Graph" />
       </node>
     </node>
+    <node concept="3f6AUQ" id="4jS$w1NWmlc" role="1fksqA">
+      <node concept="3fT77D" id="4jS$w1NWmrL" role="3f6BbQ">
+        <property role="3fT77I" value="part" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NWm_C" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="4jS$w1NWmZU" role="3f6BbQ">
+        <ref role="1hSrFy" node="Sv$7iJa8fW" resolve="ArangoDB " />
+      </node>
+    </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAYs">
     <property role="TrG5h" value="Collection" />
@@ -1178,6 +1281,26 @@
       <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
     </node>
     <node concept="1fmyMZ" id="7C5UPHnZAYt" role="1fmyMW" />
+    <node concept="3f6AUQ" id="4jS$w1NWnmU" role="1fksqA">
+      <node concept="3fT77D" id="4jS$w1NWnmV" role="3f6BbQ">
+        <property role="3fT77I" value="this" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NWnLe" role="3f6BbQ">
+        <property role="3fT77I" value="component" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NWnYn" role="3f6BbQ">
+        <property role="3fT77I" value="is" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NWnYo" role="3f6BbQ">
+        <property role="3fT77I" value="part" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NWoeO" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="4jS$w1NWoD6" role="3f6BbQ">
+        <ref role="1hSrFy" node="7C5UPHnZAVS" resolve="Arango Database" />
+      </node>
+    </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAZQ">
     <property role="TrG5h" value="Arango Graph" />
@@ -1195,6 +1318,17 @@
       <ref role="3zGEsh" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
     </node>
     <node concept="1fmyMZ" id="7J16yTfp3qh" role="1fmyMW" />
+    <node concept="3f6AUQ" id="4jS$w1NWj2M" role="1fksqA">
+      <node concept="3fT77D" id="4jS$w1NWj2N" role="3f6BbQ">
+        <property role="3fT77I" value="part" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NWj66" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="4jS$w1NWm1u" role="3f6BbQ">
+        <ref role="1hSrFy" node="Sv$7iJa8fW" resolve="ArangoDB " />
+      </node>
+    </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZKQy">
     <property role="TrG5h" value="Engineer" />
@@ -1225,6 +1359,21 @@
     </node>
     <node concept="X_8GT" id="7J16yTfrL6E" role="1vU5Ow">
       <property role="TrG5h" value="A" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NX2_S" role="1vU5Ow">
+      <property role="TrG5h" value="notify" />
+      <node concept="3f6AUQ" id="4jS$w1NX38h" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1NX38i" role="3f6BbQ">
+          <property role="3fT77I" value="notification" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1NX3iB" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1NX3sX" role="3f6BbQ">
+          <property role="3fT77I" value="engineer" />
+          <property role="11DDNk" value="true" />
+        </node>
+      </node>
     </node>
     <node concept="3zGEss" id="7J16yTfnLvQ" role="1fmyMO">
       <property role="TrG5h" value="db_name_input" />
@@ -1362,6 +1511,126 @@
       <property role="TrG5h" value="access to localhost" />
       <ref role="3zGEsh" node="Sv$7iJa8j1" resolve="Arango Connection" />
     </node>
+  </node>
+  <node concept="1Lr20E" id="4jS$w1NWD_0">
+    <property role="TrG5h" value="Export to ArangoDB Procedure" />
+    <node concept="X_bju" id="4jS$w1NWEUZ" role="1LuVN3">
+      <property role="TrG5h" value="Export Node to ArangoDB" />
+      <node concept="1LuVN4" id="4jS$w1NWK8R" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="4jS$w1NWGUl" resolve="Export to ArangoDB.MPS" />
+        <ref role="19Fzs9" node="4jS$w1NWIQi" resolve="Path Input" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NWLDh" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="4jS$w1NWGUl" resolve="Export to ArangoDB.MPS" />
+        <ref role="19Fzs9" node="4jS$w1NWL6R" resolve="click" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1NWNuk" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1NWGUl" resolve="Export to ArangoDB.MPS" />
+        <ref role="19Fzs9" node="4jS$w1NWMiE" resolve="Export" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NWTi8" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" node="4jS$w1NWPWX" resolve="Path Input" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NWTYR" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" node="4jS$w1NWQKy" resolve="Database Name Input" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NWVH5" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" node="4jS$w1NWUTv" resolve="run function" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NWZqJ" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWHSj" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" node="4jS$w1NX042" resolve="Establish Connection" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NX1ts" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWHSj" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" node="4jS$w1NWZxD" resolve="Create Database" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NX3Zn" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" node="4jS$w1NX2_S" resolve="notify" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1NX6PV" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" node="4jS$w1NX5bg" resolve="CollectionControl()" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NX8mv" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWHSj" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" node="4jS$w1NX7O5" resolve="Create Collection" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NX9kF" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" node="4jS$w1NX2_S" resolve="notify" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1NXbjX" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" node="4jS$w1NXbTN" resolve="doc_adder()" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NXfIC" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWGUl" resolve="Export to ArangoDB.MPS" />
+        <ref role="19Fzs9" node="4jS$w1NWXkq" resolve="Read JSON" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NXe0h" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWHSj" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" node="4jS$w1NXafa" resolve="Add Documents" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NXgRb" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" node="4jS$w1NX2_S" resolve="notify" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1NXiQL" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" node="4jS$w1NXjEn" resolve="create_Graph()" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NXktX" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWHSj" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" node="4jS$w1NXi6B" resolve="Create Graph" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NXm8$" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHwc" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" node="4jS$w1NX2_S" resolve="notify" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1NXnyJ" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1NWHSj" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="AfY4e" node="4jS$w1NWFPw" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" node="7C5UPHnZL7_" resolve="showArangoDB" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1NWFPw" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.Engineer" />
+        <ref role="1gfY4O" node="7C5UPHnZKQE" resolve="Engineer" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1NWGUl" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.MPS" />
+        <ref role="1gfY4O" node="25VKDKDBxJ5" resolve="MPS" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1NWHwc" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.Export Application" />
+        <ref role="1gfY4O" node="Sv$7iJa8g6" resolve="Export Application" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1NWHSj" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.ArangoDB" />
+        <ref role="1gfY4O" node="Sv$7iJa8g4" resolve="ArangoDB" />
+      </node>
+      <node concept="3f6AUQ" id="4jS$w1NWEV1" role="X_bjr" />
+    </node>
+    <node concept="3f6AUQ" id="4jS$w1NWD_1" role="1LuVN1" />
   </node>
 </model>
 

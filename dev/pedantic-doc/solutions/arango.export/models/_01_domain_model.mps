@@ -131,14 +131,11 @@
       </node>
       <node concept="3BFnmI" id="Sv$7iJa8yD" role="3BFnmE">
         <node concept="3BFnma" id="Sv$7iJa8$b" role="3BFnmw">
+          <property role="3BFnm2" value="1" />
           <node concept="3f6BbC" id="Sv$7iJa8$c" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8z9" resolve="ArangoDB-Databases" />
           </node>
-          <node concept="3f6AUQ" id="Sv$7iJa8$d" role="ba9K_">
-            <node concept="3fT77D" id="Sv$7iJa8$e" role="3f6BbQ">
-              <property role="3fT77I" value="has" />
-            </node>
-          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa8$d" role="ba9K_" />
         </node>
         <node concept="3f6BbC" id="Sv$7iJa8yH" role="3BFnmH">
           <ref role="3f6BbD" node="Sv$7iJa8yT" resolve="Multi-Model Database System" />
@@ -186,30 +183,20 @@
           <ref role="3f6BbD" node="Sv$7iJa8uW" resolve="Multi Model Database" />
         </node>
         <node concept="3BFnma" id="Sv$7iJa8_o" role="3BFnmw">
-          <property role="3BFnm9" value="1" />
-          <property role="3BFnmf" value="1" />
           <property role="3BFnm2" value="0" />
+          <property role="3BFnm9" value="0" />
           <node concept="3f6BbC" id="Sv$7iJa8_p" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8$y" resolve="Collection" />
           </node>
-          <node concept="3f6AUQ" id="Sv$7iJa8_q" role="ba9K_">
-            <node concept="3fT77D" id="Sv$7iJa8_r" role="3f6BbQ">
-              <property role="3fT77I" value="contains" />
-            </node>
-          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa8_q" role="ba9K_" />
         </node>
         <node concept="3BFnma" id="Sv$7iJa8CP" role="3BFnmw">
-          <property role="3BFnm9" value="1" />
-          <property role="3BFnmf" value="1" />
           <property role="3BFnm2" value="0" />
+          <property role="3BFnm9" value="0" />
           <node concept="3f6BbC" id="Sv$7iJa8CQ" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8_Q" resolve="Graphs" />
           </node>
-          <node concept="3f6AUQ" id="Sv$7iJa8CR" role="ba9K_">
-            <node concept="3fT77D" id="Sv$7iJa8CS" role="3f6BbQ">
-              <property role="3fT77I" value="contains" />
-            </node>
-          </node>
+          <node concept="3f6AUQ" id="Sv$7iJa8CR" role="ba9K_" />
         </node>
       </node>
       <node concept="3f6AUQ" id="Sv$7iJa8MT" role="3jToc2">
@@ -894,37 +881,16 @@
         <property role="TrG5h" value="Graphs" />
       </node>
       <node concept="3BFnmI" id="Sv$7iJa8EM" role="3BFnmE">
-        <node concept="3BFnma" id="Sv$7iJa8EQ" role="3BFnmh">
-          <property role="3BFnm9" value="1" />
-          <property role="3BFnm2" value="1" />
-          <property role="3BFnmf" value="1" />
-          <property role="3BFnm6" value="1" />
-          <node concept="3f6BbC" id="Sv$7iJa8ER" role="3BFnmc">
+        <node concept="3BFnma" id="4jS$w1NWe0H" role="3BFnmw">
+          <property role="3BFnm2" value="0" />
+          <node concept="3f6BbC" id="4jS$w1NWe0I" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8CX" resolve="graph nodes" />
           </node>
-          <node concept="3f6AUQ" id="Sv$7iJa8ES" role="ba9K_">
-            <node concept="3fT77D" id="Sv$7iJa8ET" role="3f6BbQ">
-              <property role="3fT77I" value="consists" />
-            </node>
-            <node concept="3fT77D" id="Sv$7iJa8F3" role="3f6BbQ">
-              <property role="3fT77I" value="of" />
-            </node>
-          </node>
         </node>
-        <node concept="3BFnma" id="Sv$7iJa8EW" role="3BFnmh">
-          <property role="3BFnm9" value="1" />
-          <property role="3BFnmf" value="1" />
+        <node concept="3BFnma" id="4jS$w1NWexz" role="3BFnmw">
           <property role="3BFnm2" value="0" />
-          <node concept="3f6BbC" id="Sv$7iJa8EX" role="3BFnmc">
+          <node concept="3f6BbC" id="4jS$w1NWex$" role="3BFnmc">
             <ref role="3f6BbD" node="Sv$7iJa8DS" resolve="graph edges" />
-          </node>
-          <node concept="3f6AUQ" id="Sv$7iJa8EY" role="ba9K_">
-            <node concept="3fT77D" id="Sv$7iJa8EZ" role="3f6BbQ">
-              <property role="3fT77I" value="consists" />
-            </node>
-            <node concept="3fT77D" id="Sv$7iJa8F4" role="3f6BbQ">
-              <property role="3fT77I" value="of" />
-            </node>
           </node>
         </node>
       </node>
