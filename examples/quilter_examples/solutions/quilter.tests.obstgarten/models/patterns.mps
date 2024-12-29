@@ -50,21 +50,14 @@
         <child id="3193225783737816616" name="boundObject" index="2z7KJ6" />
         <child id="3193225783737816617" name="attrValue" index="2z7KJ7" />
       </concept>
-      <concept id="3193225783733926599" name="quilter.structure.TransferValueRightToLeft_FB" flags="ng" index="2zhasD">
-        <child id="3193225783788000422" name="freeLeft" index="2Y7s_8" />
-        <child id="3193225783788000423" name="boundRight" index="2Y7s_9" />
+      <concept id="3193225783733924301" name="quilter.structure.CheckWithConstant_B" flags="ng" index="2zhaKz">
+        <property id="3214808506368417017" name="checkForNotEquals" index="3IoLuO" />
+        <reference id="3193225783734036255" name="constant" index="2zhnFL" />
+        <child id="3193225783734024584" name="value" index="2zhihA" />
       </concept>
       <concept id="3193225783734161397" name="quilter.structure.AttributeCheck" flags="ng" index="2zhP8r">
         <reference id="3193225783735499882" name="attributeVariable" index="2zva64" />
         <reference id="3193225783735499881" name="objectVariable" index="2zva67" />
-      </concept>
-      <concept id="3193225783734260376" name="quilter.structure.EqualsToValue" flags="ng" index="2zisXQ">
-        <reference id="3193225783797492778" name="left" index="2YzF74" />
-        <reference id="3193225783797492779" name="right" index="2YzF75" />
-      </concept>
-      <concept id="3193225783735496378" name="quilter.structure.AttributeCheckOp_BB" flags="ng" index="2zvbdk">
-        <child id="3193225783735496512" name="boundAttrValue" index="2zvbaI" />
-        <child id="3193225783735496511" name="boundObject" index="2zvbbh" />
       </concept>
       <concept id="4853636992445297461" name="quilter.structure.NegativePatternInvocation_B_Star" flags="ng" index="10fyok">
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
@@ -91,6 +84,11 @@
         <reference id="4995516962152074198" name="value" index="3FOeZz" />
         <child id="8789799326247432989" name="adornedVariable" index="3e2p3R" />
       </concept>
+      <concept id="8789799326247445833" name="quilter.structure.TypedLink_BF" flags="ng" index="3e2sqz">
+        <reference id="2831616614558720038" name="type" index="3l_wLC" />
+        <child id="8789799326247445834" name="source" index="3e2sqw" />
+        <child id="8789799326247445835" name="target" index="3e2sqx" />
+      </concept>
       <concept id="8789799326247358749" name="quilter.structure.AdornedVariable" flags="ng" index="3e2FbR">
         <reference id="8789799326247432950" name="variable" index="3e2p4s" />
       </concept>
@@ -101,9 +99,16 @@
       <concept id="8789799326247353102" name="quilter.structure.Operation" flags="ng" index="3e2Pz$">
         <reference id="4995516962133953191" name="constraint" index="3CfmUi" />
       </concept>
+      <concept id="8789799326246411078" name="quilter.structure.UntypedLinkConstraint" flags="ng" index="3e6jyG">
+        <reference id="8789799326244297586" name="source" index="3eevyo" />
+        <reference id="8789799326244297587" name="target" index="3eevyp" />
+      </concept>
       <concept id="8789799326242967253" name="quilter.structure.CSP" flags="ng" index="3elqOZ">
         <child id="8789799326243232564" name="variables" index="3eirzu" />
         <child id="8789799326242967254" name="constraints" index="3elqOW" />
+      </concept>
+      <concept id="8789799326242958366" name="quilter.structure.TypedLinkConstraint" flags="ng" index="3el$ZO">
+        <reference id="8789799326244297588" name="type" index="3eevyu" />
       </concept>
       <concept id="8789799326242958365" name="quilter.structure.ObjectConstraint" flags="ng" index="3el$ZR">
         <reference id="8789799326243279585" name="type" index="3ein4b" />
@@ -157,6 +162,14 @@
       </concept>
       <concept id="1340109089921471072" name="quilter.structure.Pattern" flags="ng" index="3F$ThX">
         <child id="1340109089921503719" name="objects" index="3F$xvU" />
+      </concept>
+      <concept id="3214808506368341355" name="quilter.structure.NotEqualsExpression" flags="ng" index="3Io7SA">
+        <child id="3214808506368354027" name="rhs" index="3Io2QA" />
+        <child id="3214808506368354026" name="lhs" index="3Io2QB" />
+      </concept>
+      <concept id="3214808506368388922" name="quilter.structure.NotEqualsToConstant" flags="ng" index="3IoahR">
+        <reference id="3214808506368388924" name="variable" index="3IoahL" />
+        <reference id="3214808506368388923" name="constant" index="3IoahQ" />
       </concept>
     </language>
   </registry>
@@ -792,6 +805,33 @@
         </node>
       </node>
     </node>
+    <node concept="3F$ThX" id="2MtiOR34_Eq" role="3F$ThY">
+      <property role="TrG5h" value="NotTheAppleTreeWithoutFruits" />
+      <node concept="3F$xvW" id="2MtiOR34_Ex" role="3F$xvU">
+        <property role="TrG5h" value="tree" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+        <node concept="3F$xvT" id="2MtiOR34_H4" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="2MtiOR34_H3" resolve="fruit" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+        </node>
+        <node concept="3Io7SA" id="2MtiOR34_ED" role="2yiVu7">
+          <node concept="2yiVur" id="2MtiOR34_EI" role="3Io2QB">
+            <ref role="2yff0n" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2y5a45" id="2MtiOR34_ES" role="3Io2QA">
+            <node concept="Xl_RD" id="2MtiOR34_EU" role="2y5a42">
+              <property role="Xl_RC" value="apple tree" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F$xvW" id="2MtiOR34_H3" role="3F$xvU">
+        <property role="TrG5h" value="fruit" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+      </node>
+    </node>
     <node concept="3F$ThX" id="2LgBuUh$tRN" role="3F$ThY">
       <property role="TrG5h" value="NonExistentTree" />
       <node concept="3F$xvW" id="2LgBuUh$tRQ" role="3F$xvU">
@@ -926,197 +966,165 @@
       <node concept="3eKGH1" id="2LgBuUjvLfO" role="3eKGHX">
         <property role="3Fq0gx" value="2" />
         <property role="3eKGHa" value="10" />
-        <ref role="3eKGHL" node="2LgBuUjFBkh" resolve="SegmentWithUniquePosition" />
-        <node concept="3eImRP" id="2LgBuUjYc8g" role="3eKGHR">
-          <node concept="3eJ099" id="2LgBuUjYc8h" role="3eIkDU">
+        <ref role="3eKGHL" node="2MtiOR34_Eq" resolve="NotTheAppleTree" />
+        <node concept="3eImRP" id="2MtiOR34_IA" role="3eKGHR">
+          <node concept="3eJ099" id="2MtiOR34_IB" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />
           </node>
-          <node concept="3eIm8D" id="2LgBuUjYc8i" role="3eInz_">
-            <ref role="3eIm8I" node="2LgBuUjFBkj" resolve="seg" />
+          <node concept="3eIm8D" id="2MtiOR34_IC" role="3eInz_">
+            <ref role="3eIm8I" node="2MtiOR34_Ex" resolve="tree" />
           </node>
-          <node concept="3eImVg" id="2LgBuUjYc8j" role="3eImRb" />
+          <node concept="3eImVg" id="2MtiOR34_ID" role="3eImRb" />
         </node>
-        <node concept="3elqOZ" id="2LgBuUjYc8k" role="3eliY4">
-          <node concept="17UGNt" id="2LgBuUjYc8l" role="3eirzu">
-            <property role="TrG5h" value="seg" />
-            <ref role="17UGNs" node="2LgBuUjFBkj" resolve="seg" />
+        <node concept="3elqOZ" id="2MtiOR34_IE" role="3eliY4">
+          <node concept="17UGNt" id="2MtiOR34_IF" role="3eirzu">
+            <property role="TrG5h" value="tree" />
+            <ref role="17UGNs" node="2MtiOR34_Ex" resolve="tree" />
           </node>
-          <node concept="3el$ZR" id="2LgBuUjYc8m" role="3elqOW">
-            <ref role="3eirzp" node="2LgBuUjYc8l" resolve="seg" />
-            <ref role="3ein4b" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+          <node concept="3el$ZR" id="2MtiOR34_IG" role="3elqOW">
+            <ref role="3eirzp" node="2MtiOR34_IF" resolve="tree" />
+            <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
           </node>
-          <node concept="10gFeO" id="2LgBuUjYc8n" role="3elqOW">
-            <node concept="10hOQP" id="2LgBuUjYc8u" role="10hOQQ">
-              <ref role="10hOQO" node="2LgBuUjFBkj" resolve="seg" />
-              <ref role="10hOQR" node="2LgBuUjYc8t" resolve="seg" />
+          <node concept="2yDkUP" id="2MtiOR34_IH" role="3eirzu">
+            <property role="TrG5h" value="tree.name" />
+            <ref role="2yDkUM" node="2MtiOR34_Ex" resolve="tree" />
+            <ref role="2yDkUN" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2zhP8r" id="2MtiOR34_II" role="3elqOW">
+            <ref role="2zva64" node="2MtiOR34_IH" resolve="tree.name" />
+            <ref role="2zva67" node="2MtiOR34_IF" resolve="tree" />
+          </node>
+          <node concept="3IoahR" id="2MtiOR34_IJ" role="3elqOW">
+            <ref role="3IoahQ" node="2MtiOR34_ES" />
+            <ref role="3IoahL" node="2MtiOR34_IH" resolve="tree.name" />
+          </node>
+          <node concept="10gFeO" id="2MtiOR34_IK" role="3elqOW">
+            <node concept="10hOQP" id="2MtiOR34_IP" role="10hOQQ">
+              <ref role="10hOQO" node="2MtiOR34_Ex" resolve="tree" />
+              <ref role="10hOQR" node="2MtiOR34_IO" resolve="tree" />
             </node>
-            <node concept="3F$ThX" id="2LgBuUjYc8o" role="10zIt8">
-              <property role="TrG5h" value="Forbid_other" />
-              <node concept="3F$xvW" id="2LgBuUjYc8p" role="3F$xvU">
-                <property role="TrG5h" value="other" />
-                <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
-                <node concept="2yiVuq" id="2LgBuUjYc8q" role="2yiVu7">
-                  <node concept="2yiVur" id="2LgBuUjYc8r" role="2yiVun">
-                    <ref role="2yff0n" to="5e0r:7BVCYER3u5_" resolve="position" />
-                  </node>
-                  <node concept="2yiVum" id="2LgBuUjYc8s" role="2yiVuk">
-                    <ref role="2ydWX3" node="2LgBuUjYc8t" resolve="seg" />
-                    <ref role="2yiVd7" to="5e0r:7BVCYER3u5_" resolve="position" />
-                  </node>
+            <node concept="3F$ThX" id="2MtiOR34_IL" role="10zIt8">
+              <property role="TrG5h" value="Forbid_fruit" />
+              <node concept="3F$xvW" id="2MtiOR34_IM" role="3F$xvU">
+                <property role="TrG5h" value="fruit" />
+                <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+              </node>
+              <node concept="3F$xvW" id="2MtiOR34_IO" role="3F$xvU">
+                <property role="TrG5h" value="tree" />
+                <ref role="3F$xdl" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+                <node concept="3F$xvT" id="2MtiOR34_IN" role="3F$xvO">
+                  <property role="TrG5h" value="_" />
+                  <ref role="3F$xdr" node="2MtiOR34_IM" resolve="fruit" />
+                  <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" resolve="fruits" />
                 </node>
               </node>
-              <node concept="3F$xvW" id="2LgBuUjYc8t" role="3F$xvU">
-                <property role="TrG5h" value="seg" />
-                <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
-              </node>
             </node>
           </node>
         </node>
-        <node concept="3e2OTI" id="2LgBuUjYc8E" role="3e3QqN">
-          <property role="3e1rJ9" value="201" />
-          <node concept="3e2qRM" id="2LgBuUjYc8F" role="3e2PzU">
-            <ref role="3CfmUi" node="2LgBuUjYc8m" />
-            <ref role="3FLKAo" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
-            <node concept="3e2p4i" id="2LgBuUjYc8G" role="3e2p3O">
-              <ref role="3e2p4s" node="2LgBuUjYc8l" resolve="seg" />
+        <node concept="3e2OTI" id="2MtiOR34_JH" role="3e3QqN">
+          <property role="3e1rJ9" value="205" />
+          <node concept="3e2qRM" id="2MtiOR34_JI" role="3e2PzU">
+            <ref role="3CfmUi" node="2MtiOR34_IG" />
+            <ref role="3FLKAo" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+            <node concept="3e2p4i" id="2MtiOR34_JJ" role="3e2p3O">
+              <ref role="3e2p4s" node="2MtiOR34_IF" resolve="tree" />
             </node>
           </node>
-          <node concept="10fyok" id="2LgBuUjYc8C" role="3e2PzU">
-            <ref role="3CfmUi" node="2LgBuUjYc8n" />
-            <ref role="10PwzE" node="2LgBuUjYc8n" />
-            <node concept="3eKGH1" id="2LgBuUjYcu2" role="17$R31">
+          <node concept="2z7KJ9" id="2MtiOR34_JK" role="3e2PzU">
+            <ref role="3CfmUi" node="2MtiOR34_II" />
+            <node concept="3e2p4t" id="2MtiOR34_JL" role="2z7KJ6">
+              <ref role="3e2p4s" node="2MtiOR34_IF" resolve="tree" />
+            </node>
+            <node concept="3e2p4i" id="2MtiOR34_JM" role="2z7KJ7">
+              <ref role="3e2p4s" node="2MtiOR34_IH" resolve="tree.name" />
+            </node>
+          </node>
+          <node concept="2zhaKz" id="2MtiOR34_JN" role="3e2PzU">
+            <property role="3IoLuO" value="true" />
+            <ref role="3CfmUi" node="2MtiOR34_IJ" />
+            <ref role="2zhnFL" node="2MtiOR34_ES" />
+            <node concept="3e2p4t" id="2MtiOR34_JO" role="2zhihA">
+              <ref role="3e2p4s" node="2MtiOR34_IH" resolve="tree.name" />
+            </node>
+          </node>
+          <node concept="10fyok" id="2MtiOR34_JE" role="3e2PzU">
+            <ref role="3CfmUi" node="2MtiOR34_IK" />
+            <ref role="10PwzE" node="2MtiOR34_IK" />
+            <node concept="3eKGH1" id="2MtiOR34_NZ" role="17$R31">
               <property role="3eKGHa" value="1" />
               <property role="3Fq0gx" value="2" />
-              <ref role="3eKGHL" node="2LgBuUjYc8o" resolve="Forbid_other" />
-              <node concept="3elqOZ" id="2LgBuUjYcu8" role="3eliY4">
-                <node concept="17UGNt" id="2LgBuUjYcu9" role="3eirzu">
-                  <property role="TrG5h" value="other" />
-                  <ref role="17UGNs" node="2LgBuUjYc8p" resolve="other" />
+              <ref role="3eKGHL" node="2MtiOR34_IL" resolve="Forbid_fruit" />
+              <node concept="3elqOZ" id="2MtiOR34_O6" role="3eliY4">
+                <node concept="17UGNt" id="2MtiOR34_O7" role="3eirzu">
+                  <property role="TrG5h" value="fruit" />
+                  <ref role="17UGNs" node="2MtiOR34_IM" resolve="fruit" />
                 </node>
-                <node concept="3el$ZR" id="2LgBuUjYcua" role="3elqOW">
-                  <ref role="3eirzp" node="2LgBuUjYcu9" resolve="other" />
-                  <ref role="3ein4b" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+                <node concept="3el$ZR" id="2MtiOR34_O8" role="3elqOW">
+                  <ref role="3eirzp" node="2MtiOR34_O7" resolve="fruit" />
+                  <ref role="3ein4b" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
                 </node>
-                <node concept="17UGNt" id="2LgBuUjYcub" role="3eirzu">
-                  <property role="TrG5h" value="seg" />
-                  <ref role="17UGNs" node="2LgBuUjYc8t" resolve="seg" />
+                <node concept="17UGNt" id="2MtiOR34_O9" role="3eirzu">
+                  <property role="TrG5h" value="tree" />
+                  <ref role="17UGNs" node="2MtiOR34_IO" resolve="tree" />
                 </node>
-                <node concept="3el$ZR" id="2LgBuUjYcuc" role="3elqOW">
-                  <ref role="3eirzp" node="2LgBuUjYcub" resolve="seg" />
-                  <ref role="3ein4b" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
+                <node concept="3el$ZR" id="2MtiOR34_Oa" role="3elqOW">
+                  <ref role="3eirzp" node="2MtiOR34_O9" resolve="tree" />
+                  <ref role="3ein4b" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
                 </node>
-                <node concept="2yDkUP" id="2LgBuUjYcud" role="3eirzu">
-                  <property role="TrG5h" value="other.position" />
-                  <ref role="2yDkUM" node="2LgBuUjYc8p" resolve="other" />
-                  <ref role="2yDkUN" to="5e0r:7BVCYER3u5_" resolve="position" />
-                </node>
-                <node concept="2zhP8r" id="2LgBuUjYcue" role="3elqOW">
-                  <ref role="2zva64" node="2LgBuUjYcud" resolve="other.position" />
-                  <ref role="2zva67" node="2LgBuUjYcu9" resolve="other" />
-                </node>
-                <node concept="2yDkUP" id="2LgBuUjYcuf" role="3eirzu">
-                  <property role="TrG5h" value="seg.position" />
-                  <ref role="2yDkUM" node="2LgBuUjYc8t" resolve="seg" />
-                  <ref role="2yDkUN" to="5e0r:7BVCYER3u5_" resolve="position" />
-                </node>
-                <node concept="2zisXQ" id="2LgBuUjYcug" role="3elqOW">
-                  <ref role="2YzF74" node="2LgBuUjYcud" resolve="other.position" />
-                  <ref role="2YzF75" node="2LgBuUjYcuf" resolve="seg.position" />
-                </node>
-                <node concept="2zhP8r" id="2LgBuUjYcuh" role="3elqOW">
-                  <ref role="2zva64" node="2LgBuUjYcuf" resolve="seg.position" />
-                  <ref role="2zva67" node="2LgBuUjYcub" resolve="seg" />
+                <node concept="3el$ZO" id="2MtiOR34_Ob" role="3elqOW">
+                  <ref role="3eevyo" node="2MtiOR34_O9" resolve="tree" />
+                  <ref role="3eevyp" node="2MtiOR34_O7" resolve="fruit" />
+                  <ref role="3eevyu" to="5e0r:7BVCYER1NFx" resolve="fruits" />
                 </node>
               </node>
-              <node concept="3e2OTI" id="2LgBuUjYcyF" role="3e3QqN">
-                <property role="3e1rJ9" value="105" />
-                <node concept="3e2qRN" id="2LgBuUjYcyG" role="3e2PzU">
-                  <ref role="3CfmUi" node="2LgBuUjYcuc" />
-                  <ref role="3FOeZz" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
-                  <node concept="3e2p4t" id="2LgBuUjYcyH" role="3e2p3R">
-                    <ref role="3e2p4s" node="2LgBuUjYcub" resolve="seg" />
+              <node concept="3e2OTI" id="2MtiOR34_Pt" role="3e3QqN">
+                <property role="3e1rJ9" value="22" />
+                <node concept="3e2qRN" id="2MtiOR34_Pu" role="3e2PzU">
+                  <ref role="3CfmUi" node="2MtiOR34_Oa" />
+                  <ref role="3FOeZz" to="5e0r:7BVCYER1N59" resolve="FruitTree" />
+                  <node concept="3e2p4t" id="2MtiOR34_Pv" role="3e2p3R">
+                    <ref role="3e2p4s" node="2MtiOR34_O9" resolve="tree" />
                   </node>
                 </node>
-                <node concept="2z7KJ9" id="2LgBuUjYcyI" role="3e2PzU">
-                  <ref role="3CfmUi" node="2LgBuUjYcuh" />
-                  <node concept="3e2p4t" id="2LgBuUjYcyJ" role="2z7KJ6">
-                    <ref role="3e2p4s" node="2LgBuUjYcub" resolve="seg" />
+                <node concept="3e2sqz" id="2MtiOR34_Pw" role="3e2PzU">
+                  <ref role="3CfmUi" node="2MtiOR34_Ob" />
+                  <ref role="3l_wLC" to="5e0r:7BVCYER1NFx" resolve="fruits" />
+                  <node concept="3e2p4t" id="2MtiOR34_Px" role="3e2sqw">
+                    <ref role="3e2p4s" node="2MtiOR34_O9" resolve="tree" />
                   </node>
-                  <node concept="3e2p4i" id="2LgBuUjYcyK" role="2z7KJ7">
-                    <ref role="3e2p4s" node="2LgBuUjYcuf" resolve="seg.position" />
-                  </node>
-                </node>
-                <node concept="2zhasD" id="2LgBuUjYcyL" role="3e2PzU">
-                  <ref role="3CfmUi" node="2LgBuUjYcug" />
-                  <node concept="3e2p4i" id="2LgBuUjYcyM" role="2Y7s_8">
-                    <ref role="3e2p4s" node="2LgBuUjYcud" resolve="other.position" />
-                  </node>
-                  <node concept="3e2p4t" id="2LgBuUjYcyN" role="2Y7s_9">
-                    <ref role="3e2p4s" node="2LgBuUjYcuf" resolve="seg.position" />
+                  <node concept="3e2p4i" id="2MtiOR34_Py" role="3e2sqx">
+                    <ref role="3e2p4s" node="2MtiOR34_O7" resolve="fruit" />
                   </node>
                 </node>
-                <node concept="3e2qRM" id="2LgBuUjYcyO" role="3e2PzU">
-                  <ref role="3CfmUi" node="2LgBuUjYcua" />
-                  <ref role="3FLKAo" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
-                  <node concept="3e2p4i" id="2LgBuUjYcyP" role="3e2p3O">
-                    <ref role="3e2p4s" node="2LgBuUjYcu9" resolve="other" />
-                  </node>
-                </node>
-                <node concept="2zvbdk" id="2LgBuUjYcy$" role="3e2PzU">
-                  <ref role="3CfmUi" node="2LgBuUjYcue" />
-                  <node concept="3e2p4t" id="2LgBuUjYcy_" role="2zvbbh">
-                    <ref role="3e2p4s" node="2LgBuUjYcu9" resolve="other" />
-                  </node>
-                  <node concept="3e2p4t" id="2LgBuUjYcyA" role="2zvbaI">
-                    <ref role="3e2p4s" node="2LgBuUjYcud" resolve="other.position" />
+                <node concept="3e2qRN" id="2MtiOR34_Pp" role="3e2PzU">
+                  <ref role="3CfmUi" node="2MtiOR34_O8" />
+                  <ref role="3FOeZz" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
+                  <node concept="3e2p4t" id="2MtiOR34_Pq" role="3e2p3R">
+                    <ref role="3e2p4s" node="2MtiOR34_O7" resolve="fruit" />
                   </node>
                 </node>
               </node>
-              <node concept="3eImRa" id="2LgBuUjYczh" role="3eKGHP">
-                <node concept="3eIm8D" id="2LgBuUjYczk" role="3eInz_">
-                  <ref role="3eIm8I" node="2LgBuUjYc8p" resolve="other" />
+              <node concept="3eImRa" id="2MtiOR34_PN" role="3eKGHP">
+                <node concept="3eIm8D" id="2MtiOR34_PO" role="3eInz_">
+                  <ref role="3eIm8I" node="2MtiOR34_IM" resolve="fruit" />
                 </node>
-                <node concept="3eIm8D" id="2LgBuUjYczl" role="3eInz_">
-                  <ref role="3eIm8I" node="2LgBuUjYc8t" resolve="seg" />
+                <node concept="3eIm8D" id="2MtiOR34_PP" role="3eInz_">
+                  <ref role="3eIm8I" node="2MtiOR34_IO" resolve="tree" />
                 </node>
               </node>
-              <node concept="3eImRP" id="2LgBuUjYczm" role="3eKGHR" />
+              <node concept="3eImRP" id="2MtiOR34_PQ" role="3eKGHR" />
             </node>
           </node>
         </node>
-        <node concept="3eImRa" id="2LgBuUjYc8H" role="3eKGHP">
-          <node concept="3eImVg" id="2LgBuUjYczn" role="3eImRb">
-            <ref role="3eB4Im" to="2hdc:7BVCYER3us_" />
+        <node concept="3eImRa" id="2MtiOR34_K0" role="3eKGHP">
+          <node concept="3eImVg" id="2MtiOR34_PR" role="3eImRb">
+            <ref role="3eB4Im" to="2hdc:7BVCYER3u4r" resolve="peach tree" />
           </node>
-          <node concept="3eImVg" id="2LgBuUjYczo" role="3eImRb">
-            <ref role="3eB4Im" to="2hdc:7BVCYER3_HD" />
-          </node>
-          <node concept="3eImVg" id="2LgBuUjYczp" role="3eImRb">
-            <ref role="3eB4Im" to="2hdc:7BVCYER3_HE" />
-          </node>
-          <node concept="3eImVg" id="2LgBuUjYczq" role="3eImRb">
-            <ref role="3eB4Im" to="2hdc:7BVCYER3_HF" />
-          </node>
-          <node concept="3eImVg" id="2LgBuUjYczr" role="3eImRb">
-            <ref role="3eB4Im" to="2hdc:7BVCYER3_HG" />
-          </node>
-          <node concept="3eJ099" id="2LgBuUjYczs" role="3eIkDU">
+          <node concept="3eJ099" id="2MtiOR34_PT" role="3eIkDU">
             <property role="3eJ09e" value="m_0" />
           </node>
-          <node concept="3eJ099" id="2LgBuUjYczt" role="3eIkDU">
-            <property role="3eJ09e" value="m_1" />
-          </node>
-          <node concept="3eJ099" id="2LgBuUjYczu" role="3eIkDU">
-            <property role="3eJ09e" value="m_2" />
-          </node>
-          <node concept="3eJ099" id="2LgBuUjYczv" role="3eIkDU">
-            <property role="3eJ09e" value="m_3" />
-          </node>
-          <node concept="3eJ099" id="2LgBuUjYczw" role="3eIkDU">
-            <property role="3eJ09e" value="m_4" />
-          </node>
-          <node concept="3eIm8D" id="2LgBuUjYczx" role="3eInz_">
-            <ref role="3eIm8I" node="2LgBuUjFBkj" resolve="seg" />
+          <node concept="3eIm8D" id="2MtiOR34_PU" role="3eInz_">
+            <ref role="3eIm8I" node="2MtiOR34_Ex" resolve="tree" />
           </node>
         </node>
       </node>

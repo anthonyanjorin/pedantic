@@ -1085,5 +1085,33 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="2MtiOR3dbOL">
+    <property role="3GE5qa" value="patterns.attributes.values" />
+    <ref role="1M2myG" to="uyb6:2MtiOR35MfB" resolve="EnumConstant" />
+    <node concept="1N5Pfh" id="2MtiOR3dbOM" role="1Mr941">
+      <ref role="1N5Vy1" to="uyb6:2MtiOR39Wm9" />
+      <node concept="3dgokm" id="2MtiOR3dbS2" role="1N6uqs">
+        <node concept="3clFbS" id="2MtiOR3dbS3" role="2VODD2">
+          <node concept="3clFbF" id="2MtiOR3deAG" role="3cqZAp">
+            <node concept="2YIFZM" id="2MtiOR3deDQ" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="2MtiOR3ddx2" role="37wK5m">
+                <node concept="2OqwBi" id="2MtiOR3dcH3" role="2Oq$k0">
+                  <node concept="3kakTB" id="2MtiOR3dcu5" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2MtiOR3dcW7" role="2OqNvi">
+                    <ref role="3Tt5mk" to="uyb6:2MtiOR39Wm8" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="2MtiOR3ddUz" role="2OqNvi">
+                  <ref role="3TtcxE" to="tpce:2TR3acGo7N1" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

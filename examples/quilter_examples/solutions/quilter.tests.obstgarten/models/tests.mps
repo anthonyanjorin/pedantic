@@ -1175,7 +1175,7 @@
           <property role="3eKfJL" value="1" />
           <ref role="3eKGHL" to="j64v:2LgBuUcWYuS" resolve="NoSecondBasket" />
           <node concept="3xLA65" id="2LgBuUdM4cH" role="lGtFl">
-            <property role="TrG5h" value="p10" />
+            <property role="TrG5h" value="q0" />
           </node>
           <node concept="3eImRP" id="2LgBuUdM4c0" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUdM4c1" role="3eIkDU">
@@ -1225,7 +1225,7 @@
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" to="j64v:2LgBuUdM3YR" resolve="NoSecondFruit" />
           <node concept="3xLA65" id="2LgBuUdM4du" role="lGtFl">
-            <property role="TrG5h" value="p11" />
+            <property role="TrG5h" value="q1" />
           </node>
           <node concept="3eImRP" id="2LgBuUdM4cL" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUdM4cM" role="3eIkDU">
@@ -1323,7 +1323,7 @@
           <property role="3eKfJL" value="2" />
           <ref role="3eKGHL" to="j64v:4dr_i41bmcP" resolve="FruitNotOnATree1" />
           <node concept="3xLA65" id="4dr_i41puFx" role="lGtFl">
-            <property role="TrG5h" value="p12" />
+            <property role="TrG5h" value="q20" />
           </node>
           <node concept="3eImRP" id="2LgBuUk9nf7" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUk9nf8" role="3eIkDU">
@@ -1447,7 +1447,7 @@
           <property role="3eKfJL" value="2" />
           <ref role="3eKGHL" to="j64v:4dr_i41pr9e" resolve="FruitNotOnATree2" />
           <node concept="3xLA65" id="4dr_i41puFT" role="lGtFl">
-            <property role="TrG5h" value="p13" />
+            <property role="TrG5h" value="q21" />
           </node>
           <node concept="3eImRP" id="5FhyU6qouop" role="3eKGHR">
             <node concept="3eJ099" id="5FhyU6qouoq" role="3eIkDU">
@@ -1571,7 +1571,7 @@
           <property role="3eKfJL" value="2" />
           <ref role="3eKGHL" to="j64v:4dr_i41praI" resolve="FruitNotOnATree3" />
           <node concept="3xLA65" id="4dr_i41puGO" role="lGtFl">
-            <property role="TrG5h" value="p14" />
+            <property role="TrG5h" value="q23" />
           </node>
           <node concept="3eImRP" id="4dr_i41puGP" role="3eKGHR">
             <node concept="3eJ099" id="4dr_i41puGQ" role="3eIkDU">
@@ -1634,7 +1634,7 @@
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" to="j64v:4dr_i41r046" resolve="FruitTreeWithOnlyOneFruit" />
           <node concept="3xLA65" id="4dr_i41CL9b" role="lGtFl">
-            <property role="TrG5h" value="p15" />
+            <property role="TrG5h" value="q30" />
           </node>
           <node concept="3eImRP" id="5FhyU6qtnUK" role="3eKGHR">
             <node concept="3eJ099" id="5FhyU6qtnUL" role="3eIkDU">
@@ -1731,7 +1731,7 @@
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" to="j64v:4dr_i41CIjM" resolve="FruitTreeWithOnlyTwoFruits" />
           <node concept="3xLA65" id="4dr_i41CLe$" role="lGtFl">
-            <property role="TrG5h" value="p16" />
+            <property role="TrG5h" value="q31" />
           </node>
           <node concept="3eImRP" id="4dr_i41CLe_" role="3eKGHR">
             <node concept="3eJ099" id="4dr_i41CLeA" role="3eIkDU">
@@ -1860,7 +1860,7 @@
           <property role="3eKfJL" value="5" />
           <ref role="3eKGHL" to="j64v:4dr_i42jQXv" resolve="NoRavenOnSegment" />
           <node concept="3xLA65" id="4dr_i42jRTT" role="lGtFl">
-            <property role="TrG5h" value="p17" />
+            <property role="TrG5h" value="q40" />
           </node>
           <node concept="3eImRP" id="4dr_i42jRTU" role="3eKGHR">
             <node concept="3eJ099" id="4dr_i42jRTV" role="3eIkDU">
@@ -1923,7 +1923,7 @@
           <property role="3eKfJL" value="5" />
           <ref role="3eKGHL" to="j64v:4dr_i42h8xQ" resolve="NoBasketConnectedToFruit" />
           <node concept="3xLA65" id="4dr_i42jRUj" role="lGtFl">
-            <property role="TrG5h" value="p18" />
+            <property role="TrG5h" value="q41" />
           </node>
           <node concept="3eImRP" id="4dr_i42jRUk" role="3eKGHR">
             <node concept="3eJ099" id="4dr_i42jRUl" role="3eIkDU">
@@ -1985,7 +1985,7 @@
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" to="j64v:4dr_i42ma$n" resolve="NoOtherOrchard" />
           <node concept="3xLA65" id="4dr_i42nThC" role="lGtFl">
-            <property role="TrG5h" value="p19" />
+            <property role="TrG5h" value="q5" />
           </node>
           <node concept="3eImRP" id="2LgBuUhJ$bC" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUhJ$bD" role="3eIkDU">
@@ -2080,7 +2080,7 @@
           <property role="3eKfJL" value="1" />
           <ref role="3eKGHL" to="j64v:4dr_i45294o" resolve="NoRavenAsNextMoveInOrchard" />
           <node concept="3xLA65" id="4dr_i4529rg" role="lGtFl">
-            <property role="TrG5h" value="p20" />
+            <property role="TrG5h" value="q6" />
           </node>
           <node concept="3eImRP" id="4dr_i4529rh" role="3eKGHR">
             <node concept="3eJ099" id="4dr_i4529ri" role="3eIkDU">
@@ -2300,7 +2300,7 @@
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:5FhyU6qtAXs" resolve="FruitsNotOnFruitTreeWithFruit" />
           <node concept="3xLA65" id="5FhyU6q_G8q" role="lGtFl">
-            <property role="TrG5h" value="p21" />
+            <property role="TrG5h" value="q7" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUh$tR1" role="3eKGHX">
@@ -2308,7 +2308,7 @@
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" to="j64v:2LgBuUepQX8" resolve="TwoSegmentsWithSameNr" />
           <node concept="3xLA65" id="2LgBuUh$tR3" role="lGtFl">
-            <property role="TrG5h" value="p22" />
+            <property role="TrG5h" value="q80" />
           </node>
           <node concept="3eImRP" id="2LgBuUjdW8P" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUjdW8Q" role="3eIkDU">
@@ -2412,7 +2412,7 @@
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUgDT8G" resolve="SegmentWithSpecificNumber" />
           <node concept="3xLA65" id="2LgBuUh$tR7" role="lGtFl">
-            <property role="TrG5h" value="p23" />
+            <property role="TrG5h" value="q90" />
           </node>
           <node concept="3eImRP" id="2LgBuUiaK0C" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUiaK0D" role="3eIkDU">
@@ -2477,14 +2477,14 @@
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUhsgHe" resolve="TheAppleTree" />
           <node concept="3xLA65" id="2LgBuUh$tRb" role="lGtFl">
-            <property role="TrG5h" value="p24" />
+            <property role="TrG5h" value="p91" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUh$tRd" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUhsgGQ" resolve="RavenOnSecondSegment" />
           <node concept="3xLA65" id="2LgBuUh$tRf" role="lGtFl">
-            <property role="TrG5h" value="p25" />
+            <property role="TrG5h" value="q92" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUh$tRh" role="3eKGHX">
@@ -2492,7 +2492,7 @@
           <property role="3eKfJL" value="0" />
           <ref role="3eKGHL" to="j64v:7BVCYER4n5e" resolve="RavenOnLastSegment" />
           <node concept="3xLA65" id="2LgBuUh$tRj" role="lGtFl">
-            <property role="TrG5h" value="p26" />
+            <property role="TrG5h" value="q93" />
           </node>
           <node concept="3eImRP" id="2LgBuUif$81" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUif$82" role="3eIkDU">
@@ -2674,28 +2674,28 @@
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUh$tRN" resolve="NonExistentTree" />
           <node concept="3xLA65" id="2LgBuUh$tS7" role="lGtFl">
-            <property role="TrG5h" value="p27" />
+            <property role="TrG5h" value="q94" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUh$tS9" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUh$tRl" resolve="TwoTreesWithSameName" />
           <node concept="3xLA65" id="2LgBuUh$tSb" role="lGtFl">
-            <property role="TrG5h" value="p28" />
+            <property role="TrG5h" value="q81" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUjh03y" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUjgZbC" resolve="NoSixthSegment" />
           <node concept="3xLA65" id="2LgBuUjh03$" role="lGtFl">
-            <property role="TrG5h" value="p29" />
+            <property role="TrG5h" value="r00" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUjvcRU" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <ref role="3eKGHL" to="j64v:2LgBuUjva8W" resolve="NoFirstSegment" />
           <node concept="3xLA65" id="2LgBuUjvcRW" role="lGtFl">
-            <property role="TrG5h" value="p30" />
+            <property role="TrG5h" value="r01" />
           </node>
         </node>
         <node concept="3eKGHs" id="2LgBuUjYmOY" role="3eKGHX">
@@ -2703,7 +2703,7 @@
           <property role="3eKfJL" value="5" />
           <ref role="3eKGHL" to="j64v:2LgBuUjFBkh" resolve="SegmentWithUniquePosition" />
           <node concept="3xLA65" id="2LgBuUjYmPt" role="lGtFl">
-            <property role="TrG5h" value="p31" />
+            <property role="TrG5h" value="r02" />
           </node>
           <node concept="3eImRP" id="2LgBuUk9zn8" role="3eKGHR">
             <node concept="3eJ099" id="2LgBuUk9zn9" role="3eIkDU">
@@ -2861,6 +2861,13 @@
                 <node concept="3eImRP" id="2LgBuUk9zMe" role="3eKGHR" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="2MtiOR34A8p" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <ref role="3eKGHL" to="j64v:2MtiOR34_Eq" resolve="NotTheAppleTreeWithoutFruits" />
+          <node concept="3xLA65" id="2MtiOR34A8r" role="lGtFl">
+            <property role="TrG5h" value="r10" />
           </node>
         </node>
       </node>
@@ -3403,6 +3410,25 @@
           </node>
           <node concept="3cmrfG" id="2LgBuUk9zRV" role="3tpDZB">
             <property role="3cmrfH" value="5" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="2MtiOR34A8J" role="1SL9yI">
+      <property role="TrG5h" value="notEquals" />
+      <node concept="3cqZAl" id="2MtiOR34A8K" role="3clF45" />
+      <node concept="3clFbS" id="2MtiOR34A8O" role="3clF47">
+        <node concept="3vlDli" id="2MtiOR34A9G" role="3cqZAp">
+          <node concept="3cmrfG" id="2MtiOR34Aak" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="2MtiOR34YSW" role="3tpDZA">
+            <node concept="3xONca" id="2MtiOR34A9Z" role="2Oq$k0">
+              <ref role="3xOPvv" node="2MtiOR34A8r" resolve="p32" />
+            </node>
+            <node concept="2qgKlT" id="2MtiOR34Z5C" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
+            </node>
           </node>
         </node>
       </node>
