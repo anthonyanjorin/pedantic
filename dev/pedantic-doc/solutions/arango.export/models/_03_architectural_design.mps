@@ -133,19 +133,19 @@
         <ref role="3zGEsl" node="4jS$w1NVDXO" resolve="JSON" />
       </node>
       <node concept="1fmyMA" id="25VKDKDBxJ5" role="1fmyM_">
-        <property role="TrG5h" value="i1_mps" />
+        <property role="TrG5h" value="MPS" />
         <ref role="1fmyMB" node="25VKDKDBxJa" resolve="MPS" />
       </node>
       <node concept="1fmyMA" id="Sv$7iJa8g4" role="1fmyM_">
-        <property role="TrG5h" value="i3_arangodb" />
+        <property role="TrG5h" value="ArangoDB" />
         <ref role="1fmyMB" node="Sv$7iJa8fW" resolve="ArangoDB Component" />
       </node>
       <node concept="1fmyMA" id="Sv$7iJa8g6" role="1fmyM_">
-        <property role="TrG5h" value="i4_python" />
+        <property role="TrG5h" value="Export Application" />
         <ref role="1fmyMB" node="Sv$7iJa8fX" resolve="Python Script" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZKQE" role="1fmyM_">
-        <property role="TrG5h" value="i13_Engineer" />
+        <property role="TrG5h" value="Engineer" />
         <ref role="1fmyMB" node="7C5UPHnZKQy" resolve="Client" />
       </node>
     </node>
