@@ -18,6 +18,9 @@
         <child id="8987473119584018422" name="messages" index="X_bjp" />
         <child id="8987473119584018420" name="description" index="X_bjr" />
       </concept>
+      <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
+        <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
@@ -73,7 +76,7 @@
     </language>
   </registry>
   <node concept="1Lr20E" id="7C5UPHnZB9k">
-    <property role="TrG5h" value="Activation of Arango Container (Deployment)" />
+    <property role="TrG5h" value="Activation of Arango Container - Deployment" />
     <property role="3GE5qa" value="Docker Deployment - Test Design" />
     <node concept="X_bju" id="7J16yTfoa2W" role="1LuVN3">
       <property role="TrG5h" value="Run Arango Container " />
@@ -443,20 +446,10 @@
         <ref role="AfY4e" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
         <ref role="19Fzs9" to="aamg:7J16yTfryIG" resolve="run" />
       </node>
-      <node concept="1LuVN4" id="7J16yTfrwA$" role="X_bjp">
-        <ref role="AfY4h" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
-        <ref role="AfY4e" node="7J16yTfrrpQ" resolve="Read JSON from Path.Path A" />
-        <ref role="19Fzs9" to="aamg:7J16yTfrpMb" resolve="readJSON" />
-      </node>
       <node concept="1LuVN4" id="7J16yTfrCTe" role="X_bjp">
         <ref role="AfY4h" node="7J16yTfrhth" resolve="Read JSON from Path.TestEngineer2" />
         <ref role="AfY4e" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
         <ref role="19Fzs9" to="aamg:7J16yTfrtQQ" resolve="input: &quot;Path B&quot;" />
-      </node>
-      <node concept="1LuVN4" id="7J16yTfrD9d" role="X_bjp">
-        <ref role="AfY4h" node="7J16yTfrnll" resolve="Read JSON from Path.test_script" />
-        <ref role="AfY4e" node="7J16yTfrrWr" resolve="Read JSON from Path.Path B" />
-        <ref role="19Fzs9" to="aamg:7J16yTfrpMb" resolve="readJSON" />
       </node>
       <node concept="3f6AUQ" id="7J16yTfqM7K" role="X_bjr" />
       <node concept="1gfTUo" id="7J16yTfrhth" role="AfY4v">
@@ -545,18 +538,6 @@
         <ref role="3zGEs9" to="aamg:7J16yTfnLvQ" resolve="db_name_input" />
         <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
         <ref role="3zGEsl" to="aamg:7J16yTfoJ2w" resolve="db_name" />
-      </node>
-      <node concept="1fmyMC" id="7J16yTfrfEn" role="1fmyMH">
-        <ref role="1fmyM0" node="7J16yTfrdvV" resolve="Path A" />
-        <ref role="3zGEs9" to="aamg:7C5UPHnZAFr" resolve="json_for_py" />
-        <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
-        <ref role="3zGEsl" to="aamg:7J16yTfoLpK" resolve="read_json" />
-      </node>
-      <node concept="1fmyMC" id="7J16yTfrgf$" role="1fmyMH">
-        <ref role="1fmyM0" node="7J16yTfrdPc" resolve="Path B" />
-        <ref role="3zGEs9" to="aamg:7C5UPHnZAFr" resolve="json_for_py" />
-        <ref role="1fmyM6" node="7J16yTfrdiC" resolve="test_script" />
-        <ref role="3zGEsl" to="aamg:7J16yTfoLpK" resolve="read_json" />
       </node>
       <node concept="1fmyMA" id="7J16yTfrd01" role="1fmyM_">
         <property role="TrG5h" value="TestEngineer2" />
@@ -697,6 +678,7 @@
         </node>
         <node concept="3fT77D" id="7J16yTfs62z" role="3f6BbQ">
           <property role="3fT77I" value="parameters" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3f6BbF" id="7J16yTfs6ay" role="3f6BbQ">
           <property role="3fT77I" value="." />

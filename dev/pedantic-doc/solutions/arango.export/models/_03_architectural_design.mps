@@ -90,18 +90,6 @@
   <node concept="1fmyMM" id="25VKDKDBxJ2">
     <property role="TrG5h" value="Export to ArangoDB" />
     <node concept="1fmyMZ" id="25VKDKDBxJ3" role="1fmyMW">
-      <node concept="1fmyMC" id="Sv$7iJa8g5" role="1fmyMH">
-        <ref role="1fmyM0" node="25VKDKDBxJ5" resolve="i1_mps" />
-        <ref role="1fmyM6" node="7C5UPHnZAFp" resolve="i6_path" />
-        <ref role="3zGEsl" node="7C5UPHnZAF4" resolve="json" />
-        <ref role="3zGEs9" node="7J16yTfoCvs" resolve="JSON" />
-      </node>
-      <node concept="1fmyMC" id="7C5UPHnZAFq" role="1fmyMH">
-        <ref role="1fmyM0" node="7C5UPHnZAFp" resolve="i6_path" />
-        <ref role="3zGEs9" node="7C5UPHnZAFr" resolve="json_for_py" />
-        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
-        <ref role="3zGEsl" node="7J16yTfoLpK" resolve="read_json" />
-      </node>
       <node concept="1fmyMC" id="7C5UPHnZAJK" role="1fmyMH">
         <ref role="1fmyM0" node="Sv$7iJa8g6" resolve="i4_python" />
         <ref role="3zGEs9" node="7J16yTfoKJf" resolve="json_arango" />
@@ -132,6 +120,18 @@
         <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
         <ref role="3zGEsl" node="7J16yTfpeiA" resolve="path input" />
       </node>
+      <node concept="1fmyMC" id="4jS$w1NVz$X" role="1fmyMH">
+        <ref role="1fmyM0" node="Sv$7iJa8g4" resolve="i3_arangodb" />
+        <ref role="3zGEs9" node="4jS$w1NVysK" resolve="Arango Browser" />
+        <ref role="1fmyM6" node="7C5UPHnZKQE" resolve="i13_Engineer" />
+        <ref role="3zGEsl" node="4jS$w1NVwiS" resolve="ArangoBrowserUI" />
+      </node>
+      <node concept="1fmyMC" id="4jS$w1NVFwL" role="1fmyMH">
+        <ref role="1fmyM0" node="25VKDKDBxJ5" resolve="i1_mps" />
+        <ref role="3zGEs9" node="7J16yTfoCvs" resolve="JSON" />
+        <ref role="1fmyM6" node="Sv$7iJa8g6" resolve="i4_python" />
+        <ref role="3zGEsl" node="4jS$w1NVDXO" resolve="JSON" />
+      </node>
       <node concept="1fmyMA" id="25VKDKDBxJ5" role="1fmyM_">
         <property role="TrG5h" value="i1_mps" />
         <ref role="1fmyMB" node="25VKDKDBxJa" resolve="MPS" />
@@ -143,10 +143,6 @@
       <node concept="1fmyMA" id="Sv$7iJa8g6" role="1fmyM_">
         <property role="TrG5h" value="i4_python" />
         <ref role="1fmyMB" node="Sv$7iJa8fX" resolve="Python Script" />
-      </node>
-      <node concept="1fmyMA" id="7C5UPHnZAFp" role="1fmyM_">
-        <property role="TrG5h" value="i6_path" />
-        <ref role="1fmyMB" node="7C5UPHnZAEE" resolve="Path" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZKQE" role="1fmyM_">
         <property role="TrG5h" value="i13_Engineer" />
@@ -355,6 +351,12 @@
         <property role="TrG5h" value="Browser Interaction" />
       </node>
     </node>
+    <node concept="3f6AUY" id="4jS$w1NVwUh" role="3f6AUZ">
+      <node concept="3f6AUQ" id="4jS$w1NVwUi" role="3f6AUE" />
+      <node concept="3f6AUX" id="4jS$w1NVwUj" role="3f6AUK">
+        <property role="TrG5h" value="ArangoDB Web UI" />
+      </node>
+    </node>
     <node concept="3f6AUY" id="7C5UPHnZL5A" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZL5B" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZL5C" role="3f6AUK">
@@ -474,6 +476,10 @@
   <node concept="1fmyL8" id="Sv$7iJa8fW">
     <property role="TrG5h" value="ArangoDB " />
     <property role="3GE5qa" value="ArangoDB Components" />
+    <node concept="3zGEss" id="4jS$w1NVysK" role="1fmyMO">
+      <property role="TrG5h" value="Arango Web-Browser" />
+      <ref role="3zGEsh" node="4jS$w1NVwUj" resolve="ArangoDB Web UI" />
+    </node>
     <node concept="3zGEss" id="7J16yTfoUzA" role="1fmyMU">
       <property role="TrG5h" value="document_input" />
       <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
@@ -608,13 +614,13 @@
       <property role="TrG5h" value="db_name" />
       <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
     </node>
-    <node concept="3zGEss" id="7J16yTfoLpK" role="1fmyMU">
-      <property role="TrG5h" value="read_json" />
-      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
-    </node>
     <node concept="3zGEss" id="7J16yTfpeiA" role="1fmyMU">
       <property role="TrG5h" value="path input" />
       <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NVDXO" role="1fmyMU">
+      <property role="TrG5h" value="JSON" />
+      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7J16yTfoKJf" role="1fmyMO">
       <property role="TrG5h" value="json_arango" />
@@ -664,15 +670,15 @@
         <ref role="3zGEs1" node="7J16yTfnL1P" resolve="db_name" />
         <ref role="3zGEs2" node="7J16yTfoJ2w" resolve="db_name" />
       </node>
-      <node concept="1fmyMk" id="7J16yTfoLFh" role="1e2t$0">
-        <ref role="1fmyMv" node="7C5UPHnZB7n" resolve="add_document function" />
-        <ref role="3zGEs1" node="7C5UPHnZAIU" resolve="read_json" />
-        <ref role="3zGEs2" node="7J16yTfoLpK" resolve="read_json" />
-      </node>
       <node concept="1fmyMk" id="7J16yTfpdMH" role="1e2t$0">
         <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
         <ref role="3zGEs1" node="7J16yTfnOsn" resolve="path input" />
         <ref role="3zGEs2" node="7J16yTfpeiA" resolve="path input" />
+      </node>
+      <node concept="1fmyMk" id="4jS$w1NVErn" role="1e2t$0">
+        <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs1" node="4jS$w1NVBhH" resolve="JSON" />
+        <ref role="3zGEs2" node="4jS$w1NVDXO" resolve="JSON" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZAG9" role="1fmyM_">
         <property role="TrG5h" value="create_db function" />
@@ -701,12 +707,15 @@
       <node concept="3f6AUQ" id="7J16yTfmCQm" role="1bdd_s">
         <node concept="3fT77D" id="7J16yTfmDmW" role="3f6BbQ">
           <property role="3fT77I" value="export" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfmDmX" role="3f6BbQ">
           <property role="3fT77I" value="JSON" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfmD5p" role="3f6BbQ">
           <property role="3fT77I" value="documents" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfmDaq" role="3f6BbQ">
           <property role="3fT77I" value="to" />
@@ -966,6 +975,10 @@
       <property role="TrG5h" value="path input" />
       <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
     </node>
+    <node concept="3zGEss" id="4jS$w1NVBhH" role="1fmyMU">
+      <property role="TrG5h" value="JSON" />
+      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
     <node concept="3zGEss" id="7J16yTfnF9J" role="1fmyMO">
       <property role="TrG5h" value="db_name forward" />
       <ref role="3zGEsh" node="7J16yTfnFJj" resolve="DB Name" />
@@ -977,6 +990,7 @@
     <node concept="3f6AUQ" id="7C5UPHnZAGc" role="1fksqA">
       <node concept="3fT77D" id="7C5UPHnZAGd" role="3f6BbQ">
         <property role="3fT77I" value="Function" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3fT77D" id="7C5UPHnZAGe" role="3f6BbQ">
         <property role="3fT77I" value="in" />
@@ -1019,6 +1033,7 @@
     <node concept="3f6AUQ" id="7C5UPHnZAI8" role="1fksqA">
       <node concept="3fT77D" id="7C5UPHnZAIc" role="3f6BbQ">
         <property role="3fT77I" value="Function" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3fT77D" id="7C5UPHnZAId" role="3f6BbQ">
         <property role="3fT77I" value="in" />
@@ -1051,10 +1066,6 @@
     <property role="3GE5qa" value="Python Components" />
     <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
       <property role="TrG5h" value="json_arango" />
-      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
-    </node>
-    <node concept="3zGEss" id="7C5UPHnZAIU" role="1fmyMU">
-      <property role="TrG5h" value="read_json" />
       <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7J16yTfnPTU" role="1fmyMU">
@@ -1189,6 +1200,10 @@
     <property role="TrG5h" value="Engineer" />
     <property role="3GE5qa" value="Other Components" />
     <property role="1d4xR7" value="true" />
+    <node concept="3zGEss" id="4jS$w1NVwiS" role="1fmyMU">
+      <property role="TrG5h" value="ArangoBrowserUI" />
+      <ref role="3zGEsh" node="4jS$w1NVwUj" resolve="ArangoDB Web UI" />
+    </node>
     <node concept="X_8GT" id="7C5UPHnZL2H" role="1vU5Ow">
       <property role="TrG5h" value="show" />
       <node concept="3f6AUQ" id="7C5UPHnZL4K" role="$d$W1">
