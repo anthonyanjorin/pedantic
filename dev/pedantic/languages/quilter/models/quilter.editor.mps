@@ -292,40 +292,35 @@
       <node concept="3F0A7n" id="1ap1xRT35v2" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="1ap1xRT35v3" role="3EZMnx">
-        <property role="3F0ifm" value="{" />
-        <node concept="3mYdg7" id="1ap1xRT35v4" role="3F10Kt">
-          <property role="1413C4" value="body-brace" />
-        </node>
-        <node concept="ljvvj" id="1ap1xRT35v5" role="3F10Kt" />
-      </node>
       <node concept="3EZMnI" id="1ap1xRT35v6" role="3EZMnx">
         <property role="S$Qs1" value="true" />
         <property role="3EXrWe" value="true" />
-        <node concept="l2Vlx" id="1ap1xRT35v7" role="2iSdaV" />
-        <node concept="lj46D" id="1ap1xRT35v8" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0ifn" id="2MtiOR4I$54" role="3EZMnx">
+          <property role="3F0ifm" value="{" />
+          <node concept="ljvvj" id="2MtiOR4I$56" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3mYdg7" id="2MtiOR4Npiy" role="3F10Kt">
+            <property role="1413C4" value="body-brace" />
+          </node>
         </node>
+        <node concept="l2Vlx" id="1ap1xRT35v7" role="2iSdaV" />
         <node concept="3F2HdR" id="1ap1xRT35vd" role="3EZMnx">
           <ref role="1NtTu8" to="uyb6:1ap1xRT2L7B" resolve="objects" />
           <node concept="l2Vlx" id="1ap1xRT35ve" role="2czzBx" />
           <node concept="pj6Ft" id="1ap1xRT35vf" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="lj46D" id="1ap1xRT35vg" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1ap1xRT35vh" role="3F10Kt">
+          <node concept="lj46D" id="2MtiOR4LLlq" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="1ap1xRT35vi" role="3EZMnx">
-        <property role="3F0ifm" value="}" />
-        <node concept="3mYdg7" id="1ap1xRT35vj" role="3F10Kt">
-          <property role="1413C4" value="body-brace" />
+        <node concept="3F0ifn" id="2MtiOR4I$5f" role="3EZMnx">
+          <property role="3F0ifm" value="}" />
+          <node concept="3mYdg7" id="2MtiOR4Npi$" role="3F10Kt">
+            <property role="1413C4" value="body-brace" />
+          </node>
         </node>
-        <node concept="pVoyu" id="2tbV4VObW2o" role="3F10Kt" />
       </node>
     </node>
   </node>

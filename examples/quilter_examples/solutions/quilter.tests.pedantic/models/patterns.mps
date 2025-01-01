@@ -128,6 +128,15 @@
         <ref role="3F$xdl" to="uyb6:1ap1xRT2D9w" resolve="Pattern" />
       </node>
     </node>
+    <node concept="3F$ThX" id="2MtiOR4AwjM" role="3F$ThY">
+      <property role="TrG5h" value="Foo" />
+      <node concept="3F$xvW" id="2MtiOR4GXsq" role="3F$xvU">
+        <property role="TrG5h" value="_" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="2MtiOR4GXso" role="3F$ThY">
+      <property role="TrG5h" value="Bar" />
+    </node>
   </node>
 </model>
 
