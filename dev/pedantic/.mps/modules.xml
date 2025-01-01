@@ -8,10 +8,12 @@
       <modulePath path="$PROJECT_DIR$/languages/quilter/quilter.mpl" folder="quilter" />
       <modulePath path="$PROJECT_DIR$/solutions/pedantic.build/pedantic.build.msd" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/solutions/plantuml.plugin/plantuml.plugin.msd" folder="plantuml" />
-      <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.obstgarten/quilter.examples.obstgarten.mpl" folder="quilter.examples" />
+      <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.obstgarten/quilter.examples.obstgarten.mpl" folder="quilter.examples.obstgarten" />
+      <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.she_remembered_caterpillars/quilter.examples.she_remembered_caterpillars.mpl" folder="quilter.examples.she_remembered_caterpillars" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" folder="quilter.examples.sokoban" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" folder="quilter.examples.obstgarten" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/quilter.tests.pedantic/quilter.tests.pedantic.msd" folder="quilter.examples.pedantic" />
+      <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/quilter.tests.she_remembered_caterpillars/quilter.tests.she_remembered_caterpillars.msd" folder="quilter.examples.she_remembered_caterpillars" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/solutions/quilter.tests.sokoban/quilter.tests.sokoban.msd" folder="quilter.examples.sokoban" />
     </projectModules>
   </component>

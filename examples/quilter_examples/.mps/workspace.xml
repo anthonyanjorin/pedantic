@@ -29,22 +29,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a2c6e7-d328-4ef2-874d-201f7cb28893" name="Changes" comment="Added Obstgarten example">
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/generator/templates/quilter.examples.obstgarten.generator.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.obstgarten/models/quilter.examples.obstgarten.typesystem.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/Obstgarten.mpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/generator/templates/Obstgarten.generator.templates@generator.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.behavior.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.constraints.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.editor.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.structure.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Obstgarten/models/Obstgarten.typesystem.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/patterns.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/patterns.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/tests.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/models/tests.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/generator/templates/quilter.examples.she_remembered_caterpillars.generator.templates@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/models/quilter.examples.she_remembered_caterpillars.behavior.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/models/quilter.examples.she_remembered_caterpillars.constraints.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/models/quilter.examples.she_remembered_caterpillars.editor.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/models/quilter.examples.she_remembered_caterpillars.structure.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/models/quilter.examples.she_remembered_caterpillars.typesystem.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/quilter.examples.she_remembered_caterpillars.mpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.she_remembered_caterpillars/models/models.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.she_remembered_caterpillars/models/patterns.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.she_remembered_caterpillars/models/tests.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/quilter.tests.she_remembered_caterpillars/quilter.tests.she_remembered_caterpillars.msd" afterDir="false" />
+      <change beforePath="$project_home$/languages/quilter/models/quilter.typesystem.mps" beforeDir="false" afterPath="$project_home$/languages/quilter/models/quilter.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.pedantic/models/patterns.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.pedantic/models/patterns.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/quilter.tests.pedantic/quilter.tests.pedantic.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/quilter.tests.pedantic/quilter.tests.pedantic.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="f12b89ca-2103-4798-a75c-08aad7b898cf/r:1cf7a6fb-b056-4ccc-a0ab-65df13742eb9(TempModulef12b89ca-2103-4798-a75c-08aad7b898cf/ConsoleModel_611099696888052)">
+            <model ref="289871aa-e43d-455e-b325-b7872d7fac1c/r:c1304020-1f66-48a3-9226-b0d873e72ee0(TempModule289871aa-e43d-455e-b325-b7872d7fac1c/ConsoleModel_627177116976233)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -77,11 +77,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2MtiOR2Onp$">
-                <node concept="3balQm" id="2MtiOR2Onp_" role="aymYE" />
-                <node concept="2Clz$F" id="2MtiOR2OnpA" role="aymYO" />
-                <node concept="2_V_lH" id="2MtiOR2OnpB" role="1PhJh3">
-                  <ref role="2_V_lI" node="2MtiOR2OnpA" />
+              <node concept="aymSD" id="2MtiOR2ONCH">
+                <node concept="3balQm" id="2MtiOR2ONCI" role="aymYE" />
+                <node concept="2Clz$F" id="2MtiOR2ONCJ" role="aymYO" />
+                <node concept="2_V_lH" id="2MtiOR2ONCK" role="1PhJh3">
+                  <ref role="2_V_lI" node="2MtiOR2ONCJ" />
                 </node>
               </node>
             </model>
@@ -176,6 +176,61 @@
             <path>
               <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
               <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'pedantic'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'pedantic'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="quilter.tests.pedantic [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'pedantic'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="quilter.tests.pedantic [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:36a5b9dd-3672-4a23-bce4-67bb45495247(patterns) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/quilter_examples/solutions/quilter.tests.pedantic/models/patterns.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'she_remembered_caterpillars'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'she_remembered_caterpillars'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="quilter.tests.she_remembered_caterpillars [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'she_remembered_caterpillars'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="quilter.tests.she_remembered_caterpillars [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:0f308d45-2490-4bc6-9901-10fb4bbdfc09(models) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/quilter_examples/solutions/quilter.tests.she_remembered_caterpillars/models/models.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'she_remembered_caterpillars'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="quilter.tests.she_remembered_caterpillars [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:ebb85b47-37b4-46a0-8854-e51394a241fe(patterns) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/quilter_examples/solutions/quilter.tests.she_remembered_caterpillars/models/patterns.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'she_remembered_caterpillars'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="quilter.tests.she_remembered_caterpillars [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="r:14ba8883-4ffa-4052-b4fe-c6f7a4c51be7(tests) in IdeaFile[path: /Users/anthonyanjorin/git/pedantic/examples/quilter_examples/solutions/quilter.tests.she_remembered_caterpillars/models/tests.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="MPS Project [quilter_examples] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+              <item name="'sokoban'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
             </path>
           </expand>
           <select />

@@ -3,9 +3,11 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/quilter.examples.obstgarten/quilter.examples.obstgarten.mpl" folder="obstgarten" />
+      <modulePath path="$PROJECT_DIR$/languages/quilter.examples.she_remembered_caterpillars/quilter.examples.she_remembered_caterpillars.mpl" folder="she_remembered_caterpillars" />
       <modulePath path="$PROJECT_DIR$/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" folder="sokoban" />
       <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.obstgarten/quilter.tests.obstgarten.msd" folder="obstgarten" />
       <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.pedantic/quilter.tests.pedantic.msd" folder="pedantic" />
+      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.she_remembered_caterpillars/quilter.tests.she_remembered_caterpillars.msd" folder="she_remembered_caterpillars" />
       <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.sokoban/quilter.tests.sokoban.msd" folder="sokoban" />
     </projectModules>
   </component>

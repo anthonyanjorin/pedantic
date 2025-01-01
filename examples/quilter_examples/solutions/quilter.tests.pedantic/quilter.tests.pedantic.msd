@@ -15,6 +15,7 @@
     <dependency reexport="false">cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)</dependency>
     <dependency reexport="false">53e1c0a8-5412-487f-aa6e-5362285d690e(quilter.tests.obstgarten)</dependency>
     <dependency reexport="false">bebec50b-5c2a-4699-9ff2-347e14560893(quilter.tests.sokoban)</dependency>
+    <dependency reexport="false">bb46d900-34e4-4011-9e80-9bcfe33a3d22(quilter.tests.she_remembered_caterpillars)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -43,6 +44,7 @@
     <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
     <module reference="53e1c0a8-5412-487f-aa6e-5362285d690e(quilter.tests.obstgarten)" version="0" />
     <module reference="78930d22-0424-47f7-b07d-6b18163edfba(quilter.tests.pedantic)" version="0" />
+    <module reference="bb46d900-34e4-4011-9e80-9bcfe33a3d22(quilter.tests.she_remembered_caterpillars)" version="0" />
     <module reference="bebec50b-5c2a-4699-9ff2-347e14560893(quilter.tests.sokoban)" version="0" />
   </dependencyVersions>
 </solution>
