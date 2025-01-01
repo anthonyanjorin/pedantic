@@ -160,6 +160,12 @@
         <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="ArangoDB" />
         <ref role="3zGEsl" node="4jS$w1NXFZO" resolve="Collection" />
       </node>
+      <node concept="1fmyMC" id="4jS$w1NXUhS" role="1fmyMH">
+        <ref role="1fmyM0" node="Sv$7iJa8g6" resolve="Export Application" />
+        <ref role="3zGEs9" node="4jS$w1NXTmW" resolve="Database" />
+        <ref role="1fmyM6" node="Sv$7iJa8g4" resolve="ArangoDB" />
+        <ref role="3zGEsl" node="4jS$w1NXRr8" resolve="Database" />
+      </node>
       <node concept="1fmyMA" id="25VKDKDBxJ5" role="1fmyM_">
         <property role="TrG5h" value="MPS" />
         <ref role="1fmyMB" node="25VKDKDBxJa" resolve="MPS" />
@@ -178,13 +184,13 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTfnk2h" role="1fksqA">
-      <node concept="3fT77D" id="7J16yTfnk4M" role="3f6BbQ">
-        <property role="3fT77I" value="Detailed" />
+      <node concept="3fT77D" id="4jS$w1NY20W" role="3f6BbQ">
+        <property role="3fT77I" value="Static" />
       </node>
-      <node concept="3fT77D" id="7J16yTfnk7j" role="3f6BbQ">
-        <property role="3fT77I" value="architecture" />
+      <node concept="3fT77D" id="4jS$w1NY20X" role="3f6BbQ">
+        <property role="3fT77I" value="Achitecture" />
       </node>
-      <node concept="3fT77D" id="7J16yTfnkml" role="3f6BbQ">
+      <node concept="3fT77D" id="4jS$w1NY20Z" role="3f6BbQ">
         <property role="3fT77I" value="of" />
       </node>
       <node concept="3fT77D" id="7J16yTfnkoQ" role="3f6BbQ">
@@ -216,7 +222,7 @@
       <property role="TrG5h" value="click" />
     </node>
     <node concept="X_8GT" id="4jS$w1NWMiE" role="1vU5Ow">
-      <property role="TrG5h" value="ArangoDBExportConfig" />
+      <property role="TrG5h" value="Generate JSON" />
     </node>
     <node concept="X_8GT" id="4jS$w1NWXkq" role="1vU5Ow">
       <property role="TrG5h" value="Read JSON" />
@@ -256,6 +262,13 @@
       </node>
       <node concept="3f6AUQ" id="7C5UPHnZKY$" role="3jToc2" />
       <node concept="3BFnmI" id="7C5UPHnZKY_" role="3BFnmE" />
+    </node>
+    <node concept="3f6AUY" id="4jS$w1NXRNd" role="3f6AUZ">
+      <node concept="3f6AUQ" id="4jS$w1NXRNe" role="3f6AUE" />
+      <node concept="3f6AUX" id="4jS$w1NXRNf" role="3f6AUK">
+        <property role="TrG5h" value="Database" />
+        <property role="11DDNk" value="true" />
+      </node>
     </node>
     <node concept="3f6AUY" id="4jS$w1NX$YI" role="3f6AUZ">
       <node concept="3f6AUQ" id="4jS$w1NX$YJ" role="3f6AUE">
@@ -573,6 +586,10 @@
       <property role="TrG5h" value="Collection" />
       <ref role="3zGEsh" node="7J16yTfnQgu" resolve="Collection " />
     </node>
+    <node concept="3zGEss" id="4jS$w1NXRr8" role="1fmyMU">
+      <property role="TrG5h" value="Database" />
+      <ref role="3zGEsh" node="4jS$w1NXRNf" resolve="Database" />
+    </node>
     <node concept="1fmyMZ" id="7C5UPHnZAVQ" role="1fmyMW">
       <node concept="1fmyMk" id="7J16yTfoUp_" role="1e2t$0">
         <ref role="1fmyMv" node="7C5UPHnZAVR" resolve="ArangoDatabase" />
@@ -742,7 +759,7 @@
       <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7J16yTfoKJf" role="1fmyMO">
-      <property role="TrG5h" value="json_arango" />
+      <property role="TrG5h" value="Documents" />
       <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7J16yTfoZUa" role="1fmyMO">
@@ -752,6 +769,10 @@
     <node concept="3zGEss" id="4jS$w1NXIgB" role="1fmyMO">
       <property role="TrG5h" value="Collection" />
       <ref role="3zGEsh" node="7J16yTfnQgu" resolve="Collection " />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NXTmW" role="1fmyMO">
+      <property role="TrG5h" value="Database" />
+      <ref role="3zGEsh" node="4jS$w1NXRNf" resolve="Database" />
     </node>
     <node concept="1fmyMZ" id="7C5UPHnZAFM" role="1fmyMW">
       <node concept="1fmyMC" id="7J16yTfpfNY" role="1fmyMH">
@@ -1196,7 +1217,7 @@
     <property role="TrG5h" value="Function 3 Document Adder" />
     <property role="3GE5qa" value="Python Components" />
     <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
-      <property role="TrG5h" value="json_arango" />
+      <property role="TrG5h" value="Documents" />
       <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
     </node>
     <node concept="3zGEss" id="7J16yTfnPTU" role="1fmyMU">
