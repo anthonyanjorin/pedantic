@@ -14,6 +14,10 @@
       <concept id="8987473119584727444" name="pedantic.structure.Publishable" flags="ng" index="XwtEV">
         <property id="8987473119584727448" name="author" index="XwtER" />
       </concept>
+      <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT">
+        <child id="6010201709301647773" name="returns" index="$d$W1" />
+        <child id="470559418572020240" name="description" index="1bdd_s" />
+      </concept>
       <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
       </concept>
@@ -31,6 +35,37 @@
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
       </concept>
       <concept id="4928100702460203921" name="pedantic.structure.WordExtensionRight" flags="ng" index="3f6BbF" />
+      <concept id="6606305879429250170" name="pedantic.structure.Component" flags="ng" index="1fmyL8">
+        <child id="6606305879429250182" name="provided" index="1fmyMO" />
+        <child id="6606305879429250184" name="required" index="1fmyMU" />
+        <child id="8617956174793374811" name="services" index="1vU5Ow" />
+      </concept>
+      <concept id="6606305879429250214" name="pedantic.structure.Pull" flags="ng" index="1fmyMk" />
+      <concept id="6606305879429250220" name="pedantic.structure.Push" flags="ng" index="1fmyMu" />
+      <concept id="6606305879429250196" name="pedantic.structure.ComponentInstance" flags="ng" index="1fmyMA">
+        <reference id="6606305879429250197" name="type" index="1fmyMB" />
+      </concept>
+      <concept id="6606305879429250202" name="pedantic.structure.Fulfillment" flags="ng" index="1fmyMC">
+        <reference id="6606305879429250226" name="sourceProvides" index="1fmyM0" />
+        <reference id="6606305879429250228" name="targetRequires" index="1fmyM6" />
+        <reference id="3503424313156701904" name="providedInterface" index="3zGEs9" />
+        <reference id="3503424313156701900" name="requiredInterface" index="3zGEsl" />
+      </concept>
+      <concept id="6606305879429250203" name="pedantic.structure.Forwarding" flags="ng" index="1fmyMD">
+        <reference id="6606305879429250221" name="source" index="1fmyMv" />
+        <reference id="3503424313156701912" name="sourceInterface" index="3zGEs1" />
+        <reference id="3503424313156701915" name="parentInterface" index="3zGEs2" />
+      </concept>
+      <concept id="6606305879429250176" name="pedantic.structure.System" flags="ng" index="1fmyMM">
+        <child id="6606305879429977748" name="description" index="1fksqA" />
+        <child id="6606305879429250190" name="collaboration" index="1fmyMW" />
+      </concept>
+      <concept id="6606305879429250189" name="pedantic.structure.Collaboration" flags="ng" index="1fmyMZ">
+        <child id="6606305879440984370" name="pulls" index="1e2t$0" />
+        <child id="6606305879440984366" name="pushes" index="1e2t$s" />
+        <child id="6606305879429250199" name="instances" index="1fmyM_" />
+        <child id="6606305879429250207" name="fulfillments" index="1fmyMH" />
+      </concept>
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
@@ -59,6 +94,9 @@
         <child id="3402856230705402912" name="initial" index="1rOGIm" />
         <child id="3402856230705402909" name="description" index="1rOGIF" />
         <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
+      </concept>
+      <concept id="3503424313156701893" name="pedantic.structure.ComponentInterface" flags="ng" index="3zGEss">
+        <reference id="3503424313156701896" name="type" index="3zGEsh" />
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI" />
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
@@ -133,6 +171,7 @@
         </node>
         <node concept="3fT77D" id="7J16yTfugkK" role="3f6BbQ">
           <property role="3fT77I" value="parameter" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfugrl" role="3f6BbQ">
           <property role="3fT77I" value="db_name" />
@@ -882,14 +921,29 @@
       <node concept="3fT77D" id="7J16yTftJos" role="3f6BbQ">
         <property role="3fT77I" value="functions" />
       </node>
-      <node concept="3fT77D" id="7J16yTftJrJ" role="3f6BbQ">
-        <property role="3fT77I" value="doc_collection_control()" />
+      <node concept="3fT77D" id="4jS$w1NZOpq" role="3f6BbQ">
+        <property role="3fT77I" value="doc" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NZOpr" role="3f6BbQ">
+        <property role="3fT77I" value="collection" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NZOid" role="3f6BbQ">
+        <property role="3fT77I" value="control" />
       </node>
       <node concept="3fT77D" id="7J16yTftJMI" role="3f6BbQ">
         <property role="3fT77I" value="and" />
       </node>
-      <node concept="3fT77D" id="7J16yTftJMJ" role="3f6BbQ">
-        <property role="3fT77I" value="edge_collection_control()" />
+      <node concept="3fT77D" id="4jS$w1NZOwC" role="3f6BbQ">
+        <property role="3fT77I" value="edge" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NZOFs" role="3f6BbQ">
+        <property role="3fT77I" value="collection" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1NZOFt" role="3f6BbQ">
+        <property role="3fT77I" value="control" />
       </node>
     </node>
   </node>
@@ -2222,7 +2276,7 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfuUAZ">
     <property role="TrG5h" value="Create Database  " />
-    <property role="3GE5qa" value="State Charts" />
+    <property role="3GE5qa" value="State Charts of Modules" />
     <node concept="3f6AUQ" id="7J16yTfuUB0" role="1LuVN1">
       <node concept="3fT77D" id="7J16yTfuUH_" role="3f6BbQ">
         <property role="3fT77I" value="behaviour" />
@@ -2338,7 +2392,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfvKc5">
-    <property role="3GE5qa" value="State Charts" />
+    <property role="3GE5qa" value="State Charts of Modules" />
     <property role="TrG5h" value="Create Document Collection" />
     <node concept="1rTVtr" id="7J16yTfvLh9" role="1LuVN3">
       <property role="TrG5h" value="Collection Control" />
@@ -2439,7 +2493,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfvYFZ">
-    <property role="3GE5qa" value="State Charts" />
+    <property role="3GE5qa" value="State Charts of Modules" />
     <property role="TrG5h" value="Create Edge Collection" />
     <node concept="1rTVtr" id="7J16yTfw1gm" role="1LuVN3">
       <property role="TrG5h" value="Edge Collection Control" />
@@ -2536,7 +2590,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfwaAD">
-    <property role="3GE5qa" value="State Charts" />
+    <property role="3GE5qa" value="State Charts of Modules" />
     <property role="TrG5h" value="Add Documents" />
     <node concept="1rTVtr" id="7J16yTfwgoZ" role="1LuVN3">
       <property role="TrG5h" value="Document Adder" />
@@ -2716,7 +2770,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfwEvf">
-    <property role="3GE5qa" value="State Charts" />
+    <property role="3GE5qa" value="State Charts of Modules" />
     <property role="TrG5h" value="Create Graph" />
     <node concept="1rTVtr" id="7J16yTfwFIa" role="1LuVN3">
       <property role="TrG5h" value="Graph " />
@@ -2816,6 +2870,396 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTfwEvg" role="1LuVN1" />
+  </node>
+  <node concept="1fmyL8" id="Sv$7iJa8fX">
+    <property role="TrG5h" value="Export Application" />
+    <property role="3GE5qa" value="Static Modules" />
+    <node concept="X_8GT" id="7J16yTfruYI" role="1vU5Ow">
+      <property role="TrG5h" value="parameter input" />
+      <node concept="3f6AUQ" id="7J16yTfrvhl" role="1bdd_s">
+        <node concept="3fT77D" id="7J16yTfrvuE" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTfrvxm" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfrvAG" role="3f6BbQ">
+          <property role="3fT77I" value="and" />
+        </node>
+        <node concept="3f6BbC" id="7J16yTfrvDo" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="7J16yTfrtcl" role="1vU5Ow">
+      <property role="TrG5h" value="input: &quot;Path A&quot;" />
+      <node concept="3f6AUQ" id="7J16yTfruxn" role="1bdd_s">
+        <node concept="3f6BbC" id="7J16yTfru$3" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfry9q" role="$d$W1" />
+    </node>
+    <node concept="X_8GT" id="7J16yTfrtQQ" role="1vU5Ow">
+      <property role="TrG5h" value="input: &quot;Path B&quot;" />
+      <node concept="3f6AUQ" id="7J16yTfruIH" role="1bdd_s">
+        <node concept="3f6BbC" id="7J16yTfruIJ" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+        </node>
+      </node>
+      <node concept="3f6AUQ" id="7J16yTfrxYI" role="$d$W1" />
+    </node>
+    <node concept="X_8GT" id="7J16yTfryIG" role="1vU5Ow">
+      <property role="TrG5h" value="run Function()" />
+      <node concept="3f6AUQ" id="7J16yTfrz9h" role="$d$W1" />
+      <node concept="3f6AUQ" id="7J16yTfrzTk" role="1bdd_s">
+        <node concept="3fT77D" id="7J16yTfrzTl" role="3f6BbQ">
+          <property role="3fT77I" value="Run" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfrzW0" role="3f6BbQ">
+          <property role="3fT77I" value="Script333" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="7J16yTfs7d0" role="1vU5Ow">
+      <property role="TrG5h" value="db_name=&quot;testDB1&quot;" />
+      <node concept="3f6AUQ" id="7J16yTfs7WP" role="1bdd_s">
+        <node concept="3f6BbC" id="7J16yTfs84P" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs8ab" role="3f6BbQ">
+          <property role="3fT77I" value="equals" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs8fw" role="3f6BbQ">
+          <property role="3fT77I" value="&quot;TestDB1&quot;" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="7J16yTfs8q9" role="1vU5Ow">
+      <property role="TrG5h" value="db_name=&quot;testDB2&quot;" />
+      <node concept="3f6AUQ" id="7J16yTfs8M4" role="1bdd_s">
+        <node concept="3f6BbC" id="7J16yTfs8OJ" role="3f6BbQ">
+          <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs8Zp" role="3f6BbQ">
+          <property role="3fT77I" value="equals" />
+        </node>
+        <node concept="3fT77D" id="7J16yTfs924" role="3f6BbQ">
+          <property role="3fT77I" value="&quot;TestDB2&quot;" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWPWX" role="1vU5Ow">
+      <property role="TrG5h" value="Path Input" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWQKy" role="1vU5Ow">
+      <property role="TrG5h" value="Database Name Input" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NWUTv" role="1vU5Ow">
+      <property role="TrG5h" value="run " />
+    </node>
+    <node concept="X_8GT" id="4jS$w1NX5bg" role="1vU5Ow">
+      <property role="TrG5h" value="CollectionControl()" />
+      <node concept="3f6AUQ" id="4jS$w1NX5L5" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1NX5L6" role="3f6BbQ">
+          <property role="3fT77I" value="runs" />
+        </node>
+        <node concept="1hSrFG" id="4jS$w1NX62k" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2 Create Collection" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1NXbTN" role="1vU5Ow">
+      <property role="TrG5h" value="doc_adder()" />
+      <node concept="3f6AUQ" id="4jS$w1NXclk" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1NXcll" role="3f6BbQ">
+          <property role="3fT77I" value="runs" />
+        </node>
+        <node concept="1hSrFG" id="4jS$w1NXcvF" role="3f6BbQ">
+          <ref role="1hSrFy" to="aamg:7C5UPHnZAIT" resolve="Function 3 Document Adder" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1NXjEn" role="1vU5Ow">
+      <property role="TrG5h" value="create_Graph()" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfoJ2w" role="1fmyMU">
+      <property role="TrG5h" value="dbname" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfpeiA" role="1fmyMU">
+      <property role="TrG5h" value="path input" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NVDXO" role="1fmyMU">
+      <property role="TrG5h" value="JSON" />
+      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfoKJf" role="1fmyMO">
+      <property role="TrG5h" value="Documents" />
+      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfoZUa" role="1fmyMO">
+      <property role="TrG5h" value="Arango Graph" />
+      <ref role="3zGEsh" to="aamg:7J16yTfoZcY" resolve="Graph" />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NXIgB" role="1fmyMO">
+      <property role="TrG5h" value="Collection" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnQgu" resolve="Collection " />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NXTmW" role="1fmyMO">
+      <property role="TrG5h" value="Database" />
+      <ref role="3zGEsh" to="aamg:4jS$w1NXRNf" resolve="Database" />
+    </node>
+    <node concept="1fmyMZ" id="7C5UPHnZAFM" role="1fmyMW">
+      <node concept="1fmyMC" id="7J16yTfpfNY" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs9" node="7J16yTfnF9J" resolve="db_name forward" />
+        <ref role="1fmyM6" node="7C5UPHnZB7m" resolve="create_collection function" />
+        <ref role="3zGEsl" node="7J16yTfnI0l" resolve="db_name" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfpgQR" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs9" node="7J16yTfnF9J" resolve="db_name forward" />
+        <ref role="1fmyM6" node="7C5UPHnZB7n" resolve="add_document function" />
+        <ref role="3zGEsl" node="7J16yTfnPTU" resolve="db_name" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfpi4R" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs9" node="7J16yTfnTt$" resolve="path input forward" />
+        <ref role="1fmyM6" node="7C5UPHnZB7n" resolve="add_document function" />
+        <ref role="3zGEsl" node="7J16yTfnTY5" resolve="path_to_read_from" />
+      </node>
+      <node concept="1fmyMC" id="7J16yTfplM3" role="1fmyMH">
+        <ref role="1fmyM0" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs9" node="7J16yTfnF9J" resolve="db_name forward" />
+        <ref role="1fmyM6" node="7J16yTfp0q4" resolve="graph instance function" />
+        <ref role="3zGEsl" node="7J16yTfplkN" resolve="db_name" />
+      </node>
+      <node concept="1fmyMu" id="7J16yTfoN8I" role="1e2t$s">
+        <ref role="1fmyMv" node="7C5UPHnZB7n" resolve="add_document function" />
+        <ref role="3zGEs1" node="7C5UPHnZAJg" resolve="Documents" />
+        <ref role="3zGEs2" node="7J16yTfoKJf" resolve="Documents" />
+      </node>
+      <node concept="1fmyMu" id="7J16yTfp0i5" role="1e2t$s">
+        <ref role="1fmyMv" node="7J16yTfp0q4" resolve="graph instance function" />
+        <ref role="3zGEs1" node="7J16yTfoYP1" resolve="Graph Instance" />
+        <ref role="3zGEs2" node="7J16yTfoZUa" resolve="Arango Graph" />
+      </node>
+      <node concept="1fmyMu" id="4jS$w1NYj7x" role="1e2t$s">
+        <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs1" node="4jS$w1NYdQA" resolve="Database" />
+        <ref role="3zGEs2" node="4jS$w1NXTmW" resolve="Database" />
+      </node>
+      <node concept="1fmyMu" id="4jS$w1NYr1z" role="1e2t$s">
+        <ref role="1fmyMv" node="7C5UPHnZB7m" resolve="create_collection function" />
+        <ref role="3zGEs1" node="7C5UPHnZAIp" resolve="Collection" />
+        <ref role="3zGEs2" node="4jS$w1NXIgB" resolve="Collection" />
+      </node>
+      <node concept="1fmyMk" id="7J16yTfoIKZ" role="1e2t$0">
+        <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs1" node="7J16yTfnL1P" resolve="db_name" />
+        <ref role="3zGEs2" node="7J16yTfoJ2w" resolve="db_name" />
+      </node>
+      <node concept="1fmyMk" id="7J16yTfpdMH" role="1e2t$0">
+        <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs1" node="7J16yTfnOsn" resolve="path input" />
+        <ref role="3zGEs2" node="7J16yTfpeiA" resolve="path input" />
+      </node>
+      <node concept="1fmyMk" id="4jS$w1NVErn" role="1e2t$0">
+        <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
+        <ref role="3zGEs1" node="4jS$w1NVBhH" resolve="JSON" />
+        <ref role="3zGEs2" node="4jS$w1NVDXO" resolve="JSON" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZAG9" role="1fmyM_">
+        <property role="TrG5h" value="Database Creator" />
+        <ref role="1fmyMB" node="7C5UPHnZAGb" resolve="Function 1 Create Database " />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZB7m" role="1fmyM_">
+        <property role="TrG5h" value="Collection Creator" />
+        <ref role="1fmyMB" node="7C5UPHnZAI7" resolve="Function 2 Create Collection" />
+      </node>
+      <node concept="1fmyMA" id="7C5UPHnZB7n" role="1fmyM_">
+        <property role="TrG5h" value="Document Adder" />
+        <ref role="1fmyMB" node="7C5UPHnZAIT" resolve="Function 3 Document Adder" />
+      </node>
+      <node concept="1fmyMA" id="7J16yTfp0q4" role="1fmyM_">
+        <property role="TrG5h" value="Graph Definition" />
+        <ref role="1fmyMB" node="7J16yTfoYvK" resolve="Function 4 Define Graph" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="4jS$w1NWtFV" role="1fksqA">
+      <node concept="3fT77D" id="4jS$w1NWtJe" role="3f6BbQ">
+        <property role="3fT77I" value="provides" />
+      </node>
+      <node concept="3f6BbC" id="4jS$w1NWtPO" role="3f6BbQ">
+        <ref role="3f6BbD" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
+      </node>
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7J16yTfoYvK">
+    <property role="3GE5qa" value="Static Modules" />
+    <property role="TrG5h" value="Function 4 Define Graph" />
+    <node concept="3zGEss" id="7J16yTfplkN" role="1fmyMU">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfoYP1" role="1fmyMO">
+      <property role="TrG5h" value="Graph Instance" />
+      <ref role="3zGEsh" to="aamg:7J16yTfoZcY" resolve="Graph" />
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAIT">
+    <property role="TrG5h" value="Function 3 Document Adder" />
+    <property role="3GE5qa" value="Static Modules" />
+    <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
+      <property role="TrG5h" value="Documents" />
+      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnPTU" role="1fmyMU">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnTY5" role="1fmyMU">
+      <property role="TrG5h" value="path_to_read_from" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+    </node>
+    <node concept="3f6AUQ" id="7C5UPHnZAIW" role="1fksqA">
+      <node concept="3fT77D" id="7C5UPHnZAIX" role="3f6BbQ">
+        <property role="3fT77I" value="Intercepts" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAIZ" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8Vi" resolve="JSON-File" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ1" role="3f6BbQ">
+        <property role="3fT77I" value="from" />
+      </node>
+      <node concept="1hSrFG" id="7C5UPHnZAJ3" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAEE" resolve="Path" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ5" role="3f6BbQ">
+        <property role="3fT77I" value="and" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ6" role="3f6BbQ">
+        <property role="3fT77I" value="provides" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ7" role="3f6BbQ">
+        <property role="3fT77I" value="it" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJ8" role="3f6BbQ">
+        <property role="3fT77I" value="to" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAJa" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAJc" role="3f6BbQ">
+        <property role="3fT77I" value="in" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAJe" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
+      </node>
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAI7">
+    <property role="TrG5h" value="Function 2 Create Collection" />
+    <property role="3GE5qa" value="Static Modules" />
+    <node concept="3zGEss" id="7J16yTfnI0l" role="1fmyMU">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7C5UPHnZAIp" role="1fmyMO">
+      <property role="TrG5h" value="Collection" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnQgu" resolve="Collection " />
+    </node>
+    <node concept="3f6AUQ" id="7C5UPHnZAI8" role="1fksqA">
+      <node concept="3fT77D" id="7C5UPHnZAIc" role="3f6BbQ">
+        <property role="3fT77I" value="Function" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAId" role="3f6BbQ">
+        <property role="3fT77I" value="in" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAIf" role="3f6BbQ">
+        <property role="3fT77I" value="Python" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAIh" role="3f6BbQ">
+        <property role="3fT77I" value="that" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAIi" role="3f6BbQ">
+        <property role="3fT77I" value="creates" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAIa" role="3f6BbQ">
+        <property role="3fT77I" value="a" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAIj" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8$y" resolve="Collection" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAIl" role="3f6BbQ">
+        <property role="3fT77I" value="within" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAIn" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
+      </node>
+    </node>
+  </node>
+  <node concept="1fmyL8" id="7C5UPHnZAGb">
+    <property role="TrG5h" value="Function 1 Create Database " />
+    <property role="3GE5qa" value="Static Modules" />
+    <node concept="3zGEss" id="7J16yTfnL1P" role="1fmyMU">
+      <property role="TrG5h" value="db_name" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="Database Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnOsn" role="1fmyMU">
+      <property role="TrG5h" value="path input" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NVBhH" role="1fmyMU">
+      <property role="TrG5h" value="JSON" />
+      <ref role="3zGEsh" to="aamg:Sv$7iJa8fV" resolve="JSON-File" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnF9J" role="1fmyMO">
+      <property role="TrG5h" value="db_name forward" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="DB Name" />
+    </node>
+    <node concept="3zGEss" id="7J16yTfnTt$" role="1fmyMO">
+      <property role="TrG5h" value="path input forward" />
+      <ref role="3zGEsh" to="aamg:7J16yTfnJGO" resolve="Path Input" />
+    </node>
+    <node concept="3zGEss" id="4jS$w1NYdQA" role="1fmyMO">
+      <property role="TrG5h" value="Database" />
+      <ref role="3zGEsh" to="aamg:4jS$w1NXRNf" resolve="Database" />
+    </node>
+    <node concept="3f6AUQ" id="7C5UPHnZAGc" role="1fksqA">
+      <node concept="3fT77D" id="7C5UPHnZAGd" role="3f6BbQ">
+        <property role="3fT77I" value="Function" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAGe" role="3f6BbQ">
+        <property role="3fT77I" value="in" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAGk" role="3f6BbQ">
+        <property role="3fT77I" value="Python" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAGl" role="3f6BbQ">
+        <property role="3fT77I" value="that" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAGm" role="3f6BbQ">
+        <property role="3fT77I" value="creates" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAGn" role="3f6BbQ">
+        <property role="3fT77I" value="an" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAGp" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
+      </node>
+      <node concept="3fT77D" id="7C5UPHnZAGr" role="3f6BbQ">
+        <property role="3fT77I" value="in" />
+      </node>
+      <node concept="3f6BbC" id="7C5UPHnZAGt" role="3f6BbQ">
+        <ref role="3f6BbD" to="wjwp:Sv$7iJa8yd" resolve="ArangoDB" />
+      </node>
+    </node>
+    <node concept="1fmyMZ" id="7J16yTfo$BK" role="1fmyMW" />
   </node>
 </model>
 
