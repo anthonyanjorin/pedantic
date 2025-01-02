@@ -839,8 +839,8 @@
         <ref role="3zGEs2" node="7J16yTfpeiA" resolve="path input" />
       </node>
       <node concept="1fmyMk" id="4jS$w1NVErn" role="1e2t$0">
-        <ref role="1fmyMv" node="7C5UPHnZAG9" resolve="create_db function" />
-        <ref role="3zGEs1" node="4jS$w1NVBhH" resolve="JSON" />
+        <ref role="1fmyMv" node="7C5UPHnZB7n" resolve="Document Adder" />
+        <ref role="3zGEs1" node="4jS$w1O0cx8" resolve="JSON" />
         <ref role="3zGEs2" node="4jS$w1NVDXO" resolve="JSON" />
       </node>
       <node concept="1fmyMA" id="7C5UPHnZAG9" role="1fmyM_">
@@ -1146,10 +1146,6 @@
       <property role="TrG5h" value="Path " />
       <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
     </node>
-    <node concept="3zGEss" id="4jS$w1NVBhH" role="1fmyMU">
-      <property role="TrG5h" value="JSON" />
-      <ref role="3zGEsh" node="Sv$7iJa8fV" resolve="JSON-File" />
-    </node>
     <node concept="3zGEss" id="7J16yTfnF9J" role="1fmyMO">
       <property role="TrG5h" value="DB name" />
       <ref role="3zGEsh" node="7J16yTfnFJj" resolve="DB Name" />
@@ -1265,6 +1261,10 @@
     <node concept="3zGEss" id="7J16yTfnTY5" role="1fmyMU">
       <property role="TrG5h" value="Path" />
       <ref role="3zGEsh" node="7J16yTfnJGO" resolve="Path Input" />
+    </node>
+    <node concept="3zGEss" id="4jS$w1O0cx8" role="1fmyMU">
+      <property role="TrG5h" value="JSON" />
+      <ref role="3zGEsh" node="25VKDKDBxLn" resolve="JSON" />
     </node>
     <node concept="3f6AUQ" id="7C5UPHnZAIW" role="1fksqA">
       <node concept="3fT77D" id="7C5UPHnZAIX" role="3f6BbQ">
