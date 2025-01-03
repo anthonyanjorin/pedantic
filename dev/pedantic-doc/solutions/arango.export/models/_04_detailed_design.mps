@@ -3118,7 +3118,7 @@
   </node>
   <node concept="1fmyL8" id="7J16yTfoYvK">
     <property role="3GE5qa" value="Static Modules" />
-    <property role="TrG5h" value="Function 4 Define Graph" />
+    <property role="TrG5h" value="Graph Creator" />
     <node concept="3zGEss" id="7J16yTfplkN" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
       <ref role="3zGEsh" to="aamg:7J16yTfnFJj" resolve="Database Name" />
@@ -3129,7 +3129,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAIT">
-    <property role="TrG5h" value="Function 3 Document Adder" />
+    <property role="TrG5h" value="Document Adder" />
     <property role="3GE5qa" value="Static Modules" />
     <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
       <property role="TrG5h" value="Documents" />
@@ -3180,7 +3180,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAI7">
-    <property role="TrG5h" value="Function 2 Create Collection" />
+    <property role="TrG5h" value="Collection Creator" />
     <property role="3GE5qa" value="Static Modules" />
     <node concept="3zGEss" id="7J16yTfnI0l" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
@@ -3222,7 +3222,7 @@
     </node>
   </node>
   <node concept="1fmyL8" id="7C5UPHnZAGb">
-    <property role="TrG5h" value="Function 1 Create Database " />
+    <property role="TrG5h" value="Database Creator " />
     <property role="3GE5qa" value="Static Modules" />
     <node concept="3zGEss" id="7J16yTfnL1P" role="1fmyMU">
       <property role="TrG5h" value="db_name" />
