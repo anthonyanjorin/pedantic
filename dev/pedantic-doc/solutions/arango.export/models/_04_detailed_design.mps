@@ -131,8 +131,12 @@
         <node concept="3fT77D" id="7C5UPHnZAMC" role="3f6BbQ">
           <property role="3fT77I" value="called" />
         </node>
-        <node concept="3fT77D" id="7C5UPHnZAMD" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;database_control()&quot;" />
+        <node concept="3fT77D" id="4jS$w1O1SK2" role="3f6BbQ">
+          <property role="3fT77I" value="database" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O1SK3" role="3f6BbQ">
+          <property role="3fT77I" value="control" />
         </node>
         <node concept="3f6BbC" id="7J16yTftd$I" role="3f6BbQ">
           <ref role="3f6BbD" to="wjwp:Sv$7iJa8P3" resolve="AST" />
@@ -143,10 +147,13 @@
         <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUX" id="7J16yTfvHIm" role="3f6AUK">
-        <property role="TrG5h" value="database_control()" />
+        <property role="TrG5h" value="database control" />
       </node>
       <node concept="3f6AUQ" id="7J16yTfx5cc" role="3jToc2">
-        <node concept="3fT77D" id="7J16yTfx5cd" role="3f6BbQ">
+        <node concept="3fT77D" id="4jS$w1O1U2I" role="3f6BbQ">
+          <property role="3fT77I" value="Function" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O1U2J" role="3f6BbQ">
           <property role="3fT77I" value="tested" />
         </node>
         <node concept="3fT77D" id="7J16yTfx5fw" role="3f6BbQ">
@@ -203,7 +210,7 @@
         <node concept="1hSrFG" id="7J16yTfuhwr" role="3f6BbQ">
           <ref role="1hSrFy" to="aamg:7C5UPHnZKQy" resolve="Engineer" />
         </node>
-        <node concept="3fT77D" id="7J16yTfuhEj" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1R4a" role="3f6BbQ">
           <property role="3fT77I" value=")" />
         </node>
       </node>
@@ -227,7 +234,7 @@
           <property role="3fT77I" value="conn" />
         </node>
         <node concept="3f6BbF" id="7J16yTft$1d" role="3f6BbQ">
-          <property role="3fT77I" value=".hasDatabase(db_name)" />
+          <property role="3fT77I" value=".hasDatabase(dbname)" />
         </node>
         <node concept="3f6BbF" id="7C5UPHnZAMK" role="3f6BbQ">
           <property role="3fT77I" value="," />
@@ -373,7 +380,7 @@
         <property role="TrG5h" value="Existence of Database" />
       </node>
       <node concept="3f6AUX" id="7J16yTfty1a" role="3f6AUK">
-        <property role="TrG5h" value="conn.hasDatabase(db_name)" />
+        <property role="TrG5h" value="conn hasDatabase" />
         <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUQ" id="7J16yTftk5Z" role="3jToc2" />
@@ -461,6 +468,7 @@
         </node>
         <node concept="3fT77D" id="7J16yTfv937" role="3f6BbQ">
           <property role="3fT77I" value="database" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfv99G" role="3f6BbQ">
           <property role="3fT77I" value="is" />
@@ -499,13 +507,13 @@
         <node concept="1hSrFG" id="7J16yTftuPi" role="3f6BbQ">
           <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2: Create Collection" />
         </node>
-        <node concept="3fT77D" id="7J16yTftuZa" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1Pdr" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="1hSrFG" id="7J16yTftvUj" role="3f6BbQ">
           <ref role="1hSrFy" to="aamg:7C5UPHnZAI7" resolve="Function 2: Create Collection" />
         </node>
-        <node concept="3fT77D" id="7J16yTftw4c" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1Pvr" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="1hSrFG" id="7J16yTftw7w" role="3f6BbQ">
@@ -560,7 +568,7 @@
         <node concept="3f6BbC" id="7J16yTftAev" role="3f6BbQ">
           <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
         </node>
-        <node concept="3fT77D" id="7J16yTftAyd" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1Q3p" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="7J16yTft_jg" role="3f6BbQ">
@@ -972,7 +980,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxlf2" role="3f6AUK">
-        <property role="TrG5h" value="document_adder" />
+        <property role="TrG5h" value="document adder" />
         <property role="11DDNk" value="true" />
       </node>
     </node>
@@ -1205,7 +1213,7 @@
         <node concept="3f6BbC" id="7J16yTfuHza" role="3f6BbQ">
           <ref role="3f6BbD" node="7J16yTfuExb" resolve="Read JSON from Path" />
         </node>
-        <node concept="3fT77D" id="7J16yTfuHDK" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1RJk" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="7J16yTfuHH3" role="3f6BbQ">
@@ -1655,7 +1663,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxhl1" role="3f6AUK">
-        <property role="TrG5h" value="doc_collection_control()" />
+        <property role="TrG5h" value="doc collection control" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfu7e0" role="3f6AUZ">
@@ -1689,9 +1697,9 @@
           <property role="3fT77I" value="by" />
         </node>
         <node concept="1hSrFG" id="7J16yTfu7eb" role="3f6BbQ">
-          <ref role="1hSrFy" to="aamg:7C5UPHnZAGb" resolve="Function 1: Create Database" />
+          <ref role="1hSrFy" to="aamg:7C5UPHnZAGb" resolve="Database Creator" />
         </node>
-        <node concept="3fT77D" id="7J16yTfu7ec" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O21eP" role="3f6BbQ">
           <property role="3fT77I" value="." />
         </node>
         <node concept="3fT77D" id="7J16yTfu7ed" role="3f6BbQ">
@@ -1763,7 +1771,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfu7ez" role="3f6AUK">
-        <property role="TrG5h" value="doc_coll_name" />
+        <property role="TrG5h" value="doc coll name" />
         <property role="11DDNk" value="true" />
       </node>
     </node>
@@ -1778,17 +1786,26 @@
         <node concept="3f6BbC" id="7J16yTfu7eC" role="3f6BbQ">
           <ref role="3f6BbD" to="wjwp:Sv$7iJa8z8" resolve="ArangoDB-Database" />
         </node>
-        <node concept="3fT77D" id="7J16yTfu7eD" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O21wP" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
-        <node concept="3fT77D" id="7J16yTfu7eE" role="3f6BbQ">
+        <node concept="3fT77D" id="4jS$w1O21MP" role="3f6BbQ">
+          <property role="3fT77I" value="which" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O21MQ" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O21MR" role="3f6BbQ">
           <property role="3fT77I" value="called" />
         </node>
         <node concept="3fT77D" id="7J16yTfu7eF" role="3f6BbQ">
           <property role="3fT77I" value="whatever" />
         </node>
-        <node concept="3fT77D" id="7J16yTfu7eG" role="3f6BbQ">
-          <property role="3fT77I" value="db_name" />
+        <node concept="3fT77D" id="4jS$w1O221g" role="3f6BbQ">
+          <property role="3fT77I" value="DB" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O221h" role="3f6BbQ">
+          <property role="3fT77I" value="name" />
         </node>
         <node concept="3fT77D" id="7J16yTfu7eH" role="3f6BbQ">
           <property role="3fT77I" value="refers" />
@@ -1857,7 +1874,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfu7f3" role="3f6AUK">
-        <property role="TrG5h" value="Create Collection of Type &quot;document&quot;" />
+        <property role="TrG5h" value="Create Collection of Type document" />
         <property role="11DDNk" value="true" />
       </node>
     </node>
@@ -1935,7 +1952,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxo78" role="3f6AUK">
-        <property role="TrG5h" value="create_graph" />
+        <property role="TrG5h" value="create graph in Arango" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfunwI" role="3f6AUZ">
@@ -2032,11 +2049,11 @@
           <property role="3fT77I" value="to" />
         </node>
         <node concept="3fT77D" id="7J16yTfus5s" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;TraceGraph&quot;" />
+          <property role="3fT77I" value="TraceGraph" />
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfuqTL" role="3f6AUK">
-        <property role="TrG5h" value="graph_name" />
+        <property role="TrG5h" value="graph name" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfutdJ" role="3f6AUZ">
