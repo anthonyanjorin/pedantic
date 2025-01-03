@@ -255,7 +255,7 @@
         <node concept="3f6BbC" id="Sv$7iJa8$N" role="3f6BbQ">
           <ref role="3f6BbD" node="Sv$7iJa8yd" resolve="ArangoDB" />
         </node>
-        <node concept="3fT77D" id="Sv$7iJa8$P" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1Aaq" role="3f6BbQ">
           <property role="3fT77I" value="." />
         </node>
         <node concept="3f6BbC" id="Sv$7iJa8$R" role="3f6BbQ">
@@ -274,13 +274,14 @@
           <property role="3fT77I" value="type" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8_3" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;document&quot;" />
+          <property role="3fT77I" value="document" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8_4" role="3f6BbQ">
           <property role="3fT77I" value="or" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8_5" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;edge&quot;" />
+          <property role="3fT77I" value="edge" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8Ap" role="3f6BbQ">
           <property role="3fT77I" value="." />
@@ -320,6 +321,7 @@
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Br" role="3f6BbQ">
           <property role="3fT77I" value="function" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Bs" role="3f6BbQ">
           <property role="3fT77I" value="as" />
@@ -457,13 +459,14 @@
           <property role="3fT77I" value="either" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8JG" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;document&quot;" />
+          <property role="3fT77I" value="document" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8JH" role="3f6BbQ">
           <property role="3fT77I" value="or" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8JI" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;edge&quot;" />
+          <property role="3fT77I" value="edge" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8JN" role="3f6BbQ">
           <property role="3fT77I" value="and" />
@@ -516,7 +519,7 @@
           <ref role="3f6BbD" node="Sv$7iJa8$z" resolve="Collections" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Gk" role="3f6BbQ">
-          <property role="3fT77I" value="(only" />
+          <property role="3fT77I" value="only" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Gl" role="3f6BbQ">
           <property role="3fT77I" value="of" />
@@ -525,7 +528,8 @@
           <property role="3fT77I" value="type" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Gn" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;document&quot;)" />
+          <property role="3fT77I" value="document" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8AS" role="3f6BbQ">
           <property role="3fT77I" value="." />
@@ -727,19 +731,19 @@
           <property role="3fT77I" value="attributes" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Ct" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;_key:&quot;" />
+          <property role="3fT77I" value="&quot;_key&quot;" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8Cv" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Cu" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;_id:&quot;" />
+          <property role="3fT77I" value="&quot;_id&quot;" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8Cx" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Cw" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;_rev:&quot;" />
+          <property role="3fT77I" value="&quot;_rev&quot;" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8BT" role="3f6BbQ">
           <property role="3fT77I" value="at" />
@@ -773,9 +777,6 @@
         </node>
         <node concept="3fT77D" id="Sv$7iJa8C6" role="3f6BbQ">
           <property role="3fT77I" value="underscore" />
-        </node>
-        <node concept="3fT77D" id="Sv$7iJa8C7" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;_&quot;" />
         </node>
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8BN" role="3f6AUK">
@@ -876,6 +877,7 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8_P" role="3f6AUK">
         <property role="TrG5h" value="Graph" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8_Q" role="3f6AUK">
         <property role="TrG5h" value="Graphs" />
@@ -952,7 +954,8 @@
           <property role="3fT77I" value="type" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8Ds" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;document&quot;" />
+          <property role="3fT77I" value="document" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8DI" role="3f6BbQ">
           <property role="3fT77I" value="." />
@@ -1006,6 +1009,7 @@
         </node>
         <node concept="3fT77D" id="Sv$7iJa8DA" role="3f6BbQ">
           <property role="3fT77I" value="concepts" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3f6BbF" id="Sv$7iJa8DC" role="3f6BbQ">
           <property role="3fT77I" value="," />
@@ -1088,7 +1092,7 @@
         <node concept="3f6BbC" id="Sv$7iJa8Ez" role="3f6BbQ">
           <ref role="3f6BbD" node="Sv$7iJa8CX" resolve="graph nodes" />
         </node>
-        <node concept="3fT77D" id="Sv$7iJa8EF" role="3f6BbQ">
+        <node concept="3f6BbF" id="4jS$w1O1EgM" role="3f6BbQ">
           <property role="3fT77I" value="," />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8EG" role="3f6BbQ">
@@ -1957,7 +1961,8 @@
           <property role="3fT77I" value="structured" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8tX" role="3f6BbQ">
-          <property role="3fT77I" value="collection" />
+          <property role="3fT77I" value="set" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="Sv$7iJa8tY" role="3f6BbQ">
           <property role="3fT77I" value="of" />
@@ -2057,6 +2062,7 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8tN" role="3f6AUK">
         <property role="TrG5h" value="Database" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8tO" role="3f6AUK">
         <property role="TrG5h" value="Databases" />
@@ -2432,6 +2438,7 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8Vi" role="3f6AUK">
         <property role="TrG5h" value="JSON-File" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
     <node concept="3f6AUQ" id="Sv$7iJa8tE" role="3f6AUR">
@@ -2798,6 +2805,7 @@
       </node>
       <node concept="3fT77D" id="7J16yTfzQO0" role="3f6BbQ">
         <property role="3fT77I" value="Export" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3fT77D" id="7J16yTfzR19" role="3f6BbQ">
         <property role="3fT77I" value="to" />
