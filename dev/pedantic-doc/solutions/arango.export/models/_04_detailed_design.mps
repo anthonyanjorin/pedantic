@@ -1342,7 +1342,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxaNp" role="3f6AUK">
-        <property role="TrG5h" value="edge_collection_control()" />
+        <property role="TrG5h" value="edge collection control" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTftO9L" role="3f6AUZ">
@@ -1451,7 +1451,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTftRNf" role="3f6AUK">
-        <property role="TrG5h" value="edge_coll_name" />
+        <property role="TrG5h" value="edge coll name" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTftVfy" role="3f6AUZ">
@@ -1565,7 +1565,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTftYPA" role="3f6AUK">
-        <property role="TrG5h" value="Create Collection of Type &quot;edge&quot;" />
+        <property role="TrG5h" value="Create Collection of Type edge" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfu4_I" role="3f6AUZ">
