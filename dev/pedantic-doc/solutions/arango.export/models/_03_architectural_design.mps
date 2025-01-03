@@ -664,7 +664,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="7J16yTfrtcl" role="1vU5Ow">
-      <property role="TrG5h" value="input: &quot;Path A&quot;" />
+      <property role="TrG5h" value="input Path A" />
       <node concept="3f6AUQ" id="7J16yTfruxn" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfru$3" role="3f6BbQ">
           <ref role="3f6BbD" node="7J16yTfnJGO" resolve="Path Input" />
@@ -673,7 +673,7 @@
       <node concept="3f6AUQ" id="7J16yTfry9q" role="$d$W1" />
     </node>
     <node concept="X_8GT" id="7J16yTfrtQQ" role="1vU5Ow">
-      <property role="TrG5h" value="input: &quot;Path B&quot;" />
+      <property role="TrG5h" value="input Path B" />
       <node concept="3f6AUQ" id="7J16yTfruIH" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfruIJ" role="3f6BbQ">
           <ref role="3f6BbD" node="7J16yTfnJGO" resolve="Path Input" />
@@ -694,7 +694,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="7J16yTfs7d0" role="1vU5Ow">
-      <property role="TrG5h" value="db_name=&quot;testDB1&quot;" />
+      <property role="TrG5h" value="set DB name as testDB1" />
       <node concept="3f6AUQ" id="7J16yTfs7WP" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfs84P" role="3f6BbQ">
           <ref role="3f6BbD" node="7J16yTfnFJj" resolve="Database Name" />
@@ -708,7 +708,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="7J16yTfs8q9" role="1vU5Ow">
-      <property role="TrG5h" value="db_name=&quot;testDB2&quot;" />
+      <property role="TrG5h" value="set DB name as testDB2" />
       <node concept="3f6AUQ" id="7J16yTfs8M4" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfs8OJ" role="3f6BbQ">
           <ref role="3f6BbD" node="7J16yTfnFJj" resolve="Database Name" />
@@ -731,7 +731,7 @@
       <property role="TrG5h" value="run " />
     </node>
     <node concept="X_8GT" id="4jS$w1NX5bg" role="1vU5Ow">
-      <property role="TrG5h" value="CollectionControl()" />
+      <property role="TrG5h" value="CollectionControl" />
       <node concept="3f6AUQ" id="4jS$w1NX5L5" role="1bdd_s">
         <node concept="3fT77D" id="4jS$w1NX5L6" role="3f6BbQ">
           <property role="3fT77I" value="runs" />
@@ -742,7 +742,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="4jS$w1NXbTN" role="1vU5Ow">
-      <property role="TrG5h" value="doc_adder()" />
+      <property role="TrG5h" value="Doc Adder" />
       <node concept="3f6AUQ" id="4jS$w1NXclk" role="1bdd_s">
         <node concept="3fT77D" id="4jS$w1NXcll" role="3f6BbQ">
           <property role="3fT77I" value="runs" />
@@ -753,7 +753,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="4jS$w1NXjEn" role="1vU5Ow">
-      <property role="TrG5h" value="create_Graph()" />
+      <property role="TrG5h" value="create Graph" />
     </node>
     <node concept="3zGEss" id="7J16yTfoJ2w" role="1fmyMU">
       <property role="TrG5h" value="DB Name" />
@@ -954,7 +954,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="7C5UPHnZL5j" role="1vU5Ow">
-      <property role="TrG5h" value="HTTP-Request" />
+      <property role="TrG5h" value="HTTP Request" />
       <node concept="3f6AUQ" id="7C5UPHnZL5k" role="$d$W1" />
     </node>
     <node concept="X_8GT" id="7C5UPHnZL6Y" role="1vU5Ow">
@@ -1307,7 +1307,7 @@
     <property role="TrG5h" value="Arango Database" />
     <property role="3GE5qa" value="ArangoDB Components" />
     <node concept="X_8GT" id="7J16yTfsdJ4" role="1vU5Ow">
-      <property role="TrG5h" value="ExportJSON-Files" />
+      <property role="TrG5h" value="ExportJSONFiles" />
     </node>
     <node concept="X_8GT" id="7J16yTfseWb" role="1vU5Ow">
       <property role="TrG5h" value="CreateGraph" />

@@ -75,6 +75,7 @@
         </node>
         <node concept="3fT77D" id="7J16yTfz025" role="3f6BbQ">
           <property role="3fT77I" value="node" />
+          <property role="11DDNk" value="true" />
         </node>
         <node concept="3fT77D" id="7J16yTfz08E" role="3f6BbQ">
           <property role="3fT77I" value="selected" />

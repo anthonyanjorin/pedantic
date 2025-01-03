@@ -77,7 +77,7 @@
   </registry>
   <node concept="1Lr20E" id="7C5UPHnZB9k">
     <property role="TrG5h" value="Activation of Arango Container - Deployment" />
-    <property role="3GE5qa" value="Docker Deployment - Test Design" />
+    <property role="3GE5qa" value="Docker Deployment Test Design" />
     <node concept="X_bju" id="7J16yTfoa2W" role="1LuVN3">
       <property role="TrG5h" value="Run Arango Container " />
       <node concept="1LuVN4" id="7J16yTfolYk" role="X_bjp">
@@ -280,7 +280,7 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfmx6q">
     <property role="TrG5h" value="Test Export JSON to Different Paths" />
-    <property role="3GE5qa" value="Export to Path - Test Design" />
+    <property role="3GE5qa" value="Export to Path Test Design" />
     <node concept="X_bju" id="7J16yTfmzdG" role="1LuVN3">
       <property role="TrG5h" value="Export to Path" />
       <node concept="1LuVN4" id="7J16yTfn3l9" role="X_bjp">
@@ -393,7 +393,7 @@
     </node>
   </node>
   <node concept="1fmyMM" id="7J16yTfmWfN">
-    <property role="3GE5qa" value="Export to Path - Test Design" />
+    <property role="3GE5qa" value="Export to Path Test Design" />
     <property role="TrG5h" value="Export to Path Architecture" />
     <node concept="1fmyMZ" id="7J16yTfmWPk" role="1fmyMW">
       <node concept="1fmyMC" id="7J16yTfmXLp" role="1fmyMH">
@@ -622,7 +622,7 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfrSmz">
     <property role="TrG5h" value="Engineer Defines Graph in ArangoDB" />
-    <property role="3GE5qa" value="Define Graph in ArangoDB - Test Design" />
+    <property role="3GE5qa" value="Define Graph in ArangoDB Test Design" />
     <node concept="X_bju" id="7J16yTfrTmo" role="1LuVN3">
       <property role="TrG5h" value="Export JSON to ArangoDB to different Databases" />
       <node concept="1LuVN4" id="7J16yTfs6ta" role="X_bjp">
@@ -705,7 +705,7 @@
     <node concept="3f6AUQ" id="7J16yTfrSm$" role="1LuVN1" />
   </node>
   <node concept="1fmyMM" id="7J16yTfrUj$">
-    <property role="3GE5qa" value="Define Graph in ArangoDB - Test Design" />
+    <property role="3GE5qa" value="Define Graph in ArangoDB Test Design" />
     <property role="TrG5h" value="Engingeer Exports Graph to ArangoDB" />
     <node concept="1fmyMZ" id="7J16yTfrUY5" role="1fmyMW">
       <node concept="1fmyMC" id="7J16yTfrWCr" role="1fmyMH">

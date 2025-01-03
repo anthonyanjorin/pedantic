@@ -588,7 +588,7 @@
     </node>
   </node>
   <node concept="3UcZMl" id="7J16yTfxPAi">
-    <property role="TrG5h" value="Create Collection - Test Design" />
+    <property role="TrG5h" value="Create Collection Test Design" />
     <property role="3GE5qa" value="Create Collection Test" />
     <node concept="3f6AUY" id="7J16yTfy73m" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfy73n" role="3f6AUE" />
@@ -638,7 +638,7 @@
   </node>
   <node concept="1Lr20E" id="7J16yTfy0kW">
     <property role="3GE5qa" value="Create Collection Test" />
-    <property role="TrG5h" value="Create Collection - Sequence" />
+    <property role="TrG5h" value="Create Collection Sequence" />
     <node concept="1rTVtr" id="7J16yTfy16d" role="1LuVN3">
       <property role="TrG5h" value="Edge Collection" />
       <ref role="1rOGIq" node="7J16yTfy21s" resolve="Edge Collection" />
@@ -766,7 +766,7 @@
     <node concept="3f6AUQ" id="7J16yTfy0kX" role="1LuVN1" />
   </node>
   <node concept="3UcZMl" id="7J16yTfygxr">
-    <property role="TrG5h" value="Document Adder - Test Design" />
+    <property role="TrG5h" value="Document Adder Test Design" />
     <property role="3GE5qa" value="Document Adder Test" />
     <node concept="3f6AUY" id="7J16yTfyoeq" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfyoer" role="3f6AUE" />
@@ -949,7 +949,7 @@
     <node concept="3f6AUQ" id="7J16yTfynwt" role="1LuVN1" />
   </node>
   <node concept="3UcZMl" id="7J16yTfyz4c">
-    <property role="TrG5h" value="Create Graph - Test Design" />
+    <property role="TrG5h" value="Create Graph Test Design" />
     <property role="3GE5qa" value="Create Graph Test" />
     <node concept="3f6AUY" id="7J16yTfyCNO" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfyCNP" role="3f6AUE" />

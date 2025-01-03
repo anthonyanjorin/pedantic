@@ -118,7 +118,7 @@
     </language>
   </registry>
   <node concept="3UcZMl" id="7C5UPHnZALg">
-    <property role="TrG5h" value="database_control()" />
+    <property role="TrG5h" value="database control" />
     <property role="XwtER" value="Stefan Kostic" />
     <node concept="3f6AUY" id="7C5UPHnZALC" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZALD" role="3f6AUE">
@@ -654,7 +654,7 @@
     </node>
   </node>
   <node concept="3UcZMl" id="7C5UPHnZAS1">
-    <property role="TrG5h" value="Collection Control" />
+    <property role="TrG5h" value="Collection Creator" />
     <property role="3GE5qa" value="Collection Function Descriptions" />
     <node concept="3f6AUY" id="7J16yTfvM91" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfvM92" role="3f6AUE">
@@ -1315,7 +1315,7 @@
   </node>
   <node concept="3UcZMl" id="7J16yTftLrN">
     <property role="3GE5qa" value="Collection Function Descriptions" />
-    <property role="TrG5h" value="edge_collection_control()" />
+    <property role="TrG5h" value="edge collection control" />
     <node concept="3f6AUY" id="7J16yTfxaNn" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfxaNo" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfxbqN" role="3f6BbQ">
@@ -1611,7 +1611,7 @@
   </node>
   <node concept="3UcZMl" id="7J16yTfu7dZ">
     <property role="3GE5qa" value="Collection Function Descriptions" />
-    <property role="TrG5h" value="doc_collection_control()" />
+    <property role="TrG5h" value="Document Adder" />
     <node concept="3f6AUY" id="7J16yTfxhkZ" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfxhl0" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfxhCI" role="3f6BbQ">
@@ -2443,6 +2443,7 @@
         <node concept="3f6AUQ" id="7J16yTfw88v" role="1rODdj">
           <node concept="3fT77D" id="7J16yTfw8in" role="3f6BbQ">
             <property role="3fT77I" value="console" />
+            <property role="11DDNk" value="true" />
           </node>
           <node concept="3fT77D" id="7J16yTfw8lE" role="3f6BbQ">
             <property role="3fT77I" value="output" />
@@ -2532,6 +2533,7 @@
           </node>
           <node concept="3fT77D" id="7J16yTfw9qS" role="3f6BbQ">
             <property role="3fT77I" value="console" />
+            <property role="11DDNk" value="true" />
           </node>
         </node>
       </node>
@@ -2892,7 +2894,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="7J16yTfrtcl" role="1vU5Ow">
-      <property role="TrG5h" value="input: &quot;Path A&quot;" />
+      <property role="TrG5h" value="input Path A" />
       <node concept="3f6AUQ" id="7J16yTfruxn" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfru$3" role="3f6BbQ">
           <ref role="3f6BbD" to="aamg:7J16yTfnJGO" resolve="Path Input" />
@@ -2901,7 +2903,7 @@
       <node concept="3f6AUQ" id="7J16yTfry9q" role="$d$W1" />
     </node>
     <node concept="X_8GT" id="7J16yTfrtQQ" role="1vU5Ow">
-      <property role="TrG5h" value="input: &quot;Path B&quot;" />
+      <property role="TrG5h" value="input Path B " />
       <node concept="3f6AUQ" id="7J16yTfruIH" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfruIJ" role="3f6BbQ">
           <ref role="3f6BbD" to="aamg:7J16yTfnJGO" resolve="Path Input" />
@@ -2910,7 +2912,7 @@
       <node concept="3f6AUQ" id="7J16yTfrxYI" role="$d$W1" />
     </node>
     <node concept="X_8GT" id="7J16yTfryIG" role="1vU5Ow">
-      <property role="TrG5h" value="run Function()" />
+      <property role="TrG5h" value="run Function" />
       <node concept="3f6AUQ" id="7J16yTfrz9h" role="$d$W1" />
       <node concept="3f6AUQ" id="7J16yTfrzTk" role="1bdd_s">
         <node concept="3fT77D" id="7J16yTfrzTl" role="3f6BbQ">
@@ -2922,7 +2924,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="7J16yTfs7d0" role="1vU5Ow">
-      <property role="TrG5h" value="db_name=&quot;testDB1&quot;" />
+      <property role="TrG5h" value="Set DB Name as testDB1" />
       <node concept="3f6AUQ" id="7J16yTfs7WP" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfs84P" role="3f6BbQ">
           <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
@@ -2931,12 +2933,12 @@
           <property role="3fT77I" value="equals" />
         </node>
         <node concept="3fT77D" id="7J16yTfs8fw" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;TestDB1&quot;" />
+          <property role="3fT77I" value="TestDB1" />
         </node>
       </node>
     </node>
     <node concept="X_8GT" id="7J16yTfs8q9" role="1vU5Ow">
-      <property role="TrG5h" value="db_name=&quot;testDB2&quot;" />
+      <property role="TrG5h" value="Set DB Name as testDB2 " />
       <node concept="3f6AUQ" id="7J16yTfs8M4" role="1bdd_s">
         <node concept="3f6BbC" id="7J16yTfs8OJ" role="3f6BbQ">
           <ref role="3f6BbD" to="aamg:7J16yTfnFJj" resolve="Database Name" />
@@ -2945,7 +2947,7 @@
           <property role="3fT77I" value="equals" />
         </node>
         <node concept="3fT77D" id="7J16yTfs924" role="3f6BbQ">
-          <property role="3fT77I" value="&quot;TestDB2&quot;" />
+          <property role="3fT77I" value="TestDB2" />
         </node>
       </node>
     </node>
@@ -2959,7 +2961,7 @@
       <property role="TrG5h" value="run " />
     </node>
     <node concept="X_8GT" id="4jS$w1NX5bg" role="1vU5Ow">
-      <property role="TrG5h" value="CollectionControl()" />
+      <property role="TrG5h" value="CollectionControl" />
       <node concept="3f6AUQ" id="4jS$w1NX5L5" role="1bdd_s">
         <node concept="3fT77D" id="4jS$w1NX5L6" role="3f6BbQ">
           <property role="3fT77I" value="runs" />
@@ -2970,7 +2972,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="4jS$w1NXbTN" role="1vU5Ow">
-      <property role="TrG5h" value="doc_adder()" />
+      <property role="TrG5h" value="Doc Adder" />
       <node concept="3f6AUQ" id="4jS$w1NXclk" role="1bdd_s">
         <node concept="3fT77D" id="4jS$w1NXcll" role="3f6BbQ">
           <property role="3fT77I" value="runs" />
@@ -2981,7 +2983,7 @@
       </node>
     </node>
     <node concept="X_8GT" id="4jS$w1NXjEn" role="1vU5Ow">
-      <property role="TrG5h" value="create_Graph()" />
+      <property role="TrG5h" value="Create Graph" />
     </node>
     <node concept="3zGEss" id="7J16yTfoJ2w" role="1fmyMU">
       <property role="TrG5h" value="dbname" />
