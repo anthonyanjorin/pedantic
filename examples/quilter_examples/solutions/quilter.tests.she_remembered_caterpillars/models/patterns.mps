@@ -384,7 +384,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bPyj" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bPyh" resolve="platform1" />
         </node>
       </node>
@@ -425,7 +425,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSmC" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSmJ" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSmZ" role="2yiVu7">
@@ -475,7 +475,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSn7" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSnh" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSn8" role="2yiVu7">
@@ -525,7 +525,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSnK" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSnU" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSnL" role="2yiVu7">
@@ -575,7 +575,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSoN" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSoX" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSoO" role="2yiVu7">
@@ -625,7 +625,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSpf" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSpp" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSpg" role="2yiVu7">
@@ -675,7 +675,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSpt" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSpB" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSpu" role="2yiVu7">
@@ -725,7 +725,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSqj" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSqt" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSqk" role="2yiVu7">
@@ -775,7 +775,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSqx" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSqF" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSqy" role="2yiVu7">
@@ -825,7 +825,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSqJ" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSqT" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSqK" role="2yiVu7">
@@ -875,7 +875,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSqX" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSr7" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSqY" role="2yiVu7">
@@ -925,7 +925,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSrb" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSrl" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSrc" role="2yiVu7">
@@ -975,7 +975,7 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4bSrp" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
           <ref role="3F$xdr" node="2MtiOR4bSrz" resolve="platform1" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bSrq" role="2yiVu7">
@@ -1214,7 +1214,7 @@
         <node concept="3F$xvT" id="2MtiOR4bYom" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4bYok" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bYoO" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4bYoQ" role="2yiVun">
@@ -1241,7 +1241,7 @@
         <node concept="3F$xvT" id="2MtiOR4bYoD" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4bYok" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4bYok" role="3F$xvU">
@@ -1257,7 +1257,7 @@
         <node concept="3F$xvT" id="2MtiOR4bYpc" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4bYpl" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bYpd" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4bYpe" role="2yiVun">
@@ -1284,7 +1284,7 @@
         <node concept="3F$xvT" id="2MtiOR4bYpk" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4bYpl" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4bYpl" role="3F$xvU">
@@ -1300,7 +1300,7 @@
         <node concept="3F$xvT" id="2MtiOR4bYpp" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4bYpy" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4bYpq" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4bYpr" role="2yiVun">
@@ -1327,7 +1327,7 @@
         <node concept="3F$xvT" id="2MtiOR4bYpx" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4bYpy" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4bYpy" role="3F$xvU">
@@ -1343,7 +1343,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_k$" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_kH" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_k_" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_kA" role="2yiVun">
@@ -1370,7 +1370,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_kG" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_kH" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_kH" role="3F$xvU">
@@ -1386,7 +1386,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_kK" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_kT" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_kL" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_kM" role="2yiVun">
@@ -1413,7 +1413,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_kS" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_kT" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_kT" role="3F$xvU">
@@ -1429,7 +1429,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_kW" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_l5" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_kX" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_kY" role="2yiVun">
@@ -1456,7 +1456,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_l4" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_l5" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_l5" role="3F$xvU">
@@ -1472,7 +1472,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_l9" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_li" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_la" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_lb" role="2yiVun">
@@ -1499,7 +1499,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_lh" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_li" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_li" role="3F$xvU">
@@ -1515,7 +1515,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_lm" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_lv" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_ln" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_lo" role="2yiVun">
@@ -1542,7 +1542,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_lu" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_lv" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_lv" role="3F$xvU">
@@ -1558,7 +1558,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_lz" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_lG" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_l$" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_l_" role="2yiVun">
@@ -1585,7 +1585,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_lF" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_lG" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_lG" role="3F$xvU">
@@ -1601,7 +1601,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_lX" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_m6" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_lY" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_lZ" role="2yiVun">
@@ -1628,7 +1628,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_m5" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_m6" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_m6" role="3F$xvU">
@@ -1644,7 +1644,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_ma" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_mj" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_mb" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_mc" role="2yiVun">
@@ -1671,7 +1671,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_mi" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_mj" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_mj" role="3F$xvU">
@@ -1687,7 +1687,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_mn" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_mw" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
         <node concept="2yiVuq" id="2MtiOR4c_mo" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR4c_mp" role="2yiVun">
@@ -1714,7 +1714,7 @@
         <node concept="3F$xvT" id="2MtiOR4c_mv" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4c_mw" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4c_mw" role="3F$xvU">
@@ -1738,7 +1738,7 @@
         <node concept="3F$xvT" id="2MtiOR4cAvS" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cAvh" resolve="button" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cAv0" role="3F$xvU">
@@ -1747,7 +1747,7 @@
         <node concept="3F$xvT" id="2MtiOR4cAv4" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cAv2" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cAv1" role="3F$xvU">
@@ -1756,17 +1756,17 @@
         <node concept="3F$xvT" id="2MtiOR4cAv6" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cAv2" resolve="p1" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZR" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZR" resolve="src" />
         </node>
         <node concept="3F$xvT" id="2MtiOR4cAv5" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cAv3" resolve="p2" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZS" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZS" resolve="trg" />
         </node>
         <node concept="3F$xvT" id="2MtiOR4cAvw" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cAvh" resolve="button" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4cAvu" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4cAvu" resolve="buttons" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cAv2" role="3F$xvU">
@@ -1786,7 +1786,7 @@
         <node concept="3F$xvT" id="2MtiOR4cE2W" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cE2M" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZ_" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZ_" resolve="entities" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cE1B" role="3F$xvU">
@@ -1799,7 +1799,7 @@
         <node concept="3F$xvT" id="2MtiOR4cE2N" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cE1B" resolve="pad" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4cE2F" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4cE2F" resolve="pads" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cE1C" role="3F$xvU">
@@ -1808,8 +1808,8 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
         <node concept="3F$xvT" id="2MtiOR4cE1D" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR4cE1B" resolve="button" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdr" node="2MtiOR4cE1B" resolve="pad" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
     </node>
@@ -1830,7 +1830,7 @@
         <node concept="3F$xvT" id="2MtiOR4cEKn" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cEKm" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cEKl" role="3F$xvU">
@@ -1848,7 +1848,7 @@
         <node concept="3F$xvT" id="2MtiOR4cEKo" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cEKm" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cEKm" role="3F$xvU">
@@ -1873,7 +1873,7 @@
         <node concept="3F$xvT" id="2MtiOR4cEKM" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cEKS" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cEKN" role="3F$xvU">
@@ -1891,7 +1891,7 @@
         <node concept="3F$xvT" id="2MtiOR4cEKR" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cEKS" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cEKS" role="3F$xvU">
@@ -1916,7 +1916,7 @@
         <node concept="3F$xvT" id="2MtiOR4cELa" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cELg" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cELb" role="3F$xvU">
@@ -1934,7 +1934,7 @@
         <node concept="3F$xvT" id="2MtiOR4cELf" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR4cELg" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR4cELg" role="3F$xvU">

@@ -813,7 +813,7 @@
         <node concept="3F$xvT" id="2MtiOR34_H4" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="2MtiOR34_H3" resolve="fruit" />
-          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFx" resolve="fruits" />
         </node>
         <node concept="3Io7SA" id="2MtiOR34_ED" role="2yiVu7">
           <node concept="2yiVur" id="2MtiOR34_EI" role="3Io2QB">
@@ -966,7 +966,7 @@
       <node concept="3eKGH1" id="2LgBuUjvLfO" role="3eKGHX">
         <property role="3Fq0gx" value="2" />
         <property role="3eKGHa" value="10" />
-        <ref role="3eKGHL" node="2MtiOR34_Eq" resolve="NotTheAppleTree" />
+        <ref role="3eKGHL" node="2MtiOR34_Eq" resolve="NotTheAppleTreeWithoutFruits" />
         <node concept="3eImRP" id="2MtiOR34_IA" role="3eKGHR">
           <node concept="3eJ099" id="2MtiOR34_IB" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />

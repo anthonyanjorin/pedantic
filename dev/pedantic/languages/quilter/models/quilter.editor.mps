@@ -2397,13 +2397,13 @@
     <ref role="1XX52x" to="uyb6:2MtiOR2ZjlF" resolve="NotEqualsExpression" />
     <node concept="3EZMnI" id="2MtiOR2ZnbR" role="2wV5jI">
       <node concept="3F1sOY" id="2MtiOR2ZnbS" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZmrE" />
+        <ref role="1NtTu8" to="uyb6:2MtiOR2ZmrE" resolve="lhs" />
       </node>
       <node concept="3F0ifn" id="2MtiOR2ZnbT" role="3EZMnx">
         <property role="3F0ifm" value="!=" />
       </node>
       <node concept="3F1sOY" id="2MtiOR2ZnbU" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZmrF" />
+        <ref role="1NtTu8" to="uyb6:2MtiOR2ZmrF" resolve="rhs" />
       </node>
       <node concept="l2Vlx" id="2MtiOR2ZnbV" role="2iSdaV" />
     </node>
@@ -2413,7 +2413,7 @@
     <ref role="1XX52x" to="uyb6:2MtiOR2ZuWU" resolve="NotEqualsToConstant" />
     <node concept="3EZMnI" id="2MtiOR2ZJZ1" role="2wV5jI">
       <node concept="1iCGBv" id="2MtiOR2ZJZ2" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWW" />
+        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWW" resolve="variable" />
         <node concept="1sVBvm" id="2MtiOR2ZJZ3" role="1sWHZn">
           <node concept="3F0A7n" id="2MtiOR2ZJZ4" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -2426,7 +2426,7 @@
         <property role="3F0ifm" value="!=" />
       </node>
       <node concept="1iCGBv" id="2MtiOR2ZJZ6" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWV" />
+        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWV" resolve="constant" />
         <node concept="1sVBvm" id="2MtiOR2ZJZ7" role="1sWHZn">
           <node concept="B$lHz" id="2MtiOR2ZJZ8" role="2wV5jI" />
         </node>
@@ -2439,7 +2439,7 @@
     <ref role="1XX52x" to="uyb6:2MtiOR2ZuWR" resolve="NotEqualsToValue" />
     <node concept="3EZMnI" id="2MtiOR2ZJZc" role="2wV5jI">
       <node concept="1iCGBv" id="2MtiOR2ZJZd" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWS" />
+        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWS" resolve="left" />
         <node concept="1sVBvm" id="2MtiOR2ZJZe" role="1sWHZn">
           <node concept="3F0A7n" id="2MtiOR2ZJZf" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -2452,7 +2452,7 @@
         <property role="3F0ifm" value="!=" />
       </node>
       <node concept="1iCGBv" id="2MtiOR2ZJZh" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWT" />
+        <ref role="1NtTu8" to="uyb6:2MtiOR2ZuWT" resolve="right" />
         <node concept="1sVBvm" id="2MtiOR2ZJZi" role="1sWHZn">
           <node concept="3F0A7n" id="2MtiOR2ZJZj" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -2472,7 +2472,7 @@
         <property role="3F0ifm" value="CheckWithValue_BB[" />
       </node>
       <node concept="3F1sOY" id="2MtiOR2ZLyE" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUiiKbW" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUiiKbW" resolve="boundLeft" />
       </node>
       <node concept="1QoScp" id="2MtiOR2ZNoJ" role="3EZMnx">
         <property role="1QpmdY" value="true" />
@@ -2496,7 +2496,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="2MtiOR2ZLyG" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUiiKbX" />
+        <ref role="1NtTu8" to="uyb6:2LgBuUiiKbX" resolve="boundRight" />
         <node concept="1sVBvm" id="2MtiOR2ZLyH" role="1sWHZn">
           <node concept="B$lHz" id="2MtiOR2ZLyI" role="2wV5jI" />
         </node>

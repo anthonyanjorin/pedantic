@@ -4,7 +4,9 @@
   <languages>
     <use id="563b8661-a49f-4fda-ad97-911b4bd32744" name="quilter.examples.sokoban" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="glxn" ref="r:18ef3e9a-3add-433d-ade0-b778409846d4(patterns)" />
+  </imports>
   <registry>
     <language id="563b8661-a49f-4fda-ad97-911b4bd32744" name="quilter.examples.sokoban">
       <concept id="3214808506350462813" name="quilter.examples.sokoban.structure.World" flags="ng" index="3HsiKg">

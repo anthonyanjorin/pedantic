@@ -2,31 +2,31 @@
 <model ref="r:555e7b25-ff5e-4a7c-9dbe-07754103905c(models)">
   <persistence version="9" />
   <languages>
-    <use id="eb48e5cf-d0b2-490e-8476-59bf381918fd" name="Obstgarten" version="0" />
+    <use id="eb48e5cf-d0b2-490e-8476-59bf381918fd" name="quilter.examples.obstgarten" version="0" />
   </languages>
   <imports />
   <registry>
-    <language id="eb48e5cf-d0b2-490e-8476-59bf381918fd" name="Obstgarten">
-      <concept id="8789799326232031560" name="Obstgarten.structure.Raven" flags="ng" index="3eZ9ay">
+    <language id="eb48e5cf-d0b2-490e-8476-59bf381918fd" name="quilter.examples.obstgarten">
+      <concept id="8789799326232031560" name="quilter.examples.obstgarten.structure.Raven" flags="ng" index="3eZ9ay">
         <reference id="8789799326232034014" name="on" index="3eZ9$O" />
       </concept>
-      <concept id="8789799326232031561" name="Obstgarten.structure.FruitTree" flags="ng" index="3eZ9az">
+      <concept id="8789799326232031561" name="quilter.examples.obstgarten.structure.FruitTree" flags="ng" index="3eZ9az">
         <child id="8789799326232034017" name="fruits" index="3eZ9$b" />
       </concept>
-      <concept id="8789799326232031567" name="Obstgarten.structure.FruitBasket" flags="ng" index="3eZ9a_">
+      <concept id="8789799326232031567" name="quilter.examples.obstgarten.structure.FruitBasket" flags="ng" index="3eZ9a_">
         <child id="8789799326232034007" name="fruits" index="3eZ9$X" />
       </concept>
-      <concept id="8789799326232031564" name="Obstgarten.structure.Dice" flags="ng" index="3eZ9aA">
+      <concept id="8789799326232031564" name="quilter.examples.obstgarten.structure.Dice" flags="ng" index="3eZ9aA">
         <reference id="8789799326232034023" name="nextMove" index="3eZ9$d" />
       </concept>
-      <concept id="8789799326232031565" name="Obstgarten.structure.Fruit" flags="ng" index="3eZ9aB" />
-      <concept id="8789799326232031555" name="Obstgarten.structure.Pathway" flags="ng" index="3eZ9aD">
+      <concept id="8789799326232031565" name="quilter.examples.obstgarten.structure.Fruit" flags="ng" index="3eZ9aB" />
+      <concept id="8789799326232031555" name="quilter.examples.obstgarten.structure.Pathway" flags="ng" index="3eZ9aD">
         <child id="8789799326232034002" name="segments" index="3eZ9$S" />
       </concept>
-      <concept id="8789799326232031558" name="Obstgarten.structure.PathSegment" flags="ng" index="3eZ9aG">
+      <concept id="8789799326232031558" name="quilter.examples.obstgarten.structure.PathSegment" flags="ng" index="3eZ9aG">
         <property id="8789799326232469861" name="position" index="3eX$af" />
       </concept>
-      <concept id="8789799326232031570" name="Obstgarten.structure.Orchard" flags="ng" index="3eZ9aS">
+      <concept id="8789799326232031570" name="quilter.examples.obstgarten.structure.Orchard" flags="ng" index="3eZ9aS">
         <child id="8789799326232033984" name="pathway" index="3eZ9$E" />
         <child id="8789799326232033978" name="basket" index="3eZ9_g" />
         <child id="8789799326232033981" name="dice" index="3eZ9_n" />
