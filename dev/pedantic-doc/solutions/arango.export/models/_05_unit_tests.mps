@@ -95,7 +95,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfwYON" role="3f6AUK">
-        <property role="TrG5h" value="Test: Create Database" />
+        <property role="TrG5h" value="Create Database Test" />
       </node>
       <node concept="3BFnmI" id="7J16yTfx1TT" role="3BFnmE">
         <node concept="3f6BbC" id="7J16yTfx4kp" role="3BFnmH">
@@ -128,7 +128,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxgH_" role="3f6AUK">
-        <property role="TrG5h" value="Test: Create Document Collection" />
+        <property role="TrG5h" value="Create Document Collection Test" />
       </node>
       <node concept="3BFnmI" id="7J16yTfxjCZ" role="3BFnmE">
         <node concept="3BFnma" id="7J16yTfxjJ$" role="3BFnmh">
@@ -159,7 +159,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfx9F8" role="3f6AUK">
-        <property role="TrG5h" value="Test: Create Edge Collection" />
+        <property role="TrG5h" value="Create Edge Collection Test" />
       </node>
       <node concept="3BFnmI" id="7J16yTfxezj" role="3BFnmE">
         <node concept="3BFnma" id="7J16yTfxeKs" role="3BFnmh">
@@ -189,7 +189,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxkIa" role="3f6AUK">
-        <property role="TrG5h" value="Test: Document Adder" />
+        <property role="TrG5h" value="Document Adder test" />
       </node>
       <node concept="3BFnmI" id="7J16yTfxmSc" role="3BFnmE">
         <node concept="3BFnma" id="7J16yTfxn5l" role="3BFnmh">
@@ -217,7 +217,7 @@
         </node>
       </node>
       <node concept="3f6AUX" id="7J16yTfxnAf" role="3f6AUK">
-        <property role="TrG5h" value="Test: Create Graph" />
+        <property role="TrG5h" value="Create Graph Test" />
       </node>
       <node concept="3BFnmI" id="7J16yTfxqCd" role="3BFnmE">
         <node concept="3BFnma" id="7J16yTfxrDV" role="3BFnmh">
