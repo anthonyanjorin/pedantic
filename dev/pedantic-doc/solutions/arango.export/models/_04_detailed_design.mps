@@ -18,8 +18,19 @@
         <child id="6010201709301647773" name="returns" index="$d$W1" />
         <child id="470559418572020240" name="description" index="1bdd_s" />
       </concept>
+      <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
+        <child id="6010201709267609475" name="participants" index="AfY4v" />
+        <child id="8987473119584018422" name="messages" index="X_bjp" />
+        <child id="8987473119584018420" name="description" index="X_bjr" />
+      </concept>
       <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
+      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="6010201709267609479" name="self" index="AfY4r" />
+      </concept>
+      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
+        <child id="7161014301860983851" name="desc" index="1YyRMU" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
@@ -69,8 +80,14 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
+      <concept id="8617956174780088291" name="pedantic.structure.ComponentParticipant" flags="ng" index="1gfTUo">
+        <reference id="8617956174780088399" name="ref" index="1gfY4O" />
+      </concept>
       <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
         <reference id="8617956174760287129" name="target" index="1hSrFy" />
+      </concept>
+      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
+        <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
       <concept id="3402856230705402903" name="pedantic.structure.InitialState" flags="ng" index="1rOGIx" />
       <concept id="3402856230705402906" name="pedantic.structure.CompositeState" flags="ng" index="1rOGIG">
@@ -102,6 +119,10 @@
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
+      </concept>
+      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
+        <reference id="6010201709267609490" name="to" index="AfY4e" />
+        <reference id="6010201709267609485" name="from" index="AfY4h" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -3279,6 +3300,115 @@
       </node>
     </node>
     <node concept="1fmyMZ" id="7J16yTfo$BK" role="1fmyMW" />
+  </node>
+  <node concept="1Lr20E" id="4jS$w1O2yyx">
+    <property role="TrG5h" value="Unit Sequences" />
+    <node concept="X_bju" id="4jS$w1O2_bA" role="1LuVN3">
+      <property role="TrG5h" value="Database Creator Sequence" />
+      <node concept="1gfTUo" id="4jS$w1O3o9V" role="AfY4v">
+        <property role="TrG5h" value="Export Application.Database Creator" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZAG9" resolve="Database Creator" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1O3tqm" role="AfY4v">
+        <property role="TrG5h" value="Export Application.Collection Creator" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZB7m" resolve="Collection Creator" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1O3tYl" role="AfY4v">
+        <property role="TrG5h" value="Export Application.Document Adder" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZB7n" resolve="Document Adder" />
+      </node>
+      <node concept="1gfTUo" id="4jS$w1O3ur8" role="AfY4v">
+        <property role="TrG5h" value="Export Application.Graph Creator" />
+        <ref role="1gfY4O" to="aamg:7J16yTfp0q4" resolve="Graph Creator" />
+      </node>
+      <node concept="3f6AUQ" id="4jS$w1O2_bC" role="X_bjr" />
+      <node concept="18RnWb" id="4jS$w1O3vrR" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O2Jmu" resolve="Set var hasDB = conn.hasDatabase(DB Name)" />
+      </node>
+      <node concept="19Azo$" id="4jS$w1O3yRs" role="X_bjp">
+        <node concept="3f6AUQ" id="4jS$w1O3yRu" role="1YyRMU">
+          <node concept="3fT77D" id="4jS$w1O3$Bd" role="3f6BbQ">
+            <property role="3fT77I" value="If" />
+          </node>
+          <node concept="3fT77D" id="4jS$w1O3$Be" role="3f6BbQ">
+            <property role="3fT77I" value="hasDB" />
+          </node>
+          <node concept="3fT77D" id="4jS$w1O3zDX" role="3f6BbQ">
+            <property role="3fT77I" value="==" />
+          </node>
+          <node concept="3fT77D" id="4jS$w1O3zLa" role="3f6BbQ">
+            <property role="3fT77I" value="False" />
+          </node>
+        </node>
+      </node>
+      <node concept="18RnWb" id="4jS$w1O3Eyh" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O3FrN" resolve="CreateDatabase()" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1O3L2S" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O3LLC" resolve="Print(DB is created)" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1O3Vah" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="AfY4e" node="4jS$w1O3tqm" resolve="Export Application.Collection Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NZwDi" resolve="Forward DB Name" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1O3Xj3" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O3PZn" resolve="CollectionCreator()" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1O3XR2" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="AfY4e" node="4jS$w1O3tYl" resolve="Export Application.Document Adder" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NZxIa" resolve="Forward DB Name" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1O40Bb" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O3Qhm" resolve="DocumentAdder()" />
+      </node>
+      <node concept="1LuVN4" id="4jS$w1O41Qv" role="X_bjp">
+        <ref role="AfY4h" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="AfY4e" node="4jS$w1O3ur8" resolve="Export Application.Graph Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NZxSX" resolve="Forward DB Name" />
+      </node>
+      <node concept="18RnWb" id="4jS$w1O43KI" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O3QWv" resolve="GraphCreator()" />
+      </node>
+      <node concept="19Azo$" id="4jS$w1O453K" role="X_bjp">
+        <node concept="3f6AUQ" id="4jS$w1O453M" role="1YyRMU">
+          <node concept="3fT77D" id="4jS$w1O45b1" role="3f6BbQ">
+            <property role="3fT77I" value="else" />
+          </node>
+        </node>
+      </node>
+      <node concept="18RnWb" id="4jS$w1O45wA" role="X_bjp">
+        <ref role="AfY4r" node="4jS$w1O3o9V" resolve="Export Application.Database Creator" />
+        <ref role="19Fzs9" to="aamg:4jS$w1O46QS" resolve="Print ErrorMessage" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="4jS$w1O2yyy" role="1LuVN1">
+      <node concept="3fT77D" id="4jS$w1O2zot" role="3f6BbQ">
+        <property role="3fT77I" value="describes" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O2zvE" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O2zAR" role="3f6BbQ">
+        <property role="3fT77I" value="detailed" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O2zI4" role="3f6BbQ">
+        <property role="3fT77I" value="sequence" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O2zWt" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="1hSrFG" id="4jS$w1O2$aR" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAGb" resolve="Database Creator" />
+      </node>
+    </node>
   </node>
 </model>
 

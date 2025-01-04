@@ -1138,6 +1138,73 @@
   <node concept="1fmyL8" id="7C5UPHnZAGb">
     <property role="TrG5h" value="Database Creator" />
     <property role="3GE5qa" value="Python Components" />
+    <node concept="X_8GT" id="4jS$w1O2Jmu" role="1vU5Ow">
+      <property role="TrG5h" value="Set var hasDB = conn.hasDatabase(DB Name)" />
+      <node concept="3f6AUQ" id="4jS$w1O2Png" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1O2Pnh" role="3f6BbQ">
+          <property role="3fT77I" value="Set" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2Puu" role="3f6BbQ">
+          <property role="3fT77I" value="Variable" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2PO3" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2PVg" role="3f6BbQ">
+          <property role="3fT77I" value="check" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2Q2t" role="3f6BbQ">
+          <property role="3fT77I" value="if" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2Q2u" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2Q2v" role="3f6BbQ">
+          <property role="3fT77I" value="DB" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O2QgS" role="3f6BbQ">
+          <property role="3fT77I" value="exists" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3FrN" role="1vU5Ow">
+      <property role="TrG5h" value="CreateDatabase()" />
+      <node concept="3f6AUQ" id="4jS$w1O3FS$" role="$d$W1">
+        <node concept="3fT77D" id="4jS$w1O3FZL" role="3f6BbQ">
+          <property role="3fT77I" value="Database" />
+          <property role="11DDNk" value="true" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3LLC" role="1vU5Ow">
+      <property role="TrG5h" value="Print Database Created" />
+      <node concept="3f6AUQ" id="4jS$w1O3Nx3" role="1bdd_s">
+        <node concept="3fT77D" id="4jS$w1O3NCg" role="3f6BbQ">
+          <property role="3fT77I" value="Print" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O3NCh" role="3f6BbQ">
+          <property role="3fT77I" value="Message" />
+        </node>
+      </node>
+    </node>
+    <node concept="X_8GT" id="4jS$w1O46QS" role="1vU5Ow">
+      <property role="TrG5h" value="Print ErrorMessage" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3PZn" role="1vU5Ow">
+      <property role="TrG5h" value="CollectionCreator()" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3Qhm" role="1vU5Ow">
+      <property role="TrG5h" value="DocumentAdder()" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3QWv" role="1vU5Ow">
+      <property role="TrG5h" value="GraphCreator()" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3Sfb" role="1vU5Ow">
+      <property role="TrG5h" value="DB Name" />
+    </node>
+    <node concept="X_8GT" id="4jS$w1O3RXc" role="1vU5Ow">
+      <property role="TrG5h" value="Path" />
+    </node>
     <node concept="3zGEss" id="7J16yTfnL1P" role="1fmyMU">
       <property role="TrG5h" value="DB Name" />
       <ref role="3zGEsh" node="7J16yTfnFJj" resolve="Database Name" />
@@ -1197,7 +1264,7 @@
       <property role="TrG5h" value="Call" />
     </node>
     <node concept="X_8GT" id="4jS$w1NZwDi" role="1vU5Ow">
-      <property role="TrG5h" value="Forward DB Name" />
+      <property role="TrG5h" value="DB Name" />
     </node>
     <node concept="3zGEss" id="7J16yTfnI0l" role="1fmyMU">
       <property role="TrG5h" value="DB name" />
@@ -1245,10 +1312,10 @@
       <property role="TrG5h" value="Call" />
     </node>
     <node concept="X_8GT" id="4jS$w1NZxIa" role="1vU5Ow">
-      <property role="TrG5h" value="Forward DB Name" />
+      <property role="TrG5h" value="DB Name" />
     </node>
     <node concept="X_8GT" id="4jS$w1NZBiG" role="1vU5Ow">
-      <property role="TrG5h" value="Forward Path" />
+      <property role="TrG5h" value="Path" />
     </node>
     <node concept="3zGEss" id="7C5UPHnZAJg" role="1fmyMO">
       <property role="TrG5h" value="Documents" />
@@ -1511,7 +1578,7 @@
       <property role="TrG5h" value="Call" />
     </node>
     <node concept="X_8GT" id="4jS$w1NZxSX" role="1vU5Ow">
-      <property role="TrG5h" value="Forward DB Name" />
+      <property role="TrG5h" value="DB Name" />
     </node>
     <node concept="3zGEss" id="7J16yTfplkN" role="1fmyMU">
       <property role="TrG5h" value="DB name" />
