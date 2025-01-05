@@ -141,6 +141,7 @@
   <node concept="3UcZMl" id="7C5UPHnZALg">
     <property role="TrG5h" value="database control" />
     <property role="XwtER" value="Stefan Kostic" />
+    <property role="3GE5qa" value="Description of Units" />
     <node concept="3f6AUY" id="7C5UPHnZALC" role="3f6AUZ">
       <node concept="3f6AUQ" id="7C5UPHnZALD" role="3f6AUE">
         <node concept="1hSrFG" id="7C5UPHnZAM$" role="3f6BbQ">
@@ -978,6 +979,7 @@
   </node>
   <node concept="3UcZMl" id="7C5UPHnZB5B">
     <property role="TrG5h" value="Document Adder" />
+    <property role="3GE5qa" value="Description of Units" />
     <node concept="3f6AUY" id="7J16yTfxlf0" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfxlf1" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfxlsb" role="3f6BbQ">
@@ -1325,7 +1327,13 @@
       <node concept="3fT77D" id="7C5UPHnZB5G" role="3f6BbQ">
         <property role="3fT77I" value="detailed" />
       </node>
-      <node concept="3fT77D" id="7C5UPHnZB5H" role="3f6BbQ">
+      <node concept="3fT77D" id="4jS$w1O4dP4" role="3f6BbQ">
+        <property role="3fT77I" value="natural" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O4dWi" role="3f6BbQ">
+        <property role="3fT77I" value="language" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O4dWj" role="3f6BbQ">
         <property role="3fT77I" value="description" />
       </node>
       <node concept="3fT77D" id="7C5UPHnZB5I" role="3f6BbQ">
@@ -1950,6 +1958,7 @@
   </node>
   <node concept="3UcZMl" id="7J16yTfuky5">
     <property role="TrG5h" value="Create Graph" />
+    <property role="3GE5qa" value="Description of Units" />
     <node concept="3f6AUY" id="7J16yTfxo76" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTfxo77" role="3f6AUE">
         <node concept="3fT77D" id="7J16yTfxp8O" role="3f6BbQ">

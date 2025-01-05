@@ -21,7 +21,6 @@
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
-        <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -30,7 +29,6 @@
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
       </concept>
-      <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI" />
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
@@ -518,7 +516,6 @@
           <property role="3fT77I" value="." />
         </node>
       </node>
-      <node concept="3BFnmI" id="4jS$w1O29mK" role="3BFnmE" />
     </node>
     <node concept="3f6AUY" id="4jS$w1O0MkE" role="3f6AUZ">
       <node concept="3f6AUQ" id="4jS$w1O0MkF" role="3f6AUE">
