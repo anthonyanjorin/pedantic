@@ -169,6 +169,11 @@
     <property role="34LRSv" value="parent" />
     <property role="3GE5qa" value="patterns.links" />
     <ref role="1TJDcQ" node="1ap1xRT2L7$" resolve="Link" />
+    <node concept="1TJgyi" id="3u658jF8QMG" role="1TKVEl">
+      <property role="IQ2nx" value="4000907880078470316" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="3u658jF8QM$" resolve="HIERARCHY_SCOPE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYEQ_JC_">
     <property role="EcuMT" value="8789799326224677413" />
@@ -176,6 +181,11 @@
     <property role="34LRSv" value="child" />
     <property role="3GE5qa" value="patterns.links" />
     <ref role="1TJDcQ" node="1ap1xRT2L7$" resolve="Link" />
+    <node concept="1TJgyi" id="3u658jF8QMF" role="1TKVEl">
+      <property role="IQ2nx" value="4000907880078470315" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="3u658jF8QM$" resolve="HIERARCHY_SCOPE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERemy6">
     <property role="EcuMT" value="8789799326235322502" />
@@ -392,6 +402,11 @@
     <property role="3GE5qa" value="csp.links" />
     <property role="TrG5h" value="ChildLinkConstraint" />
     <ref role="1TJDcQ" node="7BVCYERSDH6" resolve="UntypedLinkConstraint" />
+    <node concept="1TJgyi" id="3u658jFfuFY" role="1TKVEl">
+      <property role="IQ2nx" value="4000907880080206590" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="3u658jF8QM$" resolve="HIERARCHY_SCOPE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERFwVl">
     <property role="EcuMT" value="8789799326242967253" />
@@ -645,6 +660,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
     </node>
+    <node concept="1TJgyi" id="3u658jFhfAY" role="1TKVEl">
+      <property role="IQ2nx" value="4000907880080669118" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="3u658jF8QM$" resolve="HIERARCHY_SCOPE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERWJj1">
     <property role="EcuMT" value="8789799326247482561" />
@@ -665,6 +685,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
     </node>
+    <node concept="1TJgyi" id="3u658jFhgbY" role="1TKVEl">
+      <property role="IQ2nx" value="4000907880080671486" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="3u658jF8QM$" resolve="HIERARCHY_SCOPE" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERWJj4">
     <property role="EcuMT" value="8789799326247482564" />
@@ -684,6 +709,11 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyi" id="3u658jFhgKY" role="1TKVEl">
+      <property role="IQ2nx" value="4000907880080673854" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="3u658jF8QM$" resolve="HIERARCHY_SCOPE" />
     </node>
   </node>
   <node concept="1TIwiD" id="4ljD3mHHbWk">
@@ -1308,7 +1338,7 @@
   <node concept="25R3W" id="3u658jDeoR4">
     <property role="3F6X1D" value="4000907880046366148" />
     <property role="3GE5qa" value="patterns.links" />
-    <property role="TrG5h" value="SCOPE" />
+    <property role="TrG5h" value="SIBLING_SCOPE" />
     <ref role="1H5jkz" node="3u658jDeoR5" resolve="ALL" />
     <node concept="25R33" id="3u658jDeoR5" role="25R1y">
       <property role="3tVfz5" value="4000907880046366149" />
@@ -1339,6 +1369,22 @@
       <property role="3tVfz5" value="4000907880066563148" />
       <property role="TrG5h" value="IMM_RIGHT" />
       <property role="1L1pqM" value="1&gt;" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3u658jF8QM$">
+    <property role="3F6X1D" value="4000907880078470308" />
+    <property role="3GE5qa" value="patterns.links" />
+    <property role="TrG5h" value="HIERARCHY_SCOPE" />
+    <ref role="1H5jkz" node="3u658jF8QMA" resolve="IMMEDIATE" />
+    <node concept="25R33" id="3u658jF8QM_" role="25R1y">
+      <property role="3tVfz5" value="4000907880078470309" />
+      <property role="TrG5h" value="ALL" />
+      <property role="1L1pqM" value="&lt;*&gt;" />
+    </node>
+    <node concept="25R33" id="3u658jF8QMA" role="25R1y">
+      <property role="3tVfz5" value="4000907880078470310" />
+      <property role="TrG5h" value="IMMEDIATE" />
+      <property role="1L1pqM" value="&lt;1&gt;" />
     </node>
   </node>
 </model>
