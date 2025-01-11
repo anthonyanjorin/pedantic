@@ -5,7 +5,9 @@
     <use id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic" version="0" />
     <use id="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" name="arango_graphs" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="do8q" ref="r:37637545-db03-4438-953d-e7c39bc70344(_04_detailed_design)" />
+  </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
       <concept id="8987473119584727444" name="pedantic.structure.Publishable" flags="ng" index="XwtEV">
@@ -19,6 +21,7 @@
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
+        <property id="7959779354266372691" name="type" index="bZXHP" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
@@ -49,6 +52,19 @@
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
+      </concept>
+      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9">
+        <child id="7161014301864230937" name="items" index="1Xvgy8" />
+      </concept>
+      <concept id="7161014301864230939" name="pedantic.structure.ReportItem" flags="ng" index="1Xvgya" />
+      <concept id="7161014301864230946" name="pedantic.structure.TermImage" flags="ng" index="1XvgyN">
+        <reference id="7161014301864230947" name="target" index="1XvgyM" />
+      </concept>
+      <concept id="7161014301864230949" name="pedantic.structure.SequenceDescription" flags="ng" index="1XvgyO">
+        <reference id="7161014301864230950" name="target" index="1XvgyR" />
+      </concept>
+      <concept id="7161014301864230951" name="pedantic.structure.SequenceImage" flags="ng" index="1XvgyQ">
+        <reference id="7161014301864230952" name="target" index="1XvgyT" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1027,6 +1043,7 @@
           <property role="3fT77I" value="." />
         </node>
       </node>
+      <node concept="3BFnmI" id="4jS$w1O4Me3" role="3BFnmE" />
     </node>
     <node concept="3f6AUY" id="Sv$7iJa8DP" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8DQ" role="3f6AUE">
@@ -1911,6 +1928,7 @@
     <property role="TrG5h" value="Export Application " />
     <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUY" id="7C5UPHnZZ3P" role="3f6AUZ">
+      <property role="bZXHP" value="3DzuiyYFX6c/artefact" />
       <node concept="3f6AUQ" id="7C5UPHnZZ3Q" role="3f6AUE" />
       <node concept="3f6AUX" id="7C5UPHnZZ3R" role="3f6AUK">
         <property role="TrG5h" value="Python Script" />
@@ -2865,6 +2883,22 @@
     <property role="TrG5h" value="Python" />
     <property role="3GE5qa" value="Terminology" />
     <node concept="3f6AUQ" id="7J16yTf$ujE" role="3f6AUR" />
+  </node>
+  <node concept="1Xvgy9" id="4jS$w1O5pRK">
+    <property role="TrG5h" value="BeispielR Report" />
+    <node concept="1XvgyQ" id="4jS$w1O5yZK" role="1Xvgy8">
+      <ref role="1XvgyT" to="do8q:4jS$w1O2_bA" resolve="Database Creator Sequence" />
+    </node>
+    <node concept="1Xvgya" id="4jS$w1O5$qg" role="1Xvgy8" />
+    <node concept="1XvgyO" id="4jS$w1O5$Ye" role="1Xvgy8">
+      <ref role="1XvgyR" to="do8q:4jS$w1O2_bA" resolve="Database Creator Sequence" />
+    </node>
+    <node concept="1Xvgya" id="4jS$w1O5AMi" role="1Xvgy8" />
+    <node concept="1XvgyN" id="4jS$w1O5B4i" role="1Xvgy8">
+      <ref role="1XvgyM" node="Sv$7iJa8OW" resolve="AST-Nodes" />
+    </node>
+    <node concept="1Xvgya" id="4jS$w1O5zzZ" role="1Xvgy8" />
+    <node concept="1Xvgya" id="4jS$w1O5zFd" role="1Xvgy8" />
   </node>
 </model>
 
