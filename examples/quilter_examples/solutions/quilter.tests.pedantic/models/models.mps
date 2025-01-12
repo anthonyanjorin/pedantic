@@ -598,5 +598,106 @@
     </node>
     <node concept="3f6AUQ" id="2MtiOR5fkFi" role="3f6AUR" />
   </node>
+  <node concept="3UcZMl" id="41Z0Zg$3Gd7">
+    <property role="TrG5h" value="Synonyms" />
+    <node concept="3f6AUY" id="41Z0Zg$3Gd9" role="3f6AUZ">
+      <node concept="3f6AUQ" id="41Z0Zg$3Gda" role="3f6AUE">
+        <node concept="3fT77D" id="41Z0Zg$3Gdf" role="3f6BbQ">
+          <property role="3fT77I" value="A" />
+        </node>
+        <node concept="3f6BbC" id="41Z0Zg$3GdG" role="3f6BbQ">
+          <ref role="3f6BbD" node="41Z0Zg$3Gdb" resolve="button" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdh" role="3f6BbQ">
+          <property role="3fT77I" value="is" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdi" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="41Z0Zg$3GdH" role="3f6BbQ">
+          <ref role="3f6BbD" node="41Z0Zg$3Gdc" resolve="control" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdk" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdl" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdm" role="3f6BbQ">
+          <property role="3fT77I" value="UI" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdn" role="3f6BbQ">
+          <property role="3fT77I" value="used" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdo" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdp" role="3f6BbQ">
+          <property role="3fT77I" value="change" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdq" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdr" role="3f6BbQ">
+          <property role="3fT77I" value="value" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gds" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3f6BbC" id="41Z0Zg$3GdI" role="3f6BbQ">
+          <ref role="3f6BbD" node="41Z0Zg$3Gdd" resolve="setting" />
+        </node>
+        <node concept="3f6BbF" id="41Z0Zg$3Gdx" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdw" role="3f6BbQ">
+          <property role="3fT77I" value="A" />
+        </node>
+        <node concept="3f6BbC" id="41Z0Zg$3GdJ" role="3f6BbQ">
+          <ref role="3f6BbD" node="41Z0Zg$3Gde" resolve="knob" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gdz" role="3f6BbQ">
+          <property role="3fT77I" value="could" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gd$" role="3f6BbQ">
+          <property role="3fT77I" value="also" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3Gd_" role="3f6BbQ">
+          <property role="3fT77I" value="be" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3GdA" role="3f6BbQ">
+          <property role="3fT77I" value="used" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3GdB" role="3f6BbQ">
+          <property role="3fT77I" value="instead" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3GdC" role="3f6BbQ">
+          <property role="3fT77I" value="of" />
+        </node>
+        <node concept="3fT77D" id="41Z0Zg$3GdD" role="3f6BbQ">
+          <property role="3fT77I" value="a" />
+        </node>
+        <node concept="3f6BbC" id="41Z0Zg$3GdK" role="3f6BbQ">
+          <ref role="3f6BbD" node="41Z0Zg$3Gdb" resolve="button" />
+        </node>
+        <node concept="3f6BbF" id="41Z0Zg$3GdF" role="3f6BbQ">
+          <property role="3fT77I" value="." />
+        </node>
+      </node>
+      <node concept="3f6AUX" id="41Z0Zg$3Gdb" role="3f6AUK">
+        <property role="TrG5h" value="button" />
+      </node>
+      <node concept="3f6AUX" id="41Z0Zg$3Gdc" role="3f6AUK">
+        <property role="TrG5h" value="control" />
+      </node>
+      <node concept="3f6AUX" id="41Z0Zg$3Gdd" role="3f6AUK">
+        <property role="TrG5h" value="setting" />
+      </node>
+      <node concept="3f6AUX" id="41Z0Zg$3Gde" role="3f6AUK">
+        <property role="TrG5h" value="knob" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="41Z0Zg$3Gd8" role="3f6AUR" />
+  </node>
 </model>
 

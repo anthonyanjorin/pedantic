@@ -111,6 +111,11 @@
       <property role="TrG5h" value="presence" />
       <ref role="AX2Wp" node="2LgBuUcqvGZ" resolve="PRESENCE" />
     </node>
+    <node concept="1TJgyi" id="41Z0Zg$5ORh" role="1TKVEl">
+      <property role="IQ2nx" value="4647437687582051793" />
+      <property role="TrG5h" value="excludeFromInjectivityCheck" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="1ap1xRT2L7D" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921503721" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

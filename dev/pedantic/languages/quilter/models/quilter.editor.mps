@@ -479,6 +479,16 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="41Z0Zg$5P9R" role="6VMZX">
+      <node concept="l2Vlx" id="41Z0Zg$5P9S" role="2iSdaV" />
+      <node concept="3F0ifn" id="41Z0Zg$5PtW" role="3EZMnx">
+        <property role="3F0ifm" value="exclude from injectivity (one-to-one mapping) check:" />
+        <ref role="1k5W1q" to="9sqt:5B3sq7DIjTW" resolve="Header" />
+      </node>
+      <node concept="3F0A7n" id="41Z0Zg$5Psi" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:41Z0Zg$5ORh" resolve="excludeFromInjectivityCheck" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="1ap1xRT35xK">
     <property role="3GE5qa" value="patterns.links" />
