@@ -336,6 +336,11 @@
       <property role="20kJfa" value="target" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
+    <node concept="1TJgyi" id="41Z0Zg_mOt6" role="1TKVEl">
+      <property role="IQ2nx" value="4647437687603283782" />
+      <property role="TrG5h" value="excludeFromInjectivityCheck" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERgGSv">
     <property role="EcuMT" value="8789799326235938335" />

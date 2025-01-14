@@ -20,6 +20,7 @@
     <import index="tp1f" ref="r:00000000-0000-4000-0000-011c8959031f(jetbrains.mps.lang.script.editor)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -156,6 +157,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
@@ -237,6 +241,7 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
     </language>
   </registry>
@@ -1868,8 +1873,39 @@
           <property role="1lJzqX" value="20" />
         </node>
       </node>
+      <node concept="3F0ifn" id="41Z0Zg_1P4f" role="3EZMnx">
+        <property role="3F0ifm" value="found" />
+      </node>
+      <node concept="1HlG4h" id="41Z0Zg_1Pqe" role="3EZMnx">
+        <node concept="1HfYo3" id="41Z0Zg_1Pqg" role="1HlULh">
+          <node concept="3TQlhw" id="41Z0Zg_1Pqi" role="1Hhtcw">
+            <node concept="3clFbS" id="41Z0Zg_1Pqk" role="2VODD2">
+              <node concept="3clFbF" id="41Z0Zg_1Q6X" role="3cqZAp">
+                <node concept="2YIFZM" id="41Z0Zg_4dCE" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                  <node concept="2OqwBi" id="41Z0Zg_1YMO" role="37wK5m">
+                    <node concept="2OqwBi" id="41Z0Zg_1UGs" role="2Oq$k0">
+                      <node concept="2OqwBi" id="41Z0Zg_1TB0" role="2Oq$k0">
+                        <node concept="pncrf" id="41Z0Zg_1Tb1" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="41Z0Zg_1U2f" role="2OqNvi">
+                          <ref role="3Tt5mk" to="uyb6:7BVCYERemyv" />
+                        </node>
+                      </node>
+                      <node concept="3Tsc0h" id="41Z0Zg_1Vdl" role="2OqNvi">
+                        <ref role="3TtcxE" to="uyb6:7BVCYERgIAg" />
+                      </node>
+                    </node>
+                    <node concept="34oBXx" id="41Z0Zg_2367" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="2tbV4VNKVKJ" role="3EZMnx">
-        <property role="3F0ifm" value="up to" />
+        <property role="3F0ifm" value="of max" />
       </node>
       <node concept="3F0A7n" id="2tbV4VNKVKS" role="3EZMnx">
         <ref role="1NtTu8" to="uyb6:7BVCYERemyw" resolve="maxNrOfMatchesToCompute" />
