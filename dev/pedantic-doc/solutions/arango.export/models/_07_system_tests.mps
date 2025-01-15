@@ -20,6 +20,7 @@
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
+        <child id="3889923412177894673" name="formalisation" index="3BFnmE" />
       </concept>
       <concept id="4928100702460203922" name="pedantic.structure.TermReference" flags="ng" index="3f6BbC">
         <reference id="4928100702460203923" name="target" index="3f6BbD" />
@@ -27,6 +28,9 @@
       <concept id="4928100702460203921" name="pedantic.structure.WordExtensionRight" flags="ng" index="3f6BbF" />
       <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
         <property id="4928100702460334228" name="content" index="3fT77I" />
+      </concept>
+      <concept id="4928100702460363394" name="pedantic.structure.PublishableReference" flags="ng" index="3fTefS">
+        <reference id="4928100702460363395" name="target" index="3fTefT" />
       </concept>
       <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
         <reference id="8617956174760287129" name="target" index="1hSrFy" />
@@ -50,6 +54,13 @@
         <child id="3402856230705402912" name="initial" index="1rOGIm" />
         <child id="3402856230705402909" name="description" index="1rOGIF" />
         <child id="3402856230705525357" name="transitions" index="1rP2Rr" />
+      </concept>
+      <concept id="3889923412177894705" name="pedantic.structure.TermRelation" flags="ng" index="3BFnma">
+        <child id="7959779354263571715" name="description" index="ba9K_" />
+        <child id="3889923412177894711" name="ref" index="3BFnmc" />
+      </concept>
+      <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
+        <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
       </concept>
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
@@ -471,6 +482,99 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTfz6UQ" role="1LuVN1" />
+  </node>
+  <node concept="3UcZMl" id="4jS$w1O5QNW">
+    <property role="TrG5h" value="System Test Definitions" />
+    <node concept="3f6AUY" id="4jS$w1O5WAy" role="3f6AUZ">
+      <node concept="3f6AUX" id="4jS$w1O5ZtS" role="3f6AUK">
+        <property role="TrG5h" value="Export Node to ArangoDB Test" />
+      </node>
+      <node concept="3f6AUQ" id="4jS$w1O5WAz" role="3f6AUE">
+        <node concept="3fT77D" id="4jS$w1O61ZR" role="3f6BbQ">
+          <property role="3fT77I" value="represents" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O62eg" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O62eh" role="3f6BbQ">
+          <property role="3fT77I" value="test" />
+        </node>
+        <node concept="3fT77D" id="4jS$w1O62lu" role="3f6BbQ">
+          <property role="3fT77I" value="artifact" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fTefS" id="4jS$w1O66Pq" role="3f6BbQ">
+          <ref role="3fTefT" node="7J16yTfz6UP" resolve="Export node to ArangoDB" />
+        </node>
+      </node>
+      <node concept="3BFnmI" id="4jS$w1O60uA" role="3BFnmE">
+        <node concept="3BFnma" id="4jS$w1O60Ob" role="3BFnmh">
+          <node concept="3f6BbC" id="4jS$w1O60Oc" role="3BFnmc">
+            <ref role="3f6BbD" to="hb21:Sv$7iJa8XD" resolve="(R1) Export Node" />
+          </node>
+          <node concept="3f6AUQ" id="4jS$w1O60Vp" role="ba9K_">
+            <node concept="3fT77D" id="4jS$w1O612A" role="3f6BbQ">
+              <property role="3fT77I" value="tests" />
+              <property role="11DDNk" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="4jS$w1O5QNX" role="3f6AUR">
+      <node concept="3fT77D" id="4jS$w1O5RSg" role="3f6BbQ">
+        <property role="3fT77I" value="This" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5RZt" role="3f6BbQ">
+        <property role="3fT77I" value="domain" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5S6E" role="3f6BbQ">
+        <property role="3fT77I" value="defines" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5Szs" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5SED" role="3f6BbQ">
+        <property role="3fT77I" value="system" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5SLT" role="3f6BbQ">
+        <property role="3fT77I" value="tests" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5SLR" role="3f6BbQ">
+        <property role="3fT77I" value="and" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5SLS" role="3f6BbQ">
+        <property role="3fT77I" value="trace" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5SWG" role="3f6BbQ">
+        <property role="3fT77I" value="links" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5T3T" role="3f6BbQ">
+        <property role="3fT77I" value="are" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5T3U" role="3f6BbQ">
+        <property role="3fT77I" value="developed" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5TFv" role="3f6BbQ">
+        <property role="3fT77I" value="to" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5TMG" role="3f6BbQ">
+        <property role="3fT77I" value="artifacts" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5U8i" role="3f6BbQ">
+        <property role="3fT77I" value="from" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5V1Q" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5VGZ" role="3f6BbQ">
+        <property role="3fT77I" value="requirement" />
+      </node>
+      <node concept="3fT77D" id="4jS$w1O5Wo9" role="3f6BbQ">
+        <property role="3fT77I" value="phase" />
+      </node>
+    </node>
   </node>
 </model>
 
