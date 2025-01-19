@@ -1933,6 +1933,9 @@
       <node concept="3f6AUX" id="7C5UPHnZZ3R" role="3f6AUK">
         <property role="TrG5h" value="Python Script" />
       </node>
+      <node concept="3f6AUX" id="3uuAVXOoKGS" role="3f6AUK">
+        <property role="TrG5h" value="Python Document" />
+      </node>
     </node>
     <node concept="3f6AUY" id="7J16yTf$vQ7" role="3f6AUZ">
       <node concept="3f6AUQ" id="7J16yTf$vQ8" role="3f6AUE" />
