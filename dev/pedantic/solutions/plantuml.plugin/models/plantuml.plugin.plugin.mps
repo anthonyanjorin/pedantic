@@ -3938,6 +3938,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="41Z0ZgE62ct" role="3cqZAp">
+          <node concept="2OqwBi" id="41Z0ZgE63Me" role="3clFbG">
+            <node concept="37vLTw" id="41Z0ZgE62cr" role="2Oq$k0">
+              <ref role="3cqZAo" node="6TQOipxnQ68" resolve="searchWindow" />
+            </node>
+            <node concept="liA8E" id="41Z0ZgE674a" role="2OqNvi">
+              <ref role="37wK5l" to="lsyl:41Z0ZgE5cYy" resolve="setFocusOnNameField" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="mfpdH" id="6TQOip_Rf3V" role="med8o" />

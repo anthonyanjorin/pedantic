@@ -93,6 +93,7 @@
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
+      <concept id="3870108946630849399" name="jetbrains.mps.baseLanguage.structure.StaticFieldReferenceOperation" flags="ng" index="SiP3y" />
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -12053,7 +12054,7 @@
     </node>
     <node concept="2tJIrI" id="53iYGAi$6Iy" role="jymVt" />
     <node concept="3clFb_" id="53iYGAi$mci" role="jymVt">
-      <property role="TrG5h" value="setFocus" />
+      <property role="TrG5h" value="setFocusOnResults" />
       <node concept="3clFbS" id="53iYGAi$mcl" role="3clF47">
         <node concept="3clFbF" id="53iYGAi$tOg" role="3cqZAp">
           <node concept="2OqwBi" id="53iYGAi$IRh" role="3clFbG">
@@ -12071,6 +12072,27 @@
       </node>
       <node concept="3Tm1VV" id="53iYGAi$e_0" role="1B3o_S" />
       <node concept="3cqZAl" id="53iYGAi$jop" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="41Z0ZgE53at" role="jymVt" />
+    <node concept="3clFb_" id="41Z0ZgE5cYy" role="jymVt">
+      <property role="TrG5h" value="setFocusOnNameField" />
+      <node concept="3clFbS" id="41Z0ZgE5cY_" role="3clF47">
+        <node concept="3clFbF" id="41Z0ZgExDQD" role="3cqZAp">
+          <node concept="2OqwBi" id="41Z0ZgEy9QI" role="3clFbG">
+            <node concept="2OqwBi" id="41Z0ZgExL46" role="2Oq$k0">
+              <node concept="Xjq3P" id="41Z0ZgExDQB" role="2Oq$k0" />
+              <node concept="SiP3y" id="41Z0ZgExYcm" role="2OqNvi">
+                <ref role="3cqZAo" node="4dr_i42A09y" resolve="dialog" />
+              </node>
+            </node>
+            <node concept="liA8E" id="41Z0ZgEykjb" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.transferFocusDownCycle()" resolve="transferFocusDownCycle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="41Z0ZgE57XP" role="1B3o_S" />
+      <node concept="3cqZAl" id="41Z0ZgE58_T" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="6TQOip$CU0k" role="jymVt" />
     <node concept="3Tm1VV" id="6TQOipxlTaA" role="1B3o_S" />
@@ -12836,7 +12858,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4dr_i42CNl_" role="3cqZAp" />
           </node>
           <node concept="3clFbC" id="4dr_i42FzZN" role="3clFbw">
             <node concept="37vLTw" id="4dr_i42CNlC" role="3uHU7B">
