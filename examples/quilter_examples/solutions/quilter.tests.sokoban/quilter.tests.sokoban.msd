@@ -30,6 +30,7 @@
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="6" />
     <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+    <language slang="l:1ef906aa-9948-4d71-9acf-933538b34ecf:pedantic" version="0" />
     <language slang="l:e8c53fb6-e3d1-45b8-804f-056de67b4715:plantuml" version="0" />
     <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="0" />
     <language slang="l:563b8661-a49f-4fda-ad97-911b4bd32744:quilter.examples.sokoban" version="0" />
@@ -40,6 +41,7 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
     <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
     <module reference="563b8661-a49f-4fda-ad97-911b4bd32744(quilter.examples.sokoban)" version="0" />

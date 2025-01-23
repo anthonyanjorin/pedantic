@@ -434,7 +434,7 @@
         <node concept="3F$xvT" id="41Z0Zg$3F$m" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="41Z0Zg$3F$i" resolve="label1" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" resolve="target" />
         </node>
       </node>
       <node concept="3F$xvW" id="41Z0Zg$3F$i" role="3F$xvU">
@@ -447,12 +447,12 @@
         <node concept="3F$xvT" id="41Z0Zg$3F$p" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="41Z0Zg$3F$i" resolve="label1" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv$Za" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv$Za" resolve="labels" />
         </node>
         <node concept="3F$xvT" id="41Z0Zg$3F$q" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="41Z0Zg$3F$j" resolve="label2" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv$Za" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv$Za" resolve="labels" />
         </node>
       </node>
       <node concept="3F$xvW" id="41Z0Zg$3F$j" role="3F$xvU">
@@ -466,7 +466,7 @@
         <node concept="3F$xvT" id="41Z0Zg$3F$n" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="41Z0Zg$3F$j" resolve="label2" />
-          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" />
+          <ref role="3F$xdF" to="3ido:4h$8nEbv_ej" resolve="target" />
         </node>
       </node>
     </node>
@@ -474,7 +474,7 @@
       <node concept="3eKGH1" id="2MtiOR5hXLz" role="3eKGHX">
         <property role="3Fq0gx" value="2" />
         <property role="3eKGHa" value="10" />
-        <ref role="3eKGHL" node="3u658jFff$A" resolve="AllDescriptionsInDomain" />
+        <ref role="3eKGHL" node="3u658jFff$A" resolve="AllDescriptionsInDomain1" />
         <node concept="3eImRP" id="3u658jF$l7K" role="3eKGHR">
           <node concept="3eJ099" id="3u658jF$l7L" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />

@@ -303,7 +303,7 @@
       <node concept="3eKGHs" id="2MtiOR5mpqm" role="1qenE9">
         <property role="3Fq0gx" value="2" />
         <property role="3eKfJL" value="2" />
-        <ref role="3eKGHL" to="vapu:2MtiOR5hZSB" resolve="repeatedWord" />
+        <ref role="3eKGHL" to="vapu:2MtiOR5hZSB" resolve="repeatedWord_R" />
         <node concept="3xLA65" id="2MtiOR5mpqn" role="lGtFl">
           <property role="TrG5h" value="p00" />
         </node>

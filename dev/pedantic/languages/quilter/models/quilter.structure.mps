@@ -8,6 +8,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -86,6 +87,12 @@
     <property role="R4oN_" value="A pattern to be matched" />
     <property role="3GE5qa" value="patterns.common" />
     <ref role="1TJDcQ" node="7BVCYERemy6" resolve="QuiltElement" />
+    <node concept="1TJgyj" id="41Z0ZgEOaTZ" role="1TKVEi">
+      <property role="IQ2ns" value="4647437687694863999" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <ref role="20lvS9" to="3ido:4h$8nEbv$Zc" resolve="Description" />
+    </node>
     <node concept="1TJgyj" id="1ap1xRT2L7B" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921503719" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1259,7 +1266,7 @@
     <node concept="1TJgyi" id="3u658jDeoR7" role="1TKVEl">
       <property role="IQ2nx" value="4000907880046366151" />
       <property role="TrG5h" value="scope" />
-      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SCOPE" />
+      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SIBLING_SCOPE" />
     </node>
   </node>
   <node concept="1TIwiD" id="3u658jD6$l$">
@@ -1270,7 +1277,7 @@
     <node concept="1TJgyi" id="3u658jDnBZz" role="1TKVEl">
       <property role="IQ2nx" value="4000907880048787427" />
       <property role="TrG5h" value="scope" />
-      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SCOPE" />
+      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SIBLING_SCOPE" />
     </node>
   </node>
   <node concept="1TIwiD" id="3u658jDeajH">
@@ -1281,7 +1288,7 @@
     <node concept="1TJgyi" id="3u658jDoHxz" role="1TKVEl">
       <property role="IQ2nx" value="4000907880049072227" />
       <property role="TrG5h" value="scope" />
-      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SCOPE" />
+      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SIBLING_SCOPE" />
     </node>
     <node concept="1TJgyj" id="3u658jDeajI" role="1TKVEi">
       <property role="IQ2ns" value="4000907880046306542" />
@@ -1306,7 +1313,7 @@
     <node concept="1TJgyi" id="3u658jDpfgS" role="1TKVEl">
       <property role="IQ2nx" value="4000907880049210424" />
       <property role="TrG5h" value="scope" />
-      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SCOPE" />
+      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SIBLING_SCOPE" />
     </node>
     <node concept="1TJgyj" id="3u658jDeajL" role="1TKVEi">
       <property role="IQ2ns" value="4000907880046306545" />
@@ -1345,7 +1352,7 @@
     <node concept="1TJgyi" id="3u658jDpgMc" role="1TKVEl">
       <property role="IQ2nx" value="4000907880049216652" />
       <property role="TrG5h" value="scope" />
-      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SCOPE" />
+      <ref role="AX2Wp" node="3u658jDeoR4" resolve="SIBLING_SCOPE" />
     </node>
   </node>
   <node concept="25R3W" id="3u658jDeoR4">
@@ -1398,6 +1405,20 @@
       <property role="3tVfz5" value="4000907880078470310" />
       <property role="TrG5h" value="IMMEDIATE" />
       <property role="1L1pqM" value="&lt;1&gt;" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="41Z0ZgF$Mal">
+    <property role="EcuMT" value="4647437687707607701" />
+    <property role="3GE5qa" value="patterns.common" />
+    <property role="TrG5h" value="PatternRef" />
+    <property role="34LRSv" value="qp" />
+    <property role="R4oN_" value="Reference a quilter pattern" />
+    <ref role="1TJDcQ" to="3ido:4h$8nEbw52j" resolve="NormalText" />
+    <node concept="1TJgyj" id="41Z0ZgF$Oz6" role="1TKVEi">
+      <property role="IQ2ns" value="4647437687707617478" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
     </node>
   </node>
 </model>

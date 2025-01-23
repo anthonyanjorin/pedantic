@@ -29,6 +29,13 @@
         <child id="4928100702460202957" name="description" index="3f6AUR" />
         <child id="4928100702460202949" name="terms" index="3f6AUZ" />
       </concept>
+      <concept id="7161014301864230936" name="pedantic.structure.Report" flags="ng" index="1Xvgy9">
+        <child id="7161014301864230937" name="items" index="1Xvgy8" />
+      </concept>
+      <concept id="7161014301864230939" name="pedantic.structure.ReportItem" flags="ng" index="1Xvgya" />
+      <concept id="7161014301864230940" name="pedantic.structure.Paragraph" flags="ng" index="1Xvgyd">
+        <child id="7161014301864230941" name="desc" index="1Xvgyc" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -698,6 +705,30 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="41Z0Zg$3Gd8" role="3f6AUR" />
+  </node>
+  <node concept="1Xvgy9" id="41Z0ZgELMGP">
+    <property role="TrG5h" value="Foo" />
+    <node concept="1Xvgyd" id="41Z0ZgELMGQ" role="1Xvgy8">
+      <node concept="3f6AUQ" id="41Z0ZgELMGR" role="1Xvgyc">
+        <node concept="3fT77D" id="41Z0ZgELMGS" role="3f6BbQ">
+          <property role="3fT77I" value="#" />
+        </node>
+        <node concept="3fT77D" id="41Z0ZgELMGT" role="3f6BbQ">
+          <property role="3fT77I" value="Foo" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xvgya" id="41Z0ZgELMGU" role="1Xvgy8" />
+    <node concept="1Xvgyd" id="41Z0ZgELMGW" role="1Xvgy8">
+      <node concept="3f6AUQ" id="41Z0ZgELMGY" role="1Xvgyc">
+        <node concept="3fT77D" id="41Z0ZgELMH0" role="3f6BbQ">
+          <property role="3fT77I" value="##" />
+        </node>
+        <node concept="3fT77D" id="41Z0ZgELMH1" role="3f6BbQ">
+          <property role="3fT77I" value="Blup" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -428,7 +428,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="33ZohV4i_jw" role="3MwsjC">
-          <property role="3MwjfP" value="6.0.15" />
+          <property role="3MwjfP" value="6.1.0" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -767,11 +767,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7BVCYER7mtr" role="3bR37C">
-          <node concept="3bR9La" id="7BVCYER7mts" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8q" resolve="jetbrains.mps.lang.pattern" />
-          </node>
-        </node>
         <node concept="1BupzO" id="7BVCYER7mtx" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -796,11 +791,6 @@
         <node concept="1SiIV0" id="7BVCYER7mt$" role="3bR37C">
           <node concept="1Busua" id="7BVCYER7mt_" role="1SiIV1">
             <ref role="1Busuk" node="5Q23RPTxrzt" resolve="plantuml" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7BVCYER7mtA" role="3bR37C">
-          <node concept="1Busua" id="7BVCYER7mtB" role="1SiIV1">
-            <ref role="1Busuk" to="ffeo:7Kfy9QB6L8q" resolve="jetbrains.mps.lang.pattern" />
           </node>
         </node>
         <node concept="1SiIV0" id="7BVCYES8c5a" role="3bR37C">
@@ -831,6 +821,26 @@
         <node concept="1SiIV0" id="4ljD3mIImg1" role="3bR37C">
           <node concept="3bR9La" id="4ljD3mIImg2" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3ZgZ1njKuFL" resolve="jetbrains.mps.lang.smodel.query" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="41Z0ZgFIyCk" role="3bR37C">
+          <node concept="1Busua" id="41Z0ZgFIyCl" role="1SiIV1">
+            <ref role="1Busuk" node="5Q23RPTxrzn" resolve="pedantic" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="41Z0ZgFIyEU" role="3bR31x">
+          <node concept="3LXTmp" id="41Z0ZgFIyEV" role="3rtmxm">
+            <node concept="55IIr" id="41Z0ZgFIyEW" role="3LXTmr">
+              <node concept="2Ry0Ak" id="41Z0ZgFIyEX" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="41Z0ZgFIyEY" role="2Ry0An">
+                  <property role="2Ry0Am" value="quilter" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="41Z0ZgFIyF0" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
           </node>
         </node>
       </node>
