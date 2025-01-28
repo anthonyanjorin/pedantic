@@ -10,14 +10,28 @@
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="8987473119584018454" name="pedantic.structure.Service" flags="ng" index="X_8GT" />
+      <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
+        <child id="6010201709267609475" name="participants" index="AfY4v" />
+        <child id="8987473119584018422" name="messages" index="X_bjp" />
+        <child id="8987473119584018420" name="description" index="X_bjr" />
+      </concept>
       <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
+      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="6010201709267609479" name="self" index="AfY4r" />
+      </concept>
+      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
+        <child id="7161014301860983851" name="desc" index="1YyRMU" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
       </concept>
       <concept id="4928100702460202951" name="pedantic.structure.Label" flags="ng" index="3f6AUX" />
       <concept id="4928100702460202948" name="pedantic.structure.Term" flags="ng" index="3f6AUY">
+        <property id="7959779354266372691" name="type" index="bZXHP" />
+        <child id="8987473119584018448" name="services" index="X_8GZ" />
         <child id="4928100702460202960" name="description" index="3f6AUE" />
         <child id="4928100702460202954" name="labels" index="3f6AUK" />
         <child id="1867579962694793494" name="detailedDescription" index="3jToc2" />
@@ -32,6 +46,15 @@
       </concept>
       <concept id="4928100702460363394" name="pedantic.structure.PublishableReference" flags="ng" index="3fTefS">
         <reference id="4928100702460363395" name="target" index="3fTefT" />
+      </concept>
+      <concept id="8617956174761296789" name="pedantic.structure.TermParticipant" flags="ng" index="1h4ibI">
+        <reference id="8617956174761296791" name="type" index="1h4ibG" />
+      </concept>
+      <concept id="8617956174760287127" name="pedantic.structure.ComponentReference" flags="ng" index="1hSrFG">
+        <reference id="8617956174760287129" name="target" index="1hSrFy" />
+      </concept>
+      <concept id="3402856230693726092" name="pedantic.structure.ServiceInvocation" flags="ng" index="1r03wU">
+        <reference id="470559418596586565" name="service" index="19Fzs9" />
       </concept>
       <concept id="3402856230705402903" name="pedantic.structure.InitialState" flags="ng" index="1rOGIx" />
       <concept id="3402856230705402906" name="pedantic.structure.CompositeState" flags="ng" index="1rOGIG">
@@ -67,6 +90,10 @@
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
         <child id="579219467669762506" name="behaviours" index="1LuVN3" />
+      </concept>
+      <concept id="579219467669762509" name="pedantic.structure.SendReceiveMessage" flags="ng" index="1LuVN4">
+        <reference id="6010201709267609490" name="to" index="AfY4e" />
+        <reference id="6010201709267609485" name="from" index="AfY4h" />
       </concept>
       <concept id="4904623471472100762" name="pedantic.structure.Domain" flags="ng" index="3UcZMl">
         <child id="4928100702460202957" name="description" index="3f6AUR" />
@@ -770,9 +797,13 @@
     <property role="TrG5h" value="Document Adder Test Design" />
     <property role="3GE5qa" value="Document Adder Test" />
     <node concept="3f6AUY" id="7J16yTfyoeq" role="3f6AUZ">
+      <node concept="X_8GT" id="1AN4KDF6UUg" role="X_8GZ">
+        <property role="TrG5h" value="call()" />
+      </node>
       <node concept="3f6AUQ" id="7J16yTfyoer" role="3f6AUE" />
       <node concept="3f6AUX" id="7J16yTfyoes" role="3f6AUK">
         <property role="TrG5h" value="Document Adder" />
+        <property role="11DDNk" value="true" />
       </node>
     </node>
     <node concept="3f6AUY" id="7J16yTfywpb" role="3f6AUZ">
@@ -1122,6 +1153,335 @@
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTfyL2j" role="1LuVN1" />
+  </node>
+  <node concept="1Lr20E" id="1AN4KDF6R4s">
+    <property role="TrG5h" value="Database Creator Module Test Cases" />
+    <node concept="X_bju" id="1AN4KDF6R4C" role="1LuVN3">
+      <property role="TrG5h" value="Database Creator calls remaining modules" />
+      <node concept="1LuVN4" id="1AN4KDF6UT8" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5h" resolve="Module Tester" />
+        <ref role="AfY4e" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="19Fzs9" node="1AN4KDF6URo" resolve="Input of Parameters" />
+      </node>
+      <node concept="18RnWb" id="1AN4KDF6UTw" role="X_bjp">
+        <ref role="AfY4r" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="19Fzs9" node="1AN4KDF6UTy" resolve="conn.hasDB()" />
+      </node>
+      <node concept="19Azo$" id="1AN4KDF6UTD" role="X_bjp">
+        <node concept="3f6AUQ" id="1AN4KDF6UTF" role="1YyRMU">
+          <node concept="3fT77D" id="1AN4KDF6UTH" role="3f6BbQ">
+            <property role="3fT77I" value="If" />
+          </node>
+          <node concept="3fT77D" id="1AN4KDF6UTI" role="3f6BbQ">
+            <property role="3fT77I" value="hasDB" />
+          </node>
+          <node concept="3fT77D" id="1AN4KDF6UTJ" role="3f6BbQ">
+            <property role="3fT77I" value="==" />
+          </node>
+          <node concept="3fT77D" id="1AN4KDF6UTK" role="3f6BbQ">
+            <property role="3fT77I" value="False" />
+          </node>
+        </node>
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UTV" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="AfY4e" node="1AN4KDF6UT6" resolve="ArangoDB" />
+        <ref role="19Fzs9" node="1AN4KDF6UTX" resolve="Connect" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UTY" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="AfY4e" node="1AN4KDF6UT6" resolve="ArangoDB" />
+        <ref role="19Fzs9" node="1AN4KDF6UU0" resolve="Create DB" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UU2" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="AfY4e" node="1AN4KDF6R5t" resolve="Collection Creator" />
+        <ref role="19Fzs9" node="1AN4KDF6UU4" resolve="call()" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UU8" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5t" resolve="Collection Creator" />
+        <ref role="AfY4e" node="1AN4KDF6R5h" resolve="Module Tester" />
+        <ref role="19Fzs9" node="1AN4KDF6URn" resolve="Collection Creator called" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UUe" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="AfY4e" node="1AN4KDF6R5w" resolve="Document Adder" />
+        <ref role="19Fzs9" node="1AN4KDF6UU5" resolve="call()" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UUk" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5w" resolve="Document Adder" />
+        <ref role="AfY4e" node="1AN4KDF6R5h" resolve="Module Tester" />
+        <ref role="19Fzs9" node="1AN4KDF6URm" resolve="Document Adder called" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UUn" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="AfY4e" node="1AN4KDF6R5z" resolve="Graph Creator" />
+        <ref role="19Fzs9" node="1AN4KDF6UU6" resolve="call()" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6UUq" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6R5z" resolve="Graph Creator" />
+        <ref role="AfY4e" node="1AN4KDF6R5h" resolve="Module Tester" />
+        <ref role="19Fzs9" node="1AN4KDF6UUc" resolve="GraphCretaor was called" />
+      </node>
+      <node concept="19Azo$" id="1AN4KDF6UUs" role="X_bjp">
+        <node concept="3f6AUQ" id="1AN4KDF6UUu" role="1YyRMU">
+          <node concept="3fT77D" id="1AN4KDF6UUx" role="3f6BbQ">
+            <property role="3fT77I" value="Else" />
+          </node>
+        </node>
+      </node>
+      <node concept="18RnWb" id="1AN4KDF6UUz" role="X_bjp">
+        <ref role="AfY4r" node="1AN4KDF6R5q" resolve="Database Creator" />
+        <ref role="19Fzs9" node="1AN4KDF6UTz" resolve="Print DB already exists" />
+      </node>
+      <node concept="1h4ibI" id="1AN4KDF6R5h" role="AfY4v">
+        <property role="TrG5h" value="Module Tester" />
+        <ref role="1h4ibG" node="1AN4KDF6R5c" resolve="Tester" />
+      </node>
+      <node concept="1h4ibI" id="1AN4KDF6R5q" role="AfY4v">
+        <property role="TrG5h" value="Database Creator" />
+        <ref role="1h4ibG" node="1AN4KDF6R4O" resolve="Database Creator" />
+      </node>
+      <node concept="1h4ibI" id="1AN4KDF6R5t" role="AfY4v">
+        <property role="TrG5h" value="Collection Creator" />
+        <ref role="1h4ibG" node="1AN4KDF6R4L" resolve="Collection Creator" />
+      </node>
+      <node concept="1h4ibI" id="1AN4KDF6R5w" role="AfY4v">
+        <property role="TrG5h" value="Document Adder" />
+        <ref role="1h4ibG" node="1AN4KDF6R4R" resolve="Document Adder" />
+      </node>
+      <node concept="1h4ibI" id="1AN4KDF6R5z" role="AfY4v">
+        <property role="TrG5h" value="Graph Creator" />
+        <ref role="1h4ibG" node="1AN4KDF6R4U" resolve="Graph Creator" />
+      </node>
+      <node concept="1h4ibI" id="1AN4KDF6UT6" role="AfY4v">
+        <property role="TrG5h" value="ArangoDB" />
+        <ref role="1h4ibG" node="1AN4KDF6R5B" resolve="ArangoDB" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R4E" role="X_bjr" />
+    </node>
+    <node concept="3f6AUQ" id="1AN4KDF6R4t" role="1LuVN1">
+      <node concept="3fT77D" id="1AN4KDF6R4u" role="3f6BbQ">
+        <property role="3fT77I" value="Test" />
+      </node>
+      <node concept="3fT77D" id="1AN4KDF6R4v" role="3f6BbQ">
+        <property role="3fT77I" value="specifications" />
+      </node>
+      <node concept="3fT77D" id="1AN4KDF6R4w" role="3f6BbQ">
+        <property role="3fT77I" value="of" />
+      </node>
+      <node concept="3fT77D" id="1AN4KDF6R4x" role="3f6BbQ">
+        <property role="3fT77I" value="the" />
+      </node>
+      <node concept="3fT77D" id="1AN4KDF6R4y" role="3f6BbQ">
+        <property role="3fT77I" value="module" />
+      </node>
+      <node concept="1hSrFG" id="1AN4KDF6R4$" role="3f6BbQ">
+        <ref role="1hSrFy" to="aamg:7C5UPHnZAGb" resolve="Database Creator" />
+      </node>
+    </node>
+  </node>
+  <node concept="3UcZMl" id="1AN4KDF6R4H">
+    <property role="TrG5h" value="Collection Creator Test Participants" />
+    <node concept="3f6AUY" id="1AN4KDF6R4J" role="3f6AUZ">
+      <node concept="X_8GT" id="1AN4KDF6UU4" role="X_8GZ">
+        <property role="TrG5h" value="call()" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R4K" role="3f6AUE" />
+      <node concept="3f6AUX" id="1AN4KDF6R4L" role="3f6AUK">
+        <property role="TrG5h" value="Collection Creator" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6USb" role="3jToc2" />
+      <node concept="3BFnmI" id="1AN4KDF6USd" role="3BFnmE">
+        <node concept="3BFnma" id="1AN4KDF6USe" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6USf" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R5c" resolve="Tester" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6USg" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6USh" role="3f6BbQ">
+              <property role="3fT77I" value="notifies" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="1AN4KDF6R4M" role="3f6AUZ">
+      <node concept="X_8GT" id="1AN4KDF6URo" role="X_8GZ">
+        <property role="TrG5h" value="Input of Parameters" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UTy" role="X_8GZ">
+        <property role="TrG5h" value="conn.hasDB()" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UT$" role="X_8GZ">
+        <property role="TrG5h" value="Print DB created" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UTz" role="X_8GZ">
+        <property role="TrG5h" value="Print DB already exists" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UT_" role="X_8GZ">
+        <property role="TrG5h" value="CollectionCreator" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UTA" role="X_8GZ">
+        <property role="TrG5h" value="DocumentAdder()" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UTB" role="X_8GZ">
+        <property role="TrG5h" value="GraphCreator()" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UTM" role="X_8GZ">
+        <property role="TrG5h" value="Create DB" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UTR" role="X_8GZ">
+        <property role="TrG5h" value="Connect to ArangoDB" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R4N" role="3f6AUE" />
+      <node concept="3f6AUX" id="1AN4KDF6R4O" role="3f6AUK">
+        <property role="TrG5h" value="Database Creator" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3BFnmI" id="1AN4KDF6URr" role="3BFnmE">
+        <node concept="3BFnma" id="1AN4KDF6URs" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6URt" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R4L" resolve="Collection Creator" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6URy" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6URz" role="3f6BbQ">
+              <property role="3fT77I" value="calls" />
+            </node>
+          </node>
+        </node>
+        <node concept="3BFnma" id="1AN4KDF6UR$" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6UR_" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R4R" resolve="Document Adder" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6URA" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6URB" role="3f6BbQ">
+              <property role="3fT77I" value="calls" />
+            </node>
+          </node>
+        </node>
+        <node concept="3BFnma" id="1AN4KDF6URX" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6URY" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R4U" resolve="Graph Creator" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6URZ" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6US0" role="3f6BbQ">
+              <property role="3fT77I" value="calls" />
+            </node>
+          </node>
+        </node>
+        <node concept="3BFnma" id="1AN4KDF6USv" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6USw" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R5B" resolve="ArangoDB" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6USx" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6USy" role="3f6BbQ">
+              <property role="3fT77I" value="connects" />
+            </node>
+            <node concept="3fT77D" id="1AN4KDF6USM" role="3f6BbQ">
+              <property role="3fT77I" value="to" />
+            </node>
+          </node>
+        </node>
+        <node concept="3BFnma" id="1AN4KDF6UTq" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6UTr" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R5c" resolve="Tester" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6UTs" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6UTt" role="3f6BbQ">
+              <property role="3fT77I" value="ran" />
+            </node>
+            <node concept="3fT77D" id="1AN4KDF6UTu" role="3f6BbQ">
+              <property role="3fT77I" value="by" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="1AN4KDF6R4P" role="3f6AUZ">
+      <node concept="X_8GT" id="1AN4KDF6UU5" role="X_8GZ">
+        <property role="TrG5h" value="call()" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R4Q" role="3f6AUE" />
+      <node concept="3f6AUX" id="1AN4KDF6R4R" role="3f6AUK">
+        <property role="TrG5h" value="Document Adder" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3BFnmI" id="1AN4KDF6US1" role="3BFnmE">
+        <node concept="3BFnma" id="1AN4KDF6US2" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6US3" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R5c" resolve="Tester" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6US4" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6US5" role="3f6BbQ">
+              <property role="3fT77I" value="notifies" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="1AN4KDF6R4S" role="3f6AUZ">
+      <node concept="X_8GT" id="1AN4KDF6UU6" role="X_8GZ">
+        <property role="TrG5h" value="call()" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R4T" role="3f6AUE" />
+      <node concept="3f6AUX" id="1AN4KDF6R4U" role="3f6AUK">
+        <property role="TrG5h" value="Graph Creator" />
+      </node>
+      <node concept="3BFnmI" id="1AN4KDF6US6" role="3BFnmE">
+        <node concept="3BFnma" id="1AN4KDF6US7" role="3BFnmh">
+          <node concept="3f6BbC" id="1AN4KDF6US8" role="3BFnmc">
+            <ref role="3f6BbD" node="1AN4KDF6R5c" resolve="Tester" />
+          </node>
+          <node concept="3f6AUQ" id="1AN4KDF6US9" role="ba9K_">
+            <node concept="3fT77D" id="1AN4KDF6USa" role="3f6BbQ">
+              <property role="3fT77I" value="notifies" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3f6AUY" id="1AN4KDF6R5a" role="3f6AUZ">
+      <property role="bZXHP" value="6TQOip_ygDg/actor" />
+      <node concept="X_8GT" id="1AN4KDF6URl" role="X_8GZ">
+        <property role="TrG5h" value="Graph Creator called" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6URm" role="X_8GZ">
+        <property role="TrG5h" value="Document Adder called" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6URn" role="X_8GZ">
+        <property role="TrG5h" value="Collection Creator called" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UUa" role="X_8GZ">
+        <property role="TrG5h" value="CollectionCreator was called" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UUb" role="X_8GZ">
+        <property role="TrG5h" value="DocumentAdder was called" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UUc" role="X_8GZ">
+        <property role="TrG5h" value="GraphCreator was called" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R5b" role="3f6AUE" />
+      <node concept="3f6AUX" id="1AN4KDF6R5c" role="3f6AUK">
+        <property role="TrG5h" value="Tester" />
+        <property role="11DDNk" value="true" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6UTb" role="3jToc2" />
+      <node concept="3BFnmI" id="1AN4KDF6UTc" role="3BFnmE" />
+    </node>
+    <node concept="3f6AUY" id="1AN4KDF6R5_" role="3f6AUZ">
+      <node concept="X_8GT" id="1AN4KDF6UTX" role="X_8GZ">
+        <property role="TrG5h" value="Connect" />
+      </node>
+      <node concept="X_8GT" id="1AN4KDF6UU0" role="X_8GZ">
+        <property role="TrG5h" value="Create DB" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6R5A" role="3f6AUE" />
+      <node concept="3f6AUX" id="1AN4KDF6R5B" role="3f6AUK">
+        <property role="TrG5h" value="ArangoDB" />
+        <property role="11DDNk" value="true" />
+      </node>
+    </node>
+    <node concept="3f6AUQ" id="1AN4KDF6R4I" role="3f6AUR" />
   </node>
 </model>
 
