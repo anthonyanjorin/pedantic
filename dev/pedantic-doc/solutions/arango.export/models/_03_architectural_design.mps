@@ -579,6 +579,23 @@
     <node concept="X_8GT" id="4jS$w1NZX$G" role="1vU5Ow">
       <property role="TrG5h" value="Access Web Browser" />
     </node>
+    <node concept="X_8GT" id="1AN4KDF6QUi" role="1vU5Ow">
+      <property role="TrG5h" value="Inspect Collection" />
+      <node concept="3f6AUQ" id="1AN4KDF6QV$" role="$d$W1">
+        <node concept="3fT77D" id="1AN4KDF6QVD" role="3f6BbQ">
+          <property role="3fT77I" value="Show" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QVE" role="3f6BbQ">
+          <property role="3fT77I" value="Collection" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QVB" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QVC" role="3f6BbQ">
+          <property role="3fT77I" value="UI" />
+        </node>
+      </node>
+    </node>
     <node concept="3zGEss" id="4jS$w1NVysK" role="1fmyMO">
       <property role="TrG5h" value="Web Browser UI" />
       <ref role="3zGEsh" node="4jS$w1NVwUj" resolve="ArangoDB Web UI" />
@@ -1095,7 +1112,7 @@
         <property role="3fT77I" value="is" />
       </node>
       <node concept="3fT77D" id="7C5UPHnZAEZ" role="3f6BbQ">
-        <property role="3fT77I" value="stored" />
+        <property role="3fT77I" value="sto∞red" />
       </node>
       <node concept="3fT77D" id="7C5UPHnZAF0" role="3f6BbQ">
         <property role="3fT77I" value="on" />
@@ -1541,6 +1558,13 @@
           <property role="11DDNk" value="true" />
         </node>
       </node>
+    </node>
+    <node concept="X_8GT" id="1AN4KDF6QWf" role="1vU5Ow">
+      <property role="TrG5h" value="Test Complete" />
+      <node concept="3f6AUQ" id="1AN4KDF6QWg" role="$d$W1" />
+    </node>
+    <node concept="X_8GT" id="1AN4KDF6QWt" role="1vU5Ow">
+      <property role="TrG5h" value="Test Failed" />
     </node>
     <node concept="3zGEss" id="7J16yTfnLvQ" role="1fmyMO">
       <property role="TrG5h" value="DB Name" />

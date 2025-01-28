@@ -7,6 +7,7 @@
   <imports>
     <import index="aamg" ref="r:feb907e2-853a-4c90-9dca-07beabfe1084(_03_architectural_design)" />
     <import index="hb21" ref="r:ad5d0d07-56a5-4a0a-ab4a-7d25221f5111(_02_requirements)" />
+    <import index="wjwp" ref="r:09762c2c-84c4-4d3c-86ba-5448ddf98491(_01_domain_model)" />
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
@@ -90,6 +91,7 @@
       </concept>
       <concept id="3889923412177894677" name="pedantic.structure.FormalRelations" flags="ng" index="3BFnmI">
         <child id="3889923412177894698" name="outgoing" index="3BFnmh" />
+        <child id="3889923412177894678" name="supers" index="3BFnmH" />
       </concept>
       <concept id="579219467668942115" name="pedantic.structure.Scenario" flags="ng" index="1Lr20E">
         <child id="579219467669762504" name="description" index="1LuVN1" />
@@ -770,10 +772,6 @@
         <property role="TrG5h" value="Tester" />
         <property role="11DDNk" value="true" />
       </node>
-      <node concept="3f6AUX" id="3uuAVXOoKHw" role="3f6AUK">
-        <property role="TrG5h" value="Test Engineer" />
-        <property role="11DDNk" value="true" />
-      </node>
       <node concept="3f6AUQ" id="3uuAVXOoKHy" role="3jToc2">
         <node concept="3fT77D" id="3uuAVXOoKH$" role="3f6BbQ">
           <property role="3fT77I" value="executes" />
@@ -813,7 +811,7 @@
           <property role="3BFnm9" value="1" />
           <property role="3BFnmf" value="1" />
           <node concept="3f6BbC" id="3uuAVXOoKJU" role="3BFnmc">
-            <ref role="3f6BbD" node="3uuAVXOoKHI" resolve="Export Application" />
+            <ref role="3f6BbD" node="3uuAVXOoKHI" resolve="Export Applications" />
           </node>
           <node concept="3f6AUQ" id="3uuAVXOoKJV" role="ba9K_">
             <node concept="3fT77D" id="3uuAVXOoKJW" role="3f6BbQ">
@@ -861,10 +859,13 @@
         </node>
       </node>
       <node concept="3f6AUX" id="3uuAVXOoKHI" role="3f6AUK">
-        <property role="TrG5h" value="Export Application" />
+        <property role="TrG5h" value="Export Applications" />
       </node>
       <node concept="3f6AUQ" id="3uuAVXOoKI0" role="3jToc2" />
       <node concept="3BFnmI" id="3uuAVXOoKIY" role="3BFnmE">
+        <node concept="3f6BbC" id="3uuAVXOoRNK" role="3BFnmH">
+          <ref role="3f6BbD" to="wjwp:7C5UPHnZZ3R" resolve="Python Script" />
+        </node>
         <node concept="3BFnma" id="3uuAVXOoKJB" role="3BFnmh">
           <node concept="3f6BbC" id="3uuAVXOoKJC" role="3BFnmc">
             <ref role="3f6BbD" node="3uuAVXOoKHZ" resolve="Pedantic" />
@@ -873,7 +874,7 @@
             <node concept="3fT77D" id="3uuAVXOoKJE" role="3f6BbQ">
               <property role="3fT77I" value="expects" />
             </node>
-            <node concept="3fT77D" id="3uuAVXOoKJH" role="3f6BbQ">
+            <node concept="3fT77D" id="3uuAVXOoRNm" role="3f6BbQ">
               <property role="3fT77I" value="node" />
               <property role="11DDNk" value="true" />
             </node>
@@ -886,10 +887,6 @@
           <node concept="3f6AUQ" id="3uuAVXOoKK7" role="ba9K_">
             <node concept="3fT77D" id="3uuAVXOoKK8" role="3f6BbQ">
               <property role="3fT77I" value="exports" />
-              <property role="11DDNk" value="true" />
-            </node>
-            <node concept="3fT77D" id="3uuAVXOoKKa" role="3f6BbQ">
-              <property role="3fT77I" value="node" />
               <property role="11DDNk" value="true" />
             </node>
           </node>

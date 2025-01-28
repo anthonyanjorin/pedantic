@@ -1198,6 +1198,7 @@
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8NM" role="3f6AUK">
         <property role="TrG5h" value="MPS" />
+        <property role="11DDNk" value="true" />
       </node>
       <node concept="3f6AUX" id="Sv$7iJa8NN" role="3f6AUK">
         <property role="TrG5h" value="JetBrains MPS" />
@@ -2089,6 +2090,7 @@
         <property role="TrG5h" value="Databases" />
       </node>
       <node concept="3f6AUQ" id="Sv$7iJa8uB" role="3jToc2" />
+      <node concept="3BFnmI" id="4nYcjcX$9g4" role="3BFnmE" />
     </node>
     <node concept="3f6AUY" id="Sv$7iJa8uU" role="3f6AUZ">
       <node concept="3f6AUQ" id="Sv$7iJa8uV" role="3f6AUE">
@@ -2885,6 +2887,28 @@
   <node concept="3UcZMl" id="7J16yTf$ujD">
     <property role="TrG5h" value="Python" />
     <property role="3GE5qa" value="Terminology" />
+    <node concept="3f6AUY" id="4nYcjcX$9g5" role="3f6AUZ">
+      <node concept="3f6AUQ" id="4nYcjcX$9g6" role="3f6AUE" />
+      <node concept="3f6AUX" id="4nYcjcX$9g7" role="3f6AUK">
+        <property role="TrG5h" value="Script" />
+      </node>
+    </node>
+    <node concept="3f6AUY" id="4nYcjcX$9g8" role="3f6AUZ">
+      <node concept="3f6AUQ" id="4nYcjcX$9g9" role="3f6AUE" />
+      <node concept="3f6AUX" id="4nYcjcX$9ga" role="3f6AUK">
+        <property role="TrG5h" value="Class" />
+      </node>
+      <node concept="3f6AUQ" id="4nYcjcX$9gb" role="3jToc2" />
+      <node concept="3BFnmI" id="4nYcjcX$9gd" role="3BFnmE">
+        <node concept="3BFnma" id="4nYcjcX$9ge" role="3BFnm$">
+          <property role="3BFnm9" value="1" />
+          <property role="3BFnmf" value="1" />
+          <node concept="3f6BbC" id="4nYcjcX$9gf" role="3BFnmc">
+            <ref role="3f6BbD" node="4nYcjcX$9g7" resolve="Script" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3f6AUQ" id="7J16yTf$ujE" role="3f6AUR" />
   </node>
   <node concept="1Xvgy9" id="4jS$w1O5pRK">

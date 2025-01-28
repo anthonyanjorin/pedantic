@@ -13,6 +13,14 @@
       <concept id="7959779354261476651" name="pedantic.structure.SequenceReference" flags="ng" index="bi8gd">
         <reference id="7959779354261476654" name="target" index="bi8g8" />
       </concept>
+      <concept id="6010201709287355238" name="pedantic.structure.InstanceBinding" flags="ng" index="_V3nU">
+        <reference id="6010201709287355241" name="parameter" index="_V3nP" />
+        <reference id="6010201709287355239" name="argument" index="_V3nV" />
+      </concept>
+      <concept id="6010201709287355232" name="pedantic.structure.SequenceInvocation" flags="ng" index="_V3nW">
+        <reference id="6010201709287355233" name="target" index="_V3nX" />
+        <child id="6010201709287355235" name="bindings" index="_V3nZ" />
+      </concept>
       <concept id="8987473119584018417" name="pedantic.structure.Sequence" flags="ng" index="X_bju">
         <child id="6010201709267609475" name="participants" index="AfY4v" />
         <child id="8987473119584018422" name="messages" index="X_bjp" />
@@ -20,6 +28,12 @@
       </concept>
       <concept id="9201705040284588334" name="pedantic.structure.Reviewable" flags="ngI" index="11DDNl">
         <property id="9201705040284588335" name="reviewed" index="11DDNk" />
+      </concept>
+      <concept id="470559418583006279" name="pedantic.structure.SelfMessage" flags="ng" index="18RnWb">
+        <reference id="6010201709267609479" name="self" index="AfY4r" />
+      </concept>
+      <concept id="470559418595800424" name="pedantic.structure.Note" flags="ng" index="19Azo$">
+        <child id="7161014301860983851" name="desc" index="1YyRMU" />
       </concept>
       <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
         <child id="4928100702460203916" name="words" index="3f6BbQ" />
@@ -621,7 +635,7 @@
     </node>
   </node>
   <node concept="1Lr20E" id="7J16yTfrSmz">
-    <property role="TrG5h" value="Engineer Defines Graph in ArangoDB" />
+    <property role="TrG5h" value="Integration Test Sequences" />
     <property role="3GE5qa" value="Define Graph in ArangoDB Test Design" />
     <node concept="X_bju" id="7J16yTfrTmo" role="1LuVN3">
       <property role="TrG5h" value="Export JSON to ArangoDB to different Databases" />
@@ -700,6 +714,196 @@
       <node concept="1gfTUo" id="7J16yTfsdpM" role="AfY4v">
         <property role="TrG5h" value="Engingeer Exports Graph to ArangoDB.testDB2" />
         <ref role="1gfY4O" node="7J16yTfsbLu" resolve="testDB2" />
+      </node>
+    </node>
+    <node concept="X_bju" id="1AN4KDF6QNn" role="1LuVN3">
+      <property role="TrG5h" value="Documents in ArangoDB correspond to nodes" />
+      <node concept="1LuVN4" id="1AN4KDF6QOa" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QNV" resolve="MPS.pedantic" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NWIQi" resolve="Path Input" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QOd" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QNV" resolve="MPS.pedantic" />
+        <ref role="19Fzs9" to="aamg:7J16yTfsHzt" resolve="ArangoDBExportConfig" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QOn" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QNY" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NWQKy" resolve="Database Name Input" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QOq" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QNY" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NWPWX" resolve="Path Input" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QOt" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QNY" resolve="Export to ArangoDB.Export Application" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NWUTv" resolve="run " />
+      </node>
+      <node concept="_V3nW" id="1AN4KDF6QQx" role="X_bjp">
+        <ref role="_V3nX" node="1AN4KDF6QPn" resolve="Application Connection to Arango" />
+        <node concept="_V3nU" id="1AN4KDF6QQz" role="_V3nZ">
+          <ref role="_V3nP" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+          <ref role="_V3nV" node="1AN4KDF6QO1" resolve="Export to ArangoDB.ArangoDB" />
+        </node>
+        <node concept="_V3nU" id="1AN4KDF6QTZ" role="_V3nZ">
+          <ref role="_V3nP" node="1AN4KDF6QPt" resolve="Export to ArangoDB.ArangoDB" />
+          <ref role="_V3nV" node="1AN4KDF6QNY" resolve="Export to ArangoDB.Export Application" />
+        </node>
+      </node>
+      <node concept="1gfTUo" id="1AN4KDF6QNP" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.Engineer" />
+        <ref role="1gfY4O" to="aamg:7C5UPHnZKQE" resolve="Engineer" />
+      </node>
+      <node concept="1gfTUo" id="1AN4KDF6QNV" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.MPS" />
+        <ref role="1gfY4O" to="aamg:25VKDKDBxJ5" resolve="MPS" />
+      </node>
+      <node concept="1gfTUo" id="1AN4KDF6QNY" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.Export Application" />
+        <ref role="1gfY4O" to="aamg:Sv$7iJa8g6" resolve="Export Application" />
+      </node>
+      <node concept="1gfTUo" id="1AN4KDF6QO1" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.ArangoDB" />
+        <ref role="1gfY4O" to="aamg:Sv$7iJa8g4" resolve="ArangoDB" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6QNp" role="X_bjr">
+        <node concept="3fT77D" id="1AN4KDF6QNr" role="3f6BbQ">
+          <property role="3fT77I" value="designs" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNs" role="3f6BbQ">
+          <property role="3fT77I" value="the" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNv" role="3f6BbQ">
+          <property role="3fT77I" value="integration" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNw" role="3f6BbQ">
+          <property role="3fT77I" value="test" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNu" role="3f6BbQ">
+          <property role="3fT77I" value="sequence" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QN$" role="3f6BbQ">
+          <property role="3fT77I" value="if" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QN_" role="3f6BbQ">
+          <property role="3fT77I" value="documents" />
+          <property role="11DDNk" value="true" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNB" role="3f6BbQ">
+          <property role="3fT77I" value="in" />
+        </node>
+        <node concept="3f6BbC" id="1AN4KDF6QNE" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8$z" resolve="Collections" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNG" role="3f6BbQ">
+          <property role="3fT77I" value="correspond" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNH" role="3f6BbQ">
+          <property role="3fT77I" value="to" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNI" role="3f6BbQ">
+          <property role="3fT77I" value="nodes" />
+        </node>
+        <node concept="3fT77D" id="1AN4KDF6QNJ" role="3f6BbQ">
+          <property role="3fT77I" value="from" />
+        </node>
+        <node concept="3f6BbC" id="1AN4KDF6QNL" role="3f6BbQ">
+          <ref role="3f6BbD" to="wjwp:Sv$7iJa8Tr" resolve="Pedantic" />
+        </node>
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QUf" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QO1" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NZX$G" resolve="Access Web Browser" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QUj" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="AfY4e" node="1AN4KDF6QO1" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:1AN4KDF6QUi" resolve="Inspect Collection" />
+      </node>
+      <node concept="19Azo$" id="1AN4KDF6QUv" role="X_bjp">
+        <node concept="3f6AUQ" id="1AN4KDF6QUx" role="1YyRMU">
+          <node concept="3f6BbC" id="1AN4KDF6QUF" role="3f6BbQ">
+            <ref role="3f6BbD" to="wjwp:Sv$7iJa8AM" resolve="Documents" />
+          </node>
+          <node concept="3fT77D" id="1AN4KDF6QUB" role="3f6BbQ">
+            <property role="3fT77I" value="overlap" />
+          </node>
+          <node concept="3fT77D" id="1AN4KDF6QUC" role="3f6BbQ">
+            <property role="3fT77I" value="with" />
+          </node>
+          <node concept="3f6BbC" id="1AN4KDF6QUH" role="3f6BbQ">
+            <ref role="3f6BbD" to="wjwp:Sv$7iJa8Tr" resolve="Pedantic" />
+          </node>
+          <node concept="3fT77D" id="1AN4KDF6QUE" role="3f6BbQ">
+            <property role="3fT77I" value="Nodes" />
+          </node>
+        </node>
+      </node>
+      <node concept="18RnWb" id="1AN4KDF6QWd" role="X_bjp">
+        <ref role="AfY4r" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" to="aamg:1AN4KDF6QWf" resolve="Test Complete" />
+      </node>
+      <node concept="19Azo$" id="1AN4KDF6QWj" role="X_bjp">
+        <node concept="3f6AUQ" id="1AN4KDF6QWl" role="1YyRMU">
+          <node concept="3fT77D" id="1AN4KDF6QWo" role="3f6BbQ">
+            <property role="3fT77I" value="else" />
+          </node>
+        </node>
+      </node>
+      <node concept="18RnWb" id="1AN4KDF6QWv" role="X_bjp">
+        <ref role="AfY4r" node="1AN4KDF6QNP" resolve="Export to ArangoDB.Engineer" />
+        <ref role="19Fzs9" to="aamg:1AN4KDF6QWt" resolve="Test Failed" />
+      </node>
+    </node>
+    <node concept="X_bju" id="1AN4KDF6QPn" role="1LuVN3">
+      <property role="TrG5h" value="Application Connection to Arango" />
+      <node concept="1gfTUo" id="1AN4KDF6QRw" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.MPS" />
+        <ref role="1gfY4O" to="aamg:25VKDKDBxJ5" resolve="MPS" />
+      </node>
+      <node concept="3f6AUQ" id="1AN4KDF6QPp" role="X_bjr" />
+      <node concept="1gfTUo" id="1AN4KDF6QPr" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.Export Application" />
+        <ref role="1gfY4O" to="aamg:Sv$7iJa8g6" resolve="Export Application" />
+      </node>
+      <node concept="1gfTUo" id="1AN4KDF6QPt" role="AfY4v">
+        <property role="TrG5h" value="Export to ArangoDB.ArangoDB" />
+        <ref role="1gfY4O" to="aamg:Sv$7iJa8g4" resolve="ArangoDB" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QPv" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="1AN4KDF6QPt" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NX042" resolve="Establish Connection" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QPx" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="1AN4KDF6QPt" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NWZxD" resolve="Create Database" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QP$" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="1AN4KDF6QPt" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NX7O5" resolve="Create Collection" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QRg" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="1AN4KDF6QRw" resolve="Export to ArangoDB.MPS" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NWXkq" resolve="Read JSON" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QPB" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="1AN4KDF6QPt" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NXafa" resolve="Add Documents" />
+      </node>
+      <node concept="1LuVN4" id="1AN4KDF6QPE" role="X_bjp">
+        <ref role="AfY4h" node="1AN4KDF6QPr" resolve="Export to ArangoDB.Export Application" />
+        <ref role="AfY4e" node="1AN4KDF6QPt" resolve="Export to ArangoDB.ArangoDB" />
+        <ref role="19Fzs9" to="aamg:4jS$w1NXi6B" resolve="Create Graph" />
       </node>
     </node>
     <node concept="3f6AUQ" id="7J16yTfrSm$" role="1LuVN1" />
