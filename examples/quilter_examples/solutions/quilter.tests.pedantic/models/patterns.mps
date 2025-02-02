@@ -24,12 +24,14 @@
         <reference id="3193225783722594989" name="object" index="2ydWX3" />
         <reference id="3193225783717605033" name="attribute" index="2yiVd7" />
       </concept>
-      <concept id="3193225783717603956" name="quilter.structure.EqualsExpression" flags="ng" index="2yiVuq">
-        <child id="3193225783717603962" name="rhs" index="2yiVuk" />
-        <child id="3193225783717603961" name="lhs" index="2yiVun" />
-      </concept>
+      <concept id="3193225783717603956" name="quilter.structure.Equals" flags="ng" index="2yiVuq" />
       <concept id="3193225783717603957" name="quilter.structure.AccessViaThis" flags="ng" index="2yiVur">
         <reference id="3193225783722929657" name="attribute" index="2yff0n" />
+      </concept>
+      <concept id="3193225783717603918" name="quilter.structure.AttributeExpression" flags="ng" index="2yiVuw">
+        <child id="4647437687713748300" name="lhs" index="1FzXqS" />
+        <child id="4647437687713748301" name="rhs" index="1FzXqT" />
+        <child id="4647437687713748302" name="operator" index="1FzXqU" />
       </concept>
       <concept id="4853636992467032572" name="quilter.structure.ObjectVariable" flags="ng" index="17UGNt">
         <reference id="4853636992467032573" name="object" index="17UGNs" />
@@ -255,14 +257,15 @@
           <property role="3uJT_3" value="3u658jErrLc/IMM_RIGHT" />
           <ref role="3F$xdr" node="2MtiOR5i0aw" resolve="otherWord" />
         </node>
-        <node concept="2yiVuq" id="2MtiOR5hZSF" role="2yiVu7">
-          <node concept="2yiVur" id="2MtiOR5hZSH" role="2yiVun">
+        <node concept="2yiVuw" id="41Z0ZgGCSyc" role="2yiVu7">
+          <node concept="2yiVur" id="41Z0ZgGCSyg" role="1FzXqS">
             <ref role="2yff0n" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
-          <node concept="2yiVum" id="2MtiOR5i0ax" role="2yiVuk">
+          <node concept="2yiVum" id="41Z0ZgGCSyk" role="1FzXqT">
             <ref role="2ydWX3" node="2MtiOR5i0aw" resolve="otherWord" />
             <ref role="2yiVd7" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
+          <node concept="2yiVuq" id="41Z0ZgGCSyi" role="1FzXqU" />
         </node>
       </node>
       <node concept="3F$xvW" id="2MtiOR5i0aw" role="3F$xvU">
@@ -280,14 +283,15 @@
           <property role="3uJT_3" value="3u658jErrLb/IMM_LEFT" />
           <ref role="3F$xdr" node="3u658jF0VbU" resolve="otherWord" />
         </node>
-        <node concept="2yiVuq" id="3u658jF0VbR" role="2yiVu7">
-          <node concept="2yiVur" id="3u658jF0VbS" role="2yiVun">
+        <node concept="2yiVuw" id="41Z0ZgGCSyq" role="2yiVu7">
+          <node concept="2yiVur" id="41Z0ZgGCSyr" role="1FzXqS">
             <ref role="2yff0n" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
-          <node concept="2yiVum" id="3u658jF0VbT" role="2yiVuk">
+          <node concept="2yiVum" id="41Z0ZgGCSys" role="1FzXqT">
             <ref role="2ydWX3" node="3u658jF0VbU" resolve="otherWord" />
             <ref role="2yiVd7" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
+          <node concept="2yiVuq" id="41Z0ZgGCSyt" role="1FzXqU" />
         </node>
       </node>
       <node concept="3F$xvW" id="3u658jF0VbU" role="3F$xvU">
@@ -305,14 +309,15 @@
           <property role="3uJT_3" value="3u658jDeoR6/IMM_LEFT_RIGHT" />
           <ref role="3F$xdr" node="3u658jF0Vc2" resolve="otherWord" />
         </node>
-        <node concept="2yiVuq" id="3u658jF0VbZ" role="2yiVu7">
-          <node concept="2yiVur" id="3u658jF0Vc0" role="2yiVun">
+        <node concept="2yiVuw" id="41Z0ZgGCSyu" role="2yiVu7">
+          <node concept="2yiVur" id="41Z0ZgGCSyv" role="1FzXqS">
             <ref role="2yff0n" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
-          <node concept="2yiVum" id="3u658jF0Vc1" role="2yiVuk">
+          <node concept="2yiVum" id="41Z0ZgGCSyw" role="1FzXqT">
             <ref role="2ydWX3" node="3u658jF0Vc2" resolve="otherWord" />
             <ref role="2yiVd7" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
+          <node concept="2yiVuq" id="41Z0ZgGCSyx" role="1FzXqU" />
         </node>
       </node>
       <node concept="3F$xvW" id="3u658jF0Vc2" role="3F$xvU">
@@ -330,14 +335,15 @@
           <property role="3uJT_3" value="3u658jErrLa/ALL_RIGHT" />
           <ref role="3F$xdr" node="3u658jF0Vca" resolve="otherWord" />
         </node>
-        <node concept="2yiVuq" id="3u658jF0Vc7" role="2yiVu7">
-          <node concept="2yiVur" id="3u658jF0Vc8" role="2yiVun">
+        <node concept="2yiVuw" id="41Z0ZgGCSyy" role="2yiVu7">
+          <node concept="2yiVur" id="41Z0ZgGCSyz" role="1FzXqS">
             <ref role="2yff0n" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
-          <node concept="2yiVum" id="3u658jF0Vc9" role="2yiVuk">
+          <node concept="2yiVum" id="41Z0ZgGCSy$" role="1FzXqT">
             <ref role="2ydWX3" node="3u658jF0Vca" resolve="otherWord" />
             <ref role="2yiVd7" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
+          <node concept="2yiVuq" id="41Z0ZgGCSy_" role="1FzXqU" />
         </node>
       </node>
       <node concept="3F$xvW" id="3u658jF0Vca" role="3F$xvU">
@@ -355,14 +361,15 @@
           <property role="3uJT_3" value="3u658jErrL9/ALL_LEFT" />
           <ref role="3F$xdr" node="3u658jF0Vci" resolve="otherWord" />
         </node>
-        <node concept="2yiVuq" id="3u658jF0Vcf" role="2yiVu7">
-          <node concept="2yiVur" id="3u658jF0Vcg" role="2yiVun">
+        <node concept="2yiVuw" id="41Z0ZgGCSyA" role="2yiVu7">
+          <node concept="2yiVur" id="41Z0ZgGCSyB" role="1FzXqS">
             <ref role="2yff0n" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
-          <node concept="2yiVum" id="3u658jF0Vch" role="2yiVuk">
+          <node concept="2yiVum" id="41Z0ZgGCSyC" role="1FzXqT">
             <ref role="2ydWX3" node="3u658jF0Vci" resolve="otherWord" />
             <ref role="2yiVd7" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
+          <node concept="2yiVuq" id="41Z0ZgGCSyD" role="1FzXqU" />
         </node>
       </node>
       <node concept="3F$xvW" id="3u658jF0Vci" role="3F$xvU">
@@ -379,14 +386,15 @@
           <property role="TrG5h" value="sibling" />
           <ref role="3F$xdr" node="3u658jF0Vcq" resolve="otherWord" />
         </node>
-        <node concept="2yiVuq" id="3u658jF0Vcn" role="2yiVu7">
-          <node concept="2yiVur" id="3u658jF0Vco" role="2yiVun">
+        <node concept="2yiVuw" id="41Z0ZgGCSyE" role="2yiVu7">
+          <node concept="2yiVur" id="41Z0ZgGCSyF" role="1FzXqS">
             <ref role="2yff0n" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
-          <node concept="2yiVum" id="3u658jF0Vcp" role="2yiVuk">
+          <node concept="2yiVum" id="41Z0ZgGCSyG" role="1FzXqT">
             <ref role="2ydWX3" node="3u658jF0Vcq" resolve="otherWord" />
             <ref role="2yiVd7" to="3ido:4h$8nEbw52k" resolve="content" />
           </node>
+          <node concept="2yiVuq" id="41Z0ZgGCSyH" role="1FzXqU" />
         </node>
       </node>
       <node concept="3F$xvW" id="3u658jF0Vcq" role="3F$xvU">

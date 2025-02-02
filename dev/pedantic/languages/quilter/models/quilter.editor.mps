@@ -2119,22 +2119,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="2LgBuUe6MDV">
-    <property role="3GE5qa" value="patterns.attributes.expressions" />
-    <ref role="1XX52x" to="uyb6:2LgBuUe6MDO" resolve="EqualsExpression" />
-    <node concept="3EZMnI" id="2LgBuUe6MDX" role="2wV5jI">
-      <node concept="3F1sOY" id="2LgBuUe6ME3" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUe6MDT" resolve="lhs" />
-      </node>
-      <node concept="3F0ifn" id="2LgBuUe6ME8" role="3EZMnx">
-        <property role="3F0ifm" value="==" />
-      </node>
-      <node concept="3F1sOY" id="2LgBuUe6MEb" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2LgBuUe6MDU" resolve="rhs" />
-      </node>
-      <node concept="l2Vlx" id="2LgBuUe6ME0" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="2LgBuUe6MUP">
     <property role="3GE5qa" value="patterns.attributes.values" />
     <ref role="1XX52x" to="uyb6:2LgBuUe6MDP" resolve="AccessViaThis" />
@@ -2514,22 +2498,6 @@
         <property role="3F0ifm" value="]" />
       </node>
       <node concept="l2Vlx" id="2LgBuUjl$od" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="2MtiOR2ZnbP">
-    <property role="3GE5qa" value="patterns.attributes.expressions" />
-    <ref role="1XX52x" to="uyb6:2MtiOR2ZjlF" resolve="NotEqualsExpression" />
-    <node concept="3EZMnI" id="2MtiOR2ZnbR" role="2wV5jI">
-      <node concept="3F1sOY" id="2MtiOR2ZnbS" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZmrE" resolve="lhs" />
-      </node>
-      <node concept="3F0ifn" id="2MtiOR2ZnbT" role="3EZMnx">
-        <property role="3F0ifm" value="!=" />
-      </node>
-      <node concept="3F1sOY" id="2MtiOR2ZnbU" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:2MtiOR2ZmrF" resolve="rhs" />
-      </node>
-      <node concept="l2Vlx" id="2MtiOR2ZnbV" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="2MtiOR2ZJYZ">
@@ -2963,6 +2931,42 @@
           </node>
         </node>
         <node concept="l2Vlx" id="5IIk38nDNuK" role="2iSdaV" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="41Z0ZgFWdlg">
+    <property role="3GE5qa" value="patterns.attributes" />
+    <ref role="1XX52x" to="uyb6:2LgBuUe6MDe" resolve="AttributeExpression" />
+    <node concept="3EZMnI" id="41Z0ZgFWdli" role="2wV5jI">
+      <node concept="3F1sOY" id="41Z0ZgFWdlj" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:41Z0ZgFWdlc" />
+      </node>
+      <node concept="3F1sOY" id="41Z0ZgFWdln" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:41Z0ZgFWdle" resolve="operator" />
+      </node>
+      <node concept="3F1sOY" id="41Z0ZgFWdll" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:41Z0ZgFWdld" />
+      </node>
+      <node concept="l2Vlx" id="41Z0ZgFWdlm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="41Z0ZgFWHdz">
+    <property role="3GE5qa" value="patterns.attributes.operators" />
+    <ref role="1XX52x" to="uyb6:41Z0ZgFWdlf" resolve="Operator" />
+    <node concept="1HlG4h" id="41Z0ZgFWHd_" role="2wV5jI">
+      <node concept="1HfYo3" id="41Z0ZgFWHdB" role="1HlULh">
+        <node concept="3TQlhw" id="41Z0ZgFWHdD" role="1Hhtcw">
+          <node concept="3clFbS" id="41Z0ZgFWHdF" role="2VODD2">
+            <node concept="3clFbF" id="41Z0ZgFWHNN" role="3cqZAp">
+              <node concept="2OqwBi" id="41Z0ZgFWIeT" role="3clFbG">
+                <node concept="pncrf" id="41Z0ZgFWHNM" role="2Oq$k0" />
+                <node concept="2qgKlT" id="41Z0ZgFWIoI" role="2OqNvi">
+                  <ref role="37wK5l" to="w8cd:41Z0ZgFW$vC" resolve="getTextualRepresentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
