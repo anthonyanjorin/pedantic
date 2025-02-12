@@ -25,10 +25,10 @@
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="ucun" ref="r:58011d47-6db5-4858-80a6-0fd73d614b47(plantuml.plugin.plugin)" />
+    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
-    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -11450,6 +11450,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="4cbEj31YHzy" role="3cqZAp">
+          <node concept="2OqwBi" id="4cbEj31YLpy" role="3clFbG">
+            <node concept="37vLTw" id="4cbEj31YHzw" role="2Oq$k0">
+              <ref role="3cqZAo" node="dWb9J4QY_X" resolve="nameSearchString" />
+            </node>
+            <node concept="liA8E" id="4cbEj31YSAv" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Component.addFocusListener(java.awt.event.FocusListener)" resolve="addFocusListener" />
+              <node concept="Xjq3P" id="4cbEj31YZoz" role="37wK5m" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="dWb9J4RGle" role="3cqZAp" />
         <node concept="3SKdUt" id="dWb9J53ViS" role="3cqZAp">
           <node concept="1PaTwC" id="dWb9J53ViT" role="1aUNEU">
@@ -12101,6 +12112,9 @@
     </node>
     <node concept="3uibUv" id="6TQOipxt4Z9" role="EKbjA">
       <ref role="3uigEE" to="hyam:~ActionListener" resolve="ActionListener" />
+    </node>
+    <node concept="3uibUv" id="4cbEj31ZavL" role="EKbjA">
+      <ref role="3uigEE" to="hyam:~FocusListener" resolve="FocusListener" />
     </node>
     <node concept="3clFb_" id="6TQOipxt530" role="jymVt">
       <property role="TrG5h" value="actionPerformed" />
@@ -12876,6 +12890,47 @@
         <ref role="3uigEE" to="dxuu:~JDialog" resolve="JDialog" />
       </node>
       <node concept="3Tm1VV" id="4dr_i42CNlG" role="1B3o_S" />
+    </node>
+    <node concept="3clFb_" id="4cbEj31ZmQT" role="jymVt">
+      <property role="TrG5h" value="focusGained" />
+      <node concept="3Tm1VV" id="4cbEj31ZmQU" role="1B3o_S" />
+      <node concept="3cqZAl" id="4cbEj31ZmQW" role="3clF45" />
+      <node concept="37vLTG" id="4cbEj31ZmQX" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="4cbEj31ZmQY" role="1tU5fm">
+          <ref role="3uigEE" to="hyam:~FocusEvent" resolve="FocusEvent" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4cbEj31ZmR2" role="3clF47">
+        <node concept="3clFbF" id="4cbEj31ZB71" role="3cqZAp">
+          <node concept="2OqwBi" id="4cbEj31ZG10" role="3clFbG">
+            <node concept="37vLTw" id="4cbEj31ZB70" role="2Oq$k0">
+              <ref role="3cqZAo" node="dWb9J4QY_X" resolve="nameSearchString" />
+            </node>
+            <node concept="liA8E" id="4cbEj3200MF" role="2OqNvi">
+              <ref role="37wK5l" to="r791:~JTextComponent.selectAll()" resolve="selectAll" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4cbEj31ZmR3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cbEj322ryC" role="jymVt">
+      <property role="TrG5h" value="focusLost" />
+      <node concept="3Tm1VV" id="4cbEj322ryD" role="1B3o_S" />
+      <node concept="3cqZAl" id="4cbEj322ryF" role="3clF45" />
+      <node concept="37vLTG" id="4cbEj322ryG" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="4cbEj322ryH" role="1tU5fm">
+          <ref role="3uigEE" to="hyam:~FocusEvent" resolve="FocusEvent" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4cbEj322ryL" role="3clF47" />
+      <node concept="2AHcQZ" id="4cbEj322ryM" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="6TQOip_P9oi">

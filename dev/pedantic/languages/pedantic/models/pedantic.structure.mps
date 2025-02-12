@@ -1115,7 +1115,7 @@
     <property role="TrG5h" value="System" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="system" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="7MTUMX1e36k" resolve="Publishable" />
     <node concept="1TJgyj" id="5IIk38kZTqk" role="1TKVEi">
       <property role="IQ2ns" value="6606305879429977748" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
