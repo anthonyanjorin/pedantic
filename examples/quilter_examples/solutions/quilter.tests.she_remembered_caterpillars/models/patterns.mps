@@ -56,6 +56,14 @@
       <concept id="4853636992467032572" name="quilter.structure.ObjectVariable" flags="ng" index="17UGNt">
         <reference id="4853636992467032573" name="object" index="17UGNs" />
       </concept>
+      <concept id="8789799326247465257" name="quilter.structure.UntypedLink_BF" flags="ng" index="3e2hb3">
+        <child id="8789799326247465258" name="source" index="3e2hb0" />
+        <child id="8789799326247465259" name="target" index="3e2hb1" />
+      </concept>
+      <concept id="8789799326247465254" name="quilter.structure.UntypedLink_BB" flags="ng" index="3e2hbc">
+        <child id="8789799326247465256" name="target" index="3e2hb2" />
+        <child id="8789799326247465255" name="source" index="3e2hbd" />
+      </concept>
       <concept id="8789799326247432952" name="quilter.structure.FreeVariable" flags="ng" index="3e2p4i" />
       <concept id="8789799326247432951" name="quilter.structure.BoundVariable" flags="ng" index="3e2p4t" />
       <concept id="8789799326247423512" name="quilter.structure.TypedObject_F" flags="ng" index="3e2qRM">
@@ -70,11 +78,6 @@
         <reference id="2831616614558720038" name="type" index="3l_wLC" />
         <child id="8789799326247445834" name="source" index="3e2sqw" />
         <child id="8789799326247445835" name="target" index="3e2sqx" />
-      </concept>
-      <concept id="8789799326247445830" name="quilter.structure.TypedLink_BB" flags="ng" index="3e2sqG">
-        <reference id="2831616614558686062" name="type" index="3l_Fsw" />
-        <child id="8789799326247445832" name="target" index="3e2sqy" />
-        <child id="8789799326247445831" name="source" index="3e2sqH" />
       </concept>
       <concept id="8789799326247358749" name="quilter.structure.AdornedVariable" flags="ng" index="3e2FbR">
         <reference id="8789799326247432950" name="variable" index="3e2p4s" />
@@ -104,17 +107,15 @@
       <concept id="8789799326235935171" name="quilter.structure.ObjectRef" flags="ng" index="3eIm8D">
         <reference id="8789799326235935172" name="target" index="3eIm8I" />
       </concept>
-      <concept id="8789799326235938336" name="quilter.structure.PostMatchContainer" flags="ng" index="3eImRa" />
       <concept id="8789799326235938335" name="quilter.structure.PreMatch" flags="ng" index="3eImRP" />
       <concept id="8789799326235938106" name="quilter.structure.Binding" flags="ng" index="3eImVg">
-        <reference id="8789799326238369916" name="target" index="3eB4Im" />
+        <property id="4647437687603283782" name="excludeFromInjectivityCheck" index="1_94iM" />
       </concept>
       <concept id="8789799326236254627" name="quilter.structure.MatchLabel" flags="ng" index="3eJ099">
         <property id="8789799326236254628" name="value" index="3eJ09e" />
       </concept>
       <concept id="8789799326235322539" name="quilter.structure.ComputeMatches" flags="ng" index="3eKGH1">
         <property id="8789799326235322528" name="maxNrOfMatchesToCompute" index="3eKGHa" />
-        <child id="8789799326235322527" name="resultMatches" index="3eKGHP" />
       </concept>
       <concept id="8789799326235322503" name="quilter.structure.Patchwork" flags="ng" index="3eKGHH">
         <child id="8789799326235322519" name="matchStatements" index="3eKGHX" />
@@ -160,213 +161,188 @@
         <property role="3Fq0gx" value="2" />
         <property role="3eKGHa" value="10" />
         <ref role="3eKGHL" node="2MtiOR4bPyd" resolve="SpriteCanCrossBridgeOfSameColour" />
-        <node concept="3eImRP" id="2MtiOR4bXYX" role="3eKGHR">
-          <node concept="3eJ099" id="2MtiOR4bXYY" role="3eIkDU">
+        <node concept="3eImRP" id="4cbEj33l7fJ" role="3eKGHR">
+          <node concept="3eJ099" id="4cbEj33l7fK" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />
           </node>
-          <node concept="3eIm8D" id="2MtiOR4bXYZ" role="3eInz_">
+          <node concept="3eIm8D" id="4cbEj33l7fL" role="3eInz_">
             <ref role="3eIm8I" node="2MtiOR4bPyf" resolve="sprite" />
           </node>
-          <node concept="3eImVg" id="2MtiOR4bXZ0" role="3eImRb" />
-          <node concept="3eIm8D" id="2MtiOR4bXZ1" role="3eInz_">
+          <node concept="3eImVg" id="4cbEj33l7fM" role="3eImRb">
+            <property role="1_94iM" value="false" />
+          </node>
+          <node concept="3eIm8D" id="4cbEj33l7fN" role="3eInz_">
             <ref role="3eIm8I" node="2MtiOR4bPyg" resolve="bridge" />
           </node>
-          <node concept="3eImVg" id="2MtiOR4bXZ2" role="3eImRb" />
-          <node concept="3eIm8D" id="2MtiOR4bXZ3" role="3eInz_">
+          <node concept="3eImVg" id="4cbEj33l7fO" role="3eImRb">
+            <property role="1_94iM" value="false" />
+          </node>
+          <node concept="3eIm8D" id="4cbEj33l7fP" role="3eInz_">
             <ref role="3eIm8I" node="2MtiOR4bPyh" resolve="platform1" />
           </node>
-          <node concept="3eImVg" id="2MtiOR4bXZ4" role="3eImRb" />
-          <node concept="3eIm8D" id="2MtiOR4bXZ5" role="3eInz_">
+          <node concept="3eImVg" id="4cbEj33l7fQ" role="3eImRb">
+            <property role="1_94iM" value="false" />
+          </node>
+          <node concept="3eIm8D" id="4cbEj33l7fR" role="3eInz_">
             <ref role="3eIm8I" node="2MtiOR4bPyi" resolve="platform2" />
           </node>
-          <node concept="3eImVg" id="2MtiOR4bXZ6" role="3eImRb" />
+          <node concept="3eImVg" id="4cbEj33l7fS" role="3eImRb">
+            <property role="1_94iM" value="false" />
+          </node>
         </node>
-        <node concept="3elqOZ" id="2MtiOR4bXZ7" role="3eliY4">
-          <node concept="17UGNt" id="2MtiOR4bXZ8" role="3eirzu">
+        <node concept="3elqOZ" id="4cbEj33l7fT" role="3eliY4">
+          <node concept="17UGNt" id="4cbEj33l7fU" role="3eirzu">
             <property role="TrG5h" value="sprite" />
             <ref role="17UGNs" node="2MtiOR4bPyf" resolve="sprite" />
           </node>
-          <node concept="3el$ZR" id="2MtiOR4bXZ9" role="3elqOW">
-            <ref role="3eirzp" node="2MtiOR4bXZ8" resolve="sprite" />
+          <node concept="3el$ZR" id="4cbEj33l7fV" role="3elqOW">
+            <ref role="3eirzp" node="4cbEj33l7fU" resolve="sprite" />
             <ref role="3ein4b" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
           </node>
-          <node concept="17UGNt" id="2MtiOR4bXZa" role="3eirzu">
+          <node concept="17UGNt" id="4cbEj33l7fW" role="3eirzu">
             <property role="TrG5h" value="bridge" />
             <ref role="17UGNs" node="2MtiOR4bPyg" resolve="bridge" />
           </node>
-          <node concept="3el$ZR" id="2MtiOR4bXZb" role="3elqOW">
-            <ref role="3eirzp" node="2MtiOR4bXZa" resolve="bridge" />
+          <node concept="3el$ZR" id="4cbEj33l7fX" role="3elqOW">
+            <ref role="3eirzp" node="4cbEj33l7fW" resolve="bridge" />
             <ref role="3ein4b" to="rkbi:2MtiOR4bOZs" resolve="Bridge" />
           </node>
-          <node concept="17UGNt" id="2MtiOR4bXZc" role="3eirzu">
+          <node concept="17UGNt" id="4cbEj33l7fY" role="3eirzu">
             <property role="TrG5h" value="platform1" />
             <ref role="17UGNs" node="2MtiOR4bPyh" resolve="platform1" />
           </node>
-          <node concept="3el$ZR" id="2MtiOR4bXZd" role="3elqOW">
-            <ref role="3eirzp" node="2MtiOR4bXZc" resolve="platform1" />
+          <node concept="3el$ZR" id="4cbEj33l7fZ" role="3elqOW">
+            <ref role="3eirzp" node="4cbEj33l7fY" resolve="platform1" />
             <ref role="3ein4b" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
           </node>
-          <node concept="17UGNt" id="2MtiOR4bXZe" role="3eirzu">
+          <node concept="17UGNt" id="4cbEj33l7g0" role="3eirzu">
             <property role="TrG5h" value="platform2" />
             <ref role="17UGNs" node="2MtiOR4bPyi" resolve="platform2" />
           </node>
-          <node concept="3el$ZR" id="2MtiOR4bXZf" role="3elqOW">
-            <ref role="3eirzp" node="2MtiOR4bXZe" resolve="platform2" />
+          <node concept="3el$ZR" id="4cbEj33l7g1" role="3elqOW">
+            <ref role="3eirzp" node="4cbEj33l7g0" resolve="platform2" />
             <ref role="3ein4b" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
           </node>
-          <node concept="2yDkUP" id="2MtiOR4bXZg" role="3eirzu">
+          <node concept="2yDkUP" id="4cbEj33l7g2" role="3eirzu">
             <property role="TrG5h" value="bridge.colour" />
             <ref role="2yDkUM" node="2MtiOR4bPyg" resolve="bridge" />
             <ref role="2yDkUN" to="rkbi:2MtiOR4bOZQ" resolve="colour" />
           </node>
-          <node concept="2zhP8r" id="2MtiOR4bXZh" role="3elqOW">
-            <ref role="2zva64" node="2MtiOR4bXZg" resolve="bridge.colour" />
-            <ref role="2zva67" node="2MtiOR4bXZa" resolve="bridge" />
+          <node concept="2zhP8r" id="4cbEj33l7g3" role="3elqOW">
+            <ref role="2zva64" node="4cbEj33l7g2" resolve="bridge.colour" />
+            <ref role="2zva67" node="4cbEj33l7fW" resolve="bridge" />
           </node>
-          <node concept="2yDkUP" id="2MtiOR4bXZi" role="3eirzu">
+          <node concept="2yDkUP" id="4cbEj33l7g4" role="3eirzu">
             <property role="TrG5h" value="sprite.colour" />
             <ref role="2yDkUM" node="2MtiOR4bPyf" resolve="sprite" />
             <ref role="2yDkUN" to="rkbi:2MtiOR4bPz7" resolve="colour" />
           </node>
-          <node concept="2zisXQ" id="2MtiOR4bXZj" role="3elqOW">
-            <ref role="2YzF74" node="2MtiOR4bXZg" resolve="bridge.colour" />
-            <ref role="2YzF75" node="2MtiOR4bXZi" resolve="sprite.colour" />
+          <node concept="2zisXQ" id="4cbEj33l7g5" role="3elqOW">
+            <ref role="2YzF74" node="4cbEj33l7g2" resolve="bridge.colour" />
+            <ref role="2YzF75" node="4cbEj33l7g4" resolve="sprite.colour" />
           </node>
-          <node concept="2zhP8r" id="2MtiOR4bXZk" role="3elqOW">
-            <ref role="2zva64" node="2MtiOR4bXZi" resolve="sprite.colour" />
-            <ref role="2zva67" node="2MtiOR4bXZ8" resolve="sprite" />
+          <node concept="2zhP8r" id="4cbEj33l7g6" role="3elqOW">
+            <ref role="2zva64" node="4cbEj33l7g4" resolve="sprite.colour" />
+            <ref role="2zva67" node="4cbEj33l7fU" resolve="sprite" />
           </node>
-          <node concept="3el$ZO" id="2MtiOR4bXZl" role="3elqOW">
-            <ref role="3eevyo" node="2MtiOR4bXZ8" resolve="sprite" />
-            <ref role="3eevyp" node="2MtiOR4bXZc" resolve="platform1" />
+          <node concept="3el$ZO" id="4cbEj33l7g7" role="3elqOW">
+            <ref role="3eevyo" node="4cbEj33l7fU" resolve="sprite" />
+            <ref role="3eevyp" node="4cbEj33l7fY" resolve="platform1" />
             <ref role="3eevyu" to="rkbi:2MtiOR4bPyk" resolve="on" />
           </node>
-          <node concept="3el$ZO" id="2MtiOR4bXZm" role="3elqOW">
-            <ref role="3eevyo" node="2MtiOR4bXZa" resolve="bridge" />
-            <ref role="3eevyp" node="2MtiOR4bXZc" resolve="platform1" />
-            <ref role="3eevyu" to="rkbi:2MtiOR4bOZH" resolve="src" />
+          <node concept="3e6jyG" id="4cbEj33l7g8" role="3elqOW">
+            <ref role="3eevyo" node="4cbEj33l7fW" resolve="bridge" />
+            <ref role="3eevyp" node="4cbEj33l7fY" resolve="platform1" />
           </node>
-          <node concept="3el$ZO" id="2MtiOR4bXZn" role="3elqOW">
-            <ref role="3eevyo" node="2MtiOR4bXZa" resolve="bridge" />
-            <ref role="3eevyp" node="2MtiOR4bXZe" resolve="platform2" />
-            <ref role="3eevyu" to="rkbi:2MtiOR4bOZI" resolve="trg" />
+          <node concept="3e6jyG" id="4cbEj33l7g9" role="3elqOW">
+            <ref role="3eevyo" node="4cbEj33l7fW" resolve="bridge" />
+            <ref role="3eevyp" node="4cbEj33l7g0" resolve="platform2" />
           </node>
         </node>
-        <node concept="3e2OTI" id="2MtiOR4bYmW" role="3e3QqN">
-          <property role="3e1rJ9" value="217" />
-          <node concept="3e2qRM" id="2MtiOR4bYmX" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZ9" />
+        <node concept="3e2OTI" id="4cbEj33l7BI" role="3e3QqN">
+          <property role="3e1rJ9" value="2062" />
+          <node concept="3e2qRM" id="4cbEj33l7BJ" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7fV" />
             <ref role="3FLKAo" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
-            <node concept="3e2p4i" id="2MtiOR4bYmY" role="3e2p3O">
-              <ref role="3e2p4s" node="2MtiOR4bXZ8" resolve="sprite" />
+            <node concept="3e2p4i" id="4cbEj33l7BK" role="3e2p3O">
+              <ref role="3e2p4s" node="4cbEj33l7fU" resolve="sprite" />
             </node>
           </node>
-          <node concept="2z7KJ9" id="2MtiOR4bYmZ" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZk" />
-            <node concept="3e2p4t" id="2MtiOR4bYn0" role="2z7KJ6">
-              <ref role="3e2p4s" node="2MtiOR4bXZ8" resolve="sprite" />
+          <node concept="2z7KJ9" id="4cbEj33l7BL" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g6" />
+            <node concept="3e2p4t" id="4cbEj33l7BM" role="2z7KJ6">
+              <ref role="3e2p4s" node="4cbEj33l7fU" resolve="sprite" />
             </node>
-            <node concept="3e2p4i" id="2MtiOR4bYn1" role="2z7KJ7">
-              <ref role="3e2p4s" node="2MtiOR4bXZi" resolve="sprite.colour" />
-            </node>
-          </node>
-          <node concept="2zhasD" id="2MtiOR4bYn2" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZj" />
-            <node concept="3e2p4i" id="2MtiOR4bYn3" role="2Y7s_8">
-              <ref role="3e2p4s" node="2MtiOR4bXZg" resolve="bridge.colour" />
-            </node>
-            <node concept="3e2p4t" id="2MtiOR4bYn4" role="2Y7s_9">
-              <ref role="3e2p4s" node="2MtiOR4bXZi" resolve="sprite.colour" />
+            <node concept="3e2p4i" id="4cbEj33l7BN" role="2z7KJ7">
+              <ref role="3e2p4s" node="4cbEj33l7g4" resolve="sprite.colour" />
             </node>
           </node>
-          <node concept="3e2sqz" id="2MtiOR4bYn5" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZl" />
+          <node concept="2zhasD" id="4cbEj33l7BO" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g5" />
+            <node concept="3e2p4i" id="4cbEj33l7BP" role="2Y7s_8">
+              <ref role="3e2p4s" node="4cbEj33l7g2" resolve="bridge.colour" />
+            </node>
+            <node concept="3e2p4t" id="4cbEj33l7BQ" role="2Y7s_9">
+              <ref role="3e2p4s" node="4cbEj33l7g4" resolve="sprite.colour" />
+            </node>
+          </node>
+          <node concept="3e2sqz" id="4cbEj33l7BR" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g7" />
             <ref role="3l_wLC" to="rkbi:2MtiOR4bPyk" resolve="on" />
-            <node concept="3e2p4t" id="2MtiOR4bYn6" role="3e2sqw">
-              <ref role="3e2p4s" node="2MtiOR4bXZ8" resolve="sprite" />
+            <node concept="3e2p4t" id="4cbEj33l7BS" role="3e2sqw">
+              <ref role="3e2p4s" node="4cbEj33l7fU" resolve="sprite" />
             </node>
-            <node concept="3e2p4i" id="2MtiOR4bYn7" role="3e2sqx">
-              <ref role="3e2p4s" node="2MtiOR4bXZc" resolve="platform1" />
+            <node concept="3e2p4i" id="4cbEj33l7BT" role="3e2sqx">
+              <ref role="3e2p4s" node="4cbEj33l7fY" resolve="platform1" />
             </node>
           </node>
-          <node concept="3e2qRN" id="2MtiOR4bYn8" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZd" />
+          <node concept="3e2qRN" id="4cbEj33l7BU" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7fZ" />
             <ref role="3FOeZz" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
-            <node concept="3e2p4t" id="2MtiOR4bYn9" role="3e2p3R">
-              <ref role="3e2p4s" node="2MtiOR4bXZc" resolve="platform1" />
+            <node concept="3e2p4t" id="4cbEj33l7BV" role="3e2p3R">
+              <ref role="3e2p4s" node="4cbEj33l7fY" resolve="platform1" />
             </node>
           </node>
-          <node concept="3e2qRM" id="2MtiOR4bYna" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZb" />
+          <node concept="3e2qRM" id="4cbEj33l7BW" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7fX" />
             <ref role="3FLKAo" to="rkbi:2MtiOR4bOZs" resolve="Bridge" />
-            <node concept="3e2p4i" id="2MtiOR4bYnb" role="3e2p3O">
-              <ref role="3e2p4s" node="2MtiOR4bXZa" resolve="bridge" />
+            <node concept="3e2p4i" id="4cbEj33l7BX" role="3e2p3O">
+              <ref role="3e2p4s" node="4cbEj33l7fW" resolve="bridge" />
             </node>
           </node>
-          <node concept="2zvbdk" id="2MtiOR4bYnc" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZh" />
-            <node concept="3e2p4t" id="2MtiOR4bYnd" role="2zvbbh">
-              <ref role="3e2p4s" node="2MtiOR4bXZa" resolve="bridge" />
+          <node concept="2zvbdk" id="4cbEj33l7BY" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g3" />
+            <node concept="3e2p4t" id="4cbEj33l7BZ" role="2zvbbh">
+              <ref role="3e2p4s" node="4cbEj33l7fW" resolve="bridge" />
             </node>
-            <node concept="3e2p4t" id="2MtiOR4bYne" role="2zvbaI">
-              <ref role="3e2p4s" node="2MtiOR4bXZg" resolve="bridge.colour" />
-            </node>
-          </node>
-          <node concept="3e2sqG" id="2MtiOR4bYnf" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZm" />
-            <ref role="3l_Fsw" to="rkbi:2MtiOR4bOZH" resolve="src" />
-            <node concept="3e2p4t" id="2MtiOR4bYng" role="3e2sqH">
-              <ref role="3e2p4s" node="2MtiOR4bXZa" resolve="bridge" />
-            </node>
-            <node concept="3e2p4t" id="2MtiOR4bYnh" role="3e2sqy">
-              <ref role="3e2p4s" node="2MtiOR4bXZc" resolve="platform1" />
+            <node concept="3e2p4t" id="4cbEj33l7C0" role="2zvbaI">
+              <ref role="3e2p4s" node="4cbEj33l7g2" resolve="bridge.colour" />
             </node>
           </node>
-          <node concept="3e2sqz" id="2MtiOR4bYni" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZn" />
-            <ref role="3l_wLC" to="rkbi:2MtiOR4bOZI" resolve="trg" />
-            <node concept="3e2p4t" id="2MtiOR4bYnj" role="3e2sqw">
-              <ref role="3e2p4s" node="2MtiOR4bXZa" resolve="bridge" />
+          <node concept="3e2hbc" id="4cbEj33l7C1" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g8" />
+            <node concept="3e2p4t" id="4cbEj33l7C2" role="3e2hbd">
+              <ref role="3e2p4s" node="4cbEj33l7fW" resolve="bridge" />
             </node>
-            <node concept="3e2p4i" id="2MtiOR4bYnk" role="3e2sqx">
-              <ref role="3e2p4s" node="2MtiOR4bXZe" resolve="platform2" />
+            <node concept="3e2p4t" id="4cbEj33l7C3" role="3e2hb2">
+              <ref role="3e2p4s" node="4cbEj33l7fY" resolve="platform1" />
             </node>
           </node>
-          <node concept="3e2qRN" id="2MtiOR4bYmO" role="3e2PzU">
-            <ref role="3CfmUi" node="2MtiOR4bXZf" />
+          <node concept="3e2hb3" id="4cbEj33l7C4" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g9" />
+            <node concept="3e2p4t" id="4cbEj33l7C5" role="3e2hb0">
+              <ref role="3e2p4s" node="4cbEj33l7fW" resolve="bridge" />
+            </node>
+            <node concept="3e2p4i" id="4cbEj33l7C6" role="3e2hb1">
+              <ref role="3e2p4s" node="4cbEj33l7g0" resolve="platform2" />
+            </node>
+          </node>
+          <node concept="3e2qRN" id="4cbEj33l7BA" role="3e2PzU">
+            <ref role="3CfmUi" node="4cbEj33l7g1" />
             <ref role="3FOeZz" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
-            <node concept="3e2p4t" id="2MtiOR4bYmP" role="3e2p3R">
-              <ref role="3e2p4s" node="2MtiOR4bXZe" resolve="platform2" />
+            <node concept="3e2p4t" id="4cbEj33l7BB" role="3e2p3R">
+              <ref role="3e2p4s" node="4cbEj33l7g0" resolve="platform2" />
             </node>
-          </node>
-        </node>
-        <node concept="3eImRa" id="2MtiOR4bYnS" role="3eKGHP">
-          <node concept="3eImVg" id="2MtiOR4bYnU" role="3eImRb">
-            <ref role="3eB4Im" to="6elt:2MtiOR4bSS_" resolve="s1" />
-          </node>
-          <node concept="3eImVg" id="2MtiOR4bYnV" role="3eImRb">
-            <ref role="3eB4Im" to="6elt:2MtiOR4bSSI" resolve="b1" />
-          </node>
-          <node concept="3eImVg" id="2MtiOR4bYnW" role="3eImRb">
-            <ref role="3eB4Im" to="6elt:2MtiOR4bSSC" resolve="p1" />
-          </node>
-          <node concept="3eImVg" id="2MtiOR4bYnX" role="3eImRb">
-            <ref role="3eB4Im" to="6elt:2MtiOR4bSSF" resolve="p2" />
-          </node>
-          <node concept="3eJ099" id="2MtiOR4bYo0" role="3eIkDU">
-            <property role="3eJ09e" value="m_0" />
-          </node>
-          <node concept="3eIm8D" id="2MtiOR4bYo1" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR4bPyf" resolve="sprite" />
-          </node>
-          <node concept="3eIm8D" id="2MtiOR4bYo2" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR4bPyg" resolve="bridge" />
-          </node>
-          <node concept="3eIm8D" id="2MtiOR4bYo3" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR4bPyh" resolve="platform1" />
-          </node>
-          <node concept="3eIm8D" id="2MtiOR4bYo4" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR4bPyi" resolve="platform2" />
           </node>
         </node>
       </node>
