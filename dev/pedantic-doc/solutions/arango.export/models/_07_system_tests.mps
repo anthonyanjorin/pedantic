@@ -946,5 +946,13 @@
     </node>
     <node concept="3f6AUQ" id="3uuAVXOoKHs" role="3f6AUR" />
   </node>
+  <node concept="1Lr20E" id="1AN4KDF6UVL">
+    <property role="TrG5h" value="ExampleScenario" />
+    <node concept="X_bju" id="1AN4KDF6UVZ" role="1LuVN3">
+      <property role="TrG5h" value="hallo" />
+      <node concept="3f6AUQ" id="1AN4KDF6UW1" role="X_bjr" />
+    </node>
+    <node concept="3f6AUQ" id="1AN4KDF6UVM" role="1LuVN1" />
+  </node>
 </model>
 
