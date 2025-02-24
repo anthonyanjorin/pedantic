@@ -7,8 +7,8 @@
   <imports>
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
+    <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -280,7 +280,14 @@
     <node concept="1TJgyj" id="7BVCYERgIAg" role="1TKVEi">
       <property role="IQ2ns" value="8789799326235945360" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="matchLabels" />
+      <property role="20kJfa" value="matches" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7BVCYERhU6z" resolve="MatchLabel" />
+    </node>
+    <node concept="1TJgyj" id="4cbEj33tyQq" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052187815322" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="filteredMatches" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7BVCYERhU6z" resolve="MatchLabel" />
     </node>
@@ -324,6 +331,11 @@
       <property role="IQ2nx" value="4647437687556781895" />
       <property role="TrG5h" value="excludeFromResults" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqFaQkP" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657045165365" />
+      <property role="TrG5h" value="markMatchesAs" />
+      <ref role="AX2Wp" node="5keHOqFaQkK" resolve="MARKER" />
     </node>
     <node concept="1TJgyj" id="7BVCYERgG74" role="1TKVEi">
       <property role="IQ2ns" value="8789799326235935172" />
@@ -388,6 +400,11 @@
     <property role="3GE5qa" value="csp" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5keHOqIr0sG" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657099732780" />
+      <property role="20kJfa" value="options" />
+      <ref role="20lvS9" node="5keHOqHeSMU" resolve="Options" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKt">
     <property role="EcuMT" value="8789799326242958365" />
@@ -884,7 +901,7 @@
   </node>
   <node concept="1TIwiD" id="2LgBuUe6MDO">
     <property role="EcuMT" value="3193225783717603956" />
-    <property role="3GE5qa" value="patterns.attributes.operators" />
+    <property role="3GE5qa" value="patterns.attributes.operators.equality" />
     <property role="TrG5h" value="Equals" />
     <property role="34LRSv" value="==" />
     <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
@@ -1129,7 +1146,7 @@
       <property role="IQ2ns" value="3193225783742308249" />
       <property role="20kJfa" value="variable" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2LgBuUeXtdr" resolve="AttributeVariable" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2LgBuUf6lao">
@@ -1192,7 +1209,7 @@
   </node>
   <node concept="1TIwiD" id="2MtiOR2ZjlF">
     <property role="EcuMT" value="3214808506368341355" />
-    <property role="3GE5qa" value="patterns.attributes.operators" />
+    <property role="3GE5qa" value="patterns.attributes.operators.equality" />
     <property role="TrG5h" value="NotEquals" />
     <property role="34LRSv" value="!=" />
     <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
@@ -1230,7 +1247,7 @@
       <property role="IQ2ns" value="3214808506368388924" />
       <property role="20kJfa" value="variable" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2LgBuUeXtdr" resolve="AttributeVariable" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2MtiOR35MfB">
@@ -1419,7 +1436,14 @@
     <property role="3GE5qa" value="patterns.attributes.operators" />
     <property role="TrG5h" value="Operator" />
     <property role="R5$K7" value="true" />
+    <property role="34LRSv" value="&lt;op&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5keHOqGSIDI" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657073969774" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="options" />
+      <ref role="20lvS9" node="5keHOqHeSMU" resolve="Options" />
+    </node>
   </node>
   <node concept="1TIwiD" id="41Z0ZgFWoQc">
     <property role="EcuMT" value="4647437687713795468" />
@@ -1427,6 +1451,296 @@
     <property role="TrG5h" value="LHSExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33EH$W">
+    <property role="EcuMT" value="4831141052191267132" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.subset" />
+    <property role="TrG5h" value="NotSubset" />
+    <property role="34LRSv" value="⊄" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33EH$X">
+    <property role="EcuMT" value="4831141052191267133" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.superset" />
+    <property role="TrG5h" value="Superset" />
+    <property role="34LRSv" value="⊃" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33EH$Y">
+    <property role="EcuMT" value="4831141052191267134" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.subset" />
+    <property role="TrG5h" value="NotSubsetEquals" />
+    <property role="34LRSv" value="⊈" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33EH$Z">
+    <property role="EcuMT" value="4831141052191267135" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.superset" />
+    <property role="TrG5h" value="SupersetEquals" />
+    <property role="34LRSv" value="⊇" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33KPIL">
+    <property role="EcuMT" value="4831141052192873393" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality" />
+    <property role="TrG5h" value="Inequality" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33KPIN">
+    <property role="EcuMT" value="4831141052192873395" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.subset" />
+    <property role="TrG5h" value="Subset" />
+    <property role="34LRSv" value="⊂" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33KPIO">
+    <property role="EcuMT" value="4831141052192873396" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.subset" />
+    <property role="TrG5h" value="SubsetEquals" />
+    <property role="34LRSv" value="⊆" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33QOEg">
+    <property role="EcuMT" value="4831141052194441872" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.superset" />
+    <property role="TrG5h" value="NotSuperset" />
+    <property role="34LRSv" value="⊅" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj33QOEh">
+    <property role="EcuMT" value="4831141052194441873" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.superset" />
+    <property role="TrG5h" value="NotSupersetEquals" />
+    <property role="34LRSv" value="⊉" />
+    <ref role="1TJDcQ" node="4cbEj33KPIL" resolve="Inequality" />
+  </node>
+  <node concept="1TIwiD" id="4cbEj35l1dW">
+    <property role="EcuMT" value="4831141052219134844" />
+    <property role="3GE5qa" value="csp.attributes" />
+    <property role="TrG5h" value="SubsetOfConstant" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="5keHOqDP$wb" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657022810123" />
+      <property role="20kJfa" value="subset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqDP$wc" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657022810124" />
+      <property role="20kJfa" value="superset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj365Qg2" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052231934978" />
+      <property role="TrG5h" value="allowEquality" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36hklq" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052234941786" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4cbEj35l1dX">
+    <property role="EcuMT" value="4831141052219134845" />
+    <property role="3GE5qa" value="csp.attributes" />
+    <property role="TrG5h" value="SubsetOfVariable" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="5keHOqDP$wd" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657022810125" />
+      <property role="20kJfa" value="subset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqDP$we" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657022810126" />
+      <property role="20kJfa" value="superset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj365Qg1" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052231934977" />
+      <property role="TrG5h" value="allowEquality" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36hvs4" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052234987268" />
+      <property role="TrG5h" value="negateResults" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4cbEj35lbaZ">
+    <property role="EcuMT" value="4831141052219175615" />
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <property role="TrG5h" value="SubsetOfConstant_B" />
+    <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyi" id="4cbEj365Qgh" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052231934993" />
+      <property role="TrG5h" value="allowEquality" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36hklr" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052234941787" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="4cbEj35ld9t" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052219183709" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="4cbEj35ldG0" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052219185920" />
+      <property role="20kJfa" value="superset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4cbEj35lbb0">
+    <property role="EcuMT" value="4831141052219175616" />
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <property role="TrG5h" value="SubsetOfVariable_BB" />
+    <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="4cbEj35li$9" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052219205897" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="4cbEj35li$a" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052219205898" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="superset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj365QXZ" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052231937919" />
+      <property role="TrG5h" value="allowEquality" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36hw20" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052234989696" />
+      <property role="TrG5h" value="negateResults" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4cbEj36wgHe">
+    <property role="EcuMT" value="4831141052238859086" />
+    <property role="3GE5qa" value="csp.attributes" />
+    <property role="TrG5h" value="SupersetOfConstant" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="5keHOqDP$wf" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657022810127" />
+      <property role="20kJfa" value="subset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqDP$wg" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657022810128" />
+      <property role="20kJfa" value="superset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36wgHf" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052238859087" />
+      <property role="TrG5h" value="allowEquality" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36wgHg" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052238859088" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4cbEj36wgVy">
+    <property role="EcuMT" value="4831141052238860002" />
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <property role="TrG5h" value="SupersetOfConstant_B" />
+    <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="4cbEj36wgVA" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052238860006" />
+      <property role="20kJfa" value="subset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyj" id="4cbEj36wgV_" role="1TKVEi">
+      <property role="IQ2ns" value="4831141052238860005" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="superset" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36wgVz" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052238860003" />
+      <property role="TrG5h" value="allowEquality" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4cbEj36wgV$" role="1TKVEl">
+      <property role="IQ2nx" value="4831141052238860004" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5keHOqFaQkK">
+    <property role="3F6X1D" value="6129037657045165360" />
+    <property role="3GE5qa" value="patterns.objects" />
+    <property role="TrG5h" value="MARKER" />
+    <ref role="1H5jkz" node="5keHOqFaQkL" resolve="NO" />
+    <node concept="25R33" id="5keHOqFaQkL" role="25R1y">
+      <property role="3tVfz5" value="6129037657045165361" />
+      <property role="TrG5h" value="NO" />
+    </node>
+    <node concept="25R33" id="5keHOqFaQkM" role="25R1y">
+      <property role="3tVfz5" value="6129037657045165362" />
+      <property role="TrG5h" value="AS_ERROR" />
+    </node>
+    <node concept="25R33" id="5keHOqFaQkN" role="25R1y">
+      <property role="3tVfz5" value="6129037657045165363" />
+      <property role="TrG5h" value="AS_WARNING" />
+    </node>
+    <node concept="25R33" id="5keHOqFaQkO" role="25R1y">
+      <property role="3tVfz5" value="6129037657045165364" />
+      <property role="TrG5h" value="AS_INFO" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqGSIDJ">
+    <property role="EcuMT" value="6129037657073969775" />
+    <property role="3GE5qa" value="patterns.attributes.operators" />
+    <property role="TrG5h" value="Option" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="5keHOqGSIDK" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657073969776" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="5keHOqGSIDN" resolve="OPTION_TYPE" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5keHOqGSIDN">
+    <property role="3F6X1D" value="6129037657073969779" />
+    <property role="3GE5qa" value="patterns.attributes.operators" />
+    <property role="TrG5h" value="OPTION_VALUE" />
+    <node concept="25R33" id="5keHOqGSIDO" role="25R1y">
+      <property role="3tVfz5" value="6129037657073969780" />
+      <property role="TrG5h" value="IGNORE_CASE" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqHeSMU">
+    <property role="EcuMT" value="6129037657079778490" />
+    <property role="3GE5qa" value="patterns.attributes.operators" />
+    <property role="TrG5h" value="Options" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5keHOqHeSMV" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657079778491" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5keHOqGSIDJ" resolve="Option" />
+    </node>
   </node>
 </model>
 
