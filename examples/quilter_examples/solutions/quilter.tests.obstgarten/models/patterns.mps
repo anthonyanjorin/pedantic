@@ -17,13 +17,7 @@
       </concept>
     </language>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
-      <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ">
-        <child id="4928100702460203916" name="words" index="3f6BbQ" />
-      </concept>
-      <concept id="4928100702460334227" name="pedantic.structure.NormalText" flags="ng" index="3fT77D">
-        <property id="4928100702460334228" name="content" index="3fT77I" />
-      </concept>
-      <concept id="5881924385902365283" name="pedantic.structure.Newline" flags="ng" index="3wMW5N" />
+      <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -223,20 +217,7 @@
           <node concept="2yiVuq" id="41Z0ZgGCkb8" role="1FzXqU" />
         </node>
       </node>
-      <node concept="3f6AUQ" id="41Z0ZgF5I_l" role="1EFUQb">
-        <node concept="3fT77D" id="41Z0ZgFhotF" role="3f6BbQ">
-          <property role="3fT77I" value="dfa" />
-        </node>
-        <node concept="3fT77D" id="41Z0ZgFhotH" role="3f6BbQ">
-          <property role="3fT77I" value="asdf" />
-        </node>
-        <node concept="3fT77D" id="41Z0ZgFhotI" role="3f6BbQ">
-          <property role="3fT77I" value="asdf" />
-        </node>
-        <node concept="3fT77D" id="41Z0ZgFhotJ" role="3f6BbQ">
-          <property role="3fT77I" value="asfd" />
-        </node>
-      </node>
+      <node concept="3f6AUQ" id="41Z0ZgF5I_l" role="1EFUQb" />
     </node>
     <node concept="3F$ThX" id="2LgBuUhsgGQ" role="3F$ThY">
       <property role="TrG5h" value="RavenOnSecondSegment" />
@@ -311,19 +292,6 @@
       <node concept="3F$xvW" id="7BVCYER4Fbb" role="3F$xvU">
         <property role="TrG5h" value="aFruit" />
         <ref role="3F$xdl" to="5e0r:7BVCYER1N5d" resolve="Fruit" />
-      </node>
-      <node concept="3f6AUQ" id="41Z0ZgF9BDI" role="1EFUQb">
-        <node concept="3fT77D" id="41Z0ZgF9BDJ" role="3f6BbQ">
-          <property role="3fT77I" value="llll" />
-        </node>
-        <node concept="3wMW5N" id="41Z0ZgFbzXS" role="3f6BbQ" />
-        <node concept="3fT77D" id="41Z0ZgFbzXU" role="3f6BbQ">
-          <property role="3fT77I" value="kjhkjhkjh" />
-        </node>
-        <node concept="3wMW5N" id="41Z0ZgFbzXY" role="3f6BbQ" />
-        <node concept="3fT77D" id="41Z0ZgFbzXQ" role="3f6BbQ">
-          <property role="3fT77I" value="hhjjjj" />
-        </node>
       </node>
     </node>
     <node concept="3F$ThX" id="7BVCYER4Fcf" role="3F$ThY">
