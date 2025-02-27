@@ -653,7 +653,6 @@
     <ref role="1XX52x" to="uyb6:7BVCYERemy7" resolve="Patchwork" />
     <node concept="3EZMnI" id="7BVCYERePwu" role="2wV5jI">
       <property role="S$Qs1" value="true" />
-      <property role="3EXrWe" value="true" />
       <node concept="l2Vlx" id="7BVCYERePwv" role="2iSdaV" />
       <node concept="3F0ifn" id="7BVCYERePww" role="3EZMnx">
         <property role="3F0ifm" value="patchwork" />
@@ -3131,12 +3130,6 @@
       <node concept="l2Vlx" id="5keHOqEEfob" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5keHOqG$Y95">
-    <property role="3GE5qa" value="patterns.attributes.operators.inequality.subset" />
-    <ref role="1XX52x" to="uyb6:4cbEj33KPIN" resolve="Subset" />
-    <node concept="B$lHz" id="5keHOqG$Y97" role="2wV5jI" />
-    <node concept="B$lHz" id="5keHOqG$Y99" role="6VMZX" />
-  </node>
   <node concept="24kQdi" id="5keHOqGSIDL">
     <property role="3GE5qa" value="patterns.attributes.operators" />
     <ref role="1XX52x" to="uyb6:5keHOqGSIDJ" resolve="Option" />
@@ -3158,6 +3151,148 @@
     <ref role="1XX52x" to="uyb6:5keHOqHeSMU" resolve="Options" />
     <node concept="3F2HdR" id="5keHOqHeT7G" role="2wV5jI">
       <ref role="1NtTu8" to="uyb6:5keHOqHeSMV" resolve="options" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5keHOqJHHKG">
+    <property role="3GE5qa" value="csp.attributes" />
+    <ref role="1XX52x" to="uyb6:4cbEj35l1dX" resolve="SubsetOfVariable" />
+    <node concept="3EZMnI" id="5keHOqJHHKI" role="2wV5jI">
+      <node concept="1iCGBv" id="5keHOqJHHKJ" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:5keHOqDP$wd" />
+        <node concept="1sVBvm" id="5keHOqJHHKK" role="1sWHZn">
+          <node concept="3F0A7n" id="5keHOqJHHKL" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5keHOqJHHKM" role="3EZMnx">
+        <property role="3F0ifm" value="is subset of" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+      </node>
+      <node concept="1iCGBv" id="5keHOqJHHKN" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:5keHOqDP$we" />
+        <node concept="1sVBvm" id="5keHOqJHHKO" role="1sWHZn">
+          <node concept="B$lHz" id="5keHOqJHHKP" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5keHOqJHHKQ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5keHOqJHHKR">
+    <property role="3GE5qa" value="csp.attributes" />
+    <ref role="1XX52x" to="uyb6:4cbEj36wgHe" resolve="SupersetOfConstant" />
+    <node concept="3EZMnI" id="5keHOqJHHKT" role="2wV5jI">
+      <node concept="1iCGBv" id="5keHOqJHHKU" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:5keHOqDP$wg" />
+        <node concept="1sVBvm" id="5keHOqJHHKV" role="1sWHZn">
+          <node concept="3F0A7n" id="5keHOqJHHKW" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="9sqt:5B3sq7DIIhO" resolve="Reference" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5keHOqJHHKX" role="3EZMnx">
+        <property role="3F0ifm" value="is superset of" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+      </node>
+      <node concept="1iCGBv" id="5keHOqJHHKY" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:5keHOqDP$wf" />
+        <node concept="1sVBvm" id="5keHOqJHHKZ" role="1sWHZn">
+          <node concept="B$lHz" id="5keHOqJHHL0" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5keHOqJHHL1" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5keHOqK3pq8">
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <ref role="1XX52x" to="uyb6:4cbEj35lbb0" resolve="SubsetOfVariable_BB" />
+    <node concept="3EZMnI" id="5keHOqK3pTO" role="2wV5jI">
+      <node concept="3F0ifn" id="5keHOqK3pTP" role="3EZMnx">
+        <property role="3F0ifm" value="SubsetOfVariable_BB" />
+      </node>
+      <node concept="3F0ifn" id="5keHOqK3pTQ" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="11L4FC" id="5keHOqK3pTR" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5keHOqK3pTS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5keHOqK3pTT" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:4cbEj35li$9" />
+      </node>
+      <node concept="3F0ifn" id="5keHOqK3pTU" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="5keHOqK3pTV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5keHOqK3pTW" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="5keHOqK3pTX" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:4cbEj35li$a" />
+        <node concept="1sVBvm" id="5keHOqK3pTY" role="1sWHZn">
+          <node concept="B$lHz" id="5keHOqK3pTZ" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5keHOqK3pU0" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="11L4FC" id="5keHOqK3pU1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5keHOqK3pU2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5keHOqK3pU3" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5keHOqK3pqa">
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <ref role="1XX52x" to="uyb6:4cbEj36wgVy" resolve="SupersetOfConstant_B" />
+    <node concept="3EZMnI" id="5keHOqK3pU4" role="2wV5jI">
+      <node concept="3F0ifn" id="5keHOqK3pU5" role="3EZMnx">
+        <property role="3F0ifm" value="SupersetOfConstant_B" />
+      </node>
+      <node concept="3F0ifn" id="5keHOqK3pU6" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="11L4FC" id="5keHOqK3pU7" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5keHOqK3pU8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="5keHOqK3pU9" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:4cbEj36wgV_" />
+      </node>
+      <node concept="3F0ifn" id="5keHOqK3pUa" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="5keHOqK3pUb" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5keHOqK3pUc" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="5keHOqK3pUd" role="3EZMnx">
+        <ref role="1NtTu8" to="uyb6:4cbEj36wgVA" />
+        <node concept="1sVBvm" id="5keHOqK3pUe" role="1sWHZn">
+          <node concept="B$lHz" id="5keHOqK3pUf" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5keHOqK3pUg" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="11L4FC" id="5keHOqK3pUh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="5keHOqK3pUi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5keHOqK3pUj" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -989,7 +989,7 @@
   </node>
   <node concept="1TIwiD" id="2LgBuUeXtdr">
     <property role="EcuMT" value="3193225783731934043" />
-    <property role="3GE5qa" value="csp.attributes" />
+    <property role="3GE5qa" value="csp" />
     <property role="TrG5h" value="AttributeVariable" />
     <ref role="1TJDcQ" node="7BVCYERGxGP" resolve="Variable" />
     <node concept="1TJgyj" id="2LgBuUeXtds" role="1TKVEi">
@@ -1740,6 +1740,149 @@
       <property role="20kJfa" value="options" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5keHOqGSIDJ" resolve="Option" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqKenAT">
+    <property role="EcuMT" value="6129037657129974201" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.prefixsuffix" />
+    <property role="TrG5h" value="StartsWith" />
+    <property role="34LRSv" value="starts with" />
+    <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjEER">
+    <property role="EcuMT" value="6129037657131362999" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.prefixsuffix" />
+    <property role="TrG5h" value="EndsWith" />
+    <property role="34LRSv" value="ends with" />
+    <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjEGt">
+    <property role="EcuMT" value="6129037657131363101" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.prefixsuffix" />
+    <property role="TrG5h" value="NotEndsWith" />
+    <property role="34LRSv" value="doesn't end with" />
+    <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjEGu">
+    <property role="EcuMT" value="6129037657131363102" />
+    <property role="3GE5qa" value="patterns.attributes.operators.inequality.prefixsuffix" />
+    <property role="TrG5h" value="NotStartsWith" />
+    <property role="34LRSv" value="doesn't start with" />
+    <ref role="1TJDcQ" node="41Z0ZgFWdlf" resolve="Operator" />
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjMV6">
+    <property role="EcuMT" value="6129037657131396806" />
+    <property role="3GE5qa" value="csp.attributes" />
+    <property role="TrG5h" value="PrefixSuffixCheckConstant" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="5keHOqKqkZk" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657133109204" />
+      <property role="20kJfa" value="constant" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqKqkZl" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657133109205" />
+      <property role="20kJfa" value="variable" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKjO9n" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657131401815" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKjO9o" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657131401816" />
+      <property role="TrG5h" value="isPrefix" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjMV7">
+    <property role="EcuMT" value="6129037657131396807" />
+    <property role="3GE5qa" value="csp.attributes" />
+    <property role="TrG5h" value="PrefixSuffixCheckVariable" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="5keHOqKFAI3" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657137638275" />
+      <property role="20kJfa" value="lhs" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqKFAI4" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657137638276" />
+      <property role="20kJfa" value="rhs" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKjO9l" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657131401813" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKjO9m" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657131401814" />
+      <property role="TrG5h" value="isPrefix" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjUkN">
+    <property role="EcuMT" value="6129037657131427123" />
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <property role="TrG5h" value="PrefixSuffixCheckConstant_B" />
+    <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="5keHOqKjX5$" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657131438436" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variable" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqKjX5_" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657131438437" />
+      <property role="20kJfa" value="constant" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKjX5A" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657131438438" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKjX5B" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657131438439" />
+      <property role="TrG5h" value="isPrefix" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5keHOqKjUkO">
+    <property role="EcuMT" value="6129037657131427124" />
+    <property role="3GE5qa" value="searchplan.operations.attributes.ineq" />
+    <property role="TrG5h" value="PrefixSuffixCheckVariable_BB" />
+    <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyj" id="5keHOqKFCcN" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657137644339" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lhs" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="5keHOqKFCcP" role="1TKVEi">
+      <property role="IQ2ns" value="6129037657137644341" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rhs" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKFCcL" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657137644337" />
+      <property role="TrG5h" value="negateResult" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5keHOqKFCcM" role="1TKVEl">
+      <property role="IQ2nx" value="6129037657137644338" />
+      <property role="TrG5h" value="isPrefix" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
