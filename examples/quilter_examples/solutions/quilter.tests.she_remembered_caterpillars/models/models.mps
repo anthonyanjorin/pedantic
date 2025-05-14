@@ -61,6 +61,19 @@
         <property role="3CGxea" value="2MtiOR4bOZP/GREEN" />
         <ref role="3CGxfp" node="2MtiOR4bSSF" resolve="p2" />
       </node>
+      <node concept="3CGwiG" id="6sS4Tm$95dR" role="3CGwiC">
+        <property role="TrG5h" value="s3" />
+        <property role="3CGxea" value="2MtiOR4bOZK/RED" />
+        <ref role="3CGxfp" node="6sS4Tm$95dU" resolve="p" />
+      </node>
+      <node concept="3CGwiG" id="6sS4Tm$t4zU" role="3CGwiC">
+        <property role="TrG5h" value="s4" />
+        <property role="3CGxea" value="2MtiOR4bOZO/PURPLE" />
+        <ref role="3CGxfp" node="6sS4Tm$95dU" resolve="p" />
+      </node>
+      <node concept="3CGwil" id="6sS4Tm$95dU" role="3CGwiC">
+        <property role="TrG5h" value="p" />
+      </node>
       <node concept="3CGwig" id="2MtiOR4c_H3" role="3CGwiC">
         <property role="TrG5h" value="g1" />
         <property role="3CGwiR" value="2MtiOR4bOZK/RED" />
