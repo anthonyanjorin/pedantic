@@ -2,7 +2,6 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/arango_graphs/arango_graphs.mpl" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/languages/pedantic/pedantic.mpl" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/languages/plantuml/plantuml.mpl" folder="plantuml" />
       <modulePath path="$PROJECT_DIR$/languages/quilter/quilter.mpl" folder="quilter" />

@@ -433,7 +433,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="33ZohV4i_jw" role="3MwsjC">
-          <property role="3MwjfP" value="6.1.7" />
+          <property role="3MwjfP" value="6.1.8" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -661,83 +661,6 @@
         <node concept="1SiIV0" id="32uEtBiJD7a" role="3bR37C">
           <node concept="3bR9La" id="32uEtBiJD7b" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtD" id="uLsie99vGW" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="arango_graphs" />
-        <property role="3LESm3" value="bf4c75ed-13a6-481a-8ccf-7c044af2f1d3" />
-        <node concept="55IIr" id="uLsie99vGZ" role="3LF7KH">
-          <node concept="2Ry0Ak" id="uLsie99vPl" role="iGT6I">
-            <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="uLsie99vTa" role="2Ry0An">
-              <property role="2Ry0Am" value="arango_graphs" />
-              <node concept="2Ry0Ak" id="uLsie99vVJ" role="2Ry0An">
-                <property role="2Ry0Am" value="arango_graphs.mpl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="uLsie99vXb" role="3bR37C">
-          <node concept="3bR9La" id="uLsie99vXc" role="1SiIV1">
-            <ref role="3bR37D" node="5Q23RPTxrzn" resolve="pedantic" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="uLsie99vXd" role="3bR37C">
-          <node concept="3bR9La" id="uLsie99vXe" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="uLsie99vXf" role="3bR37C">
-          <node concept="3bR9La" id="uLsie99vXg" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:rD7wKO5Iy" resolve="MPS.TextGen" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="uLsie99vXh" role="3bR37C">
-          <node concept="3bR9La" id="uLsie99vXi" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1BupzO" id="uLsie99vXp" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="uLsie99vXq" role="1HemKq">
-            <node concept="55IIr" id="uLsie99vXl" role="3LXTmr">
-              <node concept="2Ry0Ak" id="uLsie99vXm" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="uLsie99vXn" role="2Ry0An">
-                  <property role="2Ry0Am" value="arango_graphs" />
-                  <node concept="2Ry0Ak" id="uLsie99vXo" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="uLsie99vXr" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7up8nGA_k_X" role="3bR37C">
-          <node concept="3bR9La" id="7up8nGA_k_Y" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
-          </node>
-        </node>
-        <node concept="3rtmxn" id="7up8nGA_kCL" role="3bR31x">
-          <node concept="3LXTmp" id="7up8nGA_kCM" role="3rtmxm">
-            <node concept="55IIr" id="7up8nGA_kCN" role="3LXTmr">
-              <node concept="2Ry0Ak" id="7up8nGA_kCO" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="7up8nGA_kCP" role="2Ry0An">
-                  <property role="2Ry0Am" value="arango_graphs" />
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="7up8nGA_kCR" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
           </node>
         </node>
       </node>
