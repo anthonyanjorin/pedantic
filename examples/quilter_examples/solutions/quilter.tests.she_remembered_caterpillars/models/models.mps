@@ -80,6 +80,35 @@
         <ref role="3CGwiQ" node="2MtiOR4bSSF" resolve="p2" />
       </node>
     </node>
+    <node concept="3CGwiq" id="4ErWLKwPBnR" role="3CGwiJ">
+      <property role="TrG5h" value="Chapter2" />
+      <node concept="3CGwig" id="4ErWLKwPBnT" role="3CGwiC">
+        <property role="TrG5h" value="g2" />
+        <property role="3CGwiR" value="2MtiOR4bOZP/GREEN" />
+        <ref role="3CGwiQ" node="4ErWLKwPBnW" resolve="p3" />
+      </node>
+      <node concept="3CGwil" id="4ErWLKwPBnW" role="3CGwiC">
+        <property role="TrG5h" value="p3" />
+      </node>
+      <node concept="3CGwiG" id="4ErWLKwPBzF" role="3CGwiC">
+        <property role="TrG5h" value="s5" />
+        <property role="3CGxea" value="2MtiOR4bOZK/RED" />
+        <ref role="3CGxfp" node="4ErWLKwPBnW" resolve="p3" />
+      </node>
+      <node concept="3CGwig" id="4ErWLKwPCak" role="3CGwiC">
+        <property role="TrG5h" value="g3" />
+        <property role="3CGwiR" value="2MtiOR4bOZP/GREEN" />
+        <ref role="3CGwiQ" node="4ErWLKwPCal" resolve="p4" />
+      </node>
+      <node concept="3CGwil" id="4ErWLKwPCal" role="3CGwiC">
+        <property role="TrG5h" value="p4" />
+      </node>
+      <node concept="3CGwiG" id="4ErWLKwPCam" role="3CGwiC">
+        <property role="TrG5h" value="s6" />
+        <property role="3CGxea" value="2MtiOR4bOZL/YELLOW" />
+        <ref role="3CGxfp" node="4ErWLKwPCal" resolve="p3" />
+      </node>
+    </node>
   </node>
 </model>
 

@@ -739,6 +739,8 @@
         </node>
       </node>
       <node concept="3F0A7n" id="5keHOqLTBT9" role="3EZMnx">
+        <property role="1$x2rV" value="_" />
+        <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="5keHOqLTBTc" role="3EZMnx">
@@ -2040,10 +2042,39 @@
         <ref role="1NtTu8" to="uyb6:7BVCYERemyw" resolve="maxNrOfMatchesToCompute" />
       </node>
       <node concept="3F0ifn" id="2tbV4VNKVKU" role="3EZMnx">
-        <property role="3F0ifm" value="matches:" />
+        <property role="3F0ifm" value="matches, in" />
         <node concept="ljvvj" id="2tbV4VNKVMV" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="3F0A7n" id="4ErWLKwSc7F" role="3EZMnx">
+        <property role="1$x2rV" value="?" />
+        <property role="1Intyy" value="true" />
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="uyb6:4ErWLKwS2pc" resolve="spentTime" />
+      </node>
+      <node concept="3F0ifn" id="4ErWLKxu4V2" role="3EZMnx">
+        <property role="3F0ifm" value="with max" />
+      </node>
+      <node concept="3F0A7n" id="4ErWLKxu4V5" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="∞" />
+        <ref role="1NtTu8" to="uyb6:4ErWLKxu4V0" resolve="maxTimeInSeconds" />
+        <node concept="VSNWy" id="4ErWLKxAe3U" role="3F10Kt">
+          <property role="1lJzqX" value="14" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4ErWLKxu4V8" role="3EZMnx">
+        <property role="3F0ifm" value="s" />
+        <node concept="11LMrY" id="4ErWLKxCAqx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="4ErWLKy6aQ9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4ErWLKwSfMG" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
       </node>
       <node concept="3EZMnI" id="2tbV4VNKVN2" role="3EZMnx">
         <property role="S$Qs1" value="true" />

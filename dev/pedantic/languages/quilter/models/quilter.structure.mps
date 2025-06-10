@@ -319,6 +319,16 @@
       <property role="TrG5h" value="maxNrOfMatchesToCompute" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="4ErWLKxu4V0" role="1TKVEl">
+      <property role="IQ2nx" value="5376157882342985408" />
+      <property role="TrG5h" value="maxTimeInSeconds" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4ErWLKwS2pc" role="1TKVEl">
+      <property role="IQ2nx" value="5376157882333013580" />
+      <property role="TrG5h" value="spentTime" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERemyQ">
     <property role="EcuMT" value="8789799326235322550" />
