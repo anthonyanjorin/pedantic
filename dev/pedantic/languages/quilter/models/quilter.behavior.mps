@@ -11646,11 +11646,21 @@
                   <node concept="37vLTw" id="4ErWLKxir_9" role="37wK5m">
                     <ref role="3cqZAo" node="4ErWLKxhvY8" resolve="timeInMinutes" />
                   </node>
-                  <node concept="37vLTw" id="4ErWLKxi_aH" role="37wK5m">
-                    <ref role="3cqZAo" node="4ErWLKxgRWu" resolve="timeInS" />
+                  <node concept="2dk9JS" id="4ErWLKyfB4p" role="37wK5m">
+                    <node concept="3cmrfG" id="4ErWLKyfChI" role="3uHU7w">
+                      <property role="3cmrfH" value="60" />
+                    </node>
+                    <node concept="37vLTw" id="4ErWLKxi_aH" role="3uHU7B">
+                      <ref role="3cqZAo" node="4ErWLKxgRWu" resolve="timeInS" />
+                    </node>
                   </node>
-                  <node concept="37vLTw" id="4ErWLKxiFM_" role="37wK5m">
-                    <ref role="3cqZAo" node="4ErWLKxcFoz" resolve="timeInMs" />
+                  <node concept="2dk9JS" id="4ErWLKyfynR" role="37wK5m">
+                    <node concept="3cmrfG" id="4ErWLKyfz_3" role="3uHU7w">
+                      <property role="3cmrfH" value="1000" />
+                    </node>
+                    <node concept="37vLTw" id="4ErWLKxiFM_" role="3uHU7B">
+                      <ref role="3cqZAo" node="4ErWLKxcFoz" resolve="timeInMs" />
+                    </node>
                   </node>
                 </node>
               </node>

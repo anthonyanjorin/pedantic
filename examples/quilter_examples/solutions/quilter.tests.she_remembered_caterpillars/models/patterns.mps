@@ -153,6 +153,7 @@
       <concept id="8789799326235322539" name="quilter.structure.ComputeMatches" flags="ng" index="3eKGH1">
         <property id="8789799326235322528" name="maxNrOfMatchesToCompute" index="3eKGHa" />
         <property id="5376157882333013580" name="spentTime" index="1EuXlg" />
+        <property id="5376157882342985408" name="maxTimeInSeconds" index="1FSVRs" />
         <child id="8789799326235322527" name="resultMatches" index="3eKGHP" />
       </concept>
       <concept id="8789799326235322503" name="quilter.structure.Patchwork" flags="ng" index="3eKGHH">
@@ -2334,122 +2335,123 @@
         <property role="3Fq0gx" value="2" />
         <property role="3eKGHa" value="10" />
         <property role="TrG5h" value="allSprites" />
-        <property role="1EuXlg" value="00m:00s:08ms" />
+        <property role="1EuXlg" value="00m:00s:37ms" />
+        <property role="1FSVRs" value="5" />
         <ref role="3eKGHL" node="6sS4Tm$85cH" resolve="AllBlueSprites" />
-        <node concept="3eImRP" id="4ErWLKxtSEN" role="3eKGHR">
-          <node concept="3eJ099" id="4ErWLKxtSEO" role="3eIkDU">
+        <node concept="3eImRP" id="4ErWLKynNRn" role="3eKGHR">
+          <node concept="3eJ099" id="4ErWLKynNRo" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKxtSEP" role="3eInz_">
+          <node concept="3eIm8D" id="4ErWLKynNRp" role="3eInz_">
             <ref role="3eIm8I" node="6sS4Tm$85cJ" resolve="s" />
           </node>
-          <node concept="3eImVg" id="4ErWLKxtSEQ" role="3eImRb">
+          <node concept="3eImVg" id="4ErWLKynNRq" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
         </node>
-        <node concept="3elqOZ" id="4ErWLKxtSER" role="3eliY4">
-          <node concept="17UGNt" id="4ErWLKxtSES" role="3eirzu">
+        <node concept="3elqOZ" id="4ErWLKynNRr" role="3eliY4">
+          <node concept="17UGNt" id="4ErWLKynNRs" role="3eirzu">
             <property role="TrG5h" value="s" />
             <ref role="17UGNs" node="6sS4Tm$85cJ" resolve="s" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKxtSET" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKxtSES" resolve="s" />
+          <node concept="3el$ZR" id="4ErWLKynNRt" role="3elqOW">
+            <ref role="3eirzp" node="4ErWLKynNRs" resolve="s" />
             <ref role="3ein4b" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
           </node>
-          <node concept="2yDkUP" id="4ErWLKxtSEU" role="3eirzu">
+          <node concept="2yDkUP" id="4ErWLKynNRu" role="3eirzu">
             <property role="TrG5h" value="s.colour" />
             <ref role="2yDkUM" node="6sS4Tm$85cJ" resolve="s" />
             <ref role="2yDkUN" to="rkbi:2MtiOR4bPz7" resolve="colour" />
           </node>
-          <node concept="2zhP8r" id="4ErWLKxtSEV" role="3elqOW">
-            <ref role="2zva64" node="4ErWLKxtSEU" resolve="s.colour" />
-            <ref role="2zva67" node="4ErWLKxtSES" resolve="s" />
+          <node concept="2zhP8r" id="4ErWLKynNRv" role="3elqOW">
+            <ref role="2zva64" node="4ErWLKynNRu" resolve="s.colour" />
+            <ref role="2zva67" node="4ErWLKynNRs" resolve="s" />
           </node>
-          <node concept="2zieI_" id="4ErWLKxtSEW" role="3elqOW">
-            <ref role="2zL89R" node="4ErWLKxtSEU" resolve="s.colour" />
+          <node concept="2zieI_" id="4ErWLKynNRw" role="3elqOW">
+            <ref role="2zL89R" node="4ErWLKynNRu" resolve="s.colour" />
             <ref role="2zL89Q" node="6sS4Tm$HjhZ" />
             <ref role="3BpjOV" node="6sS4Tm$HjhQ" />
           </node>
-          <node concept="2zieI_" id="4ErWLKxtSEX" role="3elqOW">
-            <ref role="2zL89R" node="4ErWLKxtSEU" resolve="s.colour" />
+          <node concept="2zieI_" id="4ErWLKynNRx" role="3elqOW">
+            <ref role="2zL89R" node="4ErWLKynNRu" resolve="s.colour" />
             <ref role="2zL89Q" node="6sS4Tm$Hji3" />
             <ref role="3BpjOV" node="6sS4Tm$HjhQ" />
           </node>
-          <node concept="2zieI_" id="4ErWLKxtSEY" role="3elqOW">
-            <ref role="2zL89R" node="4ErWLKxtSEU" resolve="s.colour" />
+          <node concept="2zieI_" id="4ErWLKynNRy" role="3elqOW">
+            <ref role="2zL89R" node="4ErWLKynNRu" resolve="s.colour" />
             <ref role="2zL89Q" node="6sS4Tm$Hji7" />
             <ref role="3BpjOV" node="6sS4Tm$HjhQ" />
           </node>
         </node>
-        <node concept="3e2OTI" id="4ErWLKxtSGS" role="3e3QqN">
+        <node concept="3e2OTI" id="4ErWLKynNTs" role="3e3QqN">
           <property role="3e1rJ9" value="1006" />
-          <node concept="3e2qRM" id="4ErWLKxtSGT" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKxtSET" />
+          <node concept="3e2qRM" id="4ErWLKynNTt" role="3e2PzU">
+            <ref role="3CfmUi" node="4ErWLKynNRt" />
             <ref role="3FLKAo" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
-            <node concept="3e2p4i" id="4ErWLKxtSGU" role="3e2p3O">
-              <ref role="3e2p4s" node="4ErWLKxtSES" resolve="s" />
+            <node concept="3e2p4i" id="4ErWLKynNTu" role="3e2p3O">
+              <ref role="3e2p4s" node="4ErWLKynNRs" resolve="s" />
             </node>
           </node>
-          <node concept="2z7KJ9" id="4ErWLKxtSGV" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKxtSEV" />
-            <node concept="3e2p4t" id="4ErWLKxtSGW" role="2z7KJ6">
-              <ref role="3e2p4s" node="4ErWLKxtSES" resolve="s" />
+          <node concept="2z7KJ9" id="4ErWLKynNTv" role="3e2PzU">
+            <ref role="3CfmUi" node="4ErWLKynNRv" />
+            <node concept="3e2p4t" id="4ErWLKynNTw" role="2z7KJ6">
+              <ref role="3e2p4s" node="4ErWLKynNRs" resolve="s" />
             </node>
-            <node concept="3e2p4i" id="4ErWLKxtSGX" role="2z7KJ7">
-              <ref role="3e2p4s" node="4ErWLKxtSEU" resolve="s.colour" />
+            <node concept="3e2p4i" id="4ErWLKynNTx" role="2z7KJ7">
+              <ref role="3e2p4s" node="4ErWLKynNRu" resolve="s.colour" />
             </node>
           </node>
-          <node concept="2zhaKz" id="4ErWLKxtSGY" role="3e2PzU">
+          <node concept="2zhaKz" id="4ErWLKynNTy" role="3e2PzU">
             <property role="3IoLuO" value="false" />
-            <ref role="3CfmUi" node="4ErWLKxtSEW" />
+            <ref role="3CfmUi" node="4ErWLKynNRw" />
             <ref role="2zhnFL" node="6sS4Tm$HjhZ" />
-            <node concept="3e2p4t" id="4ErWLKxtSGZ" role="2zhihA">
-              <ref role="3e2p4s" node="4ErWLKxtSEU" resolve="s.colour" />
+            <node concept="3e2p4t" id="4ErWLKynNTz" role="2zhihA">
+              <ref role="3e2p4s" node="4ErWLKynNRu" resolve="s.colour" />
             </node>
           </node>
-          <node concept="2zhaKz" id="4ErWLKxtSH0" role="3e2PzU">
+          <node concept="2zhaKz" id="4ErWLKynNT$" role="3e2PzU">
             <property role="3IoLuO" value="false" />
-            <ref role="3CfmUi" node="4ErWLKxtSEX" />
+            <ref role="3CfmUi" node="4ErWLKynNRx" />
             <ref role="2zhnFL" node="6sS4Tm$Hji3" />
-            <node concept="3e2p4t" id="4ErWLKxtSH1" role="2zhihA">
-              <ref role="3e2p4s" node="4ErWLKxtSEU" resolve="s.colour" />
+            <node concept="3e2p4t" id="4ErWLKynNT_" role="2zhihA">
+              <ref role="3e2p4s" node="4ErWLKynNRu" resolve="s.colour" />
             </node>
           </node>
-          <node concept="2zhaKz" id="4ErWLKxtSGO" role="3e2PzU">
+          <node concept="2zhaKz" id="4ErWLKynNTo" role="3e2PzU">
             <property role="3IoLuO" value="false" />
-            <ref role="3CfmUi" node="4ErWLKxtSEY" />
+            <ref role="3CfmUi" node="4ErWLKynNRy" />
             <ref role="2zhnFL" node="6sS4Tm$Hji7" />
-            <node concept="3e2p4t" id="4ErWLKxtSGP" role="2zhihA">
-              <ref role="3e2p4s" node="4ErWLKxtSEU" resolve="s.colour" />
+            <node concept="3e2p4t" id="4ErWLKynNTp" role="2zhihA">
+              <ref role="3e2p4s" node="4ErWLKynNRu" resolve="s.colour" />
             </node>
           </node>
         </node>
-        <node concept="3eImRa" id="4ErWLKxtSHg" role="3eKGHP">
-          <node concept="3eImVg" id="4ErWLKxtSHn" role="3eImRb">
+        <node concept="3eImRa" id="4ErWLKynNTO" role="3eKGHP">
+          <node concept="3eImVg" id="4ErWLKynNTV" role="3eImRb">
             <ref role="3eB4Im" to="6elt:2MtiOR4bSS_" resolve="s1" />
           </node>
-          <node concept="3eImVg" id="4ErWLKxtSHp" role="3eImRb">
+          <node concept="3eImVg" id="4ErWLKynNTX" role="3eImRb">
             <ref role="3eB4Im" to="6elt:2MtiOR4c_H0" resolve="s2" />
           </node>
-          <node concept="3eImVg" id="4ErWLKxtSHr" role="3eImRb">
+          <node concept="3eImVg" id="4ErWLKynNTZ" role="3eImRb">
             <ref role="3eB4Im" to="6elt:6sS4Tm$95dR" resolve="s3" />
           </node>
-          <node concept="3eImVg" id="4ErWLKxtSHt" role="3eImRb">
+          <node concept="3eImVg" id="4ErWLKynNU1" role="3eImRb">
             <ref role="3eB4Im" to="6elt:4ErWLKwPBzF" resolve="s5" />
           </node>
-          <node concept="3eJ099" id="4ErWLKxtSHv" role="3eIkDU">
+          <node concept="3eJ099" id="4ErWLKynNU3" role="3eIkDU">
             <property role="3eJ09e" value="m_0" />
           </node>
-          <node concept="3eJ099" id="4ErWLKxtSHw" role="3eIkDU">
+          <node concept="3eJ099" id="4ErWLKynNU4" role="3eIkDU">
             <property role="3eJ09e" value="m_1" />
           </node>
-          <node concept="3eJ099" id="4ErWLKxtSHx" role="3eIkDU">
+          <node concept="3eJ099" id="4ErWLKynNU5" role="3eIkDU">
             <property role="3eJ09e" value="m_2" />
           </node>
-          <node concept="3eJ099" id="4ErWLKxtSHy" role="3eIkDU">
+          <node concept="3eJ099" id="4ErWLKynNU6" role="3eIkDU">
             <property role="3eJ09e" value="m_3" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKxtSHz" role="3eInz_">
+          <node concept="3eIm8D" id="4ErWLKynNU7" role="3eInz_">
             <property role="1yUFiN" value="false" />
             <ref role="3eIm8I" node="6sS4Tm$85cJ" resolve="s" />
           </node>
