@@ -2823,5 +2823,43 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4ErWLK$HCEr">
+    <ref role="1XX52x" to="3ido:4ErWLK$HCEn" resolve="PedanticTODO" />
+    <node concept="3EZMnI" id="4ErWLK$HCEt" role="2wV5jI">
+      <node concept="2iRkQZ" id="4ErWLK$HCEu" role="2iSdaV" />
+      <node concept="3EZMnI" id="4ErWLK$HCEv" role="3EZMnx">
+        <node concept="3F0ifn" id="4ErWLK$HCEw" role="3EZMnx">
+          <property role="3F0ifm" value="[" />
+          <ref role="1k5W1q" to="tpen:hXb$RYA" resolve="LeftBracket" />
+          <node concept="VechU" id="4ErWLK$HCEx" role="3F10Kt">
+            <property role="Vb096" value="g1_qVrt/darkMagenta" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="4ErWLK$HCEy" role="3EZMnx">
+          <property role="3F0ifm" value="TODO:" />
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        </node>
+        <node concept="3F0A7n" id="4ErWLK$HCEz" role="3EZMnx">
+          <property role="1$x2rV" value="???" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="Vb9p2" id="4ErWLK$HCE$" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+          <node concept="VechU" id="4ErWLK$HCE_" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="4ErWLK$HCEA" role="3EZMnx">
+          <property role="3F0ifm" value="]" />
+          <ref role="1k5W1q" to="tpen:hXb$V4T" resolve="RightBracket" />
+          <node concept="VechU" id="4ErWLK$HCEB" role="3F10Kt">
+            <property role="Vb096" value="g1_qVrt/darkMagenta" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="4ErWLK$HCEC" role="2iSdaV" />
+        <node concept="VPM3Z" id="4ErWLK$HCED" role="3F10Kt" />
+      </node>
+    </node>
+  </node>
 </model>
 

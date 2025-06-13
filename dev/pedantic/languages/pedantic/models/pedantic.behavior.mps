@@ -32,6 +32,7 @@
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -12936,6 +12937,41 @@
     </node>
     <node concept="13hLZK" id="41Z0ZgFT$Kt" role="13h7CW">
       <node concept="3clFbS" id="41Z0ZgFT$Ku" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="4ErWLK$HCEE">
+    <ref role="13h7C2" to="3ido:4ErWLK$HCEn" resolve="PedanticTODO" />
+    <node concept="13i0hz" id="4ErWLK$HCEH" role="13h7CS">
+      <property role="TrG5h" value="isTODOComment" />
+      <ref role="13i0hy" to="tpcu:fB3l7ZufMD" resolve="isTODOComment" />
+      <node concept="3clFbS" id="4ErWLK$HCEI" role="3clF47">
+        <node concept="3cpWs6" id="4ErWLK$HCEJ" role="3cqZAp">
+          <node concept="3clFbT" id="4ErWLK$HCEK" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="4ErWLK$HCEL" role="3clF45" />
+      <node concept="3Tm1VV" id="4ErWLK$HCEM" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="4ErWLK$HCEN" role="13h7CS">
+      <property role="TrG5h" value="getTextualRepresentation" />
+      <ref role="13i0hy" to="tpcu:fB3l80ylIb" resolve="getTextualRepresentation" />
+      <node concept="3clFbS" id="4ErWLK$HCEO" role="3clF47">
+        <node concept="3cpWs6" id="4ErWLK$HCEP" role="3cqZAp">
+          <node concept="2OqwBi" id="4ErWLK$HCEQ" role="3cqZAk">
+            <node concept="13iPFW" id="4ErWLK$HCER" role="2Oq$k0" />
+            <node concept="3TrcHB" id="4ErWLK$HCES" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4ErWLK$HCET" role="3clF45" />
+      <node concept="3Tm1VV" id="4ErWLK$HCEU" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="4ErWLK$HCEF" role="13h7CW">
+      <node concept="3clFbS" id="4ErWLK$HCEG" role="2VODD2" />
     </node>
   </node>
 </model>
