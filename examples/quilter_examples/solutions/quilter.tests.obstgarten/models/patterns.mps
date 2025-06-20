@@ -65,6 +65,9 @@
         <child id="1340109089921503719" name="objects" index="3F$xvU" />
       </concept>
       <concept id="3214808506368341355" name="quilter.structure.NotEquals" flags="ng" index="3Io7SA" />
+      <concept id="5376157882411598018" name="quilter.structure.ChildLinkAtPos" flags="ng" index="1J5bfu">
+        <property id="5376157882411598021" name="pos" index="1J5bfp" />
+      </concept>
     </language>
   </registry>
   <node concept="3F$Th6" id="7BVCYER4n5d">
@@ -803,6 +806,32 @@
           </node>
           <node concept="2yiVuq" id="41Z0ZgGCkaq" role="1FzXqU" />
         </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="4ErWLK_AdRX" role="3F$ThY">
+      <property role="TrG5h" value="NoSixthSegmentUsingPos" />
+      <node concept="3F$xvW" id="4ErWLK_AdRY" role="3F$xvU">
+        <property role="TrG5h" value="orchard" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N5i" resolve="Orchard" />
+        <node concept="3F$xvT" id="4ErWLK_AdRZ" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NF0" />
+          <ref role="3F$xdr" node="4ErWLK_AdS0" resolve="pathway" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4ErWLK_AdS0" role="3F$xvU">
+        <property role="TrG5h" value="pathway" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N53" resolve="Pathway" />
+        <node concept="1J5bfu" id="4ErWLK_DFfW" role="3F$xvO">
+          <property role="TrG5h" value="child" />
+          <property role="1J5bfp" value="5" />
+          <ref role="3F$xdr" node="4ErWLK_AdS2" resolve="segment" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4ErWLK_AdS2" role="3F$xvU">
+        <property role="TrG5h" value="segment" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <ref role="3F$xdl" to="5e0r:7BVCYER1N56" resolve="PathSegment" />
       </node>
     </node>
     <node concept="3F$ThX" id="2LgBuUjva8W" role="3F$ThY">
