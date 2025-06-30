@@ -9,6 +9,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="uyb6" ref="r:e40062e2-f107-4d3d-aa75-760bd16e6de6(quilter.structure)" />
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -604,6 +605,47 @@
     <node concept="1YaCAy" id="5keHOqFi3KK" role="1YuTPh">
       <property role="TrG5h" value="postMatchContainer" />
       <ref role="1YaFvo" to="uyb6:7BVCYERgGSw" resolve="PostMatchContainer" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="4ErWLKBpU3O">
+    <property role="TrG5h" value="PosOnlyForChildren" />
+    <node concept="3clFbS" id="4ErWLKBpU3P" role="18ibNy">
+      <node concept="3clFbJ" id="4ErWLKBpXFn" role="3cqZAp">
+        <node concept="3clFbS" id="4ErWLKBpXFp" role="3clFbx">
+          <node concept="2MkqsV" id="4ErWLKBpXPy" role="3cqZAp">
+            <node concept="Xl_RD" id="4ErWLKBpXP_" role="2MkJ7o">
+              <property role="Xl_RC" value="You can only declare positions for children" />
+            </node>
+            <node concept="1YBJjd" id="4ErWLKBpXPA" role="1urrMF">
+              <ref role="1YBMHb" node="4ErWLKBpU3R" resolve="childLinkAtPos" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="4ErWLKBpXnU" role="3clFbw">
+          <node concept="2OqwBi" id="4ErWLKBpWO3" role="2Oq$k0">
+            <node concept="2OqwBi" id="4ErWLKBpUf1" role="2Oq$k0">
+              <node concept="1YBJjd" id="4ErWLKBpU3Z" role="2Oq$k0">
+                <ref role="1YBMHb" node="4ErWLKBpU3R" resolve="childLinkAtPos" />
+              </node>
+              <node concept="3TrEf2" id="4ErWLKBpUrz" role="2OqNvi">
+                <ref role="3Tt5mk" to="uyb6:1ap1xRT2LlQ" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="4ErWLKBpXdW" role="2OqNvi">
+              <ref role="3TsBF5" to="tpce:3Ftr4R6BH8$" resolve="metaClass" />
+            </node>
+          </node>
+          <node concept="21noJN" id="4ErWLKBpXET" role="2OqNvi">
+            <node concept="21nZrQ" id="4ErWLKBpXEV" role="21noJM">
+              <ref role="21nZrZ" to="tpce:3Ftr4R6BFyn" resolve="reference" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4ErWLKBpU3R" role="1YuTPh">
+      <property role="TrG5h" value="childLinkAtPos" />
+      <ref role="1YaFvo" to="uyb6:4ErWLK_zO32" resolve="ChildLinkAtPos" />
     </node>
   </node>
 </model>

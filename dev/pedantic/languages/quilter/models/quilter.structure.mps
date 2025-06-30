@@ -1934,7 +1934,7 @@
     <property role="EcuMT" value="5376157882411598018" />
     <property role="3GE5qa" value="patterns.links" />
     <property role="TrG5h" value="ChildLinkAtPos" />
-    <property role="34LRSv" value="child at pos" />
+    <property role="34LRSv" value="child link at pos" />
     <ref role="1TJDcQ" node="1ap1xRT2L7$" resolve="Link" />
     <node concept="1TJgyi" id="4ErWLK_zO35" role="1TKVEl">
       <property role="IQ2nx" value="5376157882411598021" />
@@ -1945,8 +1945,8 @@
   <node concept="1TIwiD" id="4ErWLK_E_sw">
     <property role="EcuMT" value="5376157882413373216" />
     <property role="3GE5qa" value="csp.links" />
-    <property role="TrG5h" value="ChildLinkAtPosConstraint" />
-    <ref role="1TJDcQ" node="7BVCYERSDH6" resolve="UntypedLinkConstraint" />
+    <property role="TrG5h" value="LinkAtPosConstraint" />
+    <ref role="1TJDcQ" node="7BVCYERFuKu" resolve="TypedLinkConstraint" />
     <node concept="1TJgyi" id="4ErWLK_F5$F" role="1TKVEl">
       <property role="IQ2nx" value="5376157882413504811" />
       <property role="TrG5h" value="pos" />
@@ -1955,9 +1955,15 @@
   </node>
   <node concept="1TIwiD" id="4ErWLK_FmBT">
     <property role="EcuMT" value="5376157882413574649" />
-    <property role="3GE5qa" value="searchplan.operations.links.children" />
-    <property role="TrG5h" value="ChildLinkAtPos_BB" />
+    <property role="3GE5qa" value="searchplan.operations.links.typed" />
+    <property role="TrG5h" value="TypedLinkAtPos_BB" />
     <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
+    <node concept="1TJgyj" id="4ErWLKAw41S" role="1TKVEi">
+      <property role="IQ2ns" value="5376157882427392120" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
     <node concept="1TJgyi" id="4ErWLK_FmC7" role="1TKVEl">
       <property role="IQ2nx" value="5376157882413574663" />
       <property role="TrG5h" value="pos" />
@@ -1980,9 +1986,15 @@
   </node>
   <node concept="1TIwiD" id="4ErWLK_FmBX">
     <property role="EcuMT" value="5376157882413574653" />
-    <property role="3GE5qa" value="searchplan.operations.links.children" />
-    <property role="TrG5h" value="ChildLinkAtPos_BF" />
+    <property role="3GE5qa" value="searchplan.operations.links.typed" />
+    <property role="TrG5h" value="TypedLinkAtPos_BF" />
     <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
+    <node concept="1TJgyj" id="4ErWLKAw41T" role="1TKVEi">
+      <property role="IQ2ns" value="5376157882427392121" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
     <node concept="1TJgyi" id="4ErWLK_FmC6" role="1TKVEl">
       <property role="IQ2nx" value="5376157882413574662" />
       <property role="TrG5h" value="pos" />
@@ -2005,9 +2017,15 @@
   </node>
   <node concept="1TIwiD" id="4ErWLK_FmC1">
     <property role="EcuMT" value="5376157882413574657" />
-    <property role="3GE5qa" value="searchplan.operations.links.children" />
-    <property role="TrG5h" value="ChildLinkAtPos_FB" />
+    <property role="3GE5qa" value="searchplan.operations.links.typed" />
+    <property role="TrG5h" value="TypedLinkAtPos_FB" />
     <ref role="1TJDcQ" node="4ljD3mHHbWk" resolve="LinkOperation" />
+    <node concept="1TJgyj" id="4ErWLKAw41U" role="1TKVEi">
+      <property role="IQ2ns" value="5376157882427392122" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
     <node concept="1TJgyi" id="4ErWLK_FmC5" role="1TKVEl">
       <property role="IQ2nx" value="5376157882413574661" />
       <property role="TrG5h" value="pos" />
