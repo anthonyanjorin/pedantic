@@ -294,13 +294,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7BVCYERhU6z" resolve="MatchLabel" />
     </node>
-    <node concept="1TJgyj" id="4cbEj33tyQq" role="1TKVEi">
-      <property role="IQ2ns" value="4831141052187815322" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="filteredMatches" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7BVCYERhU6z" resolve="MatchLabel" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERemyF">
     <property role="EcuMT" value="8789799326235322539" />
@@ -328,6 +321,21 @@
       <property role="IQ2nx" value="5376157882333013580" />
       <property role="TrG5h" value="spentTime" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4ErWLKCsciW" role="1TKVEl">
+      <property role="IQ2nx" value="5376157882459931836" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4ErWLKCGpUi" role="1TKVEl">
+      <property role="IQ2nx" value="5376157882464181906" />
+      <property role="TrG5h" value="nrOfMatchesToDisplay" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4ErWLKCXP6I" role="1TKVEl">
+      <property role="IQ2nx" value="5376157882468749742" />
+      <property role="TrG5h" value="nrOfMatchesFound" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERemyQ">

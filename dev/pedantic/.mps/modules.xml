@@ -4,9 +4,11 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/pedantic/pedantic.mpl" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/languages/plantuml/plantuml.mpl" folder="plantuml" />
+      <modulePath path="$PROJECT_DIR$/languages/quilter.examples.se_artefacts/quilter.examples.se_artefacts.mpl" folder="quilter.examples.se_artefacts" />
       <modulePath path="$PROJECT_DIR$/languages/quilter/quilter.mpl" folder="quilter" />
       <modulePath path="$PROJECT_DIR$/solutions/pedantic.build/pedantic.build.msd" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/solutions/plantuml.plugin/plantuml.plugin.msd" folder="plantuml" />
+      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.se_artefacts/quilter.tests.se_artefacts.msd" folder="quilter.examples.se_artefacts" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.obstgarten/quilter.examples.obstgarten.mpl" folder="quilter.examples.obstgarten" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.she_remembered_caterpillars/quilter.examples.she_remembered_caterpillars.mpl" folder="quilter.examples.she_remembered_caterpillars" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.sokoban/quilter.examples.sokoban.mpl" folder="quilter.examples.sokoban" />
