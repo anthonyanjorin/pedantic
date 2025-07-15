@@ -1980,7 +1980,8 @@
         <property role="3F0ifm" value="of" />
       </node>
       <node concept="3F0A7n" id="4ErWLKDPFkX" role="3EZMnx">
-        <property role="1Intyy" value="true" />
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="?" />
         <ref role="1NtTu8" to="uyb6:4ErWLKCXP6I" resolve="nrOfMatchesFound" />
       </node>
       <node concept="3F0ifn" id="2tbV4VNKVKU" role="3EZMnx">
