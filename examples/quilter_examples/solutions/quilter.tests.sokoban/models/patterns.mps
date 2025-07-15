@@ -89,6 +89,7 @@
       <concept id="8789799326235938335" name="quilter.structure.PreMatch" flags="ng" index="3eImRP" />
       <concept id="8789799326235938106" name="quilter.structure.Binding" flags="ng" index="3eImVg">
         <property id="4647437687603283782" name="excludeFromInjectivityCheck" index="1_94iM" />
+        <reference id="8789799326238369916" name="target" index="3eB4Im" />
       </concept>
       <concept id="8789799326236254627" name="quilter.structure.MatchLabel" flags="ng" index="3eJ099">
         <property id="8789799326236254628" name="value" index="3eJ09e" />
@@ -794,244 +795,253 @@
         <property role="3Fq0gx" value="2" />
         <property role="3eKGHa" value="-1" />
         <property role="1FSVRs" value="5" />
-        <property role="1EuXlg" value="00m:00s:67ms" />
-        <property role="1yraaM" value="0" />
-        <ref role="3eKGHL" node="2MtiOR2Vklb" resolve="BoxIsBlockedInBottomLeftCorner" />
-        <node concept="3eImRP" id="4ErWLKE1qq5" role="3eKGHR">
-          <node concept="3eJ099" id="4ErWLKE1qq6" role="3eIkDU">
+        <property role="1EuXlg" value="00m:00s:39ms" />
+        <property role="1yraaM" value="1" />
+        <ref role="3eKGHL" node="2MtiOR28Io8" resolve="BoxIsBlockedInTopRightCorner" />
+        <node concept="3eImRP" id="2QAMtz70FTJ" role="3eKGHR">
+          <node concept="3eJ099" id="2QAMtz70FTK" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qq7" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR2Vklc" resolve="box" />
+          <node concept="3eIm8D" id="2QAMtz70FTL" role="3eInz_">
+            <property role="1yUFiN" value="true" />
+            <ref role="3eIm8I" node="2MtiOR28Ioa" resolve="box" />
           </node>
-          <node concept="3eImVg" id="4ErWLKE1qq8" role="3eImRb">
+          <node concept="3eImVg" id="2QAMtz70FTM" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qq9" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR2Vkld" resolve="boxCell" />
+          <node concept="3eIm8D" id="2QAMtz70FTN" role="3eInz_">
+            <ref role="3eIm8I" node="2MtiOR28Iob" resolve="boxCell" />
           </node>
-          <node concept="3eImVg" id="4ErWLKE1qqa" role="3eImRb">
+          <node concept="3eImVg" id="2QAMtz70FTO" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qqb" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR2Vklf" resolve="leftCell" />
+          <node concept="3eIm8D" id="2QAMtz70FTP" role="3eInz_">
+            <ref role="3eIm8I" node="2MtiOR28Ioi" resolve="rightCell" />
           </node>
-          <node concept="3eImVg" id="4ErWLKE1qqc" role="3eImRb">
+          <node concept="3eImVg" id="2QAMtz70FTQ" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qqd" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR2Vkli" resolve="downCell" />
+          <node concept="3eIm8D" id="2QAMtz70FTR" role="3eInz_">
+            <ref role="3eIm8I" node="2MtiOR28Iok" resolve="upCell" />
           </node>
-          <node concept="3eImVg" id="4ErWLKE1qqe" role="3eImRb">
+          <node concept="3eImVg" id="2QAMtz70FTS" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qqf" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR2Vkll" resolve="downBoulder" />
+          <node concept="3eIm8D" id="2QAMtz70FTT" role="3eInz_">
+            <property role="1yUFiN" value="true" />
+            <ref role="3eIm8I" node="2MtiOR28IIH" resolve="upBoulder" />
           </node>
-          <node concept="3eImVg" id="4ErWLKE1qqg" role="3eImRb">
+          <node concept="3eImVg" id="2QAMtz70FTU" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qqh" role="3eInz_">
-            <ref role="3eIm8I" node="2MtiOR2Vklm" resolve="leftBoulder" />
+          <node concept="3eIm8D" id="2QAMtz70FTV" role="3eInz_">
+            <ref role="3eIm8I" node="2MtiOR28IIJ" resolve="rightBoulder" />
           </node>
-          <node concept="3eImVg" id="4ErWLKE1qqi" role="3eImRb">
+          <node concept="3eImVg" id="2QAMtz70FTW" role="3eImRb">
             <property role="1_94iM" value="false" />
           </node>
         </node>
-        <node concept="3elqOZ" id="4ErWLKE1qqj" role="3eliY4">
-          <node concept="17UGNt" id="4ErWLKE1qqk" role="3eirzu">
+        <node concept="3elqOZ" id="2QAMtz70FTX" role="3eliY4">
+          <node concept="17UGNt" id="2QAMtz70FTY" role="3eirzu">
             <property role="TrG5h" value="box" />
-            <ref role="17UGNs" node="2MtiOR2Vklc" resolve="box" />
+            <ref role="17UGNs" node="2MtiOR28Ioa" resolve="box" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKE1qql" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKE1qqk" resolve="box" />
+          <node concept="3el$ZR" id="2QAMtz70FTZ" role="3elqOW">
+            <ref role="3eirzp" node="2QAMtz70FTY" resolve="box" />
             <ref role="3ein4b" to="icb1:2MtiOR1VKWz" resolve="Box" />
           </node>
-          <node concept="17UGNt" id="4ErWLKE1qqm" role="3eirzu">
+          <node concept="17UGNt" id="2QAMtz70FU0" role="3eirzu">
             <property role="TrG5h" value="boxCell" />
-            <ref role="17UGNs" node="2MtiOR2Vkld" resolve="boxCell" />
+            <ref role="17UGNs" node="2MtiOR28Iob" resolve="boxCell" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKE1qqn" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKE1qqm" resolve="boxCell" />
+          <node concept="3el$ZR" id="2QAMtz70FU1" role="3elqOW">
+            <ref role="3eirzp" node="2QAMtz70FU0" resolve="boxCell" />
             <ref role="3ein4b" to="icb1:2MtiOR1UY8V" resolve="Cell" />
           </node>
-          <node concept="17UGNt" id="4ErWLKE1qqo" role="3eirzu">
-            <property role="TrG5h" value="leftCell" />
-            <ref role="17UGNs" node="2MtiOR2Vklf" resolve="leftCell" />
+          <node concept="17UGNt" id="2QAMtz70FU2" role="3eirzu">
+            <property role="TrG5h" value="rightCell" />
+            <ref role="17UGNs" node="2MtiOR28Ioi" resolve="rightCell" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKE1qqp" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKE1qqo" resolve="leftCell" />
+          <node concept="3el$ZR" id="2QAMtz70FU3" role="3elqOW">
+            <ref role="3eirzp" node="2QAMtz70FU2" resolve="rightCell" />
             <ref role="3ein4b" to="icb1:2MtiOR1UY8V" resolve="Cell" />
           </node>
-          <node concept="17UGNt" id="4ErWLKE1qqq" role="3eirzu">
-            <property role="TrG5h" value="downCell" />
-            <ref role="17UGNs" node="2MtiOR2Vkli" resolve="downCell" />
+          <node concept="17UGNt" id="2QAMtz70FU4" role="3eirzu">
+            <property role="TrG5h" value="upCell" />
+            <ref role="17UGNs" node="2MtiOR28Iok" resolve="upCell" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKE1qqr" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKE1qqq" resolve="downCell" />
+          <node concept="3el$ZR" id="2QAMtz70FU5" role="3elqOW">
+            <ref role="3eirzp" node="2QAMtz70FU4" resolve="upCell" />
             <ref role="3ein4b" to="icb1:2MtiOR1UY8V" resolve="Cell" />
           </node>
-          <node concept="17UGNt" id="4ErWLKE1qqs" role="3eirzu">
-            <property role="TrG5h" value="downBoulder" />
-            <ref role="17UGNs" node="2MtiOR2Vkll" resolve="downBoulder" />
+          <node concept="17UGNt" id="2QAMtz70FU6" role="3eirzu">
+            <property role="TrG5h" value="upBoulder" />
+            <ref role="17UGNs" node="2MtiOR28IIH" resolve="upBoulder" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKE1qqt" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKE1qqs" resolve="downBoulder" />
+          <node concept="3el$ZR" id="2QAMtz70FU7" role="3elqOW">
+            <ref role="3eirzp" node="2QAMtz70FU6" resolve="upBoulder" />
             <ref role="3ein4b" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
           </node>
-          <node concept="17UGNt" id="4ErWLKE1qqu" role="3eirzu">
-            <property role="TrG5h" value="leftBoulder" />
-            <ref role="17UGNs" node="2MtiOR2Vklm" resolve="leftBoulder" />
+          <node concept="17UGNt" id="2QAMtz70FU8" role="3eirzu">
+            <property role="TrG5h" value="rightBoulder" />
+            <ref role="17UGNs" node="2MtiOR28IIJ" resolve="rightBoulder" />
           </node>
-          <node concept="3el$ZR" id="4ErWLKE1qqv" role="3elqOW">
-            <ref role="3eirzp" node="4ErWLKE1qqu" resolve="leftBoulder" />
+          <node concept="3el$ZR" id="2QAMtz70FU9" role="3elqOW">
+            <ref role="3eirzp" node="2QAMtz70FU8" resolve="rightBoulder" />
             <ref role="3ein4b" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
           </node>
-          <node concept="3el$ZO" id="4ErWLKE1qqw" role="3elqOW">
-            <ref role="3eevyo" node="4ErWLKE1qqm" resolve="boxCell" />
-            <ref role="3eevyp" node="4ErWLKE1qqk" resolve="box" />
+          <node concept="3el$ZO" id="2QAMtz70FUa" role="3elqOW">
+            <ref role="3eevyo" node="2QAMtz70FU0" resolve="boxCell" />
+            <ref role="3eevyp" node="2QAMtz70FTY" resolve="box" />
             <ref role="3eevyu" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           </node>
-          <node concept="3el$ZO" id="4ErWLKE1qqx" role="3elqOW">
-            <ref role="3eevyo" node="4ErWLKE1qqm" resolve="boxCell" />
-            <ref role="3eevyp" node="4ErWLKE1qqq" resolve="downCell" />
-            <ref role="3eevyu" to="icb1:2MtiOR1WLSR" resolve="down" />
-          </node>
-          <node concept="3el$ZO" id="4ErWLKE1qqy" role="3elqOW">
-            <ref role="3eevyo" node="4ErWLKE1qqo" resolve="leftCell" />
-            <ref role="3eevyp" node="4ErWLKE1qqu" resolve="leftBoulder" />
-            <ref role="3eevyu" to="icb1:2MtiOR1Vy$A" resolve="figure" />
-          </node>
-          <node concept="3el$ZO" id="4ErWLKE1qqz" role="3elqOW">
-            <ref role="3eevyo" node="4ErWLKE1qqo" resolve="leftCell" />
-            <ref role="3eevyp" node="4ErWLKE1qqm" resolve="boxCell" />
+          <node concept="3el$ZO" id="2QAMtz70FUb" role="3elqOW">
+            <ref role="3eevyo" node="2QAMtz70FU0" resolve="boxCell" />
+            <ref role="3eevyp" node="2QAMtz70FU2" resolve="rightCell" />
             <ref role="3eevyu" to="icb1:2MtiOR1WLST" resolve="right" />
           </node>
-          <node concept="3el$ZO" id="4ErWLKE1qq$" role="3elqOW">
-            <ref role="3eevyo" node="4ErWLKE1qqq" resolve="downCell" />
-            <ref role="3eevyp" node="4ErWLKE1qqs" resolve="downBoulder" />
+          <node concept="3el$ZO" id="2QAMtz70FUc" role="3elqOW">
+            <ref role="3eevyo" node="2QAMtz70FU2" resolve="rightCell" />
+            <ref role="3eevyp" node="2QAMtz70FU8" resolve="rightBoulder" />
+            <ref role="3eevyu" to="icb1:2MtiOR1Vy$A" resolve="figure" />
+          </node>
+          <node concept="3el$ZO" id="2QAMtz70FUd" role="3elqOW">
+            <ref role="3eevyo" node="2QAMtz70FU4" resolve="upCell" />
+            <ref role="3eevyp" node="2QAMtz70FU0" resolve="boxCell" />
+            <ref role="3eevyu" to="icb1:2MtiOR1WLSR" resolve="down" />
+          </node>
+          <node concept="3el$ZO" id="2QAMtz70FUe" role="3elqOW">
+            <ref role="3eevyo" node="2QAMtz70FU4" resolve="upCell" />
+            <ref role="3eevyp" node="2QAMtz70FU6" resolve="upBoulder" />
             <ref role="3eevyu" to="icb1:2MtiOR1Vy$A" resolve="figure" />
           </node>
         </node>
-        <node concept="3e2OTI" id="4ErWLKE1qV9" role="3e3QqN">
+        <node concept="3e2OTI" id="2QAMtz70Gp6" role="3e3QqN">
           <property role="3e1rJ9" value="2025" />
-          <node concept="3e2qRM" id="4ErWLKE1qVa" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qql" />
+          <node concept="3e2qRM" id="2QAMtz70Gp7" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FTZ" />
             <ref role="3FLKAo" to="icb1:2MtiOR1VKWz" resolve="Box" />
-            <node concept="3e2p4i" id="4ErWLKE1qVb" role="3e2p3O">
-              <ref role="3e2p4s" node="4ErWLKE1qqk" resolve="box" />
+            <node concept="3e2p4i" id="2QAMtz70Gp8" role="3e2p3O">
+              <ref role="3e2p4s" node="2QAMtz70FTY" resolve="box" />
             </node>
           </node>
-          <node concept="3k9trb" id="4ErWLKE1qVc" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqw" />
+          <node concept="3k9trb" id="2QAMtz70Gp9" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FUa" />
             <ref role="3k9n3O" to="icb1:2MtiOR1Vy$A" resolve="figure" />
-            <node concept="3e2p4i" id="4ErWLKE1qVd" role="3k9tr8">
-              <ref role="3e2p4s" node="4ErWLKE1qqm" resolve="boxCell" />
+            <node concept="3e2p4i" id="2QAMtz70Gpa" role="3k9tr8">
+              <ref role="3e2p4s" node="2QAMtz70FU0" resolve="boxCell" />
             </node>
-            <node concept="3e2p4t" id="4ErWLKE1qVe" role="3k9tr9">
-              <ref role="3e2p4s" node="4ErWLKE1qqk" resolve="box" />
+            <node concept="3e2p4t" id="2QAMtz70Gpb" role="3k9tr9">
+              <ref role="3e2p4s" node="2QAMtz70FTY" resolve="box" />
             </node>
           </node>
-          <node concept="3e2qRN" id="4ErWLKE1qVf" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqn" />
+          <node concept="3e2qRN" id="2QAMtz70Gpc" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FU1" />
             <ref role="3FOeZz" to="icb1:2MtiOR1UY8V" resolve="Cell" />
-            <node concept="3e2p4t" id="4ErWLKE1qVg" role="3e2p3R">
-              <ref role="3e2p4s" node="4ErWLKE1qqm" resolve="boxCell" />
+            <node concept="3e2p4t" id="2QAMtz70Gpd" role="3e2p3R">
+              <ref role="3e2p4s" node="2QAMtz70FU0" resolve="boxCell" />
             </node>
           </node>
-          <node concept="3e2sqz" id="4ErWLKE1qVh" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqx" />
-            <ref role="3l_wLC" to="icb1:2MtiOR1WLSR" resolve="down" />
-            <node concept="3e2p4t" id="4ErWLKE1qVi" role="3e2sqw">
-              <ref role="3e2p4s" node="4ErWLKE1qqm" resolve="boxCell" />
+          <node concept="3e2sqz" id="2QAMtz70Gpe" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FUb" />
+            <ref role="3l_wLC" to="icb1:2MtiOR1WLST" resolve="right" />
+            <node concept="3e2p4t" id="2QAMtz70Gpf" role="3e2sqw">
+              <ref role="3e2p4s" node="2QAMtz70FU0" resolve="boxCell" />
             </node>
-            <node concept="3e2p4i" id="4ErWLKE1qVj" role="3e2sqx">
-              <ref role="3e2p4s" node="4ErWLKE1qqq" resolve="downCell" />
+            <node concept="3e2p4i" id="2QAMtz70Gpg" role="3e2sqx">
+              <ref role="3e2p4s" node="2QAMtz70FU2" resolve="rightCell" />
             </node>
           </node>
-          <node concept="3e2qRN" id="4ErWLKE1qVk" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqr" />
+          <node concept="3e2qRN" id="2QAMtz70Gph" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FU3" />
             <ref role="3FOeZz" to="icb1:2MtiOR1UY8V" resolve="Cell" />
-            <node concept="3e2p4t" id="4ErWLKE1qVl" role="3e2p3R">
-              <ref role="3e2p4s" node="4ErWLKE1qqq" resolve="downCell" />
+            <node concept="3e2p4t" id="2QAMtz70Gpi" role="3e2p3R">
+              <ref role="3e2p4s" node="2QAMtz70FU2" resolve="rightCell" />
             </node>
           </node>
-          <node concept="3e2sqz" id="4ErWLKE1qVm" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qq$" />
+          <node concept="3e2sqz" id="2QAMtz70Gpj" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FUc" />
             <ref role="3l_wLC" to="icb1:2MtiOR1Vy$A" resolve="figure" />
-            <node concept="3e2p4t" id="4ErWLKE1qVn" role="3e2sqw">
-              <ref role="3e2p4s" node="4ErWLKE1qqq" resolve="downCell" />
+            <node concept="3e2p4t" id="2QAMtz70Gpk" role="3e2sqw">
+              <ref role="3e2p4s" node="2QAMtz70FU2" resolve="rightCell" />
             </node>
-            <node concept="3e2p4i" id="4ErWLKE1qVo" role="3e2sqx">
-              <ref role="3e2p4s" node="4ErWLKE1qqs" resolve="downBoulder" />
+            <node concept="3e2p4i" id="2QAMtz70Gpl" role="3e2sqx">
+              <ref role="3e2p4s" node="2QAMtz70FU8" resolve="rightBoulder" />
             </node>
           </node>
-          <node concept="3e2qRN" id="4ErWLKE1qVp" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqt" />
+          <node concept="3e2qRN" id="2QAMtz70Gpm" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FU9" />
             <ref role="3FOeZz" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
-            <node concept="3e2p4t" id="4ErWLKE1qVq" role="3e2p3R">
-              <ref role="3e2p4s" node="4ErWLKE1qqs" resolve="downBoulder" />
+            <node concept="3e2p4t" id="2QAMtz70Gpn" role="3e2p3R">
+              <ref role="3e2p4s" node="2QAMtz70FU8" resolve="rightBoulder" />
             </node>
           </node>
-          <node concept="3e2qRM" id="4ErWLKE1qVr" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqp" />
+          <node concept="3e2qRM" id="2QAMtz70Gpo" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FU5" />
             <ref role="3FLKAo" to="icb1:2MtiOR1UY8V" resolve="Cell" />
-            <node concept="3e2p4i" id="4ErWLKE1qVs" role="3e2p3O">
-              <ref role="3e2p4s" node="4ErWLKE1qqo" resolve="leftCell" />
+            <node concept="3e2p4i" id="2QAMtz70Gpp" role="3e2p3O">
+              <ref role="3e2p4s" node="2QAMtz70FU4" resolve="upCell" />
             </node>
           </node>
-          <node concept="3e2sqG" id="4ErWLKE1qVt" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqz" />
-            <ref role="3l_Fsw" to="icb1:2MtiOR1WLST" resolve="right" />
-            <node concept="3e2p4t" id="4ErWLKE1qVu" role="3e2sqH">
-              <ref role="3e2p4s" node="4ErWLKE1qqo" resolve="leftCell" />
+          <node concept="3e2sqG" id="2QAMtz70Gpq" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FUd" />
+            <ref role="3l_Fsw" to="icb1:2MtiOR1WLSR" resolve="down" />
+            <node concept="3e2p4t" id="2QAMtz70Gpr" role="3e2sqH">
+              <ref role="3e2p4s" node="2QAMtz70FU4" resolve="upCell" />
             </node>
-            <node concept="3e2p4t" id="4ErWLKE1qVv" role="3e2sqy">
-              <ref role="3e2p4s" node="4ErWLKE1qqm" resolve="boxCell" />
+            <node concept="3e2p4t" id="2QAMtz70Gps" role="3e2sqy">
+              <ref role="3e2p4s" node="2QAMtz70FU0" resolve="boxCell" />
             </node>
           </node>
-          <node concept="3e2sqz" id="4ErWLKE1qVw" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqy" />
+          <node concept="3e2sqz" id="2QAMtz70Gpt" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FUe" />
             <ref role="3l_wLC" to="icb1:2MtiOR1Vy$A" resolve="figure" />
-            <node concept="3e2p4t" id="4ErWLKE1qVx" role="3e2sqw">
-              <ref role="3e2p4s" node="4ErWLKE1qqo" resolve="leftCell" />
+            <node concept="3e2p4t" id="2QAMtz70Gpu" role="3e2sqw">
+              <ref role="3e2p4s" node="2QAMtz70FU4" resolve="upCell" />
             </node>
-            <node concept="3e2p4i" id="4ErWLKE1qVy" role="3e2sqx">
-              <ref role="3e2p4s" node="4ErWLKE1qqu" resolve="leftBoulder" />
+            <node concept="3e2p4i" id="2QAMtz70Gpv" role="3e2sqx">
+              <ref role="3e2p4s" node="2QAMtz70FU6" resolve="upBoulder" />
             </node>
           </node>
-          <node concept="3e2qRN" id="4ErWLKE1qV1" role="3e2PzU">
-            <ref role="3CfmUi" node="4ErWLKE1qqv" />
+          <node concept="3e2qRN" id="2QAMtz70GoY" role="3e2PzU">
+            <ref role="3CfmUi" node="2QAMtz70FU7" />
             <ref role="3FOeZz" to="icb1:2MtiOR1VKWy" resolve="Boulder" />
-            <node concept="3e2p4t" id="4ErWLKE1qV2" role="3e2p3R">
-              <ref role="3e2p4s" node="4ErWLKE1qqu" resolve="leftBoulder" />
+            <node concept="3e2p4t" id="2QAMtz70GoZ" role="3e2p3R">
+              <ref role="3e2p4s" node="2QAMtz70FU6" resolve="upBoulder" />
             </node>
           </node>
         </node>
-        <node concept="3eImRa" id="4ErWLKE1qW7" role="3eKGHP">
-          <node concept="3eIm8D" id="4ErWLKE1qW8" role="3eInz_">
-            <property role="1yUFiN" value="false" />
-            <ref role="3eIm8I" node="2MtiOR2Vklc" resolve="box" />
+        <node concept="3eImRa" id="2QAMtz70Gq4" role="3eKGHP">
+          <node concept="3eImVg" id="2QAMtz70Gq5" role="3eImRb">
+            <ref role="3eB4Im" to="7fxf:2MtiOR1Y1Eo" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qW9" role="3eInz_">
-            <property role="1yUFiN" value="false" />
-            <ref role="3eIm8I" node="2MtiOR2Vkld" resolve="boxCell" />
+          <node concept="3eImVg" id="2QAMtz70Gq6" role="3eImRb">
+            <ref role="3eB4Im" to="7fxf:2MtiOR1Y1Ep" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qWa" role="3eInz_">
-            <property role="1yUFiN" value="false" />
-            <ref role="3eIm8I" node="2MtiOR2Vklf" resolve="leftCell" />
+          <node concept="3eImVg" id="2QAMtz70Gq7" role="3eImRb">
+            <ref role="3eB4Im" to="7fxf:2MtiOR1Y1Ed" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qWb" role="3eInz_">
-            <property role="1yUFiN" value="false" />
-            <ref role="3eIm8I" node="2MtiOR2Vkli" resolve="downCell" />
+          <node concept="3eImVg" id="2QAMtz70Gq8" role="3eImRb">
+            <ref role="3eB4Im" to="7fxf:2MtiOR1Y1Eq" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qWc" role="3eInz_">
-            <property role="1yUFiN" value="false" />
-            <ref role="3eIm8I" node="2MtiOR2Vkll" resolve="downBoulder" />
+          <node concept="3eJ099" id="2QAMtz70Gq9" role="3eIkDU">
+            <property role="3eJ09e" value="m_0" />
           </node>
-          <node concept="3eIm8D" id="4ErWLKE1qWd" role="3eInz_">
+          <node concept="3eIm8D" id="2QAMtz70Gqa" role="3eInz_">
             <property role="1yUFiN" value="false" />
-            <ref role="3eIm8I" node="2MtiOR2Vklm" resolve="leftBoulder" />
+            <ref role="3eIm8I" node="2MtiOR28Iob" resolve="boxCell" />
+          </node>
+          <node concept="3eIm8D" id="2QAMtz70Gqb" role="3eInz_">
+            <property role="1yUFiN" value="false" />
+            <ref role="3eIm8I" node="2MtiOR28Ioi" resolve="rightCell" />
+          </node>
+          <node concept="3eIm8D" id="2QAMtz70Gqc" role="3eInz_">
+            <property role="1yUFiN" value="false" />
+            <ref role="3eIm8I" node="2MtiOR28Iok" resolve="upCell" />
+          </node>
+          <node concept="3eIm8D" id="2QAMtz70Gqd" role="3eInz_">
+            <property role="1yUFiN" value="false" />
+            <ref role="3eIm8I" node="2MtiOR28IIJ" resolve="rightBoulder" />
           </node>
         </node>
       </node>
