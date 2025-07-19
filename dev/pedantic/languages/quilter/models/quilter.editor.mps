@@ -111,6 +111,7 @@
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <reference id="1081339532145" name="keyMap" index="34QXea" />
+        <child id="1142887637401" name="renderingCondition" index="pqm2j" />
         <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -206,6 +207,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
@@ -1984,16 +1986,42 @@
         <property role="1$x2rV" value="?" />
         <ref role="1NtTu8" to="uyb6:2QAMtz7gWUS" resolve="nrOfFilteredMatches" />
       </node>
-      <node concept="3F0ifn" id="2QAMtz7hnAn" role="3EZMnx">
-        <property role="3F0ifm" value="(filtered from" />
-      </node>
-      <node concept="3F0A7n" id="2QAMtz7hnAq" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:4ErWLKCXP6I" resolve="nrOfMatchesFound" />
-      </node>
-      <node concept="3F0ifn" id="2QAMtz7hnAt" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <node concept="11L4FC" id="2QAMtz7FdV6" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="3EZMnI" id="2QAMtz7Q3AX" role="3EZMnx">
+        <node concept="VPM3Z" id="2QAMtz7Q3AZ" role="3F10Kt" />
+        <node concept="3F0ifn" id="2QAMtz7hnAn" role="3EZMnx">
+          <property role="3F0ifm" value="(filtered from" />
+        </node>
+        <node concept="3F0A7n" id="2QAMtz7hnAq" role="3EZMnx">
+          <property role="1$x2rV" value="?" />
+          <property role="1O74Pk" value="true" />
+          <ref role="1NtTu8" to="uyb6:4ErWLKCXP6I" resolve="nrOfMatchesFound" />
+        </node>
+        <node concept="3F0ifn" id="2QAMtz7hnAt" role="3EZMnx">
+          <property role="3F0ifm" value=")" />
+          <node concept="11L4FC" id="2QAMtz7FdV6" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="2QAMtz7Q3B2" role="2iSdaV" />
+        <node concept="pkWqt" id="2QAMtz7Q3B7" role="pqm2j">
+          <node concept="3clFbS" id="2QAMtz7Q3B8" role="2VODD2">
+            <node concept="3clFbF" id="2QAMtz7Q3X8" role="3cqZAp">
+              <node concept="3y3z36" id="2QAMtz7Q9Z8" role="3clFbG">
+                <node concept="2OqwBi" id="2QAMtz7QbJn" role="3uHU7w">
+                  <node concept="pncrf" id="2QAMtz7QaLU" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="2QAMtz7QbWw" role="2OqNvi">
+                    <ref role="3TsBF5" to="uyb6:2QAMtz7gWUS" resolve="nrOfFilteredMatches" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2QAMtz7Q4sX" role="3uHU7B">
+                  <node concept="pncrf" id="2QAMtz7Q3X7" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="2QAMtz7Q4DQ" role="2OqNvi">
+                    <ref role="3TsBF5" to="uyb6:4ErWLKCXP6I" resolve="nrOfMatchesFound" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="2tbV4VNKVKU" role="3EZMnx">
