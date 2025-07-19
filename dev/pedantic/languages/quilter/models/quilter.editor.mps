@@ -1982,7 +1982,19 @@
       <node concept="3F0A7n" id="4ErWLKDPFkX" role="3EZMnx">
         <property role="1O74Pk" value="true" />
         <property role="1$x2rV" value="?" />
+        <ref role="1NtTu8" to="uyb6:2QAMtz7gWUS" resolve="nrOfFilteredMatches" />
+      </node>
+      <node concept="3F0ifn" id="2QAMtz7hnAn" role="3EZMnx">
+        <property role="3F0ifm" value="(filtered from" />
+      </node>
+      <node concept="3F0A7n" id="2QAMtz7hnAq" role="3EZMnx">
         <ref role="1NtTu8" to="uyb6:4ErWLKCXP6I" resolve="nrOfMatchesFound" />
+      </node>
+      <node concept="3F0ifn" id="2QAMtz7hnAt" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="2QAMtz7FdV6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="2tbV4VNKVKU" role="3EZMnx">
         <property role="3F0ifm" value="matches," />

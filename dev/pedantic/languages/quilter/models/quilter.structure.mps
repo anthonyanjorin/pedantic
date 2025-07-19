@@ -337,6 +337,11 @@
       <property role="TrG5h" value="nrOfMatchesFound" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="2QAMtz7gWUS" role="1TKVEl">
+      <property role="IQ2nx" value="3289538510733954744" />
+      <property role="TrG5h" value="nrOfFilteredMatches" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERemyQ">
     <property role="EcuMT" value="8789799326235322550" />
