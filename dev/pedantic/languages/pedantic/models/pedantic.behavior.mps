@@ -32,6 +32,8 @@
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
+    <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -7286,7 +7288,100 @@
       </node>
       <node concept="3Tm1VV" id="1nr9cct28kb" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="6P_56RZo1DT" role="jymVt" />
+    <node concept="2YIFZL" id="6P_56RZo3Q8" role="jymVt">
+      <property role="TrG5h" value="putOnClipboard" />
+      <node concept="3clFbS" id="6P_56RZo3Qb" role="3clF47">
+        <node concept="3cpWs8" id="6P_56RZo7FD" role="3cqZAp">
+          <node concept="3cpWsn" id="6P_56RZo7FE" role="3cpWs9">
+            <property role="TrG5h" value="ss" />
+            <node concept="3uibUv" id="6P_56RZo7FF" role="1tU5fm">
+              <ref role="3uigEE" to="kt01:~StringSelection" resolve="StringSelection" />
+            </node>
+            <node concept="2ShNRf" id="6P_56RZoaeJ" role="33vP2m">
+              <node concept="1pGfFk" id="6P_56RZoadH" role="2ShVmc">
+                <ref role="37wK5l" to="kt01:~StringSelection.&lt;init&gt;(java.lang.String)" resolve="StringSelection" />
+                <node concept="37vLTw" id="6P_56RZoaCt" role="37wK5m">
+                  <ref role="3cqZAo" node="6P_56RZo65h" resolve="s" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6P_56RZobTq" role="3cqZAp">
+          <node concept="3cpWsn" id="6P_56RZobTr" role="3cpWs9">
+            <property role="TrG5h" value="cp" />
+            <node concept="3uibUv" id="6P_56RZobTs" role="1tU5fm">
+              <ref role="3uigEE" to="kt01:~Clipboard" resolve="Clipboard" />
+            </node>
+            <node concept="2OqwBi" id="6P_56RZoej4" role="33vP2m">
+              <node concept="2YIFZM" id="6P_56RZodQb" role="2Oq$k0">
+                <ref role="37wK5l" to="z60i:~Toolkit.getDefaultToolkit()" resolve="getDefaultToolkit" />
+                <ref role="1Pybhc" to="z60i:~Toolkit" resolve="Toolkit" />
+              </node>
+              <node concept="liA8E" id="6P_56RZoeKd" role="2OqNvi">
+                <ref role="37wK5l" to="z60i:~Toolkit.getSystemClipboard()" resolve="getSystemClipboard" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6P_56RZofB9" role="3cqZAp">
+          <node concept="2OqwBi" id="6P_56RZofOa" role="3clFbG">
+            <node concept="37vLTw" id="6P_56RZofB7" role="2Oq$k0">
+              <ref role="3cqZAo" node="6P_56RZobTr" resolve="cp" />
+            </node>
+            <node concept="liA8E" id="6P_56RZogqJ" role="2OqNvi">
+              <ref role="37wK5l" to="kt01:~Clipboard.setContents(java.awt.datatransfer.Transferable,java.awt.datatransfer.ClipboardOwner)" resolve="setContents" />
+              <node concept="37vLTw" id="6P_56RZogSH" role="37wK5m">
+                <ref role="3cqZAo" node="6P_56RZo7FE" resolve="ss" />
+              </node>
+              <node concept="10Nm6u" id="6P_56RZohvp" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6P_56RZo2Me" role="1B3o_S" />
+      <node concept="3cqZAl" id="6P_56RZo3vA" role="3clF45" />
+      <node concept="37vLTG" id="6P_56RZo65h" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="6P_56RZo65g" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="32uEtBitbHM" role="jymVt" />
+    <node concept="2YIFZL" id="6P_56RZq9rr" role="jymVt">
+      <property role="TrG5h" value="invokeTextGen" />
+      <node concept="3clFbS" id="6P_56RZq9ru" role="3clF47">
+        <node concept="3clFbF" id="6P_56RZqbaQ" role="3cqZAp">
+          <node concept="2YIFZM" id="6P_56RZqlNf" role="3clFbG">
+            <ref role="1Pybhc" node="6dx294uuofc" resolve="PedanticUtil" />
+            <ref role="37wK5l" node="32uEtBitt4Q" resolve="invokeTextGen" />
+            <node concept="37vLTw" id="6P_56RZqcWB" role="37wK5m">
+              <ref role="3cqZAo" node="6P_56RZqagO" resolve="node" />
+            </node>
+            <node concept="2YIFZM" id="6P_56RZqeoZ" role="37wK5m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="37vLTw" id="6P_56RZscH0" role="37wK5m">
+                <ref role="3cqZAo" node="6P_56RZsad0" resolve="repo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6P_56RZq8Eq" role="1B3o_S" />
+      <node concept="17QB3L" id="6P_56RZq8JU" role="3clF45" />
+      <node concept="37vLTG" id="6P_56RZqagO" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="6P_56RZqagN" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6P_56RZsad0" role="3clF46">
+        <property role="TrG5h" value="repo" />
+        <node concept="3uibUv" id="6P_56RZsaWp" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6P_56RZq6Wb" role="jymVt" />
     <node concept="2YIFZL" id="32uEtBitt4Q" role="jymVt">
       <property role="TrG5h" value="invokeTextGen" />
       <node concept="3clFbS" id="32uEtBitt4T" role="3clF47">
