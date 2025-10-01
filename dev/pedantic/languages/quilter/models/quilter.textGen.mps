@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
@@ -185,7 +185,7 @@
                       <node concept="3clFbF" id="6P_56RZu7Y_" role="3cqZAp">
                         <node concept="2OqwBi" id="6P_56RZu8gA" role="3clFbG">
                           <node concept="37vLTw" id="6P_56RZu7Y$" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6P_56RZu7Mm" resolve="it" />
+                            <ref role="3cqZAo" node="6P_56RZu7Mm" resolve="ov" />
                           </node>
                           <node concept="3TrcHB" id="6P_56RZu8KK" role="2OqNvi">
                             <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />

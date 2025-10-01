@@ -1478,7 +1478,7 @@
     <property role="TrG5h" value="Operator" />
     <property role="R5$K7" value="true" />
     <property role="34LRSv" value="&lt;op&gt;" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5keHOqGSIDI" role="1TKVEi">
       <property role="IQ2ns" value="6129037657073969774" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1491,7 +1491,7 @@
     <property role="3GE5qa" value="patterns.attributes.values" />
     <property role="TrG5h" value="LHSExpression" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4cbEj33EH$W">
     <property role="EcuMT" value="4831141052191267132" />
@@ -1754,11 +1754,11 @@
     <property role="EcuMT" value="6129037657073969775" />
     <property role="3GE5qa" value="patterns.attributes.operators" />
     <property role="TrG5h" value="Option" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5keHOqGSIDK" role="1TKVEl">
       <property role="IQ2nx" value="6129037657073969776" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="5keHOqGSIDN" resolve="OPTION_TYPE" />
+      <ref role="AX2Wp" node="5keHOqGSIDN" resolve="OPTION_VALUE" />
     </node>
   </node>
   <node concept="25R3W" id="5keHOqGSIDN">
@@ -1774,7 +1774,7 @@
     <property role="EcuMT" value="6129037657079778490" />
     <property role="3GE5qa" value="patterns.attributes.operators" />
     <property role="TrG5h" value="Options" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5keHOqHeSMV" role="1TKVEi">
       <property role="IQ2ns" value="6129037657079778491" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1931,7 +1931,7 @@
     <property role="3GE5qa" value="patterns.common" />
     <property role="TrG5h" value="Group" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5keHOqOAJDU" role="1TKVEi">
       <property role="IQ2ns" value="6129037657203473018" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

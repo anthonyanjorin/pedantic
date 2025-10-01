@@ -628,7 +628,7 @@
                 <ref role="1YBMHb" node="4ErWLKBpU3R" resolve="childLinkAtPos" />
               </node>
               <node concept="3TrEf2" id="4ErWLKBpUrz" role="2OqNvi">
-                <ref role="3Tt5mk" to="uyb6:1ap1xRT2LlQ" />
+                <ref role="3Tt5mk" to="uyb6:1ap1xRT2LlQ" resolve="type" />
               </node>
             </node>
             <node concept="3TrcHB" id="4ErWLKBpXdW" role="2OqNvi">

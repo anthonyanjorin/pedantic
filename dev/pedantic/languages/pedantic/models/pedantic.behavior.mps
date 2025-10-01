@@ -21,16 +21,13 @@
   <imports>
     <import index="lsyl" ref="r:d58c41ef-2ace-4af3-a5dc-b2dd0237a31c(plantuml.behavior)" />
     <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="kpbf" ref="7124e466-fc92-4803-a656-d7a6b7eb3910/java:jetbrains.mps.text.impl(MPS.TextGen/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="9u6h" ref="r:0d287640-107a-4970-9e44-74565feaa86f(plantuml.structure)" />
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
@@ -5614,7 +5611,7 @@
                   <node concept="13iPFW" id="41Z0ZgFTuC7" role="1m5AlR" />
                 </node>
                 <node concept="3TrEf2" id="41Z0ZgFTtG3" role="2OqNvi">
-                  <ref role="3Tt5mk" to="3ido:4h$8nEbv_ej" />
+                  <ref role="3Tt5mk" to="3ido:4h$8nEbv_ej" resolve="target" />
                 </node>
               </node>
               <node concept="3TrcHB" id="41Z0ZgFTtG4" role="2OqNvi">
@@ -9499,7 +9496,7 @@
               <node concept="2OqwBi" id="41Z0ZgFTxvu" role="2Oq$k0">
                 <node concept="13iPFW" id="41Z0ZgFTykJ" role="2Oq$k0" />
                 <node concept="3TrEf2" id="41Z0ZgFTxvy" role="2OqNvi">
-                  <ref role="3Tt5mk" to="3ido:6TQOip_f_kI" />
+                  <ref role="3Tt5mk" to="3ido:6TQOip_f_kI" resolve="target" />
                 </node>
               </node>
               <node concept="3TrcHB" id="41Z0ZgFTxvz" role="2OqNvi">
@@ -12935,7 +12932,7 @@
               <node concept="2OqwBi" id="41Z0ZgFTvrv" role="2Oq$k0">
                 <node concept="13iPFW" id="41Z0ZgFTwt8" role="2Oq$k0" />
                 <node concept="3TrEf2" id="41Z0ZgFTvrz" role="2OqNvi">
-                  <ref role="3Tt5mk" to="3ido:4h$8nEbwca3" />
+                  <ref role="3Tt5mk" to="3ido:4h$8nEbwca3" resolve="target" />
                 </node>
               </node>
               <node concept="3TrcHB" id="41Z0ZgFTvr$" role="2OqNvi">
@@ -12973,7 +12970,7 @@
                   <node concept="2OqwBi" id="41Z0ZgFTyZk" role="3uHU7w">
                     <node concept="2OqwBi" id="41Z0ZgFTyZl" role="2Oq$k0">
                       <node concept="3TrEf2" id="41Z0ZgFTyZp" role="2OqNvi">
-                        <ref role="3Tt5mk" to="3ido:6TQOip_iuy4" />
+                        <ref role="3Tt5mk" to="3ido:6TQOip_iuy4" resolve="targetLabel" />
                       </node>
                       <node concept="13iPFW" id="41Z0ZgFT$qF" role="2Oq$k0" />
                     </node>
@@ -12996,7 +12993,7 @@
                 <node concept="2OqwBi" id="41Z0ZgFTyZw" role="2Oq$k0">
                   <node concept="13iPFW" id="41Z0ZgFT$tI" role="2Oq$k0" />
                   <node concept="3TrEf2" id="41Z0ZgFTyZ$" role="2OqNvi">
-                    <ref role="3Tt5mk" to="3ido:6TQOip_hMRu" />
+                    <ref role="3Tt5mk" to="3ido:6TQOip_hMRu" resolve="targetService" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="41Z0ZgFTyZ_" role="2OqNvi">

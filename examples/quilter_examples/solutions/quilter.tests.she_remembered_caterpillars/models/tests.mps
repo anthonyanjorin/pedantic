@@ -882,7 +882,7 @@
           <property role="3Fq0gx" value="2" />
           <property role="3eKfJL" value="4" />
           <property role="TrG5h" value="or" />
-          <ref role="3eKGHL" to="i616:6sS4Tm$85cH" resolve="AllSprites" />
+          <ref role="3eKGHL" to="i616:6sS4Tm$85cH" resolve="AllSpritesViaOR" />
           <node concept="3xLA65" id="6sS4Tm$9SHy" role="lGtFl">
             <property role="TrG5h" value="p22" />
           </node>

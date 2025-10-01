@@ -433,7 +433,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="6P_56S0up4J" role="3MwsjC">
-          <property role="3MwjfP" value="6.1.18" />
+          <property role="3MwjfP" value="7.0.0" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -447,6 +447,18 @@
       </node>
       <node concept="m$_yC" id="5Q23RPTxrEi" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
+      <node concept="m$_yC" id="y16wauNJAo" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4O0hKJpmtq1" resolve="jetbrains.mps.trove" />
+      </node>
+      <node concept="m$_yC" id="y16wauNJIf" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:1jjxZP6JyD_" resolve="jetbrains.mps.console" />
+      </node>
+      <node concept="m$_yC" id="y16wauNJQ6" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:25y4WSoTpUm" resolve="jetbrains.jetpad" />
+      </node>
+      <node concept="m$_yC" id="y16wauNJXX" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzG" role="m_cZH">
         <node concept="3Mxwew" id="5Q23RPTxrzH" role="3MwsjC">

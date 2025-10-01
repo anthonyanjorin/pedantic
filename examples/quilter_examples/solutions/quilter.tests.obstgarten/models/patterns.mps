@@ -815,7 +815,7 @@
         <ref role="3F$xdl" to="5e0r:7BVCYER1N5i" resolve="Orchard" />
         <node concept="3F$xvT" id="4ErWLK_AdRZ" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdF" to="5e0r:7BVCYER1NF0" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NF0" resolve="pathway" />
           <ref role="3F$xdr" node="4ErWLK_AdS0" resolve="pathway" />
         </node>
       </node>
@@ -826,7 +826,7 @@
           <property role="TrG5h" value="_" />
           <property role="1J5bfp" value="5" />
           <ref role="3F$xdr" node="4ErWLK_AdS2" resolve="segment" />
-          <ref role="3F$xdF" to="5e0r:7BVCYER1NFi" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NFi" resolve="segments" />
         </node>
       </node>
       <node concept="3F$xvW" id="4ErWLK_AdS2" role="3F$xvU">
@@ -902,7 +902,7 @@
         <node concept="1J5bfu" id="4ErWLKBk$AF" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <property role="1J5bfp" value="1" />
-          <ref role="3F$xdF" to="5e0r:7BVCYER1NEQ" />
+          <ref role="3F$xdF" to="5e0r:7BVCYER1NEQ" resolve="trees" />
           <ref role="3F$xdr" node="4ErWLKBk$AD" resolve="t" />
         </node>
       </node>

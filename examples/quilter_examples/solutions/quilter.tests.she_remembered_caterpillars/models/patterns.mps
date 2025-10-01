@@ -1445,7 +1445,7 @@
         <node concept="3F$xvT" id="4ErWLKwPBam" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="4ErWLKwPBak" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
         </node>
       </node>
       <node concept="3F$xvW" id="4ErWLKwPBa1" role="3F$xvU">
@@ -1454,7 +1454,7 @@
         <node concept="3F$xvT" id="4ErWLKwPBal" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdr" node="4ErWLKwPBak" resolve="platform" />
-          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
         </node>
         <node concept="2yiVuw" id="4ErWLKwPBa2" role="2yiVu7">
           <node concept="2yiVur" id="4ErWLKwPBa6" role="1FzXqS">
@@ -2339,7 +2339,7 @@
         <property role="1FSVRs" value="5" />
         <property role="1yraaM" value="4" />
         <property role="1yaAQe" value="2" />
-        <ref role="3eKGHL" node="6sS4Tm$85cH" resolve="AllBlueSprites" />
+        <ref role="3eKGHL" node="6sS4Tm$85cH" resolve="AllSpritesViaOR" />
         <node concept="3eImRP" id="2QAMtz6zlGZ" role="3eKGHR">
           <node concept="3eJ099" id="2QAMtz6zlH0" role="3eIkDU">
             <property role="3eJ09e" value="pre-match" />

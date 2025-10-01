@@ -106,7 +106,7 @@
       <node concept="3CGwiG" id="4ErWLKwPCam" role="3CGwiC">
         <property role="TrG5h" value="s6" />
         <property role="3CGxea" value="2MtiOR4bOZL/YELLOW" />
-        <ref role="3CGxfp" node="4ErWLKwPCal" resolve="p3" />
+        <ref role="3CGxfp" node="4ErWLKwPCal" resolve="p4" />
       </node>
     </node>
   </node>
