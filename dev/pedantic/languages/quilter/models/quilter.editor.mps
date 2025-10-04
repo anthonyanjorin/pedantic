@@ -1986,6 +1986,34 @@
         <property role="1$x2rV" value="?" />
         <ref role="1NtTu8" to="uyb6:2QAMtz7gWUS" resolve="nrOfFilteredMatches" />
       </node>
+      <node concept="3F0ifn" id="3rYa6KHgfrq" role="3EZMnx">
+        <property role="3F0ifm" value="of max" />
+      </node>
+      <node concept="3F0A7n" id="3rYa6KHBzFH" role="3EZMnx">
+        <property role="1$x2rV" value="∞" />
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="uyb6:7BVCYERemyw" resolve="maxNrOfMatchesToCompute" />
+        <node concept="VechU" id="3rYa6KHBzFI" role="3F10Kt">
+          <property role="Vb096" value="fLwANPp/orange" />
+        </node>
+        <node concept="1uO$qF" id="3rYa6KHBzFJ" role="3F10Kt">
+          <node concept="3nzxsE" id="3rYa6KHBzFK" role="1uO$qD">
+            <node concept="3clFbS" id="3rYa6KHBzFL" role="2VODD2">
+              <node concept="3clFbF" id="3rYa6KHBzFM" role="3cqZAp">
+                <node concept="2OqwBi" id="3rYa6KHBzFN" role="3clFbG">
+                  <node concept="pncrf" id="3rYa6KHBzFO" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3rYa6KHBzFP" role="2OqNvi">
+                    <ref role="3TsBF5" to="uyb6:3rYa6KHs034" resolve="tooManyMatches" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1wgc9g" id="3rYa6KHBzFQ" role="3XvnJa">
+            <ref role="1wgcnl" to="9sqt:47_$Po0kPgp" resolve="Forbid" />
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="2QAMtz7Q3AX" role="3EZMnx">
         <node concept="VPM3Z" id="2QAMtz7Q3AZ" role="3F10Kt" />
         <node concept="3F0ifn" id="2QAMtz7hnAn" role="3EZMnx">
@@ -2147,20 +2175,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-    </node>
-    <node concept="3EZMnI" id="4ErWLKCsciL" role="6VMZX">
-      <node concept="3F0ifn" id="4ErWLKCsciQ" role="3EZMnx">
-        <property role="3F0ifm" value="Max nr. of matches to compute:" />
-      </node>
-      <node concept="3F0A7n" id="4ErWLKCsciT" role="3EZMnx">
-        <property role="1O74Pk" value="true" />
-        <property role="1$x2rV" value="∞" />
-        <ref role="1NtTu8" to="uyb6:7BVCYERemyw" resolve="maxNrOfMatchesToCompute" />
-        <node concept="VechU" id="4ErWLKCsciV" role="3F10Kt">
-          <property role="Vb096" value="fLwANPp/orange" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="4ErWLKCsciM" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="4dr_i4479w4">
