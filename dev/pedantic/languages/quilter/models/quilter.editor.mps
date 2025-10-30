@@ -883,16 +883,6 @@
       <node concept="3F0A7n" id="41Z0Zgy_rt8" role="3EZMnx">
         <ref role="1NtTu8" to="uyb6:41Z0Zgy_rt7" resolve="excludeFromResults" />
       </node>
-      <node concept="3F0ifn" id="5keHOqFaQkI" role="3EZMnx">
-        <property role="3F0ifm" value="mark matches:" />
-        <ref role="1k5W1q" to="9sqt:5B3sq7DIjTW" resolve="Header" />
-        <node concept="pVoyu" id="5keHOqFaQl0" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="5keHOqFaQkJ" role="3EZMnx">
-        <ref role="1NtTu8" to="uyb6:5keHOqFaQkP" resolve="markMatchesAs" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7BVCYERgGSy">

@@ -182,7 +182,7 @@
       <node concept="3clFbS" id="7BkFVkOiEmI" role="2VODD2">
         <node concept="3cpWs6" id="7BkFVkOiEBT" role="3cqZAp">
           <node concept="Xl_RD" id="7BkFVkOiESa" role="3cqZAk">
-            <property role="Xl_RC" value="Export Matches as a CSV Table" />
+            <property role="Xl_RC" value="Export Matches as a CSV Table to Clipboard" />
           </node>
         </node>
       </node>
