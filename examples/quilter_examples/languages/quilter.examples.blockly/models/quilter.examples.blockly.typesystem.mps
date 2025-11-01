@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:daa4eab2-729e-4337-b8d5-5ad1d1604f0f(quilter.examples.blockly.typesystem)">
+<model ref="r:daa4eab2-729e-4337-b8d5-5ad1d1604f0f(Blockly.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />

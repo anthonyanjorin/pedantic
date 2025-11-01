@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:15e372ad-92bf-4a5b-9dc4-eae7c84f713d(quilter.examples.blockly.constraints)">
+<model ref="r:15e372ad-92bf-4a5b-9dc4-eae7c84f713d(Blockly.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

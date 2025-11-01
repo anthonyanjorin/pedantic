@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b21957f5-ddd9-4741-895c-2541c29c0eef(quilter.examples.blockly.intentions)">
+<model ref="r:b21957f5-ddd9-4741-895c-2541c29c0eef(Blockly.intentions)">
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />

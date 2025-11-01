@@ -147,7 +147,7 @@
     <node concept="1TJgyj" id="1ap1xRT2Ll8" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921504584" />
       <property role="20kJfa" value="type" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="PrWs8" id="7BVCYEQEEox" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -462,7 +462,7 @@
       <property role="IQ2ns" value="8789799326243279585" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKu">
@@ -589,7 +589,7 @@
       <property role="IQ2ns" value="4995516962153213357" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="1TJgyj" id="7BVCYERWzcu" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247432990" />
@@ -607,7 +607,7 @@
       <property role="IQ2ns" value="4995516962152074198" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="1TJgyj" id="7BVCYERWzct" role="1TKVEi">
       <property role="IQ2ns" value="8789799326247432989" />
