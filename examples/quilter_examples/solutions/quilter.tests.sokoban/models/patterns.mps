@@ -122,11 +122,13 @@
         <child id="2831616614568180359" name="target" index="3k9tr9" />
       </concept>
       <concept id="1340109089921503716" name="quilter.structure.Link" flags="ng" index="3F$xvT">
+        <property id="3193225783689214776" name="presence" index="2wemrm" />
         <reference id="1340109089921504582" name="targetObject" index="3F$xdr" />
         <reference id="1340109089921504630" name="type" index="3F$xdF" />
       </concept>
       <concept id="1340109089921503713" name="quilter.structure.Object" flags="ng" index="3F$xvW">
         <property id="3193225783697074137" name="presence" index="2wGnCR" />
+        <property id="2198366472015307361" name="partOfSubpattern" index="2O6Wz9" />
         <reference id="1340109089921504584" name="type" index="3F$xdl" />
         <child id="3193225783717603945" name="attributeExps" index="2yiVu7" />
         <child id="1340109089921503721" name="links" index="3F$xvO" />
@@ -788,6 +790,51 @@
         <property role="TrG5h" value="box" />
         <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
         <ref role="3F$xdl" to="icb1:2MtiOR1VKWz" resolve="Box" />
+      </node>
+    </node>
+    <node concept="3F$ThX" id="1U2aEyELhfC" role="3F$ThY">
+      <property role="TrG5h" value="Foo" />
+      <node concept="3F$xvW" id="1U2aEyELhgj" role="3F$xvU">
+        <property role="TrG5h" value="_" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <property role="2O6Wz9" value="1" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+      </node>
+      <node concept="3F$xvW" id="1U2aEyELhfE" role="3F$xvU">
+        <property role="TrG5h" value="p" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="1U2aEyF3wz5" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <property role="2wemrm" value="2LgBuUcqvH1/FORBIDDEN" />
+          <ref role="3F$xdr" node="1U2aEyF3wyu" resolve="d" />
+          <ref role="3F$xdF" to="icb1:2MtiOR1WLSR" resolve="down" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="1U2aEyELhfF" role="3F$xvU">
+        <property role="TrG5h" value="b" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <property role="2O6Wz9" value="2" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+      </node>
+      <node concept="3F$xvW" id="1U2aEyF3wyk" role="3F$xvU">
+        <property role="TrG5h" value="c" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <property role="2O6Wz9" value="2" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+        <node concept="3F$xvT" id="1U2aEyF3wzu" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="1U2aEyELhfF" resolve="b" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="1U2aEyF3wyu" role="3F$xvU">
+        <property role="TrG5h" value="d" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
+      </node>
+      <node concept="3F$xvW" id="1U2aEyF3wyv" role="3F$xvU">
+        <property role="TrG5h" value="e" />
+        <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <property role="2O6Wz9" value="1" />
+        <ref role="3F$xdl" to="icb1:2MtiOR1UY8V" resolve="Cell" />
       </node>
     </node>
     <node concept="3eKGHH" id="4ErWLKCBOS5" role="3F$ThY">

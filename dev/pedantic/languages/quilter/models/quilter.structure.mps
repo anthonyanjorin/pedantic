@@ -123,6 +123,11 @@
       <property role="TrG5h" value="excludeFromInjectivityCheck" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="1U2aEyEAu9x" role="1TKVEl">
+      <property role="IQ2nx" value="2198366472015307361" />
+      <property role="TrG5h" value="partOfSubpattern" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyj" id="1ap1xRT2L7D" role="1TKVEi">
       <property role="IQ2ns" value="1340109089921503721" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -180,6 +185,11 @@
       <property role="IQ2nx" value="3193225783689214776" />
       <property role="TrG5h" value="presence" />
       <ref role="AX2Wp" node="2LgBuUcqvGZ" resolve="PRESENCE" />
+    </node>
+    <node concept="1TJgyi" id="1U2aEyEAu9_" role="1TKVEl">
+      <property role="IQ2nx" value="2198366472015307365" />
+      <property role="TrG5h" value="partOfSubpattern" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYEQ_JC$">
