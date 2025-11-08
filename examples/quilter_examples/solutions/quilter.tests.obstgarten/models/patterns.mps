@@ -53,6 +53,7 @@
       </concept>
       <concept id="1340109089921503713" name="quilter.structure.Object" flags="ng" index="3F$xvW">
         <property id="3193225783697074137" name="presence" index="2wGnCR" />
+        <property id="2198366472015307361" name="partOfSubpattern" index="2O6Wz9" />
         <reference id="1340109089921504584" name="type" index="3F$xdl" />
         <child id="3193225783717603945" name="attributeExps" index="2yiVu7" />
         <child id="1340109089921503721" name="links" index="3F$xvO" />
@@ -587,6 +588,7 @@
       <node concept="3F$xvW" id="5FhyU6q_FaE" role="3F$xvU">
         <property role="TrG5h" value="basket" />
         <property role="2wGnCR" value="2LgBuUcqvH1/FORBIDDEN" />
+        <property role="2O6Wz9" value="1" />
         <ref role="3F$xdl" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
       </node>
     </node>
