@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8e8acd99-b177-4463-81b4-6b0154da2dfb(quilter.examples.momo.editor)">
+<model ref="r:8e8acd99-b177-4463-81b4-6b0154da2dfb(momo.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
@@ -7,7 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="zom" ref="r:90457d4b-77da-442e-b4c8-21ea58603c29(quilter.examples.momo.structure)" />
+    <import index="zom" ref="r:90457d4b-77da-442e-b4c8-21ea58603c29(momo.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>

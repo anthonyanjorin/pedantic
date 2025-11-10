@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6f85731c-3a87-4bbb-a726-68924ef3b57c(quilter.examples.blockly.colours)">
+<model ref="r:6f85731c-3a87-4bbb-a726-68924ef3b57c(Blockly.colours)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="true" />
   <languages>
-    <use id="3753242a-9870-48a1-8400-8b7ef1608341" name="Blockly" version="0" />
+    <use id="3753242a-9870-48a1-8400-8b7ef1608341" name="quilter.examples.blockly" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports />
   <registry>
-    <language id="3753242a-9870-48a1-8400-8b7ef1608341" name="Blockly">
+    <language id="3753242a-9870-48a1-8400-8b7ef1608341" name="quilter.examples.blockly">
       <concept id="1137363966663575375" name="Blockly.structure.Colour" flags="ng" index="1yxRRf">
         <property id="1137363966663824392" name="R" index="1yAMU8" />
         <property id="1137363966663824433" name="G" index="1yAMUL" />

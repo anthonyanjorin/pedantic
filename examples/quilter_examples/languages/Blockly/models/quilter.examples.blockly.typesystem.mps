@@ -6,8 +6,8 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(quilter.examples.blockly.structure)" />
-    <import index="rh1t" ref="r:2e1923cd-c25d-40c6-9a1b-389908db8583(quilter.examples.blockly.behavior)" implicit="true" />
+    <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure)" />
+    <import index="rh1t" ref="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>

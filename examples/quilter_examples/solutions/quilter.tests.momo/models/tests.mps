@@ -9,7 +9,7 @@
   </languages>
   <imports>
     <import index="gj67" ref="r:edf1640e-8344-4fe5-bb1a-aae62edf5602(patterns)" />
-    <import index="zom" ref="r:90457d4b-77da-442e-b4c8-21ea58603c29(quilter.examples.momo.structure)" />
+    <import index="zom" ref="r:90457d4b-77da-442e-b4c8-21ea58603c29(momo.structure)" />
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
     <import index="rrta" ref="r:9811f75d-802a-4c5b-ba73-609aeb8a7e12(models)" />
   </imports>
@@ -1623,10 +1623,10 @@
                     <ref role="3eB4Im" to="rrta:5keHOqMaBbq" />
                   </node>
                   <node concept="3eImVg" id="1U2aEyE4_li" role="3eImRb">
-                    <ref role="3eB4Im" to="rrta:5keHOqMaBbd" resolve="5.2" />
+                    <ref role="3eB4Im" to="rrta:5keHOqMaBbd" />
                   </node>
                   <node concept="3eImVg" id="1U2aEyE4_lj" role="3eImRb">
-                    <ref role="3eB4Im" to="rrta:5keHOqMaBbu" resolve="Verfügung" />
+                    <ref role="3eB4Im" to="rrta:5keHOqMaBbu" />
                   </node>
                   <node concept="3eJ099" id="1U2aEyE4_lk" role="3eIkDU">
                     <property role="3eJ09e" value="m_0" />
@@ -2008,7 +2008,7 @@
                     <ref role="3eB4Im" to="rrta:5keHOqMd40S" />
                   </node>
                   <node concept="3eImVg" id="1U2aEyE4BS9" role="3eImRb">
-                    <ref role="3eB4Im" to="rrta:5keHOqMaBbu" resolve="Verfügung" />
+                    <ref role="3eB4Im" to="rrta:5keHOqMaBbu" />
                   </node>
                   <node concept="3eJ099" id="1U2aEyE4BSa" role="3eIkDU">
                     <property role="3eJ09e" value="m_0" />
@@ -3743,7 +3743,7 @@
                     <ref role="3eB4Im" to="rrta:5keHOqMd40C" />
                   </node>
                   <node concept="3eImVg" id="1U2aEyE4SIz" role="3eImRb">
-                    <ref role="3eB4Im" to="rrta:5keHOqM9c1G" resolve="Erdkunde" />
+                    <ref role="3eB4Im" to="rrta:5keHOqM9c1G" />
                   </node>
                   <node concept="3eJ099" id="1U2aEyE4SI$" role="3eIkDU">
                     <property role="3eJ09e" value="m_0" />

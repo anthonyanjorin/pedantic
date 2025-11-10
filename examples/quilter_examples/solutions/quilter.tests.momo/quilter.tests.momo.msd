@@ -11,7 +11,7 @@
     </facet>
   </facets>
   <dependencies>
-    <dependency reexport="false">bebb3725-1fda-4e3a-88bb-49e22757d9a8(quilter.examples.momo)</dependency>
+    <dependency reexport="false">bebb3725-1fda-4e3a-88bb-49e22757d9a8(momo)</dependency>
     <dependency reexport="false">cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)</dependency>
   </dependencies>
   <languageVersions>
@@ -36,10 +36,10 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="bebb3725-1fda-4e3a-88bb-49e22757d9a8(momo)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
     <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
-    <module reference="bebb3725-1fda-4e3a-88bb-49e22757d9a8(quilter.examples.momo)" version="0" />
     <module reference="397c5378-edf1-4242-9e3e-4a93cfcb3ce9(quilter.tests.momo)" version="0" />
   </dependencyVersions>
 </solution>
