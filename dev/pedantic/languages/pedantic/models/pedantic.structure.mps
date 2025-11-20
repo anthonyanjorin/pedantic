@@ -419,9 +419,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2WTnVpOR0CK" resolve="BehaviouralDiagram" />
     </node>
-    <node concept="PrWs8" id="w9Ng_TpM6q" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="PrWs8" id="6TQOip$1HmH" role="PzmwI">
       <ref role="PrY4T" to="9u6h:6TQOipx4Tbo" resolve="PedanticSearchIndexElement" />
     </node>
@@ -1127,9 +1124,6 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collaboration" />
       <ref role="20lvS9" node="5IIk38kX7Md" resolve="Collaboration" />
-    </node>
-    <node concept="PrWs8" id="5IIk38kX7M1" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="5IIk38lWZmK" role="PzmwI">
       <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />

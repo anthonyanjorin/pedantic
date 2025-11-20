@@ -5,7 +5,7 @@
     <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
   </languages>
   <imports>
-    <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(quilter.examples.blockly.structure)" />
+    <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure)" />
     <import index="c8ah" ref="r:958b17ec-3350-4fb7-9da2-9daaa865b108(models)" />
   </imports>
   <registry>

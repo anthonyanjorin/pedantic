@@ -11,7 +11,7 @@
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
     <import index="cyb5" ref="r:87ef7415-e5ec-44be-8b87-2fe38e233cf9(patterns)" />
     <import index="c8ah" ref="r:958b17ec-3350-4fb7-9da2-9daaa865b108(models)" />
-    <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(quilter.examples.blockly.structure)" />
+    <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
