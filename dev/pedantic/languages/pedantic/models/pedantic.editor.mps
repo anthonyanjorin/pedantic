@@ -5,6 +5,7 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips" version="0" />
+    <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -12,6 +13,8 @@
     <import index="475o" ref="r:2170b42c-b000-4bd7-a2c2-c5cf5fe74d08(jetbrains.mps.ide.tooltips)" />
     <import index="lsyl" ref="r:d58c41ef-2ace-4af3-a5dc-b2dd0237a31c(plantuml.behavior)" />
     <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
+    <import index="n3wi" ref="r:86ce5303-096b-481a-b577-1636d0ef54ad(jetbrains.mps.lang.editor.table.behavior)" />
+    <import index="squ6" ref="r:b60215f1-3d3e-41cc-8321-723ef8eb59dd(jetbrains.mps.lang.editor.table.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -231,6 +234,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table">
+      <concept id="2253133157536766818" name="jetbrains.mps.lang.editor.table.structure.CellModel_HierarchycalTable" flags="ng" index="1hTEv9">
+        <reference id="6216065619544939795" name="cellsInRowLinkDeclaration" index="1BfnIG" />
+        <reference id="6216065619544939794" name="rowsLinkDeclaration" index="1BfnIH" />
+        <reference id="6216065619544939793" name="headerRowLinkDeclaration" index="1BfnII" />
       </concept>
     </language>
     <language id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips">
@@ -659,6 +669,23 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="lj46D" id="1BEYxja6vDq" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="6FrzTwUlTro" role="3EZMnx">
+          <node concept="lj46D" id="6FrzTwUlTrt" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="6FrzTwUlTrr" role="3EZMnx">
+          <ref role="1NtTu8" to="3ido:6FrzTwUlTri" resolve="table" />
+          <node concept="pVoyu" id="6FrzTwUlTru" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="6FrzTwUlTrv" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="ljvvj" id="6FrzTwUlTrw" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -2859,6 +2886,30 @@
         <node concept="l2Vlx" id="4ErWLK$HCEC" role="2iSdaV" />
         <node concept="VPM3Z" id="4ErWLK$HCED" role="3F10Kt" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6FrzTwUlTrD">
+    <property role="3GE5qa" value="Table" />
+    <ref role="1XX52x" to="3ido:6FrzTwUlTrj" resolve="Table" />
+    <node concept="1hTEv9" id="6FrzTwV7LF8" role="2wV5jI">
+      <ref role="1BfnIH" to="3ido:6FrzTwUlTry" resolve="rows" />
+      <ref role="1BfnIG" to="3ido:6FrzTwUlTrz" resolve="cells" />
+      <ref role="1BfnII" to="3ido:6FrzTwV7LFa" resolve="headers" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6FrzTwV2Ql4">
+    <property role="3GE5qa" value="Table" />
+    <ref role="1XX52x" to="3ido:6FrzTwUucM6" resolve="Cell" />
+    <node concept="3F1sOY" id="6FrzTwVb4B7" role="2wV5jI">
+      <ref role="1NtTu8" to="3ido:6FrzTwVb4mn" resolve="content" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6FrzTwVb4Bb">
+    <property role="3GE5qa" value="Table" />
+    <ref role="1XX52x" to="3ido:6FrzTwVb4B9" resolve="Header" />
+    <node concept="3F0A7n" id="6FrzTwVb4Bd" role="2wV5jI">
+      <ref role="1NtTu8" to="3ido:6FrzTwVb4Ba" resolve="content" />
+      <ref role="1k5W1q" node="5B3sq7DIjTW" resolve="Header" />
     </node>
   </node>
 </model>

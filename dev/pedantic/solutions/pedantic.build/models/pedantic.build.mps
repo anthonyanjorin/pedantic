@@ -433,7 +433,7 @@
       </node>
       <node concept="3_J27D" id="5Q23RPTxrzC" role="m$_w8">
         <node concept="3Mxwew" id="6P_56S0up4J" role="3MwsjC">
-          <property role="3MwjfP" value="7.0.9" />
+          <property role="3MwjfP" value="7.0.10" />
         </node>
       </node>
       <node concept="m$f5U" id="5Q23RPTxrzE" role="m$_yh">
@@ -591,6 +591,16 @@
         <node concept="1SiIV0" id="32uEtBiJD72" role="3bR37C">
           <node concept="3bR9La" id="32uEtBiJD73" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6FrzTwVhz4_" role="3bR37C">
+          <node concept="3bR9La" id="6FrzTwVhz4A" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L5j" resolve="jetbrains.mps.lang.editor.table.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6FrzTwVhz4B" role="3bR37C">
+          <node concept="3bR9La" id="6FrzTwVhz4C" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7lusBUs9EO5" resolve="jetbrains.mps.lang.editor.table" />
           </node>
         </node>
       </node>
