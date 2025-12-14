@@ -686,7 +686,7 @@
         </node>
         <node concept="3F1sOY" id="1BEYxja3R_y" role="3EZMnx">
           <property role="39s7Ar" value="true" />
-          <property role="1$x2rV" value="no detailed description" />
+          <property role="1$x2rV" value="&lt;no detailed description&gt;" />
           <ref role="1NtTu8" to="3ido:1BEYxja3R$m" resolve="detailedDescription" />
           <node concept="ljvvj" id="1BEYxja3R_U" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -2957,34 +2957,43 @@
     </node>
   </node>
   <node concept="24kQdi" id="6FrzTwUlTrD">
-    <property role="3GE5qa" value="Table" />
+    <property role="3GE5qa" value="Reports.Table" />
     <ref role="1XX52x" to="3ido:6FrzTwUlTrj" resolve="Table" />
-    <node concept="1CiYdB" id="6FrzTwVBrZK" role="2wV5jI">
-      <node concept="2XI2dN" id="6FrzTwVBrZM" role="2XI0mt">
-        <node concept="3clFbS" id="6FrzTwVBrZO" role="2VODD2">
-          <node concept="3clFbF" id="6FrzTwVBsrD" role="3cqZAp">
-            <node concept="2ShNRf" id="6FrzTwVBsrB" role="3clFbG">
-              <node concept="1pGfFk" id="6FrzTwVBs$W" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="squ6:4jf2BbgoQYg" resolve="HierarchycalTableModel" />
-                <node concept="pncrf" id="6FrzTwVBs_1" role="37wK5m" />
-                <node concept="359W_D" id="6FrzTwVBsFT" role="37wK5m">
-                  <ref role="359W_E" to="3ido:6FrzTwUlTrj" resolve="Table" />
-                  <ref role="359W_F" to="3ido:6FrzTwUlTry" resolve="rows" />
-                </node>
-                <node concept="359W_D" id="6FrzTwVBtwV" role="37wK5m">
-                  <ref role="359W_E" to="3ido:6FrzTwUlTrx" resolve="Row" />
-                  <ref role="359W_F" to="3ido:6FrzTwUlTrz" resolve="cells" />
+    <node concept="3EZMnI" id="6$sKA2bgpPR" role="2wV5jI">
+      <node concept="l2Vlx" id="6$sKA2bgpPS" role="2iSdaV" />
+      <node concept="1CiYdB" id="6FrzTwVBrZK" role="3EZMnx">
+        <node concept="2XI2dN" id="6FrzTwVBrZM" role="2XI0mt">
+          <node concept="3clFbS" id="6FrzTwVBrZO" role="2VODD2">
+            <node concept="3clFbF" id="6FrzTwVBsrD" role="3cqZAp">
+              <node concept="2ShNRf" id="6FrzTwVBsrB" role="3clFbG">
+                <node concept="1pGfFk" id="6FrzTwVBs$W" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="squ6:4jf2BbgoQYg" resolve="HierarchycalTableModel" />
+                  <node concept="pncrf" id="6FrzTwVBs_1" role="37wK5m" />
+                  <node concept="359W_D" id="6FrzTwVBsFT" role="37wK5m">
+                    <ref role="359W_E" to="3ido:6FrzTwUlTrj" resolve="Table" />
+                    <ref role="359W_F" to="3ido:6FrzTwUlTry" resolve="rows" />
+                  </node>
+                  <node concept="359W_D" id="6FrzTwVBtwV" role="37wK5m">
+                    <ref role="359W_E" to="3ido:6FrzTwUlTrx" resolve="Row" />
+                    <ref role="359W_F" to="3ido:6FrzTwUlTrz" resolve="cells" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="6$sKA2bgpXE" role="3EZMnx">
+        <property role="3F0ifm" value="▪" />
+        <node concept="pVoyu" id="6$sKA2bgpXF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6FrzTwV2Ql4">
-    <property role="3GE5qa" value="Table" />
+    <property role="3GE5qa" value="Reports.Table" />
     <ref role="1XX52x" to="3ido:6FrzTwUucM6" resolve="Cell" />
     <node concept="3F1sOY" id="6FrzTwVb4B7" role="2wV5jI">
       <ref role="1NtTu8" to="3ido:6FrzTwVb4mn" resolve="content" />

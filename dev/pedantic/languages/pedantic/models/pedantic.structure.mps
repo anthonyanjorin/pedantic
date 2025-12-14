@@ -1332,9 +1332,10 @@
   </node>
   <node concept="1TIwiD" id="6FrzTwUlTrj">
     <property role="EcuMT" value="7699905871896614611" />
-    <property role="3GE5qa" value="Table" />
+    <property role="3GE5qa" value="Reports.Table" />
     <property role="TrG5h" value="Table" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="34LRSv" value="table" />
+    <ref role="1TJDcQ" node="6dx294u700r" resolve="ReportItem" />
     <node concept="1TJgyj" id="6FrzTwUlTry" role="1TKVEi">
       <property role="IQ2ns" value="7699905871896614626" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1345,7 +1346,7 @@
   </node>
   <node concept="1TIwiD" id="6FrzTwUlTrx">
     <property role="EcuMT" value="7699905871896614625" />
-    <property role="3GE5qa" value="Table" />
+    <property role="3GE5qa" value="Reports.Table" />
     <property role="TrG5h" value="Row" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6FrzTwUlTrz" role="1TKVEi">
@@ -1358,7 +1359,7 @@
   </node>
   <node concept="1TIwiD" id="6FrzTwUucM6">
     <property role="EcuMT" value="7699905871898791046" />
-    <property role="3GE5qa" value="Table" />
+    <property role="3GE5qa" value="Reports.Table" />
     <property role="TrG5h" value="Cell" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6FrzTwVb4mn" role="1TKVEi">
