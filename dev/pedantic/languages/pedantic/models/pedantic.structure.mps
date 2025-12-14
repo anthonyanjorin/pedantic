@@ -1368,17 +1368,6 @@
       <ref role="20lvS9" node="4h$8nEbv$Zc" resolve="Description" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6FrzTwVb4B9">
-    <property role="EcuMT" value="7699905871910554057" />
-    <property role="3GE5qa" value="Table" />
-    <property role="TrG5h" value="Header" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6FrzTwVb4Ba" role="1TKVEl">
-      <property role="IQ2nx" value="7699905871910554058" />
-      <property role="TrG5h" value="content" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6FrzTwVEOkV">
     <property role="EcuMT" value="7699905871918875963" />
     <property role="3GE5qa" value="Reports" />
