@@ -149,13 +149,13 @@
     </language>
   </registry>
   <node concept="18kY7G" id="5FhyU6q_Qem">
-    <property role="TrG5h" value="NegativeLinks" />
+    <property role="TrG5h" value="ChecksForLinks" />
     <node concept="3clFbS" id="5FhyU6q_Qen" role="18ibNy">
       <node concept="3clFbJ" id="5FhyU6qAyrs" role="3cqZAp">
         <node concept="3clFbS" id="5FhyU6qAyru" role="3clFbx">
           <node concept="2MkqsV" id="5FhyU6qAGSI" role="3cqZAp">
             <node concept="Xl_RD" id="5FhyU6qAGSU" role="2MkJ7o">
-              <property role="Xl_RC" value="Links incident to forbidden objects cannot be forbidden." />
+              <property role="Xl_RC" value="The presence condition for this link is already fixed by its connected objects and cannot be set explicitly." />
             </node>
             <node concept="1YBJjd" id="5FhyU6qAGVA" role="1urrMF">
               <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
@@ -175,7 +175,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="5FhyU6qAGRh" role="2OqNvi">
-                  <ref role="37wK5l" to="w8cd:2LgBuUcWZ99" resolve="isForbidden" />
+                  <ref role="37wK5l" to="w8cd:3_uH1jFerxz" resolve="isNotRequired" />
                 </node>
               </node>
               <node concept="2OqwBi" id="5FhyU6qABqZ" role="3uHU7B">
@@ -188,7 +188,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="5FhyU6qABVj" role="2OqNvi">
-                  <ref role="37wK5l" to="w8cd:2LgBuUcWZ99" resolve="isForbidden" />
+                  <ref role="37wK5l" to="w8cd:3_uH1jFerxz" resolve="isNotRequired" />
                 </node>
               </node>
             </node>
@@ -198,7 +198,7 @@
               <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
             </node>
             <node concept="2qgKlT" id="5FhyU6qAz8P" role="2OqNvi">
-              <ref role="37wK5l" to="w8cd:2LgBuUcy1TK" resolve="isForbidden" />
+              <ref role="37wK5l" to="w8cd:3_uH1jFeoho" resolve="isNotRequired" />
             </node>
           </node>
         </node>
@@ -253,7 +253,7 @@
                 <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
               </node>
               <node concept="2qgKlT" id="1U2aEyF3_TW" role="2OqNvi">
-                <ref role="37wK5l" to="w8cd:2LgBuUcy1TK" resolve="isForbidden" />
+                <ref role="37wK5l" to="w8cd:3_uH1jD$KNv" resolve="isForbidden" />
               </node>
             </node>
           </node>
@@ -282,6 +282,93 @@
               </node>
               <node concept="2qgKlT" id="1U2aEyF3$H0" role="2OqNvi">
                 <ref role="37wK5l" to="w8cd:2LgBuUcWZ99" resolve="isForbidden" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3_uH1jFia4x" role="3cqZAp">
+        <node concept="3clFbS" id="3_uH1jFia4z" role="3clFbx">
+          <node concept="2MkqsV" id="3_uH1jFikO$" role="3cqZAp">
+            <node concept="Xl_RD" id="3_uH1jFikOK" role="2MkJ7o">
+              <property role="Xl_RC" value="This link has conflicting presence conditions implied by its connected objects." />
+            </node>
+            <node concept="1YBJjd" id="3_uH1jFikQA" role="1urrMF">
+              <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="3_uH1jFihg5" role="3clFbw">
+          <node concept="17QLQc" id="3_uH1jFijqe" role="3uHU7w">
+            <node concept="2OqwBi" id="3_uH1jFiknG" role="3uHU7w">
+              <node concept="2OqwBi" id="3_uH1jFijKr" role="2Oq$k0">
+                <node concept="1YBJjd" id="3_uH1jFijv$" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
+                </node>
+                <node concept="3TrEf2" id="3_uH1jFik5n" role="2OqNvi">
+                  <ref role="3Tt5mk" to="uyb6:1ap1xRT2Ll6" resolve="targetObject" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3_uH1jFikIJ" role="2OqNvi">
+                <ref role="3TsBF5" to="uyb6:2LgBuUcSuvp" resolve="presence" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3_uH1jFiirz" role="3uHU7B">
+              <node concept="2OqwBi" id="3_uH1jFihyb" role="2Oq$k0">
+                <node concept="1YBJjd" id="3_uH1jFihld" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
+                </node>
+                <node concept="2qgKlT" id="3_uH1jFii2d" role="2OqNvi">
+                  <ref role="37wK5l" to="w8cd:7BVCYEQyS1Z" resolve="getContainingObject" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3_uH1jFiiW4" role="2OqNvi">
+                <ref role="3TsBF5" to="uyb6:2LgBuUcSuvp" resolve="presence" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="3_uH1jFif6v" role="3uHU7B">
+            <node concept="1Wc70l" id="3_uH1jFicgn" role="3uHU7B">
+              <node concept="2OqwBi" id="3_uH1jFiaK7" role="3uHU7B">
+                <node concept="2OqwBi" id="3_uH1jFiaij" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3_uH1jFia7p" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
+                  </node>
+                  <node concept="3TrcHB" id="3_uH1jFiayB" role="2OqNvi">
+                    <ref role="3TsBF5" to="uyb6:2LgBuUcqvGS" resolve="presence" />
+                  </node>
+                </node>
+                <node concept="21noJN" id="3_uH1jFib6$" role="2OqNvi">
+                  <node concept="21nZrQ" id="3_uH1jFib6A" role="21noJM">
+                    <ref role="21nZrZ" to="uyb6:2LgBuUcqvH0" resolve="REQUIRED" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3_uH1jFidwz" role="3uHU7w">
+                <node concept="2OqwBi" id="3_uH1jFicBc" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3_uH1jFicoR" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
+                  </node>
+                  <node concept="2qgKlT" id="3_uH1jFidgz" role="2OqNvi">
+                    <ref role="37wK5l" to="w8cd:7BVCYEQyS1Z" resolve="getContainingObject" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3_uH1jFidZ2" role="2OqNvi">
+                  <ref role="37wK5l" to="w8cd:3_uH1jFerxz" resolve="isNotRequired" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3_uH1jFifW$" role="3uHU7w">
+              <node concept="2OqwBi" id="3_uH1jFifnJ" role="2Oq$k0">
+                <node concept="1YBJjd" id="3_uH1jFifb8" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5FhyU6q_Qep" resolve="link" />
+                </node>
+                <node concept="3TrEf2" id="3_uH1jFifIv" role="2OqNvi">
+                  <ref role="3Tt5mk" to="uyb6:1ap1xRT2Ll6" resolve="targetObject" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="3_uH1jFigvd" role="2OqNvi">
+                <ref role="37wK5l" to="w8cd:3_uH1jFerxz" resolve="isNotRequired" />
               </node>
             </node>
           </node>
