@@ -4,9 +4,11 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/pedantic/pedantic.mpl" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/languages/plantuml/plantuml.mpl" folder="plantuml" />
+      <modulePath path="$PROJECT_DIR$/languages/quilter.examples.gsm/quilter.examples.gsm.mpl" folder="quilter.examples.gsm" />
       <modulePath path="$PROJECT_DIR$/languages/quilter/quilter.mpl" folder="quilter" />
       <modulePath path="$PROJECT_DIR$/solutions/pedantic.build/pedantic.build.msd" folder="pedantic" />
       <modulePath path="$PROJECT_DIR$/solutions/plantuml.plugin/plantuml.plugin.msd" folder="plantuml" />
+      <modulePath path="$PROJECT_DIR$/solutions/quilter.tests.gsm/quilter.tests.gsm.msd" folder="quilter.examples.gsm" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/Blockly/Blockly.mpl" folder="quilter.examples.blockly" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/momo/momo.mpl" folder="quilter.examples.momo" />
       <modulePath path="$PROJECT_DIR$/../../examples/quilter_examples/languages/quilter.examples.obstgarten/quilter.examples.obstgarten.mpl" folder="quilter.examples.obstgarten" />
