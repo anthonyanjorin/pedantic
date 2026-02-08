@@ -32,7 +32,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:1ef906aa-9948-4d71-9acf-933538b34ecf:pedantic" version="0" />
     <language slang="l:e8c53fb6-e3d1-45b8-804f-056de67b4715:plantuml" version="0" />
-    <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="0" />
+    <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="2" />
     <language slang="l:23bffebc-40de-4bc8-b1f3-5a57b8f9a8ff:quilter.examples.she_remembered_caterpillars" version="0" />
   </languageVersions>
   <dependencyVersions>
@@ -43,7 +43,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
-    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
+    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="2" />
     <module reference="23bffebc-40de-4bc8-b1f3-5a57b8f9a8ff(quilter.examples.she_remembered_caterpillars)" version="0" />
     <module reference="bb46d900-34e4-4011-9e80-9bcfe33a3d22(quilter.tests.she_remembered_caterpillars)" version="0" />
   </dependencyVersions>

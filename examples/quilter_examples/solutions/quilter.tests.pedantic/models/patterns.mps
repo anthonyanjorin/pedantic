@@ -2,7 +2,7 @@
 <model ref="r:36a5b9dd-3672-4a23-bce4-67bb45495247(patterns)">
   <persistence version="9" />
   <languages>
-    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
+    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
     <use id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>

@@ -28,7 +28,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:1ef906aa-9948-4d71-9acf-933538b34ecf:pedantic" version="0" />
     <language slang="l:e8c53fb6-e3d1-45b8-804f-056de67b4715:plantuml" version="0" />
-    <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="0" />
+    <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="2" />
     <language slang="l:eb48e5cf-d0b2-490e-8476-59bf381918fd:quilter.examples.obstgarten" version="0" />
   </languageVersions>
   <dependencyVersions>
@@ -42,7 +42,7 @@
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
-    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
+    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="2" />
     <module reference="eb48e5cf-d0b2-490e-8476-59bf381918fd(quilter.examples.obstgarten)" version="0" />
     <module reference="53e1c0a8-5412-487f-aa6e-5362285d690e(quilter.tests.obstgarten)" version="0" />
   </dependencyVersions>

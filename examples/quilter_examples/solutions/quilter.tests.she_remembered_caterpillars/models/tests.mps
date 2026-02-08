@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
-    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
+    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -68,6 +68,10 @@
       </concept>
     </language>
     <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
+      <concept id="7655601595070850557" name="quilter.structure.PatternInvocation" flags="ng" index="2q8CNF">
+        <child id="7655601595070850561" name="invokedPattern" index="2q8CWn" />
+        <child id="7655601595070850597" name="invocationBindings" index="2q8CWN" />
+      </concept>
       <concept id="3193225783717603956" name="quilter.structure.Equals" flags="ng" index="2yiVuq" />
       <concept id="3193225783717603957" name="quilter.structure.AccessViaThis" flags="ng" index="2yiVur">
         <reference id="3193225783722929657" name="attribute" index="2yff0n" />
@@ -118,10 +122,7 @@
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
       </concept>
-      <concept id="4853636992440280725" name="quilter.structure.NegativePatternInvocation" flags="ng" index="10gFeO">
-        <child id="4853636992440522903" name="invocationBindings" index="10hOQQ" />
-        <child id="4853636992452620905" name="invokedPattern" index="10zIt8" />
-      </concept>
+      <concept id="4853636992440280725" name="quilter.structure.NegativePatternInvocation" flags="ng" index="10gFeO" />
       <concept id="4853636992440522900" name="quilter.structure.InvocationBinding" flags="ng" index="10hOQP">
         <reference id="4853636992440522901" name="source" index="10hOQO" />
         <reference id="4853636992440522902" name="target" index="10hOQR" />
@@ -1035,11 +1036,7 @@
               <ref role="3eevyu" to="rkbi:2MtiOR4bOZV" resolve="on" />
             </node>
             <node concept="10gFeO" id="4ErWLKwRcis" role="3elqOW">
-              <node concept="10hOQP" id="4ErWLKwRciJ" role="10hOQQ">
-                <ref role="10hOQO" to="i616:4ErWLKwPBak" resolve="platform" />
-                <ref role="10hOQR" node="4ErWLKwRciI" resolve="platform" />
-              </node>
-              <node concept="3F$ThX" id="4ErWLKwRcit" role="10zIt8">
+              <node concept="3F$ThX" id="4ErWLKwRcit" role="2q8CWn">
                 <property role="TrG5h" value="Forbid_sprite" />
                 <node concept="3F$xvW" id="4ErWLKwRciu" role="3F$xvU">
                   <property role="TrG5h" value="sprite" />
@@ -1086,6 +1083,10 @@
                   <property role="TrG5h" value="platform" />
                   <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
                 </node>
+              </node>
+              <node concept="10hOQP" id="4ErWLKwRciJ" role="2q8CWN">
+                <ref role="10hOQO" to="i616:4ErWLKwPBak" resolve="platform" />
+                <ref role="10hOQR" node="4ErWLKwRciI" resolve="platform" />
               </node>
             </node>
           </node>

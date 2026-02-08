@@ -2,7 +2,7 @@
 <model ref="r:0f308d45-2490-4bc6-9901-10fb4bbdfc09(models)">
   <persistence version="9" />
   <languages>
-    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
+    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
     <use id="23bffebc-40de-4bc8-b1f3-5a57b8f9a8ff" name="quilter.examples.she_remembered_caterpillars" version="0" />
   </languages>
   <imports />

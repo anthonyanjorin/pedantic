@@ -2,7 +2,7 @@
 <model ref="r:b5ccb96f-2122-4a4c-a290-815d98a2e8b1(patterns)">
   <persistence version="9" />
   <languages>
-    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
+    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>

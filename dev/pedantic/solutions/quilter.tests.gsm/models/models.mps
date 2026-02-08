@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(models)">
+<model ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(quilter.tests.gsm.models)">
   <persistence version="9" />
   <languages>
     <use id="8ad30f99-baf4-4cdd-8d73-2c757ee152ae" name="quilter.examples.gsm" version="0" />

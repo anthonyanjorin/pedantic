@@ -2,6 +2,7 @@
 <model ref="r:e40062e2-f107-4d3d-aa75-760bd16e6de6(quilter.structure)">
   <persistence version="9" />
   <languages>
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -867,21 +868,7 @@
     <property role="EcuMT" value="4853636992440280725" />
     <property role="3GE5qa" value="csp.pattern_invocation" />
     <property role="TrG5h" value="NegativePatternInvocation" />
-    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
-    <node concept="1TJgyj" id="4dr_i43Pn9D" role="1TKVEi">
-      <property role="IQ2ns" value="4853636992452620905" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="invokedPattern" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
-    </node>
-    <node concept="1TJgyj" id="4dr_i437dyn" role="1TKVEi">
-      <property role="IQ2ns" value="4853636992440522903" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="invocationBindings" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4dr_i437dyk" resolve="InvocationBinding" />
-    </node>
+    <ref role="1TJDcQ" node="6CYahrK7anX" resolve="PatternInvocation" />
   </node>
   <node concept="1TIwiD" id="4dr_i437dyk">
     <property role="EcuMT" value="4853636992440522900" />
@@ -904,19 +891,31 @@
   <node concept="1TIwiD" id="4dr_i43prcP">
     <property role="EcuMT" value="4853636992445297461" />
     <property role="3GE5qa" value="searchplan.operations" />
-    <property role="TrG5h" value="NegativePatternInvocation_B_Star" />
+    <property role="TrG5h" value="PatternInvocation_B_Star" />
     <ref role="1TJDcQ" node="7BVCYERWfGe" resolve="Operation" />
+    <node concept="1TJgyi" id="6CYahrL5Gyg" role="1TKVEl">
+      <property role="IQ2nx" value="7655601595087243408" />
+      <property role="TrG5h" value="isNegative" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="4dr_i43zpRb" role="1TKVEi">
       <property role="IQ2ns" value="4853636992447913419" />
       <property role="20kJfa" value="invocationConstraint" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="4dr_i436iql" resolve="NegativePatternInvocation" />
+      <ref role="20lvS9" node="6CYahrK7anX" resolve="PatternInvocation" />
     </node>
     <node concept="1TJgyj" id="4dr_i44Menw" role="1TKVEi">
       <property role="IQ2ns" value="4853636992468575712" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="computeMatches" />
       <ref role="20lvS9" node="7BVCYERemyF" resolve="ComputeMatches" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrLpDUl" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595092475541" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sharedFreeVariables" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4dr_i44GlBW">
@@ -2056,6 +2055,40 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6CYahrJZNHn">
+    <property role="EcuMT" value="7655601595068922711" />
+    <property role="3GE5qa" value="csp.pattern_invocation" />
+    <property role="TrG5h" value="PositivePatternInvocation" />
+    <ref role="1TJDcQ" node="6CYahrK7anX" resolve="PatternInvocation" />
+  </node>
+  <node concept="1TIwiD" id="6CYahrK7anX">
+    <property role="EcuMT" value="7655601595070850557" />
+    <property role="3GE5qa" value="csp.pattern_invocation" />
+    <property role="TrG5h" value="PatternInvocation" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="7BVCYERFuKs" resolve="Constraint" />
+    <node concept="1TJgyj" id="6CYahrK7ao1" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595070850561" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="invokedPattern" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrK7ao_" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595070850597" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="invocationBindings" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4dr_i437dyk" resolve="InvocationBinding" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrLpgeL" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595092370353" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sharedFreeVariables" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
     </node>
   </node>
 </model>

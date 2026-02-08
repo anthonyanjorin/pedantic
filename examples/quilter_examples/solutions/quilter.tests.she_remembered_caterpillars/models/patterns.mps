@@ -2,7 +2,7 @@
 <model ref="r:ebb85b47-37b4-46a0-8854-e51394a241fe(patterns)">
   <persistence version="9" />
   <languages>
-    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="0" />
+    <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
     <use id="23bffebc-40de-4bc8-b1f3-5a57b8f9a8ff" name="quilter.examples.she_remembered_caterpillars" version="0" />
   </languages>
   <imports>
@@ -16,6 +16,10 @@
       </concept>
     </language>
     <language id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter">
+      <concept id="7655601595070850557" name="quilter.structure.PatternInvocation" flags="ng" index="2q8CNF">
+        <child id="7655601595070850561" name="invokedPattern" index="2q8CWn" />
+        <child id="7655601595070850597" name="invocationBindings" index="2q8CWN" />
+      </concept>
       <concept id="3193225783717603960" name="quilter.structure.AttributeValue" flags="ng" index="2yiVum">
         <reference id="3193225783722594989" name="object" index="2ydWX3" />
         <reference id="3193225783717605033" name="attribute" index="2yiVd7" />
@@ -70,10 +74,7 @@
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
       </concept>
-      <concept id="4853636992440280725" name="quilter.structure.NegativePatternInvocation" flags="ng" index="10gFeO">
-        <child id="4853636992440522903" name="invocationBindings" index="10hOQQ" />
-        <child id="4853636992452620905" name="invokedPattern" index="10zIt8" />
-      </concept>
+      <concept id="4853636992440280725" name="quilter.structure.NegativePatternInvocation" flags="ng" index="10gFeO" />
       <concept id="4853636992440522900" name="quilter.structure.InvocationBinding" flags="ng" index="10hOQP">
         <reference id="4853636992440522901" name="source" index="10hOQO" />
         <reference id="4853636992440522902" name="target" index="10hOQR" />
@@ -483,11 +484,7 @@
             <ref role="3eevyu" to="rkbi:2MtiOR4bOZV" resolve="on" />
           </node>
           <node concept="10gFeO" id="4ErWLKC_aqo" role="3elqOW">
-            <node concept="10hOQP" id="4ErWLKC_aqF" role="10hOQQ">
-              <ref role="10hOQO" node="4ErWLKwPBak" resolve="platform" />
-              <ref role="10hOQR" node="4ErWLKC_aqE" resolve="platform" />
-            </node>
-            <node concept="3F$ThX" id="4ErWLKC_aqp" role="10zIt8">
+            <node concept="3F$ThX" id="4ErWLKC_aqp" role="2q8CWn">
               <property role="TrG5h" value="Forbid_sprite" />
               <node concept="3F$xvW" id="4ErWLKC_aqq" role="3F$xvU">
                 <property role="TrG5h" value="sprite" />
@@ -534,6 +531,10 @@
                 <property role="TrG5h" value="platform" />
                 <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
               </node>
+            </node>
+            <node concept="10hOQP" id="4ErWLKC_aqF" role="2q8CWN">
+              <ref role="10hOQO" node="4ErWLKwPBak" resolve="platform" />
+              <ref role="10hOQR" node="4ErWLKC_aqE" resolve="platform" />
             </node>
           </node>
         </node>

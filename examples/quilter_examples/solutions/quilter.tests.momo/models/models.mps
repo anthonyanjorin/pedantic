@@ -2,35 +2,35 @@
 <model ref="r:9811f75d-802a-4c5b-ba73-609aeb8a7e12(models)">
   <persistence version="9" />
   <languages>
-    <use id="bebb3725-1fda-4e3a-88bb-49e22757d9a8" name="quilter.examples.momo" version="0" />
+    <use id="bebb3725-1fda-4e3a-88bb-49e22757d9a8" name="momo" version="0" />
   </languages>
   <imports />
   <registry>
-    <language id="bebb3725-1fda-4e3a-88bb-49e22757d9a8" name="quilter.examples.momo">
-      <concept id="6129037657161348967" name="quilter.examples.momo.structure.School" flags="ng" index="3B5C0x">
+    <language id="bebb3725-1fda-4e3a-88bb-49e22757d9a8" name="momo">
+      <concept id="6129037657161348967" name="momo.structure.School" flags="ng" index="3B5C0x">
         <child id="6129037657161348982" name="subjects" index="3B5C0K" />
         <child id="6129037657161348981" name="teachers" index="3B5C0N" />
         <child id="6129037657161348985" name="classes" index="3B5C0Z" />
         <child id="6129037657162946050" name="offerings" index="3Bfy54" />
       </concept>
-      <concept id="6129037657161348975" name="quilter.examples.momo.structure.Subject" flags="ng" index="3B5C0D" />
-      <concept id="6129037657161348973" name="quilter.examples.momo.structure.Teacher" flags="ng" index="3B5C0F" />
-      <concept id="6129037657161348969" name="quilter.examples.momo.structure.WeekPlan" flags="ng" index="3B5C0J">
+      <concept id="6129037657161348975" name="momo.structure.Subject" flags="ng" index="3B5C0D" />
+      <concept id="6129037657161348973" name="momo.structure.Teacher" flags="ng" index="3B5C0F" />
+      <concept id="6129037657161348969" name="momo.structure.WeekPlan" flags="ng" index="3B5C0J">
         <child id="6129037657163400249" name="dayPlans" index="3BejdZ" />
       </concept>
-      <concept id="6129037657161348983" name="quilter.examples.momo.structure.Class" flags="ng" index="3B5C0L">
+      <concept id="6129037657161348983" name="momo.structure.Class" flags="ng" index="3B5C0L">
         <child id="6129037657161348971" name="weekPlan" index="3B5C0H" />
       </concept>
-      <concept id="6129037657161348978" name="quilter.examples.momo.structure.Offering" flags="ng" index="3B5C0O">
+      <concept id="6129037657161348978" name="momo.structure.Offering" flags="ng" index="3B5C0O">
         <reference id="6129037657161348979" name="subject" index="3B5C0P" />
         <reference id="6129037657162946051" name="teacher" index="3Bfy55" />
       </concept>
-      <concept id="6129037657161348994" name="quilter.examples.momo.structure.Slot" flags="ng" index="3B5C34">
+      <concept id="6129037657161348994" name="momo.structure.Slot" flags="ng" index="3B5C34">
         <property id="6129037657161348995" name="timeSlot" index="3B5C35" />
         <reference id="6129037657161348996" name="subject" index="3B5C32" />
         <reference id="6129037657161348997" name="teacher" index="3B5C33" />
       </concept>
-      <concept id="6129037657163400250" name="quilter.examples.momo.structure.DayPlan" flags="ng" index="3BejdW">
+      <concept id="6129037657163400250" name="momo.structure.DayPlan" flags="ng" index="3BejdW">
         <property id="6129037657163400251" name="day" index="3BejdX" />
         <child id="6129037657163400252" name="slots" index="3BejdU" />
       </concept>

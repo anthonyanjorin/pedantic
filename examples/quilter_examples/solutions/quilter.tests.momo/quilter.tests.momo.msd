@@ -25,10 +25,10 @@
     <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="19" />
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="6" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+    <language slang="l:bebb3725-1fda-4e3a-88bb-49e22757d9a8:momo" version="0" />
     <language slang="l:1ef906aa-9948-4d71-9acf-933538b34ecf:pedantic" version="0" />
     <language slang="l:e8c53fb6-e3d1-45b8-804f-056de67b4715:plantuml" version="0" />
-    <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="0" />
-    <language slang="l:bebb3725-1fda-4e3a-88bb-49e22757d9a8:quilter.examples.momo" version="0" />
+    <language slang="l:cb6e6683-7c33-40af-94d4-5d1f5e613c2d:quilter" version="2" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -39,7 +39,7 @@
     <module reference="bebb3725-1fda-4e3a-88bb-49e22757d9a8(momo)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
-    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="0" />
+    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="2" />
     <module reference="397c5378-edf1-4242-9e3e-4a93cfcb3ce9(quilter.tests.momo)" version="0" />
   </dependencyVersions>
 </solution>
