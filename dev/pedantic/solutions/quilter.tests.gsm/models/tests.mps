@@ -11,7 +11,7 @@
     <import index="cvj" ref="r:30fec77b-9141-47aa-865d-77c64dfc1238(patterns)" />
     <import index="ytnm" ref="r:10f3c145-9958-4e68-81f2-d4aeadc11921(quilter.examples.gsm.structure)" />
     <import index="yery" ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(models)" />
-    <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" implicit="true" />
+    <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -80,6 +80,7 @@
         <child id="7655601595092475541" name="sharedFreeVariables" index="2rmbu3" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
       </concept>
+      <concept id="4853636992440280725" name="quilter.structure.NegativePatternInvocation" flags="ng" index="10gFeO" />
       <concept id="4853636992440522900" name="quilter.structure.InvocationBinding" flags="ng" index="10hOQP">
         <reference id="4853636992440522901" name="source" index="10hOQO" />
         <reference id="4853636992440522902" name="target" index="10hOQR" />
@@ -193,7 +194,7 @@
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <property role="TrG5h" value="GSMTests" />
     <node concept="1LZb2c" id="2bQ_F9IpkYR" role="1SL9yI">
-      <property role="TrG5h" value="testPositivePattern1" />
+      <property role="TrG5h" value="testC1" />
       <node concept="3cqZAl" id="2bQ_F9IpkYS" role="3clF45" />
       <node concept="3clFbS" id="2bQ_F9IpkYT" role="3clF47">
         <node concept="3vlDli" id="2bQ_F9IpkYU" role="3cqZAp">
@@ -222,6 +223,38 @@
             <property role="3cmrfH" value="1" />
           </node>
         </node>
+        <node concept="3vlDli" id="6CYahrNyu8n" role="3cqZAp">
+          <node concept="2OqwBi" id="6CYahrNyu8o" role="3tpDZA">
+            <node concept="3xONca" id="6CYahrNyu8p" role="2Oq$k0">
+              <ref role="3xOPvv" node="6CYahrNymgP" resolve="p03" />
+            </node>
+            <node concept="2qgKlT" id="6CYahrNyu8q" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="6CYahrNyuax" role="3tpDZB">
+            <property role="3cmrfH" value="2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="6CYahrNyudd" role="1SL9yI">
+      <property role="TrG5h" value="testC5" />
+      <node concept="3cqZAl" id="6CYahrNyude" role="3clF45" />
+      <node concept="3clFbS" id="6CYahrNyudi" role="3clF47">
+        <node concept="3vlDli" id="6CYahrNyudm" role="3cqZAp">
+          <node concept="2OqwBi" id="6CYahrNyudn" role="3tpDZA">
+            <node concept="3xONca" id="6CYahrNyudo" role="2Oq$k0">
+              <ref role="3xOPvv" node="6CYahrNymgL" resolve="p04" />
+            </node>
+            <node concept="2qgKlT" id="6CYahrNyudp" role="2OqNvi">
+              <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
+            </node>
+          </node>
+          <node concept="3cmrfG" id="6CYahrNyuir" role="3tpDZB">
+            <property role="3cmrfH" value="2" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1qefOq" id="6CYahrJK1Lz" role="1SKRRt">
@@ -229,7 +262,7 @@
         <node concept="3eKGHs" id="6CYahrJK1L$" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <property role="3eKfJL" value="4" />
-          <ref role="3eKGHL" to="cvj:6CYahrJK0m1" resolve="BTShasOneController" />
+          <ref role="3eKGHL" to="cvj:6CYahrJK0m1" resolve="C1a" />
           <node concept="3xLA65" id="6CYahrJK25A" role="lGtFl">
             <property role="TrG5h" value="p01" />
           </node>
@@ -426,7 +459,7 @@
         <node concept="3eKGHs" id="6CYahrJK25C" role="3eKGHX">
           <property role="3Fq0gx" value="2" />
           <property role="3eKfJL" value="1" />
-          <ref role="3eKGHL" to="cvj:6CYahrJK11W" resolve="BTShasMoreThanOneController" />
+          <ref role="3eKGHL" to="cvj:6CYahrJK11W" resolve="C1b" />
           <node concept="3xLA65" id="6CYahrJK2wt" role="lGtFl">
             <property role="TrG5h" value="p02" />
           </node>
@@ -747,6 +780,804 @@
                   </node>
                 </node>
                 <node concept="3eImRP" id="6CYahrLG4xY" role="3eKGHR" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="6CYahrNymgN" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="2" />
+          <ref role="3eKGHL" to="cvj:6CYahrM0rsh" resolve="C1" />
+          <node concept="3xLA65" id="6CYahrNymgP" role="lGtFl">
+            <property role="TrG5h" value="p03" />
+          </node>
+          <node concept="3eImRP" id="6CYahrNymgQ" role="3eKGHR">
+            <node concept="3eJ099" id="6CYahrNymgR" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNymgS" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rsk" resolve="bts" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNymgT" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNymgU" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rsl" resolve="conn" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNymgV" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNymgW" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rsn" resolve="bsc" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNymgX" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+          </node>
+          <node concept="3elqOZ" id="6CYahrNymgY" role="3eliY4">
+            <node concept="3el$ZR" id="6CYahrNymh0" role="3elqOW">
+              <ref role="3eirzp" node="6CYahrNymgZ" resolve="bts" />
+              <ref role="3ein4b" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+            </node>
+            <node concept="25Kh91" id="6CYahrNymh3" role="3elqOW">
+              <node concept="10hOQP" id="6CYahrNymhb" role="2q8CWN">
+                <ref role="10hOQO" to="cvj:6CYahrM0rsk" resolve="bts" />
+                <ref role="10hOQR" node="6CYahrNymha" resolve="bts" />
+              </node>
+              <node concept="3F$ThX" id="6CYahrNymh4" role="2q8CWn">
+                <property role="TrG5h" value="Enforce_2_2" />
+                <node concept="3F$xvW" id="6CYahrNymh5" role="3F$xvU">
+                  <property role="TrG5h" value="bsc" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                  <node concept="3F$xvT" id="6CYahrNymhc" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                    <ref role="3F$xdr" node="6CYahrNymh7" resolve="conn" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNymh7" role="3F$xvU">
+                  <property role="TrG5h" value="conn" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                  <node concept="3F$xvT" id="6CYahrNymh9" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdr" node="6CYahrNymha" resolve="bts" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNymha" role="3F$xvU">
+                  <property role="TrG5h" value="bts" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                </node>
+              </node>
+              <node concept="3e2p4i" id="6CYahrNymhd" role="2rmMEB">
+                <ref role="3e2p4s" node="6CYahrNymh2" resolve="bsc" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNymhe" role="2rmMEB">
+                <ref role="3e2p4s" node="6CYahrNymh1" resolve="conn" />
+              </node>
+            </node>
+            <node concept="10gFeO" id="6CYahrNymhf" role="3elqOW">
+              <node concept="10hOQP" id="6CYahrNymhn" role="2q8CWN">
+                <ref role="10hOQO" to="cvj:6CYahrM0rsk" resolve="bts" />
+                <ref role="10hOQR" node="6CYahrNymhm" resolve="bts" />
+              </node>
+              <node concept="3F$ThX" id="6CYahrNymhg" role="2q8CWn">
+                <property role="TrG5h" value="Forbid_0" />
+                <node concept="3F$xvW" id="6CYahrNymhh" role="3F$xvU">
+                  <property role="TrG5h" value="otherBsc" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                  <node concept="3F$xvT" id="6CYahrNymho" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                    <ref role="3F$xdr" node="6CYahrNymhj" resolve="otherConn" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNymhj" role="3F$xvU">
+                  <property role="TrG5h" value="otherConn" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                  <node concept="3F$xvT" id="6CYahrNymhl" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                    <ref role="3F$xdr" node="6CYahrNymhm" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNymhm" role="3F$xvU">
+                  <property role="TrG5h" value="bts" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                </node>
+              </node>
+            </node>
+            <node concept="17UGNt" id="6CYahrNymgZ" role="3eirzu">
+              <property role="TrG5h" value="bts" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rsk" resolve="bts" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNymh1" role="3eirzu">
+              <property role="TrG5h" value="conn" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rsl" resolve="conn" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNymh2" role="3eirzu">
+              <property role="TrG5h" value="bsc" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rsn" resolve="bsc" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="6CYahrNymhR" role="3e3QqN">
+            <property role="3e1rJ9" value="1402" />
+            <node concept="3e2qRM" id="6CYahrNymhS" role="3e2PzU">
+              <ref role="3CfmUi" node="6CYahrNymh0" />
+              <ref role="3FLKAo" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+              <node concept="3e2p4i" id="6CYahrNymhT" role="3e2p3O">
+                <ref role="3e2p4s" node="6CYahrNymgZ" resolve="bts" />
+              </node>
+            </node>
+            <node concept="10fyok" id="6CYahrNymhU" role="3e2PzU">
+              <property role="2rae66" value="false" />
+              <ref role="3CfmUi" node="6CYahrNymh3" />
+              <ref role="10PwzE" node="6CYahrNymh3" />
+              <node concept="3e2p4i" id="6CYahrNymhV" role="2rmbu3">
+                <ref role="3e2p4s" node="6CYahrNymh2" resolve="bsc" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNymhW" role="2rmbu3">
+                <ref role="3e2p4s" node="6CYahrNymh1" resolve="conn" />
+              </node>
+              <node concept="3eKGH1" id="6CYahrNymSZ" role="17$R31">
+                <property role="3eKGHa" value="1" />
+                <property role="3Fq0gx" value="2" />
+                <property role="rzyyC" value="true" />
+                <property role="1EuXlg" value="00m:00s:01ms" />
+                <property role="1yraaM" value="1" />
+                <property role="3ETgtw" value="1" />
+                <ref role="3eKGHL" node="6CYahrNymh4" resolve="Enforce_2_2" />
+                <node concept="3elqOZ" id="6CYahrNymT7" role="3eliY4">
+                  <node concept="3el$ZR" id="6CYahrNymT9" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNymT8" resolve="bsc" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNymTb" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNymTa" resolve="conn" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNymTd" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNymTc" resolve="bts" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNymTe" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNymT8" resolve="bsc" />
+                    <ref role="3eevyp" node="6CYahrNymTa" resolve="conn" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNymTf" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNymTa" resolve="conn" />
+                    <ref role="3eevyp" node="6CYahrNymTc" resolve="bts" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNymT8" role="3eirzu">
+                    <property role="TrG5h" value="bsc" />
+                    <ref role="17UGNs" node="6CYahrNymh5" resolve="bsc" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNymTa" role="3eirzu">
+                    <property role="TrG5h" value="conn" />
+                    <ref role="17UGNs" node="6CYahrNymh7" resolve="conn" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNymTc" role="3eirzu">
+                    <property role="TrG5h" value="bts" />
+                    <ref role="17UGNs" node="6CYahrNymha" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3e2OTI" id="6CYahrNymX_" role="3e3QqN">
+                  <property role="3e1rJ9" value="1008" />
+                  <node concept="3e2qRN" id="6CYahrNymXA" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNymTd" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                    <node concept="3e2p4t" id="6CYahrNymXB" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNymTc" resolve="bts" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRM" id="6CYahrNymXC" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNymTb" />
+                    <ref role="3FLKAo" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                    <node concept="3e2p4i" id="6CYahrNymXD" role="3e2p3O">
+                      <ref role="3e2p4s" node="6CYahrNymTa" resolve="conn" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqG" id="6CYahrNymXE" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNymTf" />
+                    <ref role="3l_Fsw" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                    <node concept="3e2p4t" id="6CYahrNymXF" role="3e2sqH">
+                      <ref role="3e2p4s" node="6CYahrNymTa" resolve="conn" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNymXG" role="3e2sqy">
+                      <ref role="3e2p4s" node="6CYahrNymTc" resolve="bts" />
+                    </node>
+                  </node>
+                  <node concept="3k9trb" id="6CYahrNymXH" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNymTe" />
+                    <ref role="3k9n3O" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                    <node concept="3e2p4i" id="6CYahrNymXI" role="3k9tr8">
+                      <ref role="3e2p4s" node="6CYahrNymT8" resolve="bsc" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNymXJ" role="3k9tr9">
+                      <ref role="3e2p4s" node="6CYahrNymTa" resolve="conn" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNymXw" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNymT9" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                    <node concept="3e2p4t" id="6CYahrNymXx" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNymT8" resolve="bsc" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eImRa" id="6CYahrNyn2z" role="3eKGHP">
+                  <node concept="3eImVg" id="6CYahrNyn2$" role="3eImRb">
+                    <ref role="3eB4Im" to="yery:6CYahrJM0U$" resolve="BSC_1" />
+                  </node>
+                  <node concept="3eImVg" id="6CYahrNyn2_" role="3eImRb">
+                    <ref role="3eB4Im" to="yery:6CYahrJM3d4" />
+                  </node>
+                  <node concept="3eImVg" id="6CYahrNyn2A" role="3eImRb">
+                    <ref role="3eB4Im" to="yery:6CYahrJM0UB" resolve="BTS_2" />
+                  </node>
+                  <node concept="3eJ099" id="6CYahrNyn2B" role="3eIkDU">
+                    <property role="3eJ09e" value="m_0" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyn2C" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNymh5" resolve="bsc" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyn2D" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNymh7" resolve="conn" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyn2E" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNymha" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3eImRP" id="6CYahrNyn2F" role="3eKGHR" />
+              </node>
+            </node>
+            <node concept="10fyok" id="6CYahrNymhN" role="3e2PzU">
+              <property role="2rae66" value="true" />
+              <ref role="3CfmUi" node="6CYahrNymhf" />
+              <ref role="10PwzE" node="6CYahrNymhf" />
+              <node concept="3eKGH1" id="6CYahrNyn2G" role="17$R31">
+                <property role="3eKGHa" value="1" />
+                <property role="3Fq0gx" value="2" />
+                <property role="1EuXlg" value="00m:00s:00ms" />
+                <property role="1yraaM" value="0" />
+                <property role="3ETgtw" value="0" />
+                <ref role="3eKGHL" node="6CYahrNymhg" resolve="Forbid_0" />
+                <node concept="3elqOZ" id="6CYahrNyn2Q" role="3eliY4">
+                  <node concept="3el$ZR" id="6CYahrNyn2S" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyn2R" resolve="otherBsc" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyn2U" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyn2T" resolve="otherConn" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyn2W" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyn2V" resolve="bts" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyn2X" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyn2R" resolve="otherBsc" />
+                    <ref role="3eevyp" node="6CYahrNyn2T" resolve="otherConn" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyn2Y" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyn2T" resolve="otherConn" />
+                    <ref role="3eevyp" node="6CYahrNyn2V" resolve="bts" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyn2R" role="3eirzu">
+                    <property role="TrG5h" value="otherBsc" />
+                    <ref role="17UGNs" node="6CYahrNymhh" resolve="otherBsc" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyn2T" role="3eirzu">
+                    <property role="TrG5h" value="otherConn" />
+                    <ref role="17UGNs" node="6CYahrNymhj" resolve="otherConn" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyn2V" role="3eirzu">
+                    <property role="TrG5h" value="bts" />
+                    <ref role="17UGNs" node="6CYahrNymhm" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3e2OTI" id="6CYahrNyn7k" role="3e3QqN">
+                  <property role="3e1rJ9" value="1008" />
+                  <node concept="3e2qRN" id="6CYahrNyn7l" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyn2W" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                    <node concept="3e2p4t" id="6CYahrNyn7m" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyn2V" resolve="bts" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRM" id="6CYahrNyn7n" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyn2U" />
+                    <ref role="3FLKAo" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                    <node concept="3e2p4i" id="6CYahrNyn7o" role="3e2p3O">
+                      <ref role="3e2p4s" node="6CYahrNyn2T" resolve="otherConn" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqG" id="6CYahrNyn7p" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyn2Y" />
+                    <ref role="3l_Fsw" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                    <node concept="3e2p4t" id="6CYahrNyn7q" role="3e2sqH">
+                      <ref role="3e2p4s" node="6CYahrNyn2T" resolve="otherConn" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNyn7r" role="3e2sqy">
+                      <ref role="3e2p4s" node="6CYahrNyn2V" resolve="bts" />
+                    </node>
+                  </node>
+                  <node concept="3k9trb" id="6CYahrNyn7s" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyn2X" />
+                    <ref role="3k9n3O" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                    <node concept="3e2p4i" id="6CYahrNyn7t" role="3k9tr8">
+                      <ref role="3e2p4s" node="6CYahrNyn2R" resolve="otherBsc" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNyn7u" role="3k9tr9">
+                      <ref role="3e2p4s" node="6CYahrNyn2T" resolve="otherConn" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNyn7f" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyn2S" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                    <node concept="3e2p4t" id="6CYahrNyn7g" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyn2R" resolve="otherBsc" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eImRa" id="6CYahrNynci" role="3eKGHP">
+                  <node concept="3eIm8D" id="6CYahrNyncj" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNymhh" resolve="otherBsc" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNynck" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNymhj" resolve="otherConn" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyncl" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNymhm" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3eImRP" id="6CYahrNyncm" role="3eKGHR" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eKGHs" id="6CYahrNymgJ" role="3eKGHX">
+          <property role="3Fq0gx" value="2" />
+          <property role="3eKfJL" value="2" />
+          <ref role="3eKGHL" to="cvj:6CYahrM0reK" resolve="C5" />
+          <node concept="3xLA65" id="6CYahrNymgL" role="lGtFl">
+            <property role="TrG5h" value="p04" />
+          </node>
+          <node concept="3eImRP" id="6CYahrNyncn" role="3eKGHR">
+            <node concept="3eJ099" id="6CYahrNynco" role="3eIkDU">
+              <property role="3eJ09e" value="pre-match" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNyncp" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rfe" resolve="msr" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNyncq" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNyncr" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rff" resolve="bsc" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNyncs" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNynct" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rfG" resolve="cbts" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNyncu" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNyncv" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rfm" resolve="ms" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNyncw" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNyncx" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rfn" resolve="bts" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNyncy" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+            <node concept="3eIm8D" id="6CYahrNyncz" role="3eInz_">
+              <ref role="3eIm8I" to="cvj:6CYahrM0rfV" resolve="cms" />
+            </node>
+            <node concept="3eImVg" id="6CYahrNync$" role="3eImRb">
+              <property role="1_94iM" value="false" />
+            </node>
+          </node>
+          <node concept="3elqOZ" id="6CYahrNync_" role="3eliY4">
+            <node concept="3el$ZR" id="6CYahrNyncB" role="3elqOW">
+              <ref role="3eirzp" node="6CYahrNyncA" resolve="msr" />
+              <ref role="3ein4b" to="ytnm:3_uH1jFo6jE" resolve="MobileStationRecord" />
+            </node>
+            <node concept="3el$ZR" id="6CYahrNyncD" role="3elqOW">
+              <ref role="3eirzp" node="6CYahrNyncC" resolve="cms" />
+              <ref role="3ein4b" to="ytnm:3_uH1jFo6JF" resolve="ConnectedMS" />
+            </node>
+            <node concept="25Kh91" id="6CYahrNyncI" role="3elqOW">
+              <node concept="10hOQP" id="6CYahrNyncU" role="2q8CWN">
+                <ref role="10hOQO" to="cvj:6CYahrM0rfe" resolve="msr" />
+                <ref role="10hOQR" node="6CYahrNyncT" resolve="msr" />
+              </node>
+              <node concept="10hOQP" id="6CYahrNyncY" role="2q8CWN">
+                <ref role="10hOQO" to="cvj:6CYahrM0rfV" resolve="cms" />
+                <ref role="10hOQR" node="6CYahrNyncX" resolve="cms" />
+              </node>
+              <node concept="3F$ThX" id="6CYahrNyncJ" role="2q8CWn">
+                <property role="TrG5h" value="Enforce_4_7" />
+                <node concept="3F$xvW" id="6CYahrNyncK" role="3F$xvU">
+                  <property role="TrG5h" value="bts" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                  <node concept="3F$xvT" id="6CYahrNynd1" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JH" resolve="physicalConnections" />
+                    <ref role="3F$xdr" node="6CYahrNyncX" resolve="cms" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNyncM" role="3F$xvU">
+                  <property role="TrG5h" value="cbts" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                  <node concept="3F$xvT" id="6CYahrNynd0" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdr" node="6CYahrNyncK" resolve="bts" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNyncO" role="3F$xvU">
+                  <property role="TrG5h" value="ms" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo68q" resolve="MobileStation" />
+                </node>
+                <node concept="3F$xvW" id="6CYahrNyncP" role="3F$xvU">
+                  <property role="TrG5h" value="bsc" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                  <node concept="3F$xvT" id="6CYahrNyncR" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                    <ref role="3F$xdr" node="6CYahrNyncM" resolve="cbts" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNyncT" role="3F$xvU">
+                  <property role="TrG5h" value="msr" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6jE" resolve="MobileStationRecord" />
+                  <node concept="3F$xvT" id="6CYahrNyncS" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdr" node="6CYahrNyncK" resolve="bts" />
+                    <ref role="3F$xdF" to="ytnm:6CYahrJJPkV" resolve="virtuallyConnectedBTS" />
+                  </node>
+                  <node concept="3F$xvT" id="6CYahrNyncV" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdr" node="6CYahrNyncO" resolve="ms" />
+                    <ref role="3F$xdF" to="ytnm:6CYahrJJPkY" resolve="virtuallyConnectedMS" />
+                  </node>
+                  <node concept="3F$xvT" id="6CYahrNyncZ" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdr" node="6CYahrNyncP" resolve="bsc" />
+                    <ref role="3F$xdF" to="ytnm:6CYahrJJPkT" resolve="virtuallyConnectedBSC" />
+                  </node>
+                </node>
+                <node concept="3F$xvW" id="6CYahrNyncX" role="3F$xvU">
+                  <property role="TrG5h" value="cms" />
+                  <ref role="3F$xdl" to="ytnm:3_uH1jFo6JF" resolve="ConnectedMS" />
+                  <node concept="3F$xvT" id="6CYahrNyncW" role="3F$xvO">
+                    <property role="TrG5h" value="_" />
+                    <ref role="3F$xdF" to="ytnm:3_uH1jFo6JG" resolve="ms" />
+                    <ref role="3F$xdr" node="6CYahrNyncO" resolve="ms" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3e2p4i" id="6CYahrNynd2" role="2rmMEB">
+                <ref role="3e2p4s" node="6CYahrNyncH" resolve="bts" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNynd3" role="2rmMEB">
+                <ref role="3e2p4s" node="6CYahrNyncF" resolve="cbts" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNynd4" role="2rmMEB">
+                <ref role="3e2p4s" node="6CYahrNyncG" resolve="ms" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNynd5" role="2rmMEB">
+                <ref role="3e2p4s" node="6CYahrNyncE" resolve="bsc" />
+              </node>
+            </node>
+            <node concept="17UGNt" id="6CYahrNyncA" role="3eirzu">
+              <property role="TrG5h" value="msr" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rfe" resolve="msr" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNyncE" role="3eirzu">
+              <property role="TrG5h" value="bsc" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rff" resolve="bsc" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNyncF" role="3eirzu">
+              <property role="TrG5h" value="cbts" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rfG" resolve="cbts" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNyncG" role="3eirzu">
+              <property role="TrG5h" value="ms" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rfm" resolve="ms" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNyncH" role="3eirzu">
+              <property role="TrG5h" value="bts" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rfn" resolve="bts" />
+            </node>
+            <node concept="17UGNt" id="6CYahrNyncC" role="3eirzu">
+              <property role="TrG5h" value="cms" />
+              <ref role="17UGNs" to="cvj:6CYahrM0rfV" resolve="cms" />
+            </node>
+          </node>
+          <node concept="3e2OTI" id="6CYahrNynen" role="3e3QqN">
+            <property role="3e1rJ9" value="2401" />
+            <node concept="3e2qRM" id="6CYahrNyneo" role="3e2PzU">
+              <ref role="3CfmUi" node="6CYahrNyncB" />
+              <ref role="3FLKAo" to="ytnm:3_uH1jFo6jE" resolve="MobileStationRecord" />
+              <node concept="3e2p4i" id="6CYahrNynep" role="3e2p3O">
+                <ref role="3e2p4s" node="6CYahrNyncA" resolve="msr" />
+              </node>
+            </node>
+            <node concept="3e2qRM" id="6CYahrNyneq" role="3e2PzU">
+              <ref role="3CfmUi" node="6CYahrNyncD" />
+              <ref role="3FLKAo" to="ytnm:3_uH1jFo6JF" resolve="ConnectedMS" />
+              <node concept="3e2p4i" id="6CYahrNyner" role="3e2p3O">
+                <ref role="3e2p4s" node="6CYahrNyncC" resolve="cms" />
+              </node>
+            </node>
+            <node concept="10fyok" id="6CYahrNynec" role="3e2PzU">
+              <property role="2rae66" value="false" />
+              <ref role="3CfmUi" node="6CYahrNyncI" />
+              <ref role="10PwzE" node="6CYahrNyncI" />
+              <node concept="3e2p4i" id="6CYahrNyned" role="2rmbu3">
+                <ref role="3e2p4s" node="6CYahrNyncH" resolve="bts" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNynee" role="2rmbu3">
+                <ref role="3e2p4s" node="6CYahrNyncF" resolve="cbts" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNynef" role="2rmbu3">
+                <ref role="3e2p4s" node="6CYahrNyncG" resolve="ms" />
+              </node>
+              <node concept="3e2p4i" id="6CYahrNyneg" role="2rmbu3">
+                <ref role="3e2p4s" node="6CYahrNyncE" resolve="bsc" />
+              </node>
+              <node concept="3eKGH1" id="6CYahrNyrOm" role="17$R31">
+                <property role="3eKGHa" value="1" />
+                <property role="3Fq0gx" value="2" />
+                <property role="1EuXlg" value="00m:00s:00ms" />
+                <property role="1yraaM" value="0" />
+                <property role="3ETgtw" value="0" />
+                <ref role="3eKGHL" node="6CYahrNyncJ" resolve="Enforce_4_7" />
+                <node concept="3elqOZ" id="6CYahrNyrO$" role="3eliY4">
+                  <node concept="3el$ZR" id="6CYahrNyrOA" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyrO_" resolve="bts" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyrOC" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyrOB" resolve="cbts" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyrOE" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyrOD" resolve="ms" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo68q" resolve="MobileStation" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyrOG" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyrOF" resolve="bsc" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyrOI" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyrOH" resolve="msr" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6jE" resolve="MobileStationRecord" />
+                  </node>
+                  <node concept="3el$ZR" id="6CYahrNyrOK" role="3elqOW">
+                    <ref role="3eirzp" node="6CYahrNyrOJ" resolve="cms" />
+                    <ref role="3ein4b" to="ytnm:3_uH1jFo6JF" resolve="ConnectedMS" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrOL" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrO_" resolve="bts" />
+                    <ref role="3eevyp" node="6CYahrNyrOJ" resolve="cms" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JH" resolve="physicalConnections" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrOM" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrOB" resolve="cbts" />
+                    <ref role="3eevyp" node="6CYahrNyrO_" resolve="bts" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrON" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrOF" resolve="bsc" />
+                    <ref role="3eevyp" node="6CYahrNyrOB" resolve="cbts" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrOO" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrOH" resolve="msr" />
+                    <ref role="3eevyp" node="6CYahrNyrO_" resolve="bts" />
+                    <ref role="3eevyu" to="ytnm:6CYahrJJPkV" resolve="virtuallyConnectedBTS" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrOP" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrOH" resolve="msr" />
+                    <ref role="3eevyp" node="6CYahrNyrOD" resolve="ms" />
+                    <ref role="3eevyu" to="ytnm:6CYahrJJPkY" resolve="virtuallyConnectedMS" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrOQ" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrOH" resolve="msr" />
+                    <ref role="3eevyp" node="6CYahrNyrOF" resolve="bsc" />
+                    <ref role="3eevyu" to="ytnm:6CYahrJJPkT" resolve="virtuallyConnectedBSC" />
+                  </node>
+                  <node concept="3el$ZO" id="6CYahrNyrOR" role="3elqOW">
+                    <ref role="3eevyo" node="6CYahrNyrOJ" resolve="cms" />
+                    <ref role="3eevyp" node="6CYahrNyrOD" resolve="ms" />
+                    <ref role="3eevyu" to="ytnm:3_uH1jFo6JG" resolve="ms" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyrO_" role="3eirzu">
+                    <property role="TrG5h" value="bts" />
+                    <ref role="17UGNs" node="6CYahrNyncK" resolve="bts" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyrOB" role="3eirzu">
+                    <property role="TrG5h" value="cbts" />
+                    <ref role="17UGNs" node="6CYahrNyncM" resolve="cbts" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyrOD" role="3eirzu">
+                    <property role="TrG5h" value="ms" />
+                    <ref role="17UGNs" node="6CYahrNyncO" resolve="ms" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyrOF" role="3eirzu">
+                    <property role="TrG5h" value="bsc" />
+                    <ref role="17UGNs" node="6CYahrNyncP" resolve="bsc" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyrOH" role="3eirzu">
+                    <property role="TrG5h" value="msr" />
+                    <ref role="17UGNs" node="6CYahrNyncT" resolve="msr" />
+                  </node>
+                  <node concept="17UGNt" id="6CYahrNyrOJ" role="3eirzu">
+                    <property role="TrG5h" value="cms" />
+                    <ref role="17UGNs" node="6CYahrNyncX" resolve="cms" />
+                  </node>
+                </node>
+                <node concept="3e2OTI" id="6CYahrNysBp" role="3e3QqN">
+                  <property role="3e1rJ9" value="44" />
+                  <node concept="3e2qRN" id="6CYahrNysBq" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOI" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo6jE" resolve="MobileStationRecord" />
+                    <node concept="3e2p4t" id="6CYahrNysBr" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyrOH" resolve="msr" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNysBs" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOK" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo6JF" resolve="ConnectedMS" />
+                    <node concept="3e2p4t" id="6CYahrNysBt" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyrOJ" resolve="cms" />
+                    </node>
+                  </node>
+                  <node concept="3k9trb" id="6CYahrNysBu" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOL" />
+                    <ref role="3k9n3O" to="ytnm:3_uH1jFo6JH" resolve="physicalConnections" />
+                    <node concept="3e2p4i" id="6CYahrNysBv" role="3k9tr8">
+                      <ref role="3e2p4s" node="6CYahrNyrO_" resolve="bts" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNysBw" role="3k9tr9">
+                      <ref role="3e2p4s" node="6CYahrNyrOJ" resolve="cms" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNysBx" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOA" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo6jC" resolve="BaseTransceiverStation" />
+                    <node concept="3e2p4t" id="6CYahrNysBy" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyrO_" resolve="bts" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqG" id="6CYahrNysBz" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOO" />
+                    <ref role="3l_Fsw" to="ytnm:6CYahrJJPkV" resolve="virtuallyConnectedBTS" />
+                    <node concept="3e2p4t" id="6CYahrNysB$" role="3e2sqH">
+                      <ref role="3e2p4s" node="6CYahrNyrOH" resolve="msr" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNysB_" role="3e2sqy">
+                      <ref role="3e2p4s" node="6CYahrNyrO_" resolve="bts" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqz" id="6CYahrNysBA" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOP" />
+                    <ref role="3l_wLC" to="ytnm:6CYahrJJPkY" resolve="virtuallyConnectedMS" />
+                    <node concept="3e2p4t" id="6CYahrNysBB" role="3e2sqw">
+                      <ref role="3e2p4s" node="6CYahrNyrOH" resolve="msr" />
+                    </node>
+                    <node concept="3e2p4i" id="6CYahrNysBC" role="3e2sqx">
+                      <ref role="3e2p4s" node="6CYahrNyrOD" resolve="ms" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNysBD" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOE" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo68q" resolve="MobileStation" />
+                    <node concept="3e2p4t" id="6CYahrNysBE" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyrOD" resolve="ms" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqG" id="6CYahrNysBF" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOR" />
+                    <ref role="3l_Fsw" to="ytnm:3_uH1jFo6JG" resolve="ms" />
+                    <node concept="3e2p4t" id="6CYahrNysBG" role="3e2sqH">
+                      <ref role="3e2p4s" node="6CYahrNyrOJ" resolve="cms" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNysBH" role="3e2sqy">
+                      <ref role="3e2p4s" node="6CYahrNyrOD" resolve="ms" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqz" id="6CYahrNysBI" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOQ" />
+                    <ref role="3l_wLC" to="ytnm:6CYahrJJPkT" resolve="virtuallyConnectedBSC" />
+                    <node concept="3e2p4t" id="6CYahrNysBJ" role="3e2sqw">
+                      <ref role="3e2p4s" node="6CYahrNyrOH" resolve="msr" />
+                    </node>
+                    <node concept="3e2p4i" id="6CYahrNysBK" role="3e2sqx">
+                      <ref role="3e2p4s" node="6CYahrNyrOF" resolve="bsc" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNysBL" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOG" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo68v" resolve="BaseStationController" />
+                    <node concept="3e2p4t" id="6CYahrNysBM" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyrOF" resolve="bsc" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqz" id="6CYahrNysBN" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrON" />
+                    <ref role="3l_wLC" to="ytnm:3_uH1jFo6JC" resolve="physicalConnections" />
+                    <node concept="3e2p4t" id="6CYahrNysBO" role="3e2sqw">
+                      <ref role="3e2p4s" node="6CYahrNyrOF" resolve="bsc" />
+                    </node>
+                    <node concept="3e2p4i" id="6CYahrNysBP" role="3e2sqx">
+                      <ref role="3e2p4s" node="6CYahrNyrOB" resolve="cbts" />
+                    </node>
+                  </node>
+                  <node concept="3e2qRN" id="6CYahrNysBQ" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOC" />
+                    <ref role="3FOeZz" to="ytnm:3_uH1jFo6J_" resolve="ControlledBTS" />
+                    <node concept="3e2p4t" id="6CYahrNysBR" role="3e2p3R">
+                      <ref role="3e2p4s" node="6CYahrNyrOB" resolve="cbts" />
+                    </node>
+                  </node>
+                  <node concept="3e2sqG" id="6CYahrNysBg" role="3e2PzU">
+                    <ref role="3CfmUi" node="6CYahrNyrOM" />
+                    <ref role="3l_Fsw" to="ytnm:3_uH1jFo6JB" resolve="bts" />
+                    <node concept="3e2p4t" id="6CYahrNysBh" role="3e2sqH">
+                      <ref role="3e2p4s" node="6CYahrNyrOB" resolve="cbts" />
+                    </node>
+                    <node concept="3e2p4t" id="6CYahrNysBi" role="3e2sqy">
+                      <ref role="3e2p4s" node="6CYahrNyrO_" resolve="bts" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eImRa" id="6CYahrNyu6B" role="3eKGHP">
+                  <node concept="3eIm8D" id="6CYahrNyu6C" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNyncK" resolve="bts" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyu6D" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNyncM" resolve="cbts" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyu6E" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNyncO" resolve="ms" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyu6F" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNyncP" resolve="bsc" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyu6G" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNyncT" resolve="msr" />
+                  </node>
+                  <node concept="3eIm8D" id="6CYahrNyu6H" role="3eInz_">
+                    <property role="1yUFiN" value="false" />
+                    <ref role="3eIm8I" node="6CYahrNyncX" resolve="cms" />
+                  </node>
+                </node>
+                <node concept="3eImRP" id="6CYahrNyu6I" role="3eKGHR" />
               </node>
             </node>
           </node>
