@@ -1175,5 +1175,32 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6CYahrNKslK">
+    <ref role="1M2myG" to="uyb6:6CYahrNEYob" resolve="IndexHint" />
+    <node concept="1N5Pfh" id="6CYahrNKsrc" role="1Mr941">
+      <ref role="1N5Vy1" to="uyb6:6CYahrNEYop" resolve="attribute" />
+      <node concept="3dgokm" id="6CYahrNKsuM" role="1N6uqs">
+        <node concept="3clFbS" id="6CYahrNKsuO" role="2VODD2">
+          <node concept="3clFbF" id="6CYahrNKsGW" role="3cqZAp">
+            <node concept="2YIFZM" id="6CYahrNKsGX" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="6CYahrNKuXc" role="37wK5m">
+                <node concept="2OqwBi" id="6CYahrNKusX" role="2Oq$k0">
+                  <node concept="3kakTB" id="6CYahrNKuez" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6CYahrNKuDi" role="2OqNvi">
+                    <ref role="3Tt5mk" to="uyb6:6CYahrNEYor" resolve="type" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="6CYahrNKvG4" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcn:hEwILLM" resolve="getPropertyDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

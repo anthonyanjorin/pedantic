@@ -22,6 +22,9 @@
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -56,6 +59,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -477,6 +481,24 @@
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrNKOq0" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595132102272" />
+      <property role="20kJfa" value="indexedAttr" />
+      <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+      <node concept="t5JxF" id="6CYahrNXq0V" role="lGtFl">
+        <property role="t5JxN" value="Properties used for indexing" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="6CYahrOGMHl" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595147823957" />
+      <property role="20kJfa" value="constant" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrOGMHm" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595147823958" />
+      <property role="20kJfa" value="attrVar" />
+      <ref role="20lvS9" node="7BVCYERGxGP" resolve="Variable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERFuKu">
@@ -2089,6 +2111,49 @@
       <property role="20kJfa" value="sharedFreeVariables" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7BVCYERWzbS" resolve="FreeVariable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6CYahrNEYob">
+    <property role="EcuMT" value="7655601595130570251" />
+    <property role="3GE5qa" value="patterns.common" />
+    <property role="TrG5h" value="IndexHint" />
+    <property role="34LRSv" value="index hint" />
+    <property role="R4oN_" value="Suggest a type and attribute for indexing" />
+    <ref role="1TJDcQ" node="7BVCYERemy6" resolve="QuiltElement" />
+    <node concept="1TJgyj" id="6CYahrNEYop" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595130570265" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrNEYor" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595130570267" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6CYahrOGaBu">
+    <property role="EcuMT" value="7655601595147659742" />
+    <property role="3GE5qa" value="searchplan.operations.objects.typed" />
+    <property role="TrG5h" value="IndexedObject" />
+    <ref role="1TJDcQ" node="7BVCYERWwSo" resolve="TypedObject_F" />
+    <node concept="1TJgyj" id="6CYahrOGbH3" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595147664195" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boundAttrValue" />
+      <ref role="20lvS9" node="7BVCYERWzbR" resolve="BoundVariable" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrOGbH2" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595147664194" />
+      <property role="20kJfa" value="constant" />
+      <ref role="20lvS9" node="2LgBuUe6MDR" resolve="Constant" />
+    </node>
+    <node concept="1TJgyj" id="6CYahrOGnzW" role="1TKVEi">
+      <property role="IQ2ns" value="7655601595147712764" />
+      <property role="20kJfa" value="indexedAttr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
     </node>
   </node>
 </model>
