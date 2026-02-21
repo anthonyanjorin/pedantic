@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="ytnm" ref="r:10f3c145-9958-4e68-81f2-d4aeadc11921(quilter.examples.gsm.structure)" />
-    <import index="yery" ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(models)" />
+    <import index="yery" ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(quilter.tests.gsm.models)" />
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">

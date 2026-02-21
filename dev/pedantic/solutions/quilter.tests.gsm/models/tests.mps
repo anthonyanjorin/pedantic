@@ -10,7 +10,7 @@
   <imports>
     <import index="cvj" ref="r:30fec77b-9141-47aa-865d-77c64dfc1238(patterns)" />
     <import index="ytnm" ref="r:10f3c145-9958-4e68-81f2-d4aeadc11921(quilter.examples.gsm.structure)" />
-    <import index="yery" ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(models)" />
+    <import index="yery" ref="r:000515ff-937f-4b38-b3e8-0aa91dcf3720(quilter.tests.gsm.models)" />
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
   </imports>
   <registry>
