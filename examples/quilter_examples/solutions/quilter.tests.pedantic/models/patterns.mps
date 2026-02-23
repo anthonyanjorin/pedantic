@@ -16,6 +16,9 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
+    <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">
+      <concept id="4928100702460202956" name="pedantic.structure.Description" flags="ng" index="3f6AUQ" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -251,6 +254,7 @@
         <child id="1340109089921471075" name="elements" index="3F$ThY" />
       </concept>
       <concept id="1340109089921471072" name="quilter.structure.Pattern" flags="ng" index="3F$ThX">
+        <child id="4647437687694863999" name="description" index="1EFUQb" />
         <child id="1340109089921503719" name="objects" index="3F$xvU" />
       </concept>
       <concept id="6129037657079778490" name="quilter.structure.Options" flags="ng" index="3SdjJW">
@@ -2009,6 +2013,7 @@
           <node concept="2yiVuq" id="6CYahrPZbfk" role="1FzXqU" />
         </node>
       </node>
+      <node concept="3f6AUQ" id="5qgfvgTKYD_" role="1EFUQb" />
     </node>
     <node concept="3eKGHH" id="6CYahrNKAbP" role="3F$ThY">
       <node concept="3eKGH1" id="6CYahrNET3r" role="3eKGHX">
