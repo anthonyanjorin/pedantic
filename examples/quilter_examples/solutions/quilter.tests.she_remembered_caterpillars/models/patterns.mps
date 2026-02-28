@@ -70,7 +70,7 @@
         <child id="3193225783735496512" name="boundAttrValue" index="2zvbaI" />
         <child id="3193225783735496511" name="boundObject" index="2zvbbh" />
       </concept>
-      <concept id="4853636992445297461" name="quilter.structure.NegativePatternInvocation_B_Star" flags="ng" index="10fyok">
+      <concept id="4853636992445297461" name="quilter.structure.PatternInvocation_B_Star" flags="ng" index="10fyok">
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
       </concept>

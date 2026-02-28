@@ -2156,5 +2156,51 @@
       <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5pPWiKwPfTj">
+    <property role="EcuMT" value="6230150831368633939" />
+    <property role="TrG5h" value="QBooleanType" />
+    <property role="3GE5qa" value="types" />
+    <property role="34LRSv" value="qboolean" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5pPWiKwPfTk" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5pPWiKwV9mw">
+    <property role="EcuMT" value="6230150831370180000" />
+    <property role="TrG5h" value="QStringType" />
+    <property role="3GE5qa" value="types" />
+    <property role="34LRSv" value="qstring" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5pPWiKwV9mx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5pPWiKwV9mG">
+    <property role="EcuMT" value="6230150831370180012" />
+    <property role="TrG5h" value="QIntegerType" />
+    <property role="3GE5qa" value="types" />
+    <property role="34LRSv" value="qint" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5pPWiKwV9mH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5pPWiKwY7Ia">
+    <property role="EcuMT" value="6230150831370959754" />
+    <property role="TrG5h" value="QEnumType" />
+    <property role="3GE5qa" value="types" />
+    <property role="34LRSv" value="qenum" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5pPWiKwY7Ic" role="1TKVEi">
+      <property role="IQ2ns" value="6230150831370959756" />
+      <property role="20kJfa" value="T" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
+    </node>
+    <node concept="PrWs8" id="5pPWiKwY7Ib" role="PzmwI">
+      <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
+    </node>
+  </node>
 </model>
 

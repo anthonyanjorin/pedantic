@@ -245,6 +245,11 @@
     <property role="3GE5qa" value="Metamodel.ClassDiagram" />
     <property role="TrG5h" value="PlantUMLDependencyArrow" />
     <ref role="1TJDcQ" node="5RN9bdWD34q" resolve="PlantUMLConnection" />
+    <node concept="1TJgyi" id="5pPWiKwn0gb" role="1TKVEl">
+      <property role="IQ2nx" value="6230150831360705547" />
+      <property role="TrG5h" value="isDotted" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="9N_2qBjVJ$">
     <property role="EcuMT" value="176647704134269924" />
