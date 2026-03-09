@@ -19,8 +19,6 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="uyb6" ref="r:e40062e2-f107-4d3d-aa75-760bd16e6de6(quilter.structure)" />
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
-    <import index="pxpg" ref="r:5a550369-d6d9-4c89-a89b-1bb748dc20b3(jetbrains.mps.baseLanguage.checkedDots.structure)" />
-    <import index="eqq4" ref="r:4f21a85f-2360-4902-a7db-0bcdaedbbb5c(jetbrains.mps.baseLanguage.checkedDots.behavior)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -1100,7 +1098,7 @@
                   </node>
                   <node concept="1j9C0f" id="1U2aEyEvbdC" role="2OqNvi">
                     <node concept="chp4Y" id="1U2aEyEvbdD" role="3MHPCF">
-                      <ref role="cht4Q" to="uyb6:1ap1xRT2D9w" resolve="Pattern" />
+                      <ref role="cht4Q" to="uyb6:3TenEFB0Aw8" resolve="IPattern" />
                     </node>
                   </node>
                 </node>

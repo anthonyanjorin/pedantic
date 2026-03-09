@@ -2,7 +2,6 @@
 <model ref="r:edf1640e-8344-4fe5-bb1a-aae62edf5602(patterns)">
   <persistence version="9" />
   <languages>
-    <use id="bebb3725-1fda-4e3a-88bb-49e22757d9a8" name="momo" version="0" />
     <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
   </languages>
   <imports>
@@ -60,7 +59,7 @@
         <child id="3193225783735496512" name="boundAttrValue" index="2zvbaI" />
         <child id="3193225783735496511" name="boundObject" index="2zvbbh" />
       </concept>
-      <concept id="4853636992445297461" name="quilter.structure.NegativePatternInvocation_B_Star" flags="ng" index="10fyok">
+      <concept id="4853636992445297461" name="quilter.structure.PatternInvocation_B_Star" flags="ng" index="10fyok">
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
       </concept>

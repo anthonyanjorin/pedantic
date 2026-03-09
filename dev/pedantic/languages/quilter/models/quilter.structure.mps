@@ -36,6 +36,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -112,11 +115,8 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4scChvYcILf" resolve="Parameter" />
     </node>
-    <node concept="PrWs8" id="7BVCYEQSJ9t" role="PzmwI">
-      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
-    </node>
-    <node concept="PrWs8" id="3TenEF$ZFnS" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="3TenEFB0Awc" role="PzmwI">
+      <ref role="PrY4T" node="3TenEFB0Aw8" resolve="IPattern" />
     </node>
   </node>
   <node concept="1TIwiD" id="1ap1xRT2L7x">
@@ -281,7 +281,7 @@
       <property role="IQ2ns" value="8789799326235322523" />
       <property role="20kJfa" value="pattern" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
+      <ref role="20lvS9" node="3TenEFB0Aw8" resolve="IPattern" />
     </node>
     <node concept="1TJgyi" id="4ljD3mIeU0k" role="1TKVEl">
       <property role="IQ2nx" value="4995516962147377172" />
@@ -2235,7 +2235,13 @@
     <property role="TrG5h" value="PatternBinding" />
     <property role="34LRSv" value="pattern binding" />
     <property role="R4oN_" value="Used to bind parameters of a pattern" />
-    <ref role="1TJDcQ" node="1ap1xRT2D9w" resolve="Pattern" />
+    <ref role="1TJDcQ" node="7BVCYERemy6" resolve="QuiltElement" />
+    <node concept="1TJgyj" id="3TenEFB6$1G" role="1TKVEi">
+      <property role="IQ2ns" value="4489629966649671788" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <ref role="20lvS9" to="3ido:4h$8nEbv$Zc" resolve="Description" />
+    </node>
     <node concept="1TJgyj" id="3TenEFxSqlh" role="1TKVEi">
       <property role="IQ2ns" value="4489629966562075985" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2248,6 +2254,9 @@
       <property role="20kJfa" value="pattern" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
+    </node>
+    <node concept="PrWs8" id="3TenEFB0Awd" role="PzmwI">
+      <ref role="PrY4T" node="3TenEFB0Aw8" resolve="IPattern" />
     </node>
   </node>
   <node concept="1TIwiD" id="3TenEFxSqjM">
@@ -2267,6 +2276,17 @@
       <property role="20kJfa" value="parameter" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4scChvYcILf" resolve="Parameter" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3TenEFB0Aw8">
+    <property role="EcuMT" value="4489629966648109064" />
+    <property role="3GE5qa" value="patterns.common" />
+    <property role="TrG5h" value="IPattern" />
+    <node concept="PrWs8" id="3TenEFB0Awa" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3TenEFBuUTb" role="PrDN$">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
 </model>

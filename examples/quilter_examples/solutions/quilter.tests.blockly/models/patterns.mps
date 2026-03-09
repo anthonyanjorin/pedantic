@@ -6,7 +6,6 @@
   </languages>
   <imports>
     <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure)" />
-    <import index="c8ah" ref="r:958b17ec-3350-4fb7-9da2-9daaa865b108(models)" />
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">

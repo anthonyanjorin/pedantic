@@ -39,7 +39,7 @@
     <module reference="bebb3725-1fda-4e3a-88bb-49e22757d9a8(momo)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
-    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="2" />
+    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="3" />
     <module reference="397c5378-edf1-4242-9e3e-4a93cfcb3ce9(quilter.tests.momo)" version="0" />
   </dependencyVersions>
 </solution>

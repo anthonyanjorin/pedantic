@@ -3,14 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="cttk" ref="r:5ff047e0-2953-4750-806a-bdc16824aa89(jetbrains.mps.smodel)" />
-    <import index="qff7" ref="r:2ba2e307-a81d-4a21-9e0b-de3624e2fb83(jetbrains.mps.lang.access.structure)" />
-    <import index="apa6" ref="r:f9d5a2b1-004e-4138-bf2b-916114888196(jetbrains.mps.lang.access.behavior)" />
     <import index="95rv" ref="r:4c66301f-850a-45e7-8b4f-0c1ccd45799f(Blockly.structure)" implicit="true" />
     <import index="rh1t" ref="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" implicit="true" />
   </imports>

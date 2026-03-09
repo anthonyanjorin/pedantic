@@ -4,16 +4,10 @@
   <languages>
     <use id="cb6e6683-7c33-40af-94d4-5d1f5e613c2d" name="quilter" version="2" />
     <use id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic" version="0" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
-    <import index="uyb6" ref="r:e40062e2-f107-4d3d-aa75-760bd16e6de6(quilter.structure)" />
-    <import index="j64v" ref="r:b5ccb96f-2122-4a4c-a290-815d98a2e8b1(patterns)" />
-    <import index="glxn" ref="r:18ef3e9a-3add-433d-ade0-b778409846d4(patterns)" />
     <import index="663s" ref="r:de169ef5-2d5f-4aa6-afb7-48dbd7eb48e0(models)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="1ef906aa-9948-4d71-9acf-933538b34ecf" name="pedantic">

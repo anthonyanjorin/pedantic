@@ -43,7 +43,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="1ef906aa-9948-4d71-9acf-933538b34ecf(pedantic)" version="0" />
     <module reference="e8c53fb6-e3d1-45b8-804f-056de67b4715(plantuml)" version="0" />
-    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="2" />
+    <module reference="cb6e6683-7c33-40af-94d4-5d1f5e613c2d(quilter)" version="3" />
     <module reference="563b8661-a49f-4fda-ad97-911b4bd32744(quilter.examples.sokoban)" version="0" />
     <module reference="bebec50b-5c2a-4699-9ff2-347e14560893(quilter.tests.sokoban)" version="0" />
   </dependencyVersions>

@@ -12,16 +12,8 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="9sqt" ref="r:32cf194a-a47e-4fa4-afaa-56ec4a5ad8c7(pedantic.editor)" />
     <import index="uyb6" ref="r:e40062e2-f107-4d3d-aa75-760bd16e6de6(quilter.structure)" />
-    <import index="ohyq" ref="r:2ae43476-98ce-4354-9a55-d7b44e372d64(jetbrains.mps.lang.editor.table.structure)" />
-    <import index="87b7" ref="r:8cb98139-dde9-48c6-8624-a531b84be2cd(jetbrains.mps.lang.editor.table.editor)" />
-    <import index="n3wi" ref="r:86ce5303-096b-481a-b577-1636d0ef54ad(jetbrains.mps.lang.editor.table.behavior)" />
-    <import index="squ6" ref="r:b60215f1-3d3e-41cc-8321-723ef8eb59dd(jetbrains.mps.lang.editor.table.runtime)" />
     <import index="w8cd" ref="r:32fcfe92-41f9-4524-9710-5ed55459505e(quilter.behavior)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
-    <import index="tp1f" ref="r:00000000-0000-4000-0000-011c8959031f(jetbrains.mps.lang.script.editor)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="3ido" ref="r:79646242-3110-4b19-af35-a491eedf5206(pedantic.structure)" />
-    <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -4661,7 +4653,7 @@
         </node>
         <node concept="l2Vlx" id="3TenEFxSqlz" role="2iSdaV" />
         <node concept="3F1sOY" id="3TenEFxSql$" role="3EZMnx">
-          <ref role="1NtTu8" to="uyb6:41Z0ZgEOaTZ" resolve="description" />
+          <ref role="1NtTu8" to="uyb6:3TenEFB6$1G" resolve="description" />
           <node concept="VechU" id="3TenEFxSql_" role="3F10Kt">
             <property role="Vb096" value="fLwANPr/green" />
           </node>
