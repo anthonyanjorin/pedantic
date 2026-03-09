@@ -5,6 +5,7 @@
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -75,6 +76,14 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
+    </language>
+    <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
+      <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
+      <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
+        <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
+      </concept>
+      <concept id="8974276187400348177" name="jetbrains.mps.lang.access.structure.ExecuteCommandStatement" flags="nn" index="1QHqEO" />
     </language>
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
@@ -264,6 +273,43 @@
               <node concept="2qgKlT" id="7BkFVkOiHWb" role="2OqNvi">
                 <ref role="37wK5l" to="w8cd:4dr_i44Bq1h" resolve="getNrOfMatches" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3TenEFAKT$M">
+    <property role="TrG5h" value="ResolvePattern" />
+    <ref role="2ZfgGC" to="uyb6:3TenEFxSqjF" resolve="PatternBinding" />
+    <node concept="2S6ZIM" id="3TenEFAKT$N" role="2ZfVej">
+      <node concept="3clFbS" id="3TenEFAKT$O" role="2VODD2">
+        <node concept="3clFbF" id="3TenEFAKTFQ" role="3cqZAp">
+          <node concept="Xl_RD" id="3TenEFAKTFP" role="3clFbG">
+            <property role="Xl_RC" value="Resolve Pattern" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3TenEFAKT$P" role="2ZfgGD">
+      <node concept="3clFbS" id="3TenEFAKT$Q" role="2VODD2">
+        <node concept="1QHqEO" id="3TenEFAKUg2" role="3cqZAp">
+          <node concept="1QHqEC" id="3TenEFAKUg3" role="1QHqEI">
+            <node concept="3clFbS" id="3TenEFAKUg4" role="1bW5cS">
+              <node concept="3clFbF" id="3TenEFAKUhn" role="3cqZAp">
+                <node concept="2OqwBi" id="3TenEFAKUuK" role="3clFbG">
+                  <node concept="2Sf5sV" id="3TenEFAKUhm" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3TenEFAKUJi" role="2OqNvi">
+                    <ref role="37wK5l" to="w8cd:3TenEF$ZAUr" resolve="resolve" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3TenEFAPeI_" role="ukAjM">
+            <node concept="1XNTG" id="3TenEFAPeBy" role="2Oq$k0" />
+            <node concept="liA8E" id="3TenEFAPeRf" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
             </node>
           </node>
         </node>

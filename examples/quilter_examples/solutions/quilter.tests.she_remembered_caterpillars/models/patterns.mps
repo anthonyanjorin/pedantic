@@ -70,6 +70,10 @@
         <child id="3193225783735496512" name="boundAttrValue" index="2zvbaI" />
         <child id="3193225783735496511" name="boundObject" index="2zvbbh" />
       </concept>
+      <concept id="5119644000834481231" name="quilter.structure.Parameter" flags="ng" index="2Tf$Po" />
+      <concept id="5119644000839693467" name="quilter.structure.ParameterValue" flags="ng" index="2TzHmc">
+        <reference id="5119644000839693468" name="parameter" index="2TzHmb" />
+      </concept>
       <concept id="4853636992445297461" name="quilter.structure.PatternInvocation_B_Star" flags="ng" index="10fyok">
         <reference id="4853636992447913419" name="invocationConstraint" index="10PwzE" />
         <child id="4853636992468575712" name="computeMatches" index="17$R31" />
@@ -174,6 +178,14 @@
         <child id="8789799326235938337" name="bindings" index="3eImRb" />
         <child id="8789799326235941647" name="ovRefs" index="3eInz_" />
       </concept>
+      <concept id="4489629966562075883" name="quilter.structure.PatternBinding" flags="ng" index="3vFZD1">
+        <reference id="4489629966562075889" name="pattern" index="3vFZDr" />
+        <child id="4489629966562075985" name="paramBindings" index="3vFZJV" />
+      </concept>
+      <concept id="4489629966562075890" name="quilter.structure.ParameterBinding" flags="ng" index="3vFZDo">
+        <reference id="4489629966562075892" name="parameter" index="3vFZDu" />
+        <child id="4489629966562075908" name="value" index="3vFZII" />
+      </concept>
       <concept id="6129037657165144823" name="quilter.structure.Group" flags="ng" index="3Bn9mL">
         <child id="6129037657203473018" name="attributeExps" index="3x_4OW" />
       </concept>
@@ -193,6 +205,7 @@
         <child id="1340109089921471075" name="elements" index="3F$ThY" />
       </concept>
       <concept id="1340109089921471072" name="quilter.structure.Pattern" flags="ng" index="3F$ThX">
+        <child id="5119644000834481230" name="parameters" index="2Tf$Pp" />
         <child id="1340109089921503719" name="objects" index="3F$xvU" />
       </concept>
       <concept id="3214808506370040807" name="quilter.structure.EnumConstant" flags="ng" index="3JyAyE">
@@ -1476,6 +1489,115 @@
   </node>
   <node concept="3F$Th6" id="2MtiOR4bYo5">
     <property role="TrG5h" value="PassingGates" />
+    <node concept="3F$ThX" id="4scChvYXeCo" role="3F$ThY">
+      <property role="TrG5h" value="SpriteCanPassGate" />
+      <node concept="2Tf$Po" id="4scChvYXvaO" role="2Tf$Pp">
+        <property role="TrG5h" value="spriteColour" />
+      </node>
+      <node concept="2Tf$Po" id="4scChvYXvaP" role="2Tf$Pp">
+        <property role="TrG5h" value="gateColour" />
+      </node>
+      <node concept="3F$xvW" id="4scChvYXeCp" role="3F$xvU">
+        <property role="TrG5h" value="sprite" />
+        <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
+        <node concept="3F$xvT" id="4scChvYXeCq" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4scChvYXeC_" resolve="p1" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
+        </node>
+        <node concept="2yiVuw" id="4scChvYXeCr" role="2yiVu7">
+          <node concept="2yiVur" id="4scChvYXeCs" role="1FzXqS">
+            <ref role="2yff0n" to="rkbi:2MtiOR4bPz7" resolve="colour" />
+          </node>
+          <node concept="2yiVuq" id="4scChvYXeCu" role="1FzXqU" />
+          <node concept="2TzHmc" id="4scChvYXeD1" role="1FzXqT">
+            <ref role="2TzHmb" node="4scChvYXvaO" resolve="spriteColour" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4scChvYXeCv" role="3F$xvU">
+        <property role="TrG5h" value="gate" />
+        <ref role="3F$xdl" to="rkbi:2MtiOR4bOZt" resolve="Gate" />
+        <node concept="2yiVuw" id="4scChvYXeCw" role="2yiVu7">
+          <node concept="2yiVur" id="4scChvYXeCx" role="1FzXqS">
+            <ref role="2yff0n" to="rkbi:2MtiOR4bOZU" resolve="colour" />
+          </node>
+          <node concept="2yiVuq" id="4scChvYXeCz" role="1FzXqU" />
+          <node concept="2TzHmc" id="4scChvYXeDf" role="1FzXqT">
+            <ref role="2TzHmb" node="4scChvYXvaP" resolve="gateColour" />
+          </node>
+        </node>
+        <node concept="3F$xvT" id="4scChvYXeC$" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="4scChvYXeC_" resolve="p1" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="4scChvYXeC_" role="3F$xvU">
+        <property role="TrG5h" value="p1" />
+        <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
+      </node>
+    </node>
+    <node concept="3vFZD1" id="3TenEF_Eq6S" role="3F$ThY">
+      <property role="TrG5h" value="GreenSpriteCanPassRedGate1" />
+      <ref role="3vFZDr" node="4scChvYXeCo" resolve="SpriteCanPassGate" />
+      <node concept="3vFZDo" id="3TenEF_Eq6U" role="3vFZJV">
+        <ref role="3vFZDu" node="4scChvYXvaO" resolve="spriteColour" />
+        <node concept="3JyAyE" id="3TenEF_Eq6V" role="3vFZII">
+          <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
+          <ref role="3JICV4" to="rkbi:2MtiOR4bOZP" resolve="GREEN" />
+        </node>
+      </node>
+      <node concept="3vFZDo" id="3TenEF_Eq6W" role="3vFZJV">
+        <ref role="3vFZDu" node="4scChvYXvaP" resolve="gateColour" />
+        <node concept="3JyAyE" id="3TenEF_Eq6X" role="3vFZII">
+          <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
+          <ref role="3JICV4" to="rkbi:2MtiOR4bOZK" resolve="RED" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="3TenEFAVDlx" role="3F$xvU">
+        <property role="TrG5h" value="sprite" />
+        <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
+        <node concept="3F$xvT" id="3TenEFAVDly" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="3TenEFAVDlH" resolve="p1" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
+        </node>
+        <node concept="2yiVuw" id="3TenEFAVDlz" role="2yiVu7">
+          <node concept="2yiVur" id="3TenEFAVDl$" role="1FzXqS">
+            <ref role="2yff0n" to="rkbi:2MtiOR4bPz7" resolve="colour" />
+          </node>
+          <node concept="2yiVuq" id="3TenEFAVDl_" role="1FzXqU" />
+          <node concept="3JyAyE" id="3TenEFAVDlI" role="1FzXqT">
+            <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
+            <ref role="3JICV4" to="rkbi:2MtiOR4bOZP" resolve="GREEN" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F$xvW" id="3TenEFAVDlB" role="3F$xvU">
+        <property role="TrG5h" value="gate" />
+        <ref role="3F$xdl" to="rkbi:2MtiOR4bOZt" resolve="Gate" />
+        <node concept="2yiVuw" id="3TenEFAVDlC" role="2yiVu7">
+          <node concept="2yiVur" id="3TenEFAVDlD" role="1FzXqS">
+            <ref role="2yff0n" to="rkbi:2MtiOR4bOZU" resolve="colour" />
+          </node>
+          <node concept="2yiVuq" id="3TenEFAVDlE" role="1FzXqU" />
+          <node concept="3JyAyE" id="3TenEFAVDlJ" role="1FzXqT">
+            <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
+            <ref role="3JICV4" to="rkbi:2MtiOR4bOZK" resolve="RED" />
+          </node>
+        </node>
+        <node concept="3F$xvT" id="3TenEFAVDlG" role="3F$xvO">
+          <property role="TrG5h" value="_" />
+          <ref role="3F$xdr" node="3TenEFAVDlH" resolve="p1" />
+          <ref role="3F$xdF" to="rkbi:2MtiOR4bOZV" resolve="on" />
+        </node>
+      </node>
+      <node concept="3F$xvW" id="3TenEFAVDlH" role="3F$xvU">
+        <property role="TrG5h" value="p1" />
+        <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
+      </node>
+    </node>
     <node concept="3F$ThX" id="2MtiOR4bYo7" role="3F$ThY">
       <property role="TrG5h" value="RedSpriteCanPassBlueGate" />
       <node concept="3F$xvW" id="2MtiOR4bYo9" role="3F$xvU">
