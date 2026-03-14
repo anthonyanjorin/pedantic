@@ -1200,5 +1200,74 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3qg4h8eOu15">
+    <property role="3GE5qa" value="patterns.attributes.values" />
+    <ref role="1M2myG" to="uyb6:4scChvYwBir" resolve="ParameterValue" />
+    <node concept="1N5Pfh" id="3qg4h8eOu4n" role="1Mr941">
+      <ref role="1N5Vy1" to="uyb6:4scChvYwBis" resolve="parameter" />
+      <node concept="3dgokm" id="3qg4h8eOu9V" role="1N6uqs">
+        <node concept="3clFbS" id="3qg4h8eOu9W" role="2VODD2">
+          <node concept="3clFbF" id="3qg4h8eOuiO" role="3cqZAp">
+            <node concept="2YIFZM" id="3qg4h8eOuiQ" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="3qg4h8eOuiR" role="37wK5m">
+                <node concept="2OqwBi" id="3qg4h8eOuiS" role="2Oq$k0">
+                  <node concept="2rP1CM" id="3qg4h8eOuiT" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3qg4h8eOuiU" role="2OqNvi">
+                    <node concept="1xMEDy" id="3qg4h8eOuiV" role="1xVPHs">
+                      <node concept="chp4Y" id="3qg4h8eOuiW" role="ri$Ld">
+                        <ref role="cht4Q" to="uyb6:1ap1xRT2D9w" resolve="Pattern" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="3qg4h8eOuiX" role="2OqNvi">
+                  <ref role="3TtcxE" to="uyb6:4scChvYcILe" resolve="parameters" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3qg4h8eOxyx">
+    <property role="3GE5qa" value="patterns" />
+    <ref role="1M2myG" to="uyb6:3TenEFxSqjM" resolve="ParameterBinding" />
+    <node concept="1N5Pfh" id="3qg4h8eOxyy" role="1Mr941">
+      <ref role="1N5Vy1" to="uyb6:3TenEFxSqjO" resolve="parameter" />
+      <node concept="3dgokm" id="3qg4h8eOx_z" role="1N6uqs">
+        <node concept="3clFbS" id="3qg4h8eOx_$" role="2VODD2">
+          <node concept="3clFbF" id="3qg4h8eOxHV" role="3cqZAp">
+            <node concept="2YIFZM" id="3qg4h8eOxHW" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="3qg4h8eOyHw" role="37wK5m">
+                <node concept="2OqwBi" id="3qg4h8eOxHX" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3qg4h8eOxHY" role="2Oq$k0">
+                    <node concept="2rP1CM" id="3qg4h8eOxHZ" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="3qg4h8eOxI0" role="2OqNvi">
+                      <node concept="1xMEDy" id="3qg4h8eOxI1" role="1xVPHs">
+                        <node concept="chp4Y" id="3qg4h8eOxI2" role="ri$Ld">
+                          <ref role="cht4Q" to="uyb6:3TenEFxSqjF" resolve="PatternBinding" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="3qg4h8eOysC" role="2OqNvi">
+                    <ref role="3Tt5mk" to="uyb6:3TenEFxSqjL" resolve="pattern" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="3qg4h8eOz19" role="2OqNvi">
+                  <ref role="3TtcxE" to="uyb6:4scChvYcILe" resolve="parameters" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

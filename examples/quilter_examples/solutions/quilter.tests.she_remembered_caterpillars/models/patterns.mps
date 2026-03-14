@@ -793,56 +793,78 @@
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
       </node>
     </node>
-    <node concept="3F$ThX" id="2MtiOR4bSmA" role="3F$ThY">
+    <node concept="3vFZD1" id="3qg4h8eOxyk" role="3F$ThY">
       <property role="TrG5h" value="GreenSpriteCanCrossBlueBridge" />
-      <node concept="3F$xvW" id="2MtiOR4bSmB" role="3F$xvU">
+      <ref role="3vFZDr" node="3qg4h8eOtkY" resolve="SpriteCanCrossBridge" />
+      <node concept="3vFZDo" id="3qg4h8eOZAp" role="3vFZJV">
+        <ref role="3vFZDu" node="3qg4h8eOtl0" resolve="spriteColor" />
+        <node concept="3JyAyE" id="3qg4h8ePMHn" role="3vFZII">
+          <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
+          <ref role="3JICV4" to="rkbi:2MtiOR4bOZP" resolve="GREEN" />
+        </node>
+      </node>
+      <node concept="3vFZDo" id="3qg4h8eOZAI" role="3vFZJV">
+        <ref role="3vFZDu" node="3qg4h8eOtl1" resolve="bridgeColor" />
+        <node concept="3JyAyE" id="3qg4h8eOZAK" role="3vFZII">
+          <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
+          <ref role="3JICV4" to="rkbi:2MtiOR4bOZM" resolve="BLUE" />
+        </node>
+      </node>
+    </node>
+    <node concept="3F$ThX" id="3qg4h8eOtkY" role="3F$ThY">
+      <property role="TrG5h" value="SpriteCanCrossBridge" />
+      <node concept="3F$xvW" id="3qg4h8eOtl2" role="3F$xvU">
         <property role="TrG5h" value="sprite" />
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZx" resolve="Sprite" />
-        <node concept="3F$xvT" id="2MtiOR4bSmC" role="3F$xvO">
+        <node concept="3F$xvT" id="3qg4h8eOtl3" role="3F$xvO">
           <property role="TrG5h" value="_" />
           <ref role="3F$xdF" to="rkbi:2MtiOR4bPyk" resolve="on" />
-          <ref role="3F$xdr" node="2MtiOR4bSmJ" resolve="platform1" />
+          <ref role="3F$xdr" node="3qg4h8eOtlf" resolve="platform1" />
         </node>
-        <node concept="2yiVuw" id="41Z0ZgGJChM" role="2yiVu7">
-          <node concept="2yiVur" id="41Z0ZgGJChN" role="1FzXqS">
+        <node concept="2yiVuw" id="3qg4h8eOtl4" role="2yiVu7">
+          <node concept="2yiVur" id="3qg4h8eOtl5" role="1FzXqS">
             <ref role="2yff0n" to="rkbi:2MtiOR4bPz7" resolve="colour" />
           </node>
-          <node concept="2yiVuq" id="41Z0ZgGJChP" role="1FzXqU" />
-          <node concept="3JyAyE" id="41Z0ZgGJChR" role="1FzXqT">
-            <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
-            <ref role="3JICV4" to="rkbi:2MtiOR4bOZP" resolve="GREEN" />
+          <node concept="2yiVuq" id="3qg4h8eOtl6" role="1FzXqU" />
+          <node concept="2TzHmc" id="3qg4h8eOtlt" role="1FzXqT">
+            <ref role="2TzHmb" node="3qg4h8eOtl0" resolve="spriteColor" />
           </node>
         </node>
       </node>
-      <node concept="3F$xvW" id="2MtiOR4bSmD" role="3F$xvU">
+      <node concept="3F$xvW" id="3qg4h8eOtl8" role="3F$xvU">
         <property role="TrG5h" value="bridge" />
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZs" resolve="Bridge" />
-        <node concept="2yiVuw" id="41Z0ZgGJChT" role="2yiVu7">
-          <node concept="2yiVur" id="41Z0ZgGJChU" role="1FzXqS">
+        <node concept="2yiVuw" id="3qg4h8eOtl9" role="2yiVu7">
+          <node concept="2yiVur" id="3qg4h8eOtla" role="1FzXqS">
             <ref role="2yff0n" to="rkbi:2MtiOR4bOZQ" resolve="colour" />
           </node>
-          <node concept="2yiVuq" id="41Z0ZgGJChV" role="1FzXqU" />
-          <node concept="3JyAyE" id="41Z0ZgGJChW" role="1FzXqT">
-            <ref role="3JICV5" to="rkbi:2MtiOR4bOZJ" resolve="COLOUR" />
-            <ref role="3JICV4" to="rkbi:2MtiOR4bOZM" resolve="BLUE" />
+          <node concept="2yiVuq" id="3qg4h8eOtlb" role="1FzXqU" />
+          <node concept="2TzHmc" id="3qg4h8eOtlF" role="1FzXqT">
+            <ref role="2TzHmb" node="3qg4h8eOtl1" resolve="bridgeColor" />
           </node>
         </node>
-        <node concept="3F$xvT" id="2MtiOR4eYVz" role="3F$xvO">
+        <node concept="3F$xvT" id="3qg4h8eOtld" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR4bSmJ" resolve="platform1" />
+          <ref role="3F$xdr" node="3qg4h8eOtlf" resolve="platform1" />
         </node>
-        <node concept="3F$xvT" id="2MtiOR4eYV$" role="3F$xvO">
+        <node concept="3F$xvT" id="3qg4h8eOtle" role="3F$xvO">
           <property role="TrG5h" value="_" />
-          <ref role="3F$xdr" node="2MtiOR4bSmK" resolve="platform2" />
+          <ref role="3F$xdr" node="3qg4h8eOtlg" resolve="platform2" />
         </node>
       </node>
-      <node concept="3F$xvW" id="2MtiOR4bSmJ" role="3F$xvU">
+      <node concept="3F$xvW" id="3qg4h8eOtlf" role="3F$xvU">
         <property role="TrG5h" value="platform1" />
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
       </node>
-      <node concept="3F$xvW" id="2MtiOR4bSmK" role="3F$xvU">
+      <node concept="3F$xvW" id="3qg4h8eOtlg" role="3F$xvU">
         <property role="TrG5h" value="platform2" />
         <ref role="3F$xdl" to="rkbi:2MtiOR4bOZo" resolve="Platform" />
+      </node>
+      <node concept="2Tf$Po" id="3qg4h8eOtl0" role="2Tf$Pp">
+        <property role="TrG5h" value="spriteColor" />
+      </node>
+      <node concept="2Tf$Po" id="3qg4h8eOtl1" role="2Tf$Pp">
+        <property role="TrG5h" value="bridgeColor" />
       </node>
     </node>
     <node concept="3F$ThX" id="2MtiOR4bSn5" role="3F$ThY">
