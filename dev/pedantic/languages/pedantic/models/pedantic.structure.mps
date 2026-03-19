@@ -78,7 +78,7 @@
     <property role="EcuMT" value="4928100702460363394" />
     <property role="3GE5qa" value="Description" />
     <property role="TrG5h" value="PublishableReference" />
-    <property role="R4oN_" value="Refererence a domain, report, or scenario" />
+    <property role="R4oN_" value="Reference a domain, report, or scenario" />
     <property role="34LRSv" value="§" />
     <ref role="1TJDcQ" node="4h$8nEbw52j" resolve="NormalText" />
     <node concept="1TJgyj" id="4h$8nEbwca3" role="1TKVEi">
