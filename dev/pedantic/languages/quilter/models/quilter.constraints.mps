@@ -1269,5 +1269,33 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="36uX$O1jC6T">
+    <property role="3GE5qa" value="patterns.common" />
+    <ref role="1M2myG" to="uyb6:36uX$NYMlpV" resolve="PatternRefExpression" />
+    <node concept="1N5Pfh" id="36uX$O1jC6U" role="1Mr941">
+      <ref role="1N5Vy1" to="uyb6:36uX$O1gCJn" resolve="entryPoint" />
+      <node concept="3dgokm" id="36uX$O1jCa5" role="1N6uqs">
+        <node concept="3clFbS" id="36uX$O1jCa7" role="2VODD2">
+          <node concept="3clFbF" id="36uX$O1jCtB" role="3cqZAp">
+            <node concept="2YIFZM" id="36uX$O1jDD$" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="36uX$O1jD7G" role="37wK5m">
+                <node concept="2OqwBi" id="36uX$O1jCEh" role="2Oq$k0">
+                  <node concept="3kakTB" id="36uX$O1jCtA" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="36uX$O1jCPy" role="2OqNvi">
+                    <ref role="3Tt5mk" to="uyb6:36uX$NYMQxo" resolve="pattern" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="36uX$O1jDpU" role="2OqNvi">
+                  <ref role="37wK5l" to="w8cd:3TenEFB_$oX" resolve="getObjects" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

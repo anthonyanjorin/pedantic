@@ -2289,5 +2289,54 @@
       <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
     </node>
   </node>
+  <node concept="1TIwiD" id="36uX$NYMlpV">
+    <property role="EcuMT" value="3575565964731307643" />
+    <property role="3GE5qa" value="patterns.common" />
+    <property role="TrG5h" value="PatternRefExpression" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="36uX$O0hCmU" role="1TKVEi">
+      <property role="IQ2ns" value="3575565964756288954" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="context" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="36uX$NYMQxo" role="1TKVEi">
+      <property role="IQ2ns" value="3575565964731443288" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
+    </node>
+    <node concept="1TJgyj" id="36uX$O1gCJn" role="1TKVEi">
+      <property role="IQ2ns" value="3575565964772805591" />
+      <property role="20kJfa" value="entryPoint" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2L7x" resolve="Object" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="36uX$O0xgkN">
+    <property role="EcuMT" value="3575565964760384819" />
+    <property role="3GE5qa" value="patterns.common" />
+    <property role="TrG5h" value="SingleEntryPointPattern" />
+    <ref role="1TJDcQ" node="7BVCYERemy6" resolve="QuiltElement" />
+    <node concept="1TJgyj" id="36uX$O0xhbq" role="1TKVEi">
+      <property role="IQ2ns" value="3575565964760388314" />
+      <property role="20kJfa" value="entryPoint" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="36uX$O0Fxx4" role="1TKVEi">
+      <property role="IQ2ns" value="3575565964763076676" />
+      <property role="20kJfa" value="pattern" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2D9w" resolve="Pattern" />
+    </node>
+    <node concept="1TJgyj" id="36uX$O1jHwP" role="1TKVEi">
+      <property role="IQ2ns" value="3575565964773611573" />
+      <property role="20kJfa" value="object" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1ap1xRT2L7x" resolve="Object" />
+    </node>
+  </node>
 </model>
 
