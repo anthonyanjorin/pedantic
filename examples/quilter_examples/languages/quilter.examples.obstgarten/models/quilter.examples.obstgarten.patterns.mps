@@ -53,7 +53,7 @@
       </node>
     </node>
     <node concept="3F$ThX" id="36uX$O1g_6S" role="3F$ThY">
-      <property role="TrG5h" value="FruitInBasket" />
+      <property role="TrG5h" value="FruitsInBasket" />
       <node concept="3F$xvW" id="36uX$O1g_6U" role="3F$xvU">
         <property role="TrG5h" value="basket" />
         <ref role="3F$xdl" to="5e0r:7BVCYER1N5f" resolve="FruitBasket" />
