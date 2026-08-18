@@ -417,6 +417,9 @@
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1143511969223" name="jetbrains.mps.lang.smodel.structure.Node_GetPrevSiblingOperation" flags="nn" index="YBYNd" />
       <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
+      <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
+        <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
       <concept id="4124388153790980106" name="jetbrains.mps.lang.smodel.structure.Reference_GetTargetOperation" flags="nn" index="2ZHEkA" />
       <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
         <reference id="1240170836027" name="enum" index="2ZWj4r" />
@@ -35625,6 +35628,84 @@
         <ref role="ehGHo" to="uyb6:36uX$O0xgkN" resolve="SingleEntryPointPattern" />
       </node>
       <node concept="3Tm1VV" id="36uX$O0FE2Z" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="jb_S4Ah0WI">
+    <property role="3GE5qa" value="matches" />
+    <ref role="13h7C2" to="uyb6:7BVCYERgGOU" resolve="Binding" />
+    <node concept="13hLZK" id="jb_S4Ah0WJ" role="13h7CW">
+      <node concept="3clFbS" id="jb_S4Ah0WK" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="jb_S4Ah0X1" role="13h7CS">
+      <property role="TrG5h" value="transformToPlantUML" />
+      <ref role="13i0hy" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+      <node concept="3clFbS" id="jb_S4Ah0X4" role="3clF47">
+        <node concept="3clFbJ" id="jb_S4Am0NS" role="3cqZAp">
+          <node concept="3clFbS" id="jb_S4Am0NU" role="3clFbx">
+            <node concept="3cpWs6" id="jb_S4Ah4Hc" role="3cqZAp">
+              <node concept="2OqwBi" id="jb_S4Ah4TO" role="3cqZAk">
+                <node concept="1PxgMI" id="jb_S4Am3$p" role="2Oq$k0">
+                  <property role="1BlNFB" value="true" />
+                  <node concept="chp4Y" id="jb_S4Am3AH" role="3oSUPX">
+                    <ref role="cht4Q" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+                  </node>
+                  <node concept="2OqwBi" id="jb_S4Am2P6" role="1m5AlR">
+                    <node concept="13iPFW" id="jb_S4Am2cE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="jb_S4Am332" role="2OqNvi">
+                      <ref role="3Tt5mk" to="uyb6:7BVCYERpYxW" resolve="target" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="jb_S4Ah51K" role="2OqNvi">
+                  <ref role="37wK5l" to="lsyl:7G28cbuofR4" resolve="transformToPlantUML" />
+                  <node concept="37vLTw" id="jb_S4Ah572" role="37wK5m">
+                    <ref role="3cqZAo" node="jb_S4Ah0Xl" resolve="showMore" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="jb_S4AlZUe" role="3clFbw">
+            <node concept="2OqwBi" id="jb_S4AlZcC" role="2Oq$k0">
+              <node concept="2OqwBi" id="jb_S4Ah4rL" role="2Oq$k0">
+                <node concept="13iPFW" id="jb_S4Ah4jc" role="2Oq$k0" />
+                <node concept="3TrEf2" id="jb_S4Ah4C0" role="2OqNvi">
+                  <ref role="3Tt5mk" to="uyb6:7BVCYERpYxW" resolve="target" />
+                </node>
+              </node>
+              <node concept="2yIwOk" id="jb_S4AlZBb" role="2OqNvi" />
+            </node>
+            <node concept="2Zo12i" id="jb_S4Am0vO" role="2OqNvi">
+              <node concept="chp4Y" id="jb_S4Am0E4" role="2Zo12j">
+                <ref role="cht4Q" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="jb_S4Ah5aC" role="3cqZAp">
+          <node concept="2YIFZM" id="jb_S4AhfuV" role="3cqZAk">
+            <ref role="37wK5l" to="lsyl:5RN9bdVCh0K" resolve="transformNode" />
+            <ref role="1Pybhc" to="lsyl:5RN9bdVCgZl" resolve="ModelToPlantUMLTransformation" />
+            <node concept="2OqwBi" id="jb_S4AlWga" role="37wK5m">
+              <node concept="13iPFW" id="jb_S4Ahfye" role="2Oq$k0" />
+              <node concept="3TrEf2" id="jb_S4AlW_H" role="2OqNvi">
+                <ref role="3Tt5mk" to="uyb6:7BVCYERpYxW" resolve="target" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="jb_S4AhgzG" role="37wK5m">
+              <ref role="3cqZAo" node="jb_S4Ah0Xl" resolve="showMore" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="jb_S4Ah0Xl" role="3clF46">
+        <property role="TrG5h" value="showMore" />
+        <node concept="10P_77" id="jb_S4Ah0Xm" role="1tU5fm" />
+      </node>
+      <node concept="3Tqbb2" id="jb_S4Ah0Xn" role="3clF45">
+        <ref role="ehGHo" to="9u6h:9N_2qBjWdC" resolve="PlantUMLDiagram" />
+      </node>
+      <node concept="3Tm1VV" id="jb_S4Ah0Xo" role="1B3o_S" />
     </node>
   </node>
 </model>

@@ -421,6 +421,9 @@
       <property role="TrG5h" value="excludeFromInjectivityCheck" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="jb_S4Ah0WH" role="PzmwI">
+      <ref role="PrY4T" to="9u6h:7G28cbunW$9" resolve="PlantUMLTransformation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7BVCYERgGSv">
     <property role="EcuMT" value="8789799326235938335" />
