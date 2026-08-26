@@ -10402,9 +10402,13 @@
           <node concept="2OqwBi" id="4ljD3mID_tn" role="3clFbG">
             <node concept="2OqwBi" id="2tbV4VNEMoN" role="2Oq$k0">
               <node concept="2OqwBi" id="4ljD3mIDhTA" role="2Oq$k0">
-                <node concept="2OqwBi" id="4ljD3mIDhpE" role="2Oq$k0">
-                  <node concept="13iPFW" id="4ljD3mIDhbC" role="2Oq$k0" />
-                  <node concept="I4A8Y" id="4ljD3mIDhGu" role="2OqNvi" />
+                <node concept="2OqwBi" id="6cv3abEK7EC" role="2Oq$k0">
+                  <node concept="37vLTw" id="6cv3abEK7kI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="41Z0ZgCe6X1" resolve="context" />
+                  </node>
+                  <node concept="liA8E" id="6cv3abEK8fU" role="2OqNvi">
+                    <ref role="37wK5l" node="6cv3abEJrEK" resolve="getScope" />
+                  </node>
                 </node>
                 <node concept="1j9C0f" id="4ljD3mIDlHI" role="2OqNvi">
                   <node concept="25Kdxt" id="4ljD3mIDwhQ" role="3MHPCF">
@@ -21011,9 +21015,13 @@
             <node concept="2qgKlT" id="2MtiOR2jpA5" role="2OqNvi">
               <ref role="37wK5l" node="2tbV4VNJByU" resolve="updatePreMatchAndExecute" />
               <node concept="2ShNRf" id="6CYahrQNX3j" role="37wK5m">
-                <node concept="HV5vD" id="6CYahrQNXNf" role="2ShVmc">
+                <node concept="1pGfFk" id="6cv3abENiDw" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="6CYahrORGtF" resolve="MatchIndex" />
+                  <ref role="37wK5l" node="6cv3abEKEHQ" resolve="MatchIndex" />
+                  <node concept="2OqwBi" id="6cv3abENiRr" role="37wK5m">
+                    <node concept="13iPFW" id="6cv3abENiDv" role="2Oq$k0" />
+                    <node concept="I4A8Y" id="6cv3abENjcl" role="2OqNvi" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -25764,7 +25772,24 @@
       </node>
       <node concept="3Tm1VV" id="6CYahrOXtDl" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="6CYahrOXiPp" role="jymVt" />
+    <node concept="2tJIrI" id="6cv3abEJbzl" role="jymVt" />
+    <node concept="3clFb_" id="6cv3abEJrEK" role="jymVt">
+      <property role="TrG5h" value="getScope" />
+      <node concept="3clFbS" id="6cv3abEJrEN" role="3clF47">
+        <node concept="3cpWs6" id="6cv3abEJznm" role="3cqZAp">
+          <node concept="2OqwBi" id="6cv3abEJEjp" role="3cqZAk">
+            <node concept="338YkY" id="6cv3abEJAng" role="2Oq$k0">
+              <ref role="338YkT" node="6CYahrORamp" resolve="matchIndex" />
+            </node>
+            <node concept="2S8uIT" id="6cv3abEK23s" role="2OqNvi">
+              <ref role="2S8YL0" node="6cv3abEJOxl" resolve="modelAsScope" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6cv3abEJmXg" role="1B3o_S" />
+      <node concept="H_c77" id="6cv3abEKg4t" role="3clF45" />
+    </node>
     <node concept="3Tm1VV" id="41Z0ZgB2suY" role="1B3o_S" />
   </node>
   <node concept="13h7C7" id="41Z0ZgFWoQd">
@@ -33311,6 +33336,68 @@
   <node concept="312cEu" id="6CYahrORGtF">
     <property role="3GE5qa" value="searchplan" />
     <property role="TrG5h" value="MatchIndex" />
+    <node concept="2RhdJD" id="6cv3abEJOxl" role="jymVt">
+      <property role="TrG5h" value="modelAsScope" />
+      <property role="2RkwnN" value="modelAsScope" />
+      <node concept="3Tm1VV" id="6cv3abEJOxs" role="1B3o_S" />
+      <node concept="2RoN1w" id="6cv3abEKCX7" role="2RnVtd">
+        <node concept="3wEZqW" id="6cv3abEKCXs" role="3wFrgM" />
+        <node concept="3xqBd$" id="6cv3abEKCXL" role="3xrYvX">
+          <node concept="3Tm6S6" id="6cv3abEKCXM" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="6cv3abEJPDu" role="2RkE6I">
+        <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6cv3abEJK_D" role="jymVt" />
+    <node concept="3clFbW" id="6cv3abEKEHQ" role="jymVt">
+      <node concept="3cqZAl" id="6cv3abEKEHR" role="3clF45" />
+      <node concept="3clFbS" id="6cv3abEKEHT" role="3clF47">
+        <node concept="3clFbF" id="6cv3abEKGqq" role="3cqZAp">
+          <node concept="37vLTI" id="6cv3abEKHha" role="3clFbG">
+            <node concept="37vLTw" id="6cv3abEKHp3" role="37vLTx">
+              <ref role="3cqZAo" node="6cv3abEKGi$" resolve="modelAsScope" />
+            </node>
+            <node concept="2OqwBi" id="6cv3abEKGxQ" role="37vLTJ">
+              <node concept="Xjq3P" id="6cv3abEKGqp" role="2Oq$k0" />
+              <node concept="2S8uIT" id="6cv3abEKGOT" role="2OqNvi">
+                <ref role="2S8YL0" node="6cv3abEJOxl" resolve="modelAsScope" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6cv3abENl8d" role="3cqZAp">
+          <node concept="3clFbS" id="6cv3abENl8f" role="3clFbx">
+            <node concept="YS8fn" id="6cv3abENmqj" role="3cqZAp">
+              <node concept="2ShNRf" id="6cv3abENmwR" role="YScLw">
+                <node concept="1pGfFk" id="6cv3abENp69" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                  <node concept="Xl_RD" id="6cv3abENpeB" role="37wK5m">
+                    <property role="Xl_RC" value="Your scope for pattern matching cannot be null." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="17R0WA" id="6cv3abENmbF" role="3clFbw">
+            <node concept="10Nm6u" id="6cv3abENmiH" role="3uHU7w" />
+            <node concept="37vLTw" id="6cv3abENli1" role="3uHU7B">
+              <ref role="3cqZAo" node="6cv3abEKGi$" resolve="modelAsScope" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6cv3abEKEHU" role="1B3o_S" />
+      <node concept="37vLTG" id="6cv3abEKGi$" role="3clF46">
+        <property role="TrG5h" value="modelAsScope" />
+        <node concept="3uibUv" id="6cv3abEKGiz" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6cv3abEKD2u" role="jymVt" />
     <node concept="312cEg" id="6CYahrOTkLv" role="jymVt">
       <property role="TrG5h" value="subIndexes" />
       <node concept="3Tm6S6" id="6CYahrOTkFz" role="1B3o_S" />
@@ -35453,9 +35540,18 @@
             <node concept="2qgKlT" id="3rYa6KI2qN4" role="2OqNvi">
               <ref role="37wK5l" node="4dr_i44BUZh" resolve="recomputeCSPAndExecute" />
               <node concept="2ShNRf" id="6CYahrQNZ05" role="37wK5m">
-                <node concept="HV5vD" id="6CYahrQNZXy" role="2ShVmc">
+                <node concept="1pGfFk" id="6cv3abENgto" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="HV5vE" node="6CYahrORGtF" resolve="MatchIndex" />
+                  <ref role="37wK5l" node="6cv3abEKEHQ" resolve="MatchIndex" />
+                  <node concept="2OqwBi" id="6cv3abENhQm" role="37wK5m">
+                    <node concept="2OqwBi" id="6cv3abENgQh" role="2Oq$k0">
+                      <node concept="13iPFW" id="6cv3abENgtn" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6cv3abENhvv" role="2OqNvi">
+                        <ref role="3Tt5mk" to="uyb6:36uX$O0xhbq" resolve="entryPoint" />
+                      </node>
+                    </node>
+                    <node concept="I4A8Y" id="6cv3abENi71" role="2OqNvi" />
+                  </node>
                 </node>
               </node>
             </node>

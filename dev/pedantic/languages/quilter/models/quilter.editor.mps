@@ -99,6 +99,7 @@
       </concept>
       <concept id="701160265283677816" name="jetbrains.mps.lang.editor.structure.TransparentStyleSheetItem" flags="ln" index="3noiJN" />
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
+      <concept id="7580468736840446506" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_model" flags="nn" index="1rpKSd" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="9122903797336200704" name="jetbrains.mps.lang.editor.structure.ApplyStyleClassCondition" flags="lg" index="1uO$qF">
         <child id="9122903797336200706" name="query" index="1uO$qD" />
@@ -168,9 +169,6 @@
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
-      </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -1164,9 +1162,10 @@
                 <node concept="2qgKlT" id="2tbV4VNyPnu" role="2OqNvi">
                   <ref role="37wK5l" to="w8cd:2tbV4VNJByU" resolve="updatePreMatchAndExecute" />
                   <node concept="2ShNRf" id="6CYahrQNTji" role="37wK5m">
-                    <node concept="HV5vD" id="6CYahrQNTO1" role="2ShVmc">
+                    <node concept="1pGfFk" id="6cv3abENigI" role="2ShVmc">
                       <property role="373rjd" value="true" />
-                      <ref role="HV5vE" to="w8cd:6CYahrORGtF" resolve="MatchIndex" />
+                      <ref role="37wK5l" to="w8cd:6cv3abEKEHQ" resolve="MatchIndex" />
+                      <node concept="1rpKSd" id="6cv3abENiB7" role="37wK5m" />
                     </node>
                   </node>
                 </node>
