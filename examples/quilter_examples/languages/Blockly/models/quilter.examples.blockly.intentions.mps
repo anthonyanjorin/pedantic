@@ -10,6 +10,9 @@
     <import index="rh1t" ref="r:2e1923cd-c25d-40c6-9a1b-389908db8583(Blockly.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -58,7 +61,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -104,7 +106,7 @@
         <node concept="3clFbF" id="Z8IC1HiBSd" role="3cqZAp">
           <node concept="2OqwBi" id="Z8IC1HiC2O" role="3clFbG">
             <node concept="2Sf5sV" id="Z8IC1HiBSc" role="2Oq$k0" />
-            <node concept="2qgKlT" id="Z8IC1HiCei" role="2OqNvi">
+            <node concept="3zqWPK" id="2QByIsz2DXM" role="2OqNvi">
               <ref role="37wK5l" to="rh1t:Z8IC1HiA1o" resolve="showWorld" />
             </node>
           </node>

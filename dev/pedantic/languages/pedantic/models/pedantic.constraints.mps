@@ -20,6 +20,9 @@
     <import index="8nwy" ref="r:199035ff-8a3c-4214-b339-160bac24caf2(pedantic.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -108,7 +111,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -179,7 +181,7 @@
               <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
               <node concept="2OqwBi" id="2WTnVpOsQYE" role="37wK5m">
-                <node concept="2qgKlT" id="2WTnVpOsQYC" role="2OqNvi">
+                <node concept="3zqWPK" id="2QByIsz2DIr" role="2OqNvi">
                   <ref role="37wK5l" to="8nwy:7up8nGAVeEK" resolve="getAllServices" />
                 </node>
                 <node concept="2OqwBi" id="7up8nGBdp4Z" role="2Oq$k0">
@@ -288,7 +290,7 @@
                     <ref role="3Tt5mk" to="3ido:5dCxDLPlQu7" resolve="self" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="q7KOLeu041" role="2OqNvi">
+                <node concept="3zqWPK" id="2QByIsz2DIt" role="2OqNvi">
                   <ref role="37wK5l" to="8nwy:7up8nGAVeEK" resolve="getAllServices" />
                 </node>
               </node>
@@ -469,7 +471,7 @@
                   <node concept="Jnkvi" id="2WTnVpPEzxw" role="2Oq$k0">
                     <ref role="1M0zk5" node="2WTnVpPEyPw" resolve="sm" />
                   </node>
-                  <node concept="2qgKlT" id="2WTnVpPF6tn" role="2OqNvi">
+                  <node concept="3zqWPK" id="2QByIsz2DIv" role="2OqNvi">
                     <ref role="37wK5l" to="8nwy:2WTnVpPEEaw" resolve="getAllStates" />
                   </node>
                 </node>
@@ -498,7 +500,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="2qgKlT" id="2WTnVpPJzqJ" role="2OqNvi">
+              <node concept="3zqWPK" id="2QByIsz2DIx" role="2OqNvi">
                 <ref role="37wK5l" to="8nwy:2WTnVpPF9CZ" resolve="getAllStates" />
               </node>
             </node>

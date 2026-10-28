@@ -28,6 +28,9 @@
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -54,9 +57,6 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
-    </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -229,7 +229,7 @@
             <node concept="3xONca" id="3qg4h8fjktZ" role="2Oq$k0">
               <ref role="3xOPvv" node="3qg4h8fjl6l" resolve="p0" />
             </node>
-            <node concept="2qgKlT" id="3qg4h8fjlll" role="2OqNvi">
+            <node concept="3zqWPK" id="2QByIsz2DBJ" role="2OqNvi">
               <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
             </node>
           </node>
@@ -242,7 +242,7 @@
             <node concept="3xONca" id="3qg4h8fjlze" role="2Oq$k0">
               <ref role="3xOPvv" node="3qg4h8fjl6p" resolve="p1" />
             </node>
-            <node concept="2qgKlT" id="3qg4h8fjlSB" role="2OqNvi">
+            <node concept="3zqWPK" id="2QByIsz2DBL" role="2OqNvi">
               <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
             </node>
           </node>
@@ -255,7 +255,7 @@
             <node concept="3xONca" id="3qg4h8fjlYD" role="2Oq$k0">
               <ref role="3xOPvv" node="3qg4h8fjl6t" resolve="p2" />
             </node>
-            <node concept="2qgKlT" id="3qg4h8fjmAx" role="2OqNvi">
+            <node concept="3zqWPK" id="2QByIsz2DBN" role="2OqNvi">
               <ref role="37wK5l" to="w8cd:2MtiOR2jpdg" resolve="getNrOfMatches" />
             </node>
           </node>

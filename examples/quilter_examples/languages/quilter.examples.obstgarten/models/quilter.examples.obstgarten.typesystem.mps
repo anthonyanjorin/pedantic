@@ -14,6 +14,9 @@
     <import index="m0pj" ref="r:71acaba5-3010-4a07-b7c7-c92431b71391(quilter.examples.obstgarten.patterns)" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -84,7 +87,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -138,7 +140,7 @@
           <node concept="37vLTw" id="36uX$NYQmQ8" role="2Oq$k0">
             <ref role="3cqZAo" node="36uX$NYQmur" resolve="p1" />
           </node>
-          <node concept="2qgKlT" id="36uX$NYQmQ9" role="2OqNvi">
+          <node concept="3zqWPK" id="2QByIsz2DLN" role="2OqNvi">
             <ref role="37wK5l" to="w8cd:1U2aEyDlRP7" resolve="matches" />
           </node>
         </node>
@@ -151,7 +153,7 @@
                   <ref role="ehGHo" to="uyb6:36uX$O0xgkN" resolve="SingleEntryPointPattern" />
                 </node>
                 <node concept="3flU0R" id="36uX$O1g_gF" role="33vP2m">
-                  <ref role="3flpSk" to="m0pj:36uX$O1g_6S" resolve="FruitInBasket" />
+                  <ref role="3flpSk" to="m0pj:36uX$O1g_6S" resolve="FruitsInBasket" />
                   <ref role="KR7Qq" to="m0pj:36uX$O1g_6U" resolve="basket" />
                   <node concept="1YBJjd" id="36uX$O1g_gN" role="LQ7fR">
                     <ref role="1YBMHb" node="3rYa6KI0Mmn" resolve="fruitBasket" />
@@ -168,7 +170,7 @@
                   <node concept="37vLTw" id="36uX$O1g_iK" role="2Oq$k0">
                     <ref role="3cqZAo" node="36uX$O1g_fP" resolve="p2" />
                   </node>
-                  <node concept="2qgKlT" id="36uX$O1g_Au" role="2OqNvi">
+                  <node concept="3zqWPK" id="2QByIsz2DLP" role="2OqNvi">
                     <ref role="37wK5l" to="w8cd:3rYa6KI2dhs" resolve="countMatches" />
                   </node>
                 </node>

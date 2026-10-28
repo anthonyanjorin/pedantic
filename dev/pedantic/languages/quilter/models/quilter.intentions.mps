@@ -17,6 +17,9 @@
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
       <concept id="1194033889146" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1XNTG" />
     </language>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -97,7 +100,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -155,7 +157,7 @@
                       <node concept="37vLTw" id="4cbEj33tedw" role="2Oq$k0">
                         <ref role="3cqZAo" node="4cbEj33te9P" resolve="it" />
                       </node>
-                      <node concept="2qgKlT" id="4cbEj33teGz" role="2OqNvi">
+                      <node concept="3zqWPK" id="2QByIsz2DWm" role="2OqNvi">
                         <ref role="37wK5l" to="w8cd:4cbEj333WVd" resolve="clearResults" />
                       </node>
                     </node>
@@ -258,7 +260,7 @@
                   <ref role="3Tt5mk" to="uyb6:7BVCYERemyv" resolve="resultMatches" />
                 </node>
               </node>
-              <node concept="2qgKlT" id="7BkFVkOiHWb" role="2OqNvi">
+              <node concept="3zqWPK" id="2QByIsz2DWo" role="2OqNvi">
                 <ref role="37wK5l" to="w8cd:4dr_i44Bq1h" resolve="getNrOfMatches" />
               </node>
             </node>
